@@ -1,0 +1,55 @@
+on:
+  push:
+    branches: main
+  pull_request:
+    branches: main
+  # to be able to trigger a manual build
+  workflow_dispatch:
+
+name: Render and deploy Blog
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install Quarto
+        uses: quarto-dev/quarto-actions/install-quarto@v1
+        # with:
+          # To install LaTeX to build PDF book 
+          # tinytex: true 
+          # uncomment below and fill to pin a version
+          # version: 0.9.105
+
+      # Install any computing dependency you may need, usually either python and Jupyter or R
+      # More specific examples will be shared on quarto-dev/quarto-actions project
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.1.1' # The R version to download (if necessary) and use.
+      
+      - run: Rscript -e 'print("hello")'
+      
+      - name: Cache packages
+        uses: actions/cache@v1
+        with:
+          path: ${{ env.RENV_PATHS_ROOT }}
+          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-renv-
+
+      - name: Restore packages
+        shell: Rscript {0}
+        run: |
+          if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+          renv::restore()
+
+      - name: Render book to all format
+        # Add any command line argument needed
+        run: |
+          quarto render
+      
+      - name: Push rendered code
+        uses: EndBug/add-and-commit@v9
+        with:
+          default_author: github_actions
