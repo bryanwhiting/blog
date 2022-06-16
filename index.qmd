@@ -1,0 +1,23 @@
+---
+title: "Blog"
+listing:
+  contents: posts
+  feed: true
+  sort-ui: true
+  sort: 
+    - "date desc"
+    - "title desc"
+  type: "grid"
+  fields: [image, date, title, description, reading-time]
+  categories: true
+  # date-format: "YYYY-MM-DD"
+  date-format: "ddd MMM D, YYYY"
+  page-size: 9
+toc: false
+toc-location: body
+page-layout: full
+title-block-banner: false
+
+---
+
+
