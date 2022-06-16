@@ -10,7 +10,28 @@
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-0.9.587</generator>
-<lastBuildDate>Thu, 16 Jun 2022 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 17 Jun 2022 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Post With Code 3</title>
+  <dc:creator>Harlow Malloc</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/post-with-code-3/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This is a post with executable code.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://www.bryanwhiting.com/posts/post-with-code-3/index.html</guid>
+  <pubDate>Fri, 17 Jun 2022 00:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/post-with-code-3/image.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Post With Code 2</title>
   <dc:creator>Harlow Malloc</dc:creator>
