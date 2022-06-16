@@ -9,8 +9,29 @@
 <link>https://www.bryanwhiting.com/index.html</link>
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-0.9.586</generator>
-<lastBuildDate>Wed, 15 Jun 2022 07:00:00 GMT</lastBuildDate>
+<generator>quarto-0.9.587</generator>
+<lastBuildDate>Thu, 16 Jun 2022 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Post With Code 2</title>
+  <dc:creator>Harlow Malloc</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/post-with-code-2/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This is a post with executable code.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://www.bryanwhiting.com/posts/post-with-code-2/index.html</guid>
+  <pubDate>Thu, 16 Jun 2022 00:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/post-with-code-2/image.jpg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Post With Code</title>
   <dc:creator>Harlow Malloc</dc:creator>
@@ -29,7 +50,7 @@
   <category>code</category>
   <category>analysis</category>
   <guid>https://www.bryanwhiting.com/posts/post-with-code/index.html</guid>
-  <pubDate>Wed, 15 Jun 2022 07:00:00 GMT</pubDate>
+  <pubDate>Wed, 15 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -50,7 +71,7 @@
  ]]></description>
   <category>news</category>
   <guid>https://www.bryanwhiting.com/posts/welcome/index.html</guid>
-  <pubDate>Sun, 12 Jun 2022 07:00:00 GMT</pubDate>
+  <pubDate>Sun, 12 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/welcome/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>

@@ -1,15 +1,8 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\n\n0 min\n\n\n\n\n\n\nWed Jun 15, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0 min\n\n\n\n\n\n\nSun Jun 12, 2022\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "posts/post-with-code-2/index.html",
+    "href": "posts/post-with-code-2/index.html",
+    "title": "Post With Code 2",
     "section": "",
     "text": "This is a post with executable code."
   },
@@ -21,11 +14,18 @@
     "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Last updated: 2022-06-15"
+    "text": "Last updated: 2022-06-16"
   },
   {
     "objectID": "about.html#bio",
@@ -39,7 +39,7 @@
     "href": "about.html#experience",
     "title": "About",
     "section": "Experience",
-    "text": "Experience\nSee  LinkedIn or Resume for details.\n\n\n\n\n\n  \n    Present2022/01\nHopper Remote Senior Data Scientist, Hotels MarketplaceApp Experience: recommendation systems, A/B testing, product insights, user analysis. Price Merchandising: pricing and markup optimization, competitive pricing intelligence.\n    2022/012020/03\nGoogle: Maps, YouTube San Bruno, CA Data Scientist, EngineeringGoogle Maps: A/B testing, product insights, user analysis. YouTube Music: A/B testing on music recommendation system enhancements, user insights, marketing analytics, user-targeting and churn analysis\n    2020/032017/07\nCapital One Washington, D.C. Data Scientist, Machine LearningMachine learning and ML data pipeline development, cloud compute (AWS), risk modeling\n    2017/072015/08\nBates White Economic Consulting Washington, D.C. Analytics ConsultantEconometric and financial modeling in the context of antitrust litigation\n    2014/082013/01\nNovi Security Washington, D.C. Co-founderInnovative, wireless home security. Top 2% Kickstarter. Successfully raised seed round of investment"
+    "text": "Experience\nSee  LinkedIn or Resume for details.\n\n\n\n\n\n  \n    Present2022/01\nHopper Remote Senior Data Scientist, Hotels MarketplaceApp Experience: recommendation systems, A/B testing, product insights, user analysis. Price Merchandising: pricing and markup optimization, competitive pricing intelligence.\n    2022/012020/03\nGoogle: Maps, YouTube San Bruno, CA Data Scientist, EngineeringGoogle Maps: A/B testing, product insights, user analysis. YouTube Music: A/B testing on music recommendation system enhancements, user insights, marketing analytics, user-targeting and churn analysis\n    2020/032017/07\nCapital One Washington, D.C. Data Scientist, Machine LearningMachine learning and ML data pipeline development, cloud compute (AWS), risk modeling\n    2017/072015/08\nBates White Economic Consulting Washington, D.C. Analytics ConsultantEconometric and financial modeling in the context of antitrust litigation\n    2014/082013/01\nNovi Security Provo, UT Co-founderInnovative, wireless home security. Top 2% Kickstarter. Successfully raised seed round of investment"
   },
   {
     "objectID": "about.html#education-and-service",
@@ -49,31 +49,10 @@
     "text": "Education and Service\n\nM.S. in Statistics, 2013/08 - 2015/05,  Brigham Young University, Provo, UT\nB.S. in Statistics, 2008/08 - 2015/05,  Brigham Young University, Provo, UT\nFull-time Humanitarian Service, 2009/08 - 2011/08,  Tegucigalpa, Honduras"
   },
   {
-    "objectID": "about2.html",
-    "href": "about2.html",
-    "title": "Bryan Whiting",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog",
     "section": "",
-    "text": "Last updated: 2022-06-16"
-  },
-  {
-    "objectID": "about2.html#bio",
-    "href": "about2.html#bio",
-    "title": "Bryan Whiting",
-    "section": "Bio",
-    "text": "Bio\nData scientist with 7 years of experience building complex, large-scale data pipelines and inferential and machine learning models. Experience running online A/B experiments, managing complex compute infrastructure and confidently presenting to VP-level audiences. Passionate about innovation, creativity, tech, data, engineering, leadership, mentoring and team building. Former startup co-founder."
-  },
-  {
-    "objectID": "about2.html#experience",
-    "href": "about2.html#experience",
-    "title": "Bryan Whiting",
-    "section": "Experience",
-    "text": "Experience\nSee  LinkedIn or Resume for details.           \n\n\n\n\n\n\n  \n  \n  \n    Present2022/01\nHopper Remote Senior Data Scientist, Hotels MarketplaceApp Experience: recommendation systems, A/B testing, product insights, user analysis. Price Merchandising: pricing and markup optimization, competitive pricing intelligence.\n    2022/012020/03\nGoogle: Maps, YouTube San Bruno, CA Data Scientist, EngineeringGoogle Maps: A/B testing, product insights, user analysis. YouTube Music: A/B testing on music recommendation system enhancements, user insights, marketing analytics, user-targeting and churn analysis\n    2020/032017/07\nCapital One Washington, D.C. Data Scientist, Machine LearningMachine learning and ML data pipeline development, cloud compute (AWS), risk modeling\n    2017/072015/08\nBates White Economic Consulting Washington, D.C. Analytics ConsultantEconometric and financial modeling in the context of antitrust litigation\n    2014/082013/01\nNovi Security Washington, D.C. Co-founderInnovative, wireless home security. Top 2% Kickstarter. Successfully raised seed round of investment"
-  },
-  {
-    "objectID": "about2.html#education-and-service",
-    "href": "about2.html#education-and-service",
-    "title": "Bryan Whiting",
-    "section": "Education and Service",
-    "text": "Education and Service\n\n\n\n\n\n\n\n\n \n  \n \n\n\n\n\n2013/08 - 2015/05\n\nM.S. in Statistic\n\n\n\n\n Brigham Young University, Provo, UT\n\n\n2008/08 - 2015/05\n\nB.S. in Statistics\n\n\n\n\n Brigham Young University, Provo, UT\n\n\n2009/08 - 2011/08\n\nFull-time Humanitarian Service\n\n\n\n\n Tegucigalpa, Honduras"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\n\n0 min\n\n\n\n\n\n\nThu Jun 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0 min\n\n\n\n\n\n\nWed Jun 15, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0 min\n\n\n\n\n\n\nSun Jun 12, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
