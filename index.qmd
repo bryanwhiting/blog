@@ -1,7 +1,9 @@
 ---
 title: "Blog"
 listing:
-  contents: posts
+  contents: 
+    - posts
+    - book-notes
   feed: true
   sort-ui: true
   sort: 

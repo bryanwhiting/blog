@@ -10,6 +10,9 @@ website:
       - text: "Home"
         file: index.qmd
       - about.qmd
+      #TODO: enable a header for book notes posts
+      #- text: "Book Notes"
+      #  file: book-notes/index.qmd
     right:
       - icon: linkedin
         href: "https://www.linkedin.com/in/bryan-whiting/"
@@ -17,10 +20,35 @@ website:
         href: https://github.com/bryanwhiting
       - icon: twitter
         href: "https://twitter.com/bryanwhiting"
+      - icon: rss
+        href: index.xml
+    # (additional metadata excluded for brevity)
+  # TODO: this is popping up on every page as "subscribe.html"
+  # margin-header: subscribe.html
+
 format:
+  # https://quarto.org/docs/reference/formats/html.html
   html:
+    # author: "Bryan Whiting"
     theme: cosmo
     css: styles.css
+    comments:
+      hypothesis: true
+      # utterances:
+      #   repo: jthomasmock/themockup-blog
+    toc: true
+    toc-location: "left"
+    smooth-scroll: true
+    code-copy: true
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    # mainfont: "Lato"
+    # monofont: "Fira Mono"
+    footnotes-hover: true
+    citations-hover: true
+    # fontsize: 1em
 
 
 

@@ -9,8 +9,8 @@
 <link>https://www.bryanwhiting.com/index.html</link>
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-0.9.587</generator>
-<lastBuildDate>Fri, 17 Jun 2022 00:00:00 GMT</lastBuildDate>
+<generator>quarto-0.9.586</generator>
+<lastBuildDate>Fri, 17 Jun 2022 07:00:00 GMT</lastBuildDate>
 <item>
   <title>Post With Code 3</title>
   <dc:creator>Harlow Malloc</dc:creator>
@@ -21,15 +21,30 @@
 
 
 <p>This is a post with executable code.</p>
+<section id="header" class="level1">
+<h1>header</h1>
+</section>
+<section id="header-2" class="level1">
+<h1>header 2</h1>
+<p>hello</p>
+</section>
+<section id="header-3" class="level1">
+<h1>header 3</h1>
+<p>hello</p>
+<section id="header-4" class="level3">
+<h3 class="anchored" data-anchor-id="header-4">header 4</h3>
+<p>hi</p>
 
 
+</section>
+</section>
 
  ]]></description>
   <category>news</category>
   <category>code</category>
   <category>analysis</category>
   <guid>https://www.bryanwhiting.com/posts/post-with-code-3/index.html</guid>
-  <pubDate>Fri, 17 Jun 2022 00:00:00 GMT</pubDate>
+  <pubDate>Fri, 17 Jun 2022 07:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/post-with-code-3/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -50,7 +65,7 @@
   <category>code</category>
   <category>analysis</category>
   <guid>https://www.bryanwhiting.com/posts/post-with-code-2/index.html</guid>
-  <pubDate>Thu, 16 Jun 2022 00:00:00 GMT</pubDate>
+  <pubDate>Thu, 16 Jun 2022 07:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/post-with-code-2/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -71,7 +86,7 @@
   <category>code</category>
   <category>analysis</category>
   <guid>https://www.bryanwhiting.com/posts/post-with-code/index.html</guid>
-  <pubDate>Wed, 15 Jun 2022 00:00:00 GMT</pubDate>
+  <pubDate>Wed, 15 Jun 2022 07:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -92,7 +107,7 @@
  ]]></description>
   <category>news</category>
   <guid>https://www.bryanwhiting.com/posts/welcome/index.html</guid>
-  <pubDate>Sun, 12 Jun 2022 00:00:00 GMT</pubDate>
+  <pubDate>Sun, 12 Jun 2022 07:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/welcome/thumbnail.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
