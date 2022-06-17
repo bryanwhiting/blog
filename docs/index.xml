@@ -9,13 +9,8 @@
 <link>https://www.bryanwhiting.com/index.html</link>
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<<<<<<< HEAD
 <generator>quarto-0.9.586</generator>
 <lastBuildDate>Fri, 17 Jun 2022 07:00:00 GMT</lastBuildDate>
-=======
-<generator>quarto-0.9.592</generator>
-<lastBuildDate>Fri, 17 Jun 2022 00:00:00 GMT</lastBuildDate>
->>>>>>> d95f2add8f032c33acb2519e7d8f3230107eaae5
 <item>
   <title>Post With Code 3</title>
   <dc:creator>Harlow Malloc</dc:creator>
