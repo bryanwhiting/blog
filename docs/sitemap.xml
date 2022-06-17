@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.bryanwhiting.com/index.html</loc>
-    <lastmod>2022-06-17T06:20:41.537Z</lastmod>
-  </url>
-  <url>
     <loc>https://www.bryanwhiting.com/posts/post-with-code-2/index.html</loc>
-    <lastmod>2022-06-17T06:20:42.149Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/posts/post-with-code/index.html</loc>
-    <lastmod>2022-06-17T06:20:42.614Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/posts/welcome/index.html</loc>
-    <lastmod>2022-06-17T06:20:43.069Z</lastmod>
+    <lastmod>2022-06-17T06:24:27.602Z</lastmod>
   </url>
   <url>
     <loc>https://www.bryanwhiting.com/posts/post-with-code-3/index.html</loc>
-    <lastmod>2022-06-17T06:20:43.526Z</lastmod>
+    <lastmod>2022-06-17T06:24:28.390Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bryanwhiting.com/posts/welcome/index.html</loc>
+    <lastmod>2022-06-17T06:24:28.814Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bryanwhiting.com/posts/post-with-code/index.html</loc>
+    <lastmod>2022-06-17T06:24:29.186Z</lastmod>
   </url>
   <url>
     <loc>https://www.bryanwhiting.com/about.html</loc>
-    <lastmod>2022-06-17T06:20:47.708Z</lastmod>
+    <lastmod>2022-06-17T06:24:32.542Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bryanwhiting.com/index.html</loc>
+    <lastmod>2022-06-17T06:24:32.966Z</lastmod>
   </url>
 </urlset>

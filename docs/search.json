@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\n\n0 min\n\n\n\n\n\n\nFri Jun 17, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0 min\n\n\n\n\n\n\nThu Jun 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0 min\n\n\n\n\n\n\nWed Jun 15, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0 min\n\n\n\n\n\n\nSun Jun 12, 2022\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
     "objectID": "posts/post-with-code-2/index.html",
     "href": "posts/post-with-code-2/index.html",
     "title": "Post With Code 2",
@@ -14,11 +7,11 @@
     "text": "This is a post with executable code."
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "posts/post-with-code-3/index.html",
+    "href": "posts/post-with-code-3/index.html",
+    "title": "Post With Code 3",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "header\n\n\nheader 2\nhello\n\n\nheader 3\nhello\n\nheader 4\nhi"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -28,11 +21,11 @@
     "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
-    "objectID": "posts/post-with-code-3/index.html",
-    "href": "posts/post-with-code-3/index.html",
-    "title": "Post With Code 3",
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
     "section": "",
-    "text": "header\n\n\nheader 2\nhello\n\n\nheader 3\nhello\n\nheader 4\nhi"
+    "text": "This is a post with executable code."
   },
   {
     "objectID": "about.html",
@@ -53,7 +46,7 @@
     "href": "about.html#experience",
     "title": "About",
     "section": "Experience",
-    "text": "Experience\nSee  LinkedIn or Resume for details.\n\n\n\n\n\n\nPresent2022/01\n\nHopper Remote Senior Data Scientist, Hotels MarketplaceApp Experience: recommendation systems, A/B testing, product insights, user analysis. Price Merchandising: pricing and markup optimization, competitive pricing intelligence.\n\n\n\n2022/012020/03\n\nGoogle: Maps, YouTube San Bruno, CA Data Scientist, EngineeringGoogle Maps: A/B testing, product insights, user analysis. YouTube Music: A/B testing on music recommendation system enhancements, user insights, marketing analytics, user-targeting and churn analysis\n\n\n\n2020/032017/07\n\nCapital One Washington, D.C. Data Scientist, Machine LearningMachine learning and ML data pipeline development, cloud compute (AWS), risk modeling\n\n\n\n2017/072015/08\n\nBates White Economic Consulting Washington, D.C. Analytics ConsultantEconometric and financial modeling in the context of antitrust litigation\n\n\n\n2014/082013/01\n\nNovi Security Provo, UT Co-founderInnovative, wireless home security. Top 2% Kickstarter. Successfully raised seed round of investment"
+    "text": "Experience\nSee  LinkedIn or Resume for details.\n\n\n\n\n\n  \n    Present2022/01\nHopper Remote Senior Data Scientist, Hotels MarketplaceApp Experience: recommendation systems, A/B testing, product insights, user analysis. Price Merchandising: pricing and markup optimization, competitive pricing intelligence.\n    2022/012020/03\nGoogle: Maps, YouTube San Bruno, CA Data Scientist, EngineeringGoogle Maps: A/B testing, product insights, user analysis. YouTube Music: A/B testing on music recommendation system enhancements, user insights, marketing analytics, user-targeting and churn analysis\n    2020/032017/07\nCapital One Washington, D.C. Data Scientist, Machine LearningMachine learning and ML data pipeline development, cloud compute (AWS), risk modeling\n    2017/072015/08\nBates White Economic Consulting Washington, D.C. Analytics ConsultantEconometric and financial modeling in the context of antitrust litigation\n    2014/082013/01\nNovi Security Provo, UT Co-founderInnovative, wireless home security. Top 2% Kickstarter. Successfully raised seed round of investment"
   },
   {
     "objectID": "about.html#education-and-service",
@@ -61,5 +54,12 @@
     "title": "About",
     "section": "Education and Service",
     "text": "Education and Service\n\nM.S. in Statistics, 2013/08 - 2015/05,  Brigham Young University, Provo, UT\nB.S. in Statistics, 2008/08 - 2015/05,  Brigham Young University, Provo, UT\nFull-time Humanitarian Service, 2009/08 - 2011/08,  Tegucigalpa, Honduras"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\n\n0 min\n\n\n\n\n\n\nFri Jun 17, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0 min\n\n\n\n\n\n\nThu Jun 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0 min\n\n\n\n\n\n\nWed Jun 15, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0 min\n\n\n\n\n\n\nSun Jun 12, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
