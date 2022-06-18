@@ -9,109 +9,62 @@
 <link>https://www.bryanwhiting.com/index.html</link>
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-0.9.594</generator>
-<lastBuildDate>Fri, 17 Jun 2022 00:00:00 GMT</lastBuildDate>
+<generator>quarto-0.9.586</generator>
+<lastBuildDate>Sat, 01 Jan 2022 08:00:00 GMT</lastBuildDate>
 <item>
-  <title>Post With Code 3</title>
-  <dc:creator>Harlow Malloc</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/post-with-code-3/index.html</link>
+  <title>Productivity notes</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2020-12-18-productivity-notes/index.html</link>
   <description><![CDATA[ 
 
 
 
 
-<p>This is a post with executable code.</p>
-<section id="header" class="level1">
-<h1>header</h1>
+<section id="time-management" class="level1">
+<h1>Time Management</h1>
+<ul>
+<li>Calendar my ToDos.</li>
+<li>Shorter work is better. Less to edit. Less mistakes. Keep it simple.</li>
+</ul>
 </section>
-<section id="header-2" class="level1">
-<h1>header 2</h1>
-<p>hello</p>
+<section id="distractions" class="level1">
+<h1>Distractions</h1>
+<ul>
+<li>Block 30 min for email and review team members work twice a day.</li>
+<li>Aggressively filter email spam.</li>
+</ul>
 </section>
-<section id="header-3" class="level1">
-<h1>header 3</h1>
-<p>hello</p>
-<section id="header-4" class="level3">
-<h3 class="anchored" data-anchor-id="header-4">header 4</h3>
-<p>hi</p>
+<section id="analysis" class="level1">
+<h1>Analysis</h1>
+<ul>
+<li>Start with a story. End with story.</li>
+<li>Iterate quickly with stakeholders.</li>
+<li>always have one nights sleep before sending a presentation. Edit.</li>
+</ul>
 
 
 </section>
-</section>
 
- ]]></description>
-  <category>news</category>
-  <category>code</category>
-  <category>analysis</category>
-  <guid>https://www.bryanwhiting.com/posts/post-with-code-3/index.html</guid>
-  <pubDate>Fri, 17 Jun 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/posts/post-with-code-3/image.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Post With Code 2</title>
-  <dc:creator>Harlow Malloc</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/post-with-code-2/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>This is a post with executable code.</p>
-
-
-
- ]]></description>
-  <category>news</category>
-  <category>code</category>
-  <category>analysis</category>
-  <guid>https://www.bryanwhiting.com/posts/post-with-code-2/index.html</guid>
-  <pubDate>Thu, 16 Jun 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/posts/post-with-code-2/image.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Post With Code</title>
-  <dc:creator>Harlow Malloc</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/post-with-code/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>This is a post with executable code.</p>
-
-
-
- ]]></description>
-  <category>news</category>
-  <category>code</category>
-  <category>analysis</category>
-  <guid>https://www.bryanwhiting.com/posts/post-with-code/index.html</guid>
-  <pubDate>Wed, 15 Jun 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Welcome To My Blog</title>
-  <dc:creator>Tristan O'Malley</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/welcome/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="https://www.bryanwhiting.com/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
-
-
-
- ]]></description>
-  <category>news</category>
-  <guid>https://www.bryanwhiting.com/posts/welcome/index.html</guid>
-  <pubDate>Sun, 12 Jun 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/posts/welcome/thumbnail.jpg" medium="image" type="image/jpeg"/>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{whiting2022,
+  author = {Bryan Whiting},
+  title = {Productivity Notes},
+  date = {2022-01-01},
+  url = {https://www.bryanwhiting.com/posts/2020-12-18-productivity-notes},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-whiting2022" class="csl-entry quarto-appendix-citeas">
+Bryan Whiting. 2022. <span>“Productivity Notes.”</span> January 1, 2022.
+<a href="https://www.bryanwhiting.com/posts/2020-12-18-productivity-notes">https://www.bryanwhiting.com/posts/2020-12-18-productivity-notes</a>.
+</div></div></section></div> ]]></description>
+  <category>data science</category>
+  <category>productivity</category>
+  <guid>https://www.bryanwhiting.com/posts/2020-12-18-productivity-notes/index.html</guid>
+  <pubDate>Sat, 01 Jan 2022 08:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/2020-12-18-productivity-notes/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>The Author’s Angle Matters</title>
+  <dc:creator>Bryan Whiting</dc:creator>
   <dc:creator>Bryan Whiting</dc:creator>
   <link>https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters/index.html</link>
   <description><![CDATA[ 
@@ -122,12 +75,126 @@
 
 
 
- ]]></description>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{whiting2021,
+  author = {Bryan Whiting and Bryan Whiting},
+  title = {The {Author’s} {Angle} {Matters}},
+  date = {2021-07-17},
+  url = {https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-whiting2021" class="csl-entry quarto-appendix-citeas">
+Bryan Whiting, and Bryan Whiting. 2021. <span>“The Author’s Angle
+Matters.”</span> July 17, 2021. <a href="https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters">https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters</a>.
+</div></div></section></div> ]]></description>
   <category>communication</category>
   <category>writing</category>
   <guid>https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters/index.html</guid>
-  <pubDate>Sat, 17 Jul 2021 00:00:00 GMT</pubDate>
+  <pubDate>Sat, 17 Jul 2021 07:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>How to mock the value of an ML solution</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2020-12-16-pretotyping-ml-solutions/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>IBM once launched a demo of speech-to-text in the early day’s of the technology. But there was a twist: it was smoke and mirrors. A typist in behind the stage was translating and typing.</p>
+<p>This is a mechanical Turk.</p>
+<p>In data science, we can present results or dashboards to audience members before they see anything. If you see a big reaction, you know you found a number they cared about.</p>
+<p>Go ahead, write the conclusion first. Fake the chart first. Then back out the code that could produce the insights they need.</p>
+<p>Sometimes, unique insights appear along the way. But most of the time you can properly gut-check whether someone will care about what you’re doing. Save time. Work backward.</p>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{whiting2020,
+  author = {Bryan Whiting},
+  title = {How to Mock the Value of an {ML} Solution},
+  date = {2020-12-16},
+  url = {https://www.bryanwhiting.com/posts/2020-12-16-pretotyping-ml-solutions},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-whiting2020" class="csl-entry quarto-appendix-citeas">
+Bryan Whiting. 2020. <span>“How to Mock the Value of an ML
+Solution.”</span> December 16, 2020. <a href="https://www.bryanwhiting.com/posts/2020-12-16-pretotyping-ml-solutions">https://www.bryanwhiting.com/posts/2020-12-16-pretotyping-ml-solutions</a>.
+</div></div></section></div> ]]></description>
+  <category>data science</category>
+  <category>innovation</category>
+  <guid>https://www.bryanwhiting.com/posts/2020-12-16-pretotyping-ml-solutions/index.html</guid>
+  <pubDate>Wed, 16 Dec 2020 08:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/2020-12-16-pretotyping-ml-solutions/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Get rid of the todo list. Calendar everything.</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2022-12-15-calendaring-todos/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://www.bryanwhiting.com/posts/2022-12-15-calendaring-todos/image.png" class="img-fluid"></p>
+<p>I’ve had less meetings and more unstructured time during WFH. It can be isolating, which can slow down productivity.</p>
+<p><a href="https://link.medium.com/6xW8fKHSfcb">Here’s a tip I read</a> today on how to be productive with unstructured time: put your to-do list directly into a calendar.</p>
+<p>That way, you’ll always have time for the important things. Remove the things that take up your time and aren’t as important. I like it.</p>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{whiting2020,
+  author = {Bryan Whiting},
+  title = {Get Rid of the Todo List. {Calendar} Everything.},
+  date = {2020-12-15},
+  url = {https://www.bryanwhiting.com/posts/2022-12-15-calendaring-todos},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-whiting2020" class="csl-entry quarto-appendix-citeas">
+Bryan Whiting. 2020. <span>“Get Rid of the Todo List. Calendar
+Everything.”</span> December 15, 2020. <a href="https://www.bryanwhiting.com/posts/2022-12-15-calendaring-todos">https://www.bryanwhiting.com/posts/2022-12-15-calendaring-todos</a>.
+</div></div></section></div> ]]></description>
+  <category>productivity</category>
+  <guid>https://www.bryanwhiting.com/posts/2022-12-15-calendaring-todos/index.html</guid>
+  <pubDate>Tue, 15 Dec 2020 08:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/2022-12-15-calendaring-todos/image.png" medium="image" type="image/png" height="64" width="144"/>
+</item>
+<item>
+  <title>Data Beats Opinions</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2020-12-15-data-beats-opinions/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>When I co-started a company several years ago, my founders and I would canvass neighborhoods knocking doors. We’d discuss our ideas for a new product one door at a time. After each conversation, the product took a new form. Eventually, the product took shape and we had a successful kickstarter launch.</p>
+<p>Since that time, I’ve thought about how valuable it was to get information straight from the source.</p>
+<p>Alberto Savoia’s new book, “The Right It”, is re-teaching me this principle. Data beats opinions, he says. In another book I’m reading, “Trustworthy Online Controlled Experiments”, the former CEO of Netscape is quoted saying,</p>
+<blockquote class="blockquote">
+<p>If we have data, let’s go with data. If all we have are opinions, let’s go with mine. - Jim Barksdale</p>
+</blockquote>
+<p>Data sourced from your manager, your stakeholder, or your customer are invaluable to help you know if you’re solving their problem. Too often it’s easy to get stuck in the original solution that comes to our mind.</p>
+<p>Data from customers directly shape the product. Data sourced at scale from online experiments refine it.</p>
+<p>Opinions from the customer shape the product. Their behavior (captured as data) speaks louder than their words. Frequently, it’s challenging to correlate the two. We’re left to guess why someone actually clicked, bought, churned. It’s a beautiful cycle.</p>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{whiting2020,
+  author = {Bryan Whiting},
+  title = {Data {Beats} {Opinions}},
+  date = {2020-12-15},
+  url = {https://www.bryanwhiting.com/posts/2020-12-15-data-beats-opinions},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-whiting2020" class="csl-entry quarto-appendix-citeas">
+Bryan Whiting. 2020. <span>“Data Beats Opinions.”</span> December 15,
+2020. <a href="https://www.bryanwhiting.com/posts/2020-12-15-data-beats-opinions">https://www.bryanwhiting.com/posts/2020-12-15-data-beats-opinions</a>.
+</div></div></section></div> ]]></description>
+  <category>data science</category>
+  <category>decisions</category>
+  <guid>https://www.bryanwhiting.com/posts/2020-12-15-data-beats-opinions/index.html</guid>
+  <pubDate>Tue, 15 Dec 2020 08:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/2020-12-15-data-beats-opinions/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

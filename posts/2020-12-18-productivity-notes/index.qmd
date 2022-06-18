@@ -1,0 +1,24 @@
+---
+title: Productivity notes
+description: |
+  Running list of productivity ideas. 
+date: 2020-12-19
+categories: [data science, productivity]
+image: image.jpg
+---
+
+# Time Management
+
+* Calendar my ToDos.
+* Shorter work is better. Less to edit. Less mistakes. Keep it simple.
+
+# Distractions
+
+* Block 30 min for email and review team members work twice a day.
+* Aggressively filter email spam.
+
+# Analysis
+
+* Start with a story. End with story.
+* Iterate quickly with stakeholders.
+* always have one nights sleep before sending a presentation. Edit.

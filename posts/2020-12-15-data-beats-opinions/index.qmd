@@ -1,0 +1,24 @@
+---
+title: Data Beats Opinions
+description: |
+  Opinions from the customer shape the product. Their behavior
+  (captured as data) speaks louder than their words. 
+date: 2020-12-15
+image: image.jpg
+categories: [data science, decisions]
+---
+
+When I co-started a company several years ago, my founders and I would canvass neighborhoods knocking doors. We’d discuss our ideas for a new product one door at a time. After each conversation, the product took a new form. Eventually, the product took shape and we had a successful kickstarter launch.
+
+Since that time, I’ve thought about how valuable it was to get information straight from the source.
+
+Alberto Savoia’s new book, “The Right It”, is re-teaching me this principle. Data beats opinions, he says. In another book I’m reading, “Trustworthy Online Controlled Experiments”, the former CEO of Netscape is quoted saying,
+
+> If we have data, let’s go with data. If all we have are opinions, let’s go with mine. 
+- Jim Barksdale
+
+Data sourced from your manager, your stakeholder, or your customer are invaluable to help you know if you’re solving their problem. Too often it’s easy to get stuck in the original solution that comes to our mind.
+
+Data from customers directly shape the product. Data sourced at scale from online experiments refine it.
+
+Opinions from the customer shape the product. Their behavior (captured as data) speaks louder than their words. Frequently, it’s challenging to correlate the two. We’re left to guess why someone actually clicked, bought, churned. It’s a beautiful cycle.
