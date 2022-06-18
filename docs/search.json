@@ -7,6 +7,13 @@
     "text": "This is a post with executable code."
   },
   {
+    "objectID": "posts/post-with-code-3/index.html",
+    "href": "posts/post-with-code-3/index.html",
+    "title": "Post With Code 3",
+    "section": "",
+    "text": "header\n\n\nheader 2\nhello\n\n\nheader 3\nhello\n\nheader 4\nhi"
+  },
+  {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
     "title": "Welcome To My Blog",
@@ -25,7 +32,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Last updated: 2022-06-16"
+    "text": "Last updated: 2022-06-17"
   },
   {
     "objectID": "about.html#bio",
@@ -53,6 +60,6 @@
     "href": "index.html",
     "title": "Blog",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\n\n0 min\n\n\n\n\n\n\nThu Jun 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0 min\n\n\n\n\n\n\nWed Jun 15, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0 min\n\n\n\n\n\n\nSun Jun 12, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n\n\n\n\n\n\n\n\n\n\n\n0 min\n\n\n\n\n\n\nFri Jun 17, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0 min\n\n\n\n\n\n\nThu Jun 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0 min\n\n\n\n\n\n\nWed Jun 15, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0 min\n\n\n\n\n\n\nSun Jun 12, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
