@@ -1,47 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.bryanwhiting.com/index.html</loc>
-    <lastmod>2022-06-18T05:54:55.253Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/posts/post-with-code-2/index.html</loc>
-    <lastmod>2022-06-18T05:54:34.444Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/posts/post-with-code/index.html</loc>
-    <lastmod>2022-06-18T05:54:35.051Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/posts/welcome/index.html</loc>
-    <lastmod>2022-06-18T05:54:36.206Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/posts/2020-12-15-data-beats-opinions/index.html</loc>
-    <lastmod>2022-06-18T05:54:53.608Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/posts/post-with-code-3/index.html</loc>
-    <lastmod>2022-06-18T05:54:37.264Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters/index.html</loc>
-    <lastmod>2022-06-18T05:54:54.158Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/about.html</loc>
-    <lastmod>2022-06-18T05:33:13.722Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/posts/2022-12-15-calendaring-todos/index.html</loc>
-    <lastmod>2022-06-18T05:54:52.991Z</lastmod>
-  </url>
-  <url>
     <loc>https://www.bryanwhiting.com/posts/2020-12-18-productivity-notes/index.html</loc>
-    <lastmod>2022-06-18T05:54:52.388Z</lastmod>
+    <lastmod>2022-06-18T06:02:11.425Z</lastmod>
   </url>
   <url>
     <loc>https://www.bryanwhiting.com/posts/2020-12-16-pretotyping-ml-solutions/index.html</loc>
-    <lastmod>2022-06-18T05:54:54.703Z</lastmod>
+    <lastmod>2022-06-18T06:02:12.397Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bryanwhiting.com/posts/2022-12-15-calendaring-todos/index.html</loc>
+    <lastmod>2022-06-18T06:02:12.929Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters/index.html</loc>
+    <lastmod>2022-06-18T06:02:13.421Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bryanwhiting.com/posts/2020-12-15-data-beats-opinions/index.html</loc>
+    <lastmod>2022-06-18T06:02:13.889Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bryanwhiting.com/about.html</loc>
+    <lastmod>2022-06-18T06:02:17.301Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bryanwhiting.com/index.html</loc>
+    <lastmod>2022-06-18T06:02:17.749Z</lastmod>
   </url>
 </urlset>
