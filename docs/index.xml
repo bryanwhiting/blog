@@ -9,7 +9,7 @@
 <link>https://www.bryanwhiting.com/index.html</link>
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-0.9.592</generator>
+<generator>quarto-0.9.594</generator>
 <lastBuildDate>Fri, 17 Jun 2022 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Post With Code 3</title>
@@ -109,6 +109,25 @@
   <guid>https://www.bryanwhiting.com/posts/welcome/index.html</guid>
   <pubDate>Sun, 12 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/welcome/thumbnail.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>The Author’s Angle Matters</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+ ]]></description>
+  <category>communication</category>
+  <category>writing</category>
+  <guid>https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters/index.html</guid>
+  <pubDate>Sat, 17 Jul 2021 00:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
