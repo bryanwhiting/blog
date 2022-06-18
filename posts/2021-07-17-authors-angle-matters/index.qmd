@@ -1,0 +1,7 @@
+---
+title: "The Author's Angle Matters"
+author: "Bryan Whiting"
+date: "2021-07-17"
+categories: [communication, writing]
+image: "image.jpg"
+---

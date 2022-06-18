@@ -1,0 +1,7 @@
+---
+title: "Title"
+author: "Bryan Whiting"
+date: "2022-01-01"
+categories: [data science]
+image: "image.jpg"
+---
