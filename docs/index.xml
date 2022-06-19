@@ -196,5 +196,86 @@ Bryan Whiting. 2020. <span>“Data Beats Opinions.”</span> December 15,
   <pubDate>Tue, 15 Dec 2020 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2020-12-15-data-beats-opinions/image.jpg" medium="image" type="image/jpeg"/>
 </item>
+<item>
+  <title>Starting with Jekyll</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Hello world.</p>
+<div class="page-columns page-full"><p>I wanted to start a blog. I wanted to set it up for free, use a custom URL (and not <em>something.bloggingplatform.com</em>), and be able to both blog and create tutorials. I didn’t mind it possibly being technical<sup>1</sup>. Enter Jekyll.</p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;Specifically, I was interested in being able to use the command line for my posts. Additionally, I didn’t mind seeing or using a little bit of code.</p></li></div></div>
+<p><em>If you want to get your blog in 10 minutes, skip to below.</em></p>
+<section id="why-blog-with-jekyll" class="level1 page-columns page-full">
+<h1>Why Blog with Jekyll?</h1>
+<p>Here’s why you can and should blog with Jekyll (if you’re a data scientist):</p>
+<ol start="2" type="1">
+<li>Jekyll has beautiful, free, open-source templates.</li>
+<li>GitHub will host your website for free<sup>2</sup>.</li>
+<li>Jekyll is <a href="https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/">static</a>.</li>
+<li>Jekyll can be simple to set up<sup>3</sup>.</li>
+<li>I tried Wordpress and blogger.com and got frustrated.</li>
+<li>The blogging content you create is very portable (easy to take your posts from one blog site to another).</li>
+<li>Creating blogs in Markdown syntax is a dream (even for non-technical folks).</li>
+<li>You can manage your blog from your terminal</li>
+<li>You can manage your blog from your phone (if you have a GitHub-editing app)</li>
+</ol>
+<div class="no-row-height column-margin column-container"><li id="fn2"><p><sup>2</sup>&nbsp;Someone has to <a href="https://www.google.com/search?q=what+does+it+mean+to+host+a+website&amp;oq=what+does+it+mean+to+host+&amp;aqs=chrome.0.0j69i57j0l4.2810j0j9&amp;sourceid=chrome&amp;ie=UTF-8">host</a> it (i.e., store and display all the files). I started off trying to set up a WordPress blog, but you have to pay another company to <a href="http://www.webhostingbest10.com/web-hosting-reviews">host</a>. I didn’t want to bother.</p></li><li id="fn3"><p><sup>3</sup>&nbsp;If you try to set it up by following the instructions on <a href="https://jekyllrb.com/">jekyllrb.com</a>, that’s the complicated way. That’s how I originally started, got lost for five hours, and stopped. Six months later, I found a better way.</p></li></div><p>But if you don’t like debugging occasional errors, you probably shouldn’t blog with Jekyll.</p>
+<p>What is Jekyll, you ask? Jekyll is an open-source blogging platform. Anyone can write a template and post it, and anyone else can use that template. Perusing <a href="http://jekyllthemes.org/">Jekyllthemes.org</a>, you can pick out any template you’d like.</p>
+</section>
+<section id="how-did-i-get-started-with-jekyll" class="level1">
+<h1>How did I get started with Jekyll?</h1>
+<p>As a blogging noob, I’ve discovered there are hundreds of ways to generate a blog (e.g., WordPress, Squarespace, blogger.com, Weebly, etc.). But when my colleague <a href="http://luiarthur.github.io/">Arthur Lui</a> showed me his blog, I wanted something similar. I first tried Wordpress, then tried blogspot, then gave up and followed Arthur’s example and landed with Jekyll.</p>
+</section>
+<section id="set-up-a-blog-in-10-minutes" class="level1">
+<h1>Set up a blog in 10 minutes!</h1>
+<p>I followed this Jekyll <a href="https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/">tutorial</a> to set up my first blog. I’ll simplify those steps here to get you up and running quickly:</p>
+<ol type="1">
+<li>Get a GitHub account. (2 min)</li>
+<li>Go to <a href="http://jekyllthemes.org/">Jekyllthemes.org</a>. All of these blog themes are free. Find one you like, and Fork the repo (i.e., “repository”). (2-60 min, depending on how long you peruse)</li>
+<li>In GitHub, rename the newly-forked repo from “REPO name” to “yourgithubusername.github.io”. (1 min)</li>
+<li>Now go to “githubusername.github.io”. Voila, you have a blog.</li>
+</ol>
+<p>And if you want to start writing posts, go to your “_posts” folder. Then create new files and follow the default templates that the repository provides. (The blogs will need to be written in Markdown syntax.)</p>
+<p>That was my 10 minute promise. If you feel a bit cheated or lost, go to the well-done <a href="https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/">tutorial</a> and do all the steps. But the steps I listed are the essential steps to setting up a blog from scratch. So if you want to make a few blogs really quickly, after you figure out the first one the others follow nicely. For example, once I finished the tutorial, I followed those steps above to try two other themes before deciding on the <a href="https://github.com/bencentra/centrarium">Centrarium</a> theme.</p>
+<p>To get Centrarium to work, I did have to change some configurations in the “_config.yml”, so there can be some minor debugging depending on the theme you choose. But with a little patience and some Googling, you’ll get it.</p>
+</section>
+<section id="add-to-jekyll-a-custom-url-from-godaddy" class="level1">
+<h1>Add to Jekyll a custom URL from GoDaddy</h1>
+<p>You’ll notice I have a custom URL and not “bryanwhiting.github.io”. I used GoDaddy to get a domain. (I have no affiliation with GoDaddy.) Here’s how I linked GoDaddy with my GitHub Jekyll blog:</p>
+<ol type="1">
+<li>Get a domain.</li>
+<li>In your Github repo, change (or create) a CNAME file in the main directory. (See my <a href="https://github.com/bryanwhiting/bryanwhiting.github.io/blob/master/CNAME">CNAME</a> file for an example). And for the CNAME file contents, just type in the new “www” that you registered through GoDaddy.</li>
+<li>Then, on GoDaddy, go to the section “DNS Management”. Here’s where you tell GoDaddy how to connect your newly purchased “www” with GitHub. Create the following connections:</li>
+<li>[Type, Name, Value, TTL] = [A, @, 192.30.252.153, 600 seconds]</li>
+<li>[Type, Name, Value, TTL] = [A, @, 192.30.252.154, 600 seconds]</li>
+<li>[Type, Name, Value, TTL] = [CNAME, ftp, yourgithubusername.github.io, 600 seconds]</li>
+<li>[Type, Name, Value, TTL] = [CNAME, www, yourgithubusername.github.io, 600 seconds]</li>
+</ol>
+<p>If you have the CNAME file in your GitHub folder, GitHub and GoDaddy will talk and after a few minutes your custom “www” will work. You don’t technically need the two [A] steps, but those connections allow users to type “<a href="http://www.bryanwhiting.com">bryanwhiting.com</a>” instead of “www.bryanwhiting.com”. It can take up to 24 hours before these [A] connections enable, so don’t be worried if the short URL doesn’t work first try. But the full URL should work soon enough.</p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{whiting2016,
+  author = {Bryan Whiting},
+  title = {Starting with {Jekyll}},
+  date = {2016-11-17},
+  url = {https://www.bryanwhiting.com/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-whiting2016" class="csl-entry quarto-appendix-citeas">
+Bryan Whiting. 2016. <span>“Starting with Jekyll.”</span> November 17,
+2016. <a href="https://www.bryanwhiting.com/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html">https://www.bryanwhiting.com/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html</a>.
+</div></div></section></div> ]]></description>
+  <category>productivity</category>
+  <category>blogging</category>
+  <category>jekyll</category>
+  <guid>https://www.bryanwhiting.com/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html</guid>
+  <pubDate>Thu, 17 Nov 2016 00:00:00 GMT</pubDate>
+</item>
 </channel>
 </rss>

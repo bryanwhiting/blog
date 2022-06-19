@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.596">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Bryan Whiting">
+<meta name="dcterms.date" content="2016-11-17">
+<meta name="description" content="Hello world.">
+
+<title>Bryan Whiting - Starting with Jekyll</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<script async="" src="https://hypothes.is/embed.js"></script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="floating nav-fixed slimcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Bryan Whiting</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">About</a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/bryan-whiting/"><i class="bi bi-linkedin" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/bryanwhiting"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/bryanwhiting"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../index.xml"><i class="bi bi-rss" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Starting with Jekyll</h1>
+                  <div>
+        <div class="description">
+          Hello world.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">productivity</div>
+                <div class="quarto-category">blogging</div>
+                <div class="quarto-category">jekyll</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Bryan Whiting </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">November 17, 2016</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#why-blog-with-jekyll" id="toc-why-blog-with-jekyll" class="nav-link active" data-scroll-target="#why-blog-with-jekyll">Why Blog with Jekyll?</a></li>
+  <li><a href="#how-did-i-get-started-with-jekyll" id="toc-how-did-i-get-started-with-jekyll" class="nav-link" data-scroll-target="#how-did-i-get-started-with-jekyll">How did I get started with Jekyll?</a></li>
+  <li><a href="#set-up-a-blog-in-10-minutes" id="toc-set-up-a-blog-in-10-minutes" class="nav-link" data-scroll-target="#set-up-a-blog-in-10-minutes">Set up a blog in 10 minutes!</a></li>
+  <li><a href="#add-to-jekyll-a-custom-url-from-godaddy" id="toc-add-to-jekyll-a-custom-url-from-godaddy" class="nav-link" data-scroll-target="#add-to-jekyll-a-custom-url-from-godaddy">Add to Jekyll a custom URL from GoDaddy</a></li>
+  </ul>
+</nav>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
+
+
+
+<p>Hello world.</p>
+<div class="page-columns page-full"><p>I wanted to start a blog. I wanted to set it up for free, use a custom URL (and not <em>something.bloggingplatform.com</em>), and be able to both blog and create tutorials. I didn’t mind it possibly being technical<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. Enter Jekyll.</p><div class="no-row-height column-margin column-container"><li id="fn1" role="doc-endnote"><p><sup>1</sup>&nbsp;Specifically, I was interested in being able to use the command line for my posts. Additionally, I didn’t mind seeing or using a little bit of code.</p></li></div></div>
+<p><em>If you want to get your blog in 10 minutes, skip to below.</em></p>
+<section id="why-blog-with-jekyll" class="level1 page-columns page-full">
+<h1>Why Blog with Jekyll?</h1>
+<p>Here’s why you can and should blog with Jekyll (if you’re a data scientist):</p>
+<ol start="2" type="1">
+<li>Jekyll has beautiful, free, open-source templates.</li>
+<li>GitHub will host your website for free<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</li>
+<li>Jekyll is <a href="https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/">static</a>.</li>
+<li>Jekyll can be simple to set up<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>.</li>
+<li>I tried Wordpress and blogger.com and got frustrated.</li>
+<li>The blogging content you create is very portable (easy to take your posts from one blog site to another).</li>
+<li>Creating blogs in Markdown syntax is a dream (even for non-technical folks).</li>
+<li>You can manage your blog from your terminal</li>
+<li>You can manage your blog from your phone (if you have a GitHub-editing app)</li>
+</ol>
+<div class="no-row-height column-margin column-container"><li id="fn2" role="doc-endnote"><p><sup>2</sup>&nbsp;Someone has to <a href="https://www.google.com/search?q=what+does+it+mean+to+host+a+website&amp;oq=what+does+it+mean+to+host+&amp;aqs=chrome.0.0j69i57j0l4.2810j0j9&amp;sourceid=chrome&amp;ie=UTF-8">host</a> it (i.e., store and display all the files). I started off trying to set up a WordPress blog, but you have to pay another company to <a href="http://www.webhostingbest10.com/web-hosting-reviews">host</a>. I didn’t want to bother.</p></li><li id="fn3" role="doc-endnote"><p><sup>3</sup>&nbsp;If you try to set it up by following the instructions on <a href="https://jekyllrb.com/">jekyllrb.com</a>, that’s the complicated way. That’s how I originally started, got lost for five hours, and stopped. Six months later, I found a better way.</p></li></div><p>But if you don’t like debugging occasional errors, you probably shouldn’t blog with Jekyll.</p>
+<p>What is Jekyll, you ask? Jekyll is an open-source blogging platform. Anyone can write a template and post it, and anyone else can use that template. Perusing <a href="http://jekyllthemes.org/">Jekyllthemes.org</a>, you can pick out any template you’d like.</p>
+</section>
+<section id="how-did-i-get-started-with-jekyll" class="level1">
+<h1>How did I get started with Jekyll?</h1>
+<p>As a blogging noob, I’ve discovered there are hundreds of ways to generate a blog (e.g., WordPress, Squarespace, blogger.com, Weebly, etc.). But when my colleague <a href="http://luiarthur.github.io/">Arthur Lui</a> showed me his blog, I wanted something similar. I first tried Wordpress, then tried blogspot, then gave up and followed Arthur’s example and landed with Jekyll.</p>
+</section>
+<section id="set-up-a-blog-in-10-minutes" class="level1">
+<h1>Set up a blog in 10 minutes!</h1>
+<p>I followed this Jekyll <a href="https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/">tutorial</a> to set up my first blog. I’ll simplify those steps here to get you up and running quickly:</p>
+<ol type="1">
+<li>Get a GitHub account. (2 min)</li>
+<li>Go to <a href="http://jekyllthemes.org/">Jekyllthemes.org</a>. All of these blog themes are free. Find one you like, and Fork the repo (i.e., “repository”). (2-60 min, depending on how long you peruse)</li>
+<li>In GitHub, rename the newly-forked repo from “REPO name” to “yourgithubusername.github.io”. (1 min)</li>
+<li>Now go to “githubusername.github.io”. Voila, you have a blog.</li>
+</ol>
+<p>And if you want to start writing posts, go to your “_posts” folder. Then create new files and follow the default templates that the repository provides. (The blogs will need to be written in Markdown syntax.)</p>
+<p>That was my 10 minute promise. If you feel a bit cheated or lost, go to the well-done <a href="https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/">tutorial</a> and do all the steps. But the steps I listed are the essential steps to setting up a blog from scratch. So if you want to make a few blogs really quickly, after you figure out the first one the others follow nicely. For example, once I finished the tutorial, I followed those steps above to try two other themes before deciding on the <a href="https://github.com/bencentra/centrarium">Centrarium</a> theme.</p>
+<p>To get Centrarium to work, I did have to change some configurations in the “_config.yml”, so there can be some minor debugging depending on the theme you choose. But with a little patience and some Googling, you’ll get it.</p>
+</section>
+<section id="add-to-jekyll-a-custom-url-from-godaddy" class="level1">
+<h1>Add to Jekyll a custom URL from GoDaddy</h1>
+<p>You’ll notice I have a custom URL and not “bryanwhiting.github.io”. I used GoDaddy to get a domain. (I have no affiliation with GoDaddy.) Here’s how I linked GoDaddy with my GitHub Jekyll blog:</p>
+<ol type="1">
+<li>Get a domain.</li>
+<li>In your Github repo, change (or create) a CNAME file in the main directory. (See my <a href="https://github.com/bryanwhiting/bryanwhiting.github.io/blob/master/CNAME">CNAME</a> file for an example). And for the CNAME file contents, just type in the new “www” that you registered through GoDaddy.</li>
+<li>Then, on GoDaddy, go to the section “DNS Management”. Here’s where you tell GoDaddy how to connect your newly purchased “www” with GitHub. Create the following connections:</li>
+<li>[Type, Name, Value, TTL] = [A, @, 192.30.252.153, 600 seconds]</li>
+<li>[Type, Name, Value, TTL] = [A, @, 192.30.252.154, 600 seconds]</li>
+<li>[Type, Name, Value, TTL] = [CNAME, ftp, yourgithubusername.github.io, 600 seconds]</li>
+<li>[Type, Name, Value, TTL] = [CNAME, www, yourgithubusername.github.io, 600 seconds]</li>
+</ol>
+<p>If you have the CNAME file in your GitHub folder, GitHub and GoDaddy will talk and after a few minutes your custom “www” will work. You don’t technically need the two [A] steps, but those connections allow users to type “<a href="http://www.bryanwhiting.com">bryanwhiting.com</a>” instead of “www.bryanwhiting.com”. It can take up to 24 hours before these [A] connections enable, so don’t be worried if the short URL doesn’t work first try. But the full URL should work soon enough.</p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{whiting2016,
+  author = {Bryan Whiting},
+  title = {Starting with {Jekyll}},
+  date = {2016-11-17},
+  url = {https://www.bryanwhiting.com/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html},
+  langid = {en}
+}
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-whiting2016" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
+Bryan Whiting. 2016. <span>“Starting with Jekyll.”</span> November 17,
+2016. <a href="https://www.bryanwhiting.com/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html">https://www.bryanwhiting.com/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html</a>.
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
