@@ -5,7 +5,7 @@ description: |
 date: 2022-06-21
 categories: [startups, strategy]
 image: photo.jpeg
-draft: true
+draft: false
 ---
 
 ![](photo.jpeg)
