@@ -5,7 +5,7 @@ description: |
 date: 2022-06-20
 categories: [data science]
 image: photo.jpeg
-draft: true
+draft: false
 ---
 
 ![](photo.jpeg)
