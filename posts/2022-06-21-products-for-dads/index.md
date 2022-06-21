@@ -4,11 +4,10 @@ description: |
   What products am I still using 5 years later?
 date: 2022-06-21
 categories: [productivity, fatherhood]
-image: image.jpg
-draft: trlae
+image: photo.jpeg
 ---
 
-![](image.jpg)
+![](photo.jpeg)
 
 
 # Products I enjoy as a dad 
