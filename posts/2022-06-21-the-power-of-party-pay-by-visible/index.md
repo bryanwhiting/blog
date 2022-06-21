@@ -3,7 +3,7 @@ title: The Power of Party Pay by Visible
 description: |
   Visible wireless, owned by Verizon, offers users $25 off per month if they join a meaningless party. What’s the effect?
 date: 2022-06-21
-categories: [startups]
+categories: [startups, strategy]
 image: photo.jpeg
 draft: true
 ---
