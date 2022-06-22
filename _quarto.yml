@@ -5,6 +5,7 @@ project:
 website:
   title: "Bryan Whiting"
   site-url: https://www.bryanwhiting.com
+  google_analytics: "UA-85616639-1"
   navbar:
     left:
       - text: "Home"
