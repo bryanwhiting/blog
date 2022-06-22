@@ -10,6 +10,8 @@ listing:
     - "date desc"
     - "title desc"
   type: "grid"
+  grid-columns: 4
+  grid-item-border: true
   fields: [image, date, title, description, reading-time]
   categories: true
   # date-format: "YYYY-MM-DD"
