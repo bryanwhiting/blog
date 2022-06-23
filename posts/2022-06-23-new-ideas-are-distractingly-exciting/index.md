@@ -25,6 +25,6 @@ Process:
 2. What’s the potential impact? What would I do with the output of this idea?
 3. How feasible is it?
 
-(3) is a tricky question because I don’t want a good idea to go to waste because it’s hard. Judgment is weighing the trade off between impact and feasibility. 
+Step 3 is tricky because I don’t want a good idea to go to waste just because it’s hard. Judgment is weighing the trade off between impact and feasibility. 
 
 I like Google Forms for logging ideas. It’s easy to save a Google Form URL to the home screen of my iPhone to make logging new ideas easy. Grooming those ideas is important. Letting go of old ideas is essential. If only I could do the essential…
