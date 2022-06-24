@@ -3,7 +3,7 @@ title: "Blog"
 listing:
   contents: 
     - posts
-    - book-notes
+    - book-reviews
   feed: true
   sort-ui: true
   sort: 

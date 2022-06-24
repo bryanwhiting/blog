@@ -1,6 +1,0 @@
----
-title: "book_note_template"
-date: "2022-06-16"
-categories: [news, code, analysis]
-image: "image.jpg"
----
