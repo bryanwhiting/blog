@@ -74,6 +74,161 @@
   <media:content url="https://www.bryanwhiting.com/book-reviews/2022-06-24-getting-things-done/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
+  <title>What is the best todo list manager?</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2022-06-23-what-is-the-best-todo-list-manager?/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://www.bryanwhiting.com/posts/2022-06-23-what-is-the-best-todo-list-manager?/app.jpeg" class="img-fluid"></p>
+<p>Wirecutter reviewed the <a href="https://www.nytimes.com/wirecutter/reviews/best-to-do-list-app/">best todo list</a> apps and declared “ticktick” the winner. After all my research here’s what I’ve learned.</p>
+<section id="types-of-todo-list-apps" class="level1">
+<h1>Types of Todo list apps</h1>
+<p>Programmers love wasting time making todo list apps apparently, because this is one wheel that’s reinvented by anyone with their own way of doing things. When at a FAANG company, I saw five different todo/project management applications.</p>
+<p>People like me also waste a lot of time trying to find the right system and then waste more time writing blog posts out there. I suppose it’s just cathartic to get all of this info out there.</p>
+<p>Generally I observe that these apps fall into the following categories:</p>
+<ol type="1">
+<li>Basic check lists: iPhone Notes app, Google Keep</li>
+<li>Task managers: Todoist, To Do, Things3, TickTick, Google Tasks</li>
+<li>Daily planners: Structured</li>
+<li>Project managers: Notion, Asana, Monday, GitHub Projects, Jira</li>
+<li>Automatic calendars: Motion and Reclaim.</li>
+</ol>
+<p>Each has their strengths generally along the dimension of managing own work and managing work with others.</p>
+<p>At the end of the day, I want to manage my own tasks. If my collaborators use something like Jira or GitHub projects, I still have to decide if I want to record all my next steps in these platforms or use something more designed to handle the nitty gritty.</p>
+</section>
+<section id="comparisons" class="level1 page-columns page-full">
+<h1>Comparisons</h1>
+<p>For this to be a great blog post I would include screen shots. But I’m still not even sure people read my blog so I’m just going to give you a brain dump and you can go check out the apps yourself.</p>
+<p>I considered many dimensions but this is what I came up with as a core feature set:</p>
+<ul>
+<li>Good iOS widget. I want to see my tasks on the home page of my iPhone.</li>
+<li>Calendar integration</li>
+<li>Mac App and iPhone app</li>
+<li>Smart time parsing</li>
+<li>Nested Lists/tags. This lets me easily see across projects at work or home.</li>
+<li>Duration.</li>
+</ul>
+<section id="structured" class="level2">
+<h2 class="anchored" data-anchor-id="structured">Structured</h2>
+<p>The highest rated app for planning on the App Store is “Structured”. Where this app excels is it’s simplicity. It’s likely best for someone like a student that wants to plan out when they’ll get their homework done. What I loved about this app, and what I wish many others apps had, is a duration estimation for a task. Why is it so hard for developers to realize that tasks take time? They obsess over list keeping and app design but ignore the second most basic question: how long will this take? Structured kind of solves this. What I don’t like about this app is the design. While others praise it for its beauty and simplicity I thought the visual feel of it was distracting.</p>
+</section>
+<section id="microsoft-to-do" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="microsoft-to-do">Microsoft To Do</h2>
+<p>Microsoft To Do used to be a favorite of mine. I loved its daily planner and smart suggestions. It has the philosophy that every day you should start fresh. All unfinished tasks will be removed from today and you’re left to pick and choose what you want to do. The fatal limitation however is that it lacks the ability to plan tomorrows a tasks the day before. So this forces people to have to populate their tasks at the start of the day. This is the worst time for planning for me because I want to get up and get going ASAP. (But honestly most times I wake up 15 minutes before my first meeting or am spending time pouring milk into my kids’ cereal.) Morning is not the best time to plan a day for me, so I lost interest here.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/posts/2022-06-23-what-is-the-best-todo-list-manager?/photo.jpeg" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/posts/2022-06-23-what-is-the-best-todo-list-manager?/photo-2.jpeg" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+</section>
+<section id="todoist" class="level2">
+<h2 class="anchored" data-anchor-id="todoist">Todoist</h2>
+<p>I’ve tried many times to get into Todoist. It has smart text parsing which is apparently best in class from my Reddit research.</p>
+<p>Things it has:</p>
+<ul>
+<li>Projects can have section labels. This lets you organize your list more meaningfully. This is great, only that TickTick does it better. Each project in TickTick can have subprojects. These subprojects act like sections. You can also move subproject from one list to another.</li>
+</ul>
+<p><img src="https://www.bryanwhiting.com/posts/2022-06-23-what-is-the-best-todo-list-manager?/todoist.png" class="img-fluid"></p>
+<p>Things it lacks:</p>
+<ul>
+<li>Can’t nest labels (tags)</li>
+<li>Can’t create labels dynamically - you need to manually add them on the label screen before a task can leverage them.</li>
+<li>Can’t pull in my calendar.</li>
+</ul>
+</section>
+<section id="automated" class="level2">
+<h2 class="anchored" data-anchor-id="automated">Automated</h2>
+<p>Motion became popular as a calendar organizer. Add a task and Motion will figure out when to do that for you. If you change your meeting then Motion will adjust when your tasks will get done. Cons: it’s expensive ($20-$35 per month). It’s mobile app is horrid. It didn’t seem like it offered sub tasks and all that. So you really need to trust the algorithm.</p>
+<p><img src="https://www.bryanwhiting.com/posts/2022-06-23-what-is-the-best-todo-list-manager?/motion.jpeg" class="img-fluid"></p>
+<p>It gets the notion of task-duration right. But if you want to jot down notes of all the next actions you need to take on a project, your up the creek. I’m also not sure how it handles task dependency - if I put in 5 tasks for a project will it know their order? Not sure. Again I’ve never tried this app so take this all with a grain of salt.</p>
+<p>Reclaim is another app claiming to do the same thing and offers a free tier. I did as much as set up my account with this.</p>
+<p>Perhaps if I gave these more attention they’d prove their worth. I’ve tried calendaring my todos in the past and it hasn’t been very effective for me. Perhaps these apps would solve it but I think I need a good mobile app.</p>
+<p>Anyway, you can’t beat free and free is working for me on TickTick right now. Also, my calendar is very open generally so I don’t have the same problems a busy manager might have.</p>
+<p>I think these apps would be best for people who have meeting heavy workflows. It handles the schedules as you need. I’d just be concerned if</p>
+</section>
+<section id="akiflow" class="level2">
+<h2 class="anchored" data-anchor-id="akiflow">Akiflow</h2>
+<p>This app seemed expensive ($15/mo), no mobile app, but has an awesome calendar. The philosophy is you have to assign every task to a date and time to move it out of the inbox. That seemed like a headache to me, and seemed like I’d be constantly managing the inbox. That and I’m cheap and want a mobile app.</p>
+</section>
+<section id="asana" class="level2">
+<h2 class="anchored" data-anchor-id="asana">Asana</h2>
+<p>Oh man, how many times have I downloaded Asana? I started with it in 2014 and thought it was cool. Trying it again in 2022 it had a similar feel.</p>
+<p>Asana is the only task manager app I reviewed that has dependency management. Sure, Jira has blockers and all that but Jiras more aimed toward high level project management. It’s not fast at the</p>
+<p>Other things I remember liking:</p>
+<ul>
+<li>infinite subtasks. This was fun and also distracting.</li>
+<li>Automation features. You can create workflows for what happens to a task</li>
+<li>Communication. It has a nice inbox feature that let me communicate with my manager easily.</li>
+</ul>
+<p>Cons:</p>
+<ul>
+<li>Clunky on the board management. If I want to start a new project things get messy and overwhelming.</li>
+</ul>
+</section>
+<section id="jiragithub-projects" class="level2">
+<h2 class="anchored" data-anchor-id="jiragithub-projects">Jira/GitHub projects</h2>
+<p>Great at a high level but messy to manage the gritty day to day. Doesn’t let you schedule or put due dates. So eventually I’d need some other tool to manage all the minutia of getting things done.</p>
+</section>
+<section id="not-considered" class="level2">
+<h2 class="anchored" data-anchor-id="not-considered">Not considered</h2>
+<p>I didn’t look at Things3 or OmniFocus, which are considered of the best tools. Things3 was too expensive and seemed like it had many of the same features as TickTick, except I personally didn’t like the UI.</p>
+</section>
+</section>
+<section id="why-ticktick" class="level1">
+<h1>Why TickTick?</h1>
+<p>For a free app, TickTick has a ton of features. It’s by far the most feature rich free app around. I almost want to pay them just because the app is so good. I decided I will do this only if 30 days from now I’m still using it :)</p>
+<p>This is the first app I’ve seen that lets you take a task and drag it into a calendar and set a time. This is by far the most intuitive method to me of planning: have a sense for what needs to get done on a day, and the night before plan it out.</p>
+<p>Things I love about TickTick:</p>
+<ul>
+<li>They pay attention to all the details. For example, a minor detail is how the tags appear on the task. If you tag something three times, what order should they appear in? Well, TickTick let’s you arrange the order of the tags on the menu bar. The menu-bar order determines how the tags will be ordered visually.</li>
+<li>You can nest tags. This makes it easy to see across projects. For example I use a “Work” tag and individual project tags that are nested under work. I can then click on the parent tag and see across all my subproject tags.</li>
+<li>You can pin tasks, which puts those tasks at the top of your widget, top of your today, etc.</li>
+<li>The widgets are amazing. They’re really clear and concise. The tasks are ordered how I think they should be based on what I’ve pinned or prioritized.</li>
+<li>The calendar integration so great. It’s super easy to drag a task onto today’s calendar and set its duration.</li>
+<li>Pomodoro timer. This focus mode lets me see how long I spend on a task.</li>
+<li>Slack integration. Add a task from a slack comment.</li>
+<li>Task templates are great for keeping packing lists and such.</li>
+<li>TickTick let’s you take notes in addition to making tasks. Notes support markdown and can be tagged like any task.</li>
+<li>The app is so customizable! Everything in the app can be easily rearranged or hidden as you want.</li>
+</ul>
+<p>It has a ton of other features I haven’t mentioned yet, like the Eisenhower matrix and an Gantt chart.</p>
+<p>Cons:</p>
+<ul>
+<li>Can’t automate my calendar easily.</li>
+<li>I get distracted adding everything into the app. Managing the task manager is a thing.</li>
+</ul>
+</section>
+<section id="takeaways-and-other-meta-points" class="level1">
+<h1>Takeaways and other Meta Points</h1>
+<p>I’ve learned a lot about all the apps out there and I can say that what will work for me today might not work for me tomorrow as my roles and responsibilities change.</p>
+<p>I’ve heard it said that effectiveness is getting a task done. Efficiency is knowing what to work on. None of these apps solve for efficiency, which is arguably the core productivity killer.</p>
+<p>Reddit is a great place to learn how other people use these tools. I consulted Reddit threads for TickTick and Todoist to hear how others use the app.</p>
+</section>
+<section id="disclaimer" class="level1">
+<h1>Disclaimer</h1>
+<p>I’ve only used TickTick app for 7 days now at work, and 30 days while on paternity leave. If I’m still using it 3 months from now I’ll come back and do another post.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
+  <category>productivity</category>
+  <category>app review</category>
+  <guid>https://www.bryanwhiting.com/posts/2022-06-23-what-is-the-best-todo-list-manager?/index.html</guid>
+  <pubDate>Thu, 23 Jun 2022 00:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/2022-06-23-what-is-the-best-todo-list-manager?/app.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>New ideas are distractingly exciting</title>
   <dc:creator>Bryan Whiting</dc:creator>
   <link>https://www.bryanwhiting.com/posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html</link>
