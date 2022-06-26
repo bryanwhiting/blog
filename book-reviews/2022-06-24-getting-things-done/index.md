@@ -51,6 +51,4 @@ In summary:
 [^1]: **Deciding Vision**: As I write this, choosing a project  might be a good place to insert a goal (intended outcome) as a project name. Instead of Exercise, the intended outcome is improving health. The goal is being able to run a 5k. So perhaps goal/objective is “ImproveHealth” and KR is “run 5k”. These goals can be identified by asking the 5 whys. If I have an idea if “go running” as my task, a good grounds-up vision exercise would be to ask “why do I want to run a mile tomorrow? Is it to accomplish something or to relax my mind? Why is relaxing my mind important to me? Why is my mental health important? Etc. I think subconsciously ideas come of what to do next all the time “I should work out” but rarely do I take the time to ask “why do I see the need to work out? What’s the greater vision here for this task?” Understanding that vision can help prioritize and build a desire to accomplish the task. If the idea “learn a new language” comes up, asking why can help me realize “oh, this is just for fun and won’t be for anything meatier than having fun! No pressure on this task and maybe I’ll never do it.” The nag to run a mile might help me realize “I need to take care of my health, and this can’t wait.”
 
 
-
-
    
