@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Bryan Whiting">
-<meta name="dcterms.date" content="2016-11-17">
-<meta name="description" content="Hello world.">
+<meta name="dcterms.date" content="2022-06-25">
+<meta name="description" content="An overview of how I apply the principles of “Getting Things Done”, or GTD.">
 
-<title>Bryan Whiting - Starting with Jekyll</title>
+<title>Bryan Whiting - How I use TickTick</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -129,16 +129,14 @@ ga('send', {
 <header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Starting with Jekyll</h1>
+      <h1 class="title">How I use TickTick</h1>
                   <div>
         <div class="description">
-          Hello world.
+          <p>An overview of how I apply the principles of “Getting Things Done”, or GTD.</p>
         </div>
       </div>
                           <div class="quarto-categories">
                 <div class="quarto-category">productivity</div>
-                <div class="quarto-category">blogging</div>
-                <div class="quarto-category">jekyll</div>
               </div>
                   </div>
   </div>
@@ -156,7 +154,7 @@ ga('send', {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">November 17, 2016</p>
+        <p class="date">June 25, 2022</p>
       </div>
     </div>
       
@@ -170,10 +168,12 @@ ga('send', {
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#why-blog-with-jekyll" id="toc-why-blog-with-jekyll" class="nav-link active" data-scroll-target="#why-blog-with-jekyll">Why Blog with Jekyll?</a></li>
-  <li><a href="#how-did-i-get-started-with-jekyll" id="toc-how-did-i-get-started-with-jekyll" class="nav-link" data-scroll-target="#how-did-i-get-started-with-jekyll">How did I get started with Jekyll?</a></li>
-  <li><a href="#set-up-a-blog-in-10-minutes" id="toc-set-up-a-blog-in-10-minutes" class="nav-link" data-scroll-target="#set-up-a-blog-in-10-minutes">Set up a blog in 10 minutes!</a></li>
-  <li><a href="#add-to-jekyll-a-custom-url-from-godaddy" id="toc-add-to-jekyll-a-custom-url-from-godaddy" class="nav-link" data-scroll-target="#add-to-jekyll-a-custom-url-from-godaddy">Add to Jekyll a custom URL from GoDaddy</a></li>
+  <li><a href="#capture" id="toc-capture" class="nav-link active" data-scroll-target="#capture">Capture</a></li>
+  <li><a href="#clarify" id="toc-clarify" class="nav-link" data-scroll-target="#clarify">Clarify</a></li>
+  <li><a href="#organize" id="toc-organize" class="nav-link" data-scroll-target="#organize">Organize</a></li>
+  <li><a href="#review" id="toc-review" class="nav-link" data-scroll-target="#review">Review</a></li>
+  <li><a href="#engage" id="toc-engage" class="nav-link" data-scroll-target="#engage">Engage</a></li>
+  <li><a href="#final-thoughts" id="toc-final-thoughts" class="nav-link" data-scroll-target="#final-thoughts">Final Thoughts</a></li>
   </ul>
 </nav>
 </nav>
@@ -186,56 +186,91 @@ ga('send', {
 
 
 
-<p>Hello world.</p>
-<div class="page-columns page-full"><p>I wanted to start a blog. I wanted to set it up for free, use a custom URL (and not <em>something.bloggingplatform.com</em>), and be able to both blog and create tutorials. I didn’t mind it possibly being technical<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. Enter Jekyll.</p><div class="no-row-height column-margin column-container"><li id="fn1" role="doc-endnote"><p><sup>1</sup>&nbsp;Specifically, I was interested in being able to use the command line for my posts. Additionally, I didn’t mind seeing or using a little bit of code.</p></li></div></div>
-<p><em>If you want to get your blog in 10 minutes, skip to below.</em></p>
-<section id="why-blog-with-jekyll" class="level1 page-columns page-full">
-<h1>Why Blog with Jekyll?</h1>
-<p>Here’s why you can and should blog with Jekyll (if you’re a data scientist):</p>
-<ol start="2" type="1">
-<li>Jekyll has beautiful, free, open-source templates.</li>
-<li>GitHub will host your website for free<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</li>
-<li>Jekyll is <a href="https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/">static</a>.</li>
-<li>Jekyll can be simple to set up<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>.</li>
-<li>I tried Wordpress and blogger.com and got frustrated.</li>
-<li>The blogging content you create is very portable (easy to take your posts from one blog site to another).</li>
-<li>Creating blogs in Markdown syntax is a dream (even for non-technical folks).</li>
-<li>You can manage your blog from your terminal</li>
-<li>You can manage your blog from your phone (if you have a GitHub-editing app)</li>
-</ol>
-<div class="no-row-height column-margin column-container"><li id="fn2" role="doc-endnote"><p><sup>2</sup>&nbsp;Someone has to <a href="https://www.google.com/search?q=what+does+it+mean+to+host+a+website&amp;oq=what+does+it+mean+to+host+&amp;aqs=chrome.0.0j69i57j0l4.2810j0j9&amp;sourceid=chrome&amp;ie=UTF-8">host</a> it (i.e., store and display all the files). I started off trying to set up a WordPress blog, but you have to pay another company to <a href="http://www.webhostingbest10.com/web-hosting-reviews">host</a>. I didn’t want to bother.</p></li><li id="fn3" role="doc-endnote"><p><sup>3</sup>&nbsp;If you try to set it up by following the instructions on <a href="https://jekyllrb.com/">jekyllrb.com</a>, that’s the complicated way. That’s how I originally started, got lost for five hours, and stopped. Six months later, I found a better way.</p></li></div><p>But if you don’t like debugging occasional errors, you probably shouldn’t blog with Jekyll.</p>
-<p>What is Jekyll, you ask? Jekyll is an open-source blogging platform. Anyone can write a template and post it, and anyone else can use that template. Perusing <a href="http://jekyllthemes.org/">Jekyllthemes.org</a>, you can pick out any template you’d like.</p>
-</section>
-<section id="how-did-i-get-started-with-jekyll" class="level1">
-<h1>How did I get started with Jekyll?</h1>
-<p>As a blogging noob, I’ve discovered there are hundreds of ways to generate a blog (e.g., WordPress, Squarespace, blogger.com, Weebly, etc.). But when my colleague <a href="http://luiarthur.github.io/">Arthur Lui</a> showed me his blog, I wanted something similar. I first tried Wordpress, then tried blogspot, then gave up and followed Arthur’s example and landed with Jekyll.</p>
-</section>
-<section id="set-up-a-blog-in-10-minutes" class="level1">
-<h1>Set up a blog in 10 minutes!</h1>
-<p>I followed this Jekyll <a href="https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/">tutorial</a> to set up my first blog. I’ll simplify those steps here to get you up and running quickly:</p>
+<p><img src="photo.jpeg" class="img-fluid"></p>
+<p>I’ve recently read “Atomic Habits”, “Deep Work”, “The Power of Habit”, “Getting Things Done”, “Essentialism” and “Effortless”. These productivity paradigms influence this post.</p>
+<p>Inspired by <a href="https://www.reddit.com/r/ticktick/comments/v5n3x4/how_do_i_use_ticktick_lists_and_tags/?utm_source=share&amp;utm_medium=ios_app&amp;utm_name=iossmf">this Reddit post</a>, I’ve tried thinking how I want apply the principles of GTD and these other paradigms. I think GTD is great for me because it helps me get ideas out of my head and Essentialism is a better pursuit to make sure I’m not caught up in minutia. I don’t see them as incongruent, but one as an ideation organization approach and the other as a relentless focus.</p>
+<p>Five steps of GTD:</p>
 <ol type="1">
-<li>Get a GitHub account. (2 min)</li>
-<li>Go to <a href="http://jekyllthemes.org/">Jekyllthemes.org</a>. All of these blog themes are free. Find one you like, and Fork the repo (i.e., “repository”). (2-60 min, depending on how long you peruse)</li>
-<li>In GitHub, rename the newly-forked repo from “REPO name” to “yourgithubusername.github.io”. (1 min)</li>
-<li>Now go to “githubusername.github.io”. Voila, you have a blog.</li>
+<li>Capture</li>
+<li>Clarify</li>
+<li>Organize</li>
+<li>Review</li>
+<li>Engage</li>
 </ol>
-<p>And if you want to start writing posts, go to your “_posts” folder. Then create new files and follow the default templates that the repository provides. (The blogs will need to be written in Markdown syntax.)</p>
-<p>That was my 10 minute promise. If you feel a bit cheated or lost, go to the well-done <a href="https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/">tutorial</a> and do all the steps. But the steps I listed are the essential steps to setting up a blog from scratch. So if you want to make a few blogs really quickly, after you figure out the first one the others follow nicely. For example, once I finished the tutorial, I followed those steps above to try two other themes before deciding on the <a href="https://github.com/bencentra/centrarium">Centrarium</a> theme.</p>
-<p>To get Centrarium to work, I did have to change some configurations in the “_config.yml”, so there can be some minor debugging depending on the theme you choose. But with a little patience and some Googling, you’ll get it.</p>
+<section id="capture" class="level1">
+<h1>Capture</h1>
+<p>I have an iOS shortcut that lets me quickly add a TickTick task to my inbox. I put this on my Home Screen for instant access and to avoid distraction. I want to capture the idea, not open TickTick and get distracted by other ideas.</p>
+<p>Or I use the TickTick today widget and upload it to today directly. Depends on the task and how detailed I want to be.</p>
 </section>
-<section id="add-to-jekyll-a-custom-url-from-godaddy" class="level1">
-<h1>Add to Jekyll a custom URL from GoDaddy</h1>
-<p>You’ll notice I have a custom URL and not “bryanwhiting.github.io”. I used GoDaddy to get a domain. (I have no affiliation with GoDaddy.) Here’s how I linked GoDaddy with my GitHub Jekyll blog:</p>
+<section id="clarify" class="level1">
+<h1>Clarify</h1>
+<p>Here’s the system I use to clarify.</p>
+<p>Definitions:</p>
+<ul>
+<li>Task: an action item.</li>
+<li>Project: an intended outcome with multiple tasks.</li>
+<li>Epic: an intended outcome with multiple projects.</li>
+<li>Key Result: high level, long term accomplishment. (Increase revenue 10%)</li>
+<li>Objective: a squishy, feel-good purpose statement. “Deepen relationships with loved ones.”</li>
+</ul>
+<p>Task grooming process: Groom the inbox every night and identify the intended outcome and next action. Tag the task.</p>
+<ul>
+<li>If the task was “send Birthday card”, that’s really an intended outcome and is a small project. The tasks are 1) buy card from CVS, 2) put in envelope with stamp, 3) drop in mailbox. These three subtasks need to be understood. But a separate inbox entry may be “pay phone bill by sitting down at my computer at 10pm”. This isn’t a project. It’s just a one off thing. But it can still be clarified with details.</li>
+<li>Label if it’s a project or not. Use iOS shortcuts to make this really easy. For example, gg = “🎯 #Project”</li>
+<li>The challenge is if I should have things as projects or as individual tasks. I would say that as much as things can be independent, keep them tasks. Like “apply for credit card1” and “apply for credit card 2” are both personal finance tasks. But they are independent.</li>
+<li>A task isn’t necessarily short and a project isn’t necessarily long. It’s just whether this Indy ended outcome has multiple steps or not that might be done over a few days, whereas a task is probably done in one sitting.</li>
+<li>It’s assumed that unless something is a task, it’s a project.</li>
+<li>Every epic has its own name. I nest epics under “Work &gt; #Epic1, #Epic2”, etc. This helps me organize my work deliverables. I have like 5 epics right now at work that will span several quarters.</li>
+</ul>
+<p>Then I may choose to add tags with metadata, which I haven’t figured out if this is useful yet. But “Atomic Habits” says the best way to get stuff done is to stack it. So here is my tagging system to help me stack:</p>
+<ul>
+<li>Commitment: ASAP, Eventually, Someday Maybe. Will I do this task eventually? Pay a bill - yes. Learn a language - someday maybe.<br>
+</li>
+<li>Duration: 5min, 30min, 1hr, 2hr, 4hr. 9hr (all day)</li>
+<li>Location (where to do the task): Home, Desk, Car, Backyard. Most work things are done at my desk. But perhaps some can be done while taking a walk. Most personal things are done around the house or on the couch at night.</li>
+<li>Time of Day: “1: Pre work”. “2: start of workday. 3: lunchtime, 4: afternoon, 5: after work, 6: nighttime”</li>
+<li>Focus: “Deepwork” or “shallow”. Deep work should be uninterrupted and be 3 hours long.</li>
+<li>Severity: S1: if I don’t do this nothing will happen. S3: not doing this will have bad consequences or lots of regret. S2 - in between :).</li>
+<li>Deadline: I’m still thinking about this one. To me there’s a difference between mowing the law which has a linear cost of looking worse each day for not being cut and failing to pay my taxes, which has festeringly worse consequences the longer I put it off (pay a fine, end up in jail, etc.). I guess this is captured implicitly in “ASAP” commitment. But paying my taxes is only a cost (preventing negative outcomes) versus the ASAP of getting my project finished (positive consequences).
+<ul>
+<li>None (default): no consequence for never doing this.</li>
+<li>Binary: You either make the deadline or never and this opportunity ceases forever.</li>
+<li>Rolling: If you miss the deadline there will be another.</li>
+<li>Festering: the longer you put this off the worse it becomes, but no deadline.</li>
+</ul></li>
+</ul>
+<p>As I write this, this sounds like overkill…classic me. I sincerely doubt it’s useful to of all of this. But having the system available will let me use what I need when I need it. If I’m still using any of this in a month that’ll be a miracle. But I’m going to start with something in mind and go from there.</p>
+</section>
+<section id="organize" class="level1 page-columns page-full">
+<h1>Organize</h1>
 <ol type="1">
-<li>Get a domain.</li>
-<li>In your Github repo, change (or create) a CNAME file in the main directory. (See my <a href="https://github.com/bryanwhiting/bryanwhiting.github.io/blob/master/CNAME">CNAME</a> file for an example). And for the CNAME file contents, just type in the new “www” that you registered through GoDaddy.</li>
-<li>Then, on GoDaddy, go to the section “DNS Management”. Here’s where you tell GoDaddy how to connect your newly purchased “www” with GitHub. Create the following connections:</li>
-<li>[Type, Name, Value, TTL] = [A, @, 192.30.252.153, 600 seconds]</li>
-<li>[Type, Name, Value, TTL] = [A, @, 192.30.252.154, 600 seconds]</li>
-<li>[Type, Name, Value, TTL] = [CNAME, ftp, yourgithubusername.github.io, 600 seconds]</li>
-<li>[Type, Name, Value, TTL] = [CNAME, www, yourgithubusername.github.io, 600 seconds]</li>
+<li>Once clarified, move out of inbox into a list “work” or “personal”.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></li>
+<li>Prioritize.</li>
+<li>Delegate. (Myself, someone else.)</li>
+<li>Assign due dates and times (if not already done)</li>
 </ol>
-<p>If you have the CNAME file in your GitHub folder, GitHub and GoDaddy will talk and after a few minutes your custom “www” will work. You don’t technically need the two [A] steps, but those connections allow users to type “<a href="http://www.bryanwhiting.com">bryanwhiting.com</a>” instead of “www.bryanwhiting.com”. It can take up to 24 hours before these [A] connections enable, so don’t be worried if the short URL doesn’t work first try. But the full URL should work soon enough.</p>
+<div class="no-row-height column-margin column-container"><li id="fn1" role="doc-endnote"><p><sup>1</sup>&nbsp;Tags and lists are identical except Lists have sections and views (such as Kanban). In a list you can sort by tag and vice versa. But each task can only appear in one list whereas tags are infinite. I noticed that choosing which list something belongs to can be cumbersome if it’s in a nested list, so I want only high level lists (no folders) and have this be simple. I also have “personal” and “work” tags which have projects within them, so I don’t really see why I’d need to duplicate this. On second thought, each task can only belong to one work project so it’d make sense for this to be my grouping. I suppose I just don’t want to manage all that. Or, I chose to use tags to manage my projects because I was cheap and I can only have 9 lists on the free version but unlimited tags? Either way this is easy to reorganize later if I choose to switch. Tags it is for now.</p></li></div></section>
+<section id="review" class="level1">
+<h1>Review</h1>
+<ul>
+<li>Each night I will review the days tasks and re-prioritize as needed.</li>
+<li>Pin the one task/project I want to get done that day.
+<ul>
+<li>Essentialism says to take the 6 tasks of the day and choose just one. Then identify what else you need to say no to to ensure you have the energy to accomplish that task.</li>
+</ul></li>
+<li>Weekly planning session to review all of this.</li>
+</ul>
+</section>
+<section id="engage" class="level1">
+<h1>Engage</h1>
+<ul>
+<li>Don’t work on any tasks in a day/week that weren’t planned for that day (unless something comes up).</li>
+</ul>
+</section>
+<section id="final-thoughts" class="level1">
+<h1>Final Thoughts</h1>
+<p>A task system should be saving me time, not consuming it. It should be relaxing me and my anxieties, not amplifying them. I’m going to give this 30 days and see if my stress decreases and productivity increase. If so, I’ll keep using this system.</p>
+<p>GTD states that by <em>not</em> writing down all the ideas, you waste energy because things come back to nag you later. But surely energy is wasted by organizing a valueless idea.</p>
 
 
 </section>
