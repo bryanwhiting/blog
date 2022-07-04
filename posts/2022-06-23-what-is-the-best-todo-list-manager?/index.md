@@ -70,6 +70,27 @@ Things it lacks:
 * Can’t nest labels (tags)
 * Can’t create labels dynamically - you need to manually add them on the label screen before a task can leverage them. 
 * Can’t pull in my calendar. 
+* Doesn’t have check items, only subtasks. 
+
+## Sorted3
+
+This app takes a different design. It’s main selling point is the ability to auto schedule your day based on the tasks you have for that day. 
+
+Pros:
+
+* Rich formatting on description. Supports markdown. 
+* clean UI. Good shortcuts. 
+* integrates with calendar to plan your day. 
+* Easily plan duration.  
+* Really nice widgets. 
+
+Cons:
+
+* Doesn’t have subtasks, but has check boxes
+* No prioritization or smart filters. Just tags and lists. 
+* Can’t easily see across lists like you can in TickTick
+
+Auto schedule is nice but could be kind of gimmicky. If you have 8 meetings in a day and five 30 min free blocks but all your tasks for the day are an hour, it would put all your tasks at the end of the day. I found it kind of buggy.  
 
 ## Automated  
 
@@ -86,12 +107,47 @@ I’ve tried calendaring my todos in the past and it hasn’t been very effectiv
 
 Anyway, you can’t beat free and free is working for me on TickTick right now. Also, my calendar is very open generally so I don’t have the same problems a busy manager might have. 
 
-I think these apps would be best for people who have meeting heavy workflows. It handles the schedules as you need. I’d just be concerned if 
+I think these apps would be best for people who have meeting heavy workflows. It handles the schedules as you need. 
 
 ## Akiflow
 
 This app seemed expensive ($15/mo), no mobile app, but has an awesome calendar. The philosophy is you have to assign every task to a date and time to move it out of the inbox. 
 That seemed like a headache to me, and seemed like I’d be constantly managing the inbox. That and I’m cheap and want a mobile app. 
+
+
+## Sunsama 
+
+$20 per mo or $192/year. Super fast customer support. 
+
+Features:
+* Mobile app, Mac app. 
+* Duration
+
+
+Pros:
+* Channels (lists) 
+* great shortcuts 
+* can align tasks with objectives 
+* more of a mindful daily planner
+* Integrates with Todoist and other apps. You can pull in all to foist metadata including subtasks and check them off in Sunsama. Additionally, you can add duration and calendar your Todoist tasks. 
+* Can export all the tasks to csv. 
+* Can split calendar events.
+
+Cons:
+* Widgets are weak
+* No priority labels
+* No task tags/labels. (But you can use Todoist for this if you want.)
+
+## Reclaim.ai
+
+Task manager isn’t as good as Sunsama. Only $8/mo for pro. Has todoist integration too, but that’s a pro feature. 
+
+This is one I’ll want to try later. 
+It has the habit tracking and smart flexible calendaring. Not sure how good of a task manager it is. TBD. 
+
+## Vimcal
+
+Fast calendar. Not for tasks or backlogs it seems though. Didn’t try. 
 
 ## Asana
 
@@ -159,3 +215,43 @@ Reddit is a great place to learn how other people use these tools. I consulted R
 
 I’ve only used TickTick app for 7 days now at work, and 30 days while on paternity leave. If I’m still using it 3 months from now I’ll come back and do another post. 
  
+# Apps reviewed 
+
+Project/Team managers
+
+* Asana
+* ClickUp
+* Monday.com
+* Jira
+* GitHub projects
+
+To do lists
+
+* Any.Do
+* Microsoft To Do
+* Google Tasks
+* Taskade 
+* Tasks
+* Todoist
+* Structured
+* Sorted3
+* GQueues
+
+Document apps
+
+* Craft
+* Apple Notes
+* Workflowy 
+
+Scheduling apps
+
+* Tascaly
+* Sunsama
+* Motion
+* Reclaim.ai
+* Akiflow 
+
+Not reviewed:
+
+* OmniFocus
+* Things3  
