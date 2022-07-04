@@ -9,8 +9,66 @@
 <link>https://www.bryanwhiting.com/index.html</link>
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-0.9.629</generator>
-<lastBuildDate>Tue, 28 Jun 2022 00:00:00 GMT</lastBuildDate>
+<generator>quarto-0.9.640</generator>
+<lastBuildDate>Sun, 03 Jul 2022 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>When data collection goes too far</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2022-07-03-when-data-collection-goes-too-far/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="self-surveillance" class="level1">
+<h1>Self Surveillance</h1>
+<p>I came across this <a href="https://flowingdata.com/2022/06/28/personal-life-dashboard/">article</a> in Flowing Data and thought it was fascinating.</p>
+<p>I’ve been on a productivity kick lately and notice these apps have habit trackers. I’ve tried using them in the past and have realized it gets too much too quickly. But that doesn’t mean as a data guy that I don’t think it’s a cool idea. It just overwhelms me.</p>
+<p>We’ll I discovered that me tracking a few habits a day is junior varsity level. <a href="https://howisfelix.today/?">Felix’s blog</a> is how it’s done to the extreme. Clearly this guy isn’t worried about Big Tech or Big Government harvesting his personal data. I love the boldness!</p>
+<p>This is just 1/20th of the full page screen shot:</p>
+<p><embed src="felix.pdf" class="img-fluid"></p>
+<p>The number of slices and views he has is endless. It’s crazy to see everything he’s tracking, partly I’m sure because he has fun with it and the other part because he deep down hopes there’s something there.</p>
+<p>His quote on Flowing Data has stuck with me:</p>
+<blockquote class="blockquote">
+<p>Overall, having spent a significant amount of time building this project, scaling it up to the size it’s at now, as well as analysing the data, the main conclusion is that it is not worth building your own solution, and investing this much time. When I first started building this project 3 years ago, I expected to learn way more surprising and interesting facts. There were some, and it’s super interesting to look through those graphs, however retrospectively, it did not justify the hundreds of hours I invested in this project.</p>
+</blockquote>
+<p>This guy probably knows himself in a way that none of us ever will. He can’t ever lie to himself and say “yea, I’m good at exercising every day” because he’s got the data to back it up. But is this the life we want?</p>
+</section>
+<section id="self-surveillance-as-a-service" class="level1 page-columns page-full">
+<h1>Self Surveillance as a Service</h1>
+<p>SSaaS? Apparently. Exist.io tries to find patterns in your personal data and tell you when your most happy.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/posts/2022-07-03-when-data-collection-goes-too-far/photo.jpeg" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+<p>When I researched the Apple Watch team a few years back I came to appreciate what they were/are trying to do: correlate heart monitoring with insurance claims data to proactively identify preemptive signs of cardiac arrest and other health issues.</p>
+<p>That seems meaningful in theory because information about other people can be correlated with information about me.</p>
+<p>But does info about myself correlate with info about myself? Probably. I have cycles. I have common traps and pitfalls like any human walking this earth. Some pitfalls are daily, some are quarterly or seasonal.</p>
+<p>But I can also take 5 minutes to ponder reflectively or talk to a close friend and identify those patterns. What’s more human?</p>
+<p>And what’s more: if you end up changing your behavior then your past can’t really predict your future. So all of the data becomes moot once it achieves its purpose: true lasting change. Because if you truly change your behavior based on the insights you glean about yourself, those past triggers and anomalies no longer affect you in the way they did. So when you experience a personal step change in life, you’re a new you. Maybe not. But maybe.</p>
+<p>Also, the new generations growing up on smartphones have a unique challenge: their online identities are given to them before they’re really conscious enough to determine if that’s what they want to show the world. Parents posting YouTube or TikToks of their kids are cementing for these kids an identity they themselves didn’t choose. We’ve all gone through phases of deleting Facebook photos from 15 years ago because it doesn’t reflect our current self image. What’s to be said of giving people an opportunity to change if everything they’ve ever said or done is recorded somewhere? Twitter. Instagram. TikTok. Facebook. Every post is cementing us in a way.</p>
+<p>I think it’s better to forget yesterday. Because it doesn’t have to have any bearing on where you’re going tomorrow. It can if you let it. But your past doesn’t have to define you.</p>
+</section>
+<section id="takeaways" class="level1">
+<h1>Takeaways</h1>
+<p>Would you rather spend hours setting up digital automatic and manual tracking systems just to learn what you could by opening a gratitude journal every day? Sometimes less is more. I don’t think digital self surveillance is a direction we should go. (Not to mention the moment you do get hacked you’ll deeply regret it.)</p>
+<p>Even <a href="https://www.bbc.com/news/world-us-canada-57342967">blogging can be dangerous for your career</a>. Never know what’s gonna come back to haunt you years later.</p>
+<p>So I should be careful what I say here, that is if I ever care to work for a self surveillance company in the future.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
+  <category>productivity</category>
+  <category>futurism</category>
+  <category>tech</category>
+  <category>surveillance</category>
+  <guid>https://www.bryanwhiting.com/posts/2022-07-03-when-data-collection-goes-too-far/index.html</guid>
+  <pubDate>Sun, 03 Jul 2022 00:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/2022-07-03-when-data-collection-goes-too-far/photo.jpeg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>Pomodoro Principles</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -316,7 +374,28 @@
 <li>Can’t nest labels (tags)</li>
 <li>Can’t create labels dynamically - you need to manually add them on the label screen before a task can leverage them.</li>
 <li>Can’t pull in my calendar.</li>
+<li>Doesn’t have check items, only subtasks.</li>
 </ul>
+</section>
+<section id="sorted3" class="level2">
+<h2 class="anchored" data-anchor-id="sorted3">Sorted3</h2>
+<p>This app takes a different design. It’s main selling point is the ability to auto schedule your day based on the tasks you have for that day.</p>
+<p>Pros:</p>
+<ul>
+<li>Rich formatting on description. Supports markdown.</li>
+<li>clean UI. Good shortcuts.</li>
+<li>integrates with calendar to plan your day.</li>
+<li>Easily plan duration.<br>
+</li>
+<li>Really nice widgets.</li>
+</ul>
+<p>Cons:</p>
+<ul>
+<li>Doesn’t have subtasks, but has check boxes</li>
+<li>No prioritization or smart filters. Just tags and lists.</li>
+<li>Can’t easily see across lists like you can in TickTick</li>
+</ul>
+<p>Auto schedule is nice but could be kind of gimmicky. If you have 8 meetings in a day and five 30 min free blocks but all your tasks for the day are an hour, it would put all your tasks at the end of the day. I found it kind of buggy.</p>
 </section>
 <section id="automated" class="level2">
 <h2 class="anchored" data-anchor-id="automated">Automated</h2>
@@ -326,11 +405,27 @@
 <p>Reclaim is another app claiming to do the same thing and offers a free tier. I did as much as set up my account with this.</p>
 <p>Perhaps if I gave these more attention they’d prove their worth. I’ve tried calendaring my todos in the past and it hasn’t been very effective for me. Perhaps these apps would solve it but I think I need a good mobile app.</p>
 <p>Anyway, you can’t beat free and free is working for me on TickTick right now. Also, my calendar is very open generally so I don’t have the same problems a busy manager might have.</p>
-<p>I think these apps would be best for people who have meeting heavy workflows. It handles the schedules as you need. I’d just be concerned if</p>
+<p>I think these apps would be best for people who have meeting heavy workflows. It handles the schedules as you need.</p>
 </section>
 <section id="akiflow" class="level2">
 <h2 class="anchored" data-anchor-id="akiflow">Akiflow</h2>
 <p>This app seemed expensive ($15/mo), no mobile app, but has an awesome calendar. The philosophy is you have to assign every task to a date and time to move it out of the inbox. That seemed like a headache to me, and seemed like I’d be constantly managing the inbox. That and I’m cheap and want a mobile app.</p>
+</section>
+<section id="sunsama" class="level2">
+<h2 class="anchored" data-anchor-id="sunsama">Sunsama</h2>
+<p>$20 per mo or $192/year. Super fast customer support.</p>
+<p>Features: * Mobile app, Mac app. * Duration</p>
+<p>Pros: * Channels (lists) * great shortcuts * can align tasks with objectives * more of a mindful daily planner * Integrates with Todoist and other apps. You can pull in all to foist metadata including subtasks and check them off in Sunsama. Additionally, you can add duration and calendar your Todoist tasks. * Can export all the tasks to csv. * Can split calendar events.</p>
+<p>Cons: * Widgets are weak * No priority labels * No task tags/labels. (But you can use Todoist for this if you want.)</p>
+</section>
+<section id="reclaim.ai" class="level2">
+<h2 class="anchored" data-anchor-id="reclaim.ai">Reclaim.ai</h2>
+<p>Task manager isn’t as good as Sunsama. Only $8/mo for pro. Has todoist integration too, but that’s a pro feature.</p>
+<p>This is one I’ll want to try later. It has the habit tracking and smart flexible calendaring. Not sure how good of a task manager it is. TBD.</p>
+</section>
+<section id="vimcal" class="level2">
+<h2 class="anchored" data-anchor-id="vimcal">Vimcal</h2>
+<p>Fast calendar. Not for tasks or backlogs it seems though. Didn’t try.</p>
 </section>
 <section id="asana" class="level2">
 <h2 class="anchored" data-anchor-id="asana">Asana</h2>
@@ -389,6 +484,48 @@
 <section id="disclaimer" class="level1">
 <h1>Disclaimer</h1>
 <p>I’ve only used TickTick app for 7 days now at work, and 30 days while on paternity leave. If I’m still using it 3 months from now I’ll come back and do another post.</p>
+</section>
+<section id="apps-reviewed" class="level1">
+<h1>Apps reviewed</h1>
+<p>Project/Team managers</p>
+<ul>
+<li>Asana</li>
+<li>ClickUp</li>
+<li>Monday.com</li>
+<li>Jira</li>
+<li>GitHub projects</li>
+</ul>
+<p>To do lists</p>
+<ul>
+<li>Any.Do</li>
+<li>Microsoft To Do</li>
+<li>Google Tasks</li>
+<li>Taskade</li>
+<li>Tasks</li>
+<li>Todoist</li>
+<li>Structured</li>
+<li>Sorted3</li>
+<li>GQueues</li>
+</ul>
+<p>Document apps</p>
+<ul>
+<li>Craft</li>
+<li>Apple Notes</li>
+<li>Workflowy</li>
+</ul>
+<p>Scheduling apps</p>
+<ul>
+<li>Tascaly</li>
+<li>Sunsama</li>
+<li>Motion</li>
+<li>Reclaim.ai</li>
+<li>Akiflow</li>
+</ul>
+<p>Not reviewed:</p>
+<ul>
+<li>OmniFocus</li>
+<li>Things3</li>
+</ul>
 
 
 </section>
