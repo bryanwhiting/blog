@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Bryan Whiting">
-<meta name="dcterms.date" content="2022-07-03">
-<meta name="description" content="It’s important for us to track certain things about ourselves. But this is clearly not exactly healthy IMO.">
+<meta name="dcterms.date" content="2022-07-20">
+<meta name="description" content="How can data scientists bring their technical knowledge to a non-technical audience? Here are my lessons learned from seven years in the data trenches.">
 
-<title>Bryan Whiting - When data collection goes too far</title>
+<title>Bryan Whiting - De-sciencing Data Science and Talking Like a Normal Person</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -129,17 +129,16 @@ ga('send', {
 <header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">When data collection goes too far</h1>
+      <h1 class="title">De-sciencing Data Science and Talking Like a Normal Person</h1>
                   <div>
         <div class="description">
-          <p>It’s important for us to track certain things about ourselves. But this is clearly not exactly healthy IMO.</p>
+          <p>How can data scientists bring their technical knowledge to a non-technical audience? Here are my lessons learned from seven years in the data trenches.</p>
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">productivity</div>
-                <div class="quarto-category">futurism</div>
-                <div class="quarto-category">tech</div>
-                <div class="quarto-category">surveillance</div>
+                <div class="quarto-category">data science</div>
+                <div class="quarto-category">communication</div>
+                <div class="quarto-category">principles</div>
               </div>
                   </div>
   </div>
@@ -157,7 +156,7 @@ ga('send', {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">July 3, 2022</p>
+        <p class="date">July 20, 2022</p>
       </div>
     </div>
       
@@ -171,8 +170,10 @@ ga('send', {
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#self-surveillance" id="toc-self-surveillance" class="nav-link active" data-scroll-target="#self-surveillance">Self Surveillance</a></li>
-  <li><a href="#self-surveillance-as-a-service" id="toc-self-surveillance-as-a-service" class="nav-link" data-scroll-target="#self-surveillance-as-a-service">Self Surveillance as a Service</a></li>
+  <li><a href="#building-a-data-science-culture" id="toc-building-a-data-science-culture" class="nav-link active" data-scroll-target="#building-a-data-science-culture">Building a Data Science culture</a></li>
+  <li><a href="#when-the-simple-solution-wins" id="toc-when-the-simple-solution-wins" class="nav-link" data-scroll-target="#when-the-simple-solution-wins">When the Simple Solution Wins</a></li>
+  <li><a href="#mindsets" id="toc-mindsets" class="nav-link" data-scroll-target="#mindsets">Mindsets</a></li>
+  <li><a href="#bugs" id="toc-bugs" class="nav-link" data-scroll-target="#bugs">Bugs</a></li>
   <li><a href="#takeaways" id="toc-takeaways" class="nav-link" data-scroll-target="#takeaways">Takeaways</a></li>
   </ul>
 </nav>
@@ -186,45 +187,89 @@ ga('send', {
 
 
 
-<section id="self-surveillance" class="level1">
-<h1>Self Surveillance</h1>
-<p>I came across this <a href="https://flowingdata.com/2022/06/28/personal-life-dashboard/">article</a> in Flowing Data and thought it was fascinating.</p>
-<p>I’ve been on a productivity kick lately and notice these apps have habit trackers. I’ve tried using them in the past and have realized it gets too much too quickly. But that doesn’t mean as a data guy that I don’t think it’s a cool idea. It just overwhelms me.</p>
-<p>We’ll I discovered that me tracking a few habits a day is junior varsity level. <a href="https://howisfelix.today/?">Felix’s blog</a> is how it’s done to the extreme. Clearly this guy isn’t worried about Big Tech or Big Government harvesting his personal data. I love the boldness!</p>
-<p>This is just 1/20th of the full page screen shot:</p>
-<p><embed src="felix.pdf" class="img-fluid"></p>
-<p>The number of slices and views he has is endless. It’s crazy to see everything he’s tracking, partly I’m sure because he has fun with it and the other part because he deep down hopes there’s something there.</p>
-<p>His quote on Flowing Data has stuck with me:</p>
-<blockquote class="blockquote">
-<p>Overall, having spent a significant amount of time building this project, scaling it up to the size it’s at now, as well as analysing the data, the main conclusion is that it is not worth building your own solution, and investing this much time. When I first started building this project 3 years ago, I expected to learn way more surprising and interesting facts. There were some, and it’s super interesting to look through those graphs, however retrospectively, it did not justify the hundreds of hours I invested in this project.</p>
-</blockquote>
-<p>This guy probably knows himself in a way that none of us ever will. He can’t ever lie to himself and say “yea, I’m good at exercising every day” because he’s got the data to back it up. But is this the life we want?</p>
-</section>
-<section id="self-surveillance-as-a-service" class="level1 page-columns page-full">
-<h1>Self Surveillance as a Service</h1>
-<p>SSaaS? Apparently. Exist.io tries to find patterns in your personal data and tell you when your most happy.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="photo.jpeg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption margin-caption">Exist.io</figcaption><p></p>
-</figure>
+<section id="building-a-data-science-culture" class="level1">
+<h1>Building a Data Science culture</h1>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<p>When I researched the Apple Watch team a few years back I came to appreciate what they were/are trying to do: correlate heart monitoring with insurance claims data to proactively identify preemptive signs of cardiac arrest and other health issues.</p>
-<p>That seems meaningful in theory because information about other people can be correlated with information about me.</p>
-<p>But does info about myself correlate with info about myself? Probably. I have cycles. I have common traps and pitfalls like any human walking this earth. Some pitfalls are daily, some are quarterly or seasonal.</p>
-<p>But I can also take 5 minutes to ponder reflectively or talk to a close friend and identify those patterns. What’s more human?</p>
-<p>And what’s more: if you end up changing your behavior then your past can’t really predict your future. So all of the data becomes moot once it achieves its purpose: true lasting change. Because if you truly change your behavior based on the insights you glean about yourself, those past triggers and anomalies no longer affect you in the way they did. So when you experience a personal step change in life, you’re a new you. Maybe not. But maybe.</p>
-<p>Also, the new generations growing up on smartphones have a unique challenge: their online identities are given to them before they’re really conscious enough to determine if that’s what they want to show the world. Parents posting YouTube or TikToks of their kids are cementing for these kids an identity they themselves didn’t choose. We’ve all gone through phases of deleting Facebook photos from 15 years ago because it doesn’t reflect our current self image. What’s to be said of giving people an opportunity to change if everything they’ve ever said or done is recorded somewhere? Twitter. Instagram. TikTok. Facebook. Every post is cementing us in a way.</p>
-<p>I think it’s better to forget yesterday. Because it doesn’t have to have any bearing on where you’re going tomorrow. It can if you let it. But your past doesn’t have to define you.</p>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>TL;DR:</strong> Always keep it simple and always bring it back to the business need.</p>
+</div>
+</div>
+<p>A coworker once asked me for advice on how to bring technical rigor into a non-technical culture.</p>
+</section>
+<section id="when-the-simple-solution-wins" class="level1">
+<h1>When the Simple Solution Wins</h1>
+<p>A few years back I wanted to see if I could predict which NBA team would win in their next match. FiveThirtyEight is a blog that does this every day. Could I build a model as good as theirs?</p>
+<p>I built a few models and put up a <a href="https://bryanwhiting.github.io/sports/">site</a>. Below I have a table of accuracies for each of my models compared to FoveThirtyEight’s.</p>
+<p><img src="photo.jpeg" class="img-fluid"></p>
+<p>What I learned is that Nate Silver’s FiveThirtyEight three models are only 66% accurate. In 20 hours I got a model as accurate (V02 above) as his using just team level data (win %, recent win streak, etc.) and no player data (injuries, etc.). Also my model was built using data from 2005-2017 to predict 2019 performance. His model was updated daily with recent stats.</p>
+<p>But even more glaring is that if I made a prediction on a single feature (Home % &gt; Away %) I could achieve 63.7% accuracy. This feature is a 1 if the home teams win % is greater than the away teams win %, 0 otherwise. Meaning, the home team wins 63.7% of the time their season win % is higher than the away teams season win %.</p>
+<p>Was it worth building an XGBoost model with 30 features to get 65.8% accuracy when just a simple calculation is 63.7% accurate? Depends on business context and how valuable that 2% gain is and what the development/engineering cost of deploying a model is. But if I were you I’d start with the simple model to get it into production to start generating value and then come back later to optimize.</p>
+<p>Caveat: it took a lot of work to discover that feature. 90% of the problem was building the data set. So at the end, building a model was pretty simple once I had the data. (This is where cloud AutoML will take over going forward, sorry!.) And I needed the model to see the feature importance (this was the top feature.) This is a valid data science approach: use modeling to discover the patterns. But just because you have a model doesn’t mean it’s worth deploying.</p>
+<p>Keep it business focused: when building a recommendation system, start with “what’s most popular”. Why would you need K-means or whatever to begin? And can’t you build your own K-means by creating heuristic filters? For example: if you want to recommend me a shirt based on shirts I’ve searched, you can find all shirts of same color, price, and size and recommend those. Building a model to take into account dimensions, patterns, what others buy, etc is fine but should be a V2.</p>
+</section>
+<section id="mindsets" class="level1 page-columns page-full">
+<h1>Mindsets</h1>
+<p>There’s a temptation to act like an academic professor and use fancy jargon when working with your coworkers. Even worse, there’s a temptation to think you’re smarter than your coworkers because you know this mathy thing that they don’t. But remember this quote:</p>
+<blockquote class="blockquote page-columns page-full">
+<div class="page-columns page-full"><p>When they are learned they think they are wise…<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p><div class="no-row-height column-margin column-container"><li id="fn1" role="doc-endnote"><p><sup>1</sup>&nbsp;2 Nephi 9:28</p></li></div></div>
+</blockquote>
+<p>This pride power struggle is your downfall for two reasons:</p>
+<ol type="1">
+<li>It blinds you to thinking your solution is good just because someone else can’t understand it.</li>
+<li>It blinds you from focusing on what matters most: getting the simplest and best solution.</li>
+</ol>
+<p>Your coworkers aren’t your students eating you. They’re your smart coworkers solving the same problems you are.</p>
+<p>A better mindset is that of a professional athlete, like a football player. They might be dumb as bricks at times but they’re all incredibly smart players. Can you explain your technical solution like a pro football player would?</p>
+<ul>
+<li>Bad: “I built an XGBoost classification model that reduces the RMSE by minimizing the Gini coefficient on each node…”<br>
+</li>
+<li>Better: “I noticed that most users close the app after they reach this page. I tried looking at some reasons why and found a few common behaviors (DISCUSS, get feedback). I think we can predict when this will happen and here’s a framework to do that.”</li>
+</ul>
+<p>There’s a temptation to think “I did all this technical work, I should get credit for it!” My manager once coached me, “Your stakeholders should be amazed by how simple you made it. Not by how complicated the problem is.”</p>
+<p>The best example I know of this is Chris Voss, an FBI negotiator. Listen to his podcasts or YouTubes. He’s a humble guy and doesn’t get into the technical stuff. He knows the principles and keeps the explanations simple. He helps you feel smart when you listen to him. He’s one of the best negotiators in the world and if you were having dinner with him you’d think he was a normal guy. This is how data scientists should be.</p>
+</section>
+<section id="bugs" class="level1">
+<h1>Bugs</h1>
+<p>There are two types of bugs in data science: Software bugs and data bugs. You’ll spend 80% of your ramp up time on a project setting up your environment, learning the data, trying to understand the primary keys and logging and unique values, etc.</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Nobody cares about how you do any of this (the same way you don’t care about how cereal ends up in your grocery store), but they do care <em>that</em> you do it because it shows that you’re thinking about the right things.</p>
+<p>They’ll also worry that you’re spending too much time on the wrong thing, so make sure you believe your actions are solving a business purpose.</p>
+</div>
+</div>
 </section>
 <section id="takeaways" class="level1">
 <h1>Takeaways</h1>
-<p>Would you rather spend hours setting up digital automatic and manual tracking systems just to learn what you could by opening a gratitude journal every day? Sometimes less is more. I don’t think digital self surveillance is a direction we should go. (Not to mention the moment you do get hacked you’ll deeply regret it.)</p>
-<p>Even <a href="https://www.bbc.com/news/world-us-canada-57342967">blogging can be dangerous for your career</a>. Never know what’s gonna come back to haunt you years later.</p>
-<p>So I should be careful what I say here, that is if I ever care to work for a self surveillance company in the future.</p>
+<ul>
+<li>Focus on principles, not technical details.</li>
+<li>Get the simplest, useful solution into production first to start creating value. Then figure out if it’s worth optimizing. If your product gets deprecated in 3 months then the fancy model will be wasted time anyway.</li>
+<li>Your stakeholders should be amazed by how simple you made it. Not by how complicated the problem is.</li>
+<li>If you can’t explain a trend with a simple bar/line chart, a fancy regression model won’t do.</li>
+<li>Start with the non-technical (basic math) solution. Then see if you can beat the basic math with a fancy model. Evaluate the cost/benefit of the technical solution relative to the dumb version.</li>
+<li>when you have a fancy solution, make sure you compare it to the basic solution. Make sure you can beat the solution your teammates come up with. And make sure you carefully lead them from “their” solution to yours. “At first I tried X. X was fine. But X didn’t account for Y. So I built a model M and saw that M out performs X by 10%.”</li>
+<li>Just because you know/use math, doesn’t mean it’s right for the business. Data Scientists can easily be myopic because the work we do is challenging and deep in the weeds.</li>
+<li>Your boss doesn’t care about the nature of the bugs, but you should try to bring first principles to the table so she can cover for you. “I keep hitting this bug in the data. Can we ask/work with Infra team to solve this because it eats my time.”</li>
+</ul>
 
 
 </section>
+
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

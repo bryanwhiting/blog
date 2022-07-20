@@ -9,8 +9,109 @@
 <link>https://www.bryanwhiting.com/index.html</link>
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-0.9.640</generator>
-<lastBuildDate>Sun, 03 Jul 2022 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.0.35</generator>
+<lastBuildDate>Wed, 20 Jul 2022 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>De-sciencing Data Science and Talking Like a Normal Person</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="building-a-data-science-culture" class="level1">
+<h1>Building a Data Science culture</h1>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>TL;DR:</strong> Always keep it simple and always bring it back to the business need.</p>
+</div>
+</div>
+<p>A coworker once asked me for advice on how to bring technical rigor into a non-technical culture.</p>
+</section>
+<section id="when-the-simple-solution-wins" class="level1">
+<h1>When the Simple Solution Wins</h1>
+<p>A few years back I wanted to see if I could predict which NBA team would win in their next match. FiveThirtyEight is a blog that does this every day. Could I build a model as good as theirs?</p>
+<p>I built a few models and put up a <a href="https://bryanwhiting.github.io/sports/">site</a>. Below I have a table of accuracies for each of my models compared to FoveThirtyEight’s.</p>
+<p><img src="https://www.bryanwhiting.com/posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/photo.jpeg" class="img-fluid"></p>
+<p>What I learned is that Nate Silver’s FiveThirtyEight three models are only 66% accurate. In 20 hours I got a model as accurate (V02 above) as his using just team level data (win %, recent win streak, etc.) and no player data (injuries, etc.). Also my model was built using data from 2005-2017 to predict 2019 performance. His model was updated daily with recent stats.</p>
+<p>But even more glaring is that if I made a prediction on a single feature (Home % &gt; Away %) I could achieve 63.7% accuracy. This feature is a 1 if the home teams win % is greater than the away teams win %, 0 otherwise. Meaning, the home team wins 63.7% of the time their season win % is higher than the away teams season win %.</p>
+<p>Was it worth building an XGBoost model with 30 features to get 65.8% accuracy when just a simple calculation is 63.7% accurate? Depends on business context and how valuable that 2% gain is and what the development/engineering cost of deploying a model is. But if I were you I’d start with the simple model to get it into production to start generating value and then come back later to optimize.</p>
+<p>Caveat: it took a lot of work to discover that feature. 90% of the problem was building the data set. So at the end, building a model was pretty simple once I had the data. (This is where cloud AutoML will take over going forward, sorry!.) And I needed the model to see the feature importance (this was the top feature.) This is a valid data science approach: use modeling to discover the patterns. But just because you have a model doesn’t mean it’s worth deploying.</p>
+<p>Keep it business focused: when building a recommendation system, start with “what’s most popular”. Why would you need K-means or whatever to begin? And can’t you build your own K-means by creating heuristic filters? For example: if you want to recommend me a shirt based on shirts I’ve searched, you can find all shirts of same color, price, and size and recommend those. Building a model to take into account dimensions, patterns, what others buy, etc is fine but should be a V2.</p>
+</section>
+<section id="mindsets" class="level1 page-columns page-full">
+<h1>Mindsets</h1>
+<p>There’s a temptation to act like an academic professor and use fancy jargon when working with your coworkers. Even worse, there’s a temptation to think you’re smarter than your coworkers because you know this mathy thing that they don’t. But remember this quote:</p>
+<blockquote class="blockquote page-columns page-full">
+<div class="page-columns page-full"><p>When they are learned they think they are wise…<sup>1</sup></p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;2 Nephi 9:28</p></li></div></div>
+</blockquote>
+<p>This pride power struggle is your downfall for two reasons:</p>
+<ol type="1">
+<li>It blinds you to thinking your solution is good just because someone else can’t understand it.</li>
+<li>It blinds you from focusing on what matters most: getting the simplest and best solution.</li>
+</ol>
+<p>Your coworkers aren’t your students eating you. They’re your smart coworkers solving the same problems you are.</p>
+<p>A better mindset is that of a professional athlete, like a football player. They might be dumb as bricks at times but they’re all incredibly smart players. Can you explain your technical solution like a pro football player would?</p>
+<ul>
+<li>Bad: “I built an XGBoost classification model that reduces the RMSE by minimizing the Gini coefficient on each node…”<br>
+</li>
+<li>Better: “I noticed that most users close the app after they reach this page. I tried looking at some reasons why and found a few common behaviors (DISCUSS, get feedback). I think we can predict when this will happen and here’s a framework to do that.”</li>
+</ul>
+<p>There’s a temptation to think “I did all this technical work, I should get credit for it!” My manager once coached me, “Your stakeholders should be amazed by how simple you made it. Not by how complicated the problem is.”</p>
+<p>The best example I know of this is Chris Voss, an FBI negotiator. Listen to his podcasts or YouTubes. He’s a humble guy and doesn’t get into the technical stuff. He knows the principles and keeps the explanations simple. He helps you feel smart when you listen to him. He’s one of the best negotiators in the world and if you were having dinner with him you’d think he was a normal guy. This is how data scientists should be.</p>
+</section>
+<section id="bugs" class="level1">
+<h1>Bugs</h1>
+<p>There are two types of bugs in data science: Software bugs and data bugs. You’ll spend 80% of your ramp up time on a project setting up your environment, learning the data, trying to understand the primary keys and logging and unique values, etc.</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Nobody cares about how you do any of this (the same way you don’t care about how cereal ends up in your grocery store), but they do care <em>that</em> you do it because it shows that you’re thinking about the right things.</p>
+<p>They’ll also worry that you’re spending too much time on the wrong thing, so make sure you believe your actions are solving a business purpose.</p>
+</div>
+</div>
+</section>
+<section id="takeaways" class="level1">
+<h1>Takeaways</h1>
+<ul>
+<li>Focus on principles, not technical details.</li>
+<li>Get the simplest, useful solution into production first to start creating value. Then figure out if it’s worth optimizing. If your product gets deprecated in 3 months then the fancy model will be wasted time anyway.</li>
+<li>Your stakeholders should be amazed by how simple you made it. Not by how complicated the problem is.</li>
+<li>If you can’t explain a trend with a simple bar/line chart, a fancy regression model won’t do.</li>
+<li>Start with the non-technical (basic math) solution. Then see if you can beat the basic math with a fancy model. Evaluate the cost/benefit of the technical solution relative to the dumb version.</li>
+<li>when you have a fancy solution, make sure you compare it to the basic solution. Make sure you can beat the solution your teammates come up with. And make sure you carefully lead them from “their” solution to yours. “At first I tried X. X was fine. But X didn’t account for Y. So I built a model M and saw that M out performs X by 10%.”</li>
+<li>Just because you know/use math, doesn’t mean it’s right for the business. Data Scientists can easily be myopic because the work we do is challenging and deep in the weeds.</li>
+<li>Your boss doesn’t care about the nature of the bugs, but you should try to bring first principles to the table so she can cover for you. “I keep hitting this bug in the data. Can we ask/work with Infra team to solve this because it eats my time.”</li>
+</ul>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
+  <category>data science</category>
+  <category>communication</category>
+  <category>principles</category>
+  <guid>https://www.bryanwhiting.com/posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html</guid>
+  <pubDate>Wed, 20 Jul 2022 00:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/photo.jpeg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>When data collection goes too far</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -40,7 +141,7 @@
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="https://www.bryanwhiting.com/posts/2022-07-03-when-data-collection-goes-too-far/photo.jpeg" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<p></p><figcaption class="figure-caption margin-caption">Exist.io</figcaption><p></p>
 </figure>
 </div>
 <p>When I researched the Apple Watch team a few years back I came to appreciate what they were/are trying to do: correlate heart monitoring with insurance claims data to proactively identify preemptive signs of cardiac arrest and other health issues.</p>
@@ -351,13 +452,13 @@
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="https://www.bryanwhiting.com/posts/2022-06-23-what-is-the-best-todo-list-manager?/photo.jpeg" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<p></p><figcaption class="figure-caption margin-caption">To Do has smart text parsing.</figcaption><p></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="https://www.bryanwhiting.com/posts/2022-06-23-what-is-the-best-todo-list-manager?/photo-2.jpeg" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<p></p><figcaption class="figure-caption margin-caption">To Do has “smart suggestions” that you can add to your day.</figcaption><p></p>
 </figure>
 </div>
 </section>
@@ -581,7 +682,7 @@
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/photo.jpeg" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<p></p><figcaption class="figure-caption margin-caption">Every pea is unique. But it’s still a pea.</figcaption><p></p>
 </figure>
 </div>
 <p>Online experiments are powerful tools to see the causal impact of a business strategy. Tweak something, see what users do.</p>
