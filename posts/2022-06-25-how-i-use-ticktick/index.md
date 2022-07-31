@@ -10,6 +10,7 @@ draft: false
 
 ![](photo.jpeg)
 
+
 I’ve recently read “Atomic Habits”, “Deep Work”, “The Power of Habit”, “Getting Things Done”, “Essentialism” and “Effortless”. These productivity paradigms influence this post. 
 
 Inspired by [this Reddit post](https://www.reddit.com/r/ticktick/comments/v5n3x4/how_do_i_use_ticktick_lists_and_tags/?utm_source=share&utm_medium=ios_app&utm_name=iossmf), I’ve tried thinking how I want apply the principles of GTD and these other paradigms. I think GTD is great for me because it helps me get ideas out of my head and Essentialism is a better pursuit to make sure I’m not caught up in minutia. I don’t see them as incongruent, but one as an ideation organization approach and the other as a relentless focus. 
