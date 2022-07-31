@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.586">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="author" content="Bryan Whiting">
+<meta name="dcterms.date" content="2018-07-02">
+<meta name="description" content="Meaningful versioning for data science models and machine learning pipelines.">
+<title>Bryan Whiting - Semantic Versioning for Data Science Models</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script><script type="text/javascript">
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-85616639-1', 'auto');
+
+ga('send', {
+  hitType: 'pageview',
+  'anonymizeIp': true,
+});
+</script><style>html{ scroll-behavior: smooth; }</style>
+<script async="" src="https://hypothes.is/embed.js"></script><link rel="stylesheet" href="../../styles.css">
+</head>
+<body class="floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg navbar-dark "><div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Bryan Whiting</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+<li class="nav-item">
+    <a class="nav-link" href="../../index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">About</a>
+  </li>  
+</ul>
+<ul class="navbar-nav navbar-nav-scroll ms-auto">
+<li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/bryan-whiting/"><i class="bi bi-linkedin" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/bryanwhiting"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/bryanwhiting"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../index.xml"><i class="bi bi-rss" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+<div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav></header><!-- content --><header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full"><div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Semantic Versioning for Data Science Models</h1>
+                  <div>
+        <div class="description">
+          <p>Meaningful versioning for data science models and machine learning pipelines.</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">data science</div>
+                <div class="quarto-category">machine learning</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Bryan Whiting </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">July 2, 2018</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto"><nav id="TOC" role="doc-toc"><h2 id="toc-title">Contents</h2>
+   
+  <ul>
+<li><a href="#semantic-versioning-for-software" id="toc-semantic-versioning-for-software" class="nav-link active" data-scroll-target="#semantic-versioning-for-software">Semantic Versioning for Software</a></li>
+  <li>
+<a href="#semantic-versioning-for-data-science-models" id="toc-semantic-versioning-for-data-science-models" class="nav-link" data-scroll-target="#semantic-versioning-for-data-science-models">Semantic Versioning for Data Science Models</a>
+  <ul class="collapse">
+<li>
+<a href="#an-example" id="toc-an-example" class="nav-link" data-scroll-target="#an-example">An Example</a>
+  <ul class="collapse">
+<li><a href="#changing-between" id="toc-changing-between" class="nav-link" data-scroll-target="#changing-between">Changing BETWEEN</a></li>
+  <li><a href="#changing-within" id="toc-changing-within" class="nav-link" data-scroll-target="#changing-within">Changing WITHIN</a></li>
+  <li><a href="#changing-process" id="toc-changing-process" class="nav-link" data-scroll-target="#changing-process">Changing PROCESS</a></li>
+  </ul>
+</li>
+  </ul>
+</li>
+  <li><a href="#final-thoughts" id="toc-final-thoughts" class="nav-link" data-scroll-target="#final-thoughts">Final Thoughts</a></li>
+  </ul></nav>
+</nav><!-- margin-sidebar --><div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content"><p>If you’ve ever wanted to tag your data science model, you’ve probably wondered how to version it. Which will it be: vx.4.1, v34.1231.51.21, or v91.x4.dev34? After reading about <em>semantic versioning</em>, I propose a method for versioning data science models.</p>
+<section id="semantic-versioning-for-software" class="level1"><h1>Semantic Versioning for Software</h1>
+<p>Semantic versioning <a href="https://semver.org/">proposes the following</a>:</p>
+<blockquote class="blockquote">
+<p>Given a version number MAJOR.MINOR.PATCH, increment the:</p>
+<ol type="1">
+<li>MAJOR version when you make incompatible API changes,</li>
+<li>MINOR version when you add functionality in a backwards-compatible manner, and</li>
+<li>PATCH version when you make backwards-compatible bug fixes.</li>
+</ol>
+<p>Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format. Well, I don’t build APIs right now, but I think there is a way to apply this to the ways in which my software <em>does</em> change.</p>
+</blockquote>
+</section><section id="semantic-versioning-for-data-science-models" class="level1"><h1>Semantic Versioning for Data Science Models</h1>
+<p>I propose that data science models use BETWEEN.WITHIN.PROCESS versioning, incrementing the</p>
+<ol type="1">
+<li>BETWEEN version when you have an incompatible data change or target variable change, which render your models incomparable to prior versions, the</li>
+<li>WITHIN version when you improve or enhance a model output, and the</li>
+<li>PROCESS version when you update a pipeline but it doesn’t ultimately improve the model.</li>
+</ol>
+<p>(Where BETWEEN implies ‘between model’ and WITHIN for ‘within model’.)</p>
+<section id="an-example" class="level2"><h2 class="anchored" data-anchor-id="an-example">An Example</h2>
+<p>I build data science models by building python packages and committing the code to GitHub. The python package contains all of the support files and a <code>main.py</code> file to run the pipeline from start to finish. The support files could contain either helpful loggers to tell me where the pipeline is breaking down, diagnostic tools such as an AUC-ROC plot, files to engineer features, or files to train different model types. So there are really these three things that could happen to my code at any time. It doesn’t matter where those changes occur, or how many lines of code changed. What matters is what’s happened to the model. Each time I get a pull request approved, I’ll update the version number in my repo.</p>
+<section id="changing-between" class="level3"><h3 class="anchored" data-anchor-id="changing-between">Changing BETWEEN</h3>
+<p>Increment the BETWEEN version for the following changes:</p>
+<ul>
+<li>When the structure of your data changes</li>
+<li>If your target variable changes (how you coded it, or data that produced the target changed)</li>
+<li>The underlying population you’re training on changes</li>
+</ul>
+<p>Assume I discovered that I had a bad join. The join change might have been a minor one, but it’s now difficult to really compare the two models because my target was affected as a result. What I was predicting, even if slightly different, is now something different. If you ever feel like you’re comparing apples to oranges when looking at an AUC-ROC curve, update the BETWEEN version.</p>
+<p>With each BETWEEN change, there should be a clear communication in the release notes of why the model is inherently different from prior models. These changes should be less frequent.</p>
+</section><section id="changing-within" class="level3"><h3 class="anchored" data-anchor-id="changing-within">Changing WITHIN</h3>
+<p>Increment the WITHIN number when the following happens:</p>
+<ul>
+<li>Features are added</li>
+<li>Data sources are added or updated. (You might have several data sources today that help contribute to the target. But adding a data source might just mean adding new features. If you add data in such a way that it changes what you’re ultimately modeling, update the BETWEEN version.)</li>
+<li>New modeling types are added. (You might be using a logistic regression, but add a mo)</li>
+</ul>
+<p>So if I added files that allowed me to train different model types, or added files that engineered new features, I’d incrememnt the WITHIN version. In my mind, this shouldn’t be a <em>count</em> of features you include, but should just be incremented every time you do something that affects the model performance.</p>
+<p>At any time, you might what to view different subsets of features and their effect on the model. So, you might not change the number of features, but add some functionality into your pipeline that now produces three different models in each run. I would increment the WITHIN version number in that case.</p>
+<p>Remember, the goal of this type of versioning is to show generally what’s changed in your pipeline.</p>
+</section><section id="changing-process" class="level3"><h3 class="anchored" data-anchor-id="changing-process">Changing PROCESS</h3>
+<p>Increment the PROCESS version when the following happens:</p>
+<ul>
+<li>A minor bug is fixed (unless this updates BETWEEN or WITHIN)</li>
+<li>Enhance a logger or aspect of the pipeline</li>
+<li>Add a diagnostic plot or table</li>
+</ul>
+<p>Basically, any time you add something that doesn’t ultimately affect the performance of the model, you should update the PROCESS version. Your changes might improve the flow of your code and make you a much happier developer, but if it doesn’t improve the model, then the key priority of your code hasn’t improved.</p>
+</section></section></section><section id="final-thoughts" class="level1"><h1>Final Thoughts</h1>
+<p>Ultimately, data science semantic versioning can help communicate to team members what has fundamentally changed between software versions. Easily, a manager, colleague, or model governance officer could see the following version numbers and be able to know generally what’s changed:</p>
+<ol type="1">
+<li>
+<code>0.0.1</code>: Process improvement</li>
+<li>
+<code>0.1.0</code>: Model improvement</li>
+<li>
+<code>0.2.0</code>: Model improvement</li>
+<li>
+<code>1.0.0</code>: Model change</li>
+<li>
+<code>1.1.0</code>: Model improvement</li>
+<li>
+<code>1.1.1</code>: Process improvement</li>
+</ol>
+<p>So what changed?</p>
+<ol type="1">
+<li>
+<code>0.0.1</code>: Setting up the code base, but no model or features yet</li>
+<li>
+<code>0.1.0</code>: Finished a model, or added some features</li>
+<li>
+<code>0.2.0</code>: Added some features</li>
+<li>
+<code>1.0.0</code>: Discovered a bug in the target variable, something was miscoded. What is being predicted now changes (but you still have all the old features!)</li>
+<li>
+<code>1.1.0</code>: Added some new features</li>
+<li>
+<code>1.1.1</code>: Added a new plot to assess the financial impact of the model, but model doesn’t inherently change.</li>
+</ol>
+<p>This type of versioning also ultimately encourages a more disciplined workflow. Each sets of commit should be focused on one task alone. Because every time you update a version number, numbers to the right should refresh to zero. That’s how the theory goes, at least.</p>
+
+
+</section><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

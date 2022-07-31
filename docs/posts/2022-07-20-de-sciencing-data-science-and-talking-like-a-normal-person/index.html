@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.586">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Bryan Whiting">
+<meta name="dcterms.date" content="2022-07-20">
+<meta name="description" content="How can data scientists bring their technical knowledge to a non-technical audience? Here are my lessons learned from seven years in the data trenches.">
+
+<title>Bryan Whiting - De-sciencing Data Science and Talking Like a Normal Person</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+<script type="text/javascript">
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-85616639-1', 'auto');
+
+ga('send', {
+  hitType: 'pageview',
+  'anonymizeIp': true,
+});
+</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<script async="" src="https://hypothes.is/embed.js"></script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="floating nav-fixed slimcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Bryan Whiting</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html">Home</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">About</a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/bryan-whiting/"><i class="bi bi-linkedin" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/bryanwhiting"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/bryanwhiting"><i class="bi bi-twitter" role="img">
+</i> 
+ </a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../index.xml"><i class="bi bi-rss" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">De-sciencing Data Science and Talking Like a Normal Person</h1>
+                  <div>
+        <div class="description">
+          <p>How can data scientists bring their technical knowledge to a non-technical audience? Here are my lessons learned from seven years in the data trenches.</p>
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">data science</div>
+                <div class="quarto-category">communication</div>
+                <div class="quarto-category">principles</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Bryan Whiting </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">July 20, 2022</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#building-a-data-science-culture" id="toc-building-a-data-science-culture" class="nav-link active" data-scroll-target="#building-a-data-science-culture">Building a Data Science culture</a></li>
+  <li><a href="#when-the-simple-solution-wins" id="toc-when-the-simple-solution-wins" class="nav-link" data-scroll-target="#when-the-simple-solution-wins">When the Simple Solution Wins</a></li>
+  <li><a href="#mindsets" id="toc-mindsets" class="nav-link" data-scroll-target="#mindsets">Mindsets</a></li>
+  <li><a href="#bugs" id="toc-bugs" class="nav-link" data-scroll-target="#bugs">Bugs</a></li>
+  <li><a href="#takeaways" id="toc-takeaways" class="nav-link" data-scroll-target="#takeaways">Takeaways</a></li>
+  </ul>
+</nav>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
+
+
+
+<section id="building-a-data-science-culture" class="level1">
+<h1>Building a Data Science culture</h1>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>TL;DR:</strong> Always keep it simple and always bring it back to the business need.</p>
+</div>
+</div>
+<p>A coworker once asked me for advice on how to bring technical rigor into a non-technical culture.</p>
+</section>
+<section id="when-the-simple-solution-wins" class="level1">
+<h1>When the Simple Solution Wins</h1>
+<p>A few years back I wanted to see if I could predict which NBA team would win in their next match. FiveThirtyEight is a blog that does this every day. Could I build a model as good as theirs?</p>
+<p>I built a few models and put up a <a href="https://bryanwhiting.github.io/sports/">site</a>. Below I have a table of accuracies for each of my models compared to FoveThirtyEight’s.</p>
+<p><img src="photo.jpeg" class="img-fluid"></p>
+<p>What I learned is that Nate Silver’s FiveThirtyEight three models are only 66% accurate. In 20 hours I got a model as accurate (V02 above) as his using just team level data (win %, recent win streak, etc.) and no player data (injuries, etc.). Also my model was built using data from 2005-2017 to predict 2019 performance. His model was updated daily with recent stats.</p>
+<p>But even more glaring is that if I made a prediction on a single feature (Home % &gt; Away %) I could achieve 63.7% accuracy. This feature is a 1 if the home teams win % is greater than the away teams win %, 0 otherwise. Meaning, the home team wins 63.7% of the time their season win % is higher than the away teams season win %.</p>
+<p>Was it worth building an XGBoost model with 30 features to get 65.8% accuracy when just a simple calculation is 63.7% accurate? Depends on business context and how valuable that 2% gain is and what the development/engineering cost of deploying a model is. But if I were you I’d start with the simple model to get it into production to start generating value and then come back later to optimize.</p>
+<p>Caveat: it took a lot of work to discover that feature. 90% of the problem was building the data set. So at the end, building a model was pretty simple once I had the data. (This is where cloud AutoML will take over going forward, sorry!.) And I needed the model to see the feature importance (this was the top feature.) This is a valid data science approach: use modeling to discover the patterns. But just because you have a model doesn’t mean it’s worth deploying.</p>
+<p>Keep it business focused: when building a recommendation system, start with “what’s most popular”. Why would you need K-means or whatever to begin? And can’t you build your own K-means by creating heuristic filters? For example: if you want to recommend me a shirt based on shirts I’ve searched, you can find all shirts of same color, price, and size and recommend those. Building a model to take into account dimensions, patterns, what others buy, etc is fine but should be a V2.</p>
+</section>
+<section id="mindsets" class="level1 page-columns page-full">
+<h1>Mindsets</h1>
+<p>There’s a temptation to act like an academic professor and use fancy jargon when working with your coworkers. Even worse, there’s a temptation to think you’re smarter than your coworkers because you know this mathy thing that they don’t. But remember this quote:</p>
+<blockquote class="blockquote page-columns page-full">
+<div class="page-columns page-full"><p>When they are learned they think they are wise…<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p><div class="no-row-height column-margin column-container"><li id="fn1" role="doc-endnote"><p><sup>1</sup>&nbsp;2 Nephi 9:28</p></li></div></div>
+</blockquote>
+<p>This pride power struggle is your downfall for two reasons:</p>
+<ol type="1">
+<li>It blinds you to thinking your solution is good just because someone else can’t understand it.</li>
+<li>It blinds you from focusing on what matters most: getting the simplest and best solution.</li>
+</ol>
+<p>Your coworkers aren’t your students eating you. They’re your smart coworkers solving the same problems you are.</p>
+<p>A better mindset is that of a professional athlete, like a football player. They might be dumb as bricks at times but they’re all incredibly smart players. Can you explain your technical solution like a pro football player would?</p>
+<ul>
+<li>Bad: “I built an XGBoost classification model that reduces the RMSE by minimizing the Gini coefficient on each node…”<br>
+</li>
+<li>Better: “I noticed that most users close the app after they reach this page. I tried looking at some reasons why and found a few common behaviors (DISCUSS, get feedback). I think we can predict when this will happen and here’s a framework to do that.”</li>
+</ul>
+<p>There’s a temptation to think “I did all this technical work, I should get credit for it!” My manager once coached me, “Your stakeholders should be amazed by how simple you made it. Not by how complicated the problem is.”</p>
+<p>The best example I know of this is Chris Voss, an FBI negotiator. Listen to his podcasts or YouTubes. He’s a humble guy and doesn’t get into the technical stuff. He knows the principles and keeps the explanations simple. He helps you feel smart when you listen to him. He’s one of the best negotiators in the world and if you were having dinner with him you’d think he was a normal guy. This is how data scientists should be.</p>
+</section>
+<section id="bugs" class="level1">
+<h1>Bugs</h1>
+<p>There are two types of bugs in data science: Software bugs and data bugs. You’ll spend 80% of your ramp up time on a project setting up your environment, learning the data, trying to understand the primary keys and logging and unique values, etc.</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Nobody cares about how you do any of this (the same way you don’t care about how cereal ends up in your grocery store), but they do care <em>that</em> you do it because it shows that you’re thinking about the right things.</p>
+<p>They’ll also worry that you’re spending too much time on the wrong thing, so make sure you believe your actions are solving a business purpose.</p>
+</div>
+</div>
+</section>
+<section id="takeaways" class="level1">
+<h1>Takeaways</h1>
+<ul>
+<li>Focus on principles, not technical details.</li>
+<li>Get the simplest, useful solution into production first to start creating value. Then figure out if it’s worth optimizing. If your product gets deprecated in 3 months then the fancy model will be wasted time anyway.</li>
+<li>Your stakeholders should be amazed by how simple you made it. Not by how complicated the problem is.</li>
+<li>If you can’t explain a trend with a simple bar/line chart, a fancy regression model won’t do.</li>
+<li>Start with the non-technical (basic math) solution. Then see if you can beat the basic math with a fancy model. Evaluate the cost/benefit of the technical solution relative to the dumb version.</li>
+<li>when you have a fancy solution, make sure you compare it to the basic solution. Make sure you can beat the solution your teammates come up with. And make sure you carefully lead them from “their” solution to yours. “At first I tried X. X was fine. But X didn’t account for Y. So I built a model M and saw that M out performs X by 10%.”</li>
+<li>Just because you know/use math, doesn’t mean it’s right for the business. Data Scientists can easily be myopic because the work we do is challenging and deep in the weeds.</li>
+<li>Your boss doesn’t care about the nature of the bugs, but you should try to bring first principles to the table so she can cover for you. “I keep hitting this bug in the data. Can we ask/work with Infra team to solve this because it eats my time.”</li>
+</ul>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
