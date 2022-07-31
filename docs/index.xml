@@ -10,7 +10,844 @@
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-0.9.586</generator>
-<lastBuildDate>Sat, 17 Jul 2021 07:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 20 Jul 2022 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>De-sciencing Data Science and Talking Like a Normal Person</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="building-a-data-science-culture" class="level1">
+<h1>Building a Data Science culture</h1>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>TL;DR:</strong> Always keep it simple and always bring it back to the business need.</p>
+</div>
+</div>
+<p>A coworker once asked me for advice on how to bring technical rigor into a non-technical culture.</p>
+</section>
+<section id="when-the-simple-solution-wins" class="level1">
+<h1>When the Simple Solution Wins</h1>
+<p>A few years back I wanted to see if I could predict which NBA team would win in their next match. FiveThirtyEight is a blog that does this every day. Could I build a model as good as theirs?</p>
+<p>I built a few models and put up a <a href="https://bryanwhiting.github.io/sports/">site</a>. Below I have a table of accuracies for each of my models compared to FoveThirtyEight’s.</p>
+<p><img src="https://www.bryanwhiting.com/posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/photo.jpeg" class="img-fluid"></p>
+<p>What I learned is that Nate Silver’s FiveThirtyEight three models are only 66% accurate. In 20 hours I got a model as accurate (V02 above) as his using just team level data (win %, recent win streak, etc.) and no player data (injuries, etc.). Also my model was built using data from 2005-2017 to predict 2019 performance. His model was updated daily with recent stats.</p>
+<p>But even more glaring is that if I made a prediction on a single feature (Home % &gt; Away %) I could achieve 63.7% accuracy. This feature is a 1 if the home teams win % is greater than the away teams win %, 0 otherwise. Meaning, the home team wins 63.7% of the time their season win % is higher than the away teams season win %.</p>
+<p>Was it worth building an XGBoost model with 30 features to get 65.8% accuracy when just a simple calculation is 63.7% accurate? Depends on business context and how valuable that 2% gain is and what the development/engineering cost of deploying a model is. But if I were you I’d start with the simple model to get it into production to start generating value and then come back later to optimize.</p>
+<p>Caveat: it took a lot of work to discover that feature. 90% of the problem was building the data set. So at the end, building a model was pretty simple once I had the data. (This is where cloud AutoML will take over going forward, sorry!.) And I needed the model to see the feature importance (this was the top feature.) This is a valid data science approach: use modeling to discover the patterns. But just because you have a model doesn’t mean it’s worth deploying.</p>
+<p>Keep it business focused: when building a recommendation system, start with “what’s most popular”. Why would you need K-means or whatever to begin? And can’t you build your own K-means by creating heuristic filters? For example: if you want to recommend me a shirt based on shirts I’ve searched, you can find all shirts of same color, price, and size and recommend those. Building a model to take into account dimensions, patterns, what others buy, etc is fine but should be a V2.</p>
+</section>
+<section id="mindsets" class="level1 page-columns page-full">
+<h1>Mindsets</h1>
+<p>There’s a temptation to act like an academic professor and use fancy jargon when working with your coworkers. Even worse, there’s a temptation to think you’re smarter than your coworkers because you know this mathy thing that they don’t. But remember this quote:</p>
+<blockquote class="blockquote page-columns page-full">
+<div class="page-columns page-full"><p>When they are learned they think they are wise…<sup>1</sup></p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;2 Nephi 9:28</p></li></div></div>
+</blockquote>
+<p>This pride power struggle is your downfall for two reasons:</p>
+<ol type="1">
+<li>It blinds you to thinking your solution is good just because someone else can’t understand it.</li>
+<li>It blinds you from focusing on what matters most: getting the simplest and best solution.</li>
+</ol>
+<p>Your coworkers aren’t your students eating you. They’re your smart coworkers solving the same problems you are.</p>
+<p>A better mindset is that of a professional athlete, like a football player. They might be dumb as bricks at times but they’re all incredibly smart players. Can you explain your technical solution like a pro football player would?</p>
+<ul>
+<li>Bad: “I built an XGBoost classification model that reduces the RMSE by minimizing the Gini coefficient on each node…”<br>
+</li>
+<li>Better: “I noticed that most users close the app after they reach this page. I tried looking at some reasons why and found a few common behaviors (DISCUSS, get feedback). I think we can predict when this will happen and here’s a framework to do that.”</li>
+</ul>
+<p>There’s a temptation to think “I did all this technical work, I should get credit for it!” My manager once coached me, “Your stakeholders should be amazed by how simple you made it. Not by how complicated the problem is.”</p>
+<p>The best example I know of this is Chris Voss, an FBI negotiator. Listen to his podcasts or YouTubes. He’s a humble guy and doesn’t get into the technical stuff. He knows the principles and keeps the explanations simple. He helps you feel smart when you listen to him. He’s one of the best negotiators in the world and if you were having dinner with him you’d think he was a normal guy. This is how data scientists should be.</p>
+</section>
+<section id="bugs" class="level1">
+<h1>Bugs</h1>
+<p>There are two types of bugs in data science: Software bugs and data bugs. You’ll spend 80% of your ramp up time on a project setting up your environment, learning the data, trying to understand the primary keys and logging and unique values, etc.</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Nobody cares about how you do any of this (the same way you don’t care about how cereal ends up in your grocery store), but they do care <em>that</em> you do it because it shows that you’re thinking about the right things.</p>
+<p>They’ll also worry that you’re spending too much time on the wrong thing, so make sure you believe your actions are solving a business purpose.</p>
+</div>
+</div>
+</section>
+<section id="takeaways" class="level1">
+<h1>Takeaways</h1>
+<ul>
+<li>Focus on principles, not technical details.</li>
+<li>Get the simplest, useful solution into production first to start creating value. Then figure out if it’s worth optimizing. If your product gets deprecated in 3 months then the fancy model will be wasted time anyway.</li>
+<li>Your stakeholders should be amazed by how simple you made it. Not by how complicated the problem is.</li>
+<li>If you can’t explain a trend with a simple bar/line chart, a fancy regression model won’t do.</li>
+<li>Start with the non-technical (basic math) solution. Then see if you can beat the basic math with a fancy model. Evaluate the cost/benefit of the technical solution relative to the dumb version.</li>
+<li>when you have a fancy solution, make sure you compare it to the basic solution. Make sure you can beat the solution your teammates come up with. And make sure you carefully lead them from “their” solution to yours. “At first I tried X. X was fine. But X didn’t account for Y. So I built a model M and saw that M out performs X by 10%.”</li>
+<li>Just because you know/use math, doesn’t mean it’s right for the business. Data Scientists can easily be myopic because the work we do is challenging and deep in the weeds.</li>
+<li>Your boss doesn’t care about the nature of the bugs, but you should try to bring first principles to the table so she can cover for you. “I keep hitting this bug in the data. Can we ask/work with Infra team to solve this because it eats my time.”</li>
+</ul>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
+  <category>data science</category>
+  <category>communication</category>
+  <category>principles</category>
+  <guid>https://www.bryanwhiting.com/posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html</guid>
+  <pubDate>Wed, 20 Jul 2022 07:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/photo.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>When data collection goes too far</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2022-07-03-when-data-collection-goes-too-far/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="self-surveillance" class="level1">
+<h1>Self Surveillance</h1>
+<p>I came across this <a href="https://flowingdata.com/2022/06/28/personal-life-dashboard/">article</a> in Flowing Data and thought it was fascinating.</p>
+<p>I’ve been on a productivity kick lately and notice these apps have habit trackers. I’ve tried using them in the past and have realized it gets too much too quickly. But that doesn’t mean as a data guy that I don’t think it’s a cool idea. It just overwhelms me.</p>
+<p>We’ll I discovered that me tracking a few habits a day is junior varsity level. <a href="https://howisfelix.today/?">Felix’s blog</a> is how it’s done to the extreme. Clearly this guy isn’t worried about Big Tech or Big Government harvesting his personal data. I love the boldness!</p>
+<p>This is just 1/20th of the full page screen shot:</p>
+<p><embed src="felix.pdf" class="img-fluid"></p>
+<p>The number of slices and views he has is endless. It’s crazy to see everything he’s tracking, partly I’m sure because he has fun with it and the other part because he deep down hopes there’s something there.</p>
+<p>His quote on Flowing Data has stuck with me:</p>
+<blockquote class="blockquote">
+<p>Overall, having spent a significant amount of time building this project, scaling it up to the size it’s at now, as well as analysing the data, the main conclusion is that it is not worth building your own solution, and investing this much time. When I first started building this project 3 years ago, I expected to learn way more surprising and interesting facts. There were some, and it’s super interesting to look through those graphs, however retrospectively, it did not justify the hundreds of hours I invested in this project.</p>
+</blockquote>
+<p>This guy probably knows himself in a way that none of us ever will. He can’t ever lie to himself and say “yea, I’m good at exercising every day” because he’s got the data to back it up. But is this the life we want?</p>
+</section>
+<section id="self-surveillance-as-a-service" class="level1 page-columns page-full">
+<h1>Self Surveillance as a Service</h1>
+<p>SSaaS? Apparently. Exist.io tries to find patterns in your personal data and tell you when your most happy.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/posts/2022-07-03-when-data-collection-goes-too-far/photo.jpeg" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+<p>When I researched the Apple Watch team a few years back I came to appreciate what they were/are trying to do: correlate heart monitoring with insurance claims data to proactively identify preemptive signs of cardiac arrest and other health issues.</p>
+<p>That seems meaningful in theory because information about other people can be correlated with information about me.</p>
+<p>But does info about myself correlate with info about myself? Probably. I have cycles. I have common traps and pitfalls like any human walking this earth. Some pitfalls are daily, some are quarterly or seasonal.</p>
+<p>But I can also take 5 minutes to ponder reflectively or talk to a close friend and identify those patterns. What’s more human?</p>
+<p>And what’s more: if you end up changing your behavior then your past can’t really predict your future. So all of the data becomes moot once it achieves its purpose: true lasting change. Because if you truly change your behavior based on the insights you glean about yourself, those past triggers and anomalies no longer affect you in the way they did. So when you experience a personal step change in life, you’re a new you. Maybe not. But maybe.</p>
+<p>Also, the new generations growing up on smartphones have a unique challenge: their online identities are given to them before they’re really conscious enough to determine if that’s what they want to show the world. Parents posting YouTube or TikToks of their kids are cementing for these kids an identity they themselves didn’t choose. We’ve all gone through phases of deleting Facebook photos from 15 years ago because it doesn’t reflect our current self image. What’s to be said of giving people an opportunity to change if everything they’ve ever said or done is recorded somewhere? Twitter. Instagram. TikTok. Facebook. Every post is cementing us in a way.</p>
+<p>I think it’s better to forget yesterday. Because it doesn’t have to have any bearing on where you’re going tomorrow. It can if you let it. But your past doesn’t have to define you.</p>
+</section>
+<section id="takeaways" class="level1">
+<h1>Takeaways</h1>
+<p>Would you rather spend hours setting up digital automatic and manual tracking systems just to learn what you could by opening a gratitude journal every day? Sometimes less is more. I don’t think digital self surveillance is a direction we should go. (Not to mention the moment you do get hacked you’ll deeply regret it.)</p>
+<p>Even <a href="https://www.bbc.com/news/world-us-canada-57342967">blogging can be dangerous for your career</a>. Never know what’s gonna come back to haunt you years later.</p>
+<p>So I should be careful what I say here, that is if I ever care to work for a self surveillance company in the future.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
+  <category>productivity</category>
+  <category>futurism</category>
+  <category>tech</category>
+  <category>surveillance</category>
+  <guid>https://www.bryanwhiting.com/posts/2022-07-03-when-data-collection-goes-too-far/index.html</guid>
+  <pubDate>Sun, 03 Jul 2022 07:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/2022-07-03-when-data-collection-goes-too-far/photo.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Pomodoro Principles</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2022-06-28-pomodoro-principles/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://www.bryanwhiting.com/posts/2022-06-28-pomodoro-principles/photo.jpeg" class="img-fluid"></p>
+<p>I’ve been trying a Pomodoro timer in TickTick and it’s changing how I approach my work day. I’ve been using it for two days so far and here are the differences I notice:</p>
+<ul>
+<li>When my mind knows I’ll get a break at 25 minutes, it allows me to focus more.</li>
+<li>It’s easier to say not to slack messages or impulses to open the news if I know I’ll have time for those things later.</li>
+<li>A 5 min break is perfect.</li>
+<li>If a distraction pops up, I write it down in my journal and tell myself I can follow up during my break.</li>
+<li>25 minutes is short. It’s amazing how time flies.</li>
+</ul>
+<p>I used to hate timing myself after working in consulting. I vowed I would never work on the clock ever again. But don’t the best athletes pace themselves? Any marathon trainer knows how to set a pace and have rest periods. Why wouldn’t the same principles apply to cognitive work?</p>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
+  <category>productivity</category>
+  <category>ticktick</category>
+  <guid>https://www.bryanwhiting.com/posts/2022-06-28-pomodoro-principles/index.html</guid>
+  <pubDate>Tue, 28 Jun 2022 07:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/2022-06-28-pomodoro-principles/photo.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Increase Focus through Writing Down Everything</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2022-06-28-increase-focus-through-writing-down-everything/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>The GTD framework preaches something to the effect of “get every todo item down and into a system. It may take dozens or hundreds of tasks to get it all out.” Essentially, if a task is in your mind, it will slow you down. But if you put it down on paper, it will free your mind to think on other things. Also, more ideas will come.</p>
+<p>I’ve put perhaps a hundred things down on paper in the last few days. Interestingly, ideas I had forgotten about came back to my mind. I wrote these down.</p>
+<p>There got to a point today though where I had so much on my screen I felt overwhelmed. How will I ever sort through all this mess?</p>
+<p>Thankfully, most of the things don’t need to get done and are either “eventually” or “someday maybe” tasks, and not “asap” tasks. So just ignore them.</p>
+<p>And secondly, I always “know” what’s most important. This documentation process doesn’t change that. It just helps me to get all the distractions out of my head and down on paper.</p>
+<p>Spending time organizing all this stuff seems like a potential waste. But what I realize is that it improves my just-in-time recall. If earlier in the day I planned to buy a dish scrubber in the evening, when the evening rolls around that task magically comes back to my mind. So it’s really just front loading all the decision making and prioritizing. I think our brains are capable of more subconscious processing than we realize.</p>
+<p>(Pause entry to buy dish scrubber…) okay, I’m back.</p>
+<p>Another idea that’s having an effect on me is the 2 min rule. If a task takes less than 2 min, don’t organize it. Just do it. Powerfully, this mindset helps me to care less about two min tasks. Or, sometimes there’s a tendency to over exaggerate the stress something will cause. Like buying a scrubber could be a 10 min task if you want to find the perfect one. But if you only allocate yourself 2 min, you realize this is only a $6 decision and I have better things to do with my time.</p>
+<p>Lastly, I love being deliberate about tasks by writing down the intended outcome of a task. It’s very easy as a data scientist to get swallowed up in all the weeds. Or, rather, when your task is to dig up a gem it’s easy to get distracted by all the weeds that need to be pulled that are in your way. So by being clear about the reason I’m diving into the data in the first place helps me re-surface less scathed. Data are a dirty business…</p>
+<section id="takeaways" class="level1">
+<h1>Takeaways</h1>
+<p>The effect of the GTD framework?</p>
+<ol type="1">
+<li>Less FOMO. By writing down everything I can see clearly that 1) I don’t have time for all of it and 2) the stuff I care about pops up.</li>
+<li>I don’t have to worry about what I’m not doing because I can easily say no to it as I say yes to something better.</li>
+<li>I can see broader connections between a litany of things. This helps me prioritize what my subconscious has been telling me by nagging me about X ideas.</li>
+<li>If I start working on something not in my list it makes me ask if this thing is fealty worth my time when I know I have a ton of other stuff to do. (Recency bias I spoke about in my other blog post.)</li>
+</ol>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
+  <category>productivity</category>
+  <category>musings</category>
+  <category>ticktick</category>
+  <guid>https://www.bryanwhiting.com/posts/2022-06-28-increase-focus-through-writing-down-everything/index.html</guid>
+  <pubDate>Tue, 28 Jun 2022 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How I use TickTick</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2022-06-25-how-i-use-ticktick/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://www.bryanwhiting.com/posts/2022-06-25-how-i-use-ticktick/photo.jpeg" class="img-fluid"></p>
+<p>I’ve recently read “Atomic Habits”, “Deep Work”, “The Power of Habit”, “Getting Things Done”, “Essentialism” and “Effortless”. These productivity paradigms influence this post.</p>
+<p>Inspired by <a href="https://www.reddit.com/r/ticktick/comments/v5n3x4/how_do_i_use_ticktick_lists_and_tags/?utm_source=share&amp;utm_medium=ios_app&amp;utm_name=iossmf">this Reddit post</a>, I’ve tried thinking how I want apply the principles of GTD and these other paradigms. I think GTD is great for me because it helps me get ideas out of my head and Essentialism is a better pursuit to make sure I’m not caught up in minutia. I don’t see them as incongruent, but one as an ideation organization approach and the other as a relentless focus.</p>
+<p>Five steps of GTD:</p>
+<ol type="1">
+<li>Capture</li>
+<li>Clarify</li>
+<li>Organize</li>
+<li>Review</li>
+<li>Engage</li>
+</ol>
+<section id="capture" class="level1">
+<h1>Capture</h1>
+<p>I have an iOS shortcut that lets me quickly add a TickTick task to my inbox. I put this on my Home Screen for instant access and to avoid distraction. I want to capture the idea, not open TickTick and get distracted by other ideas.</p>
+<p>Or I use the TickTick today widget and upload it to today directly. Depends on the task and how detailed I want to be.</p>
+</section>
+<section id="clarify" class="level1">
+<h1>Clarify</h1>
+<p>Here’s the system I use to clarify.</p>
+<p>Definitions:</p>
+<ul>
+<li>Task: an action item.</li>
+<li>Project: an intended outcome with multiple tasks.</li>
+<li>Epic: an intended outcome with multiple projects.</li>
+<li>Key Result: high level, long term accomplishment. (Increase revenue 10%)</li>
+<li>Objective: a squishy, feel-good purpose statement. “Deepen relationships with loved ones.”</li>
+</ul>
+<p>Task grooming process: Groom the inbox every night and identify the intended outcome and next action. Tag the task.</p>
+<ul>
+<li>If the task was “send Birthday card”, that’s really an intended outcome and is a small project. The tasks are 1) buy card from CVS, 2) put in envelope with stamp, 3) drop in mailbox. These three subtasks need to be understood. But a separate inbox entry may be “pay phone bill by sitting down at my computer at 10pm”. This isn’t a project. It’s just a one off thing. But it can still be clarified with details.</li>
+<li>Label if it’s a project or not. Use iOS shortcuts to make this really easy. For example, gg = “🎯 #Project”</li>
+<li>The challenge is if I should have things as projects or as individual tasks. I would say that as much as things can be independent, keep them tasks. Like “apply for credit card1” and “apply for credit card 2” are both personal finance tasks. But they are independent.</li>
+<li>A task isn’t necessarily short and a project isn’t necessarily long. It’s just whether this Indy ended outcome has multiple steps or not that might be done over a few days, whereas a task is probably done in one sitting.</li>
+<li>It’s assumed that unless something is a task, it’s a project.</li>
+<li>Every epic has its own name. I nest epics under “Work &gt; #Epic1, #Epic2”, etc. This helps me organize my work deliverables. I have like 5 epics right now at work that will span several quarters.</li>
+</ul>
+<p>Then I may choose to add tags with metadata, which I haven’t figured out if this is useful yet. But “Atomic Habits” says the best way to get stuff done is to stack it. So here is my tagging system to help me stack:</p>
+<ul>
+<li>Commitment: ASAP, Eventually, Someday Maybe. Will I do this task eventually? Pay a bill - yes. Learn a language - someday maybe.<br>
+</li>
+<li>Duration: 5min, 30min, 1hr, 2hr, 4hr. 9hr (all day)</li>
+<li>Location (where to do the task): Home, Desk, Car, Backyard. Most work things are done at my desk. But perhaps some can be done while taking a walk. Most personal things are done around the house or on the couch at night.</li>
+<li>Time of Day: “1: Pre work”. “2: start of workday. 3: lunchtime, 4: afternoon, 5: after work, 6: nighttime”</li>
+<li>Focus: “Deepwork” or “shallow”. Deep work should be uninterrupted and be 3 hours long.</li>
+<li>Severity: S1: if I don’t do this nothing will happen. S3: not doing this will have bad consequences or lots of regret. S2 - in between :).</li>
+<li>Deadline: I’m still thinking about this one. To me there’s a difference between mowing the law which has a linear cost of looking worse each day for not being cut and failing to pay my taxes, which has festeringly worse consequences the longer I put it off (pay a fine, end up in jail, etc.). I guess this is captured implicitly in “ASAP” commitment. But paying my taxes is only a cost (preventing negative outcomes) versus the ASAP of getting my project finished (positive consequences).
+<ul>
+<li>None (default): no consequence for never doing this.</li>
+<li>Binary: You either make the deadline or never and this opportunity ceases forever.</li>
+<li>Rolling: If you miss the deadline there will be another.</li>
+<li>Festering: the longer you put this off the worse it becomes, but no deadline.</li>
+</ul></li>
+</ul>
+<p>As I write this, this sounds like overkill…classic me. I sincerely doubt it’s useful to of all of this. But having the system available will let me use what I need when I need it. If I’m still using any of this in a month that’ll be a miracle. But I’m going to start with something in mind and go from there.</p>
+</section>
+<section id="organize" class="level1 page-columns page-full">
+<h1>Organize</h1>
+<ol type="1">
+<li>Once clarified, move out of inbox into a list “work” or “personal”.<sup>1</sup></li>
+<li>Prioritize.</li>
+<li>Delegate. (Myself, someone else.)</li>
+<li>Assign due dates and times (if not already done)</li>
+</ol>
+<div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;Tags and lists are identical except Lists have sections and views (such as Kanban). In a list you can sort by tag and vice versa. But each task can only appear in one list whereas tags are infinite. I noticed that choosing which list something belongs to can be cumbersome if it’s in a nested list, so I want only high level lists (no folders) and have this be simple. I also have “personal” and “work” tags which have projects within them, so I don’t really see why I’d need to duplicate this. On second thought, each task can only belong to one work project so it’d make sense for this to be my grouping. I suppose I just don’t want to manage all that. Or, I chose to use tags to manage my projects because I was cheap and I can only have 9 lists on the free version but unlimited tags? Either way this is easy to reorganize later if I choose to switch. Tags it is for now.</p></li></div></section>
+<section id="review" class="level1">
+<h1>Review</h1>
+<ul>
+<li>Each night I will review the days tasks and re-prioritize as needed.</li>
+<li>Pin the one task/project I want to get done that day.
+<ul>
+<li>Essentialism says to take the 6 tasks of the day and choose just one. Then identify what else you need to say no to to ensure you have the energy to accomplish that task.</li>
+</ul></li>
+<li>Weekly planning session to review all of this.</li>
+</ul>
+</section>
+<section id="engage" class="level1">
+<h1>Engage</h1>
+<ul>
+<li>Don’t work on any tasks in a day/week that weren’t planned for that day (unless something comes up).</li>
+</ul>
+</section>
+<section id="final-thoughts" class="level1">
+<h1>Final Thoughts</h1>
+<p>A task system should be saving me time, not consuming it. It should be relaxing me and my anxieties, not amplifying them. I’m going to give this 30 days and see if my stress decreases and productivity increase. If so, I’ll keep using this system.</p>
+<p>GTD states that by <em>not</em> writing down all the ideas, you waste energy because things come back to nag you later. But surely energy is wasted by organizing a valueless idea.</p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
+  <category>productivity</category>
+  <guid>https://www.bryanwhiting.com/posts/2022-06-25-how-i-use-ticktick/index.html</guid>
+  <pubDate>Sat, 25 Jun 2022 07:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/2022-06-25-how-i-use-ticktick/photo.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Getting Things Done</title>
+  <link>https://www.bryanwhiting.com/book-reviews/2022-06-24-getting-things-done/index.html</link>
+  <description><![CDATA[ 
+
+
+
+<p><img src="https://www.bryanwhiting.com/book-reviews/2022-06-24-getting-things-done/photo.jpeg" class="img-fluid"></p>
+<section id="principles-and-core-insights" class="level1">
+<h1>Principles and Core Insights</h1>
+<p>After 21% my takeaways are:</p>
+<ol type="1">
+<li>“My mind is weighed down by all of the ideas of things I can do.” I waste my time on todos that are just “go to doctor”, but should be “schedule appointment to go to doctor”. Anything that only takes 2 min should be done immediately. Anything longer later. But I love that clarity - I’ve often written lots of todos but not from the “next action to take” perspective.</li>
+<li>“Visions can be built from the ground up rather than just top down.” I’ve tried writing down big visions for my 10 year future and it never works for me. I’ve got anxiety when I try to think where I want to be in 10 years. I mean, I know I want to be happy, be best friends with my wife and kids and have meaningful relationships but whether I’m still a data scientist or a farmer by then is anyones guess. (I wanna keep my options open.) But as I look at the things on my todo list and “eventual” to do list, a different picture emerges. I know I want to be a writer (hence this blog), I know I want to travel to XYZ location, to be involved in giving back, etc. TLDR: I know things I want to experience in life. I don’t have to craft value statements and invent ideas of what to do (seems forced). Instead I can reflect on what’s currently exciting and important to me and categorize those things into high levels values/missions. This will help me when I need to prioritize so not every whim of an idea gets my attention.</li>
+<li>GTD book just lays out what a todo is. It breaks down the problem of doing things (big and small) into what they are (time sensitive, someday, etc). Whether I’ll follow the system is up for debate, but I love the ideas so far. It very much fits my naturally organized mind, but may not work for more spontaneous folks that don’t like as much structure and list keeping.</li>
+<li>Most of my “todos” have been “intended outcomes”, but not “next actions”. For example, I see I have “change car battery” on my list right now and “plan yosemite trip”. But these aren’t todos. I can’t organize and prioritize outcomes. I can only organize and prioritize actions, he says. Changing these to “call mechanic to book oil and battery change and identify an hour in your calendar”. And “open recreation.gov when walking around the house and find a campsite.”</li>
+<li>Organize tasks around where you’ll do them. This is in line with Atomic habits which states to be hyper specific about where and when you’ll do something. “Call grandma when I get into my car tomorrow morning to go to work.” Or “take a moment at my desk during lunchtime to find a mechanic by opening Google Maps and plan an oil change. Find 1 open hour on the calendar.”</li>
+</ol>
+</section>
+<section id="putting-it-into-practice" class="level1 page-columns page-full">
+<h1>Putting it into practice</h1>
+<p>I’ve been using TickTick for my task manager, which has Lists (folders) where I can put my tasks and tags so I can label and categorize each task. Here’s my organization strategy:</p>
+<ul>
+<li>When jotting ideas write intended outcome and next action as my todo.</li>
+<li>Tag with where I’ll do it and provide day or time it’s due (if applicable)<br>
+</li>
+<li>Move each item to a respective list:
+<ul>
+<li>ASAP - there’s a useful urgency to this task (begin memo)</li>
+<li>Eventually - there’s no urgency but I know I’ll want to do this</li>
+<li>Someday maybe - no urgency and no commitment, but it’s an idea of something I want to do.</li>
+</ul></li>
+<li>Tagging system: tag each item with either Work or Personal. Then within that, some meaningful themes:
+<ul>
+<li>ProjectName (work deliverable or personal project like “ImproveMyHealth”, “BuildApp”)<sup>1</sup></li>
+<li>Location (where I’ll do it). Around the house. At desk. In car. While cleaning the house, etc. this is habit stacking. Most work stuff is done at my desk.</li>
+<li>when I’ll do it. Stack with other activities. Examples: Before lunch.</li>
+<li>Duration (how long it takes: 1, 2, 4 hours, 5, 30min). This might be useful for planning.</li>
+</ul></li>
+<li>List system. Move from inbox to list when properly categorized. I like “Work” and “Personal” lists. I think since you can use unlimited tags, and tags can be nested in TickTick, there’s no substantive differ ne between list and tag. Not sure yet how to use the TickTick lists when tags are so useful. Lists of work and personal.</li>
+</ul>
+<div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;<strong>Deciding Vision</strong>: As I write this, choosing a project might be a good place to insert a goal (intended outcome) as a project name. Instead of Exercise, the intended outcome is improving health. The goal is being able to run a 5k. So perhaps goal/objective is “ImproveHealth” and KR is “run 5k”. These goals can be identified by asking the 5 whys. If I have an idea if “go running” as my task, a good grounds-up vision exercise would be to ask “why do I want to run a mile tomorrow? Is it to accomplish something or to relax my mind? Why is relaxing my mind important to me? Why is my mental health important? Etc. I think subconsciously ideas come of what to do next all the time “I should work out” but rarely do I take the time to ask “why do I see the need to work out? What’s the greater vision here for this task?” Understanding that vision can help prioritize and build a desire to accomplish the task. If the idea “learn a new language” comes up, asking why can help me realize “oh, this is just for fun and won’t be for anything meatier than having fun! No pressure on this task and maybe I’ll never do it.” The nag to run a mile might help me realize “I need to take care of my health, and this can’t wait.”</p></li></div><p>In summary:</p>
+<ul>
+<li>Idea/task comes.</li>
+<li>Document in inbox.</li>
+<li>Clarify the intended outcome and the next action.</li>
+<li>Organize: tag. Set up reminder. Move out of inbox to list.</li>
+<li>Review and Prioritize: understand where these ideas will take you and choose your adventure.</li>
+<li>Do!</li>
+</ul>
+
+
+</section>
+
+
+ ]]></description>
+  <category>book review</category>
+  <category>productivity</category>
+  <guid>https://www.bryanwhiting.com/book-reviews/2022-06-24-getting-things-done/index.html</guid>
+  <pubDate>Fri, 24 Jun 2022 07:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/book-reviews/2022-06-24-getting-things-done/photo.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>What is the best todo list manager?</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2022-06-23-what-is-the-best-todo-list-manager?/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://www.bryanwhiting.com/posts/2022-06-23-what-is-the-best-todo-list-manager?/app.jpeg" class="img-fluid"></p>
+<p>Wirecutter reviewed the <a href="https://www.nytimes.com/wirecutter/reviews/best-to-do-list-app/">best todo list</a> apps and declared “ticktick” the winner. After all my research here’s what I’ve learned.</p>
+<section id="types-of-todo-list-apps" class="level1">
+<h1>Types of Todo list apps</h1>
+<p>Programmers love wasting time making todo list apps apparently, because this is one wheel that’s reinvented by anyone with their own way of doing things. When at a FAANG company, I saw five different todo/project management applications.</p>
+<p>People like me also waste a lot of time trying to find the right system and then waste more time writing blog posts out there. I suppose it’s just cathartic to get all of this info out there.</p>
+<p>Generally I observe that these apps fall into the following categories:</p>
+<ol type="1">
+<li>Basic check lists: iPhone Notes app, Google Keep</li>
+<li>Task managers: Todoist, To Do, Things3, TickTick, Google Tasks</li>
+<li>Daily planners: Structured</li>
+<li>Project managers: Notion, Asana, Monday, GitHub Projects, Jira</li>
+<li>Automatic calendars: Motion and Reclaim.</li>
+</ol>
+<p>Each has their strengths generally along the dimension of managing own work and managing work with others.</p>
+<p>At the end of the day, I want to manage my own tasks. If my collaborators use something like Jira or GitHub projects, I still have to decide if I want to record all my next steps in these platforms or use something more designed to handle the nitty gritty.</p>
+</section>
+<section id="comparisons" class="level1 page-columns page-full">
+<h1>Comparisons</h1>
+<p>For this to be a great blog post I would include screen shots. But I’m still not even sure people read my blog so I’m just going to give you a brain dump and you can go check out the apps yourself.</p>
+<p>I considered many dimensions but this is what I came up with as a core feature set:</p>
+<ul>
+<li>Good iOS widget. I want to see my tasks on the home page of my iPhone.</li>
+<li>Calendar integration</li>
+<li>Mac App and iPhone app</li>
+<li>Smart time parsing</li>
+<li>Nested Lists/tags. This lets me easily see across projects at work or home.</li>
+<li>Duration.</li>
+</ul>
+<section id="structured" class="level2">
+<h2 class="anchored" data-anchor-id="structured">Structured</h2>
+<p>The highest rated app for planning on the App Store is “Structured”. Where this app excels is it’s simplicity. It’s likely best for someone like a student that wants to plan out when they’ll get their homework done. What I loved about this app, and what I wish many others apps had, is a duration estimation for a task. Why is it so hard for developers to realize that tasks take time? They obsess over list keeping and app design but ignore the second most basic question: how long will this take? Structured kind of solves this. What I don’t like about this app is the design. While others praise it for its beauty and simplicity I thought the visual feel of it was distracting.</p>
+</section>
+<section id="microsoft-to-do" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="microsoft-to-do">Microsoft To Do</h2>
+<p>Microsoft To Do used to be a favorite of mine. I loved its daily planner and smart suggestions. It has the philosophy that every day you should start fresh. All unfinished tasks will be removed from today and you’re left to pick and choose what you want to do. The fatal limitation however is that it lacks the ability to plan tomorrows a tasks the day before. So this forces people to have to populate their tasks at the start of the day. This is the worst time for planning for me because I want to get up and get going ASAP. (But honestly most times I wake up 15 minutes before my first meeting or am spending time pouring milk into my kids’ cereal.) Morning is not the best time to plan a day for me, so I lost interest here.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/posts/2022-06-23-what-is-the-best-todo-list-manager?/photo.jpeg" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/posts/2022-06-23-what-is-the-best-todo-list-manager?/photo-2.jpeg" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+</section>
+<section id="todoist" class="level2">
+<h2 class="anchored" data-anchor-id="todoist">Todoist</h2>
+<p>I’ve tried many times to get into Todoist. It has smart text parsing which is apparently best in class from my Reddit research.</p>
+<p>Things it has:</p>
+<ul>
+<li>Projects can have section labels. This lets you organize your list more meaningfully. This is great, only that TickTick does it better. Each project in TickTick can have subprojects. These subprojects act like sections. You can also move subproject from one list to another.</li>
+</ul>
+<p><img src="https://www.bryanwhiting.com/posts/2022-06-23-what-is-the-best-todo-list-manager?/todoist.png" class="img-fluid"></p>
+<p>Things it lacks:</p>
+<ul>
+<li>Can’t nest labels (tags)</li>
+<li>Can’t create labels dynamically - you need to manually add them on the label screen before a task can leverage them.</li>
+<li>Can’t pull in my calendar.</li>
+<li>Doesn’t have check items, only subtasks.</li>
+</ul>
+</section>
+<section id="sorted3" class="level2">
+<h2 class="anchored" data-anchor-id="sorted3">Sorted3</h2>
+<p>This app takes a different design. It’s main selling point is the ability to auto schedule your day based on the tasks you have for that day.</p>
+<p>Pros:</p>
+<ul>
+<li>Rich formatting on description. Supports markdown.</li>
+<li>clean UI. Good shortcuts.</li>
+<li>integrates with calendar to plan your day.</li>
+<li>Easily plan duration.<br>
+</li>
+<li>Really nice widgets.</li>
+</ul>
+<p>Cons:</p>
+<ul>
+<li>Doesn’t have subtasks, but has check boxes</li>
+<li>No prioritization or smart filters. Just tags and lists.</li>
+<li>Can’t easily see across lists like you can in TickTick</li>
+</ul>
+<p>Auto schedule is nice but could be kind of gimmicky. If you have 8 meetings in a day and five 30 min free blocks but all your tasks for the day are an hour, it would put all your tasks at the end of the day. I found it kind of buggy.</p>
+</section>
+<section id="automated" class="level2">
+<h2 class="anchored" data-anchor-id="automated">Automated</h2>
+<p>Motion became popular as a calendar organizer. Add a task and Motion will figure out when to do that for you. If you change your meeting then Motion will adjust when your tasks will get done. Cons: it’s expensive ($20-$35 per month). It’s mobile app is horrid. It didn’t seem like it offered sub tasks and all that. So you really need to trust the algorithm.</p>
+<p><img src="https://www.bryanwhiting.com/posts/2022-06-23-what-is-the-best-todo-list-manager?/motion.jpeg" class="img-fluid"></p>
+<p>It gets the notion of task-duration right. But if you want to jot down notes of all the next actions you need to take on a project, your up the creek. I’m also not sure how it handles task dependency - if I put in 5 tasks for a project will it know their order? Not sure. Again I’ve never tried this app so take this all with a grain of salt.</p>
+<p>Reclaim is another app claiming to do the same thing and offers a free tier. I did as much as set up my account with this.</p>
+<p>Perhaps if I gave these more attention they’d prove their worth. I’ve tried calendaring my todos in the past and it hasn’t been very effective for me. Perhaps these apps would solve it but I think I need a good mobile app.</p>
+<p>Anyway, you can’t beat free and free is working for me on TickTick right now. Also, my calendar is very open generally so I don’t have the same problems a busy manager might have.</p>
+<p>I think these apps would be best for people who have meeting heavy workflows. It handles the schedules as you need.</p>
+</section>
+<section id="akiflow" class="level2">
+<h2 class="anchored" data-anchor-id="akiflow">Akiflow</h2>
+<p>This app seemed expensive ($15/mo), no mobile app, but has an awesome calendar. The philosophy is you have to assign every task to a date and time to move it out of the inbox. That seemed like a headache to me, and seemed like I’d be constantly managing the inbox. That and I’m cheap and want a mobile app.</p>
+</section>
+<section id="sunsama" class="level2">
+<h2 class="anchored" data-anchor-id="sunsama">Sunsama</h2>
+<p>$20 per mo or $192/year. Super fast customer support.</p>
+<p>Features: * Mobile app, Mac app. * Duration</p>
+<p>Pros: * Channels (lists) * great shortcuts * can align tasks with objectives * more of a mindful daily planner * Integrates with Todoist and other apps. You can pull in all to foist metadata including subtasks and check them off in Sunsama. Additionally, you can add duration and calendar your Todoist tasks. * Can export all the tasks to csv. * Can split calendar events.</p>
+<p>Cons: * Widgets are weak * No priority labels * No task tags/labels. (But you can use Todoist for this if you want.)</p>
+</section>
+<section id="reclaim.ai" class="level2">
+<h2 class="anchored" data-anchor-id="reclaim.ai">Reclaim.ai</h2>
+<p>Task manager isn’t as good as Sunsama. Only $8/mo for pro. Has todoist integration too, but that’s a pro feature.</p>
+<p>This is one I’ll want to try later. It has the habit tracking and smart flexible calendaring. Not sure how good of a task manager it is. TBD.</p>
+</section>
+<section id="vimcal" class="level2">
+<h2 class="anchored" data-anchor-id="vimcal">Vimcal</h2>
+<p>Fast calendar. Not for tasks or backlogs it seems though. Didn’t try.</p>
+</section>
+<section id="asana" class="level2">
+<h2 class="anchored" data-anchor-id="asana">Asana</h2>
+<p>Oh man, how many times have I downloaded Asana? I started with it in 2014 and thought it was cool. Trying it again in 2022 it had a similar feel.</p>
+<p>Asana is the only task manager app I reviewed that has dependency management. Sure, Jira has blockers and all that but Jiras more aimed toward high level project management. It’s not fast at the</p>
+<p>Other things I remember liking:</p>
+<ul>
+<li>infinite subtasks. This was fun and also distracting.</li>
+<li>Automation features. You can create workflows for what happens to a task</li>
+<li>Communication. It has a nice inbox feature that let me communicate with my manager easily.</li>
+</ul>
+<p>Cons:</p>
+<ul>
+<li>Clunky on the board management. If I want to start a new project things get messy and overwhelming.</li>
+</ul>
+</section>
+<section id="jiragithub-projects" class="level2">
+<h2 class="anchored" data-anchor-id="jiragithub-projects">Jira/GitHub projects</h2>
+<p>Great at a high level but messy to manage the gritty day to day. Doesn’t let you schedule or put due dates. So eventually I’d need some other tool to manage all the minutia of getting things done.</p>
+</section>
+<section id="not-considered" class="level2">
+<h2 class="anchored" data-anchor-id="not-considered">Not considered</h2>
+<p>I didn’t look at Things3 or OmniFocus, which are considered of the best tools. Things3 was too expensive and seemed like it had many of the same features as TickTick, except I personally didn’t like the UI.</p>
+</section>
+</section>
+<section id="why-ticktick" class="level1">
+<h1>Why TickTick?</h1>
+<p>For a free app, TickTick has a ton of features. It’s by far the most feature rich free app around. I almost want to pay them just because the app is so good. I decided I will do this only if 30 days from now I’m still using it :)</p>
+<p>This is the first app I’ve seen that lets you take a task and drag it into a calendar and set a time. This is by far the most intuitive method to me of planning: have a sense for what needs to get done on a day, and the night before plan it out.</p>
+<p>Things I love about TickTick:</p>
+<ul>
+<li>They pay attention to all the details. For example, a minor detail is how the tags appear on the task. If you tag something three times, what order should they appear in? Well, TickTick let’s you arrange the order of the tags on the menu bar. The menu-bar order determines how the tags will be ordered visually.</li>
+<li>You can nest tags. This makes it easy to see across projects. For example I use a “Work” tag and individual project tags that are nested under work. I can then click on the parent tag and see across all my subproject tags.</li>
+<li>You can pin tasks, which puts those tasks at the top of your widget, top of your today, etc.</li>
+<li>The widgets are amazing. They’re really clear and concise. The tasks are ordered how I think they should be based on what I’ve pinned or prioritized.</li>
+<li>The calendar integration so great. It’s super easy to drag a task onto today’s calendar and set its duration.</li>
+<li>Pomodoro timer. This focus mode lets me see how long I spend on a task.</li>
+<li>Slack integration. Add a task from a slack comment.</li>
+<li>Task templates are great for keeping packing lists and such.</li>
+<li>TickTick let’s you take notes in addition to making tasks. Notes support markdown and can be tagged like any task.</li>
+<li>The app is so customizable! Everything in the app can be easily rearranged or hidden as you want.</li>
+</ul>
+<p>It has a ton of other features I haven’t mentioned yet, like the Eisenhower matrix and an Gantt chart.</p>
+<p>Cons:</p>
+<ul>
+<li>Can’t automate my calendar easily.</li>
+<li>I get distracted adding everything into the app. Managing the task manager is a thing.</li>
+</ul>
+</section>
+<section id="takeaways-and-other-meta-points" class="level1">
+<h1>Takeaways and other Meta Points</h1>
+<p>I’ve learned a lot about all the apps out there and I can say that what will work for me today might not work for me tomorrow as my roles and responsibilities change.</p>
+<p>I’ve heard it said that effectiveness is getting a task done. Efficiency is knowing what to work on. None of these apps solve for efficiency, which is arguably the core productivity killer.</p>
+<p>Reddit is a great place to learn how other people use these tools. I consulted Reddit threads for TickTick and Todoist to hear how others use the app.</p>
+</section>
+<section id="disclaimer" class="level1">
+<h1>Disclaimer</h1>
+<p>I’ve only used TickTick app for 7 days now at work, and 30 days while on paternity leave. If I’m still using it 3 months from now I’ll come back and do another post.</p>
+</section>
+<section id="apps-reviewed" class="level1">
+<h1>Apps reviewed</h1>
+<p>Project/Team managers</p>
+<ul>
+<li>Asana</li>
+<li>ClickUp</li>
+<li>Monday.com</li>
+<li>Jira</li>
+<li>GitHub projects</li>
+</ul>
+<p>To do lists</p>
+<ul>
+<li>Any.Do</li>
+<li>Microsoft To Do</li>
+<li>Google Tasks</li>
+<li>Taskade</li>
+<li>Tasks</li>
+<li>Todoist</li>
+<li>Structured</li>
+<li>Sorted3</li>
+<li>GQueues</li>
+</ul>
+<p>Document apps</p>
+<ul>
+<li>Craft</li>
+<li>Apple Notes</li>
+<li>Workflowy</li>
+</ul>
+<p>Scheduling apps</p>
+<ul>
+<li>Tascaly</li>
+<li>Sunsama</li>
+<li>Motion</li>
+<li>Reclaim.ai</li>
+<li>Akiflow</li>
+</ul>
+<p>Not reviewed:</p>
+<ul>
+<li>OmniFocus</li>
+<li>Things3</li>
+</ul>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
+  <category>productivity</category>
+  <category>app review</category>
+  <guid>https://www.bryanwhiting.com/posts/2022-06-23-what-is-the-best-todo-list-manager?/index.html</guid>
+  <pubDate>Thu, 23 Jun 2022 07:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/2022-06-23-what-is-the-best-todo-list-manager?/app.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>New ideas are distractingly exciting</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>When a new idea comes to my mind, I want to act on it right away. Perhaps it’s an exciting analysis idea, a new business strategy I want to scope out, or a question to ask a team member.</p>
+<p>But as I look back at my backlog of things to work on, all of these ideas were also equally exciting.</p>
+<p>Why is it that new ideas have more weight than old ideas?</p>
+<p>They say that effectiveness is working quickly on tasks. Efficiency is knowing what to work on. Discipline is the ability to overcome the excitement of a new idea and place it in proper context of all ideas. Sanity is actively saying no to many ideas so you don’t get inundated.</p>
+<p>Perhaps a good strategy is to have a “gut check” for ideas. If they don’t pass the highest threshold then let them go.</p>
+<p>Process:</p>
+<ol type="1">
+<li>What’s the new idea?</li>
+<li>What’s the potential impact? What would I do with the output of this idea?</li>
+<li>How feasible is it?</li>
+</ol>
+<p>Step 3 is tricky because I don’t want a good idea to go to waste just because it’s hard. Judgment is weighing the trade off between impact and feasibility.</p>
+<p>I like Google Forms for logging ideas. It’s easy to save a Google Form URL to the home screen of my iPhone to make logging new ideas easy. Grooming those ideas is important. Letting go of old ideas is essential. If only I could do the essential…</p>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
+  <category>productivity</category>
+  <category>priorities</category>
+  <category>ideation</category>
+  <guid>https://www.bryanwhiting.com/posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html</guid>
+  <pubDate>Thu, 23 Jun 2022 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Downstream Impact</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/photo.jpeg" class="img-fluid figure-img"></p>
+<p></p><p></p>
+</figure>
+</div>
+<p>Online experiments are powerful tools to see the causal impact of a business strategy. Tweak something, see what users do.</p>
+<p>The limitations of online experiments is that once you manipulate your user experience there’s no going back. Users are forever impacted by your choice.</p>
+<p>If you give out a credit card with $100, $300, and $500 lines, people are going to spend more on the $500 line. They might also default more because they’re less able to pay back $500 than they are $100. As a result, you may lose these $500 users forever and might impact other aspects of their life, not to mention impact the marketing department’s strategy.</p>
+<p>A group of users is like a single living organism, if you treat it like that. If you only measure one metric (conversion rate) on the entire massive audience, then you’ll optimize for the “average” user.</p>
+<p>But nobody is average. We are all distinct. We fall into categories, sure. But to really optimize the whole business we need to optimize for pockets of users. Or, we just need to set up a system that’s personalized.</p>
+<p>Takeaway? Personalize your experiments where possible. Consider the ethical and downstream impacts of the experiment.</p>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
+  <category>data science</category>
+  <category>experimentation</category>
+  <guid>https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/index.html</guid>
+  <pubDate>Wed, 22 Jun 2022 07:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/photo.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>The Power of Party Pay by Visible</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2022-06-21-the-power-of-party-pay-by-visible/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://www.bryanwhiting.com/posts/2022-06-21-the-power-of-party-pay-by-visible/photo.jpeg" class="img-fluid"></p>
+<section id="visibles-party-pay-madness" class="level1">
+<h1>Visible’s party pay madness</h1>
+<p>Visible wireless offers $25 off to users who join a party. So a user who signs up to pay $50 for unlimited data can click one button to join a party and only have to pay $25/mo from then on. Why not just offer users $25 to begin with?</p>
+<p>It’s really confusing to me as a user - why not just give me the $25 automatically if it takes nothing to join a group? Because of gamification.</p>
+</section>
+<section id="why-it-works" class="level1">
+<h1>Why it works</h1>
+<p>I think their strategy is as follows:</p>
+<ol type="1">
+<li>They hope some people get brought in on marketing and never remember to activate a party pay. Let’s say this number is 20-40%. Perhaps these users fund the rest of the discounts.</li>
+<li>Joining a party pay group for free is an easy way to make your customers win. I.e., a user gets $25 off for joining. Gimmicky, but I think it works. So a user has an immediate sense of gratification - a great way to build a strong emotional bond. “Click a button to get $25 off in perpetuity? Nice!” Anyone would agree this feels better than just starting off with $25.</li>
+<li>This makes users want to share and tell others. Especially if customers feel they’ve gamed the system. Who today doesn’t like a hack?</li>
+</ol>
+<p>But even if (1) is wrong, and that 95% of people join a party I’m sure they’ve done the math to consider how many people they need to sign up to make the money work.</p>
+</section>
+<section id="the-larger-strategy" class="level1">
+<h1>The Larger Strategy</h1>
+<p>Why would Verizon cannibalize their own sales? I switched my wife out of a $70 unlimited plan on Verizon to a $25 plan on visible for the same service. Well some customers will stay with Verizon because of its prestige and the add on benefits. But users who are cutting the cord are going somewhere else, I’m thinking Verizon wants to stay ahead of the curve. It’s a race to the bottom, sure. But it doesn’t hurt to try to win the race.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
+  <category>startups</category>
+  <category>strategy</category>
+  <guid>https://www.bryanwhiting.com/posts/2022-06-21-the-power-of-party-pay-by-visible/index.html</guid>
+  <pubDate>Tue, 21 Jun 2022 07:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/2022-06-21-the-power-of-party-pay-by-visible/photo.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Products for dads</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2022-06-21-products-for-dads/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://www.bryanwhiting.com/posts/2022-06-21-products-for-dads/photo.jpeg" class="img-fluid"></p>
+<section id="products-i-enjoy-as-a-dad" class="level1">
+<h1>Products I enjoy as a dad</h1>
+<p>Third times a charm - I hope by(/if) kid number four I’ll have this all figured out. It’s amazing how I feel so new to it all despite raising two kids in the last five years. In starting fresh a third time I feel inspired to write down some things I’m rediscovering.</p>
+<p>To anyone getting started on their baby journey, perhaps these suggestions can help. Your baby is definitely different than mine, so your mileage may vary! But since I’m still using this stuff five years later maybe it can help you too. Either way, congrats and good luck!</p>
+<section id="products-i-still-use-on-baby-3" class="level3">
+<h3 class="anchored" data-anchor-id="products-i-still-use-on-baby-3">Products I still use on baby 3</h3>
+<p>Since I’m a mega influencer (on my very established data science blog here), I get paid $500 every time you click a link below. So please, go crazy.</p>
+<p>I’ll also credit my wife for figuring out to buy these products in the first place.</p>
+<ol type="1">
+<li>Stretchy swaddle, like <a href="https://a.co/d/dir4b63">this</a>. I like stretchy swaddles because they’re forgiving. The cotton muslin swaddles are nice and soft, but if the fabric doesn’t stretch the right way you may have to redo the swaddle.</li>
+<li><a href="https://a.co/d/d6MPwOc">Ollie swaddle</a> (nighttime). This thing is ridiculously overpriced for a swaddle. $70? Don’t get it. But if you do, I like it because its super easy to put on and very sturdy (hard for baby to break). At month 2 the baby gets strong and the basic swaddles are so easy to break. That and I feel like I’m gonna hurt my kid if I try to make a cotton swaddle unbreakable. Enter Velcro! I can be gentle on the swaddle but have it be unbreakable. There are a lot of random contraption swaddles that tie the baby up like a pretzel. This is your classic burrito. Insert baby, wrap right side, Velcro left side and you’re done.</li>
+<li><a href="https://a.co/d/0nVYMOK">Ubbi Steel Odor Locking diaper</a>pail. I also hated the thought five years ago of shelling out $70 for a trash can. Five years since and the thing still performs. I know how well it’s working when garbage day rolls around and I open it to change it. Smells like a gentle coastal breeze, maybe. To this day my wife hasn’t changed it more than a time or two because thankfully I have an iron stomach and unfortunately she does not. Point is: it keeps the diaper smell inside (for the most part) and uses normal garbage bags (cost saver).</li>
+<li><a href="https://a.co/d/akOhRqv">Baby K’tan Original Baby Wrap Carrier, Infant and Child Sling</a>. I’ve tried several carriers. Boba wraps take way too much patience to learn how to put on (patience I ran out of quickly as a new dad). This thing is just two circular fabric swaths, which means it takes two seconds to throw on. The convenience is huge - baby crying? Grab the carrier and snuggle up in 10 seconds or less.</li>
+<li><a href="https://a.co/d/4dLDr0D">DockATot Deluxe+ Dock</a>. We just got one off Facebook marketplace for $50 for third kid. We got it because let’s be real - sleeping is hard. The hardest thing about sleeping is the uncertainty what’s happening on the other side of the room in the crib. Grunting. Coughing. Is baby waking up? Needs a pacifier? When it’s 5am and you’re on feeding three of the night, being able to just roll over and plop the little one into the co-sleeper and monitor the situation close up is nice.</li>
+<li><a href="https://a.co/d/6fwsNIZ">4moms rockaRoo Baby Swing</a>. There are a thousand ways to solve the “where do I put my baby while cooking dinner” problem. We’ve liked this one.</li>
+</ol>
+</section>
+<section id="must-haves" class="level3">
+<h3 class="anchored" data-anchor-id="must-haves">Must Haves</h3>
+<ol type="1">
+<li>Dish soap. Honestly, nothing gets out a blowout stain like dish soap. That and drying in the sun is a miracle worker. (Apparently this is how <a href="https://blog.cottonbabies.com/cloth-diapering-101-sunning-your-cloth-diapers/">cloth diaper people do it.</a>)</li>
+<li><a href="https://www.verywellfamily.com/healing-diaper-rash-by-going-diaperless-289241#toc-raw-apple-cider-vinegar">Apple cider vinegar for diaper rash</a>. Once the little pimples appear, you’ll try anything to get them to go away. We just discovered this hack recently and I was delightfully surprised how easily it worked.</li>
+<li><a href="https://m.youtube.com/watch?v=CCI2EsJ-pEY">This is the right way to carry a car seat</a>. A friend of mine that has three kids didn’t know this was a thing until he saw me do it. It’s a thing. Do it! Your forearm will thank you.</li>
+</ol>
+</section>
+<section id="toddler-time" class="level3">
+<h3 class="anchored" data-anchor-id="toddler-time">Toddler Time</h3>
+<p>Down the road, these products have hit home runs for me.</p>
+<ul>
+<li><a href="https://a.co/d/8c6jGRF">Munchkin Miracle 360 Trainer Cup</a>. Every time I put this cup together I consider applying to Munchkin for a job to be their sales rep. This company has very clever designs on their products and this one just crushes it for me. Acts like a normal cup. Performs like a sippy. (I’ll admit I’ve taken a few swigs out of this just to understand how it works!)</li>
+<li><a href="https://a.co/d/aNxfM8f">Contigo Spill-Proof Kids Tumbler</a>. I think we have 80 water bottles in a junk drawer somewhere. Cheap ones. Expensive ones. They all end up scattered in pieces like the zebra herd before the lion that is your innocent child. This cup is no exception: I’ve lost a straw on one already. But! If you want a water bottle you’ll have the problem of spare parts. (Uhh, this isn’t a recommendation so far…) So why this cup? This cup is just good. I don’t know. It’s easy to assemble and clean (wide top). Doesn’t spill. Kids like straws?</li>
+</ul>
+</section>
+<section id="books" class="level3">
+<h3 class="anchored" data-anchor-id="books">Books</h3>
+<p>Not that you’ll have time to read…</p>
+<ol type="1">
+<li><a href="https://a.co/d/9XvE8ll">The Happiest Baby on the Block; Fully Revised and Updated Second Edition: The New Way to Calm Crying and Help Your Newborn Baby Sleep Longer</a>. I’m sure there’s a quick YouTube video showing the 5 ways to sooth a baby. (Here’s an <a href="https://www.happiestbaby.com/blogs/baby/the-5-s-s-for-soothing-babies">article</a>.) But if you like books this is a good one. TLDR: sucking, swaddle, shushing, swinging, and side are all soothing to a crying baby.</li>
+<li><a href="https://a.co/d/iTaqWOM">1-2-3 Magic: Gentle 3-Step Child &amp; Toddler Discipline for Calm, Effective, and Happy Parenting</a>. This is for toddlers, but I’ve learned this technique has been very helpful for giving me sanity in the terrible two phase. The approach doesn’t always work, but I’ve learned when it does, which is important. TLDR: don’t talk (engage in debate) with your toddler or show emotion when they’re misbehaving. Count them when they do bad acts. That’s 1. That’s 2. That’s 3. Break time. The book explains the method. YouTube is probably a friend here too.</li>
+</ol>
+</section>
+<section id="final-word" class="level3">
+<h3 class="anchored" data-anchor-id="final-word">Final word</h3>
+<p>Fatherhood has pushed my limits in all the ways. But I thank God every day I’m a dad. I do a nightly gratitude journal of my favorite moments of the day. If I’m paying attention during the day, at night it’s always my kids that have brought me the happiest moments and greatest joys of the day.</p>
+<p>Just remember: the clothes/products/trips are like the tools used to construct a fine painting. At the end of the day, it doesn’t matter what tools you use. Nobody cares and neither will you. It’s the output that matters most. I’ve found by just really paying attention to and getting curious about my kids in any moment helps me see the beauty of it all, while distractions cause me to think I need this or that be a better dad.</p>
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
+  <category>productivity</category>
+  <category>fatherhood</category>
+  <guid>https://www.bryanwhiting.com/posts/2022-06-21-products-for-dads/index.html</guid>
+  <pubDate>Tue, 21 Jun 2022 07:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/2022-06-21-products-for-dads/photo.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Blogging with Quarto, and why I don’t use Medium anymore</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2022-06-20-blogging-with-quarto/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://www.bryanwhiting.com/posts/2022-06-20-blogging-with-quarto/photo.jpeg" class="img-fluid"></p>
+<section id="been-here-before-eh" class="level1">
+<h1>Been here before, eh?</h1>
+<p>I probably shouldn’t write this post considering I’ve also written posts “blogging with Jekyll”, “Blogdown”, and “distill” before. I’m flaky, what can I say. I’ve changed my blogging framework 7 times in 5 years (I started with blogger.com and Wordpress before Jekyll, and even used Medium for 25 posts.)</p>
+<p>But it’s not my fault. There are too many static site generators and it seems that Rstudio is as flaky as me. Meaning, they built rmarkdown, created hugodown, blowdown, bookdown, and distill. Hugodown is a lightweight version of blogdown, and I never figured out why it exists. Then there’s workflowr and so many other great, random products out there.</p>
+<p>Why quarto for me? It seems to have all the stuff that distill has, and then some. And given its design and collaboration with Wes McKinney (pandas guy) in building quarto, and given that Wes wrote his latest book with it, I think this will be here to stay for at least 5 years.</p>
+</section>
+<section id="why-do-i-avoid-medium" class="level1">
+<h1>Why do I avoid Medium</h1>
+<p>Why don’t I blog with Medium? I wrote 25 posts there over 9 months and loved it. It makes writing and publishing incredibly easy, which is why I did it. With distill/blogdown the limiting factor was I’d have to be at my computer to get a post in. I love writing on my phone - I have over 2000 journal entries with Day One over seven years, several of which are “draft” posts for a blog that won’t see the light of day since I don’t care about them after I’ve written it. I want to be able to blog frequently, a short little blurb to keep up my writing, and medium enabled this.</p>
+<p>But 1) I didn’t get many views (not that I care) and 2) my writing is stuck on their platform (confirmed to me this week as I’ve tried several old, broken tools that attempt to export posts out of medium).</p>
+<p>I got 50x the views on my blogdown site just from organic google searching. From reading other people’s <a href="https://hulry.com/medium-vs-own-blog/">posts</a> about leaving Medium, it’s seems that most traffic to Medium posts comes from outside of Medium.</p>
+<p>So while I’m certainly not into blogging for the money, I wouldn’t mind getting the content to people who it can help. And if medium didn’t enable this, what is its purpose?</p>
+<p>So I’m back and finally decided that I’m going to own my own platform. Seth Godin wrote a blog about this topic once. Why be on Medium, substack, Facebook, etc or any other up an coming platform? We’ll they’re all skewed toward the 1% of people who make money on the platform. Everyone else is wasting their time. So might as well own your content. And better to focus on writing than waste time catching up on every platform.</p>
+<p>Also, it’s fun! There’s a fuzzy feeling to blogging.</p>
+</section>
+<section id="future-of-quarto" class="level1">
+<h1>Future of quarto?</h1>
+<p>I’m speculating here, but <a href="https://quarto.org/docs/get-started/">Quarto can be used with</a>R Studio, Jupiter or VS Code. The last editor seems excitingly suspicious.</p>
+<p>Perhaps R Studio sees the writing on the wall that VS Code is taking over the IDE world and perhaps taking over the long term future of R Studio IDE. I personally don’t see why anyone would pay for R Studio when VS Code is free and has a better interface. And while R Studio has a few better integrations for R at the moment, it won’t once enough people see the light for VS Code and turn their contributions there. I’ve been using R on VSCode for two years now and it rivals R Studio in 95% of the feature set, but 100% has better window management.</p>
+<p>So Quarto seems like a great opportunity for R Studio to begin monetizing on a publishing platform like R Studio connect. Platforms like Notion and Confluence are great for everyone except data scientists trying to share reproducible research. But a quarto server seems like a great way to finally bring in Python data scientists into the markdown-flavored documentation world. (Man, I personally can’t use Jupyter/Google colab notebooks when I can use R Markdown!) I’d heartedly welcome this prospect, though I have no idea what their plans for Quarto really are.</p>
+<p>Till next blog post about what blogging tool I’m going to use…</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
+  <category>data science</category>
+  <guid>https://www.bryanwhiting.com/posts/2022-06-20-blogging-with-quarto/index.html</guid>
+  <pubDate>Mon, 20 Jun 2022 07:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/2022-06-20-blogging-with-quarto/photo.jpeg" medium="image" type="image/jpeg"/>
+</item>
 <item>
   <title>The Author’s Angle Matters</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -37,17 +874,7 @@
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{whiting2021,
-  author = {Bryan Whiting and Bryan Whiting},
-  title = {The {Author’s} {Angle} {Matters}},
-  date = {2021-07-17},
-  url = {https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters},
-  langid = {en}
-}
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-whiting2021" class="csl-entry quarto-appendix-citeas">
-Bryan Whiting, and Bryan Whiting. 2021. <span>“The Author’s Angle
-Matters.”</span> July 17, 2021. <a href="https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters">https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters</a>.
-</div></div></section></div> ]]></description>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
   <category>communication</category>
   <category>writing</category>
   <guid>https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters/index.html</guid>
@@ -88,17 +915,7 @@ Matters.”</span> July 17, 2021. <a href="https://www.bryanwhiting.com/posts/20
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{whiting2020,
-  author = {Bryan Whiting},
-  title = {Productivity Notes},
-  date = {2020-12-19},
-  url = {https://www.bryanwhiting.com/posts/2020-12-18-productivity-notes},
-  langid = {en}
-}
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-whiting2020" class="csl-entry quarto-appendix-citeas">
-Bryan Whiting. 2020. <span>“Productivity Notes.”</span> December 19,
-2020. <a href="https://www.bryanwhiting.com/posts/2020-12-18-productivity-notes">https://www.bryanwhiting.com/posts/2020-12-18-productivity-notes</a>.
-</div></div></section></div> ]]></description>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
   <category>data science</category>
   <category>productivity</category>
   <guid>https://www.bryanwhiting.com/posts/2020-12-18-productivity-notes/index.html</guid>
@@ -122,17 +939,7 @@ Bryan Whiting. 2020. <span>“Productivity Notes.”</span> December 19,
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{whiting2020,
-  author = {Bryan Whiting},
-  title = {How to Mock the Value of an {ML} Solution},
-  date = {2020-12-16},
-  url = {https://www.bryanwhiting.com/posts/2020-12-16-pretotyping-ml-solutions},
-  langid = {en}
-}
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-whiting2020" class="csl-entry quarto-appendix-citeas">
-Bryan Whiting. 2020. <span>“How to Mock the Value of an ML
-Solution.”</span> December 16, 2020. <a href="https://www.bryanwhiting.com/posts/2020-12-16-pretotyping-ml-solutions">https://www.bryanwhiting.com/posts/2020-12-16-pretotyping-ml-solutions</a>.
-</div></div></section></div> ]]></description>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
   <category>data science</category>
   <category>innovation</category>
   <guid>https://www.bryanwhiting.com/posts/2020-12-16-pretotyping-ml-solutions/index.html</guid>
@@ -155,17 +962,7 @@ Solution.”</span> December 16, 2020. <a href="https://www.bryanwhiting.com/pos
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{whiting2020,
-  author = {Bryan Whiting},
-  title = {Get Rid of the Todo List. {Calendar} Everything.},
-  date = {2020-12-15},
-  url = {https://www.bryanwhiting.com/posts/2020-12-15-calendaring-todos},
-  langid = {en}
-}
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-whiting2020" class="csl-entry quarto-appendix-citeas">
-Bryan Whiting. 2020. <span>“Get Rid of the Todo List. Calendar
-Everything.”</span> December 15, 2020. <a href="https://www.bryanwhiting.com/posts/2020-12-15-calendaring-todos">https://www.bryanwhiting.com/posts/2020-12-15-calendaring-todos</a>.
-</div></div></section></div> ]]></description>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
   <category>productivity</category>
   <guid>https://www.bryanwhiting.com/posts/2020-12-15-calendaring-todos/index.html</guid>
   <pubDate>Tue, 15 Dec 2020 08:00:00 GMT</pubDate>
@@ -192,22 +989,83 @@ Everything.”</span> December 15, 2020. <a href="https://www.bryanwhiting.com/p
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{whiting2020,
-  author = {Bryan Whiting},
-  title = {Data {Beats} {Opinions}},
-  date = {2020-12-15},
-  url = {https://www.bryanwhiting.com/posts/2020-12-15-data-beats-opinions},
-  langid = {en}
-}
-</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-whiting2020" class="csl-entry quarto-appendix-citeas">
-Bryan Whiting. 2020. <span>“Data Beats Opinions.”</span> December 15,
-2020. <a href="https://www.bryanwhiting.com/posts/2020-12-15-data-beats-opinions">https://www.bryanwhiting.com/posts/2020-12-15-data-beats-opinions</a>.
-</div></div></section></div> ]]></description>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
   <category>data science</category>
   <category>decisions</category>
   <guid>https://www.bryanwhiting.com/posts/2020-12-15-data-beats-opinions/index.html</guid>
   <pubDate>Tue, 15 Dec 2020 08:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2020-12-15-data-beats-opinions/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Starting with Jekyll</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Hello world.</p>
+<div class="page-columns page-full"><p>I wanted to start a blog. I wanted to set it up for free, use a custom URL (and not <em>something.bloggingplatform.com</em>), and be able to both blog and create tutorials. I didn’t mind it possibly being technical<sup>1</sup>. Enter Jekyll.</p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;Specifically, I was interested in being able to use the command line for my posts. Additionally, I didn’t mind seeing or using a little bit of code.</p></li></div></div>
+<p><em>If you want to get your blog in 10 minutes, skip to below.</em></p>
+<section id="why-blog-with-jekyll" class="level1 page-columns page-full">
+<h1>Why Blog with Jekyll?</h1>
+<p>Here’s why you can and should blog with Jekyll (if you’re a data scientist):</p>
+<ol start="2" type="1">
+<li>Jekyll has beautiful, free, open-source templates.</li>
+<li>GitHub will host your website for free<sup>2</sup>.</li>
+<li>Jekyll is <a href="https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/">static</a>.</li>
+<li>Jekyll can be simple to set up<sup>3</sup>.</li>
+<li>I tried Wordpress and blogger.com and got frustrated.</li>
+<li>The blogging content you create is very portable (easy to take your posts from one blog site to another).</li>
+<li>Creating blogs in Markdown syntax is a dream (even for non-technical folks).</li>
+<li>You can manage your blog from your terminal</li>
+<li>You can manage your blog from your phone (if you have a GitHub-editing app)</li>
+</ol>
+<div class="no-row-height column-margin column-container"><li id="fn2"><p><sup>2</sup>&nbsp;Someone has to <a href="https://www.google.com/search?q=what+does+it+mean+to+host+a+website&amp;oq=what+does+it+mean+to+host+&amp;aqs=chrome.0.0j69i57j0l4.2810j0j9&amp;sourceid=chrome&amp;ie=UTF-8">host</a> it (i.e., store and display all the files). I started off trying to set up a WordPress blog, but you have to pay another company to <a href="http://www.webhostingbest10.com/web-hosting-reviews">host</a>. I didn’t want to bother.</p></li><li id="fn3"><p><sup>3</sup>&nbsp;If you try to set it up by following the instructions on <a href="https://jekyllrb.com/">jekyllrb.com</a>, that’s the complicated way. That’s how I originally started, got lost for five hours, and stopped. Six months later, I found a better way.</p></li></div><p>But if you don’t like debugging occasional errors, you probably shouldn’t blog with Jekyll.</p>
+<p>What is Jekyll, you ask? Jekyll is an open-source blogging platform. Anyone can write a template and post it, and anyone else can use that template. Perusing <a href="http://jekyllthemes.org/">Jekyllthemes.org</a>, you can pick out any template you’d like.</p>
+</section>
+<section id="how-did-i-get-started-with-jekyll" class="level1">
+<h1>How did I get started with Jekyll?</h1>
+<p>As a blogging noob, I’ve discovered there are hundreds of ways to generate a blog (e.g., WordPress, Squarespace, blogger.com, Weebly, etc.). But when my colleague <a href="http://luiarthur.github.io/">Arthur Lui</a> showed me his blog, I wanted something similar. I first tried Wordpress, then tried blogspot, then gave up and followed Arthur’s example and landed with Jekyll.</p>
+</section>
+<section id="set-up-a-blog-in-10-minutes" class="level1">
+<h1>Set up a blog in 10 minutes!</h1>
+<p>I followed this Jekyll <a href="https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/">tutorial</a> to set up my first blog. I’ll simplify those steps here to get you up and running quickly:</p>
+<ol type="1">
+<li>Get a GitHub account. (2 min)</li>
+<li>Go to <a href="http://jekyllthemes.org/">Jekyllthemes.org</a>. All of these blog themes are free. Find one you like, and Fork the repo (i.e., “repository”). (2-60 min, depending on how long you peruse)</li>
+<li>In GitHub, rename the newly-forked repo from “REPO name” to “yourgithubusername.github.io”. (1 min)</li>
+<li>Now go to “githubusername.github.io”. Voila, you have a blog.</li>
+</ol>
+<p>And if you want to start writing posts, go to your “_posts” folder. Then create new files and follow the default templates that the repository provides. (The blogs will need to be written in Markdown syntax.)</p>
+<p>That was my 10 minute promise. If you feel a bit cheated or lost, go to the well-done <a href="https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/">tutorial</a> and do all the steps. But the steps I listed are the essential steps to setting up a blog from scratch. So if you want to make a few blogs really quickly, after you figure out the first one the others follow nicely. For example, once I finished the tutorial, I followed those steps above to try two other themes before deciding on the <a href="https://github.com/bencentra/centrarium">Centrarium</a> theme.</p>
+<p>To get Centrarium to work, I did have to change some configurations in the “_config.yml”, so there can be some minor debugging depending on the theme you choose. But with a little patience and some Googling, you’ll get it.</p>
+</section>
+<section id="add-to-jekyll-a-custom-url-from-godaddy" class="level1">
+<h1>Add to Jekyll a custom URL from GoDaddy</h1>
+<p>You’ll notice I have a custom URL and not “bryanwhiting.github.io”. I used GoDaddy to get a domain. (I have no affiliation with GoDaddy.) Here’s how I linked GoDaddy with my GitHub Jekyll blog:</p>
+<ol type="1">
+<li>Get a domain.</li>
+<li>In your Github repo, change (or create) a CNAME file in the main directory. (See my <a href="https://github.com/bryanwhiting/bryanwhiting.github.io/blob/master/CNAME">CNAME</a> file for an example). And for the CNAME file contents, just type in the new “www” that you registered through GoDaddy.</li>
+<li>Then, on GoDaddy, go to the section “DNS Management”. Here’s where you tell GoDaddy how to connect your newly purchased “www” with GitHub. Create the following connections:</li>
+<li>[Type, Name, Value, TTL] = [A, @, 192.30.252.153, 600 seconds]</li>
+<li>[Type, Name, Value, TTL] = [A, @, 192.30.252.154, 600 seconds]</li>
+<li>[Type, Name, Value, TTL] = [CNAME, ftp, yourgithubusername.github.io, 600 seconds]</li>
+<li>[Type, Name, Value, TTL] = [CNAME, www, yourgithubusername.github.io, 600 seconds]</li>
+</ol>
+<p>If you have the CNAME file in your GitHub folder, GitHub and GoDaddy will talk and after a few minutes your custom “www” will work. You don’t technically need the two [A] steps, but those connections allow users to type “<a href="http://www.bryanwhiting.com">bryanwhiting.com</a>” instead of “www.bryanwhiting.com”. It can take up to 24 hours before these [A] connections enable, so don’t be worried if the short URL doesn’t work first try. But the full URL should work soon enough.</p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
+  <category>productivity</category>
+  <category>blogging</category>
+  <category>jekyll</category>
+  <guid>https://www.bryanwhiting.com/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html</guid>
+  <pubDate>Thu, 17 Nov 2016 08:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

@@ -65,8 +65,9 @@ ul.task-list{list-style: none;}
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-description','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      valueNames: ['listing-image','listing-date','listing-title','listing-description','listing-reading-time','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 9,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
@@ -84,6 +85,20 @@ ul.task-list{list-style: none;}
     }
   })
   </script>
+
+<script type="text/javascript">
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-85616639-1', 'auto');
+
+ga('send', {
+  hitType: 'pageview',
+  'anonymizeIp': true,
+});
+</script>
 <style>html{ scroll-behavior: smooth; }</style>
 <script async="" src="https://hypothes.is/embed.js"></script>
 
@@ -145,7 +160,7 @@ ul.task-list{list-style: none;}
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="communication">communication <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data science">data science <span class="quarto-category-count">(3)</span></div><div class="category" data-category="decisions">decisions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="innovation">innovation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="productivity">productivity <span class="quarto-category-count">(2)</span></div><div class="category" data-category="writing">writing <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(18)</span></div><div class="category" data-category="app review">app review <span class="quarto-category-count">(1)</span></div><div class="category" data-category="blogging">blogging <span class="quarto-category-count">(1)</span></div><div class="category" data-category="book review">book review <span class="quarto-category-count">(1)</span></div><div class="category" data-category="communication">communication <span class="quarto-category-count">(2)</span></div><div class="category" data-category="data science">data science <span class="quarto-category-count">(6)</span></div><div class="category" data-category="decisions">decisions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="experimentation">experimentation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="fatherhood">fatherhood <span class="quarto-category-count">(1)</span></div><div class="category" data-category="futurism">futurism <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ideation">ideation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="innovation">innovation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="jekyll">jekyll <span class="quarto-category-count">(1)</span></div><div class="category" data-category="musings">musings <span class="quarto-category-count">(1)</span></div><div class="category" data-category="principles">principles <span class="quarto-category-count">(1)</span></div><div class="category" data-category="priorities">priorities <span class="quarto-category-count">(1)</span></div><div class="category" data-category="productivity">productivity <span class="quarto-category-count">(11)</span></div><div class="category" data-category="startups">startups <span class="quarto-category-count">(1)</span></div><div class="category" data-category="strategy">strategy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="surveillance">surveillance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tech">tech <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ticktick">ticktick <span class="quarto-category-count">(2)</span></div><div class="category" data-category="writing">writing <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -188,12 +203,417 @@ ul.task-list{list-style: none;}
      </select>
   </div>
 </div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="communication,writing" data-listing-date-sort="1626505200000" data-listing-file-modified-sort="1655532718880" data-listing-reading-time-sort="1.495">
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0" data-categories="data science,communication,principles" data-listing-date-sort="1658300400000" data-listing-file-modified-sort="1659302103348" data-listing-reading-time-sort="5.945">
+<a href="./posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/photo.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+De-sciencing Data Science and Talking Like a Normal Person
+</h5>
+<div class="listing-reading-time card-text text-muted">
+5 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data science'); return false;">
+data science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('communication'); return false;">
+communication
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('principles'); return false;">
+principles
+</div>
+</div>
+<div class="card-text listing-description">
+<p>How can data scientists bring their technical knowledge to a non-technical audience? Here are my lessons learned from seven years in the data trenches.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Wed Jul 20, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="productivity,futurism,tech,surveillance" data-listing-date-sort="1656831600000" data-listing-file-modified-sort="1659302103326" data-listing-reading-time-sort="3.79">
+<a href="./posts/2022-07-03-when-data-collection-goes-too-far/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/2022-07-03-when-data-collection-goes-too-far/photo.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+When data collection goes too far
+</h5>
+<div class="listing-reading-time card-text text-muted">
+3 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('productivity'); return false;">
+productivity
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('futurism'); return false;">
+futurism
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('tech'); return false;">
+tech
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('surveillance'); return false;">
+surveillance
+</div>
+</div>
+<div class="card-text listing-description">
+<p>It’s important for us to track certain things about ourselves. But this is clearly not exactly healthy IMO.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Sun Jul 3, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="productivity,ticktick" data-listing-date-sort="1656399600000" data-listing-file-modified-sort="1659302103218" data-listing-reading-time-sort="0.825">
+<a href="./posts/2022-06-28-pomodoro-principles/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/2022-06-28-pomodoro-principles/photo.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Pomodoro Principles
+</h5>
+<div class="listing-reading-time card-text text-muted">
+0 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('productivity'); return false;">
+productivity
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ticktick'); return false;">
+ticktick
+</div>
+</div>
+<div class="card-text listing-description">
+<p>The art of focus through 25min work blocks.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Tue Jun 28, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="productivity,musings,ticktick" data-listing-date-sort="1656399600000" data-listing-file-modified-sort="1659302103218" data-listing-reading-time-sort="2.895">
+<a href="./posts/2022-06-28-increase-focus-through-writing-down-everything/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-img-bg" style="height: 150px;">
+&nbsp;
+</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Increase Focus through Writing Down Everything
+</h5>
+<div class="listing-reading-time card-text text-muted">
+2 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('productivity'); return false;">
+productivity
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('musings'); return false;">
+musings
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ticktick'); return false;">
+ticktick
+</div>
+</div>
+<div class="card-text listing-description">
+<p>To be more present, get it all down and into a system.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Tue Jun 28, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="productivity" data-listing-date-sort="1656140400000" data-listing-file-modified-sort="1659302103216" data-listing-reading-time-sort="6.325">
+<a href="./posts/2022-06-25-how-i-use-ticktick/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/2022-06-25-how-i-use-ticktick/photo.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+How I use TickTick
+</h5>
+<div class="listing-reading-time card-text text-muted">
+6 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('productivity'); return false;">
+productivity
+</div>
+</div>
+<div class="card-text listing-description">
+<p>An overview of how I apply the principles of “Getting Things Done”, or GTD.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Sat Jun 25, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="book review,productivity" data-listing-date-sort="1656054000000" data-listing-file-modified-sort="1659302102866" data-listing-reading-time-sort="5.295">
+<a href="./book-reviews/2022-06-24-getting-things-done/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./book-reviews/2022-06-24-getting-things-done/photo.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Getting Things Done
+</h5>
+<div class="listing-reading-time card-text text-muted">
+5 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('book review'); return false;">
+book review
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('productivity'); return false;">
+productivity
+</div>
+</div>
+<div class="card-text listing-description">
+<p>A powerful system to be more present.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Fri Jun 24, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="productivity,app review" data-listing-date-sort="1655967600000" data-listing-file-modified-sort="1659302103148" data-listing-reading-time-sort="10.615">
+<a href="./posts/2022-06-23-what-is-the-best-todo-list-manager?/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/2022-06-23-what-is-the-best-todo-list-manager?/app.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+What is the best todo list manager?
+</h5>
+<div class="listing-reading-time card-text text-muted">
+10 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('productivity'); return false;">
+productivity
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('app review'); return false;">
+app review
+</div>
+</div>
+<div class="card-text listing-description">
+<p>I’ve reviewed 20+ apps. I think I’m done reviewing them.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Thu Jun 23, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="productivity,priorities,ideation" data-listing-date-sort="1655967600000" data-listing-file-modified-sort="1659302103142" data-listing-reading-time-sort="1.215">
+<a href="./posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-img-bg" style="height: 150px;">
+&nbsp;
+</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+New ideas are distractingly exciting
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('productivity'); return false;">
+productivity
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('priorities'); return false;">
+priorities
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ideation'); return false;">
+ideation
+</div>
+</div>
+<div class="card-text listing-description">
+<p>Be careful of recency bias with your ideas.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Thu Jun 23, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="data science,experimentation" data-listing-date-sort="1655881200000" data-listing-file-modified-sort="1659302103111" data-listing-reading-time-sort="1.045">
+<a href="./posts/2022-06-22-downstream-impact/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/2022-06-22-downstream-impact/photo.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Downstream Impact
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data science'); return false;">
+data science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('experimentation'); return false;">
+experimentation
+</div>
+</div>
+<div class="card-text listing-description">
+<p>When you do an online experiment, you’re changing the future forever.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Wed Jun 22, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="startups,strategy" data-listing-date-sort="1655794800000" data-listing-file-modified-sort="1659302103107" data-listing-reading-time-sort="1.665">
+<a href="./posts/2022-06-21-the-power-of-party-pay-by-visible/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./posts/2022-06-21-the-power-of-party-pay-by-visible/photo.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The Power of Party Pay by Visible
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('startups'); return false;">
+startups
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('strategy'); return false;">
+strategy
+</div>
+</div>
+<div class="card-text listing-description">
+<p>Visible wireless, owned by Verizon, offers users $25 off per month if they join a meaningless party. What’s the effect?</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Tue Jun 21, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="10" data-categories="productivity,fatherhood" data-listing-date-sort="1655794800000" data-listing-file-modified-sort="1659302103096" data-listing-reading-time-sort="5.955">
+<a href="./posts/2022-06-21-products-for-dads/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./posts/2022-06-21-products-for-dads/photo.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Products for dads
+</h5>
+<div class="listing-reading-time card-text text-muted">
+5 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('productivity'); return false;">
+productivity
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('fatherhood'); return false;">
+fatherhood
+</div>
+</div>
+<div class="card-text listing-description">
+<p>What products am I still using 5 years later?</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Tue Jun 21, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="11" data-categories="data science" data-listing-date-sort="1655708400000" data-listing-file-modified-sort="1659302103093" data-listing-reading-time-sort="3.545">
+<a href="./posts/2022-06-20-blogging-with-quarto/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="./posts/2022-06-20-blogging-with-quarto/photo.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Blogging with Quarto, and why I don’t use Medium anymore
+</h5>
+<div class="listing-reading-time card-text text-muted">
+3 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data science'); return false;">
+data science
+</div>
+</div>
+<div class="card-text listing-description">
+<p>I’m trying out quarto and I like it.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Mon Jun 20, 2022
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="12" data-categories="communication,writing" data-listing-date-sort="1626505200000" data-listing-file-modified-sort="1655532718880" data-listing-reading-time-sort="1.495">
 <a href="./posts/2021-07-17-authors-angle-matters/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2021-07-17-authors-angle-matters/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/2021-07-17-authors-angle-matters/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -201,6 +621,14 @@ The Author’s Angle Matters
 </h5>
 <div class="listing-reading-time card-text text-muted">
 1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('communication'); return false;">
+communication
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('writing'); return false;">
+writing
+</div>
 </div>
 <div class="card-text listing-description">
 Imagine the following story:
@@ -214,11 +642,11 @@ Sat Jul 17, 2021
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="data science,productivity" data-listing-date-sort="1608364800000" data-listing-file-modified-sort="1655531833449" data-listing-reading-time-sort="0.28">
+<div class="g-col-1" data-index="13" data-categories="data science,productivity" data-listing-date-sort="1608364800000" data-listing-file-modified-sort="1655531833449" data-listing-reading-time-sort="0.28">
 <a href="./posts/2020-12-18-productivity-notes/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2020-12-18-productivity-notes/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/2020-12-18-productivity-notes/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -226,6 +654,14 @@ Productivity notes
 </h5>
 <div class="listing-reading-time card-text text-muted">
 0 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data science'); return false;">
+data science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('productivity'); return false;">
+productivity
+</div>
 </div>
 <div class="card-text listing-description">
 <p>Running list of productivity ideas.</p>
@@ -239,11 +675,11 @@ Sat Dec 19, 2020
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="data science,innovation" data-listing-date-sort="1608105600000" data-listing-file-modified-sort="1655531266967" data-listing-reading-time-sort="0.58">
+<div class="g-col-1" data-index="14" data-categories="data science,innovation" data-listing-date-sort="1608105600000" data-listing-file-modified-sort="1655531266967" data-listing-reading-time-sort="0.58">
 <a href="./posts/2020-12-16-pretotyping-ml-solutions/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2020-12-16-pretotyping-ml-solutions/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/2020-12-16-pretotyping-ml-solutions/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -251,6 +687,14 @@ How to mock the value of an ML solution
 </h5>
 <div class="listing-reading-time card-text text-muted">
 0 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data science'); return false;">
+data science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('innovation'); return false;">
+innovation
+</div>
 </div>
 <div class="card-text listing-description">
 <p>Sell your solution before training your model.</p>
@@ -264,11 +708,11 @@ Wed Dec 16, 2020
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="productivity" data-listing-date-sort="1608019200000" data-listing-file-modified-sort="1655531021374" data-listing-reading-time-sort="0.32">
+<div class="g-col-1" data-index="15" data-categories="productivity" data-listing-date-sort="1608019200000" data-listing-file-modified-sort="1655531021374" data-listing-reading-time-sort="0.32">
 <a href="./posts/2020-12-15-calendaring-todos/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2020-12-15-calendaring-todos/image.png" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/2020-12-15-calendaring-todos/image.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -276,6 +720,11 @@ Get rid of the todo list. Calendar everything.
 </h5>
 <div class="listing-reading-time card-text text-muted">
 0 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('productivity'); return false;">
+productivity
+</div>
 </div>
 <div class="card-text listing-description">
 <p>If you’re not willing to block time for it, does it event matter?</p>
@@ -289,11 +738,11 @@ Tue Dec 15, 2020
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="data science,decisions" data-listing-date-sort="1608019200000" data-listing-file-modified-sort="1655530266699" data-listing-reading-time-sort="1.045">
+<div class="g-col-1" data-index="16" data-categories="data science,decisions" data-listing-date-sort="1608019200000" data-listing-file-modified-sort="1655530266699" data-listing-reading-time-sort="1.045">
 <a href="./posts/2020-12-15-data-beats-opinions/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./posts/2020-12-15-data-beats-opinions/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+<img data-src="./posts/2020-12-15-data-beats-opinions/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -301,6 +750,14 @@ Data Beats Opinions
 </h5>
 <div class="listing-reading-time card-text text-muted">
 1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data science'); return false;">
+data science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('decisions'); return false;">
+decisions
+</div>
 </div>
 <div class="card-text listing-description">
 <p>Opinions from the customer shape the product. Their behavior (captured as data) speaks louder than their words.</p>
@@ -314,10 +771,49 @@ Tue Dec 15, 2020
 </div>
 </a>
 </div>
+<div class="g-col-1" data-index="17" data-categories="productivity,blogging,jekyll" data-listing-date-sort="1479369600000" data-listing-file-modified-sort="1659302103093" data-listing-reading-time-sort="4.16">
+<a href="./posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-img-bg" style="height: 150px;">
+&nbsp;
+</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Starting with Jekyll
+</h5>
+<div class="listing-reading-time card-text text-muted">
+4 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('productivity'); return false;">
+productivity
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('blogging'); return false;">
+blogging
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('jekyll'); return false;">
+jekyll
+</div>
+</div>
+<div class="card-text listing-description">
+Hello world.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Thu Nov 17, 2016
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

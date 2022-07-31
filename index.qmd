@@ -3,14 +3,16 @@ title: "Blog"
 listing:
   contents: 
     - posts
-    - book-notes
+    - book-reviews
   feed: true
   sort-ui: true
   sort: 
     - "date desc"
     - "title desc"
   type: "grid"
-  fields: [image, date, title, description, reading-time]
+  grid-columns: 4
+  grid-item-border: true
+  fields: [image, date, title, description, reading-time, categories]
   categories: true
   # date-format: "YYYY-MM-DD"
   date-format: "ddd MMM D, YYYY"
