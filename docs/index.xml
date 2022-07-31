@@ -9,8 +9,8 @@
 <link>https://www.bryanwhiting.com/index.html</link>
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-0.9.586</generator>
-<lastBuildDate>Wed, 20 Jul 2022 07:00:00 GMT</lastBuildDate>
+<generator>quarto-1.0.37</generator>
+<lastBuildDate>Wed, 20 Jul 2022 00:00:00 GMT</lastBuildDate>
 <item>
   <title>De-sciencing Data Science and Talking Like a Normal Person</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -109,7 +109,7 @@ Tip
   <category>communication</category>
   <category>principles</category>
   <guid>https://www.bryanwhiting.com/posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html</guid>
-  <pubDate>Wed, 20 Jul 2022 07:00:00 GMT</pubDate>
+  <pubDate>Wed, 20 Jul 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -141,7 +141,7 @@ Tip
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="https://www.bryanwhiting.com/posts/2022-07-03-when-data-collection-goes-too-far/photo.jpeg" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<p></p><figcaption class="figure-caption margin-caption">Exist.io</figcaption><p></p>
 </figure>
 </div>
 <p>When I researched the Apple Watch team a few years back I came to appreciate what they were/are trying to do: correlate heart monitoring with insurance claims data to proactively identify preemptive signs of cardiac arrest and other health issues.</p>
@@ -167,7 +167,7 @@ Tip
   <category>tech</category>
   <category>surveillance</category>
   <guid>https://www.bryanwhiting.com/posts/2022-07-03-when-data-collection-goes-too-far/index.html</guid>
-  <pubDate>Sun, 03 Jul 2022 07:00:00 GMT</pubDate>
+  <pubDate>Sun, 03 Jul 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-07-03-when-data-collection-goes-too-far/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -196,7 +196,7 @@ Tip
   <category>productivity</category>
   <category>ticktick</category>
   <guid>https://www.bryanwhiting.com/posts/2022-06-28-pomodoro-principles/index.html</guid>
-  <pubDate>Tue, 28 Jun 2022 07:00:00 GMT</pubDate>
+  <pubDate>Tue, 28 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-06-28-pomodoro-principles/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -235,7 +235,7 @@ Tip
   <category>musings</category>
   <category>ticktick</category>
   <guid>https://www.bryanwhiting.com/posts/2022-06-28-increase-focus-through-writing-down-everything/index.html</guid>
-  <pubDate>Tue, 28 Jun 2022 07:00:00 GMT</pubDate>
+  <pubDate>Tue, 28 Jun 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>How I use TickTick</title>
@@ -339,7 +339,7 @@ Tip
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
   <category>productivity</category>
   <guid>https://www.bryanwhiting.com/posts/2022-06-25-how-i-use-ticktick/index.html</guid>
-  <pubDate>Sat, 25 Jun 2022 07:00:00 GMT</pubDate>
+  <pubDate>Sat, 25 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-06-25-how-i-use-ticktick/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -401,7 +401,7 @@ Tip
   <category>book review</category>
   <category>productivity</category>
   <guid>https://www.bryanwhiting.com/book-reviews/2022-06-24-getting-things-done/index.html</guid>
-  <pubDate>Fri, 24 Jun 2022 07:00:00 GMT</pubDate>
+  <pubDate>Fri, 24 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/book-reviews/2022-06-24-getting-things-done/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -452,13 +452,13 @@ Tip
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="https://www.bryanwhiting.com/posts/2022-06-23-what-is-the-best-todo-list-manager?/photo.jpeg" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<p></p><figcaption class="figure-caption margin-caption">To Do has smart text parsing.</figcaption><p></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="https://www.bryanwhiting.com/posts/2022-06-23-what-is-the-best-todo-list-manager?/photo-2.jpeg" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<p></p><figcaption class="figure-caption margin-caption">To Do has “smart suggestions” that you can add to your day.</figcaption><p></p>
 </figure>
 </div>
 </section>
@@ -635,7 +635,7 @@ Tip
   <category>productivity</category>
   <category>app review</category>
   <guid>https://www.bryanwhiting.com/posts/2022-06-23-what-is-the-best-todo-list-manager?/index.html</guid>
-  <pubDate>Thu, 23 Jun 2022 07:00:00 GMT</pubDate>
+  <pubDate>Thu, 23 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-06-23-what-is-the-best-todo-list-manager?/app.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -668,7 +668,7 @@ Tip
   <category>priorities</category>
   <category>ideation</category>
   <guid>https://www.bryanwhiting.com/posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html</guid>
-  <pubDate>Thu, 23 Jun 2022 07:00:00 GMT</pubDate>
+  <pubDate>Thu, 23 Jun 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Downstream Impact</title>
@@ -682,7 +682,7 @@ Tip
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/photo.jpeg" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<p></p><figcaption class="figure-caption margin-caption">Every pea is unique. But it’s still a pea.</figcaption><p></p>
 </figure>
 </div>
 <p>Online experiments are powerful tools to see the causal impact of a business strategy. Tweak something, see what users do.</p>
@@ -698,7 +698,7 @@ Tip
   <category>data science</category>
   <category>experimentation</category>
   <guid>https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/index.html</guid>
-  <pubDate>Wed, 22 Jun 2022 07:00:00 GMT</pubDate>
+  <pubDate>Wed, 22 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -737,7 +737,7 @@ Tip
   <category>startups</category>
   <category>strategy</category>
   <guid>https://www.bryanwhiting.com/posts/2022-06-21-the-power-of-party-pay-by-visible/index.html</guid>
-  <pubDate>Tue, 21 Jun 2022 07:00:00 GMT</pubDate>
+  <pubDate>Tue, 21 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-06-21-the-power-of-party-pay-by-visible/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -804,7 +804,7 @@ Tip
   <category>productivity</category>
   <category>fatherhood</category>
   <guid>https://www.bryanwhiting.com/posts/2022-06-21-products-for-dads/index.html</guid>
-  <pubDate>Tue, 21 Jun 2022 07:00:00 GMT</pubDate>
+  <pubDate>Tue, 21 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-06-21-products-for-dads/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -845,7 +845,7 @@ Tip
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
   <category>data science</category>
   <guid>https://www.bryanwhiting.com/posts/2022-06-20-blogging-with-quarto/index.html</guid>
-  <pubDate>Mon, 20 Jun 2022 07:00:00 GMT</pubDate>
+  <pubDate>Mon, 20 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-06-20-blogging-with-quarto/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -878,7 +878,7 @@ Tip
   <category>communication</category>
   <category>writing</category>
   <guid>https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters/index.html</guid>
-  <pubDate>Sat, 17 Jul 2021 07:00:00 GMT</pubDate>
+  <pubDate>Sat, 17 Jul 2021 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -919,7 +919,7 @@ Tip
   <category>data science</category>
   <category>productivity</category>
   <guid>https://www.bryanwhiting.com/posts/2020-12-18-productivity-notes/index.html</guid>
-  <pubDate>Sat, 19 Dec 2020 08:00:00 GMT</pubDate>
+  <pubDate>Sat, 19 Dec 2020 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2020-12-18-productivity-notes/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -943,7 +943,7 @@ Tip
   <category>data science</category>
   <category>innovation</category>
   <guid>https://www.bryanwhiting.com/posts/2020-12-16-pretotyping-ml-solutions/index.html</guid>
-  <pubDate>Wed, 16 Dec 2020 08:00:00 GMT</pubDate>
+  <pubDate>Wed, 16 Dec 2020 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2020-12-16-pretotyping-ml-solutions/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -965,7 +965,7 @@ Tip
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
   <category>productivity</category>
   <guid>https://www.bryanwhiting.com/posts/2020-12-15-calendaring-todos/index.html</guid>
-  <pubDate>Tue, 15 Dec 2020 08:00:00 GMT</pubDate>
+  <pubDate>Tue, 15 Dec 2020 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2020-12-15-calendaring-todos/image.png" medium="image" type="image/png" height="64" width="144"/>
 </item>
 <item>
@@ -993,7 +993,7 @@ Tip
   <category>data science</category>
   <category>decisions</category>
   <guid>https://www.bryanwhiting.com/posts/2020-12-15-data-beats-opinions/index.html</guid>
-  <pubDate>Tue, 15 Dec 2020 08:00:00 GMT</pubDate>
+  <pubDate>Tue, 15 Dec 2020 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2020-12-15-data-beats-opinions/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -1065,7 +1065,7 @@ Tip
   <category>blogging</category>
   <category>jekyll</category>
   <guid>https://www.bryanwhiting.com/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html</guid>
-  <pubDate>Thu, 17 Nov 2016 08:00:00 GMT</pubDate>
+  <pubDate>Thu, 17 Nov 2016 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
