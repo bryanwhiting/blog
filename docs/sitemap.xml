@@ -1,103 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.bryanwhiting.com/index.html</loc>
-    <lastmod>2022-07-31T22:12:53.725Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/posts/2017-10-19-used-cars-analysis/used-cars.html</loc>
-    <lastmod>2022-07-31T22:09:20.486Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/posts/2018-07-02-semantic-versioning-for-data-science-models/semantic-versioning-for-data-science-models.html</loc>
-    <lastmod>2022-07-31T22:09:23.663Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/posts/2020-12-18-productivity-notes/index.html</loc>
-    <lastmod>2022-07-31T22:09:24.509Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/posts/2022-06-28-increase-focus-through-writing-down-everything/index.html</loc>
-    <lastmod>2022-07-31T22:09:25.429Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/posts/2022-07-03-when-data-collection-goes-too-far/index.html</loc>
-    <lastmod>2022-07-31T22:09:26.583Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/posts/2022-06-25-how-i-use-ticktick/index.html</loc>
-    <lastmod>2022-07-31T22:09:27.800Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/posts/2022-06-21-products-for-dads/index.html</loc>
-    <lastmod>2022-07-31T22:09:29.230Z</lastmod>
+    <loc>https://www.bryanwhiting.com/posts/2020-12-15-data-beats-opinions/index.html</loc>
+    <lastmod>2022-07-31T22:18:00.014Z</lastmod>
   </url>
   <url>
     <loc>https://www.bryanwhiting.com/posts/2022-06-28-pomodoro-principles/index.html</loc>
-    <lastmod>2022-07-31T22:09:30.082Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html</loc>
-    <lastmod>2022-07-31T22:09:34.157Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/posts/2022-06-21-the-power-of-party-pay-by-visible/index.html</loc>
-    <lastmod>2022-07-31T22:09:35.719Z</lastmod>
+    <lastmod>2022-07-31T22:18:00.766Z</lastmod>
   </url>
   <url>
     <loc>https://www.bryanwhiting.com/posts/2020-12-15-calendaring-todos/index.html</loc>
-    <lastmod>2022-07-31T22:09:36.775Z</lastmod>
+    <lastmod>2022-07-31T22:18:01.146Z</lastmod>
   </url>
   <url>
-    <loc>https://www.bryanwhiting.com/posts/2022-06-23-what-is-the-best-todo-list-manager?/index.html</loc>
-    <lastmod>2022-07-31T22:09:40.688Z</lastmod>
+    <loc>https://www.bryanwhiting.com/posts/2022-06-21-the-power-of-party-pay-by-visible/index.html</loc>
+    <lastmod>2022-07-31T22:18:01.530Z</lastmod>
   </url>
   <url>
-    <loc>https://www.bryanwhiting.com/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html</loc>
-    <lastmod>2022-07-31T22:10:08.416Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/posts/2022-06-20-blogging-with-quarto/index.html</loc>
-    <lastmod>2022-07-31T22:10:09.313Z</lastmod>
+    <loc>https://www.bryanwhiting.com/posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html</loc>
+    <lastmod>2022-07-31T22:18:01.934Z</lastmod>
   </url>
   <url>
     <loc>https://www.bryanwhiting.com/posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html</loc>
-    <lastmod>2022-07-31T22:10:10.116Z</lastmod>
+    <lastmod>2022-07-31T22:18:02.266Z</lastmod>
   </url>
   <url>
-    <loc>https://www.bryanwhiting.com/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html</loc>
-    <lastmod>2022-07-31T22:10:11.034Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/posts/2020-12-15-data-beats-opinions/index.html</loc>
-    <lastmod>2022-07-31T22:10:11.973Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters/index.html</loc>
-    <lastmod>2022-07-31T22:10:13.442Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/posts/2020-12-16-pretotyping-ml-solutions/index.html</loc>
-    <lastmod>2022-07-31T22:10:14.199Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html</loc>
-    <lastmod>2022-07-31T22:10:30.054Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/index.html</loc>
-    <lastmod>2022-07-31T22:10:31.098Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/book-reviews/2022-06-24-getting-things-done/index.html</loc>
-    <lastmod>2022-07-31T22:10:32.373Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.bryanwhiting.com/about.html</loc>
-    <lastmod>2022-07-31T22:10:40.746Z</lastmod>
+    <loc>https://www.bryanwhiting.com/posts/2022-07-03-when-data-collection-goes-too-far/index.html</loc>
+    <lastmod>2022-07-31T22:18:02.634Z</lastmod>
   </url>
   <url>
     <loc>https://www.bryanwhiting.com/posts/2022-06-23-the-best-todolist-manager/index.html</loc>
-    <lastmod>2022-07-31T22:12:51.625Z</lastmod>
+    <lastmod>2022-07-31T22:18:03.126Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bryanwhiting.com/posts/2018-07-02-semantic-versioning-for-data-science-models/semantic-versioning-for-data-science-models.html</loc>
+    <lastmod>2022-07-31T22:18:04.274Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bryanwhiting.com/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html</loc>
+    <lastmod>2022-07-31T22:18:05.450Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/index.html</loc>
+    <lastmod>2022-07-31T22:18:05.790Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bryanwhiting.com/posts/2022-06-21-products-for-dads/index.html</loc>
+    <lastmod>2022-07-31T22:18:06.182Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bryanwhiting.com/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html</loc>
+    <lastmod>2022-07-31T22:18:06.554Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bryanwhiting.com/posts/2020-12-16-pretotyping-ml-solutions/index.html</loc>
+    <lastmod>2022-07-31T22:18:06.854Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters/index.html</loc>
+    <lastmod>2022-07-31T22:18:07.190Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bryanwhiting.com/posts/2017-10-19-used-cars-analysis/used-cars.html</loc>
+    <lastmod>2022-07-31T22:18:08.506Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bryanwhiting.com/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html</loc>
+    <lastmod>2022-07-31T22:18:09.746Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bryanwhiting.com/posts/2022-06-25-how-i-use-ticktick/index.html</loc>
+    <lastmod>2022-07-31T22:18:10.158Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bryanwhiting.com/posts/2022-06-28-increase-focus-through-writing-down-everything/index.html</loc>
+    <lastmod>2022-07-31T22:18:10.498Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bryanwhiting.com/posts/2020-12-18-productivity-notes/index.html</loc>
+    <lastmod>2022-07-31T22:18:10.794Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bryanwhiting.com/posts/2022-06-20-blogging-with-quarto/index.html</loc>
+    <lastmod>2022-07-31T22:18:11.122Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bryanwhiting.com/about.html</loc>
+    <lastmod>2022-07-31T22:18:13.619Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bryanwhiting.com/book-reviews/2022-06-24-getting-things-done/index.html</loc>
+    <lastmod>2022-07-31T22:18:13.951Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bryanwhiting.com/index.html</loc>
+    <lastmod>2022-07-31T22:18:14.571Z</lastmod>
   </url>
 </urlset>

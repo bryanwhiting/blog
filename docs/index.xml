@@ -9,8 +9,8 @@
 <link>https://www.bryanwhiting.com/index.html</link>
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-0.9.586</generator>
-<lastBuildDate>Wed, 20 Jul 2022 07:00:00 GMT</lastBuildDate>
+<generator>quarto-1.0.37</generator>
+<lastBuildDate>Wed, 20 Jul 2022 00:00:00 GMT</lastBuildDate>
 <item>
   <title>De-sciencing Data Science and Talking Like a Normal Person</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -109,7 +109,7 @@ Tip
   <category>communication</category>
   <category>principles</category>
   <guid>https://www.bryanwhiting.com/posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html</guid>
-  <pubDate>Wed, 20 Jul 2022 07:00:00 GMT</pubDate>
+  <pubDate>Wed, 20 Jul 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -141,7 +141,7 @@ Tip
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="https://www.bryanwhiting.com/posts/2022-07-03-when-data-collection-goes-too-far/photo.jpeg" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<p></p><figcaption class="figure-caption margin-caption">Exist.io</figcaption><p></p>
 </figure>
 </div>
 <p>When I researched the Apple Watch team a few years back I came to appreciate what they were/are trying to do: correlate heart monitoring with insurance claims data to proactively identify preemptive signs of cardiac arrest and other health issues.</p>
@@ -167,7 +167,7 @@ Tip
   <category>tech</category>
   <category>surveillance</category>
   <guid>https://www.bryanwhiting.com/posts/2022-07-03-when-data-collection-goes-too-far/index.html</guid>
-  <pubDate>Sun, 03 Jul 2022 07:00:00 GMT</pubDate>
+  <pubDate>Sun, 03 Jul 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-07-03-when-data-collection-goes-too-far/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -196,7 +196,7 @@ Tip
   <category>productivity</category>
   <category>ticktick</category>
   <guid>https://www.bryanwhiting.com/posts/2022-06-28-pomodoro-principles/index.html</guid>
-  <pubDate>Tue, 28 Jun 2022 07:00:00 GMT</pubDate>
+  <pubDate>Tue, 28 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-06-28-pomodoro-principles/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -235,7 +235,7 @@ Tip
   <category>musings</category>
   <category>ticktick</category>
   <guid>https://www.bryanwhiting.com/posts/2022-06-28-increase-focus-through-writing-down-everything/index.html</guid>
-  <pubDate>Tue, 28 Jun 2022 07:00:00 GMT</pubDate>
+  <pubDate>Tue, 28 Jun 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>How I use TickTick</title>
@@ -339,7 +339,7 @@ Tip
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
   <category>productivity</category>
   <guid>https://www.bryanwhiting.com/posts/2022-06-25-how-i-use-ticktick/index.html</guid>
-  <pubDate>Sat, 25 Jun 2022 07:00:00 GMT</pubDate>
+  <pubDate>Sat, 25 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-06-25-how-i-use-ticktick/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -401,7 +401,7 @@ Tip
   <category>book review</category>
   <category>productivity</category>
   <guid>https://www.bryanwhiting.com/book-reviews/2022-06-24-getting-things-done/index.html</guid>
-  <pubDate>Fri, 24 Jun 2022 07:00:00 GMT</pubDate>
+  <pubDate>Fri, 24 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/book-reviews/2022-06-24-getting-things-done/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -452,13 +452,13 @@ Tip
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="https://www.bryanwhiting.com/posts/2022-06-23-the-best-todolist-manager/photo.jpeg" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<p></p><figcaption class="figure-caption margin-caption">To Do has smart text parsing.</figcaption><p></p>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="https://www.bryanwhiting.com/posts/2022-06-23-the-best-todolist-manager/photo-2.jpeg" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<p></p><figcaption class="figure-caption margin-caption">To Do has “smart suggestions” that you can add to your day.</figcaption><p></p>
 </figure>
 </div>
 </section>
@@ -635,7 +635,7 @@ Tip
   <category>productivity</category>
   <category>app review</category>
   <guid>https://www.bryanwhiting.com/posts/2022-06-23-the-best-todolist-manager/index.html</guid>
-  <pubDate>Thu, 23 Jun 2022 07:00:00 GMT</pubDate>
+  <pubDate>Thu, 23 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-06-23-the-best-todolist-manager/app.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -668,7 +668,7 @@ Tip
   <category>priorities</category>
   <category>ideation</category>
   <guid>https://www.bryanwhiting.com/posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html</guid>
-  <pubDate>Thu, 23 Jun 2022 07:00:00 GMT</pubDate>
+  <pubDate>Thu, 23 Jun 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Downstream Impact</title>
@@ -682,7 +682,7 @@ Tip
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/photo.jpeg" class="img-fluid figure-img"></p>
-<p></p><p></p>
+<p></p><figcaption class="figure-caption margin-caption">Every pea is unique. But it’s still a pea.</figcaption><p></p>
 </figure>
 </div>
 <p>Online experiments are powerful tools to see the causal impact of a business strategy. Tweak something, see what users do.</p>
@@ -698,7 +698,7 @@ Tip
   <category>data science</category>
   <category>experimentation</category>
   <guid>https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/index.html</guid>
-  <pubDate>Wed, 22 Jun 2022 07:00:00 GMT</pubDate>
+  <pubDate>Wed, 22 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -737,7 +737,7 @@ Tip
   <category>startups</category>
   <category>strategy</category>
   <guid>https://www.bryanwhiting.com/posts/2022-06-21-the-power-of-party-pay-by-visible/index.html</guid>
-  <pubDate>Tue, 21 Jun 2022 07:00:00 GMT</pubDate>
+  <pubDate>Tue, 21 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-06-21-the-power-of-party-pay-by-visible/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -804,7 +804,7 @@ Tip
   <category>productivity</category>
   <category>fatherhood</category>
   <guid>https://www.bryanwhiting.com/posts/2022-06-21-products-for-dads/index.html</guid>
-  <pubDate>Tue, 21 Jun 2022 07:00:00 GMT</pubDate>
+  <pubDate>Tue, 21 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-06-21-products-for-dads/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -845,7 +845,7 @@ Tip
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
   <category>data science</category>
   <guid>https://www.bryanwhiting.com/posts/2022-06-20-blogging-with-quarto/index.html</guid>
-  <pubDate>Mon, 20 Jun 2022 07:00:00 GMT</pubDate>
+  <pubDate>Mon, 20 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-06-20-blogging-with-quarto/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -878,7 +878,7 @@ Tip
   <category>communication</category>
   <category>writing</category>
   <guid>https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters/index.html</guid>
-  <pubDate>Sat, 17 Jul 2021 07:00:00 GMT</pubDate>
+  <pubDate>Sat, 17 Jul 2021 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -919,7 +919,7 @@ Tip
   <category>data science</category>
   <category>productivity</category>
   <guid>https://www.bryanwhiting.com/posts/2020-12-18-productivity-notes/index.html</guid>
-  <pubDate>Sat, 19 Dec 2020 08:00:00 GMT</pubDate>
+  <pubDate>Sat, 19 Dec 2020 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2020-12-18-productivity-notes/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -943,7 +943,7 @@ Tip
   <category>data science</category>
   <category>innovation</category>
   <guid>https://www.bryanwhiting.com/posts/2020-12-16-pretotyping-ml-solutions/index.html</guid>
-  <pubDate>Wed, 16 Dec 2020 08:00:00 GMT</pubDate>
+  <pubDate>Wed, 16 Dec 2020 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2020-12-16-pretotyping-ml-solutions/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -965,7 +965,7 @@ Tip
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
   <category>productivity</category>
   <guid>https://www.bryanwhiting.com/posts/2020-12-15-calendaring-todos/index.html</guid>
-  <pubDate>Tue, 15 Dec 2020 08:00:00 GMT</pubDate>
+  <pubDate>Tue, 15 Dec 2020 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2020-12-15-calendaring-todos/image.png" medium="image" type="image/png" height="64" width="144"/>
 </item>
 <item>
@@ -993,7 +993,7 @@ Tip
   <category>data science</category>
   <category>decisions</category>
   <guid>https://www.bryanwhiting.com/posts/2020-12-15-data-beats-opinions/index.html</guid>
-  <pubDate>Tue, 15 Dec 2020 08:00:00 GMT</pubDate>
+  <pubDate>Tue, 15 Dec 2020 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2020-12-15-data-beats-opinions/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -1001,8 +1001,14 @@ Tip
   <dc:creator>Bryan Whiting</dc:creator>
   <dc:creator>Bryan Whiting</dc:creator>
   <link>https://www.bryanwhiting.com/posts/2018-07-02-semantic-versioning-for-data-science-models/semantic-versioning-for-data-science-models.html</link>
-  <description><![CDATA[ <p>If you’ve ever wanted to tag your data science model, you’ve probably wondered how to version it. Which will it be: vx.4.1, v34.1231.51.21, or v91.x4.dev34? After reading about <em>semantic versioning</em>, I propose a method for versioning data science models.</p>
-<section id="semantic-versioning-for-software" class="level1"><h1>Semantic Versioning for Software</h1>
+  <description><![CDATA[ 
+
+
+
+
+<p>If you’ve ever wanted to tag your data science model, you’ve probably wondered how to version it. Which will it be: vx.4.1, v34.1231.51.21, or v91.x4.dev34? After reading about <em>semantic versioning</em>, I propose a method for versioning data science models.</p>
+<section id="semantic-versioning-for-software" class="level1">
+<h1>Semantic Versioning for Software</h1>
 <p>Semantic versioning <a href="https://semver.org/">proposes the following</a>:</p>
 <blockquote class="blockquote">
 <p>Given a version number MAJOR.MINOR.PATCH, increment the:</p>
@@ -1013,7 +1019,9 @@ Tip
 </ol>
 <p>Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format. Well, I don’t build APIs right now, but I think there is a way to apply this to the ways in which my software <em>does</em> change.</p>
 </blockquote>
-</section><section id="semantic-versioning-for-data-science-models" class="level1"><h1>Semantic Versioning for Data Science Models</h1>
+</section>
+<section id="semantic-versioning-for-data-science-models" class="level1">
+<h1>Semantic Versioning for Data Science Models</h1>
 <p>I propose that data science models use BETWEEN.WITHIN.PROCESS versioning, incrementing the</p>
 <ol type="1">
 <li>BETWEEN version when you have an incompatible data change or target variable change, which render your models incomparable to prior versions, the</li>
@@ -1021,9 +1029,11 @@ Tip
 <li>PROCESS version when you update a pipeline but it doesn’t ultimately improve the model.</li>
 </ol>
 <p>(Where BETWEEN implies ‘between model’ and WITHIN for ‘within model’.)</p>
-<section id="an-example" class="level2"><h2 class="anchored" data-anchor-id="an-example">An Example</h2>
+<section id="an-example" class="level2">
+<h2 class="anchored" data-anchor-id="an-example">An Example</h2>
 <p>I build data science models by building python packages and committing the code to GitHub. The python package contains all of the support files and a <code>main.py</code> file to run the pipeline from start to finish. The support files could contain either helpful loggers to tell me where the pipeline is breaking down, diagnostic tools such as an AUC-ROC plot, files to engineer features, or files to train different model types. So there are really these three things that could happen to my code at any time. It doesn’t matter where those changes occur, or how many lines of code changed. What matters is what’s happened to the model. Each time I get a pull request approved, I’ll update the version number in my repo.</p>
-<section id="changing-between" class="level3"><h3 class="anchored" data-anchor-id="changing-between">Changing BETWEEN</h3>
+<section id="changing-between" class="level3">
+<h3 class="anchored" data-anchor-id="changing-between">Changing BETWEEN</h3>
 <p>Increment the BETWEEN version for the following changes:</p>
 <ul>
 <li>When the structure of your data changes</li>
@@ -1032,7 +1042,9 @@ Tip
 </ul>
 <p>Assume I discovered that I had a bad join. The join change might have been a minor one, but it’s now difficult to really compare the two models because my target was affected as a result. What I was predicting, even if slightly different, is now something different. If you ever feel like you’re comparing apples to oranges when looking at an AUC-ROC curve, update the BETWEEN version.</p>
 <p>With each BETWEEN change, there should be a clear communication in the release notes of why the model is inherently different from prior models. These changes should be less frequent.</p>
-</section><section id="changing-within" class="level3"><h3 class="anchored" data-anchor-id="changing-within">Changing WITHIN</h3>
+</section>
+<section id="changing-within" class="level3">
+<h3 class="anchored" data-anchor-id="changing-within">Changing WITHIN</h3>
 <p>Increment the WITHIN number when the following happens:</p>
 <ul>
 <li>Features are added</li>
@@ -1042,7 +1054,9 @@ Tip
 <p>So if I added files that allowed me to train different model types, or added files that engineered new features, I’d incrememnt the WITHIN version. In my mind, this shouldn’t be a <em>count</em> of features you include, but should just be incremented every time you do something that affects the model performance.</p>
 <p>At any time, you might what to view different subsets of features and their effect on the model. So, you might not change the number of features, but add some functionality into your pipeline that now produces three different models in each run. I would increment the WITHIN version number in that case.</p>
 <p>Remember, the goal of this type of versioning is to show generally what’s changed in your pipeline.</p>
-</section><section id="changing-process" class="level3"><h3 class="anchored" data-anchor-id="changing-process">Changing PROCESS</h3>
+</section>
+<section id="changing-process" class="level3">
+<h3 class="anchored" data-anchor-id="changing-process">Changing PROCESS</h3>
 <p>Increment the PROCESS version when the following happens:</p>
 <ul>
 <li>A minor bug is fixed (unless this updates BETWEEN or WITHIN)</li>
@@ -1050,67 +1064,69 @@ Tip
 <li>Add a diagnostic plot or table</li>
 </ul>
 <p>Basically, any time you add something that doesn’t ultimately affect the performance of the model, you should update the PROCESS version. Your changes might improve the flow of your code and make you a much happier developer, but if it doesn’t improve the model, then the key priority of your code hasn’t improved.</p>
-</section></section></section><section id="final-thoughts" class="level1"><h1>Final Thoughts</h1>
+</section>
+</section>
+</section>
+<section id="final-thoughts" class="level1">
+<h1>Final Thoughts</h1>
 <p>Ultimately, data science semantic versioning can help communicate to team members what has fundamentally changed between software versions. Easily, a manager, colleague, or model governance officer could see the following version numbers and be able to know generally what’s changed:</p>
 <ol type="1">
-<li>
-<code>0.0.1</code>: Process improvement</li>
-<li>
-<code>0.1.0</code>: Model improvement</li>
-<li>
-<code>0.2.0</code>: Model improvement</li>
-<li>
-<code>1.0.0</code>: Model change</li>
-<li>
-<code>1.1.0</code>: Model improvement</li>
-<li>
-<code>1.1.1</code>: Process improvement</li>
+<li><code>0.0.1</code>: Process improvement</li>
+<li><code>0.1.0</code>: Model improvement</li>
+<li><code>0.2.0</code>: Model improvement</li>
+<li><code>1.0.0</code>: Model change</li>
+<li><code>1.1.0</code>: Model improvement</li>
+<li><code>1.1.1</code>: Process improvement</li>
 </ol>
 <p>So what changed?</p>
 <ol type="1">
-<li>
-<code>0.0.1</code>: Setting up the code base, but no model or features yet</li>
-<li>
-<code>0.1.0</code>: Finished a model, or added some features</li>
-<li>
-<code>0.2.0</code>: Added some features</li>
-<li>
-<code>1.0.0</code>: Discovered a bug in the target variable, something was miscoded. What is being predicted now changes (but you still have all the old features!)</li>
-<li>
-<code>1.1.0</code>: Added some new features</li>
-<li>
-<code>1.1.1</code>: Added a new plot to assess the financial impact of the model, but model doesn’t inherently change.</li>
+<li><code>0.0.1</code>: Setting up the code base, but no model or features yet</li>
+<li><code>0.1.0</code>: Finished a model, or added some features</li>
+<li><code>0.2.0</code>: Added some features</li>
+<li><code>1.0.0</code>: Discovered a bug in the target variable, something was miscoded. What is being predicted now changes (but you still have all the old features!)</li>
+<li><code>1.1.0</code>: Added some new features</li>
+<li><code>1.1.1</code>: Added a new plot to assess the financial impact of the model, but model doesn’t inherently change.</li>
 </ol>
 <p>This type of versioning also ultimately encourages a more disciplined workflow. Each sets of commit should be focused on one task alone. Because every time you update a version number, numbers to the right should refresh to zero. That’s how the theory goes, at least.</p>
 
 
-</section><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
   <category>data science</category>
   <category>machine learning</category>
   <guid>https://www.bryanwhiting.com/posts/2018-07-02-semantic-versioning-for-data-science-models/semantic-versioning-for-data-science-models.html</guid>
-  <pubDate>Mon, 02 Jul 2018 07:00:00 GMT</pubDate>
+  <pubDate>Mon, 02 Jul 2018 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Buying a used car the data science way: Part 2</title>
   <dc:creator>Bryan Whiting</dc:creator>
   <dc:creator>Bryan Whiting</dc:creator>
   <link>https://www.bryanwhiting.com/posts/2017-10-19-used-cars-analysis/used-cars.html</link>
-  <description><![CDATA[ <p><em>[Update 2021-11-16] This analysis was originally written on my old blog <a href="https://htmlpreview.github.io/?https://github.com/bryanwhiting/blog_deprecated/blob/master/content/post/2017-10-19-buying-a-used-car-the-data-science-way.html">here</a>. You can find the source code for it <a href="https://github.com/bryanwhiting/blog_deprecated/blob/master/content/post/2017-10-19-buying-a-used-car-the-data-science-way.Rmd">here</a>.</em></p>
+  <description><![CDATA[ 
+
+
+
+
+<p><em>[Update 2021-11-16] This analysis was originally written on my old blog <a href="https://htmlpreview.github.io/?https://github.com/bryanwhiting/blog_deprecated/blob/master/content/post/2017-10-19-buying-a-used-car-the-data-science-way.html">here</a>. You can find the source code for it <a href="https://github.com/bryanwhiting/blog_deprecated/blob/master/content/post/2017-10-19-buying-a-used-car-the-data-science-way.Rmd">here</a>.</em></p>
 <p>This is part 2 out of a two-part series on scraping used car data. Check out <a href="../2017-10-18-used-cars-scrape/index.html">part 1</a> to learn how to scrape the data.</p>
-<section id="youre-in-the-market" class="level2"><h2 class="anchored" data-anchor-id="youre-in-the-market">You’re in the market</h2>
+<section id="youre-in-the-market" class="level2">
+<h2 class="anchored" data-anchor-id="youre-in-the-market">You’re in the market</h2>
 <p>So you want to buy a car, but you don’t know anything about them? Welcome to my life.</p>
 <p>You show up at the dealer and there’s a sticker on the window. You know the difference between make and model, but you soon learn what a trim is. Some versions come with leather. Some have a sun roof. Some have all wheel drive. Some have 20k in miles, and a similarly priced car in a higher trim is at 40k miles. How do you know what you’re really paying for, and what these features are worth? And how do you know what it’ll be worth when it’s four years older and has an additional 40k miles?</p>
 <p>Pretty advanced questions for someone who just learned what a powertrain is.</p>
 <p>In this analysis, I’ll dive into how you can use data to learn a lot about an industry in a short amount of time. I’ll first dive into knowing what you’re buying (now and later). Then, I’ll dive into how Truecar and others might be finding their ‘deals’.</p>
-</section><section id="what-am-i-paying-for" class="level2"><h2 class="anchored" data-anchor-id="what-am-i-paying-for">What am I paying for?</h2>
+</section>
+<section id="what-am-i-paying-for" class="level2">
+<h2 class="anchored" data-anchor-id="what-am-i-paying-for">What am I paying for?</h2>
 <p>To do any analysis, you need data. Please see my most recent post if you’re interested in learning how I got the data for this analysis. Suffice it to say, I webscraped it. The data is not my own, but belongs to Truecar.</p>
 <p>I love using linear regression to understand my data on a granular level. In my data set, I was able to extract the make, model, year, mileage, trim, and a flag for whether the car was all wheel drive (awd == 1) or not. Putting this data into a linear regression, we can see some interesting results. First let’s look at the data we have:</p>
 <div class="cell">
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span class="kw" style="color: #003B4F;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;"><a href="https://dplyr.tidyverse.org">dplyr</a></span><span class="op" style="color: #5E5E5E;">)</span>
-<span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/load.html">load</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="st" style="color: #20794D;">'../../data/used-car/tc-ford-edge.Rda'</span><span class="op" style="color: #5E5E5E;">)</span>
-<span class="co" style="color: #5E5E5E;"># Get the prices into the appropriate scale and remove some extraneous</span>
-<span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">price</span> <span class="op" style="color: #5E5E5E;">=</span> <span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">price</span><span class="op" style="color: #5E5E5E;">*</span><span class="fl" style="color: #AD0000;">1000</span>
-<span class="va" style="color: #111111;">df</span> <span class="op" style="color: #5E5E5E;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu" style="color: #4758AB;"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="op" style="color: #5E5E5E;">-</span><span class="va" style="color: #111111;">stats</span>, <span class="op" style="color: #5E5E5E;">-</span><span class="va" style="color: #111111;">url</span>, <span class="op" style="color: #5E5E5E;">-</span><span class="va" style="color: #111111;">int</span>, <span class="op" style="color: #5E5E5E;">-</span><span class="va" style="color: #111111;">vin</span>, <span class="op" style="color: #5E5E5E;">-</span><span class="va" style="color: #111111;">v6</span>, <span class="op" style="color: #5E5E5E;">-</span><span class="va" style="color: #111111;">trueprice</span>, <span class="op" style="color: #5E5E5E;">-</span><span class="va" style="color: #111111;">resid</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="op" style="color: #5E5E5E;">)</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;">library</span>(dplyr)</span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;">load</span>(<span class="st" style="color: #20794D;">'../../data/used-car/tc-ford-edge.Rda'</span>)</span>
+<span id="cb1-3"><span class="co" style="color: #5E5E5E;"># Get the prices into the appropriate scale and remove some extraneous</span></span>
+<span id="cb1-4">df<span class="sc" style="color: #5E5E5E;">$</span>price <span class="ot" style="color: #003B4F;">=</span> df<span class="sc" style="color: #5E5E5E;">$</span>price<span class="sc" style="color: #5E5E5E;">*</span><span class="dv" style="color: #AD0000;">1000</span></span>
+<span id="cb1-5">df <span class="sc" style="color: #5E5E5E;">%&gt;%</span> <span class="fu" style="color: #4758AB;">select</span>(<span class="sc" style="color: #5E5E5E;">-</span>stats, <span class="sc" style="color: #5E5E5E;">-</span>url, <span class="sc" style="color: #5E5E5E;">-</span>int, <span class="sc" style="color: #5E5E5E;">-</span>vin, <span class="sc" style="color: #5E5E5E;">-</span>v6, <span class="sc" style="color: #5E5E5E;">-</span>trueprice, <span class="sc" style="color: #5E5E5E;">-</span>resid) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> <span class="fu" style="color: #4758AB;">head</span>()</span></code></pre></div>
 </div>
 <pre><code>##   price year mileage trim awd        location                   ext deal
 ## 1 16000 2014  28.477   SE   1    Sterling, VA                  &lt;NA&gt; 6514
@@ -1128,8 +1144,8 @@ Tip
 ## 6 16.29</code></pre>
 <p>Now let’s see the regression results.</p>
 <div class="cell">
-<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span class="va" style="color: #111111;">mod</span> <span class="op" style="color: #5E5E5E;">&lt;-</span> <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/stats/lm.html">lm</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">price</span> <span class="op" style="color: #5E5E5E;">~</span> <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/factor.html">as.factor</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">year</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;">+</span> <span class="va" style="color: #111111;">mileage</span> <span class="op" style="color: #5E5E5E;">+</span> <span class="va" style="color: #111111;">trim</span> <span class="op" style="color: #5E5E5E;">+</span> <span class="va" style="color: #111111;">awd</span>, data <span class="op" style="color: #5E5E5E;">=</span> <span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">)</span>
-<span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/summary.html">summary</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">mod</span><span class="op" style="color: #5E5E5E;">)</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">mod <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">lm</span>(price <span class="sc" style="color: #5E5E5E;">~</span> <span class="fu" style="color: #4758AB;">as.factor</span>(year) <span class="sc" style="color: #5E5E5E;">+</span> mileage <span class="sc" style="color: #5E5E5E;">+</span> trim <span class="sc" style="color: #5E5E5E;">+</span> awd, <span class="at" style="color: #657422;">data =</span> df)</span>
+<span id="cb3-2"><span class="fu" style="color: #4758AB;">summary</span>(mod)</span></code></pre></div>
 </div>
 <pre><code>## 
 ## Call:
@@ -1160,17 +1176,23 @@ Tip
 ## Residual standard error: 1450 on 211 degrees of freedom
 ## Multiple R-squared:  0.9231, Adjusted R-squared:  0.9191 
 ## F-statistic: 230.2 on 11 and 211 DF,  p-value: &lt; 2.2e-16</code></pre>
-</section><section id="interpretation-matters" class="level2"><h2 class="anchored" data-anchor-id="interpretation-matters">Interpretation matters</h2>
+</section>
+<section id="interpretation-matters" class="level2">
+<h2 class="anchored" data-anchor-id="interpretation-matters">Interpretation matters</h2>
 <p>First, we see the (Intercept). This is the average value of a car for every level of every feature not show. So it represents the average price of a year 2000 with 0 miles, Limited trim, without all wheel drive. This allows us to now see what the average effect of, say, year is, holding all else constant. Every unit is in terms of dollars, so we can see that for as.factor(year)2013 that 2013 cars are worth $1,267 more than 2012 cars. This makes sense.</p>
 <p>I scaled mileage to be in the thousands so that it’s a little easier to interpret. So we see that for every 1,000 miles you drive a Ford Edge, it decreases the value of the car by $91 dollars. This tells you a few things. One, if I’m being offered two cars that are 10K miles different, there should be about a ~$900 difference in the car.</p>
 <p>Second, if I’m planning on driving my car 30k miles over the next two years, how much should I expect the price to drop just due to mileage? Well, about -$91 * 30 = -$2,730. And maybe if you bought a 2014 model, two years later it could perhaps be like owning a 2012 model today. What’s the two-year difference between a 2014 and a 2012 model? About $3,160 dollars.</p>
-</section><section id="inference" class="level2"><h2 class="anchored" data-anchor-id="inference">Inference</h2>
+</section>
+<section id="inference" class="level2">
+<h2 class="anchored" data-anchor-id="inference">Inference</h2>
 <p>Now it’s getting interesting! You’re now starting to remember how your mom told you to never buy a car new, because once you drive it off the lot, it’s worth significantly less. Well, we can see that if you own a brand-new 2017 model and a 2016 model, they’re about $9082 - $6166 = $2916 different. So yea, just by getting the 2017 model you’ll lose $3,000 in the first year. See how 2016 is only $502 dollars more than the 2015? Having the 2015 model is practically the same price as a 2016. So you might as well buy the 2016 model and save a year of wear.</p>
 <p>Well, my theory kind of starts breaking down because 2015 cars and 2014 cars are similarly spaced as 2014 and 2013 ones. So maybe I shouldn’t read too much into this. But the ability to see these trends shouldn’t stop you from asking important questions, like, why is there a difference between years?</p>
 <p>When investigating the Nissan Murano, I observed a $5430 difference between 2015 and 2014. That’s non-trivial considering the other years were equally spaced. Doing a little research I saw that Nissan changed the 2015 Murano style, and the new style was apparently worth a lot more. Turns out the same thing happened here for the Ford Edge - the 2015 model is slightly longer with redesigned interior.</p>
 <p>You can also use this framework to get a decent sense for what features are important to you. Like, is having all wheel drive really worth $1,277? If you live in an area where it snows, it probably is. But if you live in Florida, you may not need it.</p>
 <p>Not only is this framework helpful for comparing within-make-model differences, it helps you get a sense of between-make-model differences. Say, comparing the Ford Edge with the Nissan Murano and the Toyota RAV4. The coefficient for milage on the Edge is -$91. On the Murano it’s -$83, and on the RAV4 -$61. Remember this is the cost per 1,000 miles. That tells me that if I ‘spend’ 30k miles on a car over two years, I’ll lose -$2,730 on the Edge, but only -$1,830 on the RAV4, saving me $900. This also validates that Toyotas hold their value more.</p>
-</section><section id="identify-a-good-market-deal-and-how-truecar-might-do-it" class="level2"><h2 class="anchored" data-anchor-id="identify-a-good-market-deal-and-how-truecar-might-do-it">Identify a good market deal (and how TrueCar might do it)</h2>
+</section>
+<section id="identify-a-good-market-deal-and-how-truecar-might-do-it" class="level2">
+<h2 class="anchored" data-anchor-id="identify-a-good-market-deal-and-how-truecar-might-do-it">Identify a good market deal (and how TrueCar might do it)</h2>
 <p>Beyond the research above, you can use such a model to identify deals in the market and guide your buying decision. Here’s how:</p>
 <ul>
 <li>Make a PriceFinder: Get the residuals (actual minus predicted value) for each car. The more negative the residual, the more this car is a good price! This may be how TrueCar and CarGurus get their ‘deals’. They fit a model (probably one better than what I’ve created here) and use its residuals to value each car.</li>
@@ -1179,27 +1201,33 @@ Tip
 </ul>
 <p>Here’s an example of how we do that. First, let’s predict a hypothetical 2015 SEL Ford Edge FWD with 27.6k miles:</p>
 <div class="cell">
-<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span class="va" style="color: #111111;">that_car</span> <span class="op" style="color: #5E5E5E;">&lt;-</span> <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/as.data.frame.html">as.data.frame</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/list.html">list</a></span><span class="op" style="color: #5E5E5E;">(</span>
-  year <span class="op" style="color: #5E5E5E;">=</span> <span class="fl" style="color: #AD0000;">2015</span>,
-  mileage <span class="op" style="color: #5E5E5E;">=</span> <span class="fl" style="color: #AD0000;">27.6</span>,
-  trim <span class="op" style="color: #5E5E5E;">=</span> <span class="st" style="color: #20794D;">'SEL'</span>,
-  awd <span class="op" style="color: #5E5E5E;">=</span> <span class="fl" style="color: #AD0000;">0</span>
-<span class="op" style="color: #5E5E5E;">)</span><span class="op" style="color: #5E5E5E;">)</span>
-
-<span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/stats/predict.html">predict</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">mod</span>, newdata <span class="op" style="color: #5E5E5E;">=</span> <span class="va" style="color: #111111;">that_car</span><span class="op" style="color: #5E5E5E;">)</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1">that_car <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">as.data.frame</span>(<span class="fu" style="color: #4758AB;">list</span>(</span>
+<span id="cb5-2">  <span class="at" style="color: #657422;">year =</span> <span class="dv" style="color: #AD0000;">2015</span>,</span>
+<span id="cb5-3">  <span class="at" style="color: #657422;">mileage =</span> <span class="fl" style="color: #AD0000;">27.6</span>,</span>
+<span id="cb5-4">  <span class="at" style="color: #657422;">trim =</span> <span class="st" style="color: #20794D;">'SEL'</span>,</span>
+<span id="cb5-5">  <span class="at" style="color: #657422;">awd =</span> <span class="dv" style="color: #AD0000;">0</span></span>
+<span id="cb5-6">))</span>
+<span id="cb5-7"></span>
+<span id="cb5-8"><span class="fu" style="color: #4758AB;">predict</span>(mod, <span class="at" style="color: #657422;">newdata =</span> that_car)</span></code></pre></div>
 </div>
 <pre><code>##        1 
 ## 23520.13</code></pre>
 <p>We’d expect, on average, such a car to cost $23,520.13. Is what the dealer’s offering you above or below that? If they’re offering $25,000 then you know the car is $1,479.87 higher than what you might expect.</p>
-</section><section id="how-to-improve-our-model" class="level2"><h2 class="anchored" data-anchor-id="how-to-improve-our-model">How to improve our model</h2>
+</section>
+<section id="how-to-improve-our-model" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-improve-our-model">How to improve our model</h2>
 <p>Now, this is a pretty naive model, but it’s a model. As George Box said, “All models are wrong, but some are useful.” But here are some quick ways to improve this model:</p>
 <ul>
 <li>Check for interactions. An interaction between miles and year would tell you whether the effect of miles would change across different years. For example, I think adding 10k miles to a 2017 would devalue the car more steeply than adding 10k miles to a 2012 model. During my quick research I checked for interactions, but I didn’t find many to be significant and I chose to ignore them for simplicity.</li>
 <li>Use a linear trend for year rather than a ‘factor’ trend. I’ve chosen here to treat year as a factor, which implies that I think that each year is completely different. Had I used year as a numeric feature, I could have possibly interpreted year as, “Each additional year increases/decreases the price by X on average, holding all else constant.” I liked the simplicity of thinking that each year was different, and since cars usually update models every four years, I wanted to be able to see where this happened. You couldn’t easily see this if year were a linear trend. Objectively, what would be a good way to choose? Fit both models and see which had better R-squared or AIC.</li>
 <li>Do model diagnostics. Check the residual plot to make sure the errors are normally distributed. Check for outliers. Each of these affects the accuracy of your residuals. I did some brief checks and was genearlly satisfied.</li>
-</ul></section><section id="takeaways" class="level2"><h2 class="anchored" data-anchor-id="takeaways">Takeaways</h2>
+</ul>
+</section>
+<section id="takeaways" class="level2">
+<h2 class="anchored" data-anchor-id="takeaways">Takeaways</h2>
 <p>So, a data scientist walks into a dealership with a computer with a registry of thousands of used cars on it. He negotiates with the front-office salesman. And the salesman says…</p>
-<section id="non-statistical-considerations" class="level3"><h3 class="anchored" data-anchor-id="non-statistical-considerations">Non-statistical considerations</h3>
+<section id="non-statistical-considerations" class="level3">
+<h3 class="anchored" data-anchor-id="non-statistical-considerations">Non-statistical considerations</h3>
 <p>When you’re buying a car from a dealership, remember that it’s their job to sell you that car. Here are other random things I learned to think about during the car-buying process.</p>
 <ul>
 <li>How many miles has it been driven, and how old is it? (We found a car with 45,000 miles in one year. That’s almost two trips around the entire world in a year! This is also 3750 miles per month (a cross-country US trip), or about 125 miles per day. What kind of driving do you have to do in a year to get that?</li>
@@ -1220,12 +1248,17 @@ Tip
 <li>Used cars are bought at auction. Carmax buys all their cars at auction and only keeps 1/3 of them. Local dealers also get their cars this way, and they don’t always know what the car looks like till it gets to their lot. Check the Carfax to see if any prior dealers ‘flipped’ the car quickly.</li>
 </ul>
 <p>Used cars have a shelf life. If a car isn’t sold in 45-60 days, some dealerships might have to auction off the car. That means you’ll see a tiering in the price. Less-favorable cars will see the price drop several times in its life cycle. Check CarGurus to see how many times the price has dropped, and try to guess for yourself if it might drop again (or just get sold). They know their prices. They’ve got their back-office guys looking at every price of every same car within 100 mile radius. While I’m also able to get as many of those cars as available on TrueCar, I’m not able to segment by all the various features. It’s easy to webscrape for Make, Model, Year, AWD/FWD, and maybe V6 engine, but it’s very hard to get the details like leather, sunroof, twin-turbo, etc. That’s where the pricing gets really interesting.</p>
-</section><section id="final-thoughts" class="level3"><h3 class="anchored" data-anchor-id="final-thoughts">Final thoughts</h3>
+</section>
+<section id="final-thoughts" class="level3">
+<h3 class="anchored" data-anchor-id="final-thoughts">Final thoughts</h3>
 <p>Ultimately, a car is bought by irrational humans, and sold by more experienced ones too. So all of this data will probably go out the door when you try to make a deal.</p>
 <p>So a data scientist walked into several dealerships, and left frustrated because nobody budged on their prices. Doesn’t matter how much data I have, or what I think I know, everyone’s got their price.</p>
 
 
-</section></section><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
   <category>webscraping</category>
   <category>r</category>
   <category>regression</category>
@@ -1233,26 +1266,34 @@ Tip
   <category>pricing</category>
   <category>buying things</category>
   <guid>https://www.bryanwhiting.com/posts/2017-10-19-used-cars-analysis/used-cars.html</guid>
-  <pubDate>Sun, 19 Feb 2017 08:00:00 GMT</pubDate>
+  <pubDate>Sun, 19 Feb 2017 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Buying a used car the data science way: Part 1</title>
   <dc:creator>Bryan Whiting</dc:creator>
   <dc:creator>Bryan Whiting</dc:creator>
   <link>https://www.bryanwhiting.com/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html</link>
-  <description><![CDATA[ <p><em>[Update 2021-11-16] This analysis was originally written on my old blog <a href="https://htmlpreview.github.io/?https://github.com/bryanwhiting/blog_deprecated/blob/master/content/post/2017-10-18-getting-used-car-data.html">here</a>. You can find the source code for it <a href="https://github.com/bryanwhiting/blog_deprecated/blob/master/content/post/2017-10-18-getting-used-car-data.Rmd">here</a>. This code no longer works as TrueCar changed their CSS to make it more difficult to scrape. It’s still possible, but you’d need to build a custom scraper from scratch.</em></p>
+  <description><![CDATA[ 
+
+
+
+
+<p><em>[Update 2021-11-16] This analysis was originally written on my old blog <a href="https://htmlpreview.github.io/?https://github.com/bryanwhiting/blog_deprecated/blob/master/content/post/2017-10-18-getting-used-car-data.html">here</a>. You can find the source code for it <a href="https://github.com/bryanwhiting/blog_deprecated/blob/master/content/post/2017-10-18-getting-used-car-data.Rmd">here</a>. This code no longer works as TrueCar changed their CSS to make it more difficult to scrape. It’s still possible, but you’d need to build a custom scraper from scratch.</em></p>
 <p>This is part 1 out of a two-part series on scraping used car data. Check out <a href="../2017-10-19-used-cars-analysis/index.html">part 2</a> to learn how to analyze the data.</p>
 <p>In another post, I describe how I use this data that I’ve scraped, but I wanted to provide a more in-depth tutorial for those interested in how I got the data. Note, this data belongs to Truecar, so all uses herein are for personal and academic reasons only.</p>
-<section id="get-the-data" class="level2"><h2 class="anchored" data-anchor-id="get-the-data">Get the data</h2>
+<section id="get-the-data" class="level2">
+<h2 class="anchored" data-anchor-id="get-the-data">Get the data</h2>
 <p>In order to do any good analaysis, you first need data. I prefer to have more data than less, where possible. In this case, I don’t have any data, so I use webscraping to get the data. There are much better tutorials on how to scrape data, so I’ll be light. I use R’s rvest package here, which does a decent job.1 Let’s look at Truecar’s Used Car postings2. First I use google to find the search query on Truecar that I like.</p>
-</section><section id="load-packages" class="level2"><h2 class="anchored" data-anchor-id="load-packages">Load packages</h2>
+</section>
+<section id="load-packages" class="level2">
+<h2 class="anchored" data-anchor-id="load-packages">Load packages</h2>
 <div class="cell">
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span class="kw" style="color: #003B4F;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;"><a href="https://rvest.tidyverse.org/">rvest</a></span><span class="op" style="color: #5E5E5E;">)</span>
-<span class="kw" style="color: #003B4F;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;"><a href="https://dplyr.tidyverse.org">dplyr</a></span><span class="op" style="color: #5E5E5E;">)</span>
-<span class="kw" style="color: #003B4F;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;"><a href="https://magrittr.tidyverse.org">magrittr</a></span><span class="op" style="color: #5E5E5E;">)</span>
-<span class="co" style="color: #5E5E5E;"># Find the URL of the data you want to scrape</span>
-<span class="va" style="color: #111111;">url</span> <span class="op" style="color: #5E5E5E;">&lt;-</span> <span class="st" style="color: #20794D;">'https://www.truecar.com/used-cars-for-sale/listings/ford/edge/'</span>
-<span class="fu" style="color: #4758AB;">read_html</span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">url</span><span class="op" style="color: #5E5E5E;">)</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="fu" style="color: #4758AB;">library</span>(rvest)</span>
+<span id="cb1-2"><span class="fu" style="color: #4758AB;">library</span>(dplyr)</span>
+<span id="cb1-3"><span class="fu" style="color: #4758AB;">library</span>(magrittr)</span>
+<span id="cb1-4"><span class="co" style="color: #5E5E5E;"># Find the URL of the data you want to scrape</span></span>
+<span id="cb1-5">url <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="st" style="color: #20794D;">'https://www.truecar.com/used-cars-for-sale/listings/ford/edge/'</span></span>
+<span id="cb1-6"><span class="fu" style="color: #4758AB;">read_html</span>(url)</span></code></pre></div>
 </div>
 <pre><code>## {xml_document}
 ## &lt;html lang="en-US"&gt;
@@ -1260,122 +1301,125 @@ Tip
 ## [2] &lt;body&gt;\n    &lt;!-- Element target for any partner code meant to execut ...</code></pre>
 <p>You’ll see there’s a head and a body. Our data’s in the body, so let’s use html_nodes() and html_text() to parse out the data we want. I used Selectorgadget to know what HTML classes to search for.</p>
 <div class="cell">
-<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span class="fu" style="color: #4758AB;">read_html</span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">url</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu" style="color: #4758AB;">html_nodes</span><span class="op" style="color: #5E5E5E;">(</span><span class="st" style="color: #20794D;">'.col-xs-6.col-sm-8.no-left-padding'</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu" style="color: #4758AB;">html_text</span><span class="op" style="color: #5E5E5E;">(</span><span class="op" style="color: #5E5E5E;">)</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><span class="fu" style="color: #4758AB;">read_html</span>(url) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> <span class="fu" style="color: #4758AB;">html_nodes</span>(<span class="st" style="color: #20794D;">'.col-xs-6.col-sm-8.no-left-padding'</span>) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> <span class="fu" style="color: #4758AB;">html_text</span>()</span></code></pre></div>
 </div>
 <pre><code>## character(0)</code></pre>
 <p>So that’s how you get the data on a single page. If you look closer at the URL, you see a lot of helpful things. First, there’s the make, then the model, then the location-zip, then the year-range, and ultimately the trim. This is a very pretty and clean URL. If you click on a few additional pages, you’ll see the URL opens up with <code>?page=2</code>.</p>
 <p>https://www.truecar.com/used-cars-for-sale/listings/ford/edge/location-90210/?page=2</p>
-<p>This is our ‘in’ to scraping multiple pages. I won’t bore you with the details of how to get that data into a neat matrix for us to analyze, but suffice it to say that I’m able to do it. Just build a function to construct a URL, and build a loop to go through the different pages, then use lots of <code><a href="https://stringr.tidyverse.org/reference/str_extract.html">str_extract()</a></code> from the <code>stringr</code> package and <code>gsub</code> to clean up the data.</p>
+<p>This is our ‘in’ to scraping multiple pages. I won’t bore you with the details of how to get that data into a neat matrix for us to analyze, but suffice it to say that I’m able to do it. Just build a function to construct a URL, and build a loop to go through the different pages, then use lots of <code>str_extract()</code> from the <code>stringr</code> package and <code>gsub</code> to clean up the data.</p>
 <div class="cell">
-<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span class="kw" style="color: #003B4F;"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;"><a href="http://stringr.tidyverse.org">stringr</a></span><span class="op" style="color: #5E5E5E;">)</span>
-
-<span class="va" style="color: #111111;">make</span> <span class="op" style="color: #5E5E5E;">=</span> <span class="st" style="color: #20794D;">'ford'</span>
-<span class="va" style="color: #111111;">model</span> <span class="op" style="color: #5E5E5E;">=</span> <span class="st" style="color: #20794D;">'edge'</span>
-<span class="va" style="color: #111111;">zip</span> <span class="op" style="color: #5E5E5E;">=</span> <span class="st" style="color: #20794D;">'90210'</span>
-<span class="va" style="color: #111111;">year</span> <span class="op" style="color: #5E5E5E;">=</span> <span class="fl" style="color: #AD0000;">2012</span>
-<span class="va" style="color: #111111;">npages</span> <span class="op" style="color: #5E5E5E;">=</span> <span class="fl" style="color: #AD0000;">5</span>
-
-<span class="va" style="color: #111111;">url</span> <span class="op" style="color: #5E5E5E;">&lt;-</span> <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/paste.html">paste</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="st" style="color: #20794D;">'https://www.truecar.com/used-cars-for-sale/listings/'</span>, 
-             <span class="va" style="color: #111111;">make</span>, <span class="st" style="color: #20794D;">'/'</span>, 
-             <span class="va" style="color: #111111;">model</span> ,
-             <span class="st" style="color: #20794D;">'/location-'</span>, <span class="va" style="color: #111111;">zip</span>,
-             <span class="st" style="color: #20794D;">'/year-'</span>,<span class="va" style="color: #111111;">year</span>,<span class="st" style="color: #20794D;">'-max/?page='</span>, sep <span class="op" style="color: #5E5E5E;">=</span> <span class="st" style="color: #20794D;">""</span><span class="op" style="color: #5E5E5E;">)</span>
-
-<span class="va" style="color: #111111;">urls</span> <span class="op" style="color: #5E5E5E;">&lt;-</span> <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/paste.html">paste</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">url</span>, <span class="fl" style="color: #AD0000;">1</span><span class="op" style="color: #5E5E5E;">:</span><span class="va" style="color: #111111;">npages</span>, sep <span class="op" style="color: #5E5E5E;">=</span> <span class="st" style="color: #20794D;">""</span><span class="op" style="color: #5E5E5E;">)</span>
-
-<span class="va" style="color: #111111;">scrape</span> <span class="op" style="color: #5E5E5E;">&lt;-</span> <span class="kw" style="color: #003B4F;">function</span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">pageno</span><span class="op" style="color: #5E5E5E;">)</span><span class="op" style="color: #5E5E5E;">{</span>
-  <span class="kw" style="color: #003B4F;"><a href="https://rdrr.io/r/base/try.html">try</a></span><span class="op" style="color: #5E5E5E;">(</span>
-    <span class="fu" style="color: #4758AB;">read_html</span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">urls</span><span class="op" style="color: #5E5E5E;">[</span><span class="va" style="color: #111111;">pageno</span><span class="op" style="color: #5E5E5E;">]</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu" style="color: #4758AB;">html_nodes</span><span class="op" style="color: #5E5E5E;">(</span><span class="st" style="color: #20794D;">'.col-xs-6.col-sm-8.no-left-padding'</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu" style="color: #4758AB;">html_text</span><span class="op" style="color: #5E5E5E;">(</span><span class="op" style="color: #5E5E5E;">)</span>
-  <span class="op" style="color: #5E5E5E;">)</span>
-<span class="op" style="color: #5E5E5E;">}</span>
-
-<span class="va" style="color: #111111;">long_list</span> <span class="op" style="color: #5E5E5E;">=</span> <span class="fu" style="color: #4758AB;">scrape</span><span class="op" style="color: #5E5E5E;">(</span><span class="fl" style="color: #AD0000;">1</span><span class="op" style="color: #5E5E5E;">)</span>
-<span class="kw" style="color: #003B4F;">for</span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">i</span> <span class="kw" style="color: #003B4F;">in</span> <span class="fl" style="color: #AD0000;">2</span><span class="op" style="color: #5E5E5E;">:</span><span class="va" style="color: #111111;">npages</span><span class="op" style="color: #5E5E5E;">)</span><span class="op" style="color: #5E5E5E;">{</span>
-  <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/print.html">print</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">i</span><span class="op" style="color: #5E5E5E;">)</span>
-  <span class="va" style="color: #111111;">new_list</span> <span class="op" style="color: #5E5E5E;">=</span> <span class="kw" style="color: #003B4F;"><a href="https://rdrr.io/r/base/try.html">try</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="fu" style="color: #4758AB;">scrape</span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">i</span><span class="op" style="color: #5E5E5E;">)</span><span class="op" style="color: #5E5E5E;">)</span>
-  
-  <span class="va" style="color: #111111;">error</span> <span class="op" style="color: #5E5E5E;">=</span> <span class="op" style="color: #5E5E5E;">(</span><span class="st" style="color: #20794D;">"try-error"</span> <span class="op" style="color: #5E5E5E;"><a href="https://rdrr.io/r/base/match.html">%in%</a></span> <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/class.html">class</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">new_list</span><span class="op" style="color: #5E5E5E;">)</span><span class="op" style="color: #5E5E5E;">)</span>
-  
-  <span class="kw" style="color: #003B4F;">if</span><span class="op" style="color: #5E5E5E;">(</span> <span class="va" style="color: #111111;">error</span> <span class="op" style="color: #5E5E5E;">==</span> <span class="cn" style="color: #8f5902;">FALSE</span> <span class="op" style="color: #5E5E5E;">)</span><span class="op" style="color: #5E5E5E;">{</span>
-    <span class="va" style="color: #111111;">long_list</span> <span class="op" style="color: #5E5E5E;">=</span> <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">long_list</span>, <span class="va" style="color: #111111;">new_list</span><span class="op" style="color: #5E5E5E;">)</span> 
-  <span class="op" style="color: #5E5E5E;">}</span> <span class="kw" style="color: #003B4F;">else</span> <span class="op" style="color: #5E5E5E;">{</span>
-    <span class="kw" style="color: #003B4F;">break</span>
-  <span class="op" style="color: #5E5E5E;">}</span>
-<span class="op" style="color: #5E5E5E;">}</span>
-<span class="co" style="color: #5E5E5E;">## [1] 2</span>
-<span class="va" style="color: #111111;">stats</span> <span class="op" style="color: #5E5E5E;">&lt;-</span> <span class="va" style="color: #111111;">long_list</span>
-<span class="va" style="color: #111111;">df</span> <span class="op" style="color: #5E5E5E;">&lt;-</span> <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/as.data.frame.html">as.data.frame</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">stats</span><span class="op" style="color: #5E5E5E;">)</span>
-<span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">stats</span> <span class="op" style="color: #5E5E5E;"><a href="https://magrittr.tidyverse.org/reference/compound.html">%&lt;&gt;%</a></span> <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/character.html">as.character</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="op" style="color: #5E5E5E;">)</span>
-<span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">price</span> <span class="op" style="color: #5E5E5E;">&lt;-</span> <span class="fu" style="color: #4758AB;"><a href="https://stringr.tidyverse.org/reference/str_extract.html">str_extract</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">stats</span>, <span class="st" style="color: #20794D;">'\\$[0-9]*,[0-9]*'</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/grep.html">gsub</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="st" style="color: #20794D;">'Price: |\\$|,'</span>, <span class="st" style="color: #20794D;">''</span>, <span class="va" style="color: #111111;">.</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span>
-  <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/numeric.html">as.numeric</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="op" style="color: #5E5E5E;">)</span>
-<span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">year</span> <span class="op" style="color: #5E5E5E;">&lt;-</span> <span class="fu" style="color: #4758AB;"><a href="https://stringr.tidyverse.org/reference/str_extract.html">str_extract</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">stats</span>, <span class="st" style="color: #20794D;">'^[0-9]* '</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/numeric.html">as.numeric</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="op" style="color: #5E5E5E;">)</span>
-<span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">mileage</span> <span class="op" style="color: #5E5E5E;">&lt;-</span> <span class="fu" style="color: #4758AB;"><a href="https://stringr.tidyverse.org/reference/str_extract.html">str_extract</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">stats</span>, <span class="st" style="color: #20794D;">'Mileage: [0-9]*,[0-9]*'</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/grep.html">gsub</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="st" style="color: #20794D;">'Mileage: |,'</span>, <span class="st" style="color: #20794D;">''</span>, <span class="va" style="color: #111111;">.</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span>
-  <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/numeric.html">as.numeric</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="op" style="color: #5E5E5E;">)</span>
-
-<span class="co" style="color: #5E5E5E;"># a = df$stats[1]</span>
-<span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">trim</span> <span class="op" style="color: #5E5E5E;">&lt;-</span> <span class="fu" style="color: #4758AB;"><a href="https://stringr.tidyverse.org/reference/str_extract.html">str_extract</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">stats</span>, <span class="st" style="color: #20794D;">'.*Mileage:'</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/grep.html">gsub</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="st" style="color: #20794D;">'FWD|AWD|4x[24]|[24]WD|V6|4-cyl|^[0-9][0-9][0-9][0-9]|4dr|Automatic|Manual|Mileage:'</span>, <span class="st" style="color: #20794D;">''</span>, <span class="va" style="color: #111111;">.</span>, ignore.case <span class="op" style="color: #5E5E5E;">=</span> <span class="cn" style="color: #8f5902;">T</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/grep.html">gsub</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">make</span>, <span class="st" style="color: #20794D;">''</span>, <span class="va" style="color: #111111;">.</span>, ignore.case <span class="op" style="color: #5E5E5E;">=</span> <span class="cn" style="color: #8f5902;">T</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/grep.html">gsub</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">model</span>, <span class="st" style="color: #20794D;">''</span>, <span class="va" style="color: #111111;">.</span>, ignore.case <span class="op" style="color: #5E5E5E;">=</span> <span class="cn" style="color: #8f5902;">T</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/trimws.html">trimws</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="op" style="color: #5E5E5E;">)</span> 
-
-
-<span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">awd</span> <span class="op" style="color: #5E5E5E;">&lt;-</span> <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/grep.html">grepl</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="st" style="color: #20794D;">'AWD|4WD|4x4'</span>, <span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">stats</span>, ignore.case <span class="op" style="color: #5E5E5E;">=</span> <span class="cn" style="color: #8f5902;">T</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/numeric.html">as.numeric</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="op" style="color: #5E5E5E;">)</span>
-<span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">manual</span> <span class="op" style="color: #5E5E5E;">&lt;-</span> <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/grep.html">grepl</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="st" style="color: #20794D;">'manual'</span>, <span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">stats</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/numeric.html">as.numeric</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="op" style="color: #5E5E5E;">)</span>
-<span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">v6</span> <span class="op" style="color: #5E5E5E;">&lt;-</span> <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/grep.html">grepl</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="st" style="color: #20794D;">'V6'</span>, <span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">stats</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/numeric.html">as.numeric</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="op" style="color: #5E5E5E;">)</span>
-<span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">location</span> <span class="op" style="color: #5E5E5E;">&lt;-</span> <span class="fu" style="color: #4758AB;"><a href="https://stringr.tidyverse.org/reference/str_extract.html">str_extract</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">stats</span>, <span class="st" style="color: #20794D;">'Location: .*Exterior:'</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/grep.html">gsub</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="st" style="color: #20794D;">'Location: |Exterior:'</span>, <span class="st" style="color: #20794D;">''</span>, <span class="va" style="color: #111111;">.</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/trimws.html">trimws</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="op" style="color: #5E5E5E;">)</span> 
-<span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">ext</span> <span class="op" style="color: #5E5E5E;">&lt;-</span> <span class="fu" style="color: #4758AB;"><a href="https://stringr.tidyverse.org/reference/str_extract.html">str_extract</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">stats</span>, <span class="st" style="color: #20794D;">'Exterior: .*Interior:'</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/grep.html">gsub</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="st" style="color: #20794D;">'Interior:|Exterior:'</span>, <span class="st" style="color: #20794D;">''</span>, <span class="va" style="color: #111111;">.</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/trimws.html">trimws</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="op" style="color: #5E5E5E;">)</span> 
-<span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">int</span> <span class="op" style="color: #5E5E5E;">&lt;-</span> <span class="fu" style="color: #4758AB;"><a href="https://stringr.tidyverse.org/reference/str_extract.html">str_extract</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">stats</span>, <span class="st" style="color: #20794D;">'Interior: .*VIN:'</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/grep.html">gsub</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="st" style="color: #20794D;">'Interior: |VIN:'</span>, <span class="st" style="color: #20794D;">''</span>, <span class="va" style="color: #111111;">.</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/trimws.html">trimws</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="op" style="color: #5E5E5E;">)</span> 
-<span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">vin</span> <span class="op" style="color: #5E5E5E;">&lt;-</span> <span class="fu" style="color: #4758AB;"><a href="https://stringr.tidyverse.org/reference/str_extract.html">str_extract</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">stats</span>, <span class="st" style="color: #20794D;">'VIN: .*\\
+<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><span class="fu" style="color: #4758AB;">library</span>(stringr)</span>
+<span id="cb5-2"></span>
+<span id="cb5-3">make <span class="ot" style="color: #003B4F;">=</span> <span class="st" style="color: #20794D;">'ford'</span></span>
+<span id="cb5-4">model <span class="ot" style="color: #003B4F;">=</span> <span class="st" style="color: #20794D;">'edge'</span></span>
+<span id="cb5-5">zip <span class="ot" style="color: #003B4F;">=</span> <span class="st" style="color: #20794D;">'90210'</span></span>
+<span id="cb5-6">year <span class="ot" style="color: #003B4F;">=</span> <span class="dv" style="color: #AD0000;">2012</span></span>
+<span id="cb5-7">npages <span class="ot" style="color: #003B4F;">=</span> <span class="dv" style="color: #AD0000;">5</span></span>
+<span id="cb5-8"></span>
+<span id="cb5-9">url <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">paste</span>(<span class="st" style="color: #20794D;">'https://www.truecar.com/used-cars-for-sale/listings/'</span>, </span>
+<span id="cb5-10">             make, <span class="st" style="color: #20794D;">'/'</span>, </span>
+<span id="cb5-11">             model ,</span>
+<span id="cb5-12">             <span class="st" style="color: #20794D;">'/location-'</span>, zip,</span>
+<span id="cb5-13">             <span class="st" style="color: #20794D;">'/year-'</span>,year,<span class="st" style="color: #20794D;">'-max/?page='</span>, <span class="at" style="color: #657422;">sep =</span> <span class="st" style="color: #20794D;">""</span>)</span>
+<span id="cb5-14"></span>
+<span id="cb5-15">urls <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">paste</span>(url, <span class="dv" style="color: #AD0000;">1</span><span class="sc" style="color: #5E5E5E;">:</span>npages, <span class="at" style="color: #657422;">sep =</span> <span class="st" style="color: #20794D;">""</span>)</span>
+<span id="cb5-16"></span>
+<span id="cb5-17">scrape <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="cf" style="color: #003B4F;">function</span>(pageno){</span>
+<span id="cb5-18">  <span class="fu" style="color: #4758AB;">try</span>(</span>
+<span id="cb5-19">    <span class="fu" style="color: #4758AB;">read_html</span>(urls[pageno]) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> <span class="fu" style="color: #4758AB;">html_nodes</span>(<span class="st" style="color: #20794D;">'.col-xs-6.col-sm-8.no-left-padding'</span>) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> <span class="fu" style="color: #4758AB;">html_text</span>()</span>
+<span id="cb5-20">  )</span>
+<span id="cb5-21">}</span>
+<span id="cb5-22"></span>
+<span id="cb5-23">long_list <span class="ot" style="color: #003B4F;">=</span> <span class="fu" style="color: #4758AB;">scrape</span>(<span class="dv" style="color: #AD0000;">1</span>)</span>
+<span id="cb5-24"><span class="cf" style="color: #003B4F;">for</span>(i <span class="cf" style="color: #003B4F;">in</span> <span class="dv" style="color: #AD0000;">2</span><span class="sc" style="color: #5E5E5E;">:</span>npages){</span>
+<span id="cb5-25">  <span class="fu" style="color: #4758AB;">print</span>(i)</span>
+<span id="cb5-26">  new_list <span class="ot" style="color: #003B4F;">=</span> <span class="fu" style="color: #4758AB;">try</span>(<span class="fu" style="color: #4758AB;">scrape</span>(i))</span>
+<span id="cb5-27">  </span>
+<span id="cb5-28">  error <span class="ot" style="color: #003B4F;">=</span> (<span class="st" style="color: #20794D;">"try-error"</span> <span class="sc" style="color: #5E5E5E;">%in%</span> <span class="fu" style="color: #4758AB;">class</span>(new_list))</span>
+<span id="cb5-29">  </span>
+<span id="cb5-30">  <span class="cf" style="color: #003B4F;">if</span>( error <span class="sc" style="color: #5E5E5E;">==</span> <span class="cn" style="color: #8f5902;">FALSE</span> ){</span>
+<span id="cb5-31">    long_list <span class="ot" style="color: #003B4F;">=</span> <span class="fu" style="color: #4758AB;">c</span>(long_list, new_list) </span>
+<span id="cb5-32">  } <span class="cf" style="color: #003B4F;">else</span> {</span>
+<span id="cb5-33">    <span class="cf" style="color: #003B4F;">break</span></span>
+<span id="cb5-34">  }</span>
+<span id="cb5-35">}</span>
+<span id="cb5-36"><span class="do" style="color: #5E5E5E;
+font-style: italic;">## [1] 2</span></span>
+<span id="cb5-37">stats <span class="ot" style="color: #003B4F;">&lt;-</span> long_list</span>
+<span id="cb5-38">df <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">as.data.frame</span>(stats)</span>
+<span id="cb5-39">df<span class="sc" style="color: #5E5E5E;">$</span>stats <span class="sc" style="color: #5E5E5E;">%&lt;&gt;%</span> <span class="fu" style="color: #4758AB;">as.character</span>()</span>
+<span id="cb5-40">df<span class="sc" style="color: #5E5E5E;">$</span>price <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">str_extract</span>(df<span class="sc" style="color: #5E5E5E;">$</span>stats, <span class="st" style="color: #20794D;">'</span><span class="sc" style="color: #5E5E5E;">\\</span><span class="st" style="color: #20794D;">$[0-9]*,[0-9]*'</span>) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> </span>
+<span id="cb5-41">  <span class="fu" style="color: #4758AB;">gsub</span>(<span class="st" style="color: #20794D;">'Price: |</span><span class="sc" style="color: #5E5E5E;">\\</span><span class="st" style="color: #20794D;">$|,'</span>, <span class="st" style="color: #20794D;">''</span>, .) <span class="sc" style="color: #5E5E5E;">%&gt;%</span></span>
+<span id="cb5-42">  <span class="fu" style="color: #4758AB;">as.numeric</span>()</span>
+<span id="cb5-43">df<span class="sc" style="color: #5E5E5E;">$</span>year <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">str_extract</span>(df<span class="sc" style="color: #5E5E5E;">$</span>stats, <span class="st" style="color: #20794D;">'^[0-9]* '</span>) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> </span>
+<span id="cb5-44">  <span class="fu" style="color: #4758AB;">as.numeric</span>()</span>
+<span id="cb5-45">df<span class="sc" style="color: #5E5E5E;">$</span>mileage <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">str_extract</span>(df<span class="sc" style="color: #5E5E5E;">$</span>stats, <span class="st" style="color: #20794D;">'Mileage: [0-9]*,[0-9]*'</span>) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> </span>
+<span id="cb5-46">  <span class="fu" style="color: #4758AB;">gsub</span>(<span class="st" style="color: #20794D;">'Mileage: |,'</span>, <span class="st" style="color: #20794D;">''</span>, .) <span class="sc" style="color: #5E5E5E;">%&gt;%</span></span>
+<span id="cb5-47">  <span class="fu" style="color: #4758AB;">as.numeric</span>()</span>
+<span id="cb5-48"></span>
+<span id="cb5-49"><span class="co" style="color: #5E5E5E;"># a = df$stats[1]</span></span>
+<span id="cb5-50">df<span class="sc" style="color: #5E5E5E;">$</span>trim <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">str_extract</span>(df<span class="sc" style="color: #5E5E5E;">$</span>stats, <span class="st" style="color: #20794D;">'.*Mileage:'</span>) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> </span>
+<span id="cb5-51">  <span class="fu" style="color: #4758AB;">gsub</span>(<span class="st" style="color: #20794D;">'FWD|AWD|4x[24]|[24]WD|V6|4-cyl|^[0-9][0-9][0-9][0-9]|4dr|Automatic|Manual|Mileage:'</span>, <span class="st" style="color: #20794D;">''</span>, ., <span class="at" style="color: #657422;">ignore.case =</span> T) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> </span>
+<span id="cb5-52">  <span class="fu" style="color: #4758AB;">gsub</span>(make, <span class="st" style="color: #20794D;">''</span>, ., <span class="at" style="color: #657422;">ignore.case =</span> T) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> </span>
+<span id="cb5-53">  <span class="fu" style="color: #4758AB;">gsub</span>(model, <span class="st" style="color: #20794D;">''</span>, ., <span class="at" style="color: #657422;">ignore.case =</span> T) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> </span>
+<span id="cb5-54">  <span class="fu" style="color: #4758AB;">trimws</span>() </span>
+<span id="cb5-55"></span>
+<span id="cb5-56"></span>
+<span id="cb5-57">df<span class="sc" style="color: #5E5E5E;">$</span>awd <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">grepl</span>(<span class="st" style="color: #20794D;">'AWD|4WD|4x4'</span>, df<span class="sc" style="color: #5E5E5E;">$</span>stats, <span class="at" style="color: #657422;">ignore.case =</span> T) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> <span class="fu" style="color: #4758AB;">as.numeric</span>()</span>
+<span id="cb5-58">df<span class="sc" style="color: #5E5E5E;">$</span>manual <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">grepl</span>(<span class="st" style="color: #20794D;">'manual'</span>, df<span class="sc" style="color: #5E5E5E;">$</span>stats) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> <span class="fu" style="color: #4758AB;">as.numeric</span>()</span>
+<span id="cb5-59">df<span class="sc" style="color: #5E5E5E;">$</span>v6 <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">grepl</span>(<span class="st" style="color: #20794D;">'V6'</span>, df<span class="sc" style="color: #5E5E5E;">$</span>stats) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> <span class="fu" style="color: #4758AB;">as.numeric</span>()</span>
+<span id="cb5-60">df<span class="sc" style="color: #5E5E5E;">$</span>location <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">str_extract</span>(df<span class="sc" style="color: #5E5E5E;">$</span>stats, <span class="st" style="color: #20794D;">'Location: .*Exterior:'</span>) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> </span>
+<span id="cb5-61">  <span class="fu" style="color: #4758AB;">gsub</span>(<span class="st" style="color: #20794D;">'Location: |Exterior:'</span>, <span class="st" style="color: #20794D;">''</span>, .) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> </span>
+<span id="cb5-62">  <span class="fu" style="color: #4758AB;">trimws</span>() </span>
+<span id="cb5-63">df<span class="sc" style="color: #5E5E5E;">$</span>ext <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">str_extract</span>(df<span class="sc" style="color: #5E5E5E;">$</span>stats, <span class="st" style="color: #20794D;">'Exterior: .*Interior:'</span>) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> </span>
+<span id="cb5-64">  <span class="fu" style="color: #4758AB;">gsub</span>(<span class="st" style="color: #20794D;">'Interior:|Exterior:'</span>, <span class="st" style="color: #20794D;">''</span>, .) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> </span>
+<span id="cb5-65">  <span class="fu" style="color: #4758AB;">trimws</span>() </span>
+<span id="cb5-66">df<span class="sc" style="color: #5E5E5E;">$</span>int <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">str_extract</span>(df<span class="sc" style="color: #5E5E5E;">$</span>stats, <span class="st" style="color: #20794D;">'Interior: .*VIN:'</span>) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> </span>
+<span id="cb5-67">  <span class="fu" style="color: #4758AB;">gsub</span>(<span class="st" style="color: #20794D;">'Interior: |VIN:'</span>, <span class="st" style="color: #20794D;">''</span>, .) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> </span>
+<span id="cb5-68">  <span class="fu" style="color: #4758AB;">trimws</span>() </span>
+<span id="cb5-69">df<span class="sc" style="color: #5E5E5E;">$</span>vin <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">str_extract</span>(df<span class="sc" style="color: #5E5E5E;">$</span>stats, <span class="st" style="color: #20794D;">'VIN: .*</span><span class="sc" style="color: #5E5E5E;">\\</span><span class="st" style="color: #20794D;">
   <category>webscraping</category>
   <category>cars</category>
   <category>pricing</category>
   <category>r</category>
   <guid>https://www.bryanwhiting.com/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html</guid>
-  <pubDate>Sat, 18 Feb 2017 08:00:00 GMT</pubDate>
+  <pubDate>Sat, 18 Feb 2017 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
-</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/grep.html">gsub</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="st" style="color: #20794D;">'VIN: |\\
+</span>) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> </span>
+<span id="cb5-70">  <span class="fu" style="color: #4758AB;">gsub</span>(<span class="st" style="color: #20794D;">'VIN: |</span><span class="sc" style="color: #5E5E5E;">\\</span><span class="st" style="color: #20794D;">
   <category>webscraping</category>
   <category>cars</category>
   <category>pricing</category>
   <category>r</category>
   <guid>https://www.bryanwhiting.com/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html</guid>
-  <pubDate>Sat, 18 Feb 2017 08:00:00 GMT</pubDate>
+  <pubDate>Sat, 18 Feb 2017 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
-</span>, <span class="st" style="color: #20794D;">''</span>, <span class="va" style="color: #111111;">.</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/substr.html">substr</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">.</span>, <span class="fl" style="color: #AD0000;">1</span>, <span class="fl" style="color: #AD0000;">17</span><span class="op" style="color: #5E5E5E;">)</span>
-<span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">deal</span> <span class="op" style="color: #5E5E5E;">&lt;-</span> <span class="fu" style="color: #4758AB;"><a href="https://stringr.tidyverse.org/reference/str_extract.html">str_extract</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="va" style="color: #111111;">df</span><span class="op" style="color: #5E5E5E;">$</span><span class="va" style="color: #111111;">stats</span>, <span class="st" style="color: #20794D;">'\\$[0-9]*,[0-9]* below'</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/grep.html">gsub</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="st" style="color: #20794D;">'below|\\$|,'</span>, <span class="st" style="color: #20794D;">''</span>, <span class="va" style="color: #111111;">.</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/trimws.html">trimws</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span>
-  <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/base/numeric.html">as.numeric</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="op" style="color: #5E5E5E;">)</span></code></pre></div>
+</span>, <span class="st" style="color: #20794D;">''</span>, .) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> </span>
+<span id="cb5-71">  <span class="fu" style="color: #4758AB;">substr</span>(., <span class="dv" style="color: #AD0000;">1</span>, <span class="dv" style="color: #AD0000;">17</span>)</span>
+<span id="cb5-72">df<span class="sc" style="color: #5E5E5E;">$</span>deal <span class="ot" style="color: #003B4F;">&lt;-</span> <span class="fu" style="color: #4758AB;">str_extract</span>(df<span class="sc" style="color: #5E5E5E;">$</span>stats, <span class="st" style="color: #20794D;">'</span><span class="sc" style="color: #5E5E5E;">\\</span><span class="st" style="color: #20794D;">$[0-9]*,[0-9]* below'</span>) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> </span>
+<span id="cb5-73">  <span class="fu" style="color: #4758AB;">gsub</span>(<span class="st" style="color: #20794D;">'below|</span><span class="sc" style="color: #5E5E5E;">\\</span><span class="st" style="color: #20794D;">$|,'</span>, <span class="st" style="color: #20794D;">''</span>, .) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> <span class="fu" style="color: #4758AB;">trimws</span>() <span class="sc" style="color: #5E5E5E;">%&gt;%</span></span>
+<span id="cb5-74">  <span class="fu" style="color: #4758AB;">as.numeric</span>()</span></code></pre></div>
 </div>
 <p>And here’s what the results look like. You’ve got the original scraped data in the stats column and then everything else that you can parse out.</p>
 <div class="cell">
-<div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span class="co" style="color: #5E5E5E;"># df was the dataframe object we needed</span>
-<span class="va" style="color: #111111;">df</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu" style="color: #4758AB;"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="op" style="color: #5E5E5E;">-</span><span class="va" style="color: #111111;">stats</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu" style="color: #4758AB;"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op" style="color: #5E5E5E;">(</span><span class="fl" style="color: #AD0000;">10</span><span class="op" style="color: #5E5E5E;">)</span> <span class="op" style="color: #5E5E5E;"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu" style="color: #4758AB;">formattable</span><span class="fu" style="color: #4758AB;">::</span><span class="fu" style="color: #4758AB;">formattable</span><span class="op" style="color: #5E5E5E;">(</span><span class="op" style="color: #5E5E5E;">)</span></code></pre></div>
+<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><span class="co" style="color: #5E5E5E;"># df was the dataframe object we needed</span></span>
+<span id="cb6-2">df <span class="sc" style="color: #5E5E5E;">%&gt;%</span> <span class="fu" style="color: #4758AB;">select</span>(<span class="sc" style="color: #5E5E5E;">-</span>stats) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> <span class="fu" style="color: #4758AB;">head</span>(<span class="dv" style="color: #AD0000;">10</span>) <span class="sc" style="color: #5E5E5E;">%&gt;%</span> formattable<span class="sc" style="color: #5E5E5E;">::</span><span class="fu" style="color: #4758AB;">formattable</span>()</span></code></pre></div>
 </div>
 
 
-</section><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
   <category>webscraping</category>
   <category>cars</category>
   <category>pricing</category>
   <category>r</category>
   <guid>https://www.bryanwhiting.com/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html</guid>
-  <pubDate>Sat, 18 Feb 2017 08:00:00 GMT</pubDate>
+  <pubDate>Sat, 18 Feb 2017 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

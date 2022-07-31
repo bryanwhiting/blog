@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.586">
+<meta name="generator" content="quarto-1.0.37">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
 <meta name="author" content="Bryan Whiting">
 <meta name="dcterms.date" content="2017-02-18">
 <meta name="description" content="How I scrape used car data.">
+
 <title>Bryan Whiting - Buying a used car the data science way: Part 1</title>
 <style>
 code{white-space: pre-wrap;}
@@ -80,6 +83,7 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
@@ -95,7 +99,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -113,7 +118,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit"
   }
-}</script><script type="text/javascript">
+}</script>
+
+<script type="text/javascript">
 
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -125,13 +132,20 @@ ga('send', {
   hitType: 'pageview',
   'anonymizeIp': true,
 });
-</script><style>html{ scroll-behavior: smooth; }</style>
-<script async="" src="https://hypothes.is/embed.js"></script><link rel="stylesheet" href="../../styles.css">
+</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<script async="" src="https://hypothes.is/embed.js"></script>
+
+
+<link rel="stylesheet" href="../../styles.css">
 </head>
+
 <body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg navbar-dark "><div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
       <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Bryan Whiting</span>
   </a>
@@ -140,15 +154,15 @@ ga('send', {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-<li class="nav-item">
+  <li class="nav-item">
     <a class="nav-link" href="../../index.html">Home</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../about.html">About</a>
   </li>  
 </ul>
-<ul class="navbar-nav navbar-nav-scroll ms-auto">
-<li class="nav-item compact">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
     <a class="nav-link" href="https://www.linkedin.com/in/bryan-whiting/"><i class="bi bi-linkedin" role="img">
 </i> 
  </a>
@@ -169,10 +183,14 @@ ga('send', {
  </a>
   </li>  
 </ul>
-<div id="quarto-search" class="" title="Search"></div>
+              <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
-    </nav></header><!-- content --><header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full"><div class="quarto-title-banner page-columns page-full">
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Buying a used car the data science way: Part 1</h1>
                   <div>
@@ -211,28 +229,41 @@ ga('send', {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto"><nav id="TOC" role="doc-toc"><h2 id="toc-title">Contents</h2>
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">Contents</h2>
    
   <ul>
-<li><a href="#get-the-data" id="toc-get-the-data" class="nav-link active" data-scroll-target="#get-the-data">Get the data</a></li>
+  <li><a href="#get-the-data" id="toc-get-the-data" class="nav-link active" data-scroll-target="#get-the-data">Get the data</a></li>
   <li><a href="#load-packages" id="toc-load-packages" class="nav-link" data-scroll-target="#load-packages">Load packages</a></li>
-  </ul></nav>
-</nav><!-- margin-sidebar --><div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  </ul>
+</nav>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content"><p><em>[Update 2021-11-16] This analysis was originally written on my old blog <a href="https://htmlpreview.github.io/?https://github.com/bryanwhiting/blog_deprecated/blob/master/content/post/2017-10-18-getting-used-car-data.html">here</a>. You can find the source code for it <a href="https://github.com/bryanwhiting/blog_deprecated/blob/master/content/post/2017-10-18-getting-used-car-data.Rmd">here</a>. This code no longer works as TrueCar changed their CSS to make it more difficult to scrape. It’s still possible, but you’d need to build a custom scraper from scratch.</em></p>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p><em>[Update 2021-11-16] This analysis was originally written on my old blog <a href="https://htmlpreview.github.io/?https://github.com/bryanwhiting/blog_deprecated/blob/master/content/post/2017-10-18-getting-used-car-data.html">here</a>. You can find the source code for it <a href="https://github.com/bryanwhiting/blog_deprecated/blob/master/content/post/2017-10-18-getting-used-car-data.Rmd">here</a>. This code no longer works as TrueCar changed their CSS to make it more difficult to scrape. It’s still possible, but you’d need to build a custom scraper from scratch.</em></p>
 <p>This is part 1 out of a two-part series on scraping used car data. Check out <a href="../2017-10-19-used-cars-analysis/index.html">part 2</a> to learn how to analyze the data.</p>
 <p>In another post, I describe how I use this data that I’ve scraped, but I wanted to provide a more in-depth tutorial for those interested in how I got the data. Note, this data belongs to Truecar, so all uses herein are for personal and academic reasons only.</p>
-<section id="get-the-data" class="level2"><h2 class="anchored" data-anchor-id="get-the-data">Get the data</h2>
+<section id="get-the-data" class="level2">
+<h2 class="anchored" data-anchor-id="get-the-data">Get the data</h2>
 <p>In order to do any good analaysis, you first need data. I prefer to have more data than less, where possible. In this case, I don’t have any data, so I use webscraping to get the data. There are much better tutorials on how to scrape data, so I’ll be light. I use R’s rvest package here, which does a decent job.1 Let’s look at Truecar’s Used Car postings2. First I use google to find the search query on Truecar that I like.</p>
-</section><section id="load-packages" class="level2"><h2 class="anchored" data-anchor-id="load-packages">Load packages</h2>
+</section>
+<section id="load-packages" class="level2">
+<h2 class="anchored" data-anchor-id="load-packages">Load packages</h2>
 <div class="cell">
-<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://rvest.tidyverse.org/">rvest</a></span><span class="op">)</span>
-<span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://dplyr.tidyverse.org">dplyr</a></span><span class="op">)</span>
-<span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://magrittr.tidyverse.org">magrittr</a></span><span class="op">)</span>
-<span class="co"># Find the URL of the data you want to scrape</span>
-<span class="va">url</span> <span class="op">&lt;-</span> <span class="st">'https://www.truecar.com/used-cars-for-sale/listings/ford/edge/'</span>
-<span class="fu">read_html</span><span class="op">(</span><span class="va">url</span><span class="op">)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(rvest)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(magrittr)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Find the URL of the data you want to scrape</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>url <span class="ot">&lt;-</span> <span class="st">'https://www.truecar.com/used-cars-for-sale/listings/ford/edge/'</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">read_html</span>(url)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <pre><code>## {xml_document}
 ## &lt;html lang="en-US"&gt;
@@ -240,97 +271,118 @@ ga('send', {
 ## [2] &lt;body&gt;\n    &lt;!-- Element target for any partner code meant to execut ...</code></pre>
 <p>You’ll see there’s a head and a body. Our data’s in the body, so let’s use html_nodes() and html_text() to parse out the data we want. I used Selectorgadget to know what HTML classes to search for.</p>
 <div class="cell">
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span class="fu">read_html</span><span class="op">(</span><span class="va">url</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu">html_nodes</span><span class="op">(</span><span class="st">'.col-xs-6.col-sm-8.no-left-padding'</span><span class="op">)</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu">html_text</span><span class="op">(</span><span class="op">)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">read_html</span>(url) <span class="sc">%&gt;%</span> <span class="fu">html_nodes</span>(<span class="st">'.col-xs-6.col-sm-8.no-left-padding'</span>) <span class="sc">%&gt;%</span> <span class="fu">html_text</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <pre><code>## character(0)</code></pre>
 <p>So that’s how you get the data on a single page. If you look closer at the URL, you see a lot of helpful things. First, there’s the make, then the model, then the location-zip, then the year-range, and ultimately the trim. This is a very pretty and clean URL. If you click on a few additional pages, you’ll see the URL opens up with <code>?page=2</code>.</p>
 <p>https://www.truecar.com/used-cars-for-sale/listings/ford/edge/location-90210/?page=2</p>
-<p>This is our ‘in’ to scraping multiple pages. I won’t bore you with the details of how to get that data into a neat matrix for us to analyze, but suffice it to say that I’m able to do it. Just build a function to construct a URL, and build a loop to go through the different pages, then use lots of <code><a href="https://stringr.tidyverse.org/reference/str_extract.html">str_extract()</a></code> from the <code>stringr</code> package and <code>gsub</code> to clean up the data.</p>
+<p>This is our ‘in’ to scraping multiple pages. I won’t bore you with the details of how to get that data into a neat matrix for us to analyze, but suffice it to say that I’m able to do it. Just build a function to construct a URL, and build a loop to go through the different pages, then use lots of <code>str_extract()</code> from the <code>stringr</code> package and <code>gsub</code> to clean up the data.</p>
 <div class="cell">
-<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="http://stringr.tidyverse.org">stringr</a></span><span class="op">)</span>
-
-<span class="va">make</span> <span class="op">=</span> <span class="st">'ford'</span>
-<span class="va">model</span> <span class="op">=</span> <span class="st">'edge'</span>
-<span class="va">zip</span> <span class="op">=</span> <span class="st">'90210'</span>
-<span class="va">year</span> <span class="op">=</span> <span class="fl">2012</span>
-<span class="va">npages</span> <span class="op">=</span> <span class="fl">5</span>
-
-<span class="va">url</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html">paste</a></span><span class="op">(</span><span class="st">'https://www.truecar.com/used-cars-for-sale/listings/'</span>, 
-             <span class="va">make</span>, <span class="st">'/'</span>, 
-             <span class="va">model</span> ,
-             <span class="st">'/location-'</span>, <span class="va">zip</span>,
-             <span class="st">'/year-'</span>,<span class="va">year</span>,<span class="st">'-max/?page='</span>, sep <span class="op">=</span> <span class="st">""</span><span class="op">)</span>
-
-<span class="va">urls</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html">paste</a></span><span class="op">(</span><span class="va">url</span>, <span class="fl">1</span><span class="op">:</span><span class="va">npages</span>, sep <span class="op">=</span> <span class="st">""</span><span class="op">)</span>
-
-<span class="va">scrape</span> <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span><span class="va">pageno</span><span class="op">)</span><span class="op">{</span>
-  <span class="kw"><a href="https://rdrr.io/r/base/try.html">try</a></span><span class="op">(</span>
-    <span class="fu">read_html</span><span class="op">(</span><span class="va">urls</span><span class="op">[</span><span class="va">pageno</span><span class="op">]</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu">html_nodes</span><span class="op">(</span><span class="st">'.col-xs-6.col-sm-8.no-left-padding'</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu">html_text</span><span class="op">(</span><span class="op">)</span>
-  <span class="op">)</span>
-<span class="op">}</span>
-
-<span class="va">long_list</span> <span class="op">=</span> <span class="fu">scrape</span><span class="op">(</span><span class="fl">1</span><span class="op">)</span>
-<span class="kw">for</span><span class="op">(</span><span class="va">i</span> <span class="kw">in</span> <span class="fl">2</span><span class="op">:</span><span class="va">npages</span><span class="op">)</span><span class="op">{</span>
-  <span class="fu"><a href="https://rdrr.io/r/base/print.html">print</a></span><span class="op">(</span><span class="va">i</span><span class="op">)</span>
-  <span class="va">new_list</span> <span class="op">=</span> <span class="kw"><a href="https://rdrr.io/r/base/try.html">try</a></span><span class="op">(</span><span class="fu">scrape</span><span class="op">(</span><span class="va">i</span><span class="op">)</span><span class="op">)</span>
-  
-  <span class="va">error</span> <span class="op">=</span> <span class="op">(</span><span class="st">"try-error"</span> <span class="op"><a href="https://rdrr.io/r/base/match.html">%in%</a></span> <span class="fu"><a href="https://rdrr.io/r/base/class.html">class</a></span><span class="op">(</span><span class="va">new_list</span><span class="op">)</span><span class="op">)</span>
-  
-  <span class="kw">if</span><span class="op">(</span> <span class="va">error</span> <span class="op">==</span> <span class="cn">FALSE</span> <span class="op">)</span><span class="op">{</span>
-    <span class="va">long_list</span> <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="va">long_list</span>, <span class="va">new_list</span><span class="op">)</span> 
-  <span class="op">}</span> <span class="kw">else</span> <span class="op">{</span>
-    <span class="kw">break</span>
-  <span class="op">}</span>
-<span class="op">}</span>
-<span class="co">## [1] 2</span>
-<span class="va">stats</span> <span class="op">&lt;-</span> <span class="va">long_list</span>
-<span class="va">df</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/as.data.frame.html">as.data.frame</a></span><span class="op">(</span><span class="va">stats</span><span class="op">)</span>
-<span class="va">df</span><span class="op">$</span><span class="va">stats</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/compound.html">%&lt;&gt;%</a></span> <span class="fu"><a href="https://rdrr.io/r/base/character.html">as.character</a></span><span class="op">(</span><span class="op">)</span>
-<span class="va">df</span><span class="op">$</span><span class="va">price</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://stringr.tidyverse.org/reference/str_extract.html">str_extract</a></span><span class="op">(</span><span class="va">df</span><span class="op">$</span><span class="va">stats</span>, <span class="st">'\\$[0-9]*,[0-9]*'</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu"><a href="https://rdrr.io/r/base/grep.html">gsub</a></span><span class="op">(</span><span class="st">'Price: |\\$|,'</span>, <span class="st">''</span>, <span class="va">.</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span>
-  <span class="fu"><a href="https://rdrr.io/r/base/numeric.html">as.numeric</a></span><span class="op">(</span><span class="op">)</span>
-<span class="va">df</span><span class="op">$</span><span class="va">year</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://stringr.tidyverse.org/reference/str_extract.html">str_extract</a></span><span class="op">(</span><span class="va">df</span><span class="op">$</span><span class="va">stats</span>, <span class="st">'^[0-9]* '</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu"><a href="https://rdrr.io/r/base/numeric.html">as.numeric</a></span><span class="op">(</span><span class="op">)</span>
-<span class="va">df</span><span class="op">$</span><span class="va">mileage</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://stringr.tidyverse.org/reference/str_extract.html">str_extract</a></span><span class="op">(</span><span class="va">df</span><span class="op">$</span><span class="va">stats</span>, <span class="st">'Mileage: [0-9]*,[0-9]*'</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu"><a href="https://rdrr.io/r/base/grep.html">gsub</a></span><span class="op">(</span><span class="st">'Mileage: |,'</span>, <span class="st">''</span>, <span class="va">.</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span>
-  <span class="fu"><a href="https://rdrr.io/r/base/numeric.html">as.numeric</a></span><span class="op">(</span><span class="op">)</span>
-
-<span class="co"># a = df$stats[1]</span>
-<span class="va">df</span><span class="op">$</span><span class="va">trim</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://stringr.tidyverse.org/reference/str_extract.html">str_extract</a></span><span class="op">(</span><span class="va">df</span><span class="op">$</span><span class="va">stats</span>, <span class="st">'.*Mileage:'</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu"><a href="https://rdrr.io/r/base/grep.html">gsub</a></span><span class="op">(</span><span class="st">'FWD|AWD|4x[24]|[24]WD|V6|4-cyl|^[0-9][0-9][0-9][0-9]|4dr|Automatic|Manual|Mileage:'</span>, <span class="st">''</span>, <span class="va">.</span>, ignore.case <span class="op">=</span> <span class="cn">T</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu"><a href="https://rdrr.io/r/base/grep.html">gsub</a></span><span class="op">(</span><span class="va">make</span>, <span class="st">''</span>, <span class="va">.</span>, ignore.case <span class="op">=</span> <span class="cn">T</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu"><a href="https://rdrr.io/r/base/grep.html">gsub</a></span><span class="op">(</span><span class="va">model</span>, <span class="st">''</span>, <span class="va">.</span>, ignore.case <span class="op">=</span> <span class="cn">T</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu"><a href="https://rdrr.io/r/base/trimws.html">trimws</a></span><span class="op">(</span><span class="op">)</span> 
-
-
-<span class="va">df</span><span class="op">$</span><span class="va">awd</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/grep.html">grepl</a></span><span class="op">(</span><span class="st">'AWD|4WD|4x4'</span>, <span class="va">df</span><span class="op">$</span><span class="va">stats</span>, ignore.case <span class="op">=</span> <span class="cn">T</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="https://rdrr.io/r/base/numeric.html">as.numeric</a></span><span class="op">(</span><span class="op">)</span>
-<span class="va">df</span><span class="op">$</span><span class="va">manual</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/grep.html">grepl</a></span><span class="op">(</span><span class="st">'manual'</span>, <span class="va">df</span><span class="op">$</span><span class="va">stats</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="https://rdrr.io/r/base/numeric.html">as.numeric</a></span><span class="op">(</span><span class="op">)</span>
-<span class="va">df</span><span class="op">$</span><span class="va">v6</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/grep.html">grepl</a></span><span class="op">(</span><span class="st">'V6'</span>, <span class="va">df</span><span class="op">$</span><span class="va">stats</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="https://rdrr.io/r/base/numeric.html">as.numeric</a></span><span class="op">(</span><span class="op">)</span>
-<span class="va">df</span><span class="op">$</span><span class="va">location</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://stringr.tidyverse.org/reference/str_extract.html">str_extract</a></span><span class="op">(</span><span class="va">df</span><span class="op">$</span><span class="va">stats</span>, <span class="st">'Location: .*Exterior:'</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu"><a href="https://rdrr.io/r/base/grep.html">gsub</a></span><span class="op">(</span><span class="st">'Location: |Exterior:'</span>, <span class="st">''</span>, <span class="va">.</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu"><a href="https://rdrr.io/r/base/trimws.html">trimws</a></span><span class="op">(</span><span class="op">)</span> 
-<span class="va">df</span><span class="op">$</span><span class="va">ext</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://stringr.tidyverse.org/reference/str_extract.html">str_extract</a></span><span class="op">(</span><span class="va">df</span><span class="op">$</span><span class="va">stats</span>, <span class="st">'Exterior: .*Interior:'</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu"><a href="https://rdrr.io/r/base/grep.html">gsub</a></span><span class="op">(</span><span class="st">'Interior:|Exterior:'</span>, <span class="st">''</span>, <span class="va">.</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu"><a href="https://rdrr.io/r/base/trimws.html">trimws</a></span><span class="op">(</span><span class="op">)</span> 
-<span class="va">df</span><span class="op">$</span><span class="va">int</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://stringr.tidyverse.org/reference/str_extract.html">str_extract</a></span><span class="op">(</span><span class="va">df</span><span class="op">$</span><span class="va">stats</span>, <span class="st">'Interior: .*VIN:'</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu"><a href="https://rdrr.io/r/base/grep.html">gsub</a></span><span class="op">(</span><span class="st">'Interior: |VIN:'</span>, <span class="st">''</span>, <span class="va">.</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu"><a href="https://rdrr.io/r/base/trimws.html">trimws</a></span><span class="op">(</span><span class="op">)</span> 
-<span class="va">df</span><span class="op">$</span><span class="va">vin</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://stringr.tidyverse.org/reference/str_extract.html">str_extract</a></span><span class="op">(</span><span class="va">df</span><span class="op">$</span><span class="va">stats</span>, <span class="st">'VIN: .*\\$'</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu"><a href="https://rdrr.io/r/base/grep.html">gsub</a></span><span class="op">(</span><span class="st">'VIN: |\\$'</span>, <span class="st">''</span>, <span class="va">.</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu"><a href="https://rdrr.io/r/base/substr.html">substr</a></span><span class="op">(</span><span class="va">.</span>, <span class="fl">1</span>, <span class="fl">17</span><span class="op">)</span>
-<span class="va">df</span><span class="op">$</span><span class="va">deal</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://stringr.tidyverse.org/reference/str_extract.html">str_extract</a></span><span class="op">(</span><span class="va">df</span><span class="op">$</span><span class="va">stats</span>, <span class="st">'\\$[0-9]*,[0-9]* below'</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> 
-  <span class="fu"><a href="https://rdrr.io/r/base/grep.html">gsub</a></span><span class="op">(</span><span class="st">'below|\\$|,'</span>, <span class="st">''</span>, <span class="va">.</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="https://rdrr.io/r/base/trimws.html">trimws</a></span><span class="op">(</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span>
-  <span class="fu"><a href="https://rdrr.io/r/base/numeric.html">as.numeric</a></span><span class="op">(</span><span class="op">)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(stringr)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>make <span class="ot">=</span> <span class="st">'ford'</span></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>model <span class="ot">=</span> <span class="st">'edge'</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>zip <span class="ot">=</span> <span class="st">'90210'</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>year <span class="ot">=</span> <span class="dv">2012</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>npages <span class="ot">=</span> <span class="dv">5</span></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>url <span class="ot">&lt;-</span> <span class="fu">paste</span>(<span class="st">'https://www.truecar.com/used-cars-for-sale/listings/'</span>, </span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>             make, <span class="st">'/'</span>, </span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>             model ,</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>             <span class="st">'/location-'</span>, zip,</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>             <span class="st">'/year-'</span>,year,<span class="st">'-max/?page='</span>, <span class="at">sep =</span> <span class="st">""</span>)</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>urls <span class="ot">&lt;-</span> <span class="fu">paste</span>(url, <span class="dv">1</span><span class="sc">:</span>npages, <span class="at">sep =</span> <span class="st">""</span>)</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>scrape <span class="ot">&lt;-</span> <span class="cf">function</span>(pageno){</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">try</span>(</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>    <span class="fu">read_html</span>(urls[pageno]) <span class="sc">%&gt;%</span> <span class="fu">html_nodes</span>(<span class="st">'.col-xs-6.col-sm-8.no-left-padding'</span>) <span class="sc">%&gt;%</span> <span class="fu">html_text</span>()</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>long_list <span class="ot">=</span> <span class="fu">scrape</span>(<span class="dv">1</span>)</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">2</span><span class="sc">:</span>npages){</span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">print</span>(i)</span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>  new_list <span class="ot">=</span> <span class="fu">try</span>(<span class="fu">scrape</span>(i))</span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>  error <span class="ot">=</span> (<span class="st">"try-error"</span> <span class="sc">%in%</span> <span class="fu">class</span>(new_list))</span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span>( error <span class="sc">==</span> <span class="cn">FALSE</span> ){</span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>    long_list <span class="ot">=</span> <span class="fu">c</span>(long_list, new_list) </span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>    <span class="cf">break</span></span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a><span class="do">## [1] 2</span></span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a>stats <span class="ot">&lt;-</span> long_list</span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">as.data.frame</span>(stats)</span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>stats <span class="sc">%&lt;&gt;%</span> <span class="fu">as.character</span>()</span>
+<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>price <span class="ot">&lt;-</span> <span class="fu">str_extract</span>(df<span class="sc">$</span>stats, <span class="st">'</span><span class="sc">\\</span><span class="st">$[0-9]*,[0-9]*'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gsub</span>(<span class="st">'Price: |</span><span class="sc">\\</span><span class="st">$|,'</span>, <span class="st">''</span>, .) <span class="sc">%&gt;%</span></span>
+<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.numeric</span>()</span>
+<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>year <span class="ot">&lt;-</span> <span class="fu">str_extract</span>(df<span class="sc">$</span>stats, <span class="st">'^[0-9]* '</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.numeric</span>()</span>
+<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>mileage <span class="ot">&lt;-</span> <span class="fu">str_extract</span>(df<span class="sc">$</span>stats, <span class="st">'Mileage: [0-9]*,[0-9]*'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gsub</span>(<span class="st">'Mileage: |,'</span>, <span class="st">''</span>, .) <span class="sc">%&gt;%</span></span>
+<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.numeric</span>()</span>
+<span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-49"><a href="#cb5-49" aria-hidden="true" tabindex="-1"></a><span class="co"># a = df$stats[1]</span></span>
+<span id="cb5-50"><a href="#cb5-50" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>trim <span class="ot">&lt;-</span> <span class="fu">str_extract</span>(df<span class="sc">$</span>stats, <span class="st">'.*Mileage:'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-51"><a href="#cb5-51" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gsub</span>(<span class="st">'FWD|AWD|4x[24]|[24]WD|V6|4-cyl|^[0-9][0-9][0-9][0-9]|4dr|Automatic|Manual|Mileage:'</span>, <span class="st">''</span>, ., <span class="at">ignore.case =</span> T) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-52"><a href="#cb5-52" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gsub</span>(make, <span class="st">''</span>, ., <span class="at">ignore.case =</span> T) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-53"><a href="#cb5-53" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gsub</span>(model, <span class="st">''</span>, ., <span class="at">ignore.case =</span> T) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-54"><a href="#cb5-54" aria-hidden="true" tabindex="-1"></a>  <span class="fu">trimws</span>() </span>
+<span id="cb5-55"><a href="#cb5-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-56"><a href="#cb5-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-57"><a href="#cb5-57" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>awd <span class="ot">&lt;-</span> <span class="fu">grepl</span>(<span class="st">'AWD|4WD|4x4'</span>, df<span class="sc">$</span>stats, <span class="at">ignore.case =</span> T) <span class="sc">%&gt;%</span> <span class="fu">as.numeric</span>()</span>
+<span id="cb5-58"><a href="#cb5-58" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>manual <span class="ot">&lt;-</span> <span class="fu">grepl</span>(<span class="st">'manual'</span>, df<span class="sc">$</span>stats) <span class="sc">%&gt;%</span> <span class="fu">as.numeric</span>()</span>
+<span id="cb5-59"><a href="#cb5-59" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>v6 <span class="ot">&lt;-</span> <span class="fu">grepl</span>(<span class="st">'V6'</span>, df<span class="sc">$</span>stats) <span class="sc">%&gt;%</span> <span class="fu">as.numeric</span>()</span>
+<span id="cb5-60"><a href="#cb5-60" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>location <span class="ot">&lt;-</span> <span class="fu">str_extract</span>(df<span class="sc">$</span>stats, <span class="st">'Location: .*Exterior:'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-61"><a href="#cb5-61" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gsub</span>(<span class="st">'Location: |Exterior:'</span>, <span class="st">''</span>, .) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-62"><a href="#cb5-62" aria-hidden="true" tabindex="-1"></a>  <span class="fu">trimws</span>() </span>
+<span id="cb5-63"><a href="#cb5-63" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>ext <span class="ot">&lt;-</span> <span class="fu">str_extract</span>(df<span class="sc">$</span>stats, <span class="st">'Exterior: .*Interior:'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-64"><a href="#cb5-64" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gsub</span>(<span class="st">'Interior:|Exterior:'</span>, <span class="st">''</span>, .) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-65"><a href="#cb5-65" aria-hidden="true" tabindex="-1"></a>  <span class="fu">trimws</span>() </span>
+<span id="cb5-66"><a href="#cb5-66" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>int <span class="ot">&lt;-</span> <span class="fu">str_extract</span>(df<span class="sc">$</span>stats, <span class="st">'Interior: .*VIN:'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-67"><a href="#cb5-67" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gsub</span>(<span class="st">'Interior: |VIN:'</span>, <span class="st">''</span>, .) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-68"><a href="#cb5-68" aria-hidden="true" tabindex="-1"></a>  <span class="fu">trimws</span>() </span>
+<span id="cb5-69"><a href="#cb5-69" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>vin <span class="ot">&lt;-</span> <span class="fu">str_extract</span>(df<span class="sc">$</span>stats, <span class="st">'VIN: .*</span><span class="sc">\\</span><span class="st">$'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-70"><a href="#cb5-70" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gsub</span>(<span class="st">'VIN: |</span><span class="sc">\\</span><span class="st">$'</span>, <span class="st">''</span>, .) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-71"><a href="#cb5-71" aria-hidden="true" tabindex="-1"></a>  <span class="fu">substr</span>(., <span class="dv">1</span>, <span class="dv">17</span>)</span>
+<span id="cb5-72"><a href="#cb5-72" aria-hidden="true" tabindex="-1"></a>df<span class="sc">$</span>deal <span class="ot">&lt;-</span> <span class="fu">str_extract</span>(df<span class="sc">$</span>stats, <span class="st">'</span><span class="sc">\\</span><span class="st">$[0-9]*,[0-9]* below'</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb5-73"><a href="#cb5-73" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gsub</span>(<span class="st">'below|</span><span class="sc">\\</span><span class="st">$|,'</span>, <span class="st">''</span>, .) <span class="sc">%&gt;%</span> <span class="fu">trimws</span>() <span class="sc">%&gt;%</span></span>
+<span id="cb5-74"><a href="#cb5-74" aria-hidden="true" tabindex="-1"></a>  <span class="fu">as.numeric</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>And here’s what the results look like. You’ve got the original scraped data in the stats column and then everything else that you can parse out.</p>
 <div class="cell">
-<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span class="co"># df was the dataframe object we needed</span>
-<span class="va">df</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="op">-</span><span class="va">stats</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op">(</span><span class="fl">10</span><span class="op">)</span> <span class="op"><a href="https://stringr.tidyverse.org/reference/pipe.html">%&gt;%</a></span> <span class="fu">formattable</span><span class="fu">::</span><span class="fu">formattable</span><span class="op">(</span><span class="op">)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># df was the dataframe object we needed</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>df <span class="sc">%&gt;%</span> <span class="fu">select</span>(<span class="sc">-</span>stats) <span class="sc">%&gt;%</span> <span class="fu">head</span>(<span class="dv">10</span>) <span class="sc">%&gt;%</span> formattable<span class="sc">::</span><span class="fu">formattable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 
-</section><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
