@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.37">
+<meta name="generator" content="quarto-1.1.251">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -13,10 +13,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -82,9 +87,11 @@ ga('send', {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="../../index.html">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Bryan Whiting</span>
-  </a>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -128,7 +135,7 @@ ga('send', {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc">
+    <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
@@ -208,7 +215,7 @@ ga('send', {
 </ul></li>
 <li>List system. Move from inbox to list when properly categorized. I like “Work” and “Personal” lists. I think since you can use unlimited tags, and tags can be nested in TickTick, there’s no substantive differ ne between list and tag. Not sure yet how to use the TickTick lists when tags are so useful. Lists of work and personal.</li>
 </ul>
-<div class="no-row-height column-margin column-container"><li id="fn1" role="doc-endnote"><p><sup>1</sup>&nbsp;<strong>Deciding Vision</strong>: As I write this, choosing a project might be a good place to insert a goal (intended outcome) as a project name. Instead of Exercise, the intended outcome is improving health. The goal is being able to run a 5k. So perhaps goal/objective is “ImproveHealth” and KR is “run 5k”. These goals can be identified by asking the 5 whys. If I have an idea if “go running” as my task, a good grounds-up vision exercise would be to ask “why do I want to run a mile tomorrow? Is it to accomplish something or to relax my mind? Why is relaxing my mind important to me? Why is my mental health important? Etc. I think subconsciously ideas come of what to do next all the time “I should work out” but rarely do I take the time to ask “why do I see the need to work out? What’s the greater vision here for this task?” Understanding that vision can help prioritize and build a desire to accomplish the task. If the idea “learn a new language” comes up, asking why can help me realize “oh, this is just for fun and won’t be for anything meatier than having fun! No pressure on this task and maybe I’ll never do it.” The nag to run a mile might help me realize “I need to take care of my health, and this can’t wait.”</p></li></div><p>In summary:</p>
+<div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;<strong>Deciding Vision</strong>: As I write this, choosing a project might be a good place to insert a goal (intended outcome) as a project name. Instead of Exercise, the intended outcome is improving health. The goal is being able to run a 5k. So perhaps goal/objective is “ImproveHealth” and KR is “run 5k”. These goals can be identified by asking the 5 whys. If I have an idea if “go running” as my task, a good grounds-up vision exercise would be to ask “why do I want to run a mile tomorrow? Is it to accomplish something or to relax my mind? Why is relaxing my mind important to me? Why is my mental health important? Etc. I think subconsciously ideas come of what to do next all the time “I should work out” but rarely do I take the time to ask “why do I see the need to work out? What’s the greater vision here for this task?” Understanding that vision can help prioritize and build a desire to accomplish the task. If the idea “learn a new language” comes up, asking why can help me realize “oh, this is just for fun and won’t be for anything meatier than having fun! No pressure on this task and maybe I’ll never do it.” The nag to run a mile might help me realize “I need to take care of my health, and this can’t wait.”</p></li></div><p>In summary:</p>
 <ul>
 <li>Idea/task comes.</li>
 <li>Document in inbox.</li>
@@ -292,7 +299,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);

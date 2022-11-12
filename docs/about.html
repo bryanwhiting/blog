@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.37">
+<meta name="generator" content="quarto-1.1.251">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -79,9 +84,11 @@ ga('send', {
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Bryan Whiting</span>
-  </a>
+    </a>
+  </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -154,7 +161,7 @@ ga('send', {
   </a>
 </div>
       <div class="about-contents"><main class="content" id="quarto-document-content">
-<p><em>Last updated: 2022-07-31</em></p>
+<p><em>Last updated: 2022-11-09</em></p>
 <section id="bio" class="level2">
 <h2 data-anchor-id="bio">Bio</h2>
 <p>Data scientist with 7 years of experience building complex, large-scale data pipelines and inferential and machine learning models. Experience running online A/B experiments, managing complex compute infrastructure and confidently presenting to VP-level audiences. Passionate about innovation, creativity, tech, data, engineering, leadership, mentoring and team building. Former startup co-founder.</p>
@@ -164,11 +171,11 @@ ga('send', {
 <p>See <a href="https://www.linkedin.com/in/bryan-whiting/"><svg aria-hidden="true" role="img" viewbox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg> LinkedIn</a> or <a href="resume.pdf">Resume</a> for details.</p>
 <div class="cell">
 <div class="cell-output-display">
-<div id="tiycqptzrd" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="kdeyuuhfpw" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
-#tiycqptzrd .gt_table {
+:where(#kdeyuuhfpw) .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -192,7 +199,7 @@ ga('send', {
   border-left-width: 2px;
   border-left-color: #D3D3D3;
 }
-#tiycqptzrd .gt_heading {
+:where(#kdeyuuhfpw) .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -203,7 +210,7 @@ ga('send', {
   border-right-width: 1px;
   border-right-color: #D3D3D3;
 }
-#tiycqptzrd .gt_title {
+:where(#kdeyuuhfpw) .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -212,7 +219,7 @@ ga('send', {
   border-bottom-color: #FFFFFF;
   border-bottom-width: 0;
 }
-#tiycqptzrd .gt_subtitle {
+:where(#kdeyuuhfpw) .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -221,12 +228,12 @@ ga('send', {
   border-top-color: #FFFFFF;
   border-top-width: 0;
 }
-#tiycqptzrd .gt_bottom_border {
+:where(#kdeyuuhfpw) .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
-#tiycqptzrd .gt_col_headings {
+:where(#kdeyuuhfpw) .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #FFFFFF;
@@ -240,7 +247,7 @@ ga('send', {
   border-right-width: 1px;
   border-right-color: #D3D3D3;
 }
-#tiycqptzrd .gt_col_heading {
+:where(#kdeyuuhfpw) .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -259,7 +266,7 @@ ga('send', {
   padding-right: 5px;
   overflow-x: hidden;
 }
-#tiycqptzrd .gt_column_spanner_outer {
+:where(#kdeyuuhfpw) .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -270,13 +277,13 @@ ga('send', {
   padding-left: 4px;
   padding-right: 4px;
 }
-#tiycqptzrd .gt_column_spanner_outer:first-child {
+:where(#kdeyuuhfpw) .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
-#tiycqptzrd .gt_column_spanner_outer:last-child {
+:where(#kdeyuuhfpw) .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
-#tiycqptzrd .gt_column_spanner {
+:where(#kdeyuuhfpw) .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #FFFFFF;
@@ -287,7 +294,7 @@ ga('send', {
   display: inline-block;
   width: 100%;
 }
-#tiycqptzrd .gt_group_heading {
+:where(#kdeyuuhfpw) .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -308,7 +315,7 @@ ga('send', {
   border-right-color: #D3D3D3;
   vertical-align: middle;
 }
-#tiycqptzrd .gt_empty_group_heading {
+:where(#kdeyuuhfpw) .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -322,13 +329,13 @@ ga('send', {
   border-bottom-color: #D3D3D3;
   vertical-align: middle;
 }
-#tiycqptzrd .gt_from_md > :first-child {
+:where(#kdeyuuhfpw) .gt_from_md > :first-child {
   margin-top: 0;
 }
-#tiycqptzrd .gt_from_md > :last-child {
+:where(#kdeyuuhfpw) .gt_from_md > :last-child {
   margin-bottom: 0;
 }
-#tiycqptzrd .gt_row {
+:where(#kdeyuuhfpw) .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -346,7 +353,7 @@ ga('send', {
   vertical-align: middle;
   overflow-x: hidden;
 }
-#tiycqptzrd .gt_stub {
+:where(#kdeyuuhfpw) .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -357,7 +364,7 @@ ga('send', {
   border-right-color: #D3D3D3;
   padding-left: 12px;
 }
-#tiycqptzrd .gt_summary_row {
+:where(#kdeyuuhfpw) .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -366,7 +373,7 @@ ga('send', {
   padding-left: 5px;
   padding-right: 5px;
 }
-#tiycqptzrd .gt_first_summary_row {
+:where(#kdeyuuhfpw) .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -375,7 +382,7 @@ ga('send', {
   border-top-width: 2px;
   border-top-color: #D3D3D3;
 }
-#tiycqptzrd .gt_grand_summary_row {
+:where(#kdeyuuhfpw) .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -384,7 +391,7 @@ ga('send', {
   padding-left: 5px;
   padding-right: 5px;
 }
-#tiycqptzrd .gt_first_grand_summary_row {
+:where(#kdeyuuhfpw) .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -393,10 +400,10 @@ ga('send', {
   border-top-width: 6px;
   border-top-color: #D3D3D3;
 }
-#tiycqptzrd .gt_striped {
+:where(#kdeyuuhfpw) .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
-#tiycqptzrd .gt_table_body {
+:where(#kdeyuuhfpw) .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #FFFFFF;
@@ -404,7 +411,7 @@ ga('send', {
   border-bottom-width: 2px;
   border-bottom-color: #FFFFFF;
 }
-#tiycqptzrd .gt_footnotes {
+:where(#kdeyuuhfpw) .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -417,12 +424,12 @@ ga('send', {
   border-right-width: 2px;
   border-right-color: #D3D3D3;
 }
-#tiycqptzrd .gt_footnote {
+:where(#kdeyuuhfpw) .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
-#tiycqptzrd .gt_sourcenotes {
+:where(#kdeyuuhfpw) .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -435,33 +442,33 @@ ga('send', {
   border-right-width: 2px;
   border-right-color: #D3D3D3;
 }
-#tiycqptzrd .gt_sourcenote {
+:where(#kdeyuuhfpw) .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
-#tiycqptzrd .gt_left {
+:where(#kdeyuuhfpw) .gt_left {
   text-align: left;
 }
-#tiycqptzrd .gt_center {
+:where(#kdeyuuhfpw) .gt_center {
   text-align: center;
 }
-#tiycqptzrd .gt_right {
+:where(#kdeyuuhfpw) .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
-#tiycqptzrd .gt_font_normal {
+:where(#kdeyuuhfpw) .gt_font_normal {
   font-weight: normal;
 }
-#tiycqptzrd .gt_font_bold {
+:where(#kdeyuuhfpw) .gt_font_bold {
   font-weight: bold;
 }
-#tiycqptzrd .gt_font_italic {
+:where(#kdeyuuhfpw) .gt_font_italic {
   font-style: italic;
 }
-#tiycqptzrd .gt_super {
+:where(#kdeyuuhfpw) .gt_super {
   font-size: 65%;
 }
-#tiycqptzrd .gt_footnote_marks {
+:where(#kdeyuuhfpw) .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 65%;
@@ -564,7 +571,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
