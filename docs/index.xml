@@ -12,6 +12,67 @@
 <generator>quarto-1.2.269</generator>
 <lastBuildDate>Fri, 18 Nov 2022 00:00:00 GMT</lastBuildDate>
 <item>
+  <title>Writing a Tech Resume</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2022-11-18-writing-a-tech-resume/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://www.bryanwhiting.com/posts/2022-11-18-writing-a-tech-resume/photo.jpeg" class="img-fluid"></p>
+<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+TL;DR: Use the “Accomplished [X] as measured by [Y] by doing [Z]” format.
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<p>Writing resume is painstaking, but let me help jumpstart you. My resume below has gotten me dozens of interviews with top tech companies (Apple, Google, Facebook, Amazon, Microsoft, Waymo, LinkedIn, Hopper, etc).</p>
+<p>It got me in the door, but let me be clear I didn’t pass most of those interviews 😝. That’s the point of the resume: open the door.</p>
+<p>Let me help you get in the door.</p>
+<section id="my-template" class="level1">
+<h1>My template</h1>
+<p>Here’s the google doc link to my <a href="https://docs.google.com/document/d/1n8W79UBiWYhMWHeF4sNDtwaWxySRwU3t9isodbUuycI/view">resume template</a>, also posted below.</p>
+<p>https://docs.google.com/document/d/1n8W79UBiWYhMWHeF4sNDtwaWxySRwU3t9isodbUuycI/view</p>
+<p>You can copy this template and put in your own content.</p>
+<p>I designed and wrote my resume the way I did by following the guidance of these resources:&nbsp;</p>
+<ul>
+<li>Blog: <a href="https://www.linkedin.com/pulse/20140929001534-24454816-my-personal-formula-for-a-better-resume/">Google’s Accomplished X as measured by Y by doing Z formula</a> </li>
+<li>YouTube Video: <a href="https://youtu.be/BYUy1yvjHxE">Google’s How to write a resume</a> </li>
+<li>Blog: <a href="https://www.careercup.com/resume">Cracking the Coding Interview: how to write a resume</a></li>
+</ul>
+</section>
+<section id="commentary" class="level1">
+<h1>Commentary</h1>
+<ul>
+<li>It takes some practice, but the XYZ formula is very powerful.</li>
+<li>Emboldening words can be helpful to people who have 3 minutes to scan your resume.</li>
+<li>I’ve never gotten commentary on how long my resume is or crammed. I’m guessing people just glance for a few keywords and some decent content and assume the rest of the resume is good.</li>
+<li>I’ve had a lot of discussions in phone calls about my Personal Projects sections. Fellow techies all have their own personal projects and they want to know about mine. It sends a signal you’re intrinsically motivated.</li>
+<li>While my resume is long-ish, I try to think: what story does this bullet point tell? What story am I trying to convey?</li>
+</ul>
+</section>
+<section id="how-can-i-help" class="level1">
+<h1>How can I Help?</h1>
+<p>I hope this helps! Send me a message at bryanwhitingcoaching@gmail.com if I can help review a resume or give more tips.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
+  <category>communication</category>
+  <guid>https://www.bryanwhiting.com/posts/2022-11-18-writing-a-tech-resume/index.html</guid>
+  <pubDate>Fri, 18 Nov 2022 00:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/2022-11-18-writing-a-tech-resume/photo.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>Resume Substance over Style</title>
   <dc:creator>Bryan Whiting</dc:creator>
   <link>https://www.bryanwhiting.com/posts/2022-11-18-substance-over-style/index.html</link>
@@ -1096,108 +1157,6 @@ Tip
   <guid>https://www.bryanwhiting.com/posts/2020-12-15-data-beats-opinions/index.html</guid>
   <pubDate>Tue, 15 Dec 2020 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2020-12-15-data-beats-opinions/image.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Semantic Versioning for Data Science Models</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2018-07-02-semantic-versioning-for-data-science-models/semantic-versioning-for-data-science-models.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>If you’ve ever wanted to tag your data science model, you’ve probably wondered how to version it. Which will it be: vx.4.1, v34.1231.51.21, or v91.x4.dev34? After reading about <em>semantic versioning</em>, I propose a method for versioning data science models.</p>
-<section id="semantic-versioning-for-software" class="level1">
-<h1>Semantic Versioning for Software</h1>
-<p>Semantic versioning <a href="https://semver.org/">proposes the following</a>:</p>
-<blockquote class="blockquote">
-<p>Given a version number MAJOR.MINOR.PATCH, increment the:</p>
-<ol type="1">
-<li>MAJOR version when you make incompatible API changes,</li>
-<li>MINOR version when you add functionality in a backwards-compatible manner, and</li>
-<li>PATCH version when you make backwards-compatible bug fixes.</li>
-</ol>
-<p>Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format. Well, I don’t build APIs right now, but I think there is a way to apply this to the ways in which my software <em>does</em> change.</p>
-</blockquote>
-</section>
-<section id="semantic-versioning-for-data-science-models" class="level1">
-<h1>Semantic Versioning for Data Science Models</h1>
-<p>I propose that data science models use BETWEEN.WITHIN.PROCESS versioning, incrementing the</p>
-<ol type="1">
-<li>BETWEEN version when you have an incompatible data change or target variable change, which render your models incomparable to prior versions, the</li>
-<li>WITHIN version when you improve or enhance a model output, and the</li>
-<li>PROCESS version when you update a pipeline but it doesn’t ultimately improve the model.</li>
-</ol>
-<p>(Where BETWEEN implies ‘between model’ and WITHIN for ‘within model’.)</p>
-<section id="an-example" class="level2">
-<h2 class="anchored" data-anchor-id="an-example">An Example</h2>
-<p>I build data science models by building python packages and committing the code to GitHub. The python package contains all of the support files and a <code>main.py</code> file to run the pipeline from start to finish. The support files could contain either helpful loggers to tell me where the pipeline is breaking down, diagnostic tools such as an AUC-ROC plot, files to engineer features, or files to train different model types. So there are really these three things that could happen to my code at any time. It doesn’t matter where those changes occur, or how many lines of code changed. What matters is what’s happened to the model. Each time I get a pull request approved, I’ll update the version number in my repo.</p>
-<section id="changing-between" class="level3">
-<h3 class="anchored" data-anchor-id="changing-between">Changing BETWEEN</h3>
-<p>Increment the BETWEEN version for the following changes:</p>
-<ul>
-<li>When the structure of your data changes</li>
-<li>If your target variable changes (how you coded it, or data that produced the target changed)</li>
-<li>The underlying population you’re training on changes</li>
-</ul>
-<p>Assume I discovered that I had a bad join. The join change might have been a minor one, but it’s now difficult to really compare the two models because my target was affected as a result. What I was predicting, even if slightly different, is now something different. If you ever feel like you’re comparing apples to oranges when looking at an AUC-ROC curve, update the BETWEEN version.</p>
-<p>With each BETWEEN change, there should be a clear communication in the release notes of why the model is inherently different from prior models. These changes should be less frequent.</p>
-</section>
-<section id="changing-within" class="level3">
-<h3 class="anchored" data-anchor-id="changing-within">Changing WITHIN</h3>
-<p>Increment the WITHIN number when the following happens:</p>
-<ul>
-<li>Features are added</li>
-<li>Data sources are added or updated. (You might have several data sources today that help contribute to the target. But adding a data source might just mean adding new features. If you add data in such a way that it changes what you’re ultimately modeling, update the BETWEEN version.)</li>
-<li>New modeling types are added. (You might be using a logistic regression, but add a mo)</li>
-</ul>
-<p>So if I added files that allowed me to train different model types, or added files that engineered new features, I’d incrememnt the WITHIN version. In my mind, this shouldn’t be a <em>count</em> of features you include, but should just be incremented every time you do something that affects the model performance.</p>
-<p>At any time, you might what to view different subsets of features and their effect on the model. So, you might not change the number of features, but add some functionality into your pipeline that now produces three different models in each run. I would increment the WITHIN version number in that case.</p>
-<p>Remember, the goal of this type of versioning is to show generally what’s changed in your pipeline.</p>
-</section>
-<section id="changing-process" class="level3">
-<h3 class="anchored" data-anchor-id="changing-process">Changing PROCESS</h3>
-<p>Increment the PROCESS version when the following happens:</p>
-<ul>
-<li>A minor bug is fixed (unless this updates BETWEEN or WITHIN)</li>
-<li>Enhance a logger or aspect of the pipeline</li>
-<li>Add a diagnostic plot or table</li>
-</ul>
-<p>Basically, any time you add something that doesn’t ultimately affect the performance of the model, you should update the PROCESS version. Your changes might improve the flow of your code and make you a much happier developer, but if it doesn’t improve the model, then the key priority of your code hasn’t improved.</p>
-</section>
-</section>
-</section>
-<section id="final-thoughts" class="level1">
-<h1>Final Thoughts</h1>
-<p>Ultimately, data science semantic versioning can help communicate to team members what has fundamentally changed between software versions. Easily, a manager, colleague, or model governance officer could see the following version numbers and be able to know generally what’s changed:</p>
-<ol type="1">
-<li><code>0.0.1</code>: Process improvement</li>
-<li><code>0.1.0</code>: Model improvement</li>
-<li><code>0.2.0</code>: Model improvement</li>
-<li><code>1.0.0</code>: Model change</li>
-<li><code>1.1.0</code>: Model improvement</li>
-<li><code>1.1.1</code>: Process improvement</li>
-</ol>
-<p>So what changed?</p>
-<ol type="1">
-<li><code>0.0.1</code>: Setting up the code base, but no model or features yet</li>
-<li><code>0.1.0</code>: Finished a model, or added some features</li>
-<li><code>0.2.0</code>: Added some features</li>
-<li><code>1.0.0</code>: Discovered a bug in the target variable, something was miscoded. What is being predicted now changes (but you still have all the old features!)</li>
-<li><code>1.1.0</code>: Added some new features</li>
-<li><code>1.1.1</code>: Added a new plot to assess the financial impact of the model, but model doesn’t inherently change.</li>
-</ol>
-<p>This type of versioning also ultimately encourages a more disciplined workflow. Each sets of commit should be focused on one task alone. Because every time you update a version number, numbers to the right should refresh to zero. That’s how the theory goes, at least.</p>
-
-
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
-  <category>data science</category>
-  <category>machine learning</category>
-  <guid>https://www.bryanwhiting.com/posts/2018-07-02-semantic-versioning-for-data-science-models/semantic-versioning-for-data-science-models.html</guid>
-  <pubDate>Mon, 02 Jul 2018 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
