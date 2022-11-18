@@ -9,8 +9,31 @@
 <link>https://www.bryanwhiting.com/index.html</link>
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.1.251</generator>
-<lastBuildDate>Sat, 12 Nov 2022 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.2.269</generator>
+<lastBuildDate>Fri, 18 Nov 2022 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Resume Substance over Style</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2022-11-18-substance-over-style/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Earlier in my career I got feedback from a prospective recruiter telling me my resume was “visually imbalanced”. Of course, the recruiter wanted my business.</p>
+<p>But I went on to get over 70 interviews with that same template. I got a job at FAANG and a top startup using that resume template. I haven’t changed it.</p>
+<section id="takeaway" class="level1">
+<h1>Takeaway</h1>
+<p>How you write your resume and what’s on it will take you farther than how you design it.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
+  <category>communication</category>
+  <guid>https://www.bryanwhiting.com/posts/2022-11-18-substance-over-style/index.html</guid>
+  <pubDate>Fri, 18 Nov 2022 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>What is a model?</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -88,44 +111,6 @@ TL;DR:
   <guid>https://www.bryanwhiting.com/posts/2022-11-12-what-is-a-model/index.html</guid>
   <pubDate>Sat, 12 Nov 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-11-12-what-is-a-model/photo.jpeg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>What is a model?</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2022-11-12-what-is-a-model?/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><img src="https://www.bryanwhiting.com/posts/2022-11-12-what-is-a-model?/photo.jpeg" class="img-fluid"></p>
-<section id="section" class="level1">
-<h1></h1>
-<div class="callout-note callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-TL;DR:
-</div>
-</div>
-<div class="callout-body-container callout-body">
-
-</div>
-</div>
-</section>
-<section id="takeaways" class="level1">
-<h1>Takeaways</h1>
-
-
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div quarto-reuse="quarto-reuse" class="quarto-appendix-contents"><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a></div></section></div> ]]></description>
-  <category>data science</category>
-  <guid>https://www.bryanwhiting.com/posts/2022-11-12-what-is-a-model?/index.html</guid>
-  <pubDate>Sat, 12 Nov 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/posts/2022-11-12-what-is-a-model?/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>De-sciencing Data Science and Talking Like a Normal Person</title>
