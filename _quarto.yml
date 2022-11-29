@@ -6,6 +6,10 @@ website:
   title: "Bryan Whiting"
   site-url: https://www.bryanwhiting.com
   google-analytics: "UA-85616639-1"
+  body-header: |
+    Reach out at bryanwhitingcoaching@gmail.com.
+  body-footer: |
+    Bryan is passionate about building great products with data and empowering individuals to reach their potential. Please reach out at bryanwhitingcoaching@gmail.com to get mentorship or coaching for your life or business.
   navbar:
     left:
       - text: "Home"
