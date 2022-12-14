@@ -4,6 +4,7 @@ description: |
   How to write a resume to get into a FAANG company. 
 date: 2022-11-18
 categories: [communication ]
+freeze: true
 draft: false
 ---
 
@@ -29,8 +30,8 @@ You can copy this template and put in your own content.
 
 I designed and wrote my resume the way I did by following the guidance of these resources: 
 
-* Blog: [Google’s Accomplished X as measured by Y by doing Z formula](https://www.linkedin.com/pulse/20140929001534-24454816-my-personal-formula-for-a-better-resume/) 
-* YouTube Video: [Google’s How to write a resume](https://youtu.be/BYUy1yvjHxE) 
+* Blog: [Google’s Accomplished X as measured by Y by doing Z formula](https://www.linkedin.com/pulse/20140929001534-24454816-my-personal-formula-for-a-better-resume/)
+* YouTube Video: [Google’s How to write a resume](https://youtu.be/BYUy1yvjHxE)
 * Blog: [Cracking the Coding Interview: how to write a resume](https://www.careercup.com/resume)
 
 # Commentary

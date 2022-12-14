@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: "Recent Posts"
 listing:
   contents: 
     - posts
@@ -9,19 +9,19 @@ listing:
   sort: 
     - "date desc"
     - "title desc"
-  type: "grid"
+  type: "default"
   grid-columns: 4
   grid-item-border: true
   fields: [image, date, title, description, reading-time, categories]
   categories: true
   # date-format: "YYYY-MM-DD"
   date-format: "ddd MMM D, YYYY"
-  page-size: 9
+  page-size: 100
 toc: false
 toc-location: body
 page-layout: full
 title-block-banner: false
-
 ---
 
+"All [blogs](https://en.wikipedia.org/wiki/All_models_are_wrong) are wrong, but some are useful."
 

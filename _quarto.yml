@@ -1,24 +1,21 @@
 project:
   type: website
   output-dir: docs
+  preview:
+    port: 3000
+    browser: true
 
 website:
   title: "Bryan Whiting"
   site-url: https://www.bryanwhiting.com
   google-analytics: "UA-85616639-1"
-  body-header: |
-    Reach out at bryanwhitingcoaching@gmail.com.
+  search: true
   body-footer: |
-    Bryan is passionate about building great products with data and empowering individuals to reach their potential. Please reach out at bryanwhitingcoaching@gmail.com to get mentorship or coaching for your life or business.
-  navbar:
-    left:
-      - text: "Home"
-        file: index.qmd
-      - about.qmd
-      #TODO: enable a header for book notes posts
-      #- text: "Book Notes"
-      #  file: book-notes/index.qmd
-    right:
+    _Bryan is passionate about building great products with data and empowering individuals to reach their potential. Please reach out at <a href="mailto:bryanwhitingcoaching@gmail.com">bryanwhitingcoaching@gmail.com</a> to get mentorship or coaching for your life or business._
+  sidebar:
+    style: "docked"
+    background: light
+    tools:
       - icon: linkedin
         href: "https://www.linkedin.com/in/bryan-whiting/"
       - icon: github
@@ -27,9 +24,10 @@ website:
         href: "https://twitter.com/bryanwhiting"
       - icon: rss
         href: index.xml
-    # (additional metadata excluded for brevity)
-  # TODO: this is popping up on every page as "subscribe.html"
-  # margin-header: subscribe.html
+    contents:
+      - index.qmd
+      - about.qmd
+      
 
 format:
   # https://quarto.org/docs/reference/formats/html.html
@@ -37,8 +35,8 @@ format:
     # author: "Bryan Whiting"
     theme: cosmo
     css: styles.css
-    comments:
-      hypothesis: true
+    # comments:
+      # hypothesis: true
       # utterances:
       #   repo: jthomasmock/themockup-blog
     toc: true
