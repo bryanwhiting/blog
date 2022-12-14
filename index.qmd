@@ -1,5 +1,6 @@
 ---
 title: "Recent Posts"
+comments: false # https://quarto.org/docs/output-formats/html-basics.html#disabling-comments
 listing:
   contents: 
     - posts
@@ -16,7 +17,7 @@ listing:
   categories: true
   # date-format: "YYYY-MM-DD"
   date-format: "ddd MMM D, YYYY"
-  page-size: 100
+  page-size: 5
 toc: false
 toc-location: body
 page-layout: full

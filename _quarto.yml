@@ -9,17 +9,34 @@ website:
   title: "Bryan Whiting"
   site-url: https://www.bryanwhiting.com
   google-analytics: "UA-85616639-1"
+  reader-mode: true # https://quarto.org/docs/websites/website-navigation.html#reader-mode
+  page-footer: 
+    left: "Copyright 2022, Bryan Whiting" 
+    right: 
+      - icon: github
+        href: https://github.com/bryanwhiting
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/bryan-whiting/"
+      - icon: twitter
+        href: "https://twitter.com/bryanwhiting"
+      - icon: rss
+        href: index.xml
   search: true
   body-footer: |
     _Bryan is passionate about building great products with data and empowering individuals to reach their potential. Please reach out at <a href="mailto:bryanwhitingcoaching@gmail.com">bryanwhitingcoaching@gmail.com</a> to get mentorship or coaching for your life or business._
   sidebar:
     style: "docked"
     background: light
+    subtitle: Data scientist | tech | father
     tools:
+      - icon: github
+        menu:
+          - text: This blog
+            url:  https://github.com/bryanwhiting/blog
+          - text: Profile
+            url: https://github.com/bryanwhiting
       - icon: linkedin
         href: "https://www.linkedin.com/in/bryan-whiting/"
-      - icon: github
-        href: https://github.com/bryanwhiting
       - icon: twitter
         href: "https://twitter.com/bryanwhiting"
       - icon: rss
@@ -33,8 +50,11 @@ format:
   # https://quarto.org/docs/reference/formats/html.html
   html:
     # author: "Bryan Whiting"
-    theme: cosmo
+    theme: sandstone
     css: styles.css
+    comments:
+      giscus: 
+        repo: bryanwhiting/blog
     # comments:
       # hypothesis: true
       # utterances:

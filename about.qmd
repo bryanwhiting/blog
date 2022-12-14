@@ -1,6 +1,8 @@
 ---
 title: "About"
 image: img/profile.jpg
+execute:
+    freeze: true
 about:
   template: solana
   image-width: 10em

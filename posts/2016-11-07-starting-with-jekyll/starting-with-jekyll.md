@@ -6,6 +6,8 @@ categories:
   - productivity
   - blogging
   - jekyll
+execute: 
+  freeze: true
 ---
 
 Hello world. 

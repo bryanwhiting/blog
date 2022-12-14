@@ -1,5 +1,12 @@
 # Readme
 
+renv::restore()
+install.packages('xml2')
+install.packages('downlit')
+quarto render
+quarto render index.qmd
+
+
 
 ```
 website:
