@@ -1,10 +1,35 @@
 # Readme
 
+Steps to edit blog on computer
+```
+# launch docker container:
+export GH=/Users/bryanwhiting/github
+export ROOT=/home/rstudio
+
+docker run \
+	--detach \
+	--publish 80:8787 \
+	--publish 3000:3000 \
+	--env DISABLE_AUTH=true \
+	--name renv \
+	--volume $GH/blog:$ROOT/blog \
+	rocker/tidyverse
+	
+
+# after running 
 renv::restore()
 install.packages('xml2')
+install.packages("git2r")
 install.packages('downlit')
-quarto render
+
+# Build all files
+quarto render 
+
+# Build just listing page
 quarto render index.qmd
+
+# Build just files different from remote
+Rscript build.R
 
 
 

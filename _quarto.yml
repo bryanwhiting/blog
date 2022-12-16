@@ -9,7 +9,7 @@ website:
   title: "Bryan Whiting"
   site-url: https://www.bryanwhiting.com
   google-analytics: "UA-85616639-1"
-  reader-mode: true # https://quarto.org/docs/websites/website-navigation.html#reader-mode
+  reader-mode: false # https://quarto.org/docs/websites/website-navigation.html#reader-mode
   page-footer: 
     left: "Copyright 2022, Bryan Whiting" 
     right: 
@@ -22,8 +22,8 @@ website:
       - icon: rss
         href: index.xml
   search: true
-  body-footer: |
-    _Bryan is passionate about building great products with data and empowering individuals to reach their potential. Please reach out at <a href="mailto:bryanwhitingcoaching@gmail.com">bryanwhitingcoaching@gmail.com</a> to get mentorship or coaching for your life or business._
+  body-footer: | 
+    _________________________ <br> _Bryan is passionate about building great products with data and empowering individuals to reach their potential. Please reach out at <a href="mailto:bryanwhitingcoaching@gmail.com">bryanwhitingcoaching@gmail.com</a> to get mentorship or coaching for your life or business._
   sidebar:
     style: "docked"
     background: light
@@ -60,6 +60,7 @@ format:
       # utterances:
       #   repo: jthomasmock/themockup-blog
     toc: true
+    appendix-style: none
     toc-location: "left"
     smooth-scroll: true
     code-copy: true
