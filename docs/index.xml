@@ -9,7 +9,7 @@
 <link>https://www.bryanwhiting.com/index.html</link>
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.1.189</generator>
+<generator>quarto-1.2.280</generator>
 <lastBuildDate>Fri, 18 Nov 2022 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Writing a Tech Resume</title>
@@ -1093,7 +1093,7 @@ shinyApp(ui = ui, server = server)</code></pre>
 <section id="what-chatgpt-gets-right" class="level1 page-columns page-full">
 <h1>What ChatGPT gets right</h1>
 <p>A few days ago I asked it to create an R Shiny app that could load in the iris dataset and create an interactive table. It did that with ease, as the twitter post above shows.</p>
-<div class="page-columns page-full"><p>I then asked it to “re-write me that same app, but using python’s <a href="https://wave.h2o.ai/docs/examples/dashboard">h2o-wave</a>”.  It was able to build me a simple app.</p><div class="no-row-height column-margin column-container"><span class="aside">As an R Shiny user, I’m curious to have a compelling python replacement. I know there’s <a href="https://shiny.rstudio.com/py/">python shiny</a>, but I love <a href="https://github.com/streamlit/">streamlit</a>’s simplicity and think h2o-wave is more robust than streamlit.</span></div></div>
+<div class="page-columns page-full"><p>I then asked it to “re-write me that same app, but using python’s <a href="https://wave.h2o.ai/docs/examples/dashboard">h2o-wave</a>”.  It was able to build me a simple app.</p><div class="no-row-height column-margin column-container"><span class="">As an R Shiny user, I’m curious to have a compelling python replacement. I know there’s <a href="https://shiny.rstudio.com/py/">python shiny</a>, but I love <a href="https://github.com/streamlit/">streamlit</a>’s simplicity and think h2o-wave is more robust than streamlit.</span></div></div>
 <p>Today, when I asked it to build me an interactive visualization after building a time series forecasting model, it could get me all the core components. It only struggled on data inputs/outputs. The app would break and I’d ask it some questions, which it could sometimes answer, and would sometimes mislead me.</p>
 <p>For example, the first error I got was : &gt; I’m getting the error <code>Error in getSymbols("AAPL") : could not find function "getSymbols"</code></p>
 <p>ChatGPT replied:</p>
