@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/2022-12-15-chatgpt-rshiny/index.html",
       "/posts/2022-11-18-writing-a-tech-resume/index.html",
       "/posts/2022-11-18-substance-over-style/index.html",
       "/posts/2022-11-12-what-is-a-model/index.html",
@@ -17,7 +18,6 @@
       "/posts/2022-06-21-the-power-of-party-pay-by-visible/index.html",
       "/posts/2022-06-21-products-for-dads/index.html",
       "/posts/2022-06-20-blogging-with-quarto/index.html",
-      "/posts/2022-12-15-chatgpt-rshiny/index.html",
       "/posts/2021-07-17-authors-angle-matters/index.html",
       "/posts/2020-12-18-productivity-notes/index.html",
       "/posts/2020-12-16-pretotyping-ml-solutions/index.html",

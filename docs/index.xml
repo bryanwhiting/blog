@@ -9,8 +9,255 @@
 <link>https://www.bryanwhiting.com/index.html</link>
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.2.280</generator>
-<lastBuildDate>Fri, 18 Nov 2022 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.1.189</generator>
+<lastBuildDate>Thu, 15 Dec 2022 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Building a complex R Shiny Dashboard Using ChatGPT</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><a href="https://chat.openai.com/chat">ChatGPT</a> is nothing short of amazing, but I think I’ll still have a job as a data scientist for at least another year or so.</p>
+<section id="goal" class="level1">
+<h1>Goal</h1>
+<p>In this post, I’ll walk through the hour conversation I had with ChatGPT to build an R Shiny dashboard. My goal was to see if it can load in real-time data, do time-series forecasting, and visualize the results. For the most part, it could. Let’s dive in.</p>
+<p>First, I was inspired by this post:</p>
+<blockquote class="twitter-tweet blockquote">
+<p lang="en" dir="ltr">
+And here is the final result. A fully functional shiny app without actually writing a single line of code, built in under 3 minutes.<br><br>Wondering how it handles more complex queries, but still, this is insane. <a href="https://t.co/LepjcMNk43">pic.twitter.com/LepjcMNk43</a>
+</p>
+— Jose Fernandez (<span class="citation" data-cites="jfernandez__">@jfernandez__</span>) <a href="https://twitter.com/jfernandez__/status/1599470625910706176?ref_src=twsrc%5Etfw">December 4, 2022</a>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</section>
+<section id="building-a-dashboard" class="level1">
+<h1>Building a Dashboard</h1>
+<p>My prompt was this:</p>
+<blockquote class="blockquote">
+<p>Build an R shiny dashboard that uses a package to read in stock prices for AAPL and uses the prophet library to forecast the stock 6 months into the future. Visualize the data in an interactive plotting library with a slider window on the plot to zoom into different time periods.</p>
+</blockquote>
+<p>And it gave me line-by-line instructions:</p>
+<p><img src="https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/instructions1.png" class="img-fluid"></p>
+<p>I asked it to consolidate all of that into one script, which produced this:</p>
+<pre><code># Install and load the necessary libraries
+install.packages("prophet")
+library(shiny)
+library(prophet)
+library(tidyverse)
+library(dygraphs)
+
+# Read in the stock prices for AAPL
+getSymbols("AAPL")
+aapl &lt;- as.data.frame(AAPL)
+aapl &lt;- aapl %&gt;% select(date, Adj) %&gt;% rename(y = Adj, ds = date)
+
+# Fit a model to the stock price data
+m &lt;- prophet(aapl)
+
+# Forecast the stock price 6 months into the future
+future &lt;- make_future_dataframe(m, periods = 180)
+forecast &lt;- predict(m, future)
+
+# Define the user interface
+ui &lt;- fluidPage(
+
+  # Add a slider input widget
+  sliderInput("window", "Time Period:",
+              min = 1, max = length(aapl$y), value = c(1, length(aapl$y)), step = 1),
+
+  # Add a dygraphs plot
+  dygraphOutput("plot")
+)
+
+# Define the server function
+server &lt;- function(input, output) {
+
+  # Reactive expression to create a subset of the data based on the slider input
+  stock_subset &lt;- reactive({
+    aapl[input$window[1]:input$window[2],]
+  })
+
+  # Render the dygraphs plot
+  output$plot &lt;- renderDygraph({
+    dygraph(stock_subset(), main = "AAPL Stock Price") %&gt;%
+      dyRangeSelector()
+  })
+}
+
+# Run the Shiny app
+shinyApp(ui = ui, server = server)</code></pre>
+<p>Pretty impressive start, to be honest.</p>
+</section>
+<section id="what-chatgpt-gets-right" class="level1 page-columns page-full">
+<h1>What ChatGPT gets right</h1>
+<p>A few days ago I asked it to create an R Shiny app that could load in the iris dataset and create an interactive table. It did that with ease, as the twitter post above shows.</p>
+<div class="page-columns page-full"><p>I then asked it to “re-write me that same app, but using python’s <a href="https://wave.h2o.ai/docs/examples/dashboard">h2o-wave</a>”.  It was able to build me a simple app.</p><div class="no-row-height column-margin column-container"><span class="aside">As an R Shiny user, I’m curious to have a compelling python replacement. I know there’s <a href="https://shiny.rstudio.com/py/">python shiny</a>, but I love <a href="https://github.com/streamlit/">streamlit</a>’s simplicity and think h2o-wave is more robust than streamlit.</span></div></div>
+<p>Today, when I asked it to build me an interactive visualization after building a time series forecasting model, it could get me all the core components. It only struggled on data inputs/outputs. The app would break and I’d ask it some questions, which it could sometimes answer, and would sometimes mislead me.</p>
+<p>For example, the first error I got was : &gt; I’m getting the error <code>Error in getSymbols("AAPL") : could not find function "getSymbols"</code></p>
+<p>ChatGPT replied:</p>
+<p><img src="https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/quatmod.png" class="img-fluid"></p>
+<p>It even adjusted my code and put the installation steps at the top of the script. Amazing.</p>
+<section id="data-processing" class="level2">
+<h2 class="anchored" data-anchor-id="data-processing">Data Processing</h2>
+<p>I asked it to create an indicator variable for me so that I could color my dygraphs chart by forecasts vs.&nbsp;historical:</p>
+<p><img src="https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/indicator.png" class="img-fluid"></p>
+<p>Here was my prompt:</p>
+<blockquote class="blockquote">
+<p>Don’t use <code>add_series()</code> since you’re wrong and it’s not a function in dygraphs. Instead, append the forecasts to the aapl in the stock_subset function and create a new indicator for the forecasted values where 0 is past data and 1 is forecasted data. Then, color the dygraphs chart based on the indicator value. Re-write this script below accordingly.</p>
+</blockquote>
+<p>Look at that code! It knew to filter <code>appl2$ds &gt; max(appl$ds)</code>. That’s exactly how you subset a prophet dataframe (which returns all historical and future forecasts in one dataframe). It knew that <code>appl</code> was the first dataset and <code>appl2</code> was the derived dataset. It knew that it had to take the max date from <code>appl</code>. This is absolutely amazing, hands down.</p>
+<pre><code>aapl2 &lt;- bind_rows(aapl2, forecast_subset)
+aapl2$indicator &lt;- ifelse(aapl2$ds &gt; max(aapl$ds), 1, 0)</code></pre>
+</section>
+</section>
+<section id="what-it-got-wrong" class="level1">
+<h1>What it got wrong</h1>
+<p>ChatGPT won’t put me out of the job for a bit, though. (Like at least 6 months maybe?)</p>
+<section id="data-inspection" class="level2">
+<h2 class="anchored" data-anchor-id="data-inspection">Data inspection</h2>
+<p>I then got this error:</p>
+<pre><code>I'm getting this error: Error in `select()`:
+! Can't subset columns that don't exist.
+✖ Column `date` doesn't exist.</code></pre>
+<p>ChatGPT gave me the ring-around. It didn’t know that the dates were stored as the rownames, but confidently gave me answers like this:</p>
+<p><img src="https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/missing_date.png" class="img-fluid"></p>
+<p>To it’s credit, it recommended I inspect the data myself:</p>
+<p><img src="https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/recommend.png" class="img-fluid"></p>
+<p>Once I figured out the problem, I told it that the rownames were dates, and that date wasn’t a column. It had just the solution for me:</p>
+<p><img src="https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/rownames_to_date.png" class="img-fluid"></p>
+</section>
+<section id="misleading-functions" class="level2">
+<h2 class="anchored" data-anchor-id="misleading-functions">Misleading Functions</h2>
+<p>Twice, it told me that <code>dygraphs</code> had functions that it didn’t actually have. It even wrote code for me. For example, it recommended this to me:</p>
+<pre><code>dygraph(stock_subset(), main = "AAPL Stock Price") %&gt;%
+  add_series(data = forecast_subset, col = "red") %&gt;%
+  dyRangeSelector()</code></pre>
+<p>And it doubled down:</p>
+<p><img src="https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/add_series.png" class="img-fluid"></p>
+</section>
+<section id="data-conversion" class="level2">
+<h2 class="anchored" data-anchor-id="data-conversion">Data Conversion</h2>
+<p>It told me to use the <code>xts</code> package so that <code>dygraphs</code> could read the data in. This was accurate - <code>dygraphs</code> cannot read in tibbles.</p>
+<p><img src="https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/xts.png" class="img-fluid"></p>
+<p>But it was misleading me a little bit. Again, I had to look at the data, because the direct code it gave me was missing columns that it assumed it had.</p>
+</section>
+</section>
+<section id="final-product" class="level1">
+<h1>Final Product</h1>
+<p>After a little bit of love, here’s the output:</p>
+<p><img src="https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/dashboard.png" class="img-fluid"></p>
+<pre><code># Install and load the necessary libraries
+# install.packages("prophet")
+# install.packages("quantmod")
+# install.packages("xts")
+library(quantmod)
+library(shiny)
+library(prophet)
+library(tidyverse)
+library(dygraphs)
+library(xts)
+
+# Read in the stock prices for AAPL
+getSymbols("AAPL")
+aapl &lt;- as.data.frame(AAPL)
+
+# Convert the rowname (date information) into a column
+aapl &lt;- rownames_to_column(aapl, "date")
+
+# Select the necessary columns and rename them
+aapl &lt;- aapl %&gt;% select(date, AAPL.Adjusted) %&gt;% rename(y = AAPL.Adjusted, ds = date)
+aapl$ds &lt;- as.Date(aapl$ds)
+
+# Fit a model to the stock price data
+m &lt;- prophet(aapl)
+
+# Forecast the stock price 6 months into the future
+future &lt;- make_future_dataframe(m, periods = 180)
+forecast &lt;- predict(m, future)
+
+# Define the user interface
+ui &lt;- fluidPage(
+  
+  # Add a slider input widget
+  sliderInput("window", "Time Period:",
+              min = 1, max = length(aapl$y), value = c(1, length(aapl$y)), step = 1),
+  
+  # Add a dygraphs plot
+  dygraphOutput("plot")
+)
+
+# Define the server function
+server &lt;- function(input, output) {
+  
+  # Reactive expression to create a subset of the data based on the slider input
+  stock_subset &lt;- reactive({
+    aapl2 &lt;- aapl[input$window[1]:input$window[2],]
+    # https://stackoverflow.com/questions/4297231/converting-a-data-frame-to-xts
+    # 
+    forecast_subset &lt;- forecast %&gt;% select(ds, y=yhat) %&gt;% 
+        filter(ds &gt;= "2022-12-15")
+    aapl2 &lt;- bind_rows(aapl2, forecast_subset)
+    aapl2$ds &lt;- as.Date(aapl2$ds)
+    aapl2$indicator &lt;- ifelse(aapl2$ds &gt; max(aapl$ds), 1, 0)
+    aapl2 &lt;- as.xts(aapl2[, -1], aapl2[, 1])
+    return(aapl2)
+  })
+  
+  # Render the dygraphs plot
+  output$plot &lt;- renderDygraph({
+    dygraph(aapl2, main = "AAPL Stock Price", group='indicator') %&gt;%
+      # dySeries(color = c("darkblue", "red")) 
+      dyRangeSelector()
+  })
+}
+
+# Run the Shiny app
+shinyApp(ui = ui, server = server)</code></pre>
+</section>
+<section id="data-processing-1" class="level1">
+<h1>Data Processing</h1>
+<p>After writing all the above, I thought, what else can it do? Here’s a bonus. ChatGPT can understand and do mundane data processing very effectively:</p>
+<p><img src="https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/iris_processing.png" class="img-fluid"></p>
+</section>
+<section id="takeaways" class="level1">
+<h1>Takeaways</h1>
+<p>To get from the first script to the second script took an hour. If I didn’t already know shiny, and didn’t already know data processing, or know what it was looking for, then some steps would have perhaps been impossible.</p>
+<p>ChatGPT is amazing at:</p>
+<ul>
+<li>Boilerplate code</li>
+<li>Pointing you in the right direction with code snippets (like a way more useful Wikipedia)</li>
+<li>Taught me packages I had never used before (<code>dygraphs</code>, <code>xts</code>)</li>
+<li>Could write 95% valid Shiny code that did data visualization with timeseries data (not easy, even for an experienced programmer).</li>
+<li>Somehow mostly knows the data structures of <code>prophet</code> datasets, can make predictions, can filter the data</li>
+<li>Simple data processing (could create a smart indicator variable)</li>
+</ul>
+<p>ChatGPT has ways to go with:</p>
+<ul>
+<li>Knowing everything about the code base (misleading code snippets)</li>
+<li>Not being so confident when it’s wrong</li>
+<li>Debugging nuanced things. I think it conflated <code>plotly</code>’s API with <code>dygraph</code>’s when coloring series.</li>
+<li>The user still needs to know what questions to ask.</li>
+</ul>
+<p>If ChatGPT actually had access to my data using a REPL (like could run <code>names(df)</code> itself and see the output), I’d be done for. How hard would that be, though? Technically, it’d be very feasible through some API calls.</p>
+<p>too long; but read the whole thing: ChatGPT is going to be very powerful in 2-5 years. Data analytics is about to get disrupted.</p>
+<p>See the full chat <a href="convo.txt">here</a>.</p>
+
+
+</section>
+
+<p>_________________________ <br> <em>Bryan is passionate about building great products with data and empowering individuals to reach their potential. Please reach out at <a href="mailto:bryanwhitingcoaching@gmail.com">bryanwhitingcoaching@gmail.com</a> to get mentorship or coaching for your life or business.</em></p> ]]></description>
+  <category>data science</category>
+  <category>r</category>
+  <category>shiny</category>
+  <category>futurism</category>
+  <category>chatgpt</category>
+  <guid>https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/index.html</guid>
+  <pubDate>Thu, 15 Dec 2022 00:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/instructions1.png" medium="image" type="image/png" height="101" width="144"/>
+</item>
 <item>
   <title>Writing a Tech Resume</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -1009,253 +1256,6 @@ Tip
   <guid>https://www.bryanwhiting.com/posts/2022-06-20-blogging-with-quarto/index.html</guid>
   <pubDate>Mon, 20 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-06-20-blogging-with-quarto/photo.jpeg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Building a complex R Shiny Dashboard Using ChatGPT</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><a href="https://chat.openai.com/chat">ChatGPT</a> is nothing short of amazing, but I think I’ll still have a job as a data scientist for at least another year or so.</p>
-<section id="goal" class="level1">
-<h1>Goal</h1>
-<p>In this post, I’ll walk through the hour conversation I had with ChatGPT to build an R Shiny dashboard. My goal was to see if it can load in real-time data, do time-series forecasting, and visualize the results. For the most part, it could. Let’s dive in.</p>
-<p>First, I was inspired by this post:</p>
-<blockquote class="twitter-tweet blockquote">
-<p lang="en" dir="ltr">
-And here is the final result. A fully functional shiny app without actually writing a single line of code, built in under 3 minutes.<br><br>Wondering how it handles more complex queries, but still, this is insane. <a href="https://t.co/LepjcMNk43">pic.twitter.com/LepjcMNk43</a>
-</p>
-— Jose Fernandez (<span class="citation" data-cites="jfernandez__">@jfernandez__</span>) <a href="https://twitter.com/jfernandez__/status/1599470625910706176?ref_src=twsrc%5Etfw">December 4, 2022</a>
-</blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</section>
-<section id="building-a-dashboard" class="level1">
-<h1>Building a Dashboard</h1>
-<p>My prompt was this:</p>
-<blockquote class="blockquote">
-<p>Build an R shiny dashboard that uses a package to read in stock prices for AAPL and uses the prophet library to forecast the stock 6 months into the future. Visualize the data in an interactive plotting library with a slider window on the plot to zoom into different time periods.</p>
-</blockquote>
-<p>And it gave me line-by-line instructions:</p>
-<p><img src="https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/instructions1.png" class="img-fluid"></p>
-<p>I asked it to consolidate all of that into one script, which produced this:</p>
-<pre><code># Install and load the necessary libraries
-install.packages("prophet")
-library(shiny)
-library(prophet)
-library(tidyverse)
-library(dygraphs)
-
-# Read in the stock prices for AAPL
-getSymbols("AAPL")
-aapl &lt;- as.data.frame(AAPL)
-aapl &lt;- aapl %&gt;% select(date, Adj) %&gt;% rename(y = Adj, ds = date)
-
-# Fit a model to the stock price data
-m &lt;- prophet(aapl)
-
-# Forecast the stock price 6 months into the future
-future &lt;- make_future_dataframe(m, periods = 180)
-forecast &lt;- predict(m, future)
-
-# Define the user interface
-ui &lt;- fluidPage(
-
-  # Add a slider input widget
-  sliderInput("window", "Time Period:",
-              min = 1, max = length(aapl$y), value = c(1, length(aapl$y)), step = 1),
-
-  # Add a dygraphs plot
-  dygraphOutput("plot")
-)
-
-# Define the server function
-server &lt;- function(input, output) {
-
-  # Reactive expression to create a subset of the data based on the slider input
-  stock_subset &lt;- reactive({
-    aapl[input$window[1]:input$window[2],]
-  })
-
-  # Render the dygraphs plot
-  output$plot &lt;- renderDygraph({
-    dygraph(stock_subset(), main = "AAPL Stock Price") %&gt;%
-      dyRangeSelector()
-  })
-}
-
-# Run the Shiny app
-shinyApp(ui = ui, server = server)</code></pre>
-<p>Pretty impressive start, to be honest.</p>
-</section>
-<section id="what-chatgpt-gets-right" class="level1 page-columns page-full">
-<h1>What ChatGPT gets right</h1>
-<p>A few days ago I asked it to create an R Shiny app that could load in the iris dataset and create an interactive table. It did that with ease, as the twitter post above shows.</p>
-<div class="page-columns page-full"><p>I then asked it to “re-write me that same app, but using python’s <a href="https://wave.h2o.ai/docs/examples/dashboard">h2o-wave</a>”.  It was able to build me a simple app.</p><div class="no-row-height column-margin column-container"><span class="">As an R Shiny user, I’m curious to have a compelling python replacement. I know there’s <a href="https://shiny.rstudio.com/py/">python shiny</a>, but I love <a href="https://github.com/streamlit/">streamlit</a>’s simplicity and think h2o-wave is more robust than streamlit.</span></div></div>
-<p>Today, when I asked it to build me an interactive visualization after building a time series forecasting model, it could get me all the core components. It only struggled on data inputs/outputs. The app would break and I’d ask it some questions, which it could sometimes answer, and would sometimes mislead me.</p>
-<p>For example, the first error I got was : &gt; I’m getting the error <code>Error in getSymbols("AAPL") : could not find function "getSymbols"</code></p>
-<p>ChatGPT replied:</p>
-<p><img src="https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/quatmod.png" class="img-fluid"></p>
-<p>It even adjusted my code and put the installation steps at the top of the script. Amazing.</p>
-<section id="data-processing" class="level2">
-<h2 class="anchored" data-anchor-id="data-processing">Data Processing</h2>
-<p>I asked it to create an indicator variable for me so that I could color my dygraphs chart by forecasts vs.&nbsp;historical:</p>
-<p><img src="https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/indicator.png" class="img-fluid"></p>
-<p>Here was my prompt:</p>
-<blockquote class="blockquote">
-<p>Don’t use <code>add_series()</code> since you’re wrong and it’s not a function in dygraphs. Instead, append the forecasts to the aapl in the stock_subset function and create a new indicator for the forecasted values where 0 is past data and 1 is forecasted data. Then, color the dygraphs chart based on the indicator value. Re-write this script below accordingly.</p>
-</blockquote>
-<p>Look at that code! It knew to filter <code>appl2$ds &gt; max(appl$ds)</code>. That’s exactly how you subset a prophet dataframe (which returns all historical and future forecasts in one dataframe). It knew that <code>appl</code> was the first dataset and <code>appl2</code> was the derived dataset. It knew that it had to take the max date from <code>appl</code>. This is absolutely amazing, hands down.</p>
-<pre><code>aapl2 &lt;- bind_rows(aapl2, forecast_subset)
-aapl2$indicator &lt;- ifelse(aapl2$ds &gt; max(aapl$ds), 1, 0)</code></pre>
-</section>
-</section>
-<section id="what-it-got-wrong" class="level1">
-<h1>What it got wrong</h1>
-<p>ChatGPT won’t put me out of the job for a bit, though. (Like at least 6 months maybe?)</p>
-<section id="data-inspection" class="level2">
-<h2 class="anchored" data-anchor-id="data-inspection">Data inspection</h2>
-<p>I then got this error:</p>
-<pre><code>I'm getting this error: Error in `select()`:
-! Can't subset columns that don't exist.
-✖ Column `date` doesn't exist.</code></pre>
-<p>ChatGPT gave me the ring-around. It didn’t know that the dates were stored as the rownames, but confidently gave me answers like this:</p>
-<p><img src="https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/missing_date.png" class="img-fluid"></p>
-<p>To it’s credit, it recommended I inspect the data myself:</p>
-<p><img src="https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/recommend.png" class="img-fluid"></p>
-<p>Once I figured out the problem, I told it that the rownames were dates, and that date wasn’t a column. It had just the solution for me:</p>
-<p><img src="https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/rownames_to_date.png" class="img-fluid"></p>
-</section>
-<section id="misleading-functions" class="level2">
-<h2 class="anchored" data-anchor-id="misleading-functions">Misleading Functions</h2>
-<p>Twice, it told me that <code>dygraphs</code> had functions that it didn’t actually have. It even wrote code for me. For example, it recommended this to me:</p>
-<pre><code>dygraph(stock_subset(), main = "AAPL Stock Price") %&gt;%
-  add_series(data = forecast_subset, col = "red") %&gt;%
-  dyRangeSelector()</code></pre>
-<p>And it doubled down:</p>
-<p><img src="https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/add_series.png" class="img-fluid"></p>
-</section>
-<section id="data-conversion" class="level2">
-<h2 class="anchored" data-anchor-id="data-conversion">Data Conversion</h2>
-<p>It told me to use the <code>xts</code> package so that <code>dygraphs</code> could read the data in. This was accurate - <code>dygraphs</code> cannot read in tibbles.</p>
-<p><img src="https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/xts.png" class="img-fluid"></p>
-<p>But it was misleading me a little bit. Again, I had to look at the data, because the direct code it gave me was missing columns that it assumed it had.</p>
-</section>
-</section>
-<section id="final-product" class="level1">
-<h1>Final Product</h1>
-<p>After a little bit of love, here’s the output:</p>
-<p><img src="https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/dashboard.png" class="img-fluid"></p>
-<pre><code># Install and load the necessary libraries
-# install.packages("prophet")
-# install.packages("quantmod")
-# install.packages("xts")
-library(quantmod)
-library(shiny)
-library(prophet)
-library(tidyverse)
-library(dygraphs)
-library(xts)
-
-# Read in the stock prices for AAPL
-getSymbols("AAPL")
-aapl &lt;- as.data.frame(AAPL)
-
-# Convert the rowname (date information) into a column
-aapl &lt;- rownames_to_column(aapl, "date")
-
-# Select the necessary columns and rename them
-aapl &lt;- aapl %&gt;% select(date, AAPL.Adjusted) %&gt;% rename(y = AAPL.Adjusted, ds = date)
-aapl$ds &lt;- as.Date(aapl$ds)
-
-# Fit a model to the stock price data
-m &lt;- prophet(aapl)
-
-# Forecast the stock price 6 months into the future
-future &lt;- make_future_dataframe(m, periods = 180)
-forecast &lt;- predict(m, future)
-
-# Define the user interface
-ui &lt;- fluidPage(
-  
-  # Add a slider input widget
-  sliderInput("window", "Time Period:",
-              min = 1, max = length(aapl$y), value = c(1, length(aapl$y)), step = 1),
-  
-  # Add a dygraphs plot
-  dygraphOutput("plot")
-)
-
-# Define the server function
-server &lt;- function(input, output) {
-  
-  # Reactive expression to create a subset of the data based on the slider input
-  stock_subset &lt;- reactive({
-    aapl2 &lt;- aapl[input$window[1]:input$window[2],]
-    # https://stackoverflow.com/questions/4297231/converting-a-data-frame-to-xts
-    # 
-    forecast_subset &lt;- forecast %&gt;% select(ds, y=yhat) %&gt;% 
-        filter(ds &gt;= "2022-12-15")
-    aapl2 &lt;- bind_rows(aapl2, forecast_subset)
-    aapl2$ds &lt;- as.Date(aapl2$ds)
-    aapl2$indicator &lt;- ifelse(aapl2$ds &gt; max(aapl$ds), 1, 0)
-    aapl2 &lt;- as.xts(aapl2[, -1], aapl2[, 1])
-    return(aapl2)
-  })
-  
-  # Render the dygraphs plot
-  output$plot &lt;- renderDygraph({
-    dygraph(aapl2, main = "AAPL Stock Price", group='indicator') %&gt;%
-      # dySeries(color = c("darkblue", "red")) 
-      dyRangeSelector()
-  })
-}
-
-# Run the Shiny app
-shinyApp(ui = ui, server = server)</code></pre>
-</section>
-<section id="data-processing-1" class="level1">
-<h1>Data Processing</h1>
-<p>After writing all the above, I thought, what else can it do? Here’s a bonus. ChatGPT can understand and do mundane data processing very effectively:</p>
-<p><img src="https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/iris_processing.png" class="img-fluid"></p>
-</section>
-<section id="takeaways" class="level1">
-<h1>Takeaways</h1>
-<p>To get from the first script to the second script took an hour. If I didn’t already know shiny, and didn’t already know data processing, or know what it was looking for, then some steps would have perhaps been impossible.</p>
-<p>ChatGPT is amazing at:</p>
-<ul>
-<li>Boilerplate code</li>
-<li>Pointing you in the right direction with code snippets (like a way more useful Wikipedia)</li>
-<li>Taught me packages I had never used before (<code>dygraphs</code>, <code>xts</code>)</li>
-<li>Could write 95% valid Shiny code that did data visualization with timeseries data (not easy, even for an experienced programmer).</li>
-<li>Somehow mostly knows the data structures of <code>prophet</code> datasets, can make predictions, can filter the data</li>
-<li>Simple data processing (could create a smart indicator variable)</li>
-</ul>
-<p>ChatGPT has ways to go with:</p>
-<ul>
-<li>Knowing everything about the code base (misleading code snippets)</li>
-<li>Not being so confident when it’s wrong</li>
-<li>Debugging nuanced things. I think it conflated <code>plotly</code>’s API with <code>dygraph</code>’s when coloring series.</li>
-<li>The user still needs to know what questions to ask.</li>
-</ul>
-<p>If ChatGPT actually had access to my data using a REPL (like could run <code>names(df)</code> itself and see the output), I’d be done for. How hard would that be, though? Technically, it’d be very feasible through some API calls.</p>
-<p>too long; but read the whole thing: ChatGPT is going to be very powerful in 2-5 years. Data analytics is about to get disrupted.</p>
-<p>See the full chat <a href="convo.txt">here</a>.</p>
-
-
-</section>
-
-<p>_________________________ <br> <em>Bryan is passionate about building great products with data and empowering individuals to reach their potential. Please reach out at <a href="mailto:bryanwhitingcoaching@gmail.com">bryanwhitingcoaching@gmail.com</a> to get mentorship or coaching for your life or business.</em></p> ]]></description>
-  <category>data science</category>
-  <category>r</category>
-  <category>shiny</category>
-  <category>futurism</category>
-  <category>chatgpt</category>
-  <guid>https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/index.html</guid>
-  <pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/instructions1.png" medium="image" type="image/png" height="101" width="144"/>
 </item>
 <item>
   <title>The Author’s Angle Matters</title>

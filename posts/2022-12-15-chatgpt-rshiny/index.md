@@ -2,7 +2,7 @@
 title: Building a complex R Shiny Dashboard Using ChatGPT
 description: | 
   ChatGPT can create amazing boilerplate code and can point you in the right direction, but it cannot debug data problems easily (yet). It can read in data from the internet, make time-series forecasts, and visualize the data (with a little assistance).
-date: 2022-01-01
+date: 2022-12-15
 categories: [data science, r, shiny, futurism, chatgpt]
 ---
 
