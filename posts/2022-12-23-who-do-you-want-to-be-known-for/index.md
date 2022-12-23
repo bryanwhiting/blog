@@ -5,7 +5,6 @@ description: |
 date: 2022-12-23
 categories: [leadership, service]
 draft: false
-image: https://unsplash.com/photos/uPl8fJ5Ce2M
 ---
 
 On the sports fields of high school, I was often asked, “How do you want to be remembered?” The energy behind that question is a rallying cry for someone to go out and score some goals and be victorious. Score goals → be remembered forever in the annals of high school lore, the thinking goes. 
@@ -15,6 +14,8 @@ This question misses the point.
 In “Ego is the Enemy”, Ryan Holiday asks the rhetorical question “to be or to do”. The mindset is that either we can focus on doing great work (spending time on action and education), or we can focus on being great (talking too much, dreaming too much). Ironically, greatness follows those who do, not those who say they will do. 
 
 So instead of asking “how will others remember me”, ask “what will I do for others?” 
+
+![Dan Kiefer via Unsplash](photo.jpeg)
 
 On this Christmas season, remember that while Jesus Christ’s divinity has been debated for centuries, certainly he’s been remembered. He’s been remembered because of the actions he took and the kindness he showed. 
 
