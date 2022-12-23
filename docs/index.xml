@@ -10,7 +10,38 @@
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.2.280</generator>
-<lastBuildDate>Thu, 15 Dec 2022 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 23 Dec 2022 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>How do you want to be remembered?</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2022-12-23-who-do-you-want-to-be-known-for/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>On the sports fields of high school, I was often asked, “How do you want to be remembered?” The energy behind that question is a rallying cry for someone to go out and score some goals and be victorious. Score goals → be remembered forever in the annals of high school lore, the thinking goes.</p>
+<p>This question misses the point.</p>
+<p>In “Ego is the Enemy”, Ryan Holiday asks the rhetorical question “to be or to do”. The mindset is that either we can focus on doing great work (spending time on action and education), or we can focus on being great (talking too much, dreaming too much). Ironically, greatness follows those who do, not those who say they will do.</p>
+<p>So instead of asking “how will others remember me”, ask “what will I do for others?”</p>
+<p>On this Christmas season, remember that while Jesus Christ’s divinity has been debated for centuries, certainly he’s been remembered. He’s been remembered because of the actions he took and the kindness he showed.</p>
+<p>Christians believe he was the Son of God, one with literal power over death and rose from his own grave. He could calm the seas and turn water to wine. He was the rightful heir to the throne that his Roman captors sat on. He could have easily freed his oppressed nation to rest on his laurels forever.</p>
+<p>Yet the recorded miracles we have from him don’t involve him showing moving mountains or collecting power and gold. The reason he’s remembered is because His miracles involve him spending time with individuals and in their service. He healed the sick. Caused the blind to see. He alleviated suffering.</p>
+<p>May this Christmas be one where you don’t focus on what others think of you. May it be one where you enjoy following His example of doing good for others, however small.</p>
+<blockquote class="blockquote">
+<p>Whosoever will be great among you, let him be your minister; And whosoever will be chief among you, let him be your servant: Even as the Son of man came not to be ministered unto, but to minister, and to give his life a ransom for many. <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/matt/20?id=p26-p28&amp;lang=eng">Matthew 20:26–28</a></p>
+</blockquote>
+<p>Merry Christmas.</p>
+
+
+
+<p>_________________________ <br> <em>Bryan is passionate about building great products with data and empowering individuals to reach their potential. Please reach out at <a href="mailto:bryanwhitingcoaching@gmail.com">bryanwhitingcoaching@gmail.com</a> to get mentorship or coaching for your life or business.</em></p> ]]></description>
+  <category>leadership</category>
+  <category>service</category>
+  <guid>https://www.bryanwhiting.com/posts/2022-12-23-who-do-you-want-to-be-known-for/index.html</guid>
+  <pubDate>Fri, 23 Dec 2022 00:00:00 GMT</pubDate>
+  <media:content url="https://unsplash.com/photos/uPl8fJ5Ce2M" medium="image"/>
+</item>
 <item>
   <title>Building a complex R Shiny Dashboard Using ChatGPT</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -257,6 +288,65 @@ shinyApp(ui = ui, server = server)</code></pre>
   <guid>https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/index.html</guid>
   <pubDate>Thu, 15 Dec 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/instructions1.png" medium="image" type="image/png" height="101" width="144"/>
+</item>
+<item>
+  <title>Models as a Service and the Future of Data Science</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2022-12-06-more-new-businesses-than-ever-/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="businesses-are-launching-like-crazy" class="level1">
+<h1>Businesses are Launching Like Crazy</h1>
+<p>There’s never been a better time to start a business. The Census shows there are over <a href="https://www.census.gov/econ/currentdata/?programCode=BFS&amp;startYear=2004&amp;endYear=2022&amp;categories%5B%5D=TOTAL&amp;dataType=BA_BA&amp;geoLevel=US&amp;adjusted=1&amp;notAdjusted=1&amp;errorData=0">200,000</a> new business applications per month more than pre pandemic.</p>
+<p><img src="https://www.bryanwhiting.com/posts/2022-12-06-more-new-businesses-than-ever-/photo.jpeg" class="img-fluid"></p>
+<p>What’s driving this?</p>
+<p>Listening to <a href="https://podcasts.apple.com/us/podcast/freakonomics-radio/id354668519?i=1000584035729">The Unintended Consequences of Working from Home</a> it dawned on me that there’s a hyper acceleration of innovation happening.</p>
+<p>Consider the rise of AI tools like ChatGPT and StableDiffusion. Chamath Palihapitiya <a href="https://podcasts.apple.com/us/podcast/all-in-with-chamath-jason-sacks-friedberg/id1502871393?i=1000588602549">discusses</a> the expansive applications for these services. What was once SaaS will become MaaS (models as a service). There will be models for everything: copy writing, code debugging, converting wireframes into working apps, ad generation, book writing…</p>
+<p>While tools like ChatGPT are just in demo mode, it’s wildly apparent they’ll be an impetus for new ideas and reducing the friction of getting to the answer. For example, as a data scientist if I need boilerplate code to clean some data, I can ask ChatGPT for the 80% solution. I’m already spending 30% of my day copying code snippets from StackOverflow and making it work for my problem. ChatGPT will just accelerate that process. 10 years from now if Neuralink can read my thoughts I don’t even need a keyboard to do this…we’ll build things at the speed of thought.</p>
+<p>Consider this for writers and marketers. They’ll use ChatGPT to unblock them, generate ideas, and get started. Innovation across the board will accelerate because the kinetic friction to getting started will reduce to zero. You can then spend your time on the editing and refining.</p>
+</section>
+<section id="the-best-time-to-start-a-business" class="level1">
+<h1>The Best Time to Start a Business</h1>
+<p>I digress. Why is now the best time to build a software business?</p>
+<ul>
+<li>Compute is cheap. Gone are the days of having to build a server to prototype and idea.</li>
+<li>Barriers to prototyping are nearly free and scaling with the cloud is nearly infinite. Consider how the <a href="https://www.bloomberg.com/news/newsletters/2022-10-21/is-the-gas-app-free-new-social-network-is-a-hit-in-high-schools">Gas App</a> can launch to 100,000 new users per day with just a few developers.</li>
+<li>Modeling is now easy. All cloud services have their own AutoML tools to build machine learning models for you.</li>
+</ul>
+<p>The center of all of this is scalable data infrastructure and AI.</p>
+</section>
+<section id="future-of-data-science" class="level1">
+<h1>Future of Data Science</h1>
+<p>The data scientist of today may still be using <code>sklearn</code> to manually do hyperparameter tuning, but the data scientist of tomorrow will either be exclusively building MaaS B2B products or be the one person in their organization who will leverage all the MaaS tools.</p>
+<p>If we can ask ChatGPT for complex answers it learned from the internet, why couldn’t something similar be trained on your company’s internal data? If that’s possible, then why couldn’t you just have a Q&amp;A session with your internal ChatGPT? Consider the following example:</p>
+<ul>
+<li>“Hey <a href="https://en.wikipedia.org/wiki/KITT">KITT</a>, what are the user segments generating the most revenue on Tuesdays at 5pm?” (Analytics)</li>
+<li>“How many sales do we anticipate from these users next Tuesday?” (Machine Learning)</li>
+<li>“What ads have been most effective for us in driving new sales in the past 7 days?” (Statistics)</li>
+<li>“Okay, KITT, generate 3 variants of that ad for next Tuesday” (StableDiffusion generating a new Ad)</li>
+<li>“I like ads A, B and C. launch an experiment on Facebook/TikTok, run it for three days and dynamically allocate ad spend to the best ad.” (Business integrations, statistics, ML models)</li>
+</ul>
+<p>The data scientist of the future will be the one with deep understanding of these tools and an awareness of their biases. It will be very difficult to know when they’re lying to you. The in-house data scientist will be keen on knowing the biases in the data fed into these algorithms and how to make judgments on where to go next.</p>
+<p>Early stage companies won’t need data scientists because most of this stuff will be off the shelf and easy for an engineer to integrate. That means that the data scientists will join these MaaS companies to build out optimized products that solve these niche problems.</p>
+</section>
+<section id="takeaways" class="level1">
+<h1>Takeaways</h1>
+<p>Data Scientists shouldn’t be scared their jobs will disappear. They should be excited that they’ll be joining companies that automate what they’re currently doing and offer it as a service.</p>
+
+
+</section>
+
+<p>_________________________ <br> <em>Bryan is passionate about building great products with data and empowering individuals to reach their potential. Please reach out at <a href="mailto:bryanwhitingcoaching@gmail.com">bryanwhitingcoaching@gmail.com</a> to get mentorship or coaching for your life or business.</em></p> ]]></description>
+  <category>tech</category>
+  <category>startups</category>
+  <category>business</category>
+  <category>data science</category>
+  <guid>https://www.bryanwhiting.com/posts/2022-12-06-more-new-businesses-than-ever-/index.html</guid>
+  <pubDate>Tue, 06 Dec 2022 00:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/2022-12-06-more-new-businesses-than-ever-/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Writing a Tech Resume</title>
@@ -1330,52 +1420,6 @@ Tip
   <guid>https://www.bryanwhiting.com/posts/2020-12-18-productivity-notes/index.html</guid>
   <pubDate>Sat, 19 Dec 2020 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2020-12-18-productivity-notes/image.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>How to mock the value of an ML solution</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2020-12-16-pretotyping-ml-solutions/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>IBM once launched a demo of speech-to-text in the early day’s of the technology. But there was a twist: it was smoke and mirrors. A typist in behind the stage was translating and typing.</p>
-<p>This is a mechanical Turk.</p>
-<p>In data science, we can present results or dashboards to audience members before they see anything. If you see a big reaction, you know you found a number they cared about.</p>
-<p>Go ahead, write the conclusion first. Fake the chart first. Then back out the code that could produce the insights they need.</p>
-<p>Sometimes, unique insights appear along the way. But most of the time you can properly gut-check whether someone will care about what you’re doing. Save time. Work backward.</p>
-
-
-
-<p>_________________________ <br> <em>Bryan is passionate about building great products with data and empowering individuals to reach their potential. Please reach out at <a href="mailto:bryanwhitingcoaching@gmail.com">bryanwhitingcoaching@gmail.com</a> to get mentorship or coaching for your life or business.</em></p> ]]></description>
-  <category>data science</category>
-  <category>innovation</category>
-  <guid>https://www.bryanwhiting.com/posts/2020-12-16-pretotyping-ml-solutions/index.html</guid>
-  <pubDate>Wed, 16 Dec 2020 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/posts/2020-12-16-pretotyping-ml-solutions/image.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Get rid of the todo list. Calendar everything.</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2020-12-15-calendaring-todos/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p><img src="https://www.bryanwhiting.com/posts/2020-12-15-calendaring-todos/image.png" class="img-fluid"></p>
-<p>I’ve had less meetings and more unstructured time during WFH. It can be isolating, which can slow down productivity.</p>
-<p><a href="https://link.medium.com/6xW8fKHSfcb">Here’s a tip I read</a> today on how to be productive with unstructured time: put your to-do list directly into a calendar.</p>
-<p>That way, you’ll always have time for the important things. Remove the things that take up your time and aren’t as important. I like it.</p>
-
-
-
-<p>_________________________ <br> <em>Bryan is passionate about building great products with data and empowering individuals to reach their potential. Please reach out at <a href="mailto:bryanwhitingcoaching@gmail.com">bryanwhitingcoaching@gmail.com</a> to get mentorship or coaching for your life or business.</em></p> ]]></description>
-  <category>productivity</category>
-  <guid>https://www.bryanwhiting.com/posts/2020-12-15-calendaring-todos/index.html</guid>
-  <pubDate>Tue, 15 Dec 2020 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/posts/2020-12-15-calendaring-todos/image.png" medium="image" type="image/png" height="64" width="144"/>
 </item>
 </channel>
 </rss>
