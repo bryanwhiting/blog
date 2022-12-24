@@ -23,7 +23,7 @@ website:
         href: index.xml
   search: true
   body-footer: | 
-    _________________________ <br> _Bryan is passionate about building great products with data and empowering individuals to reach their potential. Please reach out at <a href="mailto:bryanwhitingcoaching@gmail.com">bryanwhitingcoaching@gmail.com</a> to get mentorship or coaching for your life or business._
+    _________________________ <br> _For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a>_.
   sidebar:
     style: "docked"
     background: light

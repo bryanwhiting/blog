@@ -1,7 +1,7 @@
 ---
 title: How do you want to be remembered?
 description: |
-  It’s question as old as time, but misses the mark and is distracting from the more important question.
+  It’s a question as old as time, but misses the mark and is distracting from the more important question.
 date: 2022-12-23
 categories: [leadership, service]
 draft: false
