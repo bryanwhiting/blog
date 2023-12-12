@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.280">
+<meta name="generator" content="quarto-1.4.515">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -47,7 +47,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -57,7 +63,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -106,20 +113,26 @@ ga('send', {
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="Bryan Whiting" href="index.xml"></head>
+<link rel="alternate" type="application/rss+xml" title="Bryan Whiting" href="index.xml" data-external="1"></head>
 
 <body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Recent Posts</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Recent Posts</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -127,50 +140,55 @@ ga('send', {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Bryan Whiting</a> 
         <div class="sidebar-tools-main tools-wide">
-    <a href="" title="" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-github"></i></a>
-    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/bryanwhiting/blog">
-          This blog
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/bryanwhiting">
-          Profile
-          </a>
-        </li>
-    </ul>
-    <a href="https://www.linkedin.com/in/bryan-whiting/" title="" class="sidebar-tool px-1"><i class="bi bi-linkedin"></i></a>
-    <a href="https://twitter.com/bryanwhiting" title="" class="sidebar-tool px-1"><i class="bi bi-twitter"></i></a>
-    <a href="./index.xml" title="" class="sidebar-tool px-1"><i class="bi bi-rss"></i></a>
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/bryanwhiting/blog">
+            This blog
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/bryanwhiting">
+            Profile
+            </a>
+          </li>
+      </ul>
+    </div>
+    <a href="https://www.linkedin.com/in/bryan-whiting/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
+    <a href="https://twitter.com/bryanwhiting" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
+    <a href="./index.xml" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-rss"></i></a>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">Recent Posts</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Recent Posts</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link">About</a>
+  <a href="./about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="analysis"><span class="quarto-category-count category-cloud-1">analysis</span></div><div class="category" data-category="app review"><span class="quarto-category-count category-cloud-1">app review</span></div><div class="category" data-category="blogging"><span class="quarto-category-count category-cloud-1">blogging</span></div><div class="category" data-category="book review"><span class="quarto-category-count category-cloud-1">book review</span></div><div class="category" data-category="business"><span class="quarto-category-count category-cloud-1">business</span></div><div class="category" data-category="buying things"><span class="quarto-category-count category-cloud-1">buying things</span></div><div class="category" data-category="cars"><span class="quarto-category-count category-cloud-1">cars</span></div><div class="category" data-category="chatgpt"><span class="quarto-category-count category-cloud-1">chatgpt</span></div><div class="category" data-category="communication"><span class="quarto-category-count category-cloud-2">communication</span></div><div class="category" data-category="data science"><span class="quarto-category-count category-cloud-4">data science</span></div><div class="category" data-category="dataviz"><span class="quarto-category-count category-cloud-1">dataviz</span></div><div class="category" data-category="decisions"><span class="quarto-category-count category-cloud-1">decisions</span></div><div class="category" data-category="experimentation"><span class="quarto-category-count category-cloud-1">experimentation</span></div><div class="category" data-category="fatherhood"><span class="quarto-category-count category-cloud-1">fatherhood</span></div><div class="category" data-category="futurism"><span class="quarto-category-count category-cloud-1">futurism</span></div><div class="category" data-category="ggplot"><span class="quarto-category-count category-cloud-1">ggplot</span></div><div class="category" data-category="ideation"><span class="quarto-category-count category-cloud-1">ideation</span></div><div class="category" data-category="innovation"><span class="quarto-category-count category-cloud-1">innovation</span></div><div class="category" data-category="jekyll"><span class="quarto-category-count category-cloud-1">jekyll</span></div><div class="category" data-category="leadership"><span class="quarto-category-count category-cloud-1">leadership</span></div><div class="category" data-category="machine learning"><span class="quarto-category-count category-cloud-1">machine learning</span></div><div class="category" data-category="musings"><span class="quarto-category-count category-cloud-1">musings</span></div><div class="category" data-category="plotly"><span class="quarto-category-count category-cloud-1">plotly</span></div><div class="category" data-category="pricing"><span class="quarto-category-count category-cloud-1">pricing</span></div><div class="category" data-category="principles"><span class="quarto-category-count category-cloud-1">principles</span></div><div class="category" data-category="priorities"><span class="quarto-category-count category-cloud-1">priorities</span></div><div class="category" data-category="productivity"><span class="quarto-category-count category-cloud-4">productivity</span></div><div class="category" data-category="r"><span class="quarto-category-count category-cloud-2">r</span></div><div class="category" data-category="regression"><span class="quarto-category-count category-cloud-1">regression</span></div><div class="category" data-category="service"><span class="quarto-category-count category-cloud-1">service</span></div><div class="category" data-category="shiny"><span class="quarto-category-count category-cloud-1">shiny</span></div><div class="category" data-category="startups"><span class="quarto-category-count category-cloud-1">startups</span></div><div class="category" data-category="strategy"><span class="quarto-category-count category-cloud-1">strategy</span></div><div class="category" data-category="surveillance"><span class="quarto-category-count category-cloud-1">surveillance</span></div><div class="category" data-category="tech"><span class="quarto-category-count category-cloud-1">tech</span></div><div class="category" data-category="ticktick"><span class="quarto-category-count category-cloud-1">ticktick</span></div><div class="category" data-category="webscraping"><span class="quarto-category-count category-cloud-1">webscraping</span></div><div class="category" data-category="writing"><span class="quarto-category-count category-cloud-1">writing</span></div></div></div>
@@ -179,12 +197,12 @@ ga('send', {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Recent Posts</h1>
+<h1 class="title">Recent Posts</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-body">
 
     
   
@@ -192,7 +210,9 @@ ga('send', {
   </div>
   
 
+
 </header>
+
 
 <p>“All <a href="https://en.wikipedia.org/wiki/All_models_are_wrong">blogs</a> are wrong, but some are useful.”</p>
 
@@ -219,19 +239,52 @@ ga('send', {
   </div>
 </div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="leadership,service" data-listing-date-sort="1671753600000" data-listing-file-modified-sort="1671842690468" data-listing-reading-time-sort="1.825">
+<div class="quarto-post image-right" data-index="0" data-categories="data science" data-listing-date-sort="1702339200000" data-listing-file-modified-sort="1702415162983" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="731">
 <div class="thumbnail">
-<p><a href="./posts/2022-12-23-who-do-you-want-to-be-known-for/index.html"> <img src="./posts/2022-12-23-who-do-you-want-to-be-known-for/photo.jpeg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2023-12-12-future-of-coding/index.html" class="no-external"></a></p><a href="./posts/2023-12-12-future-of-coding/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2023-12-12-future-of-coding/photo.jpeg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2023-12-12-future-of-coding/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-12-23-who-do-you-want-to-be-known-for/index.html">
 <h3 class="no-anchor listing-title">
-How do you want to be remembered?
+<a href="./posts/2023-12-12-future-of-coding/index.html" class="no-external">Future of Coding</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2023-12-12-future-of-coding/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data science'); return false;">
+data science
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2023-12-12-future-of-coding/index.html" class="no-external">As our jobs are automatable, we need to discover what’s not </a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2023-12-12-future-of-coding/index.html" class="no-external">
+<div class="listing-date">
+Tue Dec 12, 2023
+</div>
+<div class="listing-reading-time">
+4 min
 </div>
 </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="leadership,service" data-listing-date-sort="1671753600000" data-listing-file-modified-sort="1702415162979" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="365">
+<div class="thumbnail">
+<p><a href="./posts/2022-12-23-who-do-you-want-to-be-known-for/index.html" class="no-external"></a></p><a href="./posts/2022-12-23-who-do-you-want-to-be-known-for/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2022-12-23-who-do-you-want-to-be-known-for/photo.jpeg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022-12-23-who-do-you-want-to-be-known-for/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2022-12-23-who-do-you-want-to-be-known-for/index.html" class="no-external">How do you want to be remembered?</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2022-12-23-who-do-you-want-to-be-known-for/index.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('leadership'); return false;">
 leadership
@@ -240,36 +293,34 @@ leadership
 service
 </div>
 </div>
-<a href="./posts/2022-12-23-who-do-you-want-to-be-known-for/index.html">
 <div class="listing-description">
-<p>It’s a question as old as time, but misses the mark and is distracting from the more important question.</p>
+<a href="./posts/2022-12-23-who-do-you-want-to-be-known-for/index.html" class="no-external">It’s a question as old as time, but misses the mark and is distracting from the more important question. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-12-23-who-do-you-want-to-be-known-for/index.html">
+<a href="./posts/2022-12-23-who-do-you-want-to-be-known-for/index.html" class="no-external">
 <div class="listing-date">
 Fri Dec 23, 2022
 </div>
 <div class="listing-reading-time">
-1 min
+2 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="data science,r,shiny,futurism,chatgpt" data-listing-date-sort="1671062400000" data-listing-file-modified-sort="1671842690460" data-listing-reading-time-sort="7.37">
+<div class="quarto-post image-right" data-index="2" data-categories="data science,r,shiny,futurism,chatgpt" data-listing-date-sort="1671062400000" data-listing-file-modified-sort="1702415162971" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1474">
 <div class="thumbnail">
-<p><a href="./posts/2022-12-15-chatgpt-rshiny/index.html"> <img src="./posts/2022-12-15-chatgpt-rshiny/instructions1.png" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-12-15-chatgpt-rshiny/index.html" class="no-external"></a></p><a href="./posts/2022-12-15-chatgpt-rshiny/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2022-12-15-chatgpt-rshiny/instructions1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022-12-15-chatgpt-rshiny/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-12-15-chatgpt-rshiny/index.html">
 <h3 class="no-anchor listing-title">
-Building a complex R Shiny Dashboard Using ChatGPT
+<a href="./posts/2022-12-15-chatgpt-rshiny/index.html" class="no-external">Building a complex R Shiny Dashboard Using ChatGPT</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-12-15-chatgpt-rshiny/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('data science'); return false;">
 data science
@@ -287,36 +338,34 @@ futurism
 chatgpt
 </div>
 </div>
-<a href="./posts/2022-12-15-chatgpt-rshiny/index.html">
 <div class="listing-description">
-<p>ChatGPT can create amazing boilerplate code and can point you in the right direction, but it cannot debug data problems easily (yet). It can read in data from the internet, make time-series forecasts, and visualize the data (with a little assistance).</p>
+<a href="./posts/2022-12-15-chatgpt-rshiny/index.html" class="no-external">ChatGPT can create amazing boilerplate code and can point you in the right direction, but it cannot debug data problems easily (yet). It can read in data from the internet, make time-series forecasts, and visualize the data (with a little assistance). </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-12-15-chatgpt-rshiny/index.html">
+<a href="./posts/2022-12-15-chatgpt-rshiny/index.html" class="no-external">
 <div class="listing-date">
 Thu Dec 15, 2022
 </div>
 <div class="listing-reading-time">
-7 min
+8 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="tech,startups,business,data science" data-listing-date-sort="1670284800000" data-listing-file-modified-sort="1671842690456" data-listing-reading-time-sort="3.355">
+<div class="quarto-post image-right" data-index="3" data-categories="tech,startups,business,data science" data-listing-date-sort="1670284800000" data-listing-file-modified-sort="1702415162967" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="671">
 <div class="thumbnail">
-<p><a href="./posts/2022-12-06-more-new-businesses-than-ever-/index.html"> <img src="./posts/2022-12-06-more-new-businesses-than-ever-/photo.jpeg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-12-06-more-new-businesses-than-ever-/index.html" class="no-external"></a></p><a href="./posts/2022-12-06-more-new-businesses-than-ever-/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2022-12-06-more-new-businesses-than-ever-/photo.jpeg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022-12-06-more-new-businesses-than-ever-/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-12-06-more-new-businesses-than-ever-/index.html">
 <h3 class="no-anchor listing-title">
-Models as a Service and the Future of Data Science
+<a href="./posts/2022-12-06-more-new-businesses-than-ever-/index.html" class="no-external">Models as a Service and the Future of Data Science</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-12-06-more-new-businesses-than-ever-/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('tech'); return false;">
 tech
@@ -331,49 +380,78 @@ business
 data science
 </div>
 </div>
-<a href="./posts/2022-12-06-more-new-businesses-than-ever-/index.html">
 <div class="listing-description">
-<p>Data Scientists shouldn’t be scared their jobs will disappear. They should be excited that they’ll be joining companies that automate what they’re currently doing and offer it as a service.</p>
+<a href="./posts/2022-12-06-more-new-businesses-than-ever-/index.html" class="no-external">Data Scientists shouldn’t be scared their jobs will disappear. They should be excited that they’ll be joining companies that automate what they’re currently doing and offer it as a service. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-12-06-more-new-businesses-than-ever-/index.html">
+<a href="./posts/2022-12-06-more-new-businesses-than-ever-/index.html" class="no-external">
 <div class="listing-date">
 Tue Dec 6, 2022
 </div>
 <div class="listing-reading-time">
-3 min
+4 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="communication" data-listing-date-sort="1668729600000" data-listing-file-modified-sort="1671842690448" data-listing-reading-time-sort="1.45">
+<div class="quarto-post image-right" data-index="4" data-categories="communication" data-listing-date-sort="1668729600000" data-listing-file-modified-sort="1702415162963" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="290">
 <div class="thumbnail">
-<p><a href="./posts/2022-11-18-writing-a-tech-resume/index.html"> <img src="./posts/2022-11-18-writing-a-tech-resume/photo.jpeg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-11-18-writing-a-tech-resume/index.html" class="no-external"></a></p><a href="./posts/2022-11-18-writing-a-tech-resume/index.html" class="no-external">
+<p class="card-img-top"><img src="posts/2022-11-18-writing-a-tech-resume/photo.jpeg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022-11-18-writing-a-tech-resume/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-11-18-writing-a-tech-resume/index.html">
 <h3 class="no-anchor listing-title">
-Writing a Tech Resume
+<a href="./posts/2022-11-18-writing-a-tech-resume/index.html" class="no-external">Writing a Tech Resume</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-11-18-writing-a-tech-resume/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('communication'); return false;">
 communication
 </div>
 </div>
-<a href="./posts/2022-11-18-writing-a-tech-resume/index.html">
 <div class="listing-description">
-<p>How to write a resume to get into a FAANG company.</p>
+<a href="./posts/2022-11-18-writing-a-tech-resume/index.html" class="no-external">How to write a resume to get into a FAANG company. </a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2022-11-18-writing-a-tech-resume/index.html" class="no-external">
+<div class="listing-date">
+Fri Nov 18, 2022
+</div>
+<div class="listing-reading-time">
+2 min
 </div>
 </a>
 </div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="communication" data-listing-date-sort="1668729600000" data-listing-file-modified-sort="1702415162963" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="75">
+<div class="thumbnail">
+<p><a href="./posts/2022-11-18-substance-over-style/index.html" class="no-external"></a></p><a href="./posts/2022-11-18-substance-over-style/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2022-11-18-substance-over-style/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2022-11-18-substance-over-style/index.html" class="no-external">Resume Substance over Style</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2022-11-18-substance-over-style/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('communication'); return false;">
+communication
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2022-11-18-substance-over-style/index.html" class="no-external">The content of your resume is more important than the design. </a>
+</div>
+</div>
 <div class="metadata">
-<a href="./posts/2022-11-18-writing-a-tech-resume/index.html">
+<a href="./posts/2022-11-18-substance-over-style/index.html" class="no-external">
 <div class="listing-date">
 Fri Nov 18, 2022
 </div>
@@ -383,93 +461,52 @@ Fri Nov 18, 2022
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="communication" data-listing-date-sort="1668729600000" data-listing-file-modified-sort="1671842690448" data-listing-reading-time-sort="0.375">
+<div class="quarto-post image-right" data-index="6" data-categories="data science" data-listing-date-sort="1668211200000" data-listing-file-modified-sort="1702415162963" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="937">
 <div class="thumbnail">
-<a href="./posts/2022-11-18-substance-over-style/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2022-11-18-substance-over-style/index.html"></a></p>
+<p><a href="./posts/2022-11-12-what-is-a-model/index.html" class="no-external"></a></p><a href="./posts/2022-11-12-what-is-a-model/index.html" class="no-external">
+<p class="card-img-top"><img data-src="posts/2022-11-12-what-is-a-model/photo.jpeg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022-11-12-what-is-a-model/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-11-18-substance-over-style/index.html">
 <h3 class="no-anchor listing-title">
-Resume Substance over Style
+<a href="./posts/2022-11-12-what-is-a-model/index.html" class="no-external">What is a model?</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-11-12-what-is-a-model/index.html" class="no-external"></a>
 </div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('communication'); return false;">
-communication
-</div>
-</div>
-<a href="./posts/2022-11-18-substance-over-style/index.html">
-<div class="listing-description">
-<p>The content of your resume is more important than the design.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/2022-11-18-substance-over-style/index.html">
-<div class="listing-date">
-Fri Nov 18, 2022
-</div>
-<div class="listing-reading-time">
-0 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="data science" data-listing-date-sort="1668211200000" data-listing-file-modified-sort="1671842690448" data-listing-reading-time-sort="4.685">
-<div class="thumbnail">
-<p><a href="./posts/2022-11-12-what-is-a-model/index.html"> <img data-src="./posts/2022-11-12-what-is-a-model/photo.jpeg" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/2022-11-12-what-is-a-model/index.html">
-<h3 class="no-anchor listing-title">
-What is a model?
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('data science'); return false;">
 data science
 </div>
 </div>
-<a href="./posts/2022-11-12-what-is-a-model/index.html">
 <div class="listing-description">
-<p>Putting the mysterious in context.</p>
+<a href="./posts/2022-11-12-what-is-a-model/index.html" class="no-external">Putting the mysterious in context. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-11-12-what-is-a-model/index.html">
+<a href="./posts/2022-11-12-what-is-a-model/index.html" class="no-external">
 <div class="listing-date">
 Sat Nov 12, 2022
 </div>
 <div class="listing-reading-time">
-4 min
+5 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="data science,communication,principles" data-listing-date-sort="1658275200000" data-listing-file-modified-sort="1671842690448" data-listing-reading-time-sort="5.945">
+<div class="quarto-post image-right" data-index="7" data-categories="data science,communication,principles" data-listing-date-sort="1658275200000" data-listing-file-modified-sort="1702415162963" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1189">
 <div class="thumbnail">
-<p><a href="./posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html"> <img data-src="./posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/photo.jpeg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html" class="no-external"></a></p><a href="./posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html" class="no-external">
+<p class="card-img-top"><img data-src="posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/photo.jpeg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html">
 <h3 class="no-anchor listing-title">
-De-sciencing Data Science and Talking Like a Normal Person
+<a href="./posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html" class="no-external">De-sciencing Data Science and Talking Like a Normal Person</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('data science'); return false;">
 data science
@@ -481,36 +518,34 @@ communication
 principles
 </div>
 </div>
-<a href="./posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html">
 <div class="listing-description">
-<p>How can data scientists bring their technical knowledge to a non-technical audience? Here are my lessons learned from seven years in the data trenches.</p>
+<a href="./posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html" class="no-external">How can data scientists bring their technical knowledge to a non-technical audience? Here are my lessons learned from seven years in the data trenches. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html">
+<a href="./posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html" class="no-external">
 <div class="listing-date">
 Wed Jul 20, 2022
 </div>
 <div class="listing-reading-time">
-5 min
+6 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="productivity,futurism,tech,surveillance" data-listing-date-sort="1656806400000" data-listing-file-modified-sort="1671842690444" data-listing-reading-time-sort="3.79">
+<div class="quarto-post image-right" data-index="8" data-categories="productivity,futurism,tech,surveillance" data-listing-date-sort="1656806400000" data-listing-file-modified-sort="1702415162959" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="758">
 <div class="thumbnail">
-<p><a href="./posts/2022-07-03-when-data-collection-goes-too-far/index.html"> <img data-src="./posts/2022-07-03-when-data-collection-goes-too-far/photo.jpeg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-07-03-when-data-collection-goes-too-far/index.html" class="no-external"></a></p><a href="./posts/2022-07-03-when-data-collection-goes-too-far/index.html" class="no-external">
+<p><img data-src="./posts/2022-07-03-when-data-collection-goes-too-far/photo.jpeg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-07-03-when-data-collection-goes-too-far/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-07-03-when-data-collection-goes-too-far/index.html">
 <h3 class="no-anchor listing-title">
-When data collection goes too far
+<a href="./posts/2022-07-03-when-data-collection-goes-too-far/index.html" class="no-external">When data collection goes too far</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-07-03-when-data-collection-goes-too-far/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('productivity'); return false;">
 productivity
@@ -525,36 +560,34 @@ tech
 surveillance
 </div>
 </div>
-<a href="./posts/2022-07-03-when-data-collection-goes-too-far/index.html">
 <div class="listing-description">
-<p>It’s important for us to track certain things about ourselves. But this is clearly not exactly healthy IMO.</p>
+<a href="./posts/2022-07-03-when-data-collection-goes-too-far/index.html" class="no-external">It’s important for us to track certain things about ourselves. But this is clearly not exactly healthy IMO. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-07-03-when-data-collection-goes-too-far/index.html">
+<a href="./posts/2022-07-03-when-data-collection-goes-too-far/index.html" class="no-external">
 <div class="listing-date">
 Sun Jul 3, 2022
 </div>
 <div class="listing-reading-time">
-3 min
+4 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="productivity,ticktick" data-listing-date-sort="1656374400000" data-listing-file-modified-sort="1671842690420" data-listing-reading-time-sort="0.825">
+<div class="quarto-post image-right" data-index="9" data-categories="productivity,ticktick" data-listing-date-sort="1656374400000" data-listing-file-modified-sort="1702415162939" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
 <div class="thumbnail">
-<p><a href="./posts/2022-06-28-pomodoro-principles/index.html"> <img data-src="./posts/2022-06-28-pomodoro-principles/photo.jpeg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-06-28-pomodoro-principles/index.html" class="no-external"></a></p><a href="./posts/2022-06-28-pomodoro-principles/index.html" class="no-external">
+<p class="card-img-top"><img data-src="posts/2022-06-28-pomodoro-principles/photo.jpeg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2022-06-28-pomodoro-principles/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-06-28-pomodoro-principles/index.html">
 <h3 class="no-anchor listing-title">
-Pomodoro Principles
+<a href="./posts/2022-06-28-pomodoro-principles/index.html" class="no-external">Pomodoro Principles</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-06-28-pomodoro-principles/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('productivity'); return false;">
 productivity
@@ -563,40 +596,34 @@ productivity
 ticktick
 </div>
 </div>
-<a href="./posts/2022-06-28-pomodoro-principles/index.html">
 <div class="listing-description">
-<p>The art of focus through 25min work blocks.</p>
+<a href="./posts/2022-06-28-pomodoro-principles/index.html" class="no-external">The art of focus through 25min work blocks. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-06-28-pomodoro-principles/index.html">
+<a href="./posts/2022-06-28-pomodoro-principles/index.html" class="no-external">
 <div class="listing-date">
 Tue Jun 28, 2022
 </div>
 <div class="listing-reading-time">
-0 min
+1 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="productivity,musings,ticktick" data-listing-date-sort="1656374400000" data-listing-file-modified-sort="1671842690420" data-listing-reading-time-sort="2.895">
+<div class="quarto-post image-right" data-index="10" data-categories="productivity,musings,ticktick" data-listing-date-sort="1656374400000" data-listing-file-modified-sort="1702415162939" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="579">
 <div class="thumbnail">
-<a href="./posts/2022-06-28-increase-focus-through-writing-down-everything/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2022-06-28-increase-focus-through-writing-down-everything/index.html"></a></p>
+<p><a href="./posts/2022-06-28-increase-focus-through-writing-down-everything/index.html" class="no-external"></a></p><a href="./posts/2022-06-28-increase-focus-through-writing-down-everything/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2022-06-28-increase-focus-through-writing-down-everything/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-06-28-increase-focus-through-writing-down-everything/index.html">
 <h3 class="no-anchor listing-title">
-Increase Focus through Writing Down Everything
+<a href="./posts/2022-06-28-increase-focus-through-writing-down-everything/index.html" class="no-external">Increase Focus through Writing Down Everything</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-06-28-increase-focus-through-writing-down-everything/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('productivity'); return false;">
 productivity
@@ -608,71 +635,67 @@ musings
 ticktick
 </div>
 </div>
-<a href="./posts/2022-06-28-increase-focus-through-writing-down-everything/index.html">
 <div class="listing-description">
-<p>To be more present, get it all down and into a system.</p>
+<a href="./posts/2022-06-28-increase-focus-through-writing-down-everything/index.html" class="no-external">To be more present, get it all down and into a system. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-06-28-increase-focus-through-writing-down-everything/index.html">
+<a href="./posts/2022-06-28-increase-focus-through-writing-down-everything/index.html" class="no-external">
 <div class="listing-date">
 Tue Jun 28, 2022
 </div>
 <div class="listing-reading-time">
-2 min
+3 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="productivity" data-listing-date-sort="1656115200000" data-listing-file-modified-sort="1671842690420" data-listing-reading-time-sort="6.325">
+<div class="quarto-post image-right" data-index="11" data-categories="productivity" data-listing-date-sort="1656115200000" data-listing-file-modified-sort="1702415162939" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1265">
 <div class="thumbnail">
-<p><a href="./posts/2022-06-25-how-i-use-ticktick/index.html"> <img data-src="./posts/2022-06-25-how-i-use-ticktick/photo.jpeg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-06-25-how-i-use-ticktick/index.html" class="no-external"></a></p><a href="./posts/2022-06-25-how-i-use-ticktick/index.html" class="no-external">
+<p><img data-src="./posts/2022-06-25-how-i-use-ticktick/photo.jpeg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-06-25-how-i-use-ticktick/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-06-25-how-i-use-ticktick/index.html">
 <h3 class="no-anchor listing-title">
-How I use TickTick
+<a href="./posts/2022-06-25-how-i-use-ticktick/index.html" class="no-external">How I use TickTick</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-06-25-how-i-use-ticktick/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('productivity'); return false;">
 productivity
 </div>
 </div>
-<a href="./posts/2022-06-25-how-i-use-ticktick/index.html">
 <div class="listing-description">
-<p>An overview of how I apply the principles of “Getting Things Done”, or GTD.</p>
+<a href="./posts/2022-06-25-how-i-use-ticktick/index.html" class="no-external">An overview of how I apply the principles of “Getting Things Done”, or GTD. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-06-25-how-i-use-ticktick/index.html">
+<a href="./posts/2022-06-25-how-i-use-ticktick/index.html" class="no-external">
 <div class="listing-date">
 Sat Jun 25, 2022
 </div>
 <div class="listing-reading-time">
-6 min
+7 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="book review,productivity" data-listing-date-sort="1656028800000" data-listing-file-modified-sort="1671842690200" data-listing-reading-time-sort="5.295">
+<div class="quarto-post image-right" data-index="12" data-categories="book review,productivity" data-listing-date-sort="1656028800000" data-listing-file-modified-sort="1702415162763" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1059">
 <div class="thumbnail">
-<p><a href="./book-reviews/2022-06-24-getting-things-done/index.html"> <img data-src="./book-reviews/2022-06-24-getting-things-done/photo.jpeg" class="thumnail-image"> </a></p>
+<p><a href="./book-reviews/2022-06-24-getting-things-done/index.html" class="no-external"></a></p><a href="./book-reviews/2022-06-24-getting-things-done/index.html" class="no-external">
+<p><img data-src="./book-reviews/2022-06-24-getting-things-done/photo.jpeg" class="thumbnail-image"></p>
+</a><p><a href="./book-reviews/2022-06-24-getting-things-done/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./book-reviews/2022-06-24-getting-things-done/index.html">
 <h3 class="no-anchor listing-title">
-Getting Things Done
+<a href="./book-reviews/2022-06-24-getting-things-done/index.html" class="no-external">Getting Things Done</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./book-reviews/2022-06-24-getting-things-done/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('book review'); return false;">
 book review
@@ -681,36 +704,34 @@ book review
 productivity
 </div>
 </div>
-<a href="./book-reviews/2022-06-24-getting-things-done/index.html">
 <div class="listing-description">
-<p>A powerful system to be more present.</p>
+<a href="./book-reviews/2022-06-24-getting-things-done/index.html" class="no-external">A powerful system to be more present. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./book-reviews/2022-06-24-getting-things-done/index.html">
+<a href="./book-reviews/2022-06-24-getting-things-done/index.html" class="no-external">
 <div class="listing-date">
 Fri Jun 24, 2022
 </div>
 <div class="listing-reading-time">
-5 min
+6 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="productivity,app review" data-listing-date-sort="1655942400000" data-listing-file-modified-sort="1671842690400" data-listing-reading-time-sort="10.615">
+<div class="quarto-post image-right" data-index="13" data-categories="productivity,app review" data-listing-date-sort="1655942400000" data-listing-file-modified-sort="1702415162927" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2123">
 <div class="thumbnail">
-<p><a href="./posts/2022-06-23-the-best-todolist-manager/index.html"> <img data-src="./posts/2022-06-23-the-best-todolist-manager/app.jpeg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-06-23-the-best-todolist-manager/index.html" class="no-external"></a></p><a href="./posts/2022-06-23-the-best-todolist-manager/index.html" class="no-external">
+<p><img data-src="./posts/2022-06-23-the-best-todolist-manager/app.jpeg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-06-23-the-best-todolist-manager/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-06-23-the-best-todolist-manager/index.html">
 <h3 class="no-anchor listing-title">
-What is the best todo list manager?
+<a href="./posts/2022-06-23-the-best-todolist-manager/index.html" class="no-external">What is the best todo list manager?</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-06-23-the-best-todolist-manager/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('productivity'); return false;">
 productivity
@@ -719,40 +740,34 @@ productivity
 app review
 </div>
 </div>
-<a href="./posts/2022-06-23-the-best-todolist-manager/index.html">
 <div class="listing-description">
-<p>I’ve reviewed 20+ apps. I think I’m done reviewing them.</p>
+<a href="./posts/2022-06-23-the-best-todolist-manager/index.html" class="no-external">I’ve reviewed 20+ apps. I think I’m done reviewing them. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-06-23-the-best-todolist-manager/index.html">
+<a href="./posts/2022-06-23-the-best-todolist-manager/index.html" class="no-external">
 <div class="listing-date">
 Thu Jun 23, 2022
 </div>
 <div class="listing-reading-time">
-10 min
+11 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="productivity,priorities,ideation" data-listing-date-sort="1655942400000" data-listing-file-modified-sort="1671842690396" data-listing-reading-time-sort="1.215">
+<div class="quarto-post image-right" data-index="14" data-categories="productivity,priorities,ideation" data-listing-date-sort="1655942400000" data-listing-file-modified-sort="1702415162923" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="243">
 <div class="thumbnail">
-<a href="./posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html"></a></p>
+<p><a href="./posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html" class="no-external"></a></p><a href="./posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html">
 <h3 class="no-anchor listing-title">
-New ideas are distractingly exciting
+<a href="./posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html" class="no-external">New ideas are distractingly exciting</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('productivity'); return false;">
 productivity
@@ -764,36 +779,34 @@ priorities
 ideation
 </div>
 </div>
-<a href="./posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html">
 <div class="listing-description">
-<p>Be careful of recency bias with your ideas.</p>
+<a href="./posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html" class="no-external">Be careful of recency bias with your ideas. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html">
+<a href="./posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html" class="no-external">
 <div class="listing-date">
 Thu Jun 23, 2022
 </div>
 <div class="listing-reading-time">
-1 min
+2 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="data science,experimentation" data-listing-date-sort="1655856000000" data-listing-file-modified-sort="1671842690388" data-listing-reading-time-sort="1.045">
+<div class="quarto-post image-right" data-index="15" data-categories="data science,experimentation" data-listing-date-sort="1655856000000" data-listing-file-modified-sort="1702415162915" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
 <div class="thumbnail">
-<p><a href="./posts/2022-06-22-downstream-impact/index.html"> <img data-src="./posts/2022-06-22-downstream-impact/photo.jpeg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-06-22-downstream-impact/index.html" class="no-external"></a></p><a href="./posts/2022-06-22-downstream-impact/index.html" class="no-external">
+<p><img data-src="./posts/2022-06-22-downstream-impact/photo.jpeg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-06-22-downstream-impact/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-06-22-downstream-impact/index.html">
 <h3 class="no-anchor listing-title">
-Downstream Impact
+<a href="./posts/2022-06-22-downstream-impact/index.html" class="no-external">Downstream Impact</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-06-22-downstream-impact/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('data science'); return false;">
 data science
@@ -802,36 +815,34 @@ data science
 experimentation
 </div>
 </div>
-<a href="./posts/2022-06-22-downstream-impact/index.html">
 <div class="listing-description">
-<p>When you do an online experiment, you’re changing the future forever.</p>
+<a href="./posts/2022-06-22-downstream-impact/index.html" class="no-external">When you do an online experiment, you’re changing the future forever. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-06-22-downstream-impact/index.html">
+<a href="./posts/2022-06-22-downstream-impact/index.html" class="no-external">
 <div class="listing-date">
 Wed Jun 22, 2022
 </div>
 <div class="listing-reading-time">
-1 min
+2 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="startups,strategy" data-listing-date-sort="1655769600000" data-listing-file-modified-sort="1671842690388" data-listing-reading-time-sort="1.665">
+<div class="quarto-post image-right" data-index="16" data-categories="startups,strategy" data-listing-date-sort="1655769600000" data-listing-file-modified-sort="1702415162915" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="333">
 <div class="thumbnail">
-<p><a href="./posts/2022-06-21-the-power-of-party-pay-by-visible/index.html"> <img data-src="./posts/2022-06-21-the-power-of-party-pay-by-visible/photo.jpeg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-06-21-the-power-of-party-pay-by-visible/index.html" class="no-external"></a></p><a href="./posts/2022-06-21-the-power-of-party-pay-by-visible/index.html" class="no-external">
+<p><img data-src="./posts/2022-06-21-the-power-of-party-pay-by-visible/photo.jpeg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-06-21-the-power-of-party-pay-by-visible/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-06-21-the-power-of-party-pay-by-visible/index.html">
 <h3 class="no-anchor listing-title">
-The Power of Party Pay by Visible
+<a href="./posts/2022-06-21-the-power-of-party-pay-by-visible/index.html" class="no-external">The Power of Party Pay by Visible</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-06-21-the-power-of-party-pay-by-visible/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('startups'); return false;">
 startups
@@ -840,36 +851,34 @@ startups
 strategy
 </div>
 </div>
-<a href="./posts/2022-06-21-the-power-of-party-pay-by-visible/index.html">
 <div class="listing-description">
-<p>Visible wireless, owned by Verizon, offers users $25 off per month if they join a meaningless party. What’s the effect?</p>
+<a href="./posts/2022-06-21-the-power-of-party-pay-by-visible/index.html" class="no-external">Visible wireless, owned by Verizon, offers users $25 off per month if they join a meaningless party. What’s the effect? </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-06-21-the-power-of-party-pay-by-visible/index.html">
+<a href="./posts/2022-06-21-the-power-of-party-pay-by-visible/index.html" class="no-external">
 <div class="listing-date">
 Tue Jun 21, 2022
 </div>
 <div class="listing-reading-time">
-1 min
+2 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="productivity,fatherhood" data-listing-date-sort="1655769600000" data-listing-file-modified-sort="1671842690384" data-listing-reading-time-sort="5.955">
+<div class="quarto-post image-right" data-index="17" data-categories="productivity,fatherhood" data-listing-date-sort="1655769600000" data-listing-file-modified-sort="1702415162911" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1191">
 <div class="thumbnail">
-<p><a href="./posts/2022-06-21-products-for-dads/index.html"> <img data-src="./posts/2022-06-21-products-for-dads/photo.jpeg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-06-21-products-for-dads/index.html" class="no-external"></a></p><a href="./posts/2022-06-21-products-for-dads/index.html" class="no-external">
+<p><img data-src="./posts/2022-06-21-products-for-dads/photo.jpeg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-06-21-products-for-dads/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-06-21-products-for-dads/index.html">
 <h3 class="no-anchor listing-title">
-Products for dads
+<a href="./posts/2022-06-21-products-for-dads/index.html" class="no-external">Products for dads</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-06-21-products-for-dads/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('productivity'); return false;">
 productivity
@@ -878,71 +887,67 @@ productivity
 fatherhood
 </div>
 </div>
-<a href="./posts/2022-06-21-products-for-dads/index.html">
 <div class="listing-description">
-<p>What products am I still using 5 years later?</p>
+<a href="./posts/2022-06-21-products-for-dads/index.html" class="no-external">What products am I still using 5 years later? </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-06-21-products-for-dads/index.html">
+<a href="./posts/2022-06-21-products-for-dads/index.html" class="no-external">
 <div class="listing-date">
 Tue Jun 21, 2022
 </div>
 <div class="listing-reading-time">
-5 min
+6 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="data science" data-listing-date-sort="1655683200000" data-listing-file-modified-sort="1671842690380" data-listing-reading-time-sort="3.545">
+<div class="quarto-post image-right" data-index="18" data-categories="data science" data-listing-date-sort="1655683200000" data-listing-file-modified-sort="1702415162907" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="709">
 <div class="thumbnail">
-<p><a href="./posts/2022-06-20-blogging-with-quarto/index.html"> <img data-src="./posts/2022-06-20-blogging-with-quarto/photo.jpeg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2022-06-20-blogging-with-quarto/index.html" class="no-external"></a></p><a href="./posts/2022-06-20-blogging-with-quarto/index.html" class="no-external">
+<p><img data-src="./posts/2022-06-20-blogging-with-quarto/photo.jpeg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2022-06-20-blogging-with-quarto/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2022-06-20-blogging-with-quarto/index.html">
 <h3 class="no-anchor listing-title">
-Blogging with Quarto, and why I don’t use Medium anymore
+<a href="./posts/2022-06-20-blogging-with-quarto/index.html" class="no-external">Blogging with Quarto, and why I don’t use Medium anymore</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2022-06-20-blogging-with-quarto/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('data science'); return false;">
 data science
 </div>
 </div>
-<a href="./posts/2022-06-20-blogging-with-quarto/index.html">
 <div class="listing-description">
-<p>I’m trying out quarto and I like it.</p>
+<a href="./posts/2022-06-20-blogging-with-quarto/index.html" class="no-external">I’m trying out quarto and I like it. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2022-06-20-blogging-with-quarto/index.html">
+<a href="./posts/2022-06-20-blogging-with-quarto/index.html" class="no-external">
 <div class="listing-date">
 Mon Jun 20, 2022
 </div>
 <div class="listing-reading-time">
-3 min
+4 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="communication,writing" data-listing-date-sort="1626480000000" data-listing-file-modified-sort="1671842690380" data-listing-reading-time-sort="1.495">
+<div class="quarto-post image-right" data-index="19" data-categories="communication,writing" data-listing-date-sort="1626480000000" data-listing-file-modified-sort="1702415162907" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="299">
 <div class="thumbnail">
-<p><a href="./posts/2021-07-17-authors-angle-matters/index.html"> <img data-src="./posts/2021-07-17-authors-angle-matters/image.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2021-07-17-authors-angle-matters/index.html" class="no-external"></a></p><a href="./posts/2021-07-17-authors-angle-matters/index.html" class="no-external">
+<p><img data-src="./posts/2021-07-17-authors-angle-matters/image.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2021-07-17-authors-angle-matters/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2021-07-17-authors-angle-matters/index.html">
 <h3 class="no-anchor listing-title">
-The Author’s Angle Matters
+<a href="./posts/2021-07-17-authors-angle-matters/index.html" class="no-external">The Author’s Angle Matters</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2021-07-17-authors-angle-matters/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('communication'); return false;">
 communication
@@ -951,36 +956,34 @@ communication
 writing
 </div>
 </div>
-<a href="./posts/2021-07-17-authors-angle-matters/index.html">
 <div class="listing-description">
-Imagine the following story:
+<a href="./posts/2021-07-17-authors-angle-matters/index.html" class="no-external">Imagine the following story:</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2021-07-17-authors-angle-matters/index.html">
+<a href="./posts/2021-07-17-authors-angle-matters/index.html" class="no-external">
 <div class="listing-date">
 Sat Jul 17, 2021
 </div>
 <div class="listing-reading-time">
-1 min
+2 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="data science,productivity" data-listing-date-sort="1608336000000" data-listing-file-modified-sort="1671842690380" data-listing-reading-time-sort="0.28">
+<div class="quarto-post image-right" data-index="20" data-categories="data science,productivity" data-listing-date-sort="1608336000000" data-listing-file-modified-sort="1702415162907" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="56">
 <div class="thumbnail">
-<p><a href="./posts/2020-12-18-productivity-notes/index.html"> <img data-src="./posts/2020-12-18-productivity-notes/image.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2020-12-18-productivity-notes/index.html" class="no-external"></a></p><a href="./posts/2020-12-18-productivity-notes/index.html" class="no-external">
+<p><img data-src="./posts/2020-12-18-productivity-notes/image.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2020-12-18-productivity-notes/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2020-12-18-productivity-notes/index.html">
 <h3 class="no-anchor listing-title">
-Productivity notes
+<a href="./posts/2020-12-18-productivity-notes/index.html" class="no-external">Productivity notes</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2020-12-18-productivity-notes/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('data science'); return false;">
 data science
@@ -989,36 +992,34 @@ data science
 productivity
 </div>
 </div>
-<a href="./posts/2020-12-18-productivity-notes/index.html">
 <div class="listing-description">
-<p>Running list of productivity ideas.</p>
+<a href="./posts/2020-12-18-productivity-notes/index.html" class="no-external">Running list of productivity ideas. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2020-12-18-productivity-notes/index.html">
+<a href="./posts/2020-12-18-productivity-notes/index.html" class="no-external">
 <div class="listing-date">
 Sat Dec 19, 2020
 </div>
 <div class="listing-reading-time">
-0 min
+1 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="data science,innovation" data-listing-date-sort="1608076800000" data-listing-file-modified-sort="1671842690380" data-listing-reading-time-sort="0.58">
+<div class="quarto-post image-right" data-index="21" data-categories="data science,innovation" data-listing-date-sort="1608076800000" data-listing-file-modified-sort="1702415162907" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="116">
 <div class="thumbnail">
-<p><a href="./posts/2020-12-16-pretotyping-ml-solutions/index.html"> <img data-src="./posts/2020-12-16-pretotyping-ml-solutions/image.jpg" class="thumnail-image"> </a></p>
+<p><a href="./posts/2020-12-16-pretotyping-ml-solutions/index.html" class="no-external"></a></p><a href="./posts/2020-12-16-pretotyping-ml-solutions/index.html" class="no-external">
+<p><img data-src="./posts/2020-12-16-pretotyping-ml-solutions/image.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2020-12-16-pretotyping-ml-solutions/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2020-12-16-pretotyping-ml-solutions/index.html">
 <h3 class="no-anchor listing-title">
-How to mock the value of an ML solution
+<a href="./posts/2020-12-16-pretotyping-ml-solutions/index.html" class="no-external">How to mock the value of an ML solution</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2020-12-16-pretotyping-ml-solutions/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('data science'); return false;">
 data science
@@ -1027,87 +1028,45 @@ data science
 innovation
 </div>
 </div>
-<a href="./posts/2020-12-16-pretotyping-ml-solutions/index.html">
 <div class="listing-description">
-<p>Sell your solution before training your model.</p>
+<a href="./posts/2020-12-16-pretotyping-ml-solutions/index.html" class="no-external">Sell your solution before training your model. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2020-12-16-pretotyping-ml-solutions/index.html">
+<a href="./posts/2020-12-16-pretotyping-ml-solutions/index.html" class="no-external">
 <div class="listing-date">
 Wed Dec 16, 2020
 </div>
 <div class="listing-reading-time">
-0 min
+1 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="productivity" data-listing-date-sort="1607990400000" data-listing-file-modified-sort="1671842690380" data-listing-reading-time-sort="0.32">
+<div class="quarto-post image-right" data-index="22" data-categories="productivity" data-listing-date-sort="1607990400000" data-listing-file-modified-sort="1702415162907" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="64">
 <div class="thumbnail">
-<p><a href="./posts/2020-12-15-calendaring-todos/index.html"> <img data-src="./posts/2020-12-15-calendaring-todos/image.png" class="thumnail-image"> </a></p>
+<p><a href="./posts/2020-12-15-calendaring-todos/index.html" class="no-external"></a></p><a href="./posts/2020-12-15-calendaring-todos/index.html" class="no-external">
+<p><img data-src="./posts/2020-12-15-calendaring-todos/image.png" class="thumbnail-image"></p>
+</a><p><a href="./posts/2020-12-15-calendaring-todos/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2020-12-15-calendaring-todos/index.html">
 <h3 class="no-anchor listing-title">
-Get rid of the todo list. Calendar everything.
+<a href="./posts/2020-12-15-calendaring-todos/index.html" class="no-external">Get rid of the todo list. Calendar everything.</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2020-12-15-calendaring-todos/index.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('productivity'); return false;">
 productivity
 </div>
 </div>
-<a href="./posts/2020-12-15-calendaring-todos/index.html">
 <div class="listing-description">
-<p>If you’re not willing to block time for it, does it event matter?</p>
+<a href="./posts/2020-12-15-calendaring-todos/index.html" class="no-external">If you’re not willing to block time for it, does it event matter? </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2020-12-15-calendaring-todos/index.html">
-<div class="listing-date">
-Tue Dec 15, 2020
-</div>
-<div class="listing-reading-time">
-0 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="22" data-categories="data science,decisions" data-listing-date-sort="1607990400000" data-listing-file-modified-sort="1671842690380" data-listing-reading-time-sort="1.045">
-<div class="thumbnail">
-<p><a href="./posts/2020-12-15-data-beats-opinions/index.html"> <img data-src="./posts/2020-12-15-data-beats-opinions/image.jpg" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/2020-12-15-data-beats-opinions/index.html">
-<h3 class="no-anchor listing-title">
-Data Beats Opinions
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('data science'); return false;">
-data science
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('decisions'); return false;">
-decisions
-</div>
-</div>
-<a href="./posts/2020-12-15-data-beats-opinions/index.html">
-<div class="listing-description">
-<p>Opinions from the customer shape the product. Their behavior (captured as data) speaks louder than their words.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/2020-12-15-data-beats-opinions/index.html">
+<a href="./posts/2020-12-15-calendaring-todos/index.html" class="no-external">
 <div class="listing-date">
 Tue Dec 15, 2020
 </div>
@@ -1117,23 +1076,55 @@ Tue Dec 15, 2020
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="23" data-categories="data science,machine learning" data-listing-date-sort="1530489600000" data-listing-file-modified-sort="1671842690376" data-listing-reading-time-sort="4.58">
+<div class="quarto-post image-right" data-index="23" data-categories="data science,decisions" data-listing-date-sort="1607990400000" data-listing-file-modified-sort="1702415162907" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
 <div class="thumbnail">
-<a href="./posts/2018-07-02-semantic-versioning-for-data-science-models/semantic-versioning-for-data-science-models.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2018-07-02-semantic-versioning-for-data-science-models/semantic-versioning-for-data-science-models.html"></a></p>
+<p><a href="./posts/2020-12-15-data-beats-opinions/index.html" class="no-external"></a></p><a href="./posts/2020-12-15-data-beats-opinions/index.html" class="no-external">
+<p><img data-src="./posts/2020-12-15-data-beats-opinions/image.jpg" class="thumbnail-image"></p>
+</a><p><a href="./posts/2020-12-15-data-beats-opinions/index.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2018-07-02-semantic-versioning-for-data-science-models/semantic-versioning-for-data-science-models.html">
 <h3 class="no-anchor listing-title">
-Semantic Versioning for Data Science Models
+<a href="./posts/2020-12-15-data-beats-opinions/index.html" class="no-external">Data Beats Opinions</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2020-12-15-data-beats-opinions/index.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data science'); return false;">
+data science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('decisions'); return false;">
+decisions
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/2020-12-15-data-beats-opinions/index.html" class="no-external">Opinions from the customer shape the product. Their behavior (captured as data) speaks louder than their words. </a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/2020-12-15-data-beats-opinions/index.html" class="no-external">
+<div class="listing-date">
+Tue Dec 15, 2020
+</div>
+<div class="listing-reading-time">
+2 min
 </div>
 </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="24" data-categories="data science,machine learning" data-listing-date-sort="1530489600000" data-listing-file-modified-sort="1702415162903" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="916">
+<div class="thumbnail">
+<p><a href="./posts/2018-07-02-semantic-versioning-for-data-science-models/semantic-versioning-for-data-science-models.html" class="no-external"></a></p><a href="./posts/2018-07-02-semantic-versioning-for-data-science-models/semantic-versioning-for-data-science-models.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2018-07-02-semantic-versioning-for-data-science-models/semantic-versioning-for-data-science-models.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/2018-07-02-semantic-versioning-for-data-science-models/semantic-versioning-for-data-science-models.html" class="no-external">Semantic Versioning for Data Science Models</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/2018-07-02-semantic-versioning-for-data-science-models/semantic-versioning-for-data-science-models.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('data science'); return false;">
 data science
@@ -1142,40 +1133,34 @@ data science
 machine learning
 </div>
 </div>
-<a href="./posts/2018-07-02-semantic-versioning-for-data-science-models/semantic-versioning-for-data-science-models.html">
 <div class="listing-description">
-<p>Meaningful versioning for data science models and machine learning pipelines.</p>
+<a href="./posts/2018-07-02-semantic-versioning-for-data-science-models/semantic-versioning-for-data-science-models.html" class="no-external">Meaningful versioning for data science models and machine learning pipelines. </a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2018-07-02-semantic-versioning-for-data-science-models/semantic-versioning-for-data-science-models.html">
+<a href="./posts/2018-07-02-semantic-versioning-for-data-science-models/semantic-versioning-for-data-science-models.html" class="no-external">
 <div class="listing-date">
 Mon Jul 2, 2018
 </div>
 <div class="listing-reading-time">
-4 min
+5 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="24" data-categories="webscraping,r,regression,analysis,pricing,buying things" data-listing-date-sort="1487462400000" data-listing-file-modified-sort="1671842690372" data-listing-reading-time-sort="13.37">
+<div class="quarto-post image-right" data-index="25" data-categories="webscraping,r,regression,analysis,pricing,buying things" data-listing-date-sort="1487462400000" data-listing-file-modified-sort="1702415162899" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2674">
 <div class="thumbnail">
-<a href="./posts/2017-10-19-used-cars-analysis/used-cars.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2017-10-19-used-cars-analysis/used-cars.html"></a></p>
+<p><a href="./posts/2017-10-19-used-cars-analysis/used-cars.html" class="no-external"></a></p><a href="./posts/2017-10-19-used-cars-analysis/used-cars.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2017-10-19-used-cars-analysis/used-cars.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2017-10-19-used-cars-analysis/used-cars.html">
 <h3 class="no-anchor listing-title">
-Buying a used car the data science way: Part 2
+<a href="./posts/2017-10-19-used-cars-analysis/used-cars.html" class="no-external">Buying a used car the data science way: Part 2</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2017-10-19-used-cars-analysis/used-cars.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('webscraping'); return false;">
 webscraping
@@ -1196,40 +1181,34 @@ pricing
 buying things
 </div>
 </div>
-<a href="./posts/2017-10-19-used-cars-analysis/used-cars.html">
 <div class="listing-description">
-<p>How I analyze used car data to find under-valued cars, and why none of my analysis matters.</p>
+<a href="./posts/2017-10-19-used-cars-analysis/used-cars.html" class="no-external">How I analyze used car data to find under-valued cars, and why none of my analysis matters.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2017-10-19-used-cars-analysis/used-cars.html">
+<a href="./posts/2017-10-19-used-cars-analysis/used-cars.html" class="no-external">
 <div class="listing-date">
 Sun Feb 19, 2017
 </div>
 <div class="listing-reading-time">
-13 min
+14 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="25" data-categories="webscraping,cars,pricing,r" data-listing-date-sort="1487376000000" data-listing-file-modified-sort="1671842690372" data-listing-reading-time-sort="3.905">
+<div class="quarto-post image-right" data-index="26" data-categories="webscraping,cars,pricing,r" data-listing-date-sort="1487376000000" data-listing-file-modified-sort="1702415162899" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="781">
 <div class="thumbnail">
-<a href="./posts/2017-10-18-used-cars-scrape/used-cars-scrape.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2017-10-18-used-cars-scrape/used-cars-scrape.html"></a></p>
+<p><a href="./posts/2017-10-18-used-cars-scrape/used-cars-scrape.html" class="no-external"></a></p><a href="./posts/2017-10-18-used-cars-scrape/used-cars-scrape.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2017-10-18-used-cars-scrape/used-cars-scrape.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2017-10-18-used-cars-scrape/used-cars-scrape.html">
 <h3 class="no-anchor listing-title">
-Buying a used car the data science way: Part 1
+<a href="./posts/2017-10-18-used-cars-scrape/used-cars-scrape.html" class="no-external">Buying a used car the data science way: Part 1</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2017-10-18-used-cars-scrape/used-cars-scrape.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('webscraping'); return false;">
 webscraping
@@ -1244,40 +1223,34 @@ pricing
 r
 </div>
 </div>
-<a href="./posts/2017-10-18-used-cars-scrape/used-cars-scrape.html">
 <div class="listing-description">
-<p>How I scrape used car data.</p>
+<a href="./posts/2017-10-18-used-cars-scrape/used-cars-scrape.html" class="no-external">How I scrape used car data.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2017-10-18-used-cars-scrape/used-cars-scrape.html">
+<a href="./posts/2017-10-18-used-cars-scrape/used-cars-scrape.html" class="no-external">
 <div class="listing-date">
 Sat Feb 18, 2017
 </div>
 <div class="listing-reading-time">
-3 min
+4 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="26" data-categories="dataviz,r,ggplot,plotly" data-listing-date-sort="1486684800000" data-listing-file-modified-sort="1671842690348" data-listing-reading-time-sort="6.075">
+<div class="quarto-post image-right" data-index="27" data-categories="dataviz,r,ggplot,plotly" data-listing-date-sort="1486684800000" data-listing-file-modified-sort="1702415162883" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1215">
 <div class="thumbnail">
-<a href="./posts/2017-02-10-ggplot-plotly/ggplot-plotly.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2017-02-10-ggplot-plotly/ggplot-plotly.html"></a></p>
+<p><a href="./posts/2017-02-10-ggplot-plotly/ggplot-plotly.html" class="no-external"></a></p><a href="./posts/2017-02-10-ggplot-plotly/ggplot-plotly.html" class="no-external">
+<p class="card-img-top"><img data-src="posts/2017-02-10-ggplot-plotly/ggplot-plotly_files/figure-html/unnamed-chunk-4-1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/2017-02-10-ggplot-plotly/ggplot-plotly.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2017-02-10-ggplot-plotly/ggplot-plotly.html">
 <h3 class="no-anchor listing-title">
-The DataViz battle: Plotly vs ggplot2
+<a href="./posts/2017-02-10-ggplot-plotly/ggplot-plotly.html" class="no-external">The DataViz battle: Plotly vs ggplot2</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2017-02-10-ggplot-plotly/ggplot-plotly.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('dataviz'); return false;">
 dataviz
@@ -1292,40 +1265,34 @@ ggplot
 plotly
 </div>
 </div>
-<a href="./posts/2017-02-10-ggplot-plotly/ggplot-plotly.html">
 <div class="listing-description">
-<p>What can you do with plotly vs.&nbsp;ggplot2 and how do they compare on a simple chart?</p>
+<a href="./posts/2017-02-10-ggplot-plotly/ggplot-plotly.html" class="no-external">What can you do with plotly vs.&nbsp;ggplot2 and how do they compare on a simple chart?</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2017-02-10-ggplot-plotly/ggplot-plotly.html">
+<a href="./posts/2017-02-10-ggplot-plotly/ggplot-plotly.html" class="no-external">
 <div class="listing-date">
 Fri Feb 10, 2017
 </div>
 <div class="listing-reading-time">
-6 min
+7 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="27" data-categories="productivity,blogging,jekyll" data-listing-date-sort="1479340800000" data-listing-file-modified-sort="1671842690348" data-listing-reading-time-sort="4.16">
+<div class="quarto-post image-right" data-index="28" data-categories="productivity,blogging,jekyll" data-listing-date-sort="1479340800000" data-listing-file-modified-sort="1702415162883" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="832">
 <div class="thumbnail">
-<a href="./posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html"></a></p>
+<p><a href="./posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html" class="no-external"></a></p><a href="./posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html">
 <h3 class="no-anchor listing-title">
-Starting with Jekyll
+<a href="./posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html" class="no-external">Starting with Jekyll</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('productivity'); return false;">
 productivity
@@ -1337,19 +1304,17 @@ blogging
 jekyll
 </div>
 </div>
-<a href="./posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html">
 <div class="listing-description">
-<p>Hello world.</p>
+<a href="./posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html" class="no-external">Hello world.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html">
+<a href="./posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html" class="no-external">
 <div class="listing-date">
 Thu Nov 17, 2016
 </div>
 <div class="listing-reading-time">
-4 min
+5 min
 </div>
 </a>
 </div>
@@ -1389,9 +1354,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -1427,10 +1406,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1440,8 +1418,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1456,6 +1443,248 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        typesetMath(container);
+        return container.innerHTML
+      } else {
+        typesetMath(note);
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      typesetMath(note);
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -1498,7 +1727,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Copyright 2022, Bryan Whiting</div>   
+    <div class="nav-footer-left">
+<p>Copyright 2022, Bryan Whiting</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
@@ -1529,6 +1763,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
 
 
 

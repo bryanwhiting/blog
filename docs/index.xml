@@ -6,16 +6,108 @@
       version="2.0">
 <channel>
 <title>Bryan Whiting</title>
-<link>https://www.bryanwhiting.com/index.html</link>
+<link>https://www.bryanwhiting.com/</link>
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.2.280</generator>
-<lastBuildDate>Fri, 23 Dec 2022 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.4.515</generator>
+<lastBuildDate>Tue, 12 Dec 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Future of Coding</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2023-12-12-future-of-coding/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><img src="https://www.bryanwhiting.com/posts/2023-12-12-future-of-coding/photo.jpeg" class="img-fluid"></p>
+<section id="the-essence" class="level1">
+<h1>The Essence</h1>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+TL;DR: The future belongs to those whom it’s always belonged
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<p>A blogger data scientist Santiago recently said on Twitter, (paraphrasing) “I’m going to focus on what won’t change”. He was worried about how coding and AI will be automated, but Jeff Bezos wasn’t worried about so much of the world changing with the Internet. Bezos focused on what wasn’t changing.</p>
+<p>This thought hit me, because I think it’s relevant to what our future looks like in 18 months.</p>
+</section>
+<section id="every-day-a-new-winner" class="level1">
+<h1>Every day, a new winner</h1>
+<p>Nothings more apparent that the world is going to be wildly different than the past than to hop on X and see new academics one upping themselves with the next greatest LLM. Mistral just announced a 2Bn valuation as a 6 month old company. Fast is the new pace. And it’s oddly the case that big businesses are capable of massive disruption from upstarts. They can’t afford to stay glacial much longer (5-10 years).</p>
+<p>With all of this, what about this blog post won’t change? Well, the timeless principle is that the nature of the game has changed permanently. Pandora’s box was opened.</p>
+</section>
+<section id="the-rise-of-a-new-equalizer" class="level1">
+<h1>The rise of a new equalizer</h1>
+<p>Go into a poor part of town and you’re guaranteed to see one thing: poor people using smart phones.</p>
+<p>They have access to all the same information that the rich people have. The same excellent software. Same excellent hardware. All for a fee of $50/mo for the hardware and $25/mo for an unlimited data plan.</p>
+<p>So that out the rich and the poor on the same level.</p>
+<p>Well now, knowledge and reasoning is as accessible as Google Maps. You don’t have to pay $20/mo for ChatGPT plus. You can use Bing, Claude.ai, bard.google.com, You.com, or perplexity.ai for free. Now.</p>
+<p>Sure people hate on bard and want to use the latest and greatest. But even the crappiest of the four I mentioned above (granted Bing/You.com use GPT in the background), is still leaps ahead of where we were just a year ago. If we were stuck only using one of these tools forever we’d still be massively more productive than not.</p>
+<p>So knowledge and intellectual reasoning is going to be commonplace amongst the plebes.</p>
+<blockquote class="“twitter-tweet” blockquote">
+<p lang="“en”" dir="“ltr”">
+if you value intelligence above all other human qualities, you’re gonna have a bad time
+</p>
+— Ilya Sutskever (<span class="citation" data-cites="ilyasut">@ilyasut</span>) <a href="“https://twitter.com/ilyasut/status/1710462485411561808?ref_src=twsrc^tfw”">October 7, 2023</a>
+</blockquote>
+<script async="" src="“https://platform.twitter.com/widgets.js”" charset="“utf-8”"></script>
+</section>
+<section id="more-of-the-same" class="level1">
+<h1>More of the same</h1>
+<p>So…what’s going to happen? Well, I’m not sure human nature will change much.</p>
+<p>They say “being rich doesn’t make you happier. It just makes you more of what you already were before being rich”.</p>
+<p>And so, the mentally poor will remain so. They’ll use AI for entertainment. Better video games. Better, faster content. More consumption.</p>
+<p>The creatives will be more creative. Nobody will be at a barrier of being silo’d.&nbsp;So what if you’ve only done data science for 10 years. You know coding. It’s easy to now do web design. Or copy writing. Or art. Or…</p>
+<p>And I won’t be able to stop the masses from using Code Interpreter to do data science. The systems will only become more powerful, so cloud companies will make it easier to write sql or whatever. Heck, 5-10 years English will be the only programming language. (Who here does firmware/bit mapping anymore? Only a select few.)</p>
+<blockquote class="“twitter-tweet” blockquote">
+<p lang="“en”" dir="“ltr”">
+The hottest new programming language is English
+</p>
+— Andrej Karpathy (<span class="citation" data-cites="karpathy">@karpathy</span>) <a href="“https://twitter.com/karpathy/status/1617979122625712128?ref_src=twsrc^tfw”">January 24, 2023</a>
+</blockquote>
+<script async="" src="“https://platform.twitter.com/widgets.js”" charset="“utf-8”"></script>
+<p>Python programmers will become like the engineers who create the seeds. And the rest of us just get bigger, better, and more efficient farms. There will always be those who specialize, as there are people who write compilers today, but fewer and farther between. Perhaps intellectual interest and economic incentives will equalize.</p>
+</section>
+<section id="festivus-for-the-rest-of-us" class="level1">
+<h1>Festivus for the rest of us</h1>
+<p>Companies will become smaller. But the same human needs will need to be met:</p>
+<ul>
+<li>food</li>
+<li>shelter</li>
+<li>clothes</li>
+<li>physical toys</li>
+<li>digital entertainment</li>
+</ul>
+<p>More people will just be able to do more things. Perhaps there will be more prosperity as a result.</p>
+<p>And more people will unionize and try to prevent the change. But that’s a short term thing. Can’t last forever. A union is only as good as it’s needed.</p>
+</section>
+<section id="takeaways" class="level1">
+<h1>Takeaways</h1>
+<p>Get ahead by focusing on what’s essential. Leverage what’s around you to develop new skills to prepare for the future. And be excited. It’s going to be a wild ride.</p>
+
+
+</section>
+
+<p>_________________________ <br> <em>For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a></em>.</p> ]]></description>
+  <category>data science</category>
+  <guid>https://www.bryanwhiting.com/posts/2023-12-12-future-of-coding/</guid>
+  <pubDate>Tue, 12 Dec 2023 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>How do you want to be remembered?</title>
   <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2022-12-23-who-do-you-want-to-be-known-for/index.html</link>
+  <link>https://www.bryanwhiting.com/posts/2022-12-23-who-do-you-want-to-be-known-for/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -27,7 +119,7 @@
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="https://www.bryanwhiting.com/posts/2022-12-23-who-do-you-want-to-be-known-for/photo.jpeg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption margin-caption">Dan Kiefer via Unsplash</figcaption><p></p>
+<figcaption class="margin-caption">Dan Kiefer via Unsplash</figcaption>
 </figure>
 </div>
 <p>On this Christmas season, remember that while Jesus Christ’s divinity has been debated for centuries, certainly he’s been remembered. He’s been remembered because of the actions he took and the kindness he showed.</p>
@@ -44,15 +136,15 @@
 <p>_________________________ <br> <em>For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a></em>.</p> ]]></description>
   <category>leadership</category>
   <category>service</category>
-  <guid>https://www.bryanwhiting.com/posts/2022-12-23-who-do-you-want-to-be-known-for/index.html</guid>
+  <guid>https://www.bryanwhiting.com/posts/2022-12-23-who-do-you-want-to-be-known-for/</guid>
   <pubDate>Fri, 23 Dec 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/posts/2022-12-23-who-do-you-want-to-be-known-for/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Building a complex R Shiny Dashboard Using ChatGPT</title>
   <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/index.html</link>
+  <link>https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -291,15 +383,15 @@ shinyApp(ui = ui, server = server)</code></pre>
   <category>shiny</category>
   <category>futurism</category>
   <category>chatgpt</category>
-  <guid>https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/index.html</guid>
+  <guid>https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/</guid>
   <pubDate>Thu, 15 Dec 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/posts/2022-12-15-chatgpt-rshiny/instructions1.png" medium="image" type="image/png" height="101" width="144"/>
 </item>
 <item>
   <title>Models as a Service and the Future of Data Science</title>
   <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2022-12-06-more-new-businesses-than-ever-/index.html</link>
+  <link>https://www.bryanwhiting.com/posts/2022-12-06-more-new-businesses-than-ever-/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -350,26 +442,26 @@ shinyApp(ui = ui, server = server)</code></pre>
   <category>startups</category>
   <category>business</category>
   <category>data science</category>
-  <guid>https://www.bryanwhiting.com/posts/2022-12-06-more-new-businesses-than-ever-/index.html</guid>
+  <guid>https://www.bryanwhiting.com/posts/2022-12-06-more-new-businesses-than-ever-/</guid>
   <pubDate>Tue, 06 Dec 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/posts/2022-12-06-more-new-businesses-than-ever-/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Writing a Tech Resume</title>
   <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2022-11-18-writing-a-tech-resume/index.html</link>
+  <link>https://www.bryanwhiting.com/posts/2022-11-18-writing-a-tech-resume/</link>
   <description><![CDATA[ 
 
 
 
 
+
 <p><img src="https://www.bryanwhiting.com/posts/2022-11-18-writing-a-tech-resume/photo.jpeg" class="img-fluid"></p>
-<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 TL;DR: Use the “Accomplished [X] as measured by [Y] by doing [Z]” format.
 </div>
 </div>
@@ -411,15 +503,15 @@ TL;DR: Use the “Accomplished [X] as measured by [Y] by doing [Z]” format.
 
 <p>_________________________ <br> <em>For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a></em>.</p> ]]></description>
   <category>communication</category>
-  <guid>https://www.bryanwhiting.com/posts/2022-11-18-writing-a-tech-resume/index.html</guid>
+  <guid>https://www.bryanwhiting.com/posts/2022-11-18-writing-a-tech-resume/</guid>
   <pubDate>Fri, 18 Nov 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/posts/2022-11-18-writing-a-tech-resume/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Resume Substance over Style</title>
   <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2022-11-18-substance-over-style/index.html</link>
+  <link>https://www.bryanwhiting.com/posts/2022-11-18-substance-over-style/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -435,25 +527,26 @@ TL;DR: Use the “Accomplished [X] as measured by [Y] by doing [Z]” format.
 
 <p>_________________________ <br> <em>For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a></em>.</p> ]]></description>
   <category>communication</category>
-  <guid>https://www.bryanwhiting.com/posts/2022-11-18-substance-over-style/index.html</guid>
+  <guid>https://www.bryanwhiting.com/posts/2022-11-18-substance-over-style/</guid>
   <pubDate>Fri, 18 Nov 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>What is a model?</title>
   <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2022-11-12-what-is-a-model/index.html</link>
+  <link>https://www.bryanwhiting.com/posts/2022-11-12-what-is-a-model/</link>
   <description><![CDATA[ 
 
 
 
 
+
 <p><img src="https://www.bryanwhiting.com/posts/2022-11-12-what-is-a-model/photo.jpeg" class="img-fluid"></p>
-<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 TL;DR:
 </div>
 </div>
@@ -512,27 +605,27 @@ TL;DR:
 
 <p>_________________________ <br> <em>For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a></em>.</p> ]]></description>
   <category>data science</category>
-  <guid>https://www.bryanwhiting.com/posts/2022-11-12-what-is-a-model/index.html</guid>
+  <guid>https://www.bryanwhiting.com/posts/2022-11-12-what-is-a-model/</guid>
   <pubDate>Sat, 12 Nov 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/posts/2022-11-12-what-is-a-model/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>De-sciencing Data Science and Talking Like a Normal Person</title>
   <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html</link>
+  <link>https://www.bryanwhiting.com/posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/</link>
   <description><![CDATA[ 
+
 
 
 
 
 <section id="building-a-data-science-culture" class="level1">
 <h1>Building a Data Science culture</h1>
-<div class="callout-note callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Note
 </div>
 </div>
@@ -557,8 +650,8 @@ Note
 <h1>Mindsets</h1>
 <p>There’s a temptation to act like an academic professor and use fancy jargon when working with your coworkers. Even worse, there’s a temptation to think you’re smarter than your coworkers because you know this mathy thing that they don’t. But remember this quote:</p>
 <blockquote class="blockquote page-columns page-full">
-<div class="page-columns page-full"><p>When they are learned they think they are wise…<sup>1</sup></p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;2 Nephi 9:28</p></li></div></div>
-</blockquote>
+<p>When they are learned they think they are wise…<sup>1</sup></p>
+<div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;2 Nephi 9:28</p></li></div></blockquote>
 <p>This pride power struggle is your downfall for two reasons:</p>
 <ol type="1">
 <li>It blinds you to thinking your solution is good just because someone else can’t understand it.</li>
@@ -577,12 +670,12 @@ Note
 <section id="bugs" class="level1">
 <h1>Bugs</h1>
 <p>There are two types of bugs in data science: Software bugs and data bugs. You’ll spend 80% of your ramp up time on a project setting up your environment, learning the data, trying to understand the primary keys and logging and unique values, etc.</p>
-<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Tip
 </div>
 </div>
@@ -613,15 +706,15 @@ Tip
   <category>data science</category>
   <category>communication</category>
   <category>principles</category>
-  <guid>https://www.bryanwhiting.com/posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html</guid>
+  <guid>https://www.bryanwhiting.com/posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/</guid>
   <pubDate>Wed, 20 Jul 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>When data collection goes too far</title>
   <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2022-07-03-when-data-collection-goes-too-far/index.html</link>
+  <link>https://www.bryanwhiting.com/posts/2022-07-03-when-data-collection-goes-too-far/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -646,7 +739,7 @@ Tip
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="https://www.bryanwhiting.com/posts/2022-07-03-when-data-collection-goes-too-far/photo.jpeg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption margin-caption">Exist.io</figcaption><p></p>
+<figcaption class="margin-caption">Exist.io</figcaption>
 </figure>
 </div>
 <p>When I researched the Apple Watch team a few years back I came to appreciate what they were/are trying to do: correlate heart monitoring with insurance claims data to proactively identify preemptive signs of cardiac arrest and other health issues.</p>
@@ -671,15 +764,16 @@ Tip
   <category>futurism</category>
   <category>tech</category>
   <category>surveillance</category>
-  <guid>https://www.bryanwhiting.com/posts/2022-07-03-when-data-collection-goes-too-far/index.html</guid>
+  <guid>https://www.bryanwhiting.com/posts/2022-07-03-when-data-collection-goes-too-far/</guid>
   <pubDate>Sun, 03 Jul 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-07-03-when-data-collection-goes-too-far/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Pomodoro Principles</title>
   <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2022-06-28-pomodoro-principles/index.html</link>
+  <link>https://www.bryanwhiting.com/posts/2022-06-28-pomodoro-principles/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -700,15 +794,15 @@ Tip
 <p>_________________________ <br> <em>For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a></em>.</p> ]]></description>
   <category>productivity</category>
   <category>ticktick</category>
-  <guid>https://www.bryanwhiting.com/posts/2022-06-28-pomodoro-principles/index.html</guid>
+  <guid>https://www.bryanwhiting.com/posts/2022-06-28-pomodoro-principles/</guid>
   <pubDate>Tue, 28 Jun 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/posts/2022-06-28-pomodoro-principles/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Increase Focus through Writing Down Everything</title>
   <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2022-06-28-increase-focus-through-writing-down-everything/index.html</link>
+  <link>https://www.bryanwhiting.com/posts/2022-06-28-increase-focus-through-writing-down-everything/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -739,14 +833,15 @@ Tip
   <category>productivity</category>
   <category>musings</category>
   <category>ticktick</category>
-  <guid>https://www.bryanwhiting.com/posts/2022-06-28-increase-focus-through-writing-down-everything/index.html</guid>
+  <guid>https://www.bryanwhiting.com/posts/2022-06-28-increase-focus-through-writing-down-everything/</guid>
   <pubDate>Tue, 28 Jun 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>How I use TickTick</title>
   <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2022-06-25-how-i-use-ticktick/index.html</link>
+  <link>https://www.bryanwhiting.com/posts/2022-06-25-how-i-use-ticktick/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -843,14 +938,15 @@ Tip
 
 <p>_________________________ <br> <em>For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a></em>.</p> ]]></description>
   <category>productivity</category>
-  <guid>https://www.bryanwhiting.com/posts/2022-06-25-how-i-use-ticktick/index.html</guid>
+  <guid>https://www.bryanwhiting.com/posts/2022-06-25-how-i-use-ticktick/</guid>
   <pubDate>Sat, 25 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-06-25-how-i-use-ticktick/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Getting Things Done</title>
-  <link>https://www.bryanwhiting.com/book-reviews/2022-06-24-getting-things-done/index.html</link>
+  <link>https://www.bryanwhiting.com/book-reviews/2022-06-24-getting-things-done/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -905,15 +1001,16 @@ Tip
 <p>_________________________ <br> <em>For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a></em>.</p> ]]></description>
   <category>book review</category>
   <category>productivity</category>
-  <guid>https://www.bryanwhiting.com/book-reviews/2022-06-24-getting-things-done/index.html</guid>
+  <guid>https://www.bryanwhiting.com/book-reviews/2022-06-24-getting-things-done/</guid>
   <pubDate>Fri, 24 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/book-reviews/2022-06-24-getting-things-done/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>What is the best todo list manager?</title>
   <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2022-06-23-the-best-todolist-manager/index.html</link>
+  <link>https://www.bryanwhiting.com/posts/2022-06-23-the-best-todolist-manager/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -957,13 +1054,13 @@ Tip
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="https://www.bryanwhiting.com/posts/2022-06-23-the-best-todolist-manager/photo.jpeg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption margin-caption">To Do has smart text parsing.</figcaption><p></p>
+<figcaption class="margin-caption">To Do has smart text parsing.</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="https://www.bryanwhiting.com/posts/2022-06-23-the-best-todolist-manager/photo-2.jpeg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption margin-caption">To Do has “smart suggestions” that you can add to your day.</figcaption><p></p>
+<figcaption class="margin-caption">To Do has “smart suggestions” that you can add to your day.</figcaption>
 </figure>
 </div>
 </section>
@@ -1139,15 +1236,16 @@ Tip
 <p>_________________________ <br> <em>For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a></em>.</p> ]]></description>
   <category>productivity</category>
   <category>app review</category>
-  <guid>https://www.bryanwhiting.com/posts/2022-06-23-the-best-todolist-manager/index.html</guid>
+  <guid>https://www.bryanwhiting.com/posts/2022-06-23-the-best-todolist-manager/</guid>
   <pubDate>Thu, 23 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-06-23-the-best-todolist-manager/app.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>New ideas are distractingly exciting</title>
   <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html</link>
+  <link>https://www.bryanwhiting.com/posts/2022-06-23-new-ideas-are-distractingly-exciting/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1172,14 +1270,15 @@ Tip
   <category>productivity</category>
   <category>priorities</category>
   <category>ideation</category>
-  <guid>https://www.bryanwhiting.com/posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html</guid>
+  <guid>https://www.bryanwhiting.com/posts/2022-06-23-new-ideas-are-distractingly-exciting/</guid>
   <pubDate>Thu, 23 Jun 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Downstream Impact</title>
   <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/index.html</link>
+  <link>https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1187,7 +1286,7 @@ Tip
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/photo.jpeg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption margin-caption">Every pea is unique. But it’s still a pea.</figcaption><p></p>
+<figcaption class="margin-caption">Every pea is unique. But it’s still a pea.</figcaption>
 </figure>
 </div>
 <p>Online experiments are powerful tools to see the causal impact of a business strategy. Tweak something, see what users do.</p>
@@ -1202,15 +1301,16 @@ Tip
 <p>_________________________ <br> <em>For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a></em>.</p> ]]></description>
   <category>data science</category>
   <category>experimentation</category>
-  <guid>https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/index.html</guid>
+  <guid>https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/</guid>
   <pubDate>Wed, 22 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>The Power of Party Pay by Visible</title>
   <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2022-06-21-the-power-of-party-pay-by-visible/index.html</link>
+  <link>https://www.bryanwhiting.com/posts/2022-06-21-the-power-of-party-pay-by-visible/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1241,15 +1341,16 @@ Tip
 <p>_________________________ <br> <em>For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a></em>.</p> ]]></description>
   <category>startups</category>
   <category>strategy</category>
-  <guid>https://www.bryanwhiting.com/posts/2022-06-21-the-power-of-party-pay-by-visible/index.html</guid>
+  <guid>https://www.bryanwhiting.com/posts/2022-06-21-the-power-of-party-pay-by-visible/</guid>
   <pubDate>Tue, 21 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-06-21-the-power-of-party-pay-by-visible/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Products for dads</title>
   <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2022-06-21-products-for-dads/index.html</link>
+  <link>https://www.bryanwhiting.com/posts/2022-06-21-products-for-dads/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1308,15 +1409,16 @@ Tip
 <p>_________________________ <br> <em>For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a></em>.</p> ]]></description>
   <category>productivity</category>
   <category>fatherhood</category>
-  <guid>https://www.bryanwhiting.com/posts/2022-06-21-products-for-dads/index.html</guid>
+  <guid>https://www.bryanwhiting.com/posts/2022-06-21-products-for-dads/</guid>
   <pubDate>Tue, 21 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-06-21-products-for-dads/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Blogging with Quarto, and why I don’t use Medium anymore</title>
   <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2022-06-20-blogging-with-quarto/index.html</link>
+  <link>https://www.bryanwhiting.com/posts/2022-06-20-blogging-with-quarto/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1349,7 +1451,7 @@ Tip
 
 <p>_________________________ <br> <em>For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a></em>.</p> ]]></description>
   <category>data science</category>
-  <guid>https://www.bryanwhiting.com/posts/2022-06-20-blogging-with-quarto/index.html</guid>
+  <guid>https://www.bryanwhiting.com/posts/2022-06-20-blogging-with-quarto/</guid>
   <pubDate>Mon, 20 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-06-20-blogging-with-quarto/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
@@ -1357,8 +1459,9 @@ Tip
   <title>The Author’s Angle Matters</title>
   <dc:creator>Bryan Whiting</dc:creator>
   <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters/index.html</link>
+  <link>https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters/</link>
   <description><![CDATA[ 
+
 
 
 
@@ -1382,50 +1485,9 @@ Tip
 <p>_________________________ <br> <em>For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a></em>.</p> ]]></description>
   <category>communication</category>
   <category>writing</category>
-  <guid>https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters/index.html</guid>
+  <guid>https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters/</guid>
   <pubDate>Sat, 17 Jul 2021 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2021-07-17-authors-angle-matters/image.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Productivity notes</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2020-12-18-productivity-notes/index.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="time-management" class="level1">
-<h1>Time Management</h1>
-<ul>
-<li>Calendar my ToDos.</li>
-<li>Shorter work is better. Less to edit. Less mistakes. Keep it simple.</li>
-</ul>
-</section>
-<section id="distractions" class="level1">
-<h1>Distractions</h1>
-<ul>
-<li>Block 30 min for email and review team members work twice a day.</li>
-<li>Aggressively filter email spam.</li>
-</ul>
-</section>
-<section id="analysis" class="level1">
-<h1>Analysis</h1>
-<ul>
-<li>Start with a story. End with story.</li>
-<li>Iterate quickly with stakeholders.</li>
-<li>always have one nights sleep before sending a presentation. Edit.</li>
-</ul>
-
-
-</section>
-
-<p>_________________________ <br> <em>For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a></em>.</p> ]]></description>
-  <category>data science</category>
-  <category>productivity</category>
-  <guid>https://www.bryanwhiting.com/posts/2020-12-18-productivity-notes/index.html</guid>
-  <pubDate>Sat, 19 Dec 2020 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/posts/2020-12-18-productivity-notes/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
