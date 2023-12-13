@@ -17,9 +17,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Replace smart quotes in Markdown files
-        run: |
-          chmod +x ./replace_smart_quotes.sh
-          ./replace_smart_quotes.sh      
+        #run: |
+        #  chmod +x ./replace_smart_quotes.sh
+        #  ./replace_smart_quotes.sh      
       
       - uses: quarto-dev/quarto-actions/setup@v2
         with:
