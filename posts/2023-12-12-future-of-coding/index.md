@@ -40,6 +40,8 @@ Sure people hate on bard and want to use the latest and greatest. But even the c
 
 So knowledge and intellectual reasoning is going to be commonplace amongst the plebes. 
 
+{{< tweet user=ilyasut id=1710462485411561808 >}}
+
 <blockquote class=“twitter-tweet”><p lang=“en” dir=“ltr”>if you value intelligence above all other human qualities, you’re gonna have a bad time</p>&mdash; Ilya Sutskever (@ilyasut) <a href=“https://twitter.com/ilyasut/status/1710462485411561808?ref_src=twsrc%5Etfw”>October 7, 2023</a></blockquote> <script async src=“https://platform.twitter.com/widgets.js” charset=“utf-8”></script>
 
 # More of the same

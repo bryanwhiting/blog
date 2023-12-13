@@ -54,6 +54,7 @@ jobs:
 
       - name: Render blog 
         run: |
+          quarto install extension sellorm/quarto-social-embeds
           quarto render
       
       - name: Push rendered code
