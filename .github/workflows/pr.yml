@@ -16,19 +16,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Replace smart quotes in Markdown files
+        run: |
+          chmod +x ./replace_smart_quotes.sh
+          ./replace_smart_quotes.sh      
       
-      # had issue with "curl".
-      # https://github.com/r-lib/actions/issues/416
-      # - name: Install curl command
-        # run: sudo apt-get install -y libcurl4-openssl-dev
-
-      # - name: Install Quarto
-        # uses: quarto-dev/quarto-actions/install-quarto@v1
-        # with:
-          # To install LaTeX to build PDF book 
-          # tinytex: true 
-          # uncomment below and fill to pin a version
-          # version: 0.9.105
       - uses: quarto-dev/quarto-actions/setup@v2
         with:
           version: 1.4.515
@@ -54,7 +46,6 @@ jobs:
 
       - name: Render blog 
         run: |
-          # quarto install extension sellorm/quarto-social-embeds
           quarto render
       
       - name: Push rendered code

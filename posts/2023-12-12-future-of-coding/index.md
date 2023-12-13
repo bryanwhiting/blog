@@ -55,7 +55,7 @@ The creatives will be more creative. Nobody will be at a barrier of being silo�
 
 And I won’t be able to stop the masses from using Code Interpreter to do data science. The systems will only become more powerful, so cloud companies will make it easier to write sql or whatever. Heck, 5-10 years English will be the only programming language. (Who here does firmware/bit mapping anymore? Only a select few.)
 
-<blockquote class=“twitter-tweet”><p lang=“en” dir=“ltr”>The hottest new programming language is English</p>&mdash; Andrej Karpathy (@karpathy) <a href=“https://twitter.com/karpathy/status/1617979122625712128?ref_src=twsrc%5Etfw”>January 24, 2023</a></blockquote> <script async src=“https://platform.twitter.com/widgets.js” charset=“utf-8”></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The hottest new programming language is English</p>&mdash; Andrej Karpathy (@karpathy) <a href="https://twitter.com/karpathy/status/1617979122625712128?ref_src=twsrc%5Etfw">January 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Python programmers will become like the engineers who create the seeds. And the rest of us just get bigger, better, and more efficient farms. There will always be those who specialize, as there are people who write compilers today, but fewer and farther between. Perhaps intellectual interest and economic incentives will equalize. 
 
