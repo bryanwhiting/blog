@@ -10,7 +10,124 @@
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Tue, 12 Dec 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 14 Dec 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Cool AI Tweets</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2023-12-14-cool-ai-tweets/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><img src="https://www.bryanwhiting.com/posts/2023-12-14-cool-ai-tweets/photo.jpeg" class="img-fluid"></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+TL;DR: AI is wild
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<section id="generate-a-website-from-screenshot" class="level1">
+<h1>Generate a Website from Screenshot</h1>
+<blockquote class="twitter-tweet blockquote">
+<p lang="en" dir="ltr">
+screenshot-to-code: <br><br>upload a screenshot of any website, watch as AI progressively builds the html, iteratively improving the generated code by comparing it against the screenshot repeatedly. <a href="https://t.co/TCrbJj3VS0">pic.twitter.com/TCrbJj3VS0</a>
+</p>
+— Siqi Chen (<span class="citation" data-cites="blader">@blader</span>) <a href="https://twitter.com/blader/status/1727105236811366669?ref_src=twsrc%5Etfw">November 21, 2023</a>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<ul>
+<li><a href="https://github.com/abi/screenshot-to-code">GitHub</a></li>
+<li>https://screenshottocode.com/</li>
+</ul>
+</section>
+<section id="tldraw" class="level1">
+<h1>tldraw</h1>
+<blockquote class="twitter-tweet blockquote">
+<p lang="en" dir="ltr">
+Looking to learn about the AI thing we made?<br>👇Link in the next post <a href="https://t.co/1FjY3eMSSF">pic.twitter.com/1FjY3eMSSF</a>
+</p>
+— tldraw (<span class="citation" data-cites="tldraw">@tldraw</span>) <a href="https://twitter.com/tldraw/status/1726900678851719601?ref_src=twsrc%5Etfw">November 21, 2023</a>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<ul>
+<li>https://makereal.tldraw.com/</li>
+<li>https://open.substack.com/pub/tldraw/p/make-real-the-story-so-far?r=2ri91a&amp;utm_medium=ios&amp;utm_campaign=post</li>
+</ul>
+
+
+</section>
+
+<p>_________________________ <br> <em>For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a></em>.</p> ]]></description>
+  <category>tech</category>
+  <category>futurism</category>
+  <category>ai</category>
+  <guid>https://www.bryanwhiting.com/posts/2023-12-14-cool-ai-tweets/</guid>
+  <pubDate>Thu, 14 Dec 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Learn by doing</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2023-12-13-learn-by-doing/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><img src="https://www.bryanwhiting.com/posts/2023-12-13-learn-by-doing/photo.jpeg" class="img-fluid"></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+TL;DR: Yes, unintelligent people can use things without fully understanding them
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<blockquote class="twitter-tweet blockquote">
+<p lang="en" dir="ltr">
+Many people have their noses up their ass when they claim you can't use an algorithm you don't fully understand.<br><br>They give themselves this fake moral superiority. They must be the only ones who belong because they know every detail.<br><br>This is all bullshit.<br><br>Here are a few simple…
+</p>
+— Santiago (<span class="citation" data-cites="svpino">@svpino</span>) <a href="https://twitter.com/svpino/status/1734642171838390433?ref_src=twsrc%5Etfw">December 12, 2023</a>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>While the language is perhaps a bit strong, I agree with the sentiment here.</p>
+<p>I don’t have a PhD but have been limited twice in my career by those who wish I had one. What would having a PhD give you that I don’t have?</p>
+<p>Well, I trust you more if you had one.</p>
+<p>Jeremy Howard, a world renowned research and creator of fast.ai and answers.ai started his lectures on deep learning with “you don’t need to have a math degree, you just need to know a little bit of code”. With that philosophy he’s helped entrepreneurs create amazing products that left his free online program.</p>
+<section id="blindspots-tho" class="level1">
+<h1>Blindspots tho</h1>
+<p>Concepts are important to understand. Understanding your training data and how the machines learn from them and the biases they’re prone to is very useful, perhaps mission critical, to creating value.</p>
+<p>So what’s the line? Well, if you got a PhD you’d probably spend 80% of your time on your dissertation and taking some non relevant coursework. How does that help you today?</p>
+<p>Well, you should learn as many concepts as you can. Like driving a car, you don’t need to know hydroplaning but you should learn hydroplaning. You don’t need to know how to drive in snow but you should know that driving a car in the snow with rear wheel drive is a different experience.</p>
+<p>If you live in Arizona you don’t need to know how to drive in the snow. Your bias is you’ll never know why that would be necessary.</p>
+</section>
+<section id="principle" class="level1">
+<h1>Principle</h1>
+<p>Be so curious that you explore the boundaries of your space such that you learn “oh, cars work differently in snow, but I don’t have snow so I’m safe”. Once you reach the boundary you probably know enough. Then ship your code and learn by how you messed things up.</p>
+
+
+</section>
+
+<p>_________________________ <br> <em>For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a></em>.</p> ]]></description>
+  <category>data science</category>
+  <category>tech</category>
+  <guid>https://www.bryanwhiting.com/posts/2023-12-13-learn-by-doing/</guid>
+  <pubDate>Wed, 13 Dec 2023 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Scientific Freedom</title>
   <link>https://www.bryanwhiting.com/book-reviews/2023-12-12-scientific-freedom/</link>
@@ -120,13 +237,13 @@ if you value intelligence above all other human qualities, you’re gonna have a
 <p>And so, the mentally poor will remain so. They’ll use AI for entertainment. Better video games. Better, faster content. More consumption.</p>
 <p>The creatives will be more creative. Nobody will be at a barrier of being silo’d.&nbsp;So what if you’ve only done data science for 10 years. You know coding. It’s easy to now do web design. Or copy writing. Or art. Or…</p>
 <p>And I won’t be able to stop the masses from using Code Interpreter to do data science. The systems will only become more powerful, so cloud companies will make it easier to write sql or whatever. Heck, 5-10 years English will be the only programming language. (Who here does firmware/bit mapping anymore? Only a select few.)</p>
-<blockquote class="“twitter-tweet” blockquote">
-<p lang="“en”" dir="“ltr”">
+<blockquote class="twitter-tweet blockquote">
+<p lang="en" dir="ltr">
 The hottest new programming language is English
 </p>
-— Andrej Karpathy (<span class="citation" data-cites="karpathy">@karpathy</span>) <a href="“https://twitter.com/karpathy/status/1617979122625712128?ref_src=twsrc^tfw”">January 24, 2023</a>
+— Andrej Karpathy (<span class="citation" data-cites="karpathy">@karpathy</span>) <a href="https://twitter.com/karpathy/status/1617979122625712128?ref_src=twsrc%5Etfw">January 24, 2023</a>
 </blockquote>
-<script async="" src="“https://platform.twitter.com/widgets.js”" charset="“utf-8”"></script>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <p>Python programmers will become like the engineers who create the seeds. And the rest of us just get bigger, better, and more efficient farms. There will always be those who specialize, as there are people who write compilers today, but fewer and farther between. Perhaps intellectual interest and economic incentives will equalize.</p>
 </section>
 <section id="festivus-for-the-rest-of-us" class="level1">
@@ -1396,116 +1513,6 @@ Tip
   <guid>https://www.bryanwhiting.com/posts/2022-06-21-the-power-of-party-pay-by-visible/</guid>
   <pubDate>Tue, 21 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-06-21-the-power-of-party-pay-by-visible/photo.jpeg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Products for dads</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2022-06-21-products-for-dads/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p><img src="https://www.bryanwhiting.com/posts/2022-06-21-products-for-dads/photo.jpeg" class="img-fluid"></p>
-<section id="products-i-enjoy-as-a-dad" class="level1">
-<h1>Products I enjoy as a dad</h1>
-<p>Third times a charm - I hope by(/if) kid number four I’ll have this all figured out. It’s amazing how I feel so new to it all despite raising two kids in the last five years. In starting fresh a third time I feel inspired to write down some things I’m rediscovering.</p>
-<p>To anyone getting started on their baby journey, perhaps these suggestions can help. Your baby is definitely different than mine, so your mileage may vary! But since I’m still using this stuff five years later maybe it can help you too. Either way, congrats and good luck!</p>
-<section id="products-i-still-use-on-baby-3" class="level3">
-<h3 class="anchored" data-anchor-id="products-i-still-use-on-baby-3">Products I still use on baby 3</h3>
-<p>Since I’m a mega influencer (on my very established data science blog here), I get paid $500 every time you click a link below. So please, go crazy.</p>
-<p>I’ll also credit my wife for figuring out to buy these products in the first place.</p>
-<ol type="1">
-<li>Stretchy swaddle, like <a href="https://a.co/d/dir4b63">this</a>. I like stretchy swaddles because they’re forgiving. The cotton muslin swaddles are nice and soft, but if the fabric doesn’t stretch the right way you may have to redo the swaddle.</li>
-<li><a href="https://a.co/d/d6MPwOc">Ollie swaddle</a> (nighttime). This thing is ridiculously overpriced for a swaddle. $70? Don’t get it. But if you do, I like it because its super easy to put on and very sturdy (hard for baby to break). At month 2 the baby gets strong and the basic swaddles are so easy to break. That and I feel like I’m gonna hurt my kid if I try to make a cotton swaddle unbreakable. Enter Velcro! I can be gentle on the swaddle but have it be unbreakable. There are a lot of random contraption swaddles that tie the baby up like a pretzel. This is your classic burrito. Insert baby, wrap right side, Velcro left side and you’re done.</li>
-<li><a href="https://a.co/d/0nVYMOK">Ubbi Steel Odor Locking diaper</a>pail. I also hated the thought five years ago of shelling out $70 for a trash can. Five years since and the thing still performs. I know how well it’s working when garbage day rolls around and I open it to change it. Smells like a gentle coastal breeze, maybe. To this day my wife hasn’t changed it more than a time or two because thankfully I have an iron stomach and unfortunately she does not. Point is: it keeps the diaper smell inside (for the most part) and uses normal garbage bags (cost saver).</li>
-<li><a href="https://a.co/d/akOhRqv">Baby K’tan Original Baby Wrap Carrier, Infant and Child Sling</a>. I’ve tried several carriers. Boba wraps take way too much patience to learn how to put on (patience I ran out of quickly as a new dad). This thing is just two circular fabric swaths, which means it takes two seconds to throw on. The convenience is huge - baby crying? Grab the carrier and snuggle up in 10 seconds or less.</li>
-<li><a href="https://a.co/d/4dLDr0D">DockATot Deluxe+ Dock</a>. We just got one off Facebook marketplace for $50 for third kid. We got it because let’s be real - sleeping is hard. The hardest thing about sleeping is the uncertainty what’s happening on the other side of the room in the crib. Grunting. Coughing. Is baby waking up? Needs a pacifier? When it’s 5am and you’re on feeding three of the night, being able to just roll over and plop the little one into the co-sleeper and monitor the situation close up is nice.</li>
-<li><a href="https://a.co/d/6fwsNIZ">4moms rockaRoo Baby Swing</a>. There are a thousand ways to solve the “where do I put my baby while cooking dinner” problem. We’ve liked this one.</li>
-</ol>
-</section>
-<section id="must-haves" class="level3">
-<h3 class="anchored" data-anchor-id="must-haves">Must Haves</h3>
-<ol type="1">
-<li>Dish soap. Honestly, nothing gets out a blowout stain like dish soap. That and drying in the sun is a miracle worker. (Apparently this is how <a href="https://blog.cottonbabies.com/cloth-diapering-101-sunning-your-cloth-diapers/">cloth diaper people do it.</a>)</li>
-<li><a href="https://www.verywellfamily.com/healing-diaper-rash-by-going-diaperless-289241#toc-raw-apple-cider-vinegar">Apple cider vinegar for diaper rash</a>. Once the little pimples appear, you’ll try anything to get them to go away. We just discovered this hack recently and I was delightfully surprised how easily it worked.</li>
-<li><a href="https://m.youtube.com/watch?v=CCI2EsJ-pEY">This is the right way to carry a car seat</a>. A friend of mine that has three kids didn’t know this was a thing until he saw me do it. It’s a thing. Do it! Your forearm will thank you.</li>
-</ol>
-</section>
-<section id="toddler-time" class="level3">
-<h3 class="anchored" data-anchor-id="toddler-time">Toddler Time</h3>
-<p>Down the road, these products have hit home runs for me.</p>
-<ul>
-<li><a href="https://a.co/d/8c6jGRF">Munchkin Miracle 360 Trainer Cup</a>. Every time I put this cup together I consider applying to Munchkin for a job to be their sales rep. This company has very clever designs on their products and this one just crushes it for me. Acts like a normal cup. Performs like a sippy. (I’ll admit I’ve taken a few swigs out of this just to understand how it works!)</li>
-<li><a href="https://a.co/d/aNxfM8f">Contigo Spill-Proof Kids Tumbler</a>. I think we have 80 water bottles in a junk drawer somewhere. Cheap ones. Expensive ones. They all end up scattered in pieces like the zebra herd before the lion that is your innocent child. This cup is no exception: I’ve lost a straw on one already. But! If you want a water bottle you’ll have the problem of spare parts. (Uhh, this isn’t a recommendation so far…) So why this cup? This cup is just good. I don’t know. It’s easy to assemble and clean (wide top). Doesn’t spill. Kids like straws?</li>
-</ul>
-</section>
-<section id="books" class="level3">
-<h3 class="anchored" data-anchor-id="books">Books</h3>
-<p>Not that you’ll have time to read…</p>
-<ol type="1">
-<li><a href="https://a.co/d/9XvE8ll">The Happiest Baby on the Block; Fully Revised and Updated Second Edition: The New Way to Calm Crying and Help Your Newborn Baby Sleep Longer</a>. I’m sure there’s a quick YouTube video showing the 5 ways to sooth a baby. (Here’s an <a href="https://www.happiestbaby.com/blogs/baby/the-5-s-s-for-soothing-babies">article</a>.) But if you like books this is a good one. TLDR: sucking, swaddle, shushing, swinging, and side are all soothing to a crying baby.</li>
-<li><a href="https://a.co/d/iTaqWOM">1-2-3 Magic: Gentle 3-Step Child &amp; Toddler Discipline for Calm, Effective, and Happy Parenting</a>. This is for toddlers, but I’ve learned this technique has been very helpful for giving me sanity in the terrible two phase. The approach doesn’t always work, but I’ve learned when it does, which is important. TLDR: don’t talk (engage in debate) with your toddler or show emotion when they’re misbehaving. Count them when they do bad acts. That’s 1. That’s 2. That’s 3. Break time. The book explains the method. YouTube is probably a friend here too.</li>
-</ol>
-</section>
-<section id="final-word" class="level3">
-<h3 class="anchored" data-anchor-id="final-word">Final word</h3>
-<p>Fatherhood has pushed my limits in all the ways. But I thank God every day I’m a dad. I do a nightly gratitude journal of my favorite moments of the day. If I’m paying attention during the day, at night it’s always my kids that have brought me the happiest moments and greatest joys of the day.</p>
-<p>Just remember: the clothes/products/trips are like the tools used to construct a fine painting. At the end of the day, it doesn’t matter what tools you use. Nobody cares and neither will you. It’s the output that matters most. I’ve found by just really paying attention to and getting curious about my kids in any moment helps me see the beauty of it all, while distractions cause me to think I need this or that be a better dad.</p>
-
-
-</section>
-</section>
-
-<p>_________________________ <br> <em>For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a></em>.</p> ]]></description>
-  <category>productivity</category>
-  <category>fatherhood</category>
-  <guid>https://www.bryanwhiting.com/posts/2022-06-21-products-for-dads/</guid>
-  <pubDate>Tue, 21 Jun 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/posts/2022-06-21-products-for-dads/photo.jpeg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Blogging with Quarto, and why I don’t use Medium anymore</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2022-06-20-blogging-with-quarto/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p><img src="https://www.bryanwhiting.com/posts/2022-06-20-blogging-with-quarto/photo.jpeg" class="img-fluid"></p>
-<section id="been-here-before-eh" class="level1">
-<h1>Been here before, eh?</h1>
-<p>I probably shouldn’t write this post considering I’ve also written posts “blogging with Jekyll”, “Blogdown”, and “distill” before. I’m flaky, what can I say. I’ve changed my blogging framework 7 times in 5 years (I started with blogger.com and Wordpress before Jekyll, and even used Medium for 25 posts.)</p>
-<p>But it’s not my fault. There are too many static site generators and it seems that Rstudio is as flaky as me. Meaning, they built rmarkdown, created hugodown, blowdown, bookdown, and distill. Hugodown is a lightweight version of blogdown, and I never figured out why it exists. Then there’s workflowr and so many other great, random products out there.</p>
-<p>Why quarto for me? It seems to have all the stuff that distill has, and then some. And given its design and collaboration with Wes McKinney (pandas guy) in building quarto, and given that Wes wrote his latest book with it, I think this will be here to stay for at least 5 years.</p>
-</section>
-<section id="why-do-i-avoid-medium" class="level1">
-<h1>Why do I avoid Medium</h1>
-<p>Why don’t I blog with Medium? I wrote 25 posts there over 9 months and loved it. It makes writing and publishing incredibly easy, which is why I did it. With distill/blogdown the limiting factor was I’d have to be at my computer to get a post in. I love writing on my phone - I have over 2000 journal entries with Day One over seven years, several of which are “draft” posts for a blog that won’t see the light of day since I don’t care about them after I’ve written it. I want to be able to blog frequently, a short little blurb to keep up my writing, and medium enabled this.</p>
-<p>But 1) I didn’t get many views (not that I care) and 2) my writing is stuck on their platform (confirmed to me this week as I’ve tried several old, broken tools that attempt to export posts out of medium).</p>
-<p>I got 50x the views on my blogdown site just from organic google searching. From reading other people’s <a href="https://hulry.com/medium-vs-own-blog/">posts</a> about leaving Medium, it’s seems that most traffic to Medium posts comes from outside of Medium.</p>
-<p>So while I’m certainly not into blogging for the money, I wouldn’t mind getting the content to people who it can help. And if medium didn’t enable this, what is its purpose?</p>
-<p>So I’m back and finally decided that I’m going to own my own platform. Seth Godin wrote a blog about this topic once. Why be on Medium, substack, Facebook, etc or any other up an coming platform? We’ll they’re all skewed toward the 1% of people who make money on the platform. Everyone else is wasting their time. So might as well own your content. And better to focus on writing than waste time catching up on every platform.</p>
-<p>Also, it’s fun! There’s a fuzzy feeling to blogging.</p>
-</section>
-<section id="future-of-quarto" class="level1">
-<h1>Future of quarto?</h1>
-<p>I’m speculating here, but <a href="https://quarto.org/docs/get-started/">Quarto can be used with</a>R Studio, Jupiter or VS Code. The last editor seems excitingly suspicious.</p>
-<p>Perhaps R Studio sees the writing on the wall that VS Code is taking over the IDE world and perhaps taking over the long term future of R Studio IDE. I personally don’t see why anyone would pay for R Studio when VS Code is free and has a better interface. And while R Studio has a few better integrations for R at the moment, it won’t once enough people see the light for VS Code and turn their contributions there. I’ve been using R on VSCode for two years now and it rivals R Studio in 95% of the feature set, but 100% has better window management.</p>
-<p>So Quarto seems like a great opportunity for R Studio to begin monetizing on a publishing platform like R Studio connect. Platforms like Notion and Confluence are great for everyone except data scientists trying to share reproducible research. But a quarto server seems like a great way to finally bring in Python data scientists into the markdown-flavored documentation world. (Man, I personally can’t use Jupyter/Google colab notebooks when I can use R Markdown!) I’d heartedly welcome this prospect, though I have no idea what their plans for Quarto really are.</p>
-<p>Till next blog post about what blogging tool I’m going to use…</p>
-
-
-</section>
-
-<p>_________________________ <br> <em>For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a></em>.</p> ]]></description>
-  <category>data science</category>
-  <guid>https://www.bryanwhiting.com/posts/2022-06-20-blogging-with-quarto/</guid>
-  <pubDate>Mon, 20 Jun 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/posts/2022-06-20-blogging-with-quarto/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
