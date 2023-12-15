@@ -1,4 +1,6 @@
 ---
+title: "Book Reviews/Notes"
+comments: false
 listing:
   contents: book-reviews
   type: grid
