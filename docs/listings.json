@@ -1,9 +1,25 @@
 [
   {
+    "listing": "/christianity.html",
+    "items": []
+  },
+  {
+    "listing": "/lists.html",
+    "items": [
+      "/lists/ai.html"
+    ]
+  },
+  {
+    "listing": "/books.html",
+    "items": [
+      "/book-reviews/2022-06-24-getting-things-done/index.html",
+      "/book-reviews/2023-12-12-scientific-freedom/index.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/posts/2023-12-15-prompt-techniques-/index.html",
-      "/posts/2023-12-14-cool-ai-tweets/index.html",
       "/posts/2023-12-13-learn-by-doing/index.html",
       "/book-reviews/2023-12-12-scientific-freedom/index.html",
       "/posts/2023-12-12-future-of-coding/index.html",
@@ -35,13 +51,6 @@
       "/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html",
       "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
       "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html"
-    ]
-  },
-  {
-    "listing": "/book-reviews.html",
-    "items": [
-      "/book-reviews/2022-06-24-getting-things-done/index.html",
-      "/book-reviews/2023-12-12-scientific-freedom/index.html"
     ]
   }
 ]
