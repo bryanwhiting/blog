@@ -3,4 +3,5 @@ title: "Lists of Things"
 comments: false
 listing:
   contents: lists
+  type: grid
 ---

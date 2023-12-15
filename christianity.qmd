@@ -3,4 +3,5 @@ title: "Christianity"
 comments: false
 listing:
   contents: christianity
+  type: "default"
 ---
