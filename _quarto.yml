@@ -43,6 +43,7 @@ website:
         href: index.xml
     contents:
       - index.qmd
+      - book-reviews.qmd
       - about.qmd
       
 

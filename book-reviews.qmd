@@ -1,0 +1,5 @@
+---
+listing:
+  contents: book-reviews
+  type: grid
+---
