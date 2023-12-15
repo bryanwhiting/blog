@@ -10,7 +10,55 @@
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Thu, 14 Dec 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 15 Dec 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Prompt techniques</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2023-12-15-prompt-techniques-/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><img src="https://www.bryanwhiting.com/posts/2023-12-15-prompt-techniques-/photo.jpeg" class="img-fluid"></p>
+<section id="how-to-prompt-engineer" class="level1">
+<h1>How to Prompt Engineer</h1>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+TL;DR: <a href="https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering">Prompt Engineering</a>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<blockquote class="twitter-tweet blockquote">
+<p lang="en" dir="ltr">
+Open AI released a great Prompt Engineering guide (link in comments). <br><br>Here is a summary of their 6 strategies for getting better results when prompting GPT-4 <a href="https://t.co/QiBASsbOHD">pic.twitter.com/QiBASsbOHD</a>
+</p>
+— MindBranches (<span class="citation" data-cites="MindBranches">@MindBranches</span>) <a href="https://twitter.com/MindBranches/status/1735497957842047056?ref_src=twsrc%5Etfw">December 15, 2023</a>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>The summary above is from here:</p>
+<p><a href="https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering">Prompt Engineering</a></p>
+</section>
+<section id="takeaways" class="level1">
+<h1>Takeaways</h1>
+<p>If prompt engineering is the future of coding, then coding is going to change from a deterministic, imperative experience to a stochastic one. That seems odd. 95% chance your output code will do what you want it to do, with a 5% change it does something drastically wrong. How do you unit test that?</p>
+
+
+</section>
+
+<p>_________________________ <br> <em>For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a></em>.</p> ]]></description>
+  <category>ai</category>
+  <guid>https://www.bryanwhiting.com/posts/2023-12-15-prompt-techniques-/</guid>
+  <pubDate>Fri, 15 Dec 2023 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Cool AI Tweets</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -28,15 +76,21 @@
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-TL;DR: AI is wild
+TL;DR: AI is wild. Last updated per last headline. First created 2023-12-14
 </div>
 </div>
 <div class="callout-body-container callout-body">
 
 </div>
 </div>
+<section id="prompt-engineering" class="level1">
+<h1>Prompt Engineering</h1>
+<p>Added 2023-12-15</p>
+<p><a href="https://platform.openai.com/docs/guides/prompt-engineering/prompt-engineering">Prompt Engineering tips by OpenAI</a></p>
+</section>
 <section id="generate-a-website-from-screenshot" class="level1">
 <h1>Generate a Website from Screenshot</h1>
+<p>2023-12-14</p>
 <blockquote class="twitter-tweet blockquote">
 <p lang="en" dir="ltr">
 screenshot-to-code: <br><br>upload a screenshot of any website, watch as AI progressively builds the html, iteratively improving the generated code by comparing it against the screenshot repeatedly. <a href="https://t.co/TCrbJj3VS0">pic.twitter.com/TCrbJj3VS0</a>
@@ -51,6 +105,7 @@ screenshot-to-code: <br><br>upload a screenshot of any website, watch as AI prog
 </section>
 <section id="tldraw" class="level1">
 <h1>tldraw</h1>
+<p>2023-12-14</p>
 <blockquote class="twitter-tweet blockquote">
 <p lang="en" dir="ltr">
 Looking to learn about the AI thing we made?<br>👇Link in the next post <a href="https://t.co/1FjY3eMSSF">pic.twitter.com/1FjY3eMSSF</a>
@@ -1473,46 +1528,6 @@ Tip
   <guid>https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/</guid>
   <pubDate>Wed, 22 Jun 2022 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/photo.jpeg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>The Power of Party Pay by Visible</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2022-06-21-the-power-of-party-pay-by-visible/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p><img src="https://www.bryanwhiting.com/posts/2022-06-21-the-power-of-party-pay-by-visible/photo.jpeg" class="img-fluid"></p>
-<section id="visibles-party-pay-madness" class="level1">
-<h1>Visible’s party pay madness</h1>
-<p>Visible wireless offers $25 off to users who join a party. So a user who signs up to pay $50 for unlimited data can click one button to join a party and only have to pay $25/mo from then on. Why not just offer users $25 to begin with?</p>
-<p>It’s really confusing to me as a user - why not just give me the $25 automatically if it takes nothing to join a group? Because of gamification.</p>
-</section>
-<section id="why-it-works" class="level1">
-<h1>Why it works</h1>
-<p>I think their strategy is as follows:</p>
-<ol type="1">
-<li>They hope some people get brought in on marketing and never remember to activate a party pay. Let’s say this number is 20-40%. Perhaps these users fund the rest of the discounts.</li>
-<li>Joining a party pay group for free is an easy way to make your customers win. I.e., a user gets $25 off for joining. Gimmicky, but I think it works. So a user has an immediate sense of gratification - a great way to build a strong emotional bond. “Click a button to get $25 off in perpetuity? Nice!” Anyone would agree this feels better than just starting off with $25.</li>
-<li>This makes users want to share and tell others. Especially if customers feel they’ve gamed the system. Who today doesn’t like a hack?</li>
-</ol>
-<p>But even if (1) is wrong, and that 95% of people join a party I’m sure they’ve done the math to consider how many people they need to sign up to make the money work.</p>
-</section>
-<section id="the-larger-strategy" class="level1">
-<h1>The Larger Strategy</h1>
-<p>Why would Verizon cannibalize their own sales? I switched my wife out of a $70 unlimited plan on Verizon to a $25 plan on visible for the same service. Well some customers will stay with Verizon because of its prestige and the add on benefits. But users who are cutting the cord are going somewhere else, I’m thinking Verizon wants to stay ahead of the curve. It’s a race to the bottom, sure. But it doesn’t hurt to try to win the race.</p>
-
-
-</section>
-
-<p>_________________________ <br> <em>For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a></em>.</p> ]]></description>
-  <category>startups</category>
-  <category>strategy</category>
-  <guid>https://www.bryanwhiting.com/posts/2022-06-21-the-power-of-party-pay-by-visible/</guid>
-  <pubDate>Tue, 21 Jun 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/posts/2022-06-21-the-power-of-party-pay-by-visible/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
