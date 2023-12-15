@@ -4,7 +4,7 @@ description: |
   A story with a terrible but incredibly relatable morale
 date: 2023-12-13
 categories: [book review, christianity]
-draft: true
+draft: false
 ---
 
 ![](photo.jpeg) 
