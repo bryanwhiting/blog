@@ -43,7 +43,9 @@ website:
         href: index.xml
     contents:
       - index.qmd
-      - book-reviews.qmd
+      - books.qmd
+      - lists.qmd
+      - christianity.qmd
       - about.qmd
       
 
