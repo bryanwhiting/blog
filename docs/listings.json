@@ -36,5 +36,12 @@
       "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
       "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html"
     ]
+  },
+  {
+    "listing": "/book-reviews.html",
+    "items": [
+      "/book-reviews/2022-06-24-getting-things-done/index.html",
+      "/book-reviews/2023-12-12-scientific-freedom/index.html"
+    ]
   }
 ]
