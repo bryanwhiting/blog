@@ -77,9 +77,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -236,32 +236,30 @@ ga('send', {
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="tech,futurism,ai" data-listing-date-sort="1702512000000" data-listing-file-modified-sort="1702628080069" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="89">
-<div class="thumbnail">
-<p><a href="./lists/ai.html" class="no-external"></a></p><a href="./lists/ai.html" class="no-external">
-<p class="card-img-top"><img src="lists/img/ai.jpeg"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./lists/ai.html" class="no-external"></a></p>
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="tech,futurism,ai" data-listing-date-sort="1702512000000" data-listing-file-modified-sort="1702628663113" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="89">
+<a href="./lists/ai.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img src="lists/img/ai.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Cool AI Tweets
+</h5>
+<div class="card-text listing-description">
+<p>Running list of cool things I’ve seen.</p>
 </div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./lists/ai.html" class="no-external">Cool AI Tweets</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./lists/ai.html" class="no-external"></a>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
 </div>
-<div class="listing-description">
-<a href="./lists/ai.html" class="no-external">Running list of cool things I’ve seen. </a>
-</div>
-</div>
-<div class="metadata">
-<a href="./lists/ai.html" class="no-external">
 <div class="listing-date">
 Dec 14, 2023
 </div>
-</a>
 </div>
+</div>
+</div>
+</a>
 </div>
 </div>
 <div class="listing-no-matching d-none">
