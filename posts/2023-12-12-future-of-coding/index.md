@@ -40,6 +40,9 @@ Sure people hate on bard and want to use the latest and greatest. But even the c
 
 So knowledge and intellectual reasoning is going to be commonplace amongst the plebes. 
 
+{{< tweet ilyasut 1710462485411561808 >}}
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">if you value intelligence above all other human qualities, you’re gonna have a bad time</p>&mdash; Ilya Sutskever (@ilyasut) <a href="https://twitter.com/ilyasut/status/1710462485411561808?ref_src=twsrc%5Etfw">October 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">if you value intelligence above all other human qualities, you’re gonna have a bad time</p>&mdash; Ilya Sutskever (@ilyasut) <a href="https://twitter.com/ilyasut/status/1710462485411561808?ref_src=twsrc%5Etfw">October 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -54,6 +57,7 @@ And so, the mentally poor will remain so. They’ll use AI for entertainment. Be
 The creatives will be more creative. Nobody will be at a barrier of being silo’d. So what if you’ve only done data science for 10 years. You know coding. It’s easy to now do web design. Or copy writing. Or art. Or… 
 
 And I won’t be able to stop the masses from using Code Interpreter to do data science. The systems will only become more powerful, so cloud companies will make it easier to write sql or whatever. Heck, 5-10 years English will be the only programming language. (Who here does firmware/bit mapping anymore? Only a select few.)
+
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The hottest new programming language is English</p>&mdash; Andrej Karpathy (@karpathy) <a href="https://twitter.com/karpathy/status/1617979122625712128?ref_src=twsrc%5Etfw">January 24, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
