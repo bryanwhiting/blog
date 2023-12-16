@@ -14,14 +14,14 @@
 <item>
   <title>Prompt techniques</title>
   <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2023-12-15-prompt-techniques-/</link>
+  <link>https://www.bryanwhiting.com/posts/2023-12-15-prompt-techniques/</link>
   <description><![CDATA[ 
 
 
 
 
 
-<p><img src="https://www.bryanwhiting.com/posts/2023-12-15-prompt-techniques-/photo.jpeg" class="img-fluid"></p>
+<p><img src="https://www.bryanwhiting.com/posts/2023-12-15-prompt-techniques/photo.jpeg" class="img-fluid"></p>
 <section id="how-to-prompt-engineer" class="level1">
 <h1>How to Prompt Engineer</h1>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -56,7 +56,7 @@ Open AI released a great Prompt Engineering guide (link in comments). <br><br>He
 
 <p>_________________________ <br> <em>For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a></em>.</p> ]]></description>
   <category>ai</category>
-  <guid>https://www.bryanwhiting.com/posts/2023-12-15-prompt-techniques-/</guid>
+  <guid>https://www.bryanwhiting.com/posts/2023-12-15-prompt-techniques/</guid>
   <pubDate>Fri, 15 Dec 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
@@ -602,7 +602,7 @@ shinyApp(ui = ui, server = server)</code></pre>
 <item>
   <title>Models as a Service and the Future of Data Science</title>
   <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2022-12-06-more-new-businesses-than-ever-/</link>
+  <link>https://www.bryanwhiting.com/posts/2022-12-06-more-new-businesses-than-ever/</link>
   <description><![CDATA[ 
 
 
@@ -612,7 +612,7 @@ shinyApp(ui = ui, server = server)</code></pre>
 <section id="businesses-are-launching-like-crazy" class="level1">
 <h1>Businesses are Launching Like Crazy</h1>
 <p>There’s never been a better time to start a business. The Census shows there are over <a href="https://www.census.gov/econ/currentdata/?programCode=BFS&amp;startYear=2004&amp;endYear=2022&amp;categories%5B%5D=TOTAL&amp;dataType=BA_BA&amp;geoLevel=US&amp;adjusted=1&amp;notAdjusted=1&amp;errorData=0">200,000</a> new business applications per month more than pre pandemic.</p>
-<p><img src="https://www.bryanwhiting.com/posts/2022-12-06-more-new-businesses-than-ever-/photo.jpeg" class="img-fluid"></p>
+<p><img src="https://www.bryanwhiting.com/posts/2022-12-06-more-new-businesses-than-ever/photo.jpeg" class="img-fluid"></p>
 <p>What’s driving this?</p>
 <p>Listening to <a href="https://podcasts.apple.com/us/podcast/freakonomics-radio/id354668519?i=1000584035729">The Unintended Consequences of Working from Home</a> it dawned on me that there’s a hyper acceleration of innovation happening.</p>
 <p>Consider the rise of AI tools like ChatGPT and StableDiffusion. Chamath Palihapitiya <a href="https://podcasts.apple.com/us/podcast/all-in-with-chamath-jason-sacks-friedberg/id1502871393?i=1000588602549">discusses</a> the expansive applications for these services. What was once SaaS will become MaaS (models as a service). There will be models for everything: copy writing, code debugging, converting wireframes into working apps, ad generation, book writing…</p>
@@ -655,7 +655,7 @@ shinyApp(ui = ui, server = server)</code></pre>
   <category>startups</category>
   <category>business</category>
   <category>data science</category>
-  <guid>https://www.bryanwhiting.com/posts/2022-12-06-more-new-businesses-than-ever-/</guid>
+  <guid>https://www.bryanwhiting.com/posts/2022-12-06-more-new-businesses-than-ever/</guid>
   <pubDate>Tue, 06 Dec 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
