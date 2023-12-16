@@ -10,7 +10,32 @@
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Fri, 15 Dec 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Sat, 16 Dec 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>One AI tool to rule them all?</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2023-12-16-one-ai-tool-to-rule-them-all?/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><img src="https://www.bryanwhiting.com/posts/2023-12-16-one-ai-tool-to-rule-them-all?/photo.jpeg" class="img-fluid"></p>
+<p>I code in cursor. I use ChatGPT when that fails. I see Pika and Runway for text to video. I see midjourney for photos. Other things that just use GPT to make blog posts.</p>
+<p>Will AGI even solve the problem of getting everything to connect to everything?</p>
+<p>Do we want a stochastic assistant to have access to my bank account, text messages, medical records, social media accounts, etc?</p>
+<p>Will LLMs be the space between human communication? If we’re all using bots to generate material to send to each other, and all use bots to summarize that, then where will the real human connection exist?</p>
+<p>We all want a world where our problems go away, but if we don’t have problems then are we human? To be naturally human is to be discontent and desire more, and it takes the wise to overcome these impulses. But the masses are not and never have been wise. Only the individuals.</p>
+<p>The future is bright. But where does humanity fit into all of it?</p>
+
+
+
+<p>_________________________ <br> <em>For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a></em>.</p> ]]></description>
+  <category>ai</category>
+  <guid>https://www.bryanwhiting.com/posts/2023-12-16-one-ai-tool-to-rule-them-all?/</guid>
+  <pubDate>Sat, 16 Dec 2023 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Prompt techniques</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -1485,38 +1510,6 @@ Tip
   <category>ideation</category>
   <guid>https://www.bryanwhiting.com/posts/2022-06-23-new-ideas-are-distractingly-exciting/</guid>
   <pubDate>Thu, 23 Jun 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Downstream Impact</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/photo.jpeg" class="img-fluid figure-img"></p>
-<figcaption class="margin-caption">Every pea is unique. But it’s still a pea.</figcaption>
-</figure>
-</div>
-<p>Online experiments are powerful tools to see the causal impact of a business strategy. Tweak something, see what users do.</p>
-<p>The limitations of online experiments is that once you manipulate your user experience there’s no going back. Users are forever impacted by your choice.</p>
-<p>If you give out a credit card with $100, $300, and $500 lines, people are going to spend more on the $500 line. They might also default more because they’re less able to pay back $500 than they are $100. As a result, you may lose these $500 users forever and might impact other aspects of their life, not to mention impact the marketing department’s strategy.</p>
-<p>A group of users is like a single living organism, if you treat it like that. If you only measure one metric (conversion rate) on the entire massive audience, then you’ll optimize for the “average” user.</p>
-<p>But nobody is average. We are all distinct. We fall into categories, sure. But to really optimize the whole business we need to optimize for pockets of users. Or, we just need to set up a system that’s personalized.</p>
-<p>Takeaway? Personalize your experiments where possible. Consider the ethical and downstream impacts of the experiment.</p>
-
-
-
-<p>_________________________ <br> <em>For coaching on data analytics or machine learning, <a href="mailto:bryanwhitingcoaching@gmail.com">reach out</a></em>.</p> ]]></description>
-  <category>data science</category>
-  <category>experimentation</category>
-  <guid>https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/</guid>
-  <pubDate>Wed, 22 Jun 2022 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/posts/2022-06-22-downstream-impact/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
