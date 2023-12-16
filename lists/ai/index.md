@@ -13,7 +13,15 @@ draft: false
 ## TL;DR: AI is wild. Last updated per last headline. First created 2023-12-14
 :::
 
+# v0.dev
+
+2023-12-15
+
+[v0.dev](v0.dev) a UI generator by vercel. React. 
+
 # Coffee by Coframe
+
+2023-12-15
 
 Build React UIs super fast. [GitHub](https://t.co/0vBssgp0ue)
 
@@ -44,3 +52,10 @@ Added 2023-12-15
 
 - https://makereal.tldraw.com/
 - https://open.substack.com/pub/tldraw/p/make-real-the-story-so-far?r=2ri91a&utm_medium=ios&utm_campaign=post
+
+
+# Cursor
+2023-10-10
+
+https://cursor.sh/
+ 
