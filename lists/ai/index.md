@@ -7,11 +7,17 @@ categories: [tech, futurism, ai]
 draft: false
 ---
 
-![](img/ai.jpeg) 
+![](ai.jpeg) 
 
 ::: callout-note
 ## TL;DR: AI is wild. Last updated per last headline. First created 2023-12-14
 :::
+
+# Coffee by Coframe
+
+Build React UIs super fast. [GitHub](https://t.co/0vBssgp0ue)
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Announcing Coffee: build and iterate on your UI 10x faster with AI ☕️👇<a href="https://t.co/0vBssgp0ue">https://t.co/0vBssgp0ue</a> <a href="https://t.co/JqwC8WpDzs">pic.twitter.com/JqwC8WpDzs</a></p>&mdash; Coframe (@coframe_ai) <a href="https://twitter.com/coframe_ai/status/1735069815566631054?ref_src=twsrc%5Etfw">December 13, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 # Prompt Engineering
 
