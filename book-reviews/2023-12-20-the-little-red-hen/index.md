@@ -20,6 +20,6 @@ So, too, do startups everywhere struggle to get funding. 100 rejections, etc.
 
 And great products don't get attention until there's social proof. Many e-commerce companies understand this - sales take off as more people buy, which gets more reviews, which gets more trust - even if the product didn't change much between first sale to the last. 
 
-The only difference between startups and the red hen is "is baking bread possible? Will the recipe be delicious?"
+The only difference between startups and the red hen is she perhaps had a recipe. She didn't have to wonder, "is baking bread possible? Will the recipe be delicious?"
 
-It takes a founder's belief to see what isn't yet so, and build it anyway. Be the founder. Be the hen. Dream big. Go bake some bread even if nobody's watching. 
+It takes a founder's belief to see what isn't yet so and build it anyway. Be the founder. Be the hen. Dream big. Go bake some bread even if nobody's watching. 
