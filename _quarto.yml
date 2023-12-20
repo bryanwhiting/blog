@@ -9,7 +9,9 @@ website:
   title: "Bryan Whiting"
   site-url: https://www.bryanwhiting.com
   google-analytics: "UA-85616639-1"
-  twitter-card: true
+  twitter-card: 
+    creator: "@bryanwhiting"
+  open-graph: true
   reader-mode: false # https://quarto.org/docs/websites/website-navigation.html#reader-mode
   page-footer: 
     left: "Copyright 2021-2024, Bryan Whiting" 
