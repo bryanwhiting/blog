@@ -13,6 +13,8 @@ draft: false
 ## TL;DR: 101 ideas. This is like a modern day Meditations. 
 :::
 
+2023-12-19
+
 - we all started as strangers 
 - to change your beliefs, go have experiences that manifest and confirm the beliefs you want to have
 - can only have a few truly 
