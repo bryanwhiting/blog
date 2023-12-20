@@ -3,11 +3,11 @@ title: Hitchhiker's Guide to the Galaxy
 description: |
   How did it take me so long to finally read this?
 date: 2023-12-18
-image: photo.jpeg
 categories: [book review, storytelling]
 draft: false
 ---
 
+![The book of infinite possibilities](photo.jpeg) 
 
 This is a classic. First time reading it and I love it. 
 

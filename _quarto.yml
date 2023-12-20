@@ -11,6 +11,7 @@ website:
   google-analytics: "UA-85616639-1"
   twitter-card: 
     creator: "@bryanwhiting"
+    card-style: summary_large_image
   open-graph: true
   reader-mode: false # https://quarto.org/docs/websites/website-navigation.html#reader-mode
   page-footer: 
