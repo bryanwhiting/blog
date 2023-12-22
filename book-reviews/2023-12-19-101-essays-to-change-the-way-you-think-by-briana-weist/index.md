@@ -30,4 +30,11 @@ draft: false
 - What emotion do you feel the most often? Is it positive? If not, why does a negative feeling deserve the spotlight? What does this tell you about your relationship with yourself?
 
 
+2023-12-22 essays 12+
+
+- knowing doing gap. "If I lived today on repeat for 10 years where will I be?" What would happen if I _didn't_ do  X?
+
+
+Insights:
+- self actualization is what we're all doing. We all mostly have shelter, food, job, even if minimum wage.    
 

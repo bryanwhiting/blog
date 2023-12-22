@@ -3,7 +3,6 @@ title: The Allegory of the Dodo
 description: |
   When in having solved a problem we inadvertently create problems for ourselves 
 date: 2023-12-21
-image: photo.jpeg
 categories: [productivity, business, kids books]
 image: dodo.jpeg
 draft: false
