@@ -2,12 +2,15 @@
   {
     "listing": "/christianity.html",
     "items": [
+      "/christianity/2023-12-24-he-is-the-light-that-we-should-share/index.html",
       "/christianity/2023-12-13-three-little-pigs/index.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
+      "/book-reviews/2023-12-23-the-best-of-edgar-allen-poe/index.html",
+      "/book-reviews/2023-12-23-dune/index.html",
       "/book-reviews/2023-12-22-the-killers-of-the-flower-moon/index.html",
       "/posts/2023-12-21-the-dodo/index.html",
       "/posts/2023-12-21-github-copilot-levels-up/index.html",
@@ -55,9 +58,11 @@
     "listing": "/books.html",
     "items": [
       "/book-reviews/2023-12-19-101-essays-to-change-the-way-you-think-by-briana-weist/index.html",
+      "/book-reviews/2023-12-23-dune/index.html",
       "/book-reviews/2022-06-24-getting-things-done/index.html",
       "/book-reviews/2023-12-18-hitchhiker's-guide-to-the-galaxy/index.html",
       "/book-reviews/2023-12-12-scientific-freedom/index.html",
+      "/book-reviews/2023-12-23-the-best-of-edgar-allen-poe/index.html",
       "/book-reviews/2023-12-22-the-killers-of-the-flower-moon/index.html",
       "/book-reviews/2023-12-20-the-little-red-hen/index.html"
     ]
