@@ -80,6 +80,8 @@ format:
     footnotes-hover: true
     citations-hover: true
     # fontsize: 1em
+    callout-appearance: simple
+    callout-icon: false 
 
 
 

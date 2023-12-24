@@ -18,3 +18,10 @@ draft: false
 
 - Hale: self made man. Cowboy. Learned the trade. Got one cow. Then many. Then had 25,000 acres. 
 - Ally. Used his position as a white guy to advocate on behalf of the Osage.  
+- Cherokee nation parceled and "first come first serve" over 42,000 acres 
+- Wild West: private eye 1921 > than local sheriff 
+- 1850 Alan Pinkerton - private eye. 
+- guardians - Osage couldn't spend their own money without approval 
+- criminal's secret eats away at him 
+
+ 
