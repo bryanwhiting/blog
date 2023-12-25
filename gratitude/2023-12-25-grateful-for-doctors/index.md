@@ -24,7 +24,7 @@ I'm grateful for healers of the soul. Christ invited everyone to change their wa
 
 This to me is the meaning of Christmas: healing. Freedom from bruised bodies, broken minds, or hurting hearts. He came to be broken, so that we may be healed. 
 
-> "But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed." [Isaiah 53:5](https://www.churchofjesuschrist.org/study/scriptures/ot/isa/53?id=p5&lang=eng#p5)
+> But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed. [Isaiah 53:5](https://www.churchofjesuschrist.org/study/scriptures/ot/isa/53?id=p5&lang=eng#p5)
 
 > He will take upon him their infirmities, that his bowels may be filled with mercy, according to the flesh, that he may know according to the flesh how to succor his people according to their infirmities. [Alma 7:12](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/7?id=p12&lang=eng#p12)
 
