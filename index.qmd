@@ -1,6 +1,6 @@
 ---
 title: "Recent Posts"
-comments: false # https://quarto.org/docs/output-formats/html-basics.html#disabling-comments
+comments: false
 listing:
   contents: 
     - posts
