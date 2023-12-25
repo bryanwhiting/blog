@@ -1,5 +1,5 @@
 ---
-title: 'Twas the Night before Christmas
+title: Twas the Night before Christmas
 description: |
   The origin of the story, and a link to the 1912 publication. 
 date: 2023-12-24

@@ -1,7 +1,7 @@
 ---
 title: The Christ Child
 description: |
-  The birth of Jesus Christ teach us what we can 
+  The birth of Jesus Christ teach us what we can do to have greater peace in this life
 date: 2023-12-24
 image: photo.jpeg
 categories: [christianity]
