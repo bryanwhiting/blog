@@ -7,5 +7,3 @@ listing:
 ---
 
 Ongoing bookmarks and lists of things I want to remember.
-
-***
