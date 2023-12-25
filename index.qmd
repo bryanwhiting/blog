@@ -15,7 +15,6 @@ listing:
   grid-item-border: true
   fields: [image, date, title, description, reading-time, categories]
   categories: cloud
-  # date-format: "YYYY-MM-DD"
   date-format: "ddd MMM D, YYYY"
   page-size: 5
 toc: false
