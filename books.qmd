@@ -5,3 +5,9 @@ listing:
   contents: book-reviews
   type: grid
 ---
+
+Goal: To spend less time consuming more, more time consuming intentionally.
+
+Mostly incoherent bullet points of thought provoking moments.
+
+***
