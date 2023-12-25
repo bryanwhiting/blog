@@ -8,6 +8,7 @@ categories: [gratitude]
 draft: false
 ---
 
+# The Healers Art
 
 I didn't break my first bone until I was 17, but I visited my first doctor many years before. 
 
@@ -18,6 +19,8 @@ Eventually it went away. But there was also a doctor there each time I got sick.
 I'm grateful for doctors of the mind who help alleviate sicknesses of stress, anxiety, depression, etc. I know more people with some type of recurring emotional distress than I know without. I see the benefits reaped by those who seek emotional healing through therapy. I'm proud of the friends who struggle, but who don't struggle alone. The only way out, is with.
 
 I'm grateful for healers of the soul. Christ invited everyone to change their ways by letting go of the things that didn't bring them true happiness, and focus on the things that do. In one invitation, he urged us to come unto him ["that I may heal you"](https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/9?id=p13&lang=eng#p13). I've witnessed spiritual healing through prayer, which is the process of going from feeling forgotten to then knowing I am a child of God and he has a plan for me. 
+
+# He came to Heal
 
 This to me is the meaning of Christmas: healing. Freedom from bruised bodies, broken minds, or hurting hearts. He came to be broken, so that we may be healed. 
 
