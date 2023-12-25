@@ -5,6 +5,8 @@ listing:
   contents: 
     - posts
     - book-reviews
+    - gratitude
+    - christianity
   feed: true
   sort-ui: true
   sort: 
