@@ -1,0 +1,183 @@
+{
+  "main": {
+    "id": "20dced0d5023a0d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "8badb52e2721377b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be767112276aa446",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "christianity/christmas-empty-tomb/index.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d34faa36ccca26f6",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "78912cccc2282195",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "8cc9e0772b97f8cc",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "d05895df9667cd3d",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "bfecc862b50abf81",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "19fd6f5bf2dff652",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "f8220e66268cf8bb",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "christianity/christmas-empty-tomb/index.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "a17db2dfd7348365",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "christianity/christmas-empty-tomb/index.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "1a42507809c91484",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "christianity/christmas-empty-tomb/index.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "78912cccc2282195",
+  "lastOpenFiles": [
+    "christianity/christmas-empty-tomb/index.md",
+    "christianity/christmas-empty-tomb",
+    "docs/posts/quarto-from-phone/photo.jpeg",
+    "docs/posts/quarto-from-phone/index.html",
+    "docs/posts/quarto-from-phone/repo.jpeg",
+    "docs/posts/quarto-from-phone",
+    "posts/quarto-from-phone/photo.jpeg",
+    "posts/quarto-from-phone/index.md",
+    "posts/quarto-from-phone/repo.jpeg",
+    "posts/quarto-from-phone",
+    "lists.qmd",
+    "CNAME",
+    "_freeze/posts/2017-02-10-ggplot-plotly/ggplot-plotly/crosstalk-1.1.1/js/crosstalk.js",
+    "_freeze/posts/2017-02-10-ggplot-plotly/ggplot-plotly/crosstalk-1.1.1/js/crosstalk.min.js",
+    "_freeze/posts/2017-02-10-ggplot-plotly/ggplot-plotly/crosstalk-1.1.1/js/crosstalk.min.js.map",
+    "_freeze/posts/2017-02-10-ggplot-plotly/ggplot-plotly/crosstalk-1.1.1/js/crosstalk.js.map",
+    "_freeze/posts/2017-02-10-ggplot-plotly/ggplot-plotly/figure-html5/unnamed-chunk-4-1.png",
+    "_freeze/posts/2017-02-10-ggplot-plotly/ggplot-plotly/figure-html5/unnamed-chunk-2-1.png",
+    "_freeze/posts/2017-02-10-ggplot-plotly/ggplot-plotly/figure-html/unnamed-chunk-4-1.png",
+    "_freeze/posts/2017-02-10-ggplot-plotly/ggplot-plotly/figure-html/unnamed-chunk-8-1.png",
+    "gratitude/2023-12-26-i'm-grateful-for-blankets/photo.jpeg",
+    "gratitude/2023-12-26-i'm-grateful-for-blankets/index.md",
+    "gratitude/2023-12-24-light/photo.jpeg",
+    "gratitude/2023-12-24-light/index.md",
+    "gratitude/2023-12-25-grateful-for-doctors/index.md",
+    "christianity/2023-12-24-the-christ-child/index.md",
+    "christianity/2023-12-17-christmas-celebrates-a-living-christ/index.md",
+    "christianity/2023-12-24-he-is-the-light-that-we-should-share/index.md",
+    "christianity/2023-12-13-three-little-pigs/index.md",
+    "christianity/2023-12-31-cfm-rev-15-21/index.md",
+    "lists/ai/index.md",
+    "book-reviews/2023-12-22-the-killers-of-the-flower-moon/index.md",
+    "book-reviews/2022-06-24-getting-things-done/index.md",
+    "book-reviews/2023-12-19-101-essays-to-change-the-way-you-think-by-briana-weist/index.md",
+    "book-reviews/2023-12-20-the-little-red-hen/index.md",
+    "book-reviews/2023-12-23-the-best-of-edgar-allen-poe/index.md",
+    "book-reviews/2023-12-23-dune/index.md",
+    "book-reviews/2023-12-12-scientific-freedom/index.md",
+    "book-reviews/2023-12-18-hitchhiker's-guide-to-the-galaxy/index.md",
+    "posts/2022-12-23-who-do-you-want-to-be-known-for/index.md",
+    "posts/2022-06-28-increase-focus-through-writing-down-everything/index.md",
+    "posts/2023-12-15-prompt-techniques/index.md",
+    "posts/2023-12-13-learn-by-doing/index.md",
+    "posts/2022-11-12-what-is-a-model/index.md",
+    "posts/2022-12-15-chatgpt-rshiny/index.md",
+    "posts/2023-12-12-future-of-coding/index.md"
+  ]
+}
