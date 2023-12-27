@@ -23,5 +23,5 @@ draft: false
 - 1850 Alan Pinkerton - private eye. 
 - guardians - Osage couldn't spend their own money without approval 
 - criminal's secret eats away at him 
-
+- judicial execution is a challenge of taming the evils within even those on the "right side of the law" calling for justice. Do we really need to execute someone? What if they're actually innocent?
  
