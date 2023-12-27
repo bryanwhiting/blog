@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/christmas-empty-tomb/index.md",
-                "mode": "preview",
+                "file": "christianity/Test/index.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/christmas-empty-tomb/index.md",
+            "file": "christianity/Test/index.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/christmas-empty-tomb/index.md",
+            "file": "christianity/Test/index.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/christmas-empty-tomb/index.md"
+            "file": "christianity/Test/index.md"
           }
         }
       }
@@ -131,9 +131,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "78912cccc2282195",
+  "active": "be767112276aa446",
   "lastOpenFiles": [
     "christianity/christmas-empty-tomb/index.md",
+    "christianity/Test/index.md",
+    "christianity/Test",
+    "christianity/christmas-empty-tomb/photo.jpeg",
+    "christianity/christmas-empty-tomb/deadtree.jpeg",
+    "docs/christianity/christmas-empty-tomb/photo.jpeg",
+    "docs/christianity/christmas-empty-tomb/deadtree.jpeg",
+    "docs/christianity/christmas-empty-tomb/index.html",
+    "docs/christianity/christmas-empty-tomb",
     "christianity/christmas-empty-tomb",
     "docs/posts/quarto-from-phone/photo.jpeg",
     "docs/posts/quarto-from-phone/index.html",
@@ -146,16 +154,9 @@
     "lists.qmd",
     "CNAME",
     "_freeze/posts/2017-02-10-ggplot-plotly/ggplot-plotly/crosstalk-1.1.1/js/crosstalk.js",
-    "_freeze/posts/2017-02-10-ggplot-plotly/ggplot-plotly/crosstalk-1.1.1/js/crosstalk.min.js",
-    "_freeze/posts/2017-02-10-ggplot-plotly/ggplot-plotly/crosstalk-1.1.1/js/crosstalk.min.js.map",
-    "_freeze/posts/2017-02-10-ggplot-plotly/ggplot-plotly/crosstalk-1.1.1/js/crosstalk.js.map",
     "_freeze/posts/2017-02-10-ggplot-plotly/ggplot-plotly/figure-html5/unnamed-chunk-4-1.png",
     "_freeze/posts/2017-02-10-ggplot-plotly/ggplot-plotly/figure-html5/unnamed-chunk-2-1.png",
-    "_freeze/posts/2017-02-10-ggplot-plotly/ggplot-plotly/figure-html/unnamed-chunk-4-1.png",
-    "_freeze/posts/2017-02-10-ggplot-plotly/ggplot-plotly/figure-html/unnamed-chunk-8-1.png",
-    "gratitude/2023-12-26-i'm-grateful-for-blankets/photo.jpeg",
     "gratitude/2023-12-26-i'm-grateful-for-blankets/index.md",
-    "gratitude/2023-12-24-light/photo.jpeg",
     "gratitude/2023-12-24-light/index.md",
     "gratitude/2023-12-25-grateful-for-doctors/index.md",
     "christianity/2023-12-24-the-christ-child/index.md",
@@ -177,7 +178,6 @@
     "posts/2023-12-15-prompt-techniques/index.md",
     "posts/2023-12-13-learn-by-doing/index.md",
     "posts/2022-11-12-what-is-a-model/index.md",
-    "posts/2022-12-15-chatgpt-rshiny/index.md",
-    "posts/2023-12-12-future-of-coding/index.md"
+    "posts/2022-12-15-chatgpt-rshiny/index.md"
   ]
 }
