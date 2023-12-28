@@ -1,5 +1,30 @@
 {
   "newLinkFormat": "relative",
   "useMarkdownLinks": true,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "mobileToolbarCommands": [
+    "obsidian-footnotes:insert-autonumbered-footnote",
+    "editor:insert-wikilink",
+    "editor:insert-embed",
+    "editor:undo",
+    "editor:toggle-blockquote",
+    "editor:toggle-bold",
+    "editor:toggle-highlight",
+    "editor:set-heading",
+    "editor:toggle-italics",
+    "editor:toggle-strikethrough",
+    "editor:paste",
+    "url-into-selection:paste-url-into-selection",
+    "editor:toggle-bullet-list",
+    "editor:insert-tag",
+    "editor:toggle-numbered-list",
+    "editor:attach-file",
+    "editor:insert-link",
+    "editor:toggle-checklist-status",
+    "editor:indent-list",
+    "editor:unindent-list",
+    "editor:redo",
+    "editor:configure-toolbar",
+    "editor:toggle-source"
+  ]
 }
