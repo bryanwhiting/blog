@@ -11,27 +11,30 @@ draft: false
 ::: callout-tip
 This post speaks to how I manage spiritual doubts, such as whether God exists. It got me thinking after reading a few religious posts by [Rob Hybdman](https://robjhyndman.com/unbelievable/ch1.html), someone whose professional (data science) work I greatly admire. 
 
-- People who saw Christ didn't recognize Him as the Savior
+Here's a summary of some points I try to make here:
+
 - He doesn't try to convince us to believe Him without a doubt, He asks us to follow him
+- People who saw Christ didn't even recognize Him as the Savior
 - Christianity is hard to grasp and won't make total sense when you think deeply about it. 
+- Our job is to keep learning, and ask Him to teach us about His nature
 
 :::
 
-The title of this post is a bit misleading, because I think God is both inconvenient and convenient. But it's meant to shock a little, because I think too many people grow up thinking of God in black/white terms and when one linking piece of the puzzle doesn't fit or is missing, they throw Him out all together.
-
-I don't try to speak for other religions either, all I have is my own. Here's my take on why people misrepresent God, and how this can lead to personal doubts of faith in Him and His Son. 
+I think too many people grow up thinking of God in black/white terms and when one, linking piece of the puzzle doesn't fit or is missing, some throw Him out all together. Here's my take on why people misrepresent God, and how this can lead to personal doubts of faith in Him and His Son. 
 
 ![Christ asking his disciples, "Whom say he that I am?"](photo.jpeg){.preview-image}
 
 
 # An unknown God
 
-A certain Philosopher named Korihor once reasoned that people should stop paying tithing or following restrictive religious commandments because...like why? Here's his thinking:
+A certain philosopher named Korihor once reasoned that people should stop paying tithing or following restrictive religious commandments because they're wasting their time. Here's his thinking:
 
 > Yea, they durst not make use of that which is their own lest they should offend their priests, who do yoke them according to their desires, and have brought them to believe, ==by their traditions and their dreams and their whims and their visions== and their ==pretended mysteries==, that they should, if they did not do according to their words, ==offend some unknown being, who they say is God==—a being who never has been seen or known, who never was nor ever will be. 
 > - [Alma 30:28](https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/30?id=p28&lang=eng#p28)
 
-I love this because the argument of whether God exists or Christ was the Savior is nothing new, though many people I highly regard are tackling this "new" issue head on. A lot of the same arguments that have existed continue to exist: why believe? It's not like anyone's ever seen God anyway. 
+I love this because the argument of whether God exists or if Christ was the Savior is nothing new. (And many people I highly regard and esteem are tackling this "new" issue head on, as many in the world are questioning their faith.) But a lot of the same arguments that have existed continue to exist: why believe? 
+
+...It's not like anyone's ever seen God anyway. 
 
 Let's assume for a minute that they have seen God. They saw His Son, His mortal example, walk the earth ([John 5:19](https://www.churchofjesuschrist.org/study/scriptures/nt/john/5?id=p19&lang=eng#p19)).
 
