@@ -1,7 +1,7 @@
 <%*
 
 /// Define the list of folders
-const folders = ["book-reviews", "christianity", "gratitude", "posts"];
+const folders = ["book-review", "christianity", "gratitude", "posts"];
 
 // Use the suggester to let the user choose a folder
 let folder = await tp.system.suggester(folders, folders);

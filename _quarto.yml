@@ -83,6 +83,7 @@ format:
     # fontsize: 1em
     callout-appearance: simple
     callout-icon: false 
+    title-block-banner: true
 
 
 

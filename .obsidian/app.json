@@ -28,5 +28,6 @@
     "templater-obsidian:create-new-note-from-template"
   ],
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "mobilePullAction": "omnisearch:show-modal"
 }

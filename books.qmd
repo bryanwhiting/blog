@@ -1,8 +1,8 @@
 ---
-title: "Book Reviews/Notes"
+title: "Book Reviews"
 comments: false
 listing:
-  contents: book-reviews
+  contents: book-review
   type: grid
 ---
 

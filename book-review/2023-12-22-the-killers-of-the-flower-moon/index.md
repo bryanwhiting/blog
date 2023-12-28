@@ -1,11 +1,13 @@
 ---
 title: The Killers of the Flower Moon
-description: |
-  
+description: An incredible story of how low, sick and twisted humanity can get, and how good people can truly be.
 date: 2023-12-22
 image: photo.jpeg
-categories: [book review]
+categories:
+  - book review
+  - storytelling
 draft: false
+date-finished: ""
 ---
 
 ![](photo.jpeg){.preview-image}
@@ -24,4 +26,10 @@ draft: false
 - guardians - Osage couldn't spend their own money without approval 
 - criminal's secret eats away at him 
 - judicial execution is a challenge of taming the evils within even those on the "right side of the law" calling for justice. Do we really need to execute someone? What if they're actually innocent?
- 
+
+Earnest Burkheart's confession:
+- similar to [The Tell Tale heart](../2023-12-23-the-best-of-edgar-allen-poe/index.md). Someone feels better letting go of lying and coming clean. He was a happy man, even living in prison the rest of his life.
+- Why doesn't Hale feel this way?
+
+Storytelling:
+- Zoom out of the big picture, get to some conclusion of Earnest's story, then get back to the main plot. Wrap up the branches, perhaps with some summary or quip. 

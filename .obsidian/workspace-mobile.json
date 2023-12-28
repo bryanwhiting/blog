@@ -15,7 +15,7 @@
               "state": {
                 "file": "_templates/new-post.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -130,13 +130,19 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "custom-sort:Toggle custom sorting": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "Untitled.md",
+    "resume.pdf",
+    "book-reviews/2023-12-22-the-killers-of-the-flower-moon/index.md",
+    "posts/_template/index.md",
+    "2023-12-22.md",
+    "book-reviews/2023-12-23-the-best-of-edgar-allen-poe/index.md",
     "_templates/new-post.md",
+    "Untitled.md",
     "docs/gratitude/img/little-lamb.png",
     "docs/gratitude/img",
     "docs/gratitude/grateful-for-artists.html",
@@ -175,10 +181,6 @@
     "christianity/2023-12-24-the-christ-child/index.md",
     "christianity/2023-12-17-christmas-celebrates-a-living-christ/index.md",
     "christianity/2023-12-24-he-is-the-light-that-we-should-share/index.md",
-    "christianity/2023-12-13-three-little-pigs/index.md",
-    "lists/ai/index.md",
-    "book-reviews/2023-12-22-the-killers-of-the-flower-moon/index.md",
-    "book-reviews/2022-06-24-getting-things-done/index.md",
-    "book-reviews/2023-12-19-101-essays-to-change-the-way-you-think-by-briana-weist/index.md"
+    "christianity/2023-12-13-three-little-pigs/index.md"
   ]
 }
