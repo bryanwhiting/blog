@@ -30,5 +30,6 @@ draft: false
 
 `;
 
-tp.file.rename(`${folder}/${fileNameSlug}.md`);
-%>
+const filepath = `${folder}/${fileNameSlug}.md`
+await tp.file.move(filepath)
+-%>
