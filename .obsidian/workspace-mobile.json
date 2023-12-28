@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/inconvenient-god/index.md",
+                "file": "christianity/christmas-empty-tomb/index.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -34,7 +34,7 @@
         "state": {
           "type": "file-explorer",
           "state": {
-            "sortOrder": "alphabetical"
+            "sortOrder": "byCreatedTimeReverse"
           }
         }
       },
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/inconvenient-god/index.md",
+            "file": "christianity/christmas-empty-tomb/index.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/inconvenient-god/index.md",
+            "file": "christianity/christmas-empty-tomb/index.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/inconvenient-god/index.md"
+            "file": "christianity/christmas-empty-tomb/index.md"
           }
         }
       }
@@ -133,6 +133,8 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "christianity/2023-12-31-cfm-rev-15-21/index.md",
+    "christianity/christmas-empty-tomb/index.md",
     "docs/christianity/inconvenient-god/photo.jpeg",
     "docs/christianity/inconvenient-god/index.html",
     "docs/christianity/inconvenient-god",
@@ -141,7 +143,6 @@
     "christianity/Test/index.md",
     "christianity/inconvenient-god/index.md",
     "christianity/inconvenient-god",
-    "christianity/christmas-empty-tomb/index.md",
     "christianity/Test",
     "christianity/christmas-empty-tomb/photo.jpeg",
     "christianity/christmas-empty-tomb/deadtree.jpeg",
@@ -156,7 +157,6 @@
     "docs/posts/quarto-from-phone",
     "posts/quarto-from-phone/photo.jpeg",
     "posts/quarto-from-phone/index.md",
-    "posts/quarto-from-phone/repo.jpeg",
     "posts/quarto-from-phone",
     "gratitude/2023-12-26-i'm-grateful-for-blankets/index.md",
     "gratitude/2023-12-24-light/index.md",
@@ -165,7 +165,6 @@
     "christianity/2023-12-17-christmas-celebrates-a-living-christ/index.md",
     "christianity/2023-12-24-he-is-the-light-that-we-should-share/index.md",
     "christianity/2023-12-13-three-little-pigs/index.md",
-    "christianity/2023-12-31-cfm-rev-15-21/index.md",
     "lists/ai/index.md",
     "book-reviews/2023-12-22-the-killers-of-the-flower-moon/index.md",
     "book-reviews/2022-06-24-getting-things-done/index.md",
