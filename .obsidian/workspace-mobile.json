@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/christmas-empty-tomb/index.md",
+                "file": "sortspec.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/christmas-empty-tomb/index.md",
+            "file": "sortspec.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/christmas-empty-tomb/index.md",
+            "file": "sortspec.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/christmas-empty-tomb/index.md"
+            "file": "sortspec.md"
           }
         }
       }
@@ -128,13 +128,18 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "custom-sort:Toggle custom sorting": false
     }
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "christianity/2023-12-31-cfm-rev-15-21/index.md",
     "christianity/christmas-empty-tomb/index.md",
+    "sortspec.md",
+    "docs/christianity/unknown-god/photo.jpeg",
+    "docs/christianity/unknown-god/index.html",
+    "docs/christianity/unknown-god",
+    "christianity/2023-12-31-cfm-rev-15-21/index.md",
     "docs/christianity/inconvenient-god/photo.jpeg",
     "docs/christianity/inconvenient-god/index.html",
     "docs/christianity/inconvenient-god",
@@ -154,10 +159,7 @@
     "docs/posts/quarto-from-phone/photo.jpeg",
     "docs/posts/quarto-from-phone/index.html",
     "docs/posts/quarto-from-phone/repo.jpeg",
-    "docs/posts/quarto-from-phone",
-    "posts/quarto-from-phone/photo.jpeg",
     "posts/quarto-from-phone/index.md",
-    "posts/quarto-from-phone",
     "gratitude/2023-12-26-i'm-grateful-for-blankets/index.md",
     "gratitude/2023-12-24-light/index.md",
     "gratitude/2023-12-25-grateful-for-doctors/index.md",
