@@ -11,14 +11,6 @@
     ]
   },
   {
-    "listing": "/gratitude.html",
-    "items": [
-      "/gratitude/2023-12-26-i'm-grateful-for-blankets/index.html",
-      "/gratitude/2023-12-25-grateful-for-doctors/index.html",
-      "/gratitude/2023-12-24-light/index.html"
-    ]
-  },
-  {
     "listing": "/lists.html",
     "items": [
       "/lists/ai/index.html"
@@ -41,6 +33,7 @@
     "listing": "/index.html",
     "items": [
       "/christianity/christmas-empty-tomb/index.html",
+      "/gratitude/grateful-for-artists.html",
       "/christianity/unknown-god/index.html",
       "/posts/writing-is-enlivening/index.html",
       "/posts/write-despite-ai/index.html",
@@ -98,6 +91,15 @@
       "/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html",
       "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
       "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html"
+    ]
+  },
+  {
+    "listing": "/gratitude.html",
+    "items": [
+      "/gratitude/grateful-for-artists.html",
+      "/gratitude/2023-12-26-i'm-grateful-for-blankets/index.html",
+      "/gratitude/2023-12-25-grateful-for-doctors/index.html",
+      "/gratitude/2023-12-24-light/index.html"
     ]
   }
 ]
