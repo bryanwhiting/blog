@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sortspec.md",
+                "file": "gratitude/grateful-for-artists/index.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "sortspec.md",
+            "file": "gratitude/grateful-for-artists/index.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "sortspec.md",
+            "file": "gratitude/grateful-for-artists/index.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "sortspec.md"
+            "file": "gratitude/grateful-for-artists/index.md"
           }
         }
       }
@@ -134,8 +134,12 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "christianity/christmas-empty-tomb/index.md",
+    "book-reviews/2023-12-23-dune/index.md",
+    "gratitude/grateful-for-artists/index.md",
+    "gratitude/grateful-for-artists",
     "sortspec.md",
+    "docs/sortspec.html",
+    "christianity/christmas-empty-tomb/index.md",
     "docs/christianity/unknown-god/photo.jpeg",
     "docs/christianity/unknown-god/index.html",
     "docs/christianity/unknown-god",
@@ -155,9 +159,7 @@
     "docs/christianity/christmas-empty-tomb/deadtree.jpeg",
     "docs/christianity/christmas-empty-tomb/index.html",
     "docs/christianity/christmas-empty-tomb",
-    "christianity/christmas-empty-tomb",
     "docs/posts/quarto-from-phone/photo.jpeg",
-    "docs/posts/quarto-from-phone/index.html",
     "docs/posts/quarto-from-phone/repo.jpeg",
     "posts/quarto-from-phone/index.md",
     "gratitude/2023-12-26-i'm-grateful-for-blankets/index.md",
@@ -173,12 +175,10 @@
     "book-reviews/2023-12-19-101-essays-to-change-the-way-you-think-by-briana-weist/index.md",
     "book-reviews/2023-12-20-the-little-red-hen/index.md",
     "book-reviews/2023-12-23-the-best-of-edgar-allen-poe/index.md",
-    "book-reviews/2023-12-23-dune/index.md",
     "book-reviews/2023-12-12-scientific-freedom/index.md",
     "book-reviews/2023-12-18-hitchhiker's-guide-to-the-galaxy/index.md",
     "posts/2022-12-23-who-do-you-want-to-be-known-for/index.md",
     "posts/2022-06-28-increase-focus-through-writing-down-everything/index.md",
-    "posts/2023-12-15-prompt-techniques/index.md",
-    "posts/2023-12-13-learn-by-doing/index.md"
+    "posts/2023-12-15-prompt-techniques/index.md"
   ]
 }

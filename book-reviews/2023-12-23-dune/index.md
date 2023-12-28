@@ -15,7 +15,6 @@ draft: false
 
 ![](photo.jpeg){.preview-image}
 
-
 - shield your son too much and he'll not grow strong enough to fulfill any destiny 
 - deprogram after the machines. Let the machines do too much thinking. 
 - humans must never submit to animals
@@ -23,8 +22,9 @@ draft: false
 - "the mind commands the body and it obeys. It commands itself and it rebels"
 
 Connections:
-- Alan Pinkerton (killers of the flower moon) "secrets break the character of the criminal till they give it out". Dr Yiwei cries when his scripture is given out.  
+- Alan Pinkerton [killers](../2023-12-22-the-killers-of-the-flower-moon/index.md) "secrets break the character of the criminal till they give it out". Dr Yueh cries when his scripture is given out.  
 
+Notes:
 - if I made him do it it wouldn't be his doing. 
 - storytelling: why tell us 100% of everything up front? The movie hides the secrets about Yueh. 
 - storytelling: the hindsight narrator

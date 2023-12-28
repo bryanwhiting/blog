@@ -26,5 +26,6 @@
     "editor:redo",
     "editor:configure-toolbar",
     "editor:toggle-source"
-  ]
+  ],
+  "alwaysUpdateLinks": true
 }

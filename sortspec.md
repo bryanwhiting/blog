@@ -1,7 +1,10 @@
 ---
 sorting-spec: |
   target-folder: /*
+  gratitude.qmd
+  christianity.qmd
   /folders
+  
   /:files
   
   > advanced created
