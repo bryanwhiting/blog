@@ -84,7 +84,7 @@ format:
     callout-appearance: simple
     callout-icon: false 
     title-block-banner: true
-    date-format: "ddd MMM D, YYYY"
+    date-format: "dddd MMMM D, YYYY"
 
 
 
