@@ -60,6 +60,10 @@ format:
     # author: "Bryan Whiting"
     theme: sandstone
     css: styles.css
+    template-partials:
+      - title-metadata.html
+      # - title-block.html
+    
     comments:
       giscus: 
         repo: bryanwhiting/blog
