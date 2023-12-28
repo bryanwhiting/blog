@@ -2,7 +2,16 @@
 sorting-spec: |
   target-folder: /*
   /folders
-   > advanced created
   /:files
-   > modified
+  
+  > advanced created
+  
+  target-folder: book-reviews/*
+  > advanced modified
 ---
+Sorta 
+
+
+Sorting notes: [readme](https://github.com/SebastianMC/obsidian-custom-sort/blob/master/docs/advanced-README.md)
+
+Custom File Explorer sorting package. 
