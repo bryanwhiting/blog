@@ -11,22 +11,12 @@
     ]
   },
   {
-    "listing": "/lists.html",
+    "listing": "/gratitude.html",
     "items": [
-      "/lists/ai/index.html"
-    ]
-  },
-  {
-    "listing": "/books.html",
-    "items": [
-      "/book-reviews/2023-12-19-101-essays-to-change-the-way-you-think-by-briana-weist/index.html",
-      "/book-reviews/2023-12-23-dune/index.html",
-      "/book-reviews/2022-06-24-getting-things-done/index.html",
-      "/book-reviews/2023-12-18-hitchhiker's-guide-to-the-galaxy/index.html",
-      "/book-reviews/2023-12-12-scientific-freedom/index.html",
-      "/book-reviews/2023-12-23-the-best-of-edgar-allen-poe/index.html",
-      "/book-reviews/2023-12-22-the-killers-of-the-flower-moon/index.html",
-      "/book-reviews/2023-12-20-the-little-red-hen/index.html"
+      "/gratitude/grateful-for-artists.html",
+      "/gratitude/2023-12-26-i'm-grateful-for-blankets/index.html",
+      "/gratitude/2023-12-25-grateful-for-doctors/index.html",
+      "/gratitude/2023-12-24-light/index.html"
     ]
   },
   {
@@ -46,22 +36,22 @@
       "/christianity/2023-12-24-the-christ-child/index.html",
       "/gratitude/2023-12-24-light/index.html",
       "/christianity/2023-12-24-he-is-the-light-that-we-should-share/index.html",
-      "/book-reviews/2023-12-23-the-best-of-edgar-allen-poe/index.html",
-      "/book-reviews/2023-12-23-dune/index.html",
-      "/book-reviews/2023-12-22-the-killers-of-the-flower-moon/index.html",
+      "/book-review/2023-12-23-the-best-of-edgar-allen-poe/index.html",
+      "/book-review/2023-12-23-dune/index.html",
+      "/book-review/2023-12-22-the-killers-of-the-flower-moon/index.html",
       "/posts/2023-12-21-the-dodo/index.html",
       "/posts/2023-12-21-github-copilot-levels-up/index.html",
-      "/book-reviews/2023-12-20-the-little-red-hen/index.html",
+      "/book-review/2023-12-20-the-little-red-hen/index.html",
       "/posts/2023-12-19-how-to-encourage-your-kids-/index.html",
-      "/book-reviews/2023-12-19-101-essays-to-change-the-way-you-think-by-briana-weist/index.html",
-      "/book-reviews/2023-12-18-hitchhiker's-guide-to-the-galaxy/index.html",
+      "/book-review/2023-12-19-101-essays-to-change-the-way-you-think-by-briana-weist/index.html",
+      "/book-review/2023-12-18-hitchhiker's-guide-to-the-galaxy/index.html",
       "/christianity/2023-12-17-christmas-celebrates-a-living-christ/index.html",
       "/posts/2023-12-16-humanity-and-ai/index.html",
       "/posts/2023-12-15-prompt-techniques/index.html",
       "/posts/2023-12-15-llms-can-find-a-needle-in-the-haystack/index.html",
       "/christianity/2023-12-13-three-little-pigs/index.html",
       "/posts/2023-12-13-learn-by-doing/index.html",
-      "/book-reviews/2023-12-12-scientific-freedom/index.html",
+      "/book-review/2023-12-12-scientific-freedom/index.html",
       "/posts/2023-12-12-future-of-coding/index.html",
       "/posts/2022-12-23-who-do-you-want-to-be-known-for/index.html",
       "/posts/2022-12-15-chatgpt-rshiny/index.html",
@@ -74,7 +64,7 @@
       "/posts/2022-06-28-pomodoro-principles/index.html",
       "/posts/2022-06-28-increase-focus-through-writing-down-everything/index.html",
       "/posts/2022-06-25-how-i-use-ticktick/index.html",
-      "/book-reviews/2022-06-24-getting-things-done/index.html",
+      "/book-review/2022-06-24-getting-things-done/index.html",
       "/posts/2022-06-23-the-best-todolist-manager/index.html",
       "/posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html",
       "/posts/2022-06-22-downstream-impact/index.html",
@@ -94,12 +84,22 @@
     ]
   },
   {
-    "listing": "/gratitude.html",
+    "listing": "/books.html",
     "items": [
-      "/gratitude/grateful-for-artists.html",
-      "/gratitude/2023-12-26-i'm-grateful-for-blankets/index.html",
-      "/gratitude/2023-12-25-grateful-for-doctors/index.html",
-      "/gratitude/2023-12-24-light/index.html"
+      "/book-review/2023-12-19-101-essays-to-change-the-way-you-think-by-briana-weist/index.html",
+      "/book-review/2023-12-23-dune/index.html",
+      "/book-review/2022-06-24-getting-things-done/index.html",
+      "/book-review/2023-12-18-hitchhiker's-guide-to-the-galaxy/index.html",
+      "/book-review/2023-12-12-scientific-freedom/index.html",
+      "/book-review/2023-12-23-the-best-of-edgar-allen-poe/index.html",
+      "/book-review/2023-12-22-the-killers-of-the-flower-moon/index.html",
+      "/book-review/2023-12-20-the-little-red-hen/index.html"
+    ]
+  },
+  {
+    "listing": "/lists.html",
+    "items": [
+      "/lists/ai/index.html"
     ]
   }
 ]
