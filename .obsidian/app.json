@@ -14,7 +14,6 @@
     "editor:toggle-italics",
     "editor:toggle-strikethrough",
     "editor:paste",
-    "url-into-selection:paste-url-into-selection",
     "editor:toggle-bullet-list",
     "editor:insert-tag",
     "editor:toggle-numbered-list",
@@ -25,7 +24,9 @@
     "editor:unindent-list",
     "editor:redo",
     "editor:configure-toolbar",
-    "editor:toggle-source"
+    "editor:toggle-source",
+    "templater-obsidian:create-new-note-from-template"
   ],
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "promptDelete": false
 }

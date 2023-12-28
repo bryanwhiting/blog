@@ -22,7 +22,12 @@
     "spacing": 0,
     "buttonWidth": 48,
     "columnLayout": true,
-    "mappedIcons": [],
+    "mappedIcons": [
+      {
+        "commandID": "templater-obsidian:create-new-note-from-template",
+        "iconID": "copy"
+      }
+    ],
     "tooltips": false,
     "heightOffset": 0
   }
