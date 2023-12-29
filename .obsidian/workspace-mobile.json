@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_templates/link-to-file.md",
+                "file": "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
                 "mode": "source",
                 "source": true
               }
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "_templates/link-to-file.md",
+            "file": "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,24 +110,24 @@
         }
       },
       {
-        "id": "a17db2dfd7348365",
-        "type": "leaf",
-        "state": {
-          "type": "outgoing-link",
-          "state": {
-            "file": "_templates/link-to-file.md",
-            "linksCollapsed": false,
-            "unlinkedCollapsed": true
-          }
-        }
-      },
-      {
         "id": "1a42507809c91484",
         "type": "leaf",
         "state": {
           "type": "outline",
           "state": {
-            "file": "_templates/link-to-file.md"
+            "file": "book-review/how-to-decide-simple-tools-for-making-better-choices.md"
+          }
+        }
+      },
+      {
+        "id": "6faf53c7ef446290",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
           }
         }
       }
@@ -137,28 +137,24 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "custom-sort:Toggle custom sorting": false,
       "templater-obsidian:Templater": false,
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "78912cccc2282195",
+  "active": "ba4750059d7c4841",
   "lastOpenFiles": [
+    "_templates/link-to-file.md",
+    "LOGGING-NOTE (iPhone).md",
     "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
     "posts/flip-a-coin.md",
     "Untitled 2.md",
-    "_templates/link-to-file.md",
     "[leaving-my-startup-was-the-right-decision](../posts/leaving-my-startup-was-the-right-decision.md).md",
     "[leaving-my-startup-was-the-right-decision](..",
     "[leaving-my-startup-was-the-right-decision](../posts",
     "Untitled 1.md",
     "Untitled.md",
-    "LOGGING-NOTE (iPhone).md",
     "docs/book-review/img",
     "docs/posts/flip-a-coin.html",
     "docs/Reading list.html",
