@@ -4,6 +4,15 @@ comments: false
 listing:
   contents: book-review
   type: grid
+  sort: 
+    - "date desc"
+    - "title asc"
+  sort-ui: [date, title]
+  filter-ui: [date, title]
+  page-size: 30
+  grid-item-border: true
+  feed: true
+  categories: cloud
 ---
 
 Goal: To spend less time consuming more, more time consuming intentionally.

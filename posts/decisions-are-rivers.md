@@ -7,9 +7,8 @@ date: 2023-12-28
 draft: false
 ---
 
-Reading [how-to-decide-simple-tools-for-making-better-choices](../book-review/how-to-decide-simple-tools-for-making-better-choices.md) and thinking about decisions. 
-
-I like to think of decisions as rivers.
+I'm reading
+[How to Decide: Simple Tools for Making Better Choices](../book-review/how-to-decide-simple-tools-for-making-better-choices.md) and thinking about decisions. I like to think of decisions as rivers.
 
 Like decisions, all rivers lead somewhere. Where is your river heading?
 

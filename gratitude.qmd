@@ -4,6 +4,15 @@ comments: false
 listing:
   contents: gratitude
   type: grid
+  sort: 
+    - "date desc"
+    - "title asc"
+  sort-ui: [date, title]
+  filter-ui: [date, title]
+  page-size: 30
+  grid-item-border: true
+  feed: true
+  categories: cloud
 ---
 
 "Gratus sum, [ergo](https://en.wikipedia.org/wiki/Cogito,_ergo_sum) habeo." (I'm thankful, therefore I have.)

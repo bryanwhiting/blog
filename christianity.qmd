@@ -3,7 +3,16 @@ title: "Christianity"
 comments: false
 listing:
   contents: christianity
-  type: "default"
+  type: grid
+  sort: 
+    - "date desc"
+    - "title asc"
+  sort-ui: [date, title]
+  filter-ui: [date, title]
+  page-size: 30
+  grid-item-border: true
+  feed: true
+  categories: cloud
 ---
 
 I'm a Christian, which means I believe in a Savior and Messiah who was born miraculously, lived perfectly, gave His life selflessly, and resurrected divinely so that there's hope in this life for all of us. He was the perfect example of how to treat everyone with kindness, respect, and decency. He also taught his students how to think deeply, lead unconventionally, and live life with selfless purpose. His life is filled with a richness worth studying. These are my notes.

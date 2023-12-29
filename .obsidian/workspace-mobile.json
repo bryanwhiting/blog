@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/flip-a-coin-and-not-fail.md",
+                "file": "posts/leaving-my-startup-was-the-right-decision.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/flip-a-coin-and-not-fail.md",
+            "file": "posts/leaving-my-startup-was-the-right-decision.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/flip-a-coin-and-not-fail.md"
+            "file": "posts/leaving-my-startup-was-the-right-decision.md"
           }
         }
       },
@@ -125,7 +125,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/flip-a-coin-and-not-fail.md",
+            "file": "posts/leaving-my-startup-was-the-right-decision.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -145,10 +145,12 @@
   },
   "active": "ba4750059d7c4841",
   "lastOpenFiles": [
+    "posts/decisions-are-rivers.md",
+    "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
+    "posts/leaving-my-startup-was-the-right-decision.md",
+    "posts/flip-a-coin-and-not-fail.md",
     "img/flip-five-coins.png",
     "_templates/link-to-file.md",
-    "posts/flip-a-coin-and-not-fail.md",
-    "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
     "img/book-how-to-decide.png",
     "[LOGGING-NOTE.md",
     "LOGGING-NOTE (iPhone).md",
@@ -167,11 +169,9 @@
     "docs/img/walking-away.png",
     "docs/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
     "Reading list.md",
-    "posts/leaving-my-startup-was-the-right-decision.md",
     "docs/book-review/how-to-decide-simple-tools-for-making-better-choices.md.html",
     "img/walking-away.png",
     "_templates/new-post.md",
-    "posts/decisions-are-rivers.md",
     "docs/img/how-to-decide.jpg",
     "book-review/img",
     "book-review/2023-12-22-the-killers-of-the-flower-moon/index.md",
@@ -189,7 +189,6 @@
     "img/little-lamb.png.md",
     "book-reviews/2023-12-23-dune/index.md",
     "little-lamb.png.md",
-    "docs/christianity/unknown-god/photo.jpeg",
-    "docs/christianity/inconvenient-god/photo.jpeg"
+    "docs/christianity/unknown-god/photo.jpeg"
   ]
 }
