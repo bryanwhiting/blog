@@ -20,7 +20,11 @@
     "editor:insert-wikilink",
     "editor:insert-tag",
     "editor:toggle-checklist-status",
-    "editor:configure-toolbar"
+    "editor:configure-toolbar",
+    "editor:indent-list",
+    "editor:unindent-list",
+    "editor:toggle-code",
+    "editor:insert-link"
   ],
   "alwaysUpdateLinks": true,
   "promptDelete": false,

@@ -1,6 +1,6 @@
 ---
 title: Blogging with Obsidian and Quarto
-description: ""
+description: My framework and flow for blogging from my phone using Obsidian and Quarto.
 date: 2023-12-29
 categories:
   - obsidian
