@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/leaving-my-startup-was-the-right-decision.md",
+                "file": "posts/how-to-blog-with-obsidian-and-quarto.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/leaving-my-startup-was-the-right-decision.md",
+            "file": "posts/how-to-blog-with-obsidian-and-quarto.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/leaving-my-startup-was-the-right-decision.md"
+            "file": "posts/how-to-blog-with-obsidian-and-quarto.md"
           }
         }
       },
@@ -125,7 +125,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/leaving-my-startup-was-the-right-decision.md",
+            "file": "posts/how-to-blog-with-obsidian-and-quarto.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -145,9 +145,15 @@
   },
   "active": "ba4750059d7c4841",
   "lastOpenFiles": [
+    "posts/quarto-vs-quartz-for-obsidian.md",
+    "posts/how-to-blog-with-obsidian-and-quarto.md",
+    "christianity/is-christianity-true.md",
+    "posts/poem-timeless.md",
+    "img/dalle-timeless.png",
+    "Untitled.md",
+    "posts/leaving-my-startup-was-the-right-decision.md",
     "posts/decisions-are-rivers.md",
     "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
-    "posts/leaving-my-startup-was-the-right-decision.md",
     "posts/flip-a-coin-and-not-fail.md",
     "img/flip-five-coins.png",
     "_templates/link-to-file.md",
@@ -159,7 +165,6 @@
     "[leaving-my-startup-was-the-right-decision](../posts/leaving-my-startup-was-the-right-decision.md).md",
     "[leaving-my-startup-was-the-right-decision](..",
     "[leaving-my-startup-was-the-right-decision](../posts",
-    "Untitled 1.md",
     "docs/book-review/img",
     "docs/posts/flip-a-coin.html",
     "docs/Reading list.html",
@@ -185,10 +190,6 @@
     "christianity/hello-world.md",
     "book-reviews/new-books-on-taoe.md",
     "gratitude/grateful-for-artists.md",
-    "gratitude/img/little-lamb.png",
-    "img/little-lamb.png.md",
-    "book-reviews/2023-12-23-dune/index.md",
-    "little-lamb.png.md",
-    "docs/christianity/unknown-god/photo.jpeg"
+    "gratitude/img/little-lamb.png"
   ]
 }

@@ -20,6 +20,12 @@
       "icon": "lucide-terminal-square",
       "name": "Command palette: Open command palette",
       "mode": "any"
+    },
+    {
+      "id": "templater-obsidian:create-new-note-from-template",
+      "icon": "copy",
+      "name": "Templater: Create new note from template",
+      "mode": "any"
     }
   ],
   "macros": [],
