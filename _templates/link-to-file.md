@@ -1,25 +1,41 @@
 <%*
-// Process selected file
-let files = app.vault.g;
-let fileNames = files.map(file => file.basename);
-let selectedFile = await tp.system.suggester(fileNames, files);
+// Get all files in the vault
+let allFiles = app.vault.getFiles();
+
+// File extensions you want to include
+let includedExtensions = ['md', 'jpg', 'png', 'jpeg']; // Add or remove extensions as needed
+
+// Directories you want to exclude
+let excludedDirectories = ['renv/', 'docs/', '_templates/']; // Replace with your directory names
+
+// Filter files to meet ex/inclusions
+let filteredFiles = allFiles.filter(file => includedExtensions.includes(file.extension) && !excludedDirectories.some(dir => file.path.includes(dir))
+);
+
+// Create a list of file names with extensions for the suggester
+let fileNamesWithExtensions = filteredFiles.map(file => file.name);
+
+// Use the suggester to select a file
+let selectedFile = await tp.system.suggester(fileNamesWithExtensions, filteredFiles);
+
 
 if (selectedFile) {
+
     // Extract title from file's YAML frontmatter or use file basename
     let frontMatter = app.metadataCache.getFileCache(selectedFile)?.frontmatter;
     let fileTitle = frontMatter?.title || selectedFile.basename;
 
-    // Generate relative path
+    // Generate markdown path to the current file
     let fullMarkdownLink = app.fileManager.generateMarkdownLink(selectedFile, app.workspace.getActiveFile().path);
+    
     // Use a regular expression to extract the relative path
     let relPathMatch = fullMarkdownLink.match(/\]\((.*?)\)/);
-    
     let relPath = relPathMatch ? relPathMatch[1] : null;
 
     // Determine if the file is an image and insert appropriate markdown
     if (['jpg', 'png', 'jpeg'].includes(selectedFile.extension)) {
         let caption = await tp.system.prompt("Enter caption for the image:");
-        tp.file.cursor_append(`![${caption}](${relPath}){.preview-image`);
+        tp.file.cursor_append(`![${caption}](${relPath}){.preview-image}`);
     } else {
     tp.file.cursor_append(`[${fileTitle}](${relPath})`);
     }
