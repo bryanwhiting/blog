@@ -6,16 +6,17 @@ const folders = ["book-review", "christianity", "gratitude", "posts"];
 // Use the suggester to let the user choose a folder
 let folder = await tp.system.suggester(folders, folders);
 
-// Ask for file name and process it
-let fileNameRaw = await tp.system.prompt("Enter file name:");
-let fileNameSlug = fileNameRaw
+// Ask for a title
+let title = await tp.system.prompt("Post title:");
+
+// Convert title to a slug
+let fileNameSlug = title
     .toLowerCase()
     .replace(/[^\w\s-]/g, '') // Remove punctuation
     .trim()
     .replace(/\s+/g, '-'); // Replace spaces with dashes
 
-// Ask for a title
-let title = await tp.system.prompt("Enter title:");
+let slug = await tp.system.prompt("Slug/Filename:", fileNameSlug)
 
 // Get current date
 let date = tp.date.now("YYYY-MM-DD");
@@ -25,11 +26,12 @@ let content = `---
 title: "${title}"
 description: ""
 date: "${date}"
+categories: ${folder}
 draft: false
 ---
 
 `;
 
-const filepath = `${folder}/${fileNameSlug}.md`
+const filepath = `${folder}/${slug}`
 await tp.file.move(filepath)
--%>
+-%><% content %>

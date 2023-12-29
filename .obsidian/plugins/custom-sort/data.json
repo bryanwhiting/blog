@@ -1,8 +1,8 @@
 {
   "additionalSortspecFile": "",
   "suspended": false,
-  "statusBarEntryEnabled": true,
-  "notificationsEnabled": true,
+  "statusBarEntryEnabled": false,
+  "notificationsEnabled": false,
   "mobileNotificationsEnabled": false,
   "customSortContextSubmenu": true,
   "automaticBookmarksIntegration": true,

@@ -10,9 +10,9 @@
   "statusBar": [],
   "pageHeader": [
     {
-      "id": "command-palette:open",
-      "icon": "lucide-terminal-square",
-      "name": "Command palette: Open command palette",
+      "id": "omnisearch:show-modal",
+      "icon": "lucide-search",
+      "name": "Omnisearch: Vault search",
       "mode": "any"
     }
   ],
@@ -24,10 +24,10 @@
   },
   "spacing": 8,
   "advancedToolbar": {
-    "rowHeight": 48,
+    "rowHeight": 36,
     "rowCount": 2,
     "spacing": 0,
-    "buttonWidth": 48,
+    "buttonWidth": 36,
     "columnLayout": true,
     "mappedIcons": [
       {

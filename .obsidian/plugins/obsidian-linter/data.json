@@ -37,8 +37,8 @@
       "yaml-keys-to-remove": ""
     },
     "yaml-key-sort": {
-      "enabled": false,
-      "yaml-key-priority-sort-order": "",
+      "enabled": true,
+      "yaml-key-priority-sort-order": "title:\ndescription:\ndate:\ncategories:\ndraft:",
       "priority-keys-at-start-of-yaml": true,
       "yaml-sort-order-for-other-keys": "None"
     },

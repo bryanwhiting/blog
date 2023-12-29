@@ -3,6 +3,7 @@
   "useMarkdownLinks": true,
   "showUnsupportedFiles": true,
   "mobileToolbarCommands": [
+    "app:go-back",
     "obsidian-footnotes:insert-autonumbered-footnote",
     "editor:insert-wikilink",
     "editor:insert-embed",
@@ -10,11 +11,13 @@
     "editor:toggle-blockquote",
     "editor:toggle-bold",
     "editor:toggle-highlight",
+    "app:go-forward",
     "editor:set-heading",
     "editor:toggle-italics",
     "editor:toggle-strikethrough",
     "editor:paste",
     "editor:toggle-bullet-list",
+    "templater-obsidian:create-new-note-from-template",
     "editor:insert-tag",
     "editor:toggle-numbered-list",
     "editor:attach-file",
@@ -24,10 +27,9 @@
     "editor:unindent-list",
     "editor:redo",
     "editor:configure-toolbar",
-    "editor:toggle-source",
-    "templater-obsidian:create-new-note-from-template"
+    "editor:toggle-source"
   ],
   "alwaysUpdateLinks": true,
   "promptDelete": false,
-  "mobilePullAction": "omnisearch:show-modal"
+  "mobilePullAction": "command-palette:open"
 }

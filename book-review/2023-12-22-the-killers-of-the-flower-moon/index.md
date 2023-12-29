@@ -7,7 +7,7 @@ categories:
   - book review
   - storytelling
 draft: false
-date-finished: ""
+date-finished: 2023-12-28
 ---
 
 ![](photo.jpeg){.preview-image}
