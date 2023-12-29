@@ -25,9 +25,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/leaving-my-startup-was-the-right-decision.md",
+                "file": "Reading list.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/leaving-my-startup-was-the-right-decision.md",
+            "file": "Reading list.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/leaving-my-startup-was-the-right-decision.md",
+            "file": "Reading list.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -127,7 +127,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/leaving-my-startup-was-the-right-decision.md"
+            "file": "Reading list.md"
           }
         }
       }
@@ -151,9 +151,10 @@
   },
   "active": "ba4750059d7c4841",
   "lastOpenFiles": [
+    "posts/leaving-my-startup-was-the-right-decision.md",
+    "docs/book-review/how-to-decide-simple-tools-for-making-better-choices.md.html",
     "img/walking-away.png",
     "posts/flip-a-coin.md",
-    "posts/leaving-my-startup-was-the-right-decision.md",
     "_templates/new-post.md",
     "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
     "Untitled 1.md",
@@ -186,7 +187,6 @@
     "gratitude/img",
     "gratitude/grateful-for-artists",
     "sortspec.md",
-    "docs/sortspec.html",
     "christianity/christmas-empty-tomb/index.md",
     "docs/christianity/unknown-god/photo.jpeg",
     "christianity/2023-12-31-cfm-rev-15-21/index.md",
@@ -195,7 +195,6 @@
     "christianity/inconvenient-god/PNG image.png",
     "christianity/Test/index.md",
     "christianity/inconvenient-god/index.md",
-    "christianity/christmas-empty-tomb/photo.jpeg",
-    "christianity/christmas-empty-tomb/deadtree.jpeg"
+    "christianity/christmas-empty-tomb/photo.jpeg"
   ]
 }

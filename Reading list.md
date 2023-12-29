@@ -1,8 +1,9 @@
 ---
 title: Reading List
 description: Wish list of books
-date: 
-categories: 
+date: 2023-12-28
+categories:
+  - book review
 draft: true
 ---
 
