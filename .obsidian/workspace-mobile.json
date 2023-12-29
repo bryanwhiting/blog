@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
+                "file": "_templates/link-to-file.md",
                 "mode": "source",
                 "source": true
               }
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
+            "file": "_templates/link-to-file.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
+            "file": "_templates/link-to-file.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -127,7 +127,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "book-review/how-to-decide-simple-tools-for-making-better-choices.md"
+            "file": "_templates/link-to-file.md"
           }
         }
       }
@@ -147,53 +147,53 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ba4750059d7c4841",
+  "active": "78912cccc2282195",
   "lastOpenFiles": [
-    "LOGGING-NOTE (iPhone).md",
+    "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
+    "posts/flip-a-coin.md",
+    "Untitled 2.md",
     "_templates/link-to-file.md",
+    "[leaving-my-startup-was-the-right-decision](../posts/leaving-my-startup-was-the-right-decision.md).md",
+    "[leaving-my-startup-was-the-right-decision](..",
+    "[leaving-my-startup-was-the-right-decision](../posts",
+    "Untitled 1.md",
+    "Untitled.md",
+    "LOGGING-NOTE (iPhone).md",
+    "docs/book-review/img",
+    "docs/posts/flip-a-coin.html",
+    "docs/Reading list.html",
+    "docs/posts/decisions-are-rivers.html",
+    "docs/book-review/img/how-to-decide.jpg",
+    "docs/posts/leaving-my-startup-was-the-right-decision.html",
+    "docs/img/walking-away.png",
+    "docs/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
     "Reading list.md",
     "posts/leaving-my-startup-was-the-right-decision.md",
     "docs/book-review/how-to-decide-simple-tools-for-making-better-choices.md.html",
     "img/walking-away.png",
-    "posts/flip-a-coin.md",
     "_templates/new-post.md",
-    "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
-    "Untitled 1.md",
-    "Untitled.md",
     "posts/decisions-are-rivers.md",
     "docs/img/how-to-decide.jpg",
     "book-review/img",
     "book-review/2023-12-22-the-killers-of-the-flower-moon/index.md",
     "book-review/2023-12-23-the-best-of-edgar-allen-poe/photo.jpeg",
     "book-review/how-to-decide-simple-tools-for-making-better-choices.md.md",
-    "resume.pdf",
     "book-reviews/2023-12-22-the-killers-of-the-flower-moon/index.md",
     "posts/_template/index.md",
     "2023-12-22.md",
     "book-reviews/2023-12-23-the-best-of-edgar-allen-poe/index.md",
     "docs/gratitude/img/little-lamb.png",
-    "docs/gratitude/img",
-    "docs/gratitude/grateful-for-artists.html",
-    "docs/little-lamb.png.html",
-    "docs/img/little-lamb.png.html",
     "christianity/hello-world.md",
     "book-reviews/new-books-on-taoe.md",
     "gratitude/grateful-for-artists.md",
-    "_templates",
     "gratitude/img/little-lamb.png",
     "img/little-lamb.png.md",
     "book-reviews/2023-12-23-dune/index.md",
     "little-lamb.png.md",
-    "gratitude/img",
-    "gratitude/grateful-for-artists",
     "sortspec.md",
     "christianity/christmas-empty-tomb/index.md",
     "docs/christianity/unknown-god/photo.jpeg",
-    "christianity/2023-12-31-cfm-rev-15-21/index.md",
     "docs/christianity/inconvenient-god/photo.jpeg",
-    "christianity/inconvenient-god/photo.jpeg",
-    "christianity/inconvenient-god/PNG image.png",
-    "christianity/Test/index.md",
-    "christianity/christmas-empty-tomb/photo.jpeg"
+    "christianity/inconvenient-god/photo.jpeg"
   ]
 }

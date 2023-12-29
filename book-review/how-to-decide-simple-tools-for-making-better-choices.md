@@ -26,3 +26,10 @@ Decision process:
 - What are all the ways to get there?
 - By taking X choice, what are other ways it could go? What's the probability?
 
+[LOGGING-NOTE (iPhone)]([LOGGING-NOTE (iPhone)](../LOGGING-NOTE%20(iPhone).md))
+[Leaving my Startup was the Right Decision]([leaving-my-startup-was-the-right-decision](../posts/leaving-my-startup-was-the-right-decision.md))
+
+[Flipping the coins of life](../posts/flip-a-coin.md) 
+
+
+

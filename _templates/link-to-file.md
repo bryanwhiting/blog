@@ -1,35 +1,28 @@
 <%*
-// Function to extract title from file's YAML frontmatter
-async function extractTitle(file) {
-    let fileContent = await app.vault.read(file);
-    let frontMatter = app.metadataCache.getFileCache(file)?.frontmatter;
-    return frontMatter?.title || file.basename;
-}
+// Process selected file
+let files = app.vault.g;
+let fileNames = files.map(file => file.basename);
+let selectedFile = await tp.system.suggester(fileNames, files);
 
-// Function to handle file selection and insert markdown
-async function handleFileSelection(file) {
-    let title = await extractTitle(file);
-    let relPath = app.fileManager.generateMarkdownLink(file, app.workspace.getActiveFile().path);
+if (selectedFile) {
+    // Extract title from file's YAML frontmatter or use file basename
+    let frontMatter = app.metadataCache.getFileCache(selectedFile)?.frontmatter;
+    let fileTitle = frontMatter?.title || selectedFile.basename;
 
-    if (file.extension === 'jpg' || file.extension === 'png' || file.extension === 'jpeg') {
+    // Generate relative path
+    let fullMarkdownLink = app.fileManager.generateMarkdownLink(selectedFile, app.workspace.getActiveFile().path);
+    // Use a regular expression to extract the relative path
+    let relPathMatch = fullMarkdownLink.match(/\]\((.*?)\)/);
+    
+    let relPath = relPathMatch ? relPathMatch[1] : null;
+
+    // Determine if the file is an image and insert appropriate markdown
+    if (['jpg', 'png', 'jpeg'].includes(selectedFile.extension)) {
         let caption = await tp.system.prompt("Enter caption for the image:");
-        return `![${caption}](${relPath})`;
+        tp.file.cursor_append(`![${caption}](${relPath}){.preview-image`);
     } else {
-        return `[${title}](${relPath})`;
+    tp.file.cursor_append(`[${fileTitle}](${relPath})`);
     }
 }
-
-// Main function to search and process files
-async function main() {
-    let files = app.vault.getMarkdownFiles();
-    let fileNames = files.map(file => file.basename);
-
-    let selectedFile = await tp.system.suggester(fileNames, files);
-    if (selectedFile) {
-        return await handleFileSelection(selectedFile);
-    }
-    return "";
-}
-
-tp.editor.insertText(await main());
 %>
+
