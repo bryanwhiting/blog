@@ -9,7 +9,7 @@ categories:
 draft: false
 ---
 
-![how-to-decide](img/how-to-decide.jpg){.preview-image}
+![how-to-decide](../docs/img/how-to-decide.jpg){.preview-image}
 
 
 What is my best decision? Worst?
@@ -25,3 +25,4 @@ Decision process:
 - where do you want to go?
 - What are all the ways to get there?
 - By taking X choice, what are other ways it could go? What's the probability?
+

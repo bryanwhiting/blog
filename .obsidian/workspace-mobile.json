@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reading list.md",
+                "file": "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
                 "mode": "source",
                 "source": true
               }
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Reading list.md",
+            "file": "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Reading list.md",
+            "file": "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -127,7 +127,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Reading list.md"
+            "file": "book-review/how-to-decide-simple-tools-for-making-better-choices.md"
           }
         }
       }
@@ -144,13 +144,14 @@
       "command-palette:Open command palette": false,
       "custom-sort:Toggle custom sorting": false,
       "templater-obsidian:Templater": false,
-      "omnisearch:Omnisearch": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "ba4750059d7c4841",
   "lastOpenFiles": [
+    "LOGGING-NOTE (iPhone).md",
+    "_templates/link-to-file.md",
+    "Reading list.md",
     "posts/leaving-my-startup-was-the-right-decision.md",
     "docs/book-review/how-to-decide-simple-tools-for-making-better-choices.md.html",
     "img/walking-away.png",
@@ -160,10 +161,9 @@
     "Untitled 1.md",
     "Untitled.md",
     "posts/decisions-are-rivers.md",
-    "book-review/img/how-to-decide.jpg",
+    "docs/img/how-to-decide.jpg",
     "book-review/img",
     "book-review/2023-12-22-the-killers-of-the-flower-moon/index.md",
-    "Reading list.md",
     "book-review/2023-12-23-the-best-of-edgar-allen-poe/photo.jpeg",
     "book-review/how-to-decide-simple-tools-for-making-better-choices.md.md",
     "resume.pdf",
@@ -194,7 +194,6 @@
     "christianity/inconvenient-god/photo.jpeg",
     "christianity/inconvenient-god/PNG image.png",
     "christianity/Test/index.md",
-    "christianity/inconvenient-god/index.md",
     "christianity/christmas-empty-tomb/photo.jpeg"
   ]
 }

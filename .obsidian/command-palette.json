@@ -1,0 +1,10 @@
+{
+  "pinned": [
+    "switcher:open",
+    "obsidian-linter:lint-file",
+    "custom-sort:enable-custom-sorting",
+    "insert-template",
+    "omnisearch:show-modal",
+    "omnisearch:show-modal-infile"
+  ]
+}
