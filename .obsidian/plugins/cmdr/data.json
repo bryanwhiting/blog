@@ -39,6 +39,10 @@
       {
         "commandID": "templater-obsidian:create-new-note-from-template",
         "iconID": "copy"
+      },
+      {
+        "commandID": "templater-obsidian:insert-templater",
+        "iconID": "lucide-link"
       }
     ],
     "tooltips": false,
