@@ -11,32 +11,13 @@
     ]
   },
   {
-    "listing": "/lists.html",
-    "items": [
-      "/lists/ai/index.html"
-    ]
-  },
-  {
-    "listing": "/books.html",
-    "items": [
-      "/book-review/2023-12-19-101-essays-to-change-the-way-you-think-by-briana-weist/index.html",
-      "/book-review/2023-12-23-dune/index.html",
-      "/book-review/2022-06-24-getting-things-done/index.html",
-      "/book-review/2023-12-18-hitchhiker's-guide-to-the-galaxy/index.html",
-      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
-      "/book-review/2023-12-12-scientific-freedom/index.html",
-      "/book-review/2023-12-23-the-best-of-edgar-allen-poe/index.html",
-      "/book-review/2023-12-22-the-killers-of-the-flower-moon/index.html",
-      "/book-review/2023-12-20-the-little-red-hen/index.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/posts/leaving-my-startup-was-the-right-decision.html",
       "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
       "/posts/flip-a-coin.html",
       "/posts/decisions-are-rivers.html",
+      "/posts/flip-a-coin-and-not-fail.html",
       "/christianity/christmas-empty-tomb/index.html",
       "/gratitude/grateful-for-artists.html",
       "/christianity/unknown-god/index.html",
@@ -96,6 +77,26 @@
       "/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html",
       "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
       "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html"
+    ]
+  },
+  {
+    "listing": "/books.html",
+    "items": [
+      "/book-review/2023-12-19-101-essays-to-change-the-way-you-think-by-briana-weist/index.html",
+      "/book-review/2023-12-23-dune/index.html",
+      "/book-review/2022-06-24-getting-things-done/index.html",
+      "/book-review/2023-12-18-hitchhiker's-guide-to-the-galaxy/index.html",
+      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
+      "/book-review/2023-12-12-scientific-freedom/index.html",
+      "/book-review/2023-12-23-the-best-of-edgar-allen-poe/index.html",
+      "/book-review/2023-12-22-the-killers-of-the-flower-moon/index.html",
+      "/book-review/2023-12-20-the-little-red-hen/index.html"
+    ]
+  },
+  {
+    "listing": "/lists.html",
+    "items": [
+      "/lists/ai/index.html"
     ]
   },
   {
