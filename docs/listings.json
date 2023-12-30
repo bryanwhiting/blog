@@ -2,6 +2,7 @@
   {
     "listing": "/christianity.html",
     "items": [
+      "/christianity/no-empty-chairs.html",
       "/christianity/unknown-god/index.html",
       "/christianity/christmas-empty-tomb/index.html",
       "/christianity/2023-12-24-he-is-the-light-that-we-should-share/index.html",
@@ -34,6 +35,7 @@
     "items": [
       "/posts/poem-timeless.html",
       "/posts/quarto-vs-quartz-for-obsidian.html",
+      "/christianity/no-empty-chairs.html",
       "/posts/how-to-blog-with-obsidian-and-quarto.html",
       "/posts/leaving-my-startup-was-the-right-decision.html",
       "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
