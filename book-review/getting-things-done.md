@@ -8,7 +8,7 @@ image: photo.jpeg
 draft: false
 ---
 
-![](photo.jpeg)
+![](../../img/book-gtd.jpeg)
 
 # Principles and Core Insights
 

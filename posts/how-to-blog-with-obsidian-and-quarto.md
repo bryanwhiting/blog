@@ -58,12 +58,12 @@ All platforms have their vibe. If you want to be popular on TikTok, you gotta da
 
 # Why blog with obsidian/quarto?
 
-Enter Obsidian and Quarto. Obsidian makes managing and editing content a breeze (things like draft management, sorting files, organizing images, etc is all super easy)
+Enter Obsidian and Quarto. Obsidian makes managing and editing content a breeze (things like draft management, sorting files, organizing images, etc is all super easy):
 
 Why obsidian as my editor?
 
 1. It makes writing markdown a breeze 
-2. It has tons of extensions, such as managing footnotes, linting files, spell checked, wfc
+2. It has tons of extensions, such as managing footnotes, linting files, spell checking, etc. 
 3. It makes it really easy to link to other files (relative links)
 4. It makes it easy to refactor (move stuff around)
 5. It works with markdown. The files are just plain text files in my Files app on my iPhone. 
@@ -76,7 +76,7 @@ Here's mine:
 
 1. Get an idea 
 2. Categorize it (religious, tech, life, etc)
-3. Create a file. 
+3. Create a file
 4. Mark as draft
 5. Write some ideas
 6. Edit it (if long), reread a few times 
@@ -90,7 +90,7 @@ Here's mine:
 15. Make some footnotes for content that doesn't flow
 16. Cry and debate if I'm a good writer or if anyone is even listening anymore 
 17. Add a subscribe button
-18. share a food one to social media
+18. share a good one to social media
 19. Check my Google analytics to see if I'm popular. Check subscribers to see if I got any. Wonder why I care anyway because I know I won't make money off this. 
 20. Get an idea for a new post while reading a book and start again 
 

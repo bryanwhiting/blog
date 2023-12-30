@@ -8,7 +8,7 @@ categories: [book review, startups]
 draft: false
 ---
 
-![](photo.jpeg){.preview-image}
+![](../img/dalle-red-hen.jpeg){.preview-image}
 
 ::: callout-note
 ## TL;DR: Be the hen. Do work!

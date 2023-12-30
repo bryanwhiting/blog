@@ -7,7 +7,7 @@ categories: [data science]
 draft: false
 ---
 
-![](photo.jpeg) 
+![](../write-despite-ai/photo.jpeg) 
 
 ::: callout-note
 ## TL;DR: 

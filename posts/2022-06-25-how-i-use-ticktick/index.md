@@ -8,7 +8,7 @@ image: photo.jpeg
 draft: false
 ---
 
-![](photo.jpeg)
+![](../write-despite-ai/photo.jpeg)
 
 
 I’ve recently read “Atomic Habits”, “Deep Work”, “The Power of Habit”, “Getting Things Done”, “Essentialism” and “Effortless”. These productivity paradigms influence this post. 

@@ -1,16 +1,17 @@
 ---
-title: The Killers of the Flower Moon
+title: "Killers of the Flower Moon: the Osage Murders and the Birth of the FBI"
 description: An incredible story of how low, sick and twisted humanity can get, and how good people can truly be.
 date: 2023-12-22
 image: photo.jpeg
 categories:
   - book review
   - storytelling
+  - murder mystery
 draft: false
 date-finished: 2023-12-28
 ---
 
-![](photo.jpeg){.preview-image}
+![](../../img/book-killers-flower-moon.jpeg){.preview-image}
 
 ::: callout-note
 ## TL;DR: 
@@ -29,7 +30,7 @@ date-finished: 2023-12-28
 - judicial execution is a challenge of taming the evils within even those on the "right side of the law" calling for justice. Do we really need to execute someone? What if they're actually innocent?
 
 Earnest Burkheart's confession:
-- similar to [The Tell Tale heart](../2023-12-23-the-best-of-edgar-allen-poe/index.md). Someone feels better letting go of lying and coming clean. He was a happy man, even living in prison the rest of his life.
+- similar to [The Tell Tale heart](../the-best-of-edgar-allen-poe.md). Someone feels better letting go of lying and coming clean. He was a happy man, even living in prison the rest of his life.
 - Why doesn't Hale feel this way?
 
 
@@ -46,3 +47,8 @@ Takeaways:
 - FBI agents died destitute. No glory. Hoover took it all
 - 
 
+Tom White is incredible. Was shot and left for dead but forgave his captors. 
+
+Questions:
+- how many descendants today with money stolen from the Osage?
+- how many crimes like this continue to happen today?

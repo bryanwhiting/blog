@@ -26,6 +26,12 @@
       "icon": "copy",
       "name": "Templater: Create new note from template",
       "mode": "any"
+    },
+    {
+      "id": "omnisearch:show-modal-infile",
+      "icon": "file-search",
+      "name": "Omnisearch: In-file search",
+      "mode": "any"
     }
   ],
   "macros": [],

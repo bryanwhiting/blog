@@ -15,7 +15,7 @@ draft: true
 
 :::
 
-![](photo.jpeg){.preview-image}
+![](../../posts/write-despite-ai/photo.jpeg){.preview-image}
 
 Alpha and Omega
 
