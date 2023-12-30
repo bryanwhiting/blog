@@ -40,10 +40,10 @@ This language misaligns their focus.
 
 "No empty chairs" focuses on the outcome, and not the process. 
 
-Focusing on "no empty chairs" isn't the doctrine. It's actually anti-doctrine. 1/3 of hosts of heaven didn't come to earth. Lots of empty chairs. Agency is the doctrine. 
+Focusing on "no empty chairs" isn't the doctrine. It's an invitation and wish, but even for Heavenly Father 1/3 of hosts of heaven didn't come to earth. Lots of empty chairs. Agency is the doctrine. 
 
-Whether you're in the chair or not, whether less active or active, etc is just the wrong mindset. The only mindset that matters is: do I have a relationship with the Savior? Am I coming to know Him?
+Whether you're in the chair or not, whether less active or active, etc. is just the wrong mindset. The mindset that matters is: do I have a relationship with the Savior? Am I coming to know Him?
 
-"No empty chairs" takes the focus off the Savior and instead perhaps puts it on a social construct or pact "we're all in this together and you'd better be there. No empty chairs." It's probably not meant that way, but it can be chosen to be interpreted that way. 
+"No empty chairs" takes the focus off the Savior and instead perhaps puts it on a social construct or pact "we're all in this together and you'd better be there. No empty chairs." It's probably not meant that way, but it can be chosen to be interpreted that way. The focus is on group think and black and white labels. "Am I the black sheep? The empty chair?" That's yes/no thinking. 
 
 Instead, the framework could be "help teach and invite everyone to enjoy a meaningful relationship with the Savior, so they can have greater peace and joy". If that's the mentality, then as people come to the Savior (truth, light), then they will have a reason to sit down. 
