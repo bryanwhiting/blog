@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/how-to-blog-with-obsidian-and-quarto.md",
+                "file": "christianity/no-empty-chairs.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/how-to-blog-with-obsidian-and-quarto.md",
+            "file": "christianity/no-empty-chairs.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/how-to-blog-with-obsidian-and-quarto.md"
+            "file": "christianity/no-empty-chairs.md"
           }
         }
       },
@@ -125,7 +125,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/how-to-blog-with-obsidian-and-quarto.md",
+            "file": "christianity/no-empty-chairs.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -145,6 +145,8 @@
   },
   "active": "ba4750059d7c4841",
   "lastOpenFiles": [
+    "posts/how-to-blog-with-obsidian-and-quarto.md",
+    "christianity/no-empty-chairs.md",
     "book-review/dune.md",
     "posts/quarto-vs-quartz-for-obsidian.md",
     "book-review/killers-of-the-flower-moonyfg if.md",
@@ -154,7 +156,6 @@
     "img/book-scientific-freedom.jpeg",
     "book-review/scientific-freedom.md",
     "posts/the-little-red-hen.md",
-    "posts/how-to-blog-with-obsidian-and-quarto.md",
     "docs/christianity/is-christianity-true.html",
     "docs/img/dalle-timeless.png",
     "docs/_templates/new-post.md",
@@ -189,7 +190,6 @@
     "img/walking-away.png",
     "_templates/new-post.md",
     "book-review/how-to-decide-simple-tools-for-making-better-choices.md.md",
-    "book-reviews/2023-12-22-the-killers-of-the-flower-moon/index.md",
-    "posts/_template/index.md"
+    "book-reviews/2023-12-22-the-killers-of-the-flower-moon/index.md"
   ]
 }
