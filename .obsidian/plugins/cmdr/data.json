@@ -55,6 +55,10 @@
       {
         "commandID": "templater-obsidian:insert-templater",
         "iconID": "lucide-link"
+      },
+      {
+        "commandID": "url-into-selection:paste-url-into-selection",
+        "iconID": "link-2"
       }
     ],
     "tooltips": false,

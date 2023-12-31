@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/water-as-a-currency.md",
+                "file": "tech/swapping-out-human-labor-for-ai.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/water-as-a-currency.md",
+            "file": "tech/swapping-out-human-labor-for-ai.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/water-as-a-currency.md"
+            "file": "tech/swapping-out-human-labor-for-ai.md"
           }
         }
       },
@@ -125,7 +125,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/water-as-a-currency.md",
+            "file": "tech/swapping-out-human-labor-for-ai.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -145,15 +145,22 @@
   },
   "active": "ba4750059d7c4841",
   "lastOpenFiles": [
-    "img/photo-water-is-precious.png",
-    "posts/water-as-a-currency.md",
+    "img/dalle-ai-task-vs-human.jpeg",
+    "_templates/new-post.md",
+    "tech",
+    "tech/swapping-out-human-labor-for-ai.md",
+    "christianity/no-empty-chairs.md",
+    "book-review/unbelievable.md",
     "gratitude/beaches.md",
+    "posts/water-as-a-currency.md",
+    "docs/img/dalle-red-light-night.png",
+    "docs/posts/emotional-recovery.html",
+    "img/photo-water-is-precious.png",
     "null/hh.md",
     "null",
     "posts/emotional-recovery.md",
     "img/dalle-red-light-night.png",
     "book-review/dune.md",
-    "christianity/no-empty-chairs.md",
     "docs/christianity/no-empty-chairs.html",
     "posts/how-to-blog-with-obsidian-and-quarto.md",
     "posts/quarto-vs-quartz-for-obsidian.md",
@@ -183,13 +190,6 @@
     "img/flip-five-coins.png",
     "_templates/link-to-file.md",
     "img/book-how-to-decide.png",
-    "[LOGGING-NOTE.md",
-    "LOGGING-NOTE (iPhone).md",
-    "posts/flip-a-coin.md",
-    "Untitled 2.md",
-    "[leaving-my-startup-was-the-right-decision](..",
-    "[leaving-my-startup-was-the-right-decision](../posts",
-    "docs/book-review/img/how-to-decide.jpg",
-    "docs/img/walking-away.png"
+    "[LOGGING-NOTE.md"
   ]
 }

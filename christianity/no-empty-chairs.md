@@ -4,16 +4,20 @@ description: This is a flawed way to think about parenting, though the intent is
 date: 2023-12-29
 categories:
   - christianity
-  - culture
+  - lds culture
 draft: true
 ---
-With those who have a view of eternity, they may consider the desire to have "no empty chairs" in the world to come. This simply implies that they want to see everyone in heaven. 
+I recently heard the 1998 song, "[No Empty Chairs](http://bearlakemonsters.blogspot.com/2010/09/no-empty-chairs.html)", written by the late Senator Orrin Hatch. I had never before heard the song, and it unsettled me.
 
-Though the concepts here speak to ideas taught in the Church of Jesus Christ of Latter-day Saints, I see the principles applying to any religion - the relationship between believers and non-believers in close family dynamics. 
+It talks about this theme long discussed in the church: "no empty chairs." It speaks to our view of eternity and how families can be together forever. It speaks to the desire of family members to all be seated together, not perhaps at a literal table, but just that everyone is together in heaven. What's wrong with that?
 
-# The origin of the phrase
+The theme and song itself at face value are admirable for anyone who loves their family. It's no different than the soldier's motto "leave no man behind". All are worth it. Save everyone. Leave nobody behind. 
 
-I recently heard the 1998 classic, "[No Empty Chairs](http://bearlakemonsters.blogspot.com/2010/09/no-empty-chairs.html)", written by the late Senator Orrin Hatch. It talks about this theme clearly. 
+So on one side, you've got the "no empty chairs" people, hoping to leave nobody behind. But on the other side, the phrase could be interpreted differently. 
+
+While reading [Unbelievable](../book-review/unbelievable.md), the autobiography if a man leaving Christianity, I saw how the principles discussed here are more about the relationship between believers and non-believers. I believe it's a pattern found and applied, though I speak specifically to experience of people leaving the Church of Jesus Christ of Latter-day Saints and how this phrase may affect them. 
+
+# The origin of "no empty chairs"
 
 I tried briefly tracking down the origin of this phrase. It was mentioned once in general conference by [Elder Benson in 1984](https://www.lds-general-conference.org/), "...that all will be worthy, without a single empty chair. That is my fervent hope and prayer for each family in the Church..."
 
@@ -25,11 +29,16 @@ Church news posted about the theme in [1990](https://www.thechurchnews.com/1990/
 
 But I believe Lucy Mack Smith, an LDS pioneer and father of Joseph Smith, wins the award. She had the phrase "please - no empty chairs" [written on a memorial to her. ](https://latterdaysoprano.com/2008/03/08/no-empty-chairs/)
 
+I'm sure someone somewhere knows the true origin, but that's about all I got out of 10 minutes of googling. (This [author](https://www.ldsliving.com/6-tips-for-parents-of-adult-children-who-dont-believe-in-the-church/s/90940) reached the same conclusion.)
 # The impact of concept
 
-For some, this concept can be inspiring. One person recounted how the idea [helped lift them out of drug addiction](https://www.churchofjesuschrist.org/study/ensign/2013/03/no-empty-chairs?lang=eng). 
+For some, this concept can be inspiring. One person recounted how the idea [helped lift them out of drug addiction](https://www.churchofjesuschrist.org/study/ensign/2013/03/no-empty-chairs?lang=eng). This is perhaps the ideal scenario for a believer: to say something that can help a non-believer come back. 
 
-But times have changed. I don't know any close friend who doesn't have several family members no longer in the church. Families are split in terms of people who are religious vs not. Parents who stay in the [church struggle](https://www.ldsliving.com/6-tips-for-parents-of-adult-children-who-dont-believe-in-the-church/s/90940) knowing how to keep relationships with children who have left. They feel bad they don't have 34 grandchildren all "active" like President Benson. 
+But times are changing and religious dynamics are shifting. Per [Pew Research](https://www.pewresearch.org/religion/2022/09/13/modeling-the-future-of-religion-in-america/pf_2022-09-13_religious-projections_01-01/), 90% of Americans identified as Christian in 1972 and as of 2020 that number dropped to 64%. [Pew Research](https://www.pewresearch.org/religion/2022/09/13/modeling-the-future-of-religion-in-america/) also estimates various scenarios where this number drops to 35% in next 50 years. The Public Religion Research Institute estimates that church-goers in America dropped from [56% to 43% between 2013 and 2022](https://www.prri.org/research/religion-and-congregations-in-a-time-of-social-and-political-upheaval/). All signs point to people leaving Christianity fairly rapidly. Give it 20 years where the geriatric religious are replaced by Gen Z/Millenial non religious and this exacerbates quickly. 
+
+I don't know any close friend who *doesn't* have several family members no longer in the Church. Families are split in terms of people who are religious vs not. Parents who stay in the [church struggle](https://www.ldsliving.com/6-tips-for-parents-of-adult-children-who-dont-believe-in-the-church/s/90940) knowing how to keep relationships with children who have left. They feel like failures they don't have 6 children all "active" like President Benson. But this has never been the norm, as Joseph Smith's son defected from the church, Lehi's sons and daughters didn't stay with it, and I'm sure many countless other leaders who don't have "full participation in the church". 
+
+# Effect on those who leave
 
 But I think for most people who leave the church, they struggle with this concept on the other side. They want to know how to identify themselves to those who are still in the church. They want relationships with their family members and don't know how to do that since so much of their life has been in the church. 
 

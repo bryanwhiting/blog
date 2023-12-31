@@ -5,6 +5,8 @@ date: 2023-12-30
 categories:
   - gratitude
   - water
+  - beach
+  - sunset
 draft: false
 ---
 I'm grateful for beaches. That they exist. That they haven't been removed. That they are places where people can go and recharge. 

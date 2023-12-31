@@ -1,8 +1,11 @@
 ---
-title: "Water as a Currency?"
+title: Water as a Currency?
 description: ""
-date: "2023-12-30"
-categories: posts
+date: 2023-12-30
+categories:
+  - posts
+  - water
+  - economics
 draft: false
 ---
 The book [Dune](../book-review/dune.md) is amazing in many ways, but the one that piqued my curiosity today was this: what if water was a currency?
