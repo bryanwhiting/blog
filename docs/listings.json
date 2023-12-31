@@ -1,16 +1,5 @@
 [
   {
-    "listing": "/christianity.html",
-    "items": [
-      "/christianity/unknown-god/index.html",
-      "/christianity/christmas-empty-tomb/index.html",
-      "/christianity/2023-12-24-he-is-the-light-that-we-should-share/index.html",
-      "/christianity/2023-12-24-the-christ-child/index.html",
-      "/christianity/2023-12-17-christmas-celebrates-a-living-christ/index.html",
-      "/christianity/2023-12-13-three-little-pigs/index.html"
-    ]
-  },
-  {
     "listing": "/gratitude.html",
     "items": [
       "/gratitude/beaches.html",
@@ -18,6 +7,32 @@
       "/gratitude/2023-12-26-i'm-grateful-for-blankets/index.html",
       "/gratitude/2023-12-25-grateful-for-doctors/index.html",
       "/gratitude/2023-12-24-light/index.html"
+    ]
+  },
+  {
+    "listing": "/lists.html",
+    "items": [
+      "/lists/ai/index.html"
+    ]
+  },
+  {
+    "listing": "/books.html",
+    "items": [
+      "/book-review/unbelievable.html",
+      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
+      "/book-review/dune.html",
+      "/book-review/the-best-of-edgar-allen-poe.html",
+      "/book-review/killers-of-the-flower-moonyfg if.html",
+      "/book-review/101-essays-to-make-you-think.html",
+      "/book-review/hitchhikers-guide-to-the-galaxy.html",
+      "/book-review/scientific-freedom.html",
+      "/book-review/getting-things-done.html"
+    ]
+  },
+  {
+    "listing": "/tech.html",
+    "items": [
+      "/tech/swapping-out-human-labor-for-ai.html"
     ]
   },
   {
@@ -84,32 +99,6 @@
       "/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html",
       "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
       "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html"
-    ]
-  },
-  {
-    "listing": "/tech.html",
-    "items": [
-      "/tech/swapping-out-human-labor-for-ai.html"
-    ]
-  },
-  {
-    "listing": "/books.html",
-    "items": [
-      "/book-review/unbelievable.html",
-      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
-      "/book-review/dune.html",
-      "/book-review/the-best-of-edgar-allen-poe.html",
-      "/book-review/killers-of-the-flower-moonyfg if.html",
-      "/book-review/101-essays-to-make-you-think.html",
-      "/book-review/hitchhikers-guide-to-the-galaxy.html",
-      "/book-review/scientific-freedom.html",
-      "/book-review/getting-things-done.html"
-    ]
-  },
-  {
-    "listing": "/lists.html",
-    "items": [
-      "/lists/ai/index.html"
     ]
   },
   {
@@ -188,6 +177,17 @@
       "/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html",
       "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
       "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html"
+    ]
+  },
+  {
+    "listing": "/christianity.html",
+    "items": [
+      "/christianity/unknown-god/index.html",
+      "/christianity/christmas-empty-tomb/index.html",
+      "/christianity/2023-12-24-he-is-the-light-that-we-should-share/index.html",
+      "/christianity/2023-12-24-the-christ-child/index.html",
+      "/christianity/2023-12-17-christmas-celebrates-a-living-christ/index.html",
+      "/christianity/2023-12-13-three-little-pigs/index.html"
     ]
   }
 ]
