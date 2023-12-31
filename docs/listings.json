@@ -11,8 +11,29 @@
     ]
   },
   {
+    "listing": "/lists.html",
+    "items": [
+      "/lists/ai/index.html"
+    ]
+  },
+  {
+    "listing": "/books.html",
+    "items": [
+      "/book-review/unbelievable.html",
+      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
+      "/book-review/dune.html",
+      "/book-review/the-best-of-edgar-allen-poe.html",
+      "/book-review/killers-of-the-flower-moonyfg if.html",
+      "/book-review/101-essays-to-make-you-think.html",
+      "/book-review/hitchhikers-guide-to-the-galaxy.html",
+      "/book-review/scientific-freedom.html",
+      "/book-review/getting-things-done.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
+      "/book-review/unbelievable.html",
       "/posts/water-as-a-currency.html",
       "/posts/emotional-recovery.html",
       "/gratitude/beaches.html",
@@ -83,25 +104,6 @@
       "/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html",
       "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
       "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html"
-    ]
-  },
-  {
-    "listing": "/books.html",
-    "items": [
-      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
-      "/book-review/dune.html",
-      "/book-review/the-best-of-edgar-allen-poe.html",
-      "/book-review/killers-of-the-flower-moonyfg if.html",
-      "/book-review/101-essays-to-make-you-think.html",
-      "/book-review/hitchhikers-guide-to-the-galaxy.html",
-      "/book-review/scientific-freedom.html",
-      "/book-review/getting-things-done.html"
-    ]
-  },
-  {
-    "listing": "/lists.html",
-    "items": [
-      "/lists/ai/index.html"
     ]
   },
   {
