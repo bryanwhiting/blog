@@ -31,3 +31,9 @@ Notes:
 
 
 When God has appointed a man to die, he guides his wants to desire that place
+
+
+- you're remembered for what you fear
+- Focusing too much on sight dulls the other senses
+- We became weak on caladan
+- Why beat yourself up after an emotional experience? What does it take to relevel yiur head. 

@@ -4,9 +4,12 @@ description: This is a flawed way to think about parenting, though the intent is
 date: 2023-12-29
 categories:
   - christianity
-draft: false
+  - culture
+draft: true
 ---
 With those who have a view of eternity, they may consider the desire to have "no empty chairs" in the world to come. This simply implies that they want to see everyone in heaven. 
+
+Though the concepts here speak to ideas taught in the Church of Jesus Christ of Latter-day Saints, I see the principles applying to any religion - the relationship between believers and non-believers in close family dynamics. 
 
 # The origin of the phrase
 
@@ -30,7 +33,7 @@ But times have changed. I don't know any close friend who doesn't have several f
 
 But I think for most people who leave the church, they struggle with this concept on the other side. They want to know how to identify themselves to those who are still in the church. They want relationships with their family members and don't know how to do that since so much of their life has been in the church. 
 
-I was talking to my friend the other day at church and he felt like he had to identify, "I don't really come that often, so I guess I'm like less active or something?" People like identities, and they try to categorize themselves. 
+I was talking to my friend the other day at church and he felt like he had to identify, "I don't really come that often, so I guess I'm like less active or something?" People like identities, and they try to categorize themselves.[^1]
 
 This language misaligns their focus. 
 
@@ -44,6 +47,15 @@ Focusing on "no empty chairs" isn't the doctrine. It's an invitation and wish, b
 
 Whether you're in the chair or not, whether less active or active, etc. is just the wrong mindset. The mindset that matters is: do I have a relationship with the Savior? Am I coming to know Him?
 
-"No empty chairs" takes the focus off the Savior and instead perhaps puts it on a social construct or pact "we're all in this together and you'd better be there. No empty chairs." It's probably not meant that way, but it can be chosen to be interpreted that way. The focus is on group think and black and white labels. "Am I the black sheep? The empty chair?" That's yes/no thinking. 
+"No empty chairs" takes the focus off the Savior and instead perhaps puts it on a social construct or pact "we're all in this together and you'd better be there. No empty chairs." It's probably not meant that way, but it can be chosen to be interpreted that way. The focus is on group think and black and white labels. "Am I the black sheep? The empty chair?" That's yes/no thinking.
 
 Instead, the framework could be "help teach and invite everyone to enjoy a meaningful relationship with the Savior, so they can have greater peace and joy". If that's the mentality, then as people come to the Savior (truth, light), then they will have a reason to sit down. 
+
+
+Notes:
+- someone close to me asked "where do you think I'm going?"  I wonder "if you don't believe in God then why does it matter what I think?" But that wasn't what he was asking. They were asking "do you accept and love me even though I don't believe what you do?"
+- imagine going across the street to your neighbor or to a random stranger in the street. "No empty chairs!!!" They'd think you weird. So why do we do this in our family?
+- It's a matter of social acceptance with you. How do you see them? Love them? Do they feel your love to them is conditioned on their status in religion? 
+- The intention is American: leave no man behind. Nothing wrong with that. But someone just doesn't want to be seen as a "lost" soul when they don't feel lost, and in some sense see you or their former ways in your religion as lost. 
+
+[^1]: an author Rob Hyndman [talked about his departure from Christianity](https://robjhyndman.com/unbelievable/ch2.html) as "So what should I call myself now I am not a Christadelphian, or even a Christian? I don’t like the term atheist, because it carries a sense of militancy and certainty that I don’t feel. I don’t like agnostic, because it implies (in Australia at least) a lack of interest in the questions of religion. I think I prefer “unbeliever”."

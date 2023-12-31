@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/no-empty-chairs.md",
+                "file": "posts/emotional-recovery.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/no-empty-chairs.md",
+            "file": "posts/emotional-recovery.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/no-empty-chairs.md"
+            "file": "posts/emotional-recovery.md"
           }
         }
       },
@@ -125,7 +125,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/no-empty-chairs.md",
+            "file": "posts/emotional-recovery.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -145,9 +145,13 @@
   },
   "active": "ba4750059d7c4841",
   "lastOpenFiles": [
-    "posts/how-to-blog-with-obsidian-and-quarto.md",
-    "christianity/no-empty-chairs.md",
+    "img/dalle-red-light-night.png",
+    "Untitled 1.md",
+    "posts/emotional-recovery.md",
     "book-review/dune.md",
+    "christianity/no-empty-chairs.md",
+    "docs/christianity/no-empty-chairs.html",
+    "posts/how-to-blog-with-obsidian-and-quarto.md",
     "posts/quarto-vs-quartz-for-obsidian.md",
     "book-review/killers-of-the-flower-moonyfg if.md",
     "img/book-killers-flower-moon.jpeg",
@@ -183,13 +187,9 @@
     "[leaving-my-startup-was-the-right-decision](..",
     "[leaving-my-startup-was-the-right-decision](../posts",
     "docs/book-review/img",
-    "docs/posts/flip-a-coin.html",
     "docs/book-review/img/how-to-decide.jpg",
     "docs/img/walking-away.png",
     "Reading list.md",
-    "img/walking-away.png",
-    "_templates/new-post.md",
-    "book-review/how-to-decide-simple-tools-for-making-better-choices.md.md",
-    "book-reviews/2023-12-22-the-killers-of-the-flower-moon/index.md"
+    "img/walking-away.png"
   ]
 }
