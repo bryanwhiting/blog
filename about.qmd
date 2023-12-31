@@ -40,12 +40,12 @@ url_color = "#007bff"
 tribble(
   ~start, ~stop, ~company, ~url, ~title, ~location, ~notes,
   # Northbeam
-  "2023/01", "Prwsent",
+  "2023/01", "Present",
   "Northbeam",
   "https://www.northbeam.io/",
-  "Lead Data Scientist, Media Mix Modelinf",
+  "Lead Data Scientist, Media Mix Modeling",
   "Remote/SF",
-  "Marketing mixed models, time series, budget optimization, machine learning pipelines",
+  "Media/Marketing mix models, time series, budget optimization, machine learning pipelines. Customer deliverables, stakeholder management, product design and delivery.",
   
   # Hopper
   "2022/01", "2022/12",
@@ -72,7 +72,6 @@ tribble(
   "Machine learning and ML data pipeline development, cloud compute (AWS), risk modeling",
   
   # Bates White
-  # paste0("2017/07 <br>  ↑", up_arrow, "<br>2015/08"),
   "2015/08", "2017/07", 
   "Bates White Economic Consulting",
   "https://www.bateswhite.com/",
