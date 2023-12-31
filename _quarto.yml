@@ -47,6 +47,7 @@ website:
         href: index.xml
     contents:
       - index.qmd
+      - tech.qmd
       - books.qmd
       - lists.qmd
       - christianity.qmd

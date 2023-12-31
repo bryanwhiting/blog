@@ -6,6 +6,9 @@ listing:
     - posts
     - book-review
     - tech
+    - christianity
+    - gratitude 
+    - lists
   feed: true
   sort-ui: true
   sort: 
