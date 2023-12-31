@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "095c35b6ba912b52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "book-review/reading-list.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "tech/swapping-out-human-labor-for-ai.md",
+            "file": "book-review/reading-list.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "tech/swapping-out-human-labor-for-ai.md"
+            "file": "book-review/reading-list.md"
           }
         }
       },
@@ -125,7 +137,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "tech/swapping-out-human-labor-for-ai.md",
+            "file": "book-review/reading-list.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -143,30 +155,36 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ba4750059d7c4841",
+  "active": "095c35b6ba912b52",
   "lastOpenFiles": [
+    "-Dataview Drafts.md",
+    "christianity/no-empty-chairs.md",
+    "christianity/2023-12-31-cfm-rev-15-21/index.md",
+    "tech/swapping-out-human-labor-for-ai.md",
+    "tech.qmd",
+    "docs/tech.xml",
+    "docs/tech/swapping-out-human-labor-for-ai.html",
+    "docs/tech",
+    "docs/tech.html",
+    "docs/img/dalle-ai-task-vs-human.jpeg",
+    "docs/book-review/unbelievable.html",
+    "docs/index.xml",
+    "docs/all.html",
+    "all.qmd",
     "gratitude-2.qmd",
-    "docs/gratitude/beaches.html",
     "docs/img/photo-beach-day-waves.png",
     "docs/img/photo-water-is-precious.png",
-    "docs/posts/water-as-a-currency.html",
     "img/dalle-ai-task-vs-human.jpeg",
     "_templates/new-post.md",
-    "tech",
-    "tech/swapping-out-human-labor-for-ai.md",
-    "christianity/no-empty-chairs.md",
     "book-review/unbelievable.md",
     "gratitude/beaches.md",
     "posts/water-as-a-currency.md",
     "docs/img/dalle-red-light-night.png",
-    "docs/posts/emotional-recovery.html",
     "img/photo-water-is-precious.png",
     "null/hh.md",
-    "null",
     "posts/emotional-recovery.md",
     "img/dalle-red-light-night.png",
     "book-review/dune.md",
-    "docs/christianity/no-empty-chairs.html",
     "posts/how-to-blog-with-obsidian-and-quarto.md",
     "posts/quarto-vs-quartz-for-obsidian.md",
     "book-review/killers-of-the-flower-moonyfg if.md",
@@ -176,15 +194,9 @@
     "img/book-scientific-freedom.jpeg",
     "book-review/scientific-freedom.md",
     "posts/the-little-red-hen.md",
-    "docs/christianity/is-christianity-true.html",
-    "docs/img/dalle-timeless.png",
     "docs/_templates/new-post.md",
-    "docs/_templates",
-    "docs/posts/poem-timeless.html",
-    "docs/posts/quarto-vs-quartz-for-obsidian.html",
     "christianity/is-christianity-true.md",
     "posts/poem-timeless.md",
-    "Untitled.md",
     "posts/leaving-my-startup-was-the-right-decision.md",
     "posts/decisions-are-rivers.md",
     "book-review/how-to-decide-simple-tools-for-making-better-choices.md",

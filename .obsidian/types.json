@@ -3,6 +3,7 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "date-finished": "date"
+    "date-finished": "date",
+    "updated": "datetime"
   }
 }

@@ -25,7 +25,7 @@
     },
     "insert-yaml-attributes": {
       "enabled": true,
-      "text-to-insert": "title: \ndescription:\ndate:\ncategories:\ndraft"
+      "text-to-insert": "title: \ndescription:\ndate:\ncategories:\ndraft:"
     },
     "move-tags-to-yaml": {
       "enabled": true,
@@ -38,14 +38,14 @@
     },
     "yaml-key-sort": {
       "enabled": true,
-      "yaml-key-priority-sort-order": "title:\ndescription:\ndate:\ncategories:\ndraft:",
+      "yaml-key-priority-sort-order": "title:\ndescription:\ndate:\nupdated:\ncategories:\ndraft:",
       "priority-keys-at-start-of-yaml": true,
       "yaml-sort-order-for-other-keys": "None"
     },
     "yaml-timestamp": {
-      "enabled": false,
+      "enabled": true,
       "date-created": true,
-      "date-created-key": "date created",
+      "date-created-key": "date",
       "force-retention-of-create-value": true,
       "date-modified": true,
       "date-modified-key": "updated",
