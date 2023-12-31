@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/emotional-recovery.md",
+                "file": "posts/water-as-a-currency.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/emotional-recovery.md",
+            "file": "posts/water-as-a-currency.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/emotional-recovery.md"
+            "file": "posts/water-as-a-currency.md"
           }
         }
       },
@@ -125,7 +125,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/emotional-recovery.md",
+            "file": "posts/water-as-a-currency.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -145,9 +145,13 @@
   },
   "active": "ba4750059d7c4841",
   "lastOpenFiles": [
-    "img/dalle-red-light-night.png",
-    "Untitled 1.md",
+    "img/photo-water-is-precious.png",
+    "posts/water-as-a-currency.md",
+    "gratitude/beaches.md",
+    "null/hh.md",
+    "null",
     "posts/emotional-recovery.md",
+    "img/dalle-red-light-night.png",
     "book-review/dune.md",
     "christianity/no-empty-chairs.md",
     "docs/christianity/no-empty-chairs.html",
@@ -183,13 +187,9 @@
     "LOGGING-NOTE (iPhone).md",
     "posts/flip-a-coin.md",
     "Untitled 2.md",
-    "[leaving-my-startup-was-the-right-decision](../posts/leaving-my-startup-was-the-right-decision.md).md",
     "[leaving-my-startup-was-the-right-decision](..",
     "[leaving-my-startup-was-the-right-decision](../posts",
-    "docs/book-review/img",
     "docs/book-review/img/how-to-decide.jpg",
-    "docs/img/walking-away.png",
-    "Reading list.md",
-    "img/walking-away.png"
+    "docs/img/walking-away.png"
   ]
 }
