@@ -23,7 +23,7 @@ _Last updated: `r Sys.Date()`_
  
 ## Bio
 
-Data scientist with 7 years of experience building complex, large-scale data pipelines and inferential and machine learning models. Experience running online A/B experiments, managing complex compute infrastructure and confidently presenting to VP-level audiences. Passionate about innovation, creativity, tech, data, engineering, leadership, mentoring and team building. Former startup co-founder.
+Data scientist with 9 years of experience building complex, large-scale data pipelines and inferential and machine learning models. Experience running online A/B experiments, managing complex compute infrastructure and confidently presenting to VP-level audiences. Passionate about innovation, creativity, tech, data, engineering, leadership, mentoring and team building. Former startup co-founder.
 
 ## Experience
 
@@ -39,13 +39,22 @@ url_color = "#007bff"
 
 tribble(
   ~start, ~stop, ~company, ~url, ~title, ~location, ~notes,
+  # Northbeam
+  "2023/01", "Prwsent",
+  "Northbeam",
+  "https://www.northbeam.io/",
+  "Lead Data Scientist, Media Mix Modelinf",
+  "Remote/SF",
+  "Marketing mixed models, time series, budget optimization, machine learning pipelines",
+  
   # Hopper
-  "2022/01", "Present",
+  "2022/01", "2022/12",
   "Hopper",
   "https://www.hopper.com/",
   "Senior Data Scientist, Hotels Marketplace",
   "Remote",
   "App Experience: recommendation systems, A/B testing, product insights, user analysis. Price Merchandising: pricing and markup optimization, competitive pricing intelligence.",
+  
   # Google
   "2020/03", "2022/01",
   "Google: Maps, YouTube",
@@ -53,6 +62,7 @@ tribble(
   "Data Scientist, Engineering",
   "San Bruno, CA",
   "Google Maps: A/B testing, product insights, user analysis. YouTube Music: A/B testing on music recommendation system enhancements, user insights, marketing analytics, user-targeting and churn analysis",
+  
   # Capital One
   "2017/07", "2020/03",
   "Capital One",
@@ -60,6 +70,7 @@ tribble(
   "Data Scientist, Machine Learning",
   "Washington, D.C.",
   "Machine learning and ML data pipeline development, cloud compute (AWS), risk modeling",
+  
   # Bates White
   # paste0("2017/07 <br>  ↑", up_arrow, "<br>2015/08"),
   "2015/08", "2017/07", 
@@ -68,6 +79,7 @@ tribble(
   "Analytics Consultant",
   "Washington, D.C.",
   "Econometric and financial modeling in the context of antitrust litigation",
+  
   # Novi Security
   "2013/01", "2014/08", 
   "Novi Security",
