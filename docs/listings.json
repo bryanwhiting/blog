@@ -13,7 +13,9 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/water-as-a-currency.html",
       "/posts/emotional-recovery.html",
+      "/gratitude/beaches.html",
       "/posts/poem-timeless.html",
       "/posts/quarto-vs-quartz-for-obsidian.html",
       "/posts/how-to-blog-with-obsidian-and-quarto.html",
@@ -105,6 +107,7 @@
   {
     "listing": "/gratitude.html",
     "items": [
+      "/gratitude/beaches.html",
       "/gratitude/grateful-for-artists.html",
       "/gratitude/2023-12-26-i'm-grateful-for-blankets/index.html",
       "/gratitude/2023-12-25-grateful-for-doctors/index.html",
