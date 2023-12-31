@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/reading-list.md",
+                "file": "-Dataview Drafts.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "book-review/reading-list.md",
+            "file": "-Dataview Drafts.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "book-review/reading-list.md"
+            "file": "-Dataview Drafts.md"
           }
         }
       },
@@ -137,7 +137,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "book-review/reading-list.md",
+            "file": "-Dataview Drafts.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -157,6 +157,7 @@
   },
   "active": "095c35b6ba912b52",
   "lastOpenFiles": [
+    "book-review/reading-list.md",
     "-Dataview Drafts.md",
     "christianity/no-empty-chairs.md",
     "christianity/2023-12-31-cfm-rev-15-21/index.md",
@@ -201,7 +202,6 @@
     "posts/decisions-are-rivers.md",
     "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
     "posts/flip-a-coin-and-not-fail.md",
-    "_templates/link-to-file.md",
-    "[LOGGING-NOTE.md"
+    "_templates/link-to-file.md"
   ]
 }
