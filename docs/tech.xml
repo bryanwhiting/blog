@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Bryan Whiting</title>
+<link>https://www.bryanwhiting.com/tech.html</link>
+<atom:link href="https://www.bryanwhiting.com/tech.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.4.515</generator>
+<lastBuildDate>Sun, 31 Dec 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Replacing human work with AI</title>
+  <link>https://www.bryanwhiting.com/tech/swapping-out-human-labor-for-ai.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>In a <a href="https://mitsloan.mit.edu/ideas-made-to-matter/4-questions-to-ask-swapping-out-human-labor-ai">recent MIT article</a>, the author discusses how to know if you’re ready for AI adoption. It boils things down to a rather obvious four-step questioning process:</p>
+<ol type="1">
+<li>How much time would I save if I used AI?</li>
+<li>How expensive is the task? (How expensive is the salary of the person doing the task.)</li>
+<li>How capable is the AI of completing the task successfully?</li>
+<li>How easy is it to determine if the output is good/correct?</li>
+</ol>
+<p>I say obvious because these are actually just questions you’d ask of any task worth doing by any person at your company. In every decision in running a business, there is an ROI question at play - what does this person cost me, what’s the return?</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-ai-task-vs-human.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">It’s not: “should I use AI?” It’s “how?”</figcaption>
+</figure>
+</div>
+<section id="knowing-what-you-dont-know-and-how-to-know-you-know-it" class="level1 page-columns page-full">
+<h1>Knowing what you don’t know, and how to know you know it</h1>
+<p>The author lays out the hypothetical “I asked this ChatGPT to write something in Perl and it did it well on the second try!”</p>
+<p>Consider that. Do you know what Perl is? Would you know how to evaluate if the code is complete? How would you execute such code - do you know the programs to run?</p>
+<p>AI cannot solve these environmental, contextual problems yet. It can’t think through all the nuance. And, if you have an expensive salary, there’s a reason: you have a lot of experience. Experience to know what Perl is. Experience to recognize the code’s flaws and poor design patterns. This makes you all the more valuable <em>with</em> AI.</p>
+<p>On the other hand, a highly creative, curious person could just ask AI “what programming languages are good for this task?” Like Neo in <em>The Matrix</em> when he “downloads kung-foo” into his brain, we all can get up to speed a lot faster.<sup>1</sup></p>
+<div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;I’ve read stories of people without technical backgrounds building websites with GPT. On the surface this is cool. Now do they care to keep doing that? Is that their personality? Are they going to get bored? This is the differentiator. And the people who stick with GPT to build a website and remain curious are the ones who will get ahead. Those who give up won’t.</p></li></div></section>
+<section id="how-do-i-adopt-ai-not-should" class="level1">
+<h1><em>How</em> do I adopt AI? (Not “should”)</h1>
+<p>To me, the question isn’t “do these four questions check the box”? Instead, I see AI as an always-on strategy with various ranges of usefulness:</p>
+<ol type="1">
+<li>Do you care what the final product looks like?
+<ul>
+<li>Are you okay with an 80% solution?</li>
+<li>Is this throwaway work?</li>
+<li>Do you plan to maintain this code as part of a 10,000 line code base?</li>
+<li>Do you just need ideas to get started?</li>
+</ul></li>
+<li>What are the risks in firing my experts?
+<ul>
+<li>Who will catch the mistakes of the AI? What if it’s wrong?</li>
+<li>In many aspects of your business the risk of being wrong might be a lot lower than you think.</li>
+</ul></li>
+<li>What <em>can’t</em> it do well?
+<ul>
+<li>Assume AI is doing everything at your company - what would that look like?</li>
+<li>Give AI the benefit of the doubt first, then work backward from what it can’t do.</li>
+</ul></li>
+</ol>
+<p>I think that AI holds great power to aid our jobs in a lot of ways. It <em>will</em> replace a lot of jobs, just as there are far fewer farmers today than a hundred years ago. Those farmers are far more effective than ever before - we get more yield for less. It will replace <em>part</em> of your job - the stuff you know how to do but would rather have someone else do it.</p>
+<p>Coders <em>will</em> be highly automatable, especially those who think otherwise. Lawyers. Graphic designers. Marketers. This is a cycle as old as time: people and businesses who think they have a strong hold on the market (think: BlackBerry, <em>Innovators Dilemma</em>) are the ones who always get eclipsed. # Learn the new skillset</p>
+<p>Have everyone at your company use it today. It’s the new programming language. It’s the new way of authoring. And yes, prompt engineering (how you ask it questions) widely impacts its usefulness. Therefore, we all need to learn how to prompt engineer.</p>
+<p><em>That</em> is the new skillset: <strong>knowing what question to ask and how to pressure test its validity</strong>. In essence, the learning acceleration curve has skyrocketed, and one person can now actually be good at many things a lot faster. It’s the curious person who will win. It’s the visionary. The evaluator. The one who knows where they want to go, can discern if the steps they’re taking are taking them to their destination, and who have the ability to adapt and course correct when necessary.</p>
+<p>For now, AI can hardly do things outside data it was trained on. In the future 10 years that may change. If so, we’ll all be on the edge of scientific discovery, pushing the bounds of creative work, and focusing on the nuance that will win/lose that legal case. AI will have a seat at the table. But so will we.</p>
+
+
+</section>
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>ai</category>
+  <category>automation</category>
+  <category>decisions</category>
+  <category>leadership</category>
+  <guid>https://www.bryanwhiting.com/tech/swapping-out-human-labor-for-ai.html</guid>
+  <pubDate>Sun, 31 Dec 2023 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

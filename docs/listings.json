@@ -11,9 +11,85 @@
     ]
   },
   {
-    "listing": "/lists.html",
+    "listing": "/gratitude.html",
     "items": [
-      "/lists/ai/index.html"
+      "/gratitude/beaches.html",
+      "/gratitude/grateful-for-artists.html",
+      "/gratitude/2023-12-26-i'm-grateful-for-blankets/index.html",
+      "/gratitude/2023-12-25-grateful-for-doctors/index.html",
+      "/gratitude/2023-12-24-light/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/book-review/unbelievable.html",
+      "/tech/swapping-out-human-labor-for-ai.html",
+      "/posts/water-as-a-currency.html",
+      "/posts/emotional-recovery.html",
+      "/posts/poem-timeless.html",
+      "/posts/quarto-vs-quartz-for-obsidian.html",
+      "/posts/how-to-blog-with-obsidian-and-quarto.html",
+      "/posts/leaving-my-startup-was-the-right-decision.html",
+      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
+      "/posts/flip-a-coin.html",
+      "/posts/decisions-are-rivers.html",
+      "/posts/flip-a-coin-and-not-fail.html",
+      "/posts/writing-is-enlivening/index.html",
+      "/posts/write-despite-ai/index.html",
+      "/posts/quarto-feature-requests/index.html",
+      "/posts/quarto-from-phone/index.html",
+      "/posts/2023-12-25-ai-robots-are-mastering-tasks-faster-than-humans-/index.html",
+      "/posts/2023-12-24-twas-the-night-before-christmas/index.html",
+      "/book-review/the-best-of-edgar-allen-poe.html",
+      "/book-review/dune.html",
+      "/book-review/killers-of-the-flower-moonyfg if.html",
+      "/posts/2023-12-21-the-dodo/index.html",
+      "/posts/2023-12-21-github-copilot-levels-up/index.html",
+      "/posts/the-little-red-hen.html",
+      "/posts/2023-12-19-how-to-encourage-your-kids-/index.html",
+      "/book-review/101-essays-to-make-you-think.html",
+      "/book-review/hitchhikers-guide-to-the-galaxy.html",
+      "/posts/2023-12-16-humanity-and-ai/index.html",
+      "/posts/2023-12-15-prompt-techniques/index.html",
+      "/posts/2023-12-15-llms-can-find-a-needle-in-the-haystack/index.html",
+      "/posts/2023-12-13-learn-by-doing/index.html",
+      "/book-review/scientific-freedom.html",
+      "/posts/2023-12-12-future-of-coding/index.html",
+      "/posts/2022-12-23-who-do-you-want-to-be-known-for/index.html",
+      "/posts/2022-12-15-chatgpt-rshiny/index.html",
+      "/posts/2022-12-06-more-new-businesses-than-ever/index.html",
+      "/posts/2022-11-18-writing-a-tech-resume/index.html",
+      "/posts/2022-11-18-substance-over-style/index.html",
+      "/posts/2022-11-12-what-is-a-model/index.html",
+      "/posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html",
+      "/posts/2022-07-03-when-data-collection-goes-too-far/index.html",
+      "/posts/2022-06-28-pomodoro-principles/index.html",
+      "/posts/2022-06-28-increase-focus-through-writing-down-everything/index.html",
+      "/posts/2022-06-25-how-i-use-ticktick/index.html",
+      "/book-review/getting-things-done.html",
+      "/posts/2022-06-23-the-best-todolist-manager/index.html",
+      "/posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html",
+      "/posts/2022-06-22-downstream-impact/index.html",
+      "/posts/2022-06-21-the-power-of-party-pay-by-visible/index.html",
+      "/posts/2022-06-21-products-for-dads/index.html",
+      "/posts/2022-06-20-blogging-with-quarto/index.html",
+      "/posts/2021-07-17-authors-angle-matters/index.html",
+      "/posts/2020-12-18-productivity-notes/index.html",
+      "/posts/2020-12-16-pretotyping-ml-solutions/index.html",
+      "/posts/2020-12-15-calendaring-todos/index.html",
+      "/posts/2020-12-15-data-beats-opinions/index.html",
+      "/posts/2018-07-02-semantic-versioning-for-data-science-models/semantic-versioning-for-data-science-models.html",
+      "/posts/2017-10-19-used-cars-analysis/used-cars.html",
+      "/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html",
+      "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
+      "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html"
+    ]
+  },
+  {
+    "listing": "/tech.html",
+    "items": [
+      "/tech/swapping-out-human-labor-for-ai.html"
     ]
   },
   {
@@ -31,9 +107,16 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/lists.html",
+    "items": [
+      "/lists/ai/index.html"
+    ]
+  },
+  {
+    "listing": "/all.html",
     "items": [
       "/book-review/unbelievable.html",
+      "/tech/swapping-out-human-labor-for-ai.html",
       "/posts/water-as-a-currency.html",
       "/posts/emotional-recovery.html",
       "/gratitude/beaches.html",
@@ -72,6 +155,7 @@
       "/posts/2023-12-16-humanity-and-ai/index.html",
       "/posts/2023-12-15-prompt-techniques/index.html",
       "/posts/2023-12-15-llms-can-find-a-needle-in-the-haystack/index.html",
+      "/lists/ai/index.html",
       "/christianity/2023-12-13-three-little-pigs/index.html",
       "/posts/2023-12-13-learn-by-doing/index.html",
       "/book-review/scientific-freedom.html",
@@ -104,16 +188,6 @@
       "/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html",
       "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
       "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html"
-    ]
-  },
-  {
-    "listing": "/gratitude.html",
-    "items": [
-      "/gratitude/beaches.html",
-      "/gratitude/grateful-for-artists.html",
-      "/gratitude/2023-12-26-i'm-grateful-for-blankets/index.html",
-      "/gratitude/2023-12-25-grateful-for-doctors/index.html",
-      "/gratitude/2023-12-24-light/index.html"
     ]
   }
 ]

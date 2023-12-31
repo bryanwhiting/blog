@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Bryan Whiting</title>
+<link>https://www.bryanwhiting.com/</link>
+<atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.4.515</generator>
+<lastBuildDate>Sun, 31 Dec 2023 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Unbelievable</title>
+  <link>https://www.bryanwhiting.com/book-review/unbelievable.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>A story of Rob Hyndman’s departure out of the Christadelphia church and process of going from a highly devout Christian to a self-described “unbeliever”.</p>
+<p><a href="https://robjhyndman.com/unbelievable/">Online link</a></p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book-review</category>
+  <guid>https://www.bryanwhiting.com/book-review/unbelievable.html</guid>
+  <pubDate>Sun, 31 Dec 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Replacing human work with AI</title>
+  <link>https://www.bryanwhiting.com/tech/swapping-out-human-labor-for-ai.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>In a <a href="https://mitsloan.mit.edu/ideas-made-to-matter/4-questions-to-ask-swapping-out-human-labor-ai">recent MIT article</a>, the author discusses how to know if you’re ready for AI adoption. It boils things down to a rather obvious four-step questioning process:</p>
+<ol type="1">
+<li>How much time would I save if I used AI?</li>
+<li>How expensive is the task? (How expensive is the salary of the person doing the task.)</li>
+<li>How capable is the AI of completing the task successfully?</li>
+<li>How easy is it to determine if the output is good/correct?</li>
+</ol>
+<p>I say obvious because these are actually just questions you’d ask of any task worth doing by any person at your company. In every decision in running a business, there is an ROI question at play - what does this person cost me, what’s the return?</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-ai-task-vs-human.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">It’s not: “should I use AI?” It’s “how?”</figcaption>
+</figure>
+</div>
+<section id="knowing-what-you-dont-know-and-how-to-know-you-know-it" class="level1 page-columns page-full">
+<h1>Knowing what you don’t know, and how to know you know it</h1>
+<p>The author lays out the hypothetical “I asked this ChatGPT to write something in Perl and it did it well on the second try!”</p>
+<p>Consider that. Do you know what Perl is? Would you know how to evaluate if the code is complete? How would you execute such code - do you know the programs to run?</p>
+<p>AI cannot solve these environmental, contextual problems yet. It can’t think through all the nuance. And, if you have an expensive salary, there’s a reason: you have a lot of experience. Experience to know what Perl is. Experience to recognize the code’s flaws and poor design patterns. This makes you all the more valuable <em>with</em> AI.</p>
+<p>On the other hand, a highly creative, curious person could just ask AI “what programming languages are good for this task?” Like Neo in <em>The Matrix</em> when he “downloads kung-foo” into his brain, we all can get up to speed a lot faster.<sup>1</sup></p>
+<div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;I’ve read stories of people without technical backgrounds building websites with GPT. On the surface this is cool. Now do they care to keep doing that? Is that their personality? Are they going to get bored? This is the differentiator. And the people who stick with GPT to build a website and remain curious are the ones who will get ahead. Those who give up won’t.</p></li></div></section>
+<section id="how-do-i-adopt-ai-not-should" class="level1">
+<h1><em>How</em> do I adopt AI? (Not “should”)</h1>
+<p>To me, the question isn’t “do these four questions check the box”? Instead, I see AI as an always-on strategy with various ranges of usefulness:</p>
+<ol type="1">
+<li>Do you care what the final product looks like?
+<ul>
+<li>Are you okay with an 80% solution?</li>
+<li>Is this throwaway work?</li>
+<li>Do you plan to maintain this code as part of a 10,000 line code base?</li>
+<li>Do you just need ideas to get started?</li>
+</ul></li>
+<li>What are the risks in firing my experts?
+<ul>
+<li>Who will catch the mistakes of the AI? What if it’s wrong?</li>
+<li>In many aspects of your business the risk of being wrong might be a lot lower than you think.</li>
+</ul></li>
+<li>What <em>can’t</em> it do well?
+<ul>
+<li>Assume AI is doing everything at your company - what would that look like?</li>
+<li>Give AI the benefit of the doubt first, then work backward from what it can’t do.</li>
+</ul></li>
+</ol>
+<p>I think that AI holds great power to aid our jobs in a lot of ways. It <em>will</em> replace a lot of jobs, just as there are far fewer farmers today than a hundred years ago. Those farmers are far more effective than ever before - we get more yield for less. It will replace <em>part</em> of your job - the stuff you know how to do but would rather have someone else do it.</p>
+<p>Coders <em>will</em> be highly automatable, especially those who think otherwise. Lawyers. Graphic designers. Marketers. This is a cycle as old as time: people and businesses who think they have a strong hold on the market (think: BlackBerry, <em>Innovators Dilemma</em>) are the ones who always get eclipsed. # Learn the new skillset</p>
+<p>Have everyone at your company use it today. It’s the new programming language. It’s the new way of authoring. And yes, prompt engineering (how you ask it questions) widely impacts its usefulness. Therefore, we all need to learn how to prompt engineer.</p>
+<p><em>That</em> is the new skillset: <strong>knowing what question to ask and how to pressure test its validity</strong>. In essence, the learning acceleration curve has skyrocketed, and one person can now actually be good at many things a lot faster. It’s the curious person who will win. It’s the visionary. The evaluator. The one who knows where they want to go, can discern if the steps they’re taking are taking them to their destination, and who have the ability to adapt and course correct when necessary.</p>
+<p>For now, AI can hardly do things outside data it was trained on. In the future 10 years that may change. If so, we’ll all be on the edge of scientific discovery, pushing the bounds of creative work, and focusing on the nuance that will win/lose that legal case. AI will have a seat at the table. But so will we.</p>
+
+
+</section>
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>ai</category>
+  <category>automation</category>
+  <category>decisions</category>
+  <category>leadership</category>
+  <guid>https://www.bryanwhiting.com/tech/swapping-out-human-labor-for-ai.html</guid>
+  <pubDate>Sun, 31 Dec 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Water as a Currency?</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/water-as-a-currency.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>The book <a href="../book-review/dune.html">Dune</a> is amazing in many ways, but the one that piqued my curiosity today was this: what if water was a currency?</p>
+<p>The book gives great reverence to water, specifically talking about the lengths the Fremen go to to preserve their water. They even harvest it the dead, as water is life. They see people around them as water vessels. If you’re 100 kg (220lbs), they say you carry 60 kg of water weight. That’s a 60 liters. If you drink an average of 2 liters per day, that’s enough water to sustain you for 30 days. Fascinating how you would die without drinking water for a week though, right?</p>
+<p>Some on this earth live with such water scarcity. Most in the US don’t. Consider what else we can focus on because we take the most life-giving substance for granted.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/photo-water-is-precious.png" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Water is precious</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>water</category>
+  <category>economics</category>
+  <guid>https://www.bryanwhiting.com/posts/water-as-a-currency.html</guid>
+  <pubDate>Sat, 30 Dec 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Emotional Recovery</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/emotional-recovery.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Imagine you just ran a red light at 10:15pm. You were driving without music or phone distractions, you just zoned out and coasted through.</p>
+<p>Your emotions run high as you consider what might have happened otherwise. But nothing happened. Something <em>could</em> have happened, but nothing did. In the end, all is well.</p>
+<p>How do you calm yourself down? In <a href="../book-review/dune.html">Dune</a>, someone almost dies because of Paul’s “mistake”. But nobody died.</p>
+<p>Life is full of thousands of these things. Several of them we recognize and brush off “oh that was close.” But how many events go unnoticed because we were unaware we even could have done harm (no red light to be found)?</p>
+<p>How we identify and recover is a skill. How do you process such experiences? How do you get over the person who cuts you off on the highway? How do you get over not realizing you cut someone off?</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-red-light-night.png" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">The red lights of life</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <guid>https://www.bryanwhiting.com/posts/emotional-recovery.html</guid>
+  <pubDate>Sat, 30 Dec 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Timeless</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/poem-timeless.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Timeless
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The days pass by like weeks The weeks pass by like days The sun continues to set in it’s old, familiar way</p>
+<p>Time is an illusion, Restful nights, a delusion My state of mind, a confusion, But still my kids want to play</p>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-timeless.png" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Time slips away, under our watchful eye</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>poem</category>
+  <category>poetry</category>
+  <category>parenting</category>
+  <guid>https://www.bryanwhiting.com/posts/poem-timeless.html</guid>
+  <pubDate>Fri, 29 Dec 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Quarto vs. quartz for Obsidian blog</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/quarto-vs-quartz-for-obsidian.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Things I like/dislike about <code>quarto</code> are listed <a href="../posts/quarto-feature-requests/index.html">here</a>.</p>
+<p>Generally, I love <code>quarto</code> and the main thing I don’t like about quarto is how slow it is, compared to say, <code>hugo</code>.</p>
+<p>I looked heavily into <code>quartz</code>, which is explained <a href="https://brandonkboswell.com/blog/Publishing-your-Obsidian-Vault-Online-with-Quartz/">here</a> as a way to publish your Obsidian vault on GitHub. And <a href="https://www.ssp.sh/brain/">here’s an example</a> of a digital garden someone uses with <code>quartz</code>, it’s pretty slick. Here are the <a href="https://quartz.jzhao.xyz/features">features of quartz</a>.</p>
+<p>Why <code>quarto</code>? I really like the design of a blog, as I tend to think better in “post” form rather than never-ending-garden-of-thoughts. I like reading blogs because I assume the thoughts are complete. Quartz is great if you just want your own wiki. I just don’t really care about the network graphs and all and I don’t think other people reading them care either.</p>
+<p>I want to focus on writing and sometimes long form writing. Quarto enables a lot, is easy to setup and customize, has great search, has a ton of markdown desires (tabs, callouts, asides, footnotes), can render code (Python/R) when I want to be adventurous, and has a blog interface for posts.</p>
+<p>Largely they’re the same, and maybe I’ll use quartz at some point. But I’m happy where I am now.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>quarto</category>
+  <category>obsidian</category>
+  <category>pkm</category>
+  <category>build in public</category>
+  <category>tool</category>
+  <category>tool comparison</category>
+  <guid>https://www.bryanwhiting.com/posts/quarto-vs-quartz-for-obsidian.html</guid>
+  <pubDate>Fri, 29 Dec 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Blogging with Obsidian and Quarto</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/how-to-blog-with-obsidian-and-quarto.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-tip no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>First half is my philosophy on the relationship between learning, notetaking, and blogging.</p>
+<ul>
+<li>I love to learn</li>
+<li>Writing helps me learn</li>
+<li>Publicly writing increases my focus</li>
+</ul>
+<p>Second half is how I use Obsidian and Quarto, alternatives I’ve tried, and my actually flow. I detail what tools I use, how I use them.</p>
+<ul>
+<li>set up relative links</li>
+<li>Have one img folder</li>
+<li>Use templater to manage new post templates and relative links</li>
+<li>Use linter</li>
+<li>Use commander for toolbar palette</li>
+<li>dataview to find drafts</li>
+<li>Tags to flag ideas</li>
+</ul>
+</div>
+</div>
+</div>
+<p>I’ve had a blog since 2016. Started with Jekyll. Then blogdown. Tried medium in 2020 because it had a good mobile app and I was able to publish every day. Then I didn’t know how to get my posts out of there so I lost interest. Then I found quarto, which I was excited about because I have always loved Rmarkdown (things like tabs, executable code, etc.). Then I tried Substack, which I did for a few weeks but eventually gave up because 1) no mobile app to write and 2) how do I get my stuff off of there?</p>
+<p>Seth Godin writes every day, and I love his blog and take it as an inspiration. In one post he mentions how “some say do a podcast, others say write on platform x or platform Y”. (Medium, Substack, etc.) He recommends: those tools always serve the 1%. If you’re the 1%, you make money. Otherwise you don’t. So you might as well own your own content.</p>
+<p>I know two Instagram and TikTok influencers with 100k and 300k followers respectively. The 100k made $5k in 2022. The 300k TikToker still makes maybe $100/mo. They each put in 20 hours+ a week.</p>
+<p>So I’m giving up the illusion I’ll ever make money off a blog or my content. I write because I always have. I write publicly now because I found a way to do so online, from my phone.</p>
+<p>This is how I blog daily using quarto (for the website) and Obsidian (for the editor).</p>
+<section id="own-your-platform" class="level1">
+<h1>Own your platform</h1>
+<p>After all the years blogging, giving up, coming back, etc, there are many things that are my personal needs.</p>
+<ul>
+<li>Mobile first. I can’t write at my computer. This isn’t my job.</li>
+<li>Footnotes: many blogging platforms don’t allow for them or handle them well. Footnotes are essential in long content.</li>
+<li>Customizable: I need to be able to add styling how I like it. This is part of the creative process.</li>
+<li>Tags: having and filtering by tags is nice</li>
+<li>Portable: if I stop blogging for 9 months I need to be able to move it to the next shiny object platform. I need to own my content. I also don’t like posting on LinkedIn or Facebook directly because I see my writing as my creative work. Those platforms don’t let you save or share those links later on.<br>
+</li>
+<li>Relative links: I need to be able to link to other posts. This is part of the mental note taking journey.</li>
+<li>Subscribe button. (Substack and Medium are built for this!)</li>
+<li>Comments: 99% of people don’t comment, but when people reach out it feels like I did something for the world. It also makes the blog more approachable, even if nobody every posts.</li>
+<li>Hackable/automatable: I need templates. I need code. I need to be able to automate things. (At one point I figured out how to set up automations to post straight to Instagram from GitHub actions. I’m going to bring that back!)</li>
+</ul>
+<p>Substack does footnotes well, linking to notes poorly, doesn’t have a mobile editor for posts, and isn’t portable. It handles tags, subscribers, and distribution extremely well, and makes it easy to have multiple publications. But it’s got the vendor lock in.</p>
+<p>Medium had an excellent mobile editing experience, but again - vendor lock in. And you’ve gotta kinda buy into the Medium-way-of-doing-posts.</p>
+<p>All platforms have their vibe. If you want to be popular on TikTok, you gotta dance. Although I personally love to dance, I want my site to be creative and my own.</p>
+</section>
+<section id="why-blog-with-obsidianquarto" class="level1">
+<h1>Why blog with obsidian/quarto?</h1>
+<p>Enter Obsidian and Quarto. Obsidian makes managing and editing content a breeze (things like draft management, sorting files, organizing images, etc is all super easy):</p>
+<p>Why obsidian as my editor?</p>
+<ol type="1">
+<li>It makes writing markdown a breeze</li>
+<li>It has tons of extensions, such as managing footnotes, linting files, spell checking, etc.</li>
+<li>It makes it really easy to link to other files (relative links)</li>
+<li>It makes it easy to refactor (move stuff around)</li>
+<li>It works with markdown. The files are just plain text files in my Files app on my iPhone.</li>
+</ol>
+</section>
+<section id="writing-flow" class="level1">
+<h1>Writing flow</h1>
+<p>Every writer has their flow. The tools they use should reflect their mental process of writing, and not the other way around. If you’re trying to get your brain to work like the tool does, rather than using tools that working like your brain, you’re ngmi. If you’re like me, you’ll try it for a while and then give up. (I may give up after this post, but at least this post isn’t saved on Blogger.com!)</p>
+<p>Here’s mine:</p>
+<ol type="1">
+<li>Get an idea</li>
+<li>Categorize it (religious, tech, life, etc)</li>
+<li>Create a file</li>
+<li>Mark as draft</li>
+<li>Write some ideas</li>
+<li>Edit it (if long), reread a few times</li>
+<li>Unmark as draft</li>
+<li>Post to the internet, read a few more times in live version and make edits</li>
+<li>Tag it</li>
+<li>Find old drafts, finish them</li>
+<li>Add an image, either from my phone camera or chatgpt. Save image in the right folder.</li>
+<li>Write alt text to the images.</li>
+<li>Create links to other entries.</li>
+<li>Make some footnotes for content that doesn’t flow</li>
+<li>Cry and debate if I’m a good writer or if anyone is even listening anymore</li>
+<li>Add a subscribe button</li>
+<li>share a good one to social media</li>
+<li>Check my Google analytics to see if I’m popular. Check subscribers to see if I got any. Wonder why I care anyway because I know I won’t make money off this.</li>
+<li>Get an idea for a new post while reading a book and start again</li>
+</ol>
+<p>The process of getting ideas from a source, and writing from those ideas, makes me want to be able to connect the entry to the source (book or podcast). Sure, I don’t have to write. And sometimes writing is wasted time (writing for writing’s sake), but I enjoy it.</p>
+</section>
+<section id="my-writing-flow-with-obsidian-and-quarto" class="level1 page-columns page-full">
+<h1>My writing flow with Obsidian and Quarto</h1>
+<p>At the risk of nobody ever reading this far, I’ll keep this high level, and if someone cares about something ask me in the comments.</p>
+<p>First, see <a href="../posts/quarto-from-phone/index.html">Quarto from Phone</a> to see how I set up Working Copy to sync my Obsidian repo with GitHub.</p>
+<p>Here’s my flow with obsidian:</p>
+<ol type="1">
+<li>Read a book. Create new book note using <a href="../_templates/new-post.md">new-post</a> via the Templater obsidian plugin. This lets me create a new note in a folder of my choice, give a title, make a filename with a good url slug. Adds some categories automatically.</li>
+<li>When idea comes up, take note in book note. When substantial idea comes up, create a quick draft of a new post using Templater. Enable draft: true if i don’t finish.</li>
+<li>Use Obsidian Dataview to create a list of all outstanding drafts. I can come back and finish.</li>
+<li>Use Obsidian Custom Sort to sort the files in my repo how I want. This package helped me to stop time-stamping my URLs (which I thought was good for sorting). Instead, I can sort by modified time (note custom sort isn’t necessary for modified time sorting), but custom sort allows for sorting by yaml front matter.</li>
+<li>When I’m ready to post, create an image using ChatGPT app. Click on the image in the app, share, save to files. It will save to the img/ folder in my root. Next image? Saves here (iPhone remembers).
+<ol type="1">
+<li>At some point I was creating folders for every blog post so I could reference images there. I’m giving this up for two reasons: 1) every file would then need to be named “index.md” and 2) more folders is more noise. So instead, I have one place for all images, which makes it easier to save and I don’t have to click a bunch of subfolders every time I add an image.</li>
+<li>Also, screenshot any photos you may want to add so as to remove the location metadata.</li>
+</ol></li>
+<li>Use Footnote Shortcut plugin to more efficiently write footnotes. Add a hotkey to the mobile obsidian editor toolbar to quickly add footnotes. <sup>1</sup></li>
+<li>Set up an iOS shortcut to do a “git pull”, “git commit”, “git push” on the repo. Put this shortcut on my home page. Since I have a synced folder, this happens very efficiently!<sup>2</sup></li>
+<li>Set up a github actions to build the blog using <code>quarto render</code>. See <a href="../posts/quarto-vs-quartz-for-obsidian.html">Quarto vs.&nbsp;quartz for Obsidian blog</a></li>
+<li>Publish to GitHub pages with the docs/ folder.</li>
+</ol>
+<div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;This footnote is added with the tap of a button. Brilliant!</p></li><li id="fn2"><p><sup>2</sup>&nbsp;You can also set up an automation to sync anytime you leave the app, but I’ve found that gets kind of annoying because sometimes there can be data loss with a git pull that happens without thinking about it.</p></li></div><p>And that’s it. That’s my flow. If you like this, ask me a question.</p>
+
+
+</section>
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>obsidian</category>
+  <category>quarto</category>
+  <category>tutorial</category>
+  <guid>https://www.bryanwhiting.com/posts/how-to-blog-with-obsidian-and-quarto.html</guid>
+  <pubDate>Fri, 29 Dec 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Leaving my Startup was the Right Decision</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/leaving-my-startup-was-the-right-decision.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I remember in 2014 deciding whether to leave my startup after having just helped raise a seed round and finish a highly successful kickstarter. It was either move with the team to Seattle or stay and finish my Master’s degree. My married cofounder even suggested “you could find your wife here!”</p>
+<p>I imagined every scenario in my anxiety. I specifically imagined all of my partners making $1M dollars or something. I felt like the decision to leave was a decision to not be a millionaire.</p>
+<p>I emotionally came to terms with that possibility. And suddenly, that possible outcome had no allure to me anymore.</p>
+<p>I chose to finish my degree and pursue a career in data science. I also luckily found my wife <em>not</em> in Seattle just a few weeks later.</p>
+<p>I’ve made this choice a few times in my life: go with the direction I want to go at that time. To hop on the right <a href="../posts/decisions-are-rivers.html">river</a>.</p>
+<p>This was the <strong>right</strong> decision, because I came to terms with alternate realties and chose what aligned with my goals.</p>
+<p>You never know what happens when you <a href="../posts/flip-a-coin.html">flip-a-coin</a>. But you can choose whether to flip.</p>
+<p>See also: - <a href="../book-review/how-to-decide-simple-tools-for-making-better-choices.html">how-to-decide-simple-tools-for-making-better-choices</a></p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/walking-away.png" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">walking-away</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>decisions</category>
+  <category>storytelling</category>
+  <category>hindsight</category>
+  <guid>https://www.bryanwhiting.com/posts/leaving-my-startup-was-the-right-decision.html</guid>
+  <pubDate>Thu, 28 Dec 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How to Decide: Simple Tools for Making Better Choices</title>
+  <link>https://www.bryanwhiting.com/book-review/how-to-decide-simple-tools-for-making-better-choices.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/book-how-to-decide.png" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">How to Decide, on Spotify</figcaption>
+</figure>
+</div>
+<p>What is my best decision? Worst?</p>
+<ul>
+<li>resulting: focusing on outcomes, rather than expected values and doing the best</li>
+<li>to improve decision making: focus on what the process was for decision making. Information gathering. Question asking.</li>
+<li>Remember choosing to leave Novi, wondering if someone was going to be a millionaire in my absence. Couldn’t help but feel I was leaving money on the table by leaving. But I decided to leave to pursue what I was passionate about, and regardless that Novi went under I felt that was the right call as I finished my masters.</li>
+</ul>
+<p>Actions: - make a knowledge tracker. Details on decisions. Info known before/after. Make this going forward</p>
+<p>Decision process: - where do you want to go? - What are all the ways to get there? - By taking X choice, what are other ways it could go? What’s the probability?</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book review</category>
+  <category>decisions</category>
+  <category>philosophy</category>
+  <guid>https://www.bryanwhiting.com/book-review/how-to-decide-simple-tools-for-making-better-choices.html</guid>
+  <pubDate>Thu, 28 Dec 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Flipping the coins of life</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/flip-a-coin.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Assume you flip a coin 5 times and get heads 5 times. You’re going pretty well!</p>
+<p>But are you?</p>
+<p>A normal coin has 50% chance of heads. Chances of 5 heads in a row is ~3/100. It’s not nothing. But over time this will average to 50%, if you flip 10000 times.</p>
+<p>Decisions are rarely black and whites despite how we choice to say “that was a bad decision”. The outcome doesn’t determine the quality of the decision.</p>
+<p>You chose to flip a coin, and not roll a dice. You didn’t roll a 32 sided die either.</p>
+<p>Focus on choice that maximize probability. This is the decision.</p>
+<ul>
+<li><a href="../book-review/how-to-decide-simple-tools-for-making-better-choices.html">how-to-decide-simple-tools-for-making-better-choices</a></li>
+<li><a href="../posts/decisions-are-rivers.html">decisions-are-rivers</a></li>
+</ul>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>philosophy</category>
+  <category>decisions</category>
+  <guid>https://www.bryanwhiting.com/posts/flip-a-coin.html</guid>
+  <pubDate>Thu, 28 Dec 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Decisions are Like Hopping on a River Raft</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/decisions-are-rivers.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I’m reading <a href="../book-review/how-to-decide-simple-tools-for-making-better-choices.html">How to Decide: Simple Tools for Making Better Choices</a> and thinking about decisions. I like to think of decisions as rivers.</p>
+<p>Like decisions, all rivers lead somewhere. Where is your river heading?</p>
+<p>The decision is which river to get on in your little boat. You can only envision the destination.</p>
+<p>Being a high school English teacher is a decision. Where will that life take me after 5/10/20 years? Is that appealing? Only I can choose.</p>
+<p>This thinking process is the decision choice. The rest is up to luck.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>decisions</category>
+  <guid>https://www.bryanwhiting.com/posts/decisions-are-rivers.html</guid>
+  <pubDate>Thu, 28 Dec 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>97 percent chance you’ll succeed</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/flip-a-coin-and-not-fail.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>In <a href="../posts/flip-a-coin.html">Flipping the coins of life</a>, I outline how you can succeed 5 times with a success rate of 3%. That also means you have a 97% chance you won’t succeed 5 times in a row.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/flip-five-coins.png" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Flipping five coins will almost certainly yield at least tails</figcaption>
+</figure>
+</div>
+<p>In life, we sometimes overemphasize winning. Even in the tech world of wanting to fail fast, I think most people just really want to win every time. Nobody seeks failure - that’s not the goal. They seek other things (learning, promotions, making more money).</p>
+<p>When making decisions, it’s easy to black-and-white them. If there’s only a 3% change we’ll win 5 times in a row (with a 50% chance of winning every time), there’s a 97% chance you’ll fail at least once every 5 attempts.</p>
+<p>If your probability of success is lower, then the odds of failing at once in five are almost 100%.</p>
+<p>How do you quantify a life decision though? Maybe you only get one big choice a year (job change, like as is discussed in <a href="../book-review/how-to-decide-simple-tools-for-making-better-choices.html">How to Decide: Simple Tools for Making Better Choices</a>). Is there a 50% chance of “success”? If so, every five years you’re highly likely to “fail”.</p>
+<p>Per the book, it’s more likely that one bad thing happens and we hindsight bias our decision and black-and-white it.</p>
+<p>Reality is: getting fired or your startup blowing up might be the best thing that ever happens to you. You just don’t know. Your story isn’t written yet. And actually, it’s not so much about if you made the right choice as if you just make the choice right in some way.</p>
+<p>Choose your love, and then love your choice, as they say.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>success</category>
+  <category>decisions</category>
+  <category>philosophy</category>
+  <guid>https://www.bryanwhiting.com/posts/flip-a-coin-and-not-fail.html</guid>
+  <pubDate>Thu, 28 Dec 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Writing is truly enlivening</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/writing-is-enlivening/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/posts/writing-is-enlivening/photo.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Hamilton is running out of time</figcaption>
+</figure>
+</div>
+<p>I’ve been writing for my whole life. I have at least 15-20 journals. I have 3000 notes in one app, 2200 notes in another, at least 1800 digital journal entries over 10 years, I’ve built and replaced probably 5 blogs. This blog has 57 entries so far. What have I learned?</p>
+<ol type="1">
+<li>Make writing daily as easy as possible. I set up some automation so I can write from my phone for daily blogging.</li>
+<li>Writing makes things feel real for me. It helps connect the dots. It’s a far more productive way to read the news. Less stuff, more thinking. Because if I can’t write at least one useful note about something I read, I realize it wasn’t worth reading.</li>
+<li>Perhaps reading is the more important daily duty. Well, to write I need something to inspire me. Usually that comes from the news. Sometimes inspiration comes from yesterday’s post. This inspiration came from editing my prior post.</li>
+</ol>
+<p>I’m not gonna worry about who reads this. But instead focus on writing every day because…</p>
+<ul>
+<li>I think it helps me practice storytelling</li>
+<li>helps me practice communication</li>
+</ul>
+<p>Hamilton wrote like he was “running out of time”. I’m writing because I want to use my time how I enjoy it.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/vYbdQAeO0vo?si=GgXNxoEg2dST96Sr" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>communication</category>
+  <category>writing</category>
+  <guid>https://www.bryanwhiting.com/posts/writing-is-enlivening/</guid>
+  <pubDate>Tue, 26 Dec 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/writing-is-enlivening/photo.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Write despite AI</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/write-despite-ai/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="write-because-you-can" class="level1 page-columns page-full">
+<h1>Write because you can</h1>
+<p>I don’t write because anyone is actually listening. But if I’m lucky, the AI is actually listening.</p>
+<ol type="1">
+<li>If AI is listening (webscraping me), I’m fortunate to teach it. Essentially, good training data is hard to come by, especially as AI content proliferates on the internet. Let’s consider it a privilege I’m able to help it learn.</li>
+<li>Writing and telling stories are the oldest form of humanity. Even if an AI can do it better, perhaps we’ll just spend time doing more of it.</li>
+</ol>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/posts/write-despite-ai/photo.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">When plume meets tablet</figcaption>
+</figure>
+</div>
+<p>So yea, I’ll write despite AI. I’ll write because it’s very human to do so.</p>
+
+
+</section>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>ai</category>
+  <category>humanity</category>
+  <guid>https://www.bryanwhiting.com/posts/write-despite-ai/</guid>
+  <pubDate>Tue, 26 Dec 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/write-despite-ai/photo.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Things I’d like in a blog</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/quarto-feature-requests/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+quarto has strengths and drawbacks
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Other frameworks (like Hugo) are more flexible. But quarto offers a lot more out of the box and handles the stuff I really don’t want to have to think about.</p>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/posts/quarto-feature-requests/photo.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">A traditional Quarto</figcaption>
+</figure>
+</div>
+<p>Things <code>quarto</code> is good at:</p>
+<ul>
+<li>Handles metadata really well (easy to get a title image, description, Twitter card, etc.)</li>
+<li>heavily customizable: can organize posts as a list, as a table, as a grid, etc. can easily customize what’s in that. The main thing I didn’t like about Hugo was that the style was just slightly different than I liked it.</li>
+<li>comments</li>
+<li>searching</li>
+<li>categories/tags</li>
+<li>easy to create different/custom listings</li>
+<li>can blog from my phone using Working Copy and GitHub actions</li>
+</ul>
+<p>Things wish quarto were better at:</p>
+<ul>
+<li>Faster render (Hugo speeds plz)</li>
+<li>Don’t render future posts</li>
+<li>A blog landing page that had a stream of entries, rather than just a list. (Similar to seths.blog)</li>
+<li>Listings based on tags</li>
+<li>make it easy to have an alternate slug (make all posts at root, and not in posts/)</li>
+</ul>
+<p>Things I’d like to do with my blog:</p>
+<ul>
+<li>generate weekly summaries</li>
+<li>build some subscribers</li>
+<li>send out a weekly summary of content.</li>
+<li>auto-post to Twitter, Instagram (using photo + description + zapier) and Facebook.</li>
+<li>auto-post anything with “LinkedIn” tag to LinkedIn</li>
+<li>move editing into a vault in Obsidian</li>
+<li>make it easier to copy ChatGPT photos to my blog post folder</li>
+</ul>
+<p>For now, what it offers widely covers what it doesn’t. Most blog templates don’t allow for search, custom listings, lists of tags, Twitter content, etc. For now, quarto offers 95% of what I need.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>productivity</category>
+  <category>quarto</category>
+  <guid>https://www.bryanwhiting.com/posts/quarto-feature-requests/</guid>
+  <pubDate>Tue, 26 Dec 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/quarto-feature-requests/photo.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>How to blog from your phone using quarto (or hugo/jekyll/etc) using Working Copy and Obsidian</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/quarto-from-phone/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Here are the steps I use to post content from my phone to bryanwhiting.com.</p>
+<ol type="1">
+<li>Create a new, empty vault in Obsidian</li>
+<li>Open working copy, set up synced repo. This means any changes are auto-synced.</li>
+<li>Add remote, point it at your GitHub repo where your blog is</li>
+<li>Set up a “pull, stage, commit, push” shortcut</li>
+<li>Set up GitHub actions to build, and push (use my repo’s workflow.yaml if you need an example)</li>
+<li>Have GitHub pages (if your repo is private) or Netlify (if your repo is private, because you can’t have a private GitHub repo without paying)</li>
+</ol>
+<p>And that’s it! Write markdown in obsidian. Push when you’re ready, let GitHub actions build and deploy. Check GitHub actions logs for any errors! (You’ll get an email if it fails.)</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/posts/quarto-from-phone/photo.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Set up synced repo</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/posts/quarto-from-phone/repo.jpeg" class="img-fluid figure-img"></p>
+<figcaption class="margin-caption">Link the repo</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>productivity</category>
+  <category>tech</category>
+  <category>tutorial</category>
+  <guid>https://www.bryanwhiting.com/posts/quarto-from-phone/</guid>
+  <pubDate>Tue, 26 Dec 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/quarto-from-phone/photo.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>AI Robots are mastering tasks faster than humans</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2023-12-25-ai-robots-are-mastering-tasks-faster-than-humans-/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+With a proper objective function, machines can do really hard, isolated tasks
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>they can walk</li>
+<li>they can solve complex physical challenges</li>
+<li>they can play the toughest strategic games on earth and win (AlphaGo 2017, AlphaStar 2019)</li>
+<li>but can they determine the objective function by themselves?</li>
+</ul>
+</div>
+</div>
+<section id="reinforcement-learning" class="level1 page-columns page-full">
+<h1>Reinforcement Learning</h1>
+<p>Great article written <a href="https://www.techradar.com/computing/artificial-intelligence/my-jaw-hit-the-floor-when-i-watched-an-ai-master-one-of-the-worlds-toughest-physical-games-in-just-six-hours">at Techradar</a> going over the advances in reinforcement learning that allow a robot to finish labyrinth faster than humans. The video does the feat even more justice:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/zQMKfuWZRdA?si=lWEaMy_BhKQGDDQd" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>This stands out to me in a few ways, principally that they crippled the machine to not take shortcuts. It still won.</p>
+<p>Reminds me first of AlphaGo:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/WXuK6gekU1Y?si=UGZea1kUWNV_4iTr" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>Which reminds me of <a href="https://deepmind.google/discover/blog/alphastar-mastering-the-real-time-strategy-game-starcraft-ii/">AlphaStar</a>. Here’s a video with commentary on AlphaStar’s performance:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/6EQAsrfUIyo?si=t3x_Nn8Mr2SDJ9uH" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>The thing I connect this video (or some other I watched) with labyrinth is that AlphaStar devised brand new strategies. Players against AlphaStar remarked how they felt like it was indeed being creative. Likewise, Cyberrunner (labyrinth) found shortcuts.</p>
+<p>All of this points to reinforcement learning as a viable solution to getting stuff done both in the digital and physical worlds. Take, for example, how RL is used to teach a <a href="https://interestingengineering.com/innovation/humanoid-taught-itself-to-walk">robot how to walk</a>.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/posts/2023-12-25-ai-robots-are-mastering-tasks-faster-than-humans-/photo.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">An AI robot learning to play StarCraft for the first time…</figcaption>
+</figure>
+</div>
+</section>
+<section id="whats-the-objective" class="level1">
+<h1>What’s the objective?</h1>
+<p>The goal for Super AI will be to figure out what the objective is. If we can marry digital and physical worlds, teaching the systems how to solve objective functions, the possibilities become…super/human.</p>
+<p>The unique thing about a human, it seems, is that we have our objective function hardwired into us: survive. First this is “food/shelter”. Next it’s social survival.</p>
+<p>How do humans figure out objective functions so fast? A human looking at labyrinth will know what to do within a second. Does it have interest/patience to sit there and learn it? Does GPT 4Vision have the ability to figure out these objective functions?</p>
+<p>We learn by objective functions. Minimize wrong answers on a test. Minimize missed baskets on the basketball court. Minimize rejections in a sales funnel. Maximize great conversation and connection at a dinner party.</p>
+<p>Humans learn very quickly. For now, robots are being isolated to specific tasks and their results are impressive. But perhaps to become our overlords all they need is the one objective function to rule them all. Er, uhm, and by “them” I of course don’t mean “us”…</p>
+
+
+</section>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>ai</category>
+  <category>tech</category>
+  <category>futurism</category>
+  <guid>https://www.bryanwhiting.com/posts/2023-12-25-ai-robots-are-mastering-tasks-faster-than-humans-/</guid>
+  <pubDate>Mon, 25 Dec 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/2023-12-25-ai-robots-are-mastering-tasks-faster-than-humans-/photo.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Twas the Night before Christmas</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/2023-12-24-twas-the-night-before-christmas/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-tip no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<ul>
+<li>Link to the 1912 publication, <a href="http://www.gutenberg.org/ebooks/17135">Twas the Night Before Christmas</a></li>
+<li>original poem was 1820’s</li>
+<li>St Nick was 4th century</li>
+<li>Dutch brought the name “Sinterklass” to the U.S. in the 1600’s.</li>
+<li>St Nick becomes red by 1931, thanks to Coke</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/posts/2023-12-24-twas-the-night-before-christmas/photo.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">The OG St.&nbsp;Nick</figcaption>
+</figure>
+</div>
+<p>Everything below is produced by GPT:</p>
+<p>“How long has the concept of Santa been around? Where did”st nick” come from?”</p>
+<blockquote class="blockquote">
+<p>The concept of Santa Claus has evolved over many centuries, originating from the historical figure of Saint Nicholas. Saint Nicholas was a 4th-century Christian bishop in Myra, which is now part of modern-day Turkey. He was known for his generosity and for performing miracles, which earned him a reputation as a protector of children and sailors.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>The name “Santa Claus” evolved from the Dutch “Sinterklaas,” a short form of Sint Nikolaas (Saint Nicholas). Dutch immigrants brought the traditions of Sinterklaas to America in the 17th and 18th centuries. In these traditions, Sinterklaas was depicted as a serious, religious figure who rewarded good children and punished the naughty ones.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>During the 19th century, especially in America, the image of Santa Claus as we know it today began to take shape. The 1823 poem “A Visit from St.&nbsp;Nicholas” (commonly known as “Twas the Night Before Christmas”) played a crucial role in shaping the modern character of Santa Claus, including his physical appearance and the tradition of delivering gifts to children.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Later, in the 19th and 20th centuries, Santa’s image was further popularized through various media, including advertisements, films, and songs, which contributed to the jovial, red-suited, and reindeer-driving character recognized globally today. This character represents a blend of the historical Saint Nicholas, folk traditions from various cultures, and modern commercial and media influences.</p>
+</blockquote>
+<p>How did St Nick become red?</p>
+<blockquote class="blockquote">
+<p>The transformation of Saint Nicholas into the red-suited Santa Claus is a gradual evolution influenced by cultural, artistic, and commercial factors. The image of Santa Claus wearing red clothes began to become popular in the 19th century, but it was solidified in the 20th century, particularly through advertising.</p>
+</blockquote>
+<blockquote class="blockquote">
+<ol type="1">
+<li><strong>19th Century Literature and Art</strong>: In the 19th century, Santa Claus was often depicted in various colors of robes, including blue, green, and brown. However, by the latter half of the 19th century, the image of Santa in a red suit began to appear more frequently in literature and illustrations. Thomas Nast, a prominent American cartoonist, played a significant role in popularizing this image. In his illustrations for Harper’s Weekly starting in the 1860s, Nast depicted Santa Claus in a variety of outfits, including the now-familiar red suit.</li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<ol start="2" type="1">
+<li><strong>Coca-Cola Advertising in the 20th Century</strong>: The standardized image of Santa Claus in a red suit with white fur trim was popularized and became iconic largely due to Coca-Cola advertising campaigns. In 1931, Coca-Cola commissioned illustrator Haddon Sundblom to create a Santa Claus for their Christmas advertising campaign. Sundblom’s Santa was jolly, rotund, and dressed in a red suit with white fur trim, which matched the company’s color scheme. These advertisements were widely circulated and became immensely popular, cementing the image of Santa Claus in a red suit in the public’s imagination.</li>
+</ol>
+</blockquote>
+<blockquote class="blockquote">
+<p>While the red-suited Santa Claus is now ubiquitous, it’s important to note that the evolution of his image was influenced by a blend of historical, cultural, and commercial factors over several decades.</p>
+</blockquote>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>christmas</category>
+  <category>ask gpt</category>
+  <guid>https://www.bryanwhiting.com/posts/2023-12-24-twas-the-night-before-christmas/</guid>
+  <pubDate>Sun, 24 Dec 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/posts/2023-12-24-twas-the-night-before-christmas/photo.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>The Best of Edgar Allen Poe</title>
+  <link>https://www.bryanwhiting.com/book-review/the-best-of-edgar-allen-poe.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-tip no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+
+</div>
+</div>
+</div>
+<p><img src="https://www.bryanwhiting.com/../img/book-edgar-allen-poe.jpeg" class="preview-image img-fluid"></p>
+<section id="raw-notes" class="level1">
+<h1>Raw Notes</h1>
+<p>The Tell-Tale Heart:</p>
+<ul>
+<li>you think me mad. Nah, I’m cool. But the man grows increasingly mad.</li>
+<li>guilt follows the commission, before then the guilt is only in the hesrt. After it consumes.</li>
+</ul>
+<p>The Cask of Amontillado:</p>
+<ul>
+<li>watch your pride. Don’t let it trick you into walking into catacombs</li>
+</ul>
+<p>The Masque of the Red Death:</p>
+<ul>
+<li>fruitless to avoid it</li>
+<li>allegory of phases of life</li>
+<li>Prince Prospero tries to fight death, but dies in the process</li>
+</ul>
+<p>The Raven</p>
+
+
+</section>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book review</category>
+  <guid>https://www.bryanwhiting.com/book-review/the-best-of-edgar-allen-poe.html</guid>
+  <pubDate>Sat, 23 Dec 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/book-review/photo.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Dune</title>
+  <link>https://www.bryanwhiting.com/book-review/dune.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+
+</div>
+</div>
+</div>
+<p><img src="https://www.bryanwhiting.com/img/book-dune.jpeg" class="preview-image img-fluid"></p>
+<ul>
+<li>shield your son too much and he’ll not grow strong enough to fulfill any destiny</li>
+<li>deprogram after the machines. Let the machines do too much thinking.</li>
+<li>humans must never submit to animals</li>
+<li>“how did the woman seal my tongue?” Paul can’t tell his father he’s going to die. Why? Sometimes our tongues are bound to speak that which can’t be changed</li>
+<li>“the mind commands the body and it obeys. It commands itself and it rebels”</li>
+</ul>
+<p>Connections: - Alan Pinkerton <a href="../killers-of-the-flower-moonyfg if.md">killers</a> “secrets break the character of the criminal till they give it out”. Dr Yueh cries when his scripture is given out.</p>
+<p>Notes: - if I made him do it it wouldn’t be his doing. - storytelling: why tell us 100% of everything up front? The movie hides the secrets about Yueh. - storytelling: the hindsight narrator</p>
+<p>When God has appointed a man to die, he guides his wants to desire that place</p>
+<ul>
+<li>you’re remembered for what you fear</li>
+<li>Focusing too much on sight dulls the other senses</li>
+<li>We became weak on caladan</li>
+<li>Why beat yourself up after an emotional experience? What does it take to relevel yiur head.</li>
+</ul>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book review</category>
+  <guid>https://www.bryanwhiting.com/book-review/dune.html</guid>
+  <pubDate>Sat, 23 Dec 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/book-review/photo.jpeg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>
