@@ -2,7 +2,6 @@
   {
     "listing": "/christianity.html",
     "items": [
-      "/christianity/no-empty-chairs.html",
       "/christianity/unknown-god/index.html",
       "/christianity/christmas-empty-tomb/index.html",
       "/christianity/2023-12-24-he-is-the-light-that-we-should-share/index.html",
@@ -12,30 +11,11 @@
     ]
   },
   {
-    "listing": "/lists.html",
-    "items": [
-      "/lists/ai/index.html"
-    ]
-  },
-  {
-    "listing": "/books.html",
-    "items": [
-      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
-      "/book-review/dune.html",
-      "/book-review/the-best-of-edgar-allen-poe.html",
-      "/book-review/killers-of-the-flower-moonyfg if.html",
-      "/book-review/101-essays-to-make-you-think.html",
-      "/book-review/hitchhikers-guide-to-the-galaxy.html",
-      "/book-review/scientific-freedom.html",
-      "/book-review/getting-things-done.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
+      "/posts/emotional-recovery.html",
       "/posts/poem-timeless.html",
       "/posts/quarto-vs-quartz-for-obsidian.html",
-      "/christianity/no-empty-chairs.html",
       "/posts/how-to-blog-with-obsidian-and-quarto.html",
       "/posts/leaving-my-startup-was-the-right-decision.html",
       "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
@@ -101,6 +81,25 @@
       "/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html",
       "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
       "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html"
+    ]
+  },
+  {
+    "listing": "/books.html",
+    "items": [
+      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
+      "/book-review/dune.html",
+      "/book-review/the-best-of-edgar-allen-poe.html",
+      "/book-review/killers-of-the-flower-moonyfg if.html",
+      "/book-review/101-essays-to-make-you-think.html",
+      "/book-review/hitchhikers-guide-to-the-galaxy.html",
+      "/book-review/scientific-freedom.html",
+      "/book-review/getting-things-done.html"
+    ]
+  },
+  {
+    "listing": "/lists.html",
+    "items": [
+      "/lists/ai/index.html"
     ]
   },
   {
