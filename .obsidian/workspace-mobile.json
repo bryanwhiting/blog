@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/eyes.md",
+                "file": "posts/decisions-are-rivers.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "gratitude/eyes.md",
+            "file": "posts/decisions-are-rivers.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "gratitude/eyes.md"
+            "file": "posts/decisions-are-rivers.md"
           }
         }
       },
@@ -137,7 +137,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "gratitude/eyes.md",
+            "file": "posts/decisions-are-rivers.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -157,9 +157,11 @@
   },
   "active": "095c35b6ba912b52",
   "lastOpenFiles": [
+    "img/dalle-floating-raft-huck-tom.jpeg",
+    "posts/flip-a-coin-and-not-fail.md",
+    "gratitude/eyes.md",
     "img/dalle-davinci-eye-blueprint.jpeg",
     "sortspec.md",
-    "gratitude/eyes.md",
     "-Dataview Drafts.md",
     "_freeze/about/execute-results/html.json",
     "_freeze/about/execute-results",
@@ -195,13 +197,11 @@
     "img/book-killers-flower-moon.jpeg",
     "img/book-edgar-allen-poe.jpeg",
     "book-review/hitchhikers-guide-to-the-galaxy.md",
-    "img/book-scientific-freedom.jpeg",
     "book-review/scientific-freedom.md",
     "posts/the-little-red-hen.md",
     "docs/_templates/new-post.md",
     "christianity/is-christianity-true.md",
     "posts/poem-timeless.md",
-    "posts/leaving-my-startup-was-the-right-decision.md",
-    "posts/decisions-are-rivers.md"
+    "posts/leaving-my-startup-was-the-right-decision.md"
   ]
 }

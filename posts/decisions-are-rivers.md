@@ -17,3 +17,5 @@ The decision is which river to get on in your little boat. You can only envision
 Being a high school English teacher is a decision. Where will that life take me after 5/10/20 years? Is that appealing? Only I can choose. 
 
 This thinking process is the decision choice. The rest is up to luck. 
+
+![We're all just Huck and Tom to some degree](../img/dalle-floating-raft-huck-tom.jpeg){.preview-image}

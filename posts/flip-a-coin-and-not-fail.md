@@ -1,5 +1,5 @@
 ---
-title: 97 percent chance you'll succeed
+title: 97 percent chance you'll fail
 description: The odds of constant success are against you every 5 decisions. So there's gotta be another way to define success.
 date: 2023-12-28
 categories:
