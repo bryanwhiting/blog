@@ -1,14 +1,14 @@
 ---
-sorting-spec: |
+sorting-spec: |-
   target-folder: /*
   gratitude.qmd
   christianity.qmd
   /folders
-  
+
   /:files
-  
+
   > advanced created
-  
+
   target-folder: book-reviews/*
   > advanced modified
 ---

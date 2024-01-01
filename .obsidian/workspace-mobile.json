@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "-Dataview Drafts.md",
+                "file": "gratitude/eyes.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "-Dataview Drafts.md",
+            "file": "gratitude/eyes.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "-Dataview Drafts.md"
+            "file": "gratitude/eyes.md"
           }
         }
       },
@@ -137,7 +137,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "-Dataview Drafts.md",
+            "file": "gratitude/eyes.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -157,8 +157,16 @@
   },
   "active": "095c35b6ba912b52",
   "lastOpenFiles": [
-    "book-review/reading-list.md",
+    "img/dalle-davinci-eye-blueprint.jpeg",
+    "sortspec.md",
+    "gratitude/eyes.md",
     "-Dataview Drafts.md",
+    "_freeze/about/execute-results/html.json",
+    "_freeze/about/execute-results",
+    "_freeze/about",
+    "docs/-Dataview Drafts.html",
+    "docs/book-review/reading-list.html",
+    "book-review/reading-list.md",
     "christianity/no-empty-chairs.md",
     "christianity/2023-12-31-cfm-rev-15-21/index.md",
     "tech/swapping-out-human-labor-for-ai.md",
@@ -168,11 +176,6 @@
     "docs/tech",
     "docs/tech.html",
     "docs/img/dalle-ai-task-vs-human.jpeg",
-    "docs/book-review/unbelievable.html",
-    "docs/index.xml",
-    "docs/all.html",
-    "all.qmd",
-    "gratitude-2.qmd",
     "docs/img/photo-beach-day-waves.png",
     "docs/img/photo-water-is-precious.png",
     "img/dalle-ai-task-vs-human.jpeg",
@@ -199,9 +202,6 @@
     "christianity/is-christianity-true.md",
     "posts/poem-timeless.md",
     "posts/leaving-my-startup-was-the-right-decision.md",
-    "posts/decisions-are-rivers.md",
-    "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
-    "posts/flip-a-coin-and-not-fail.md",
-    "_templates/link-to-file.md"
+    "posts/decisions-are-rivers.md"
   ]
 }
