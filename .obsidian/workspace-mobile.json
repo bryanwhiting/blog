@@ -25,26 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/swapping-out-human-labor-for-ai.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "095c35b6ba912b52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/decisions-are-rivers.md",
+                "file": "scriptures/test.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/decisions-are-rivers.md",
+            "file": "_templates/new-post.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/decisions-are-rivers.md"
+            "file": "_templates/new-post.md"
           }
         }
       },
@@ -137,7 +125,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/decisions-are-rivers.md",
+            "file": "_templates/new-post.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -155,10 +143,31 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "095c35b6ba912b52",
+  "active": "78912cccc2282195",
   "lastOpenFiles": [
-    "img/dalle-floating-raft-huck-tom.jpeg",
+    "scriptures/Revelation 22.3.md",
+    "scriptures/Think Celestial!.md",
+    "scriptures/test.md",
+    "tech/swapping-out-human-labor-for-ai.md",
+    "scriptures/Dec 31, 2023 at 9:39 PM.md",
+    "christianity/cfm-2023-12-31-rev-15-21.md",
+    "scriptures",
+    "christianity/2023-12-24-the-christ-child/index.md",
+    "christianity/no-empty-chairs.md",
+    "christianity/is-christianity-true.md",
+    "christianity/unknown-god.md",
+    "christianity/christmas-empty-tomb.md",
+    "img/dalle-half-tree-half-christ-color.jpeg",
     "posts/flip-a-coin-and-not-fail.md",
+    "img/dalle-whom-say-ye-i-am.jpeg",
+    "posts/decisions-are-rivers.md",
+    "scriptures/Revelation 22.1–2.md",
+    "scriptures/Revelation 22:1–2.md",
+    "scriptures",
+    "docs/gratitude/eyes.html",
+    "docs/img/dalle-davinci-eye-blueprint.jpeg",
+    "docs/all.xml",
+    "img/dalle-floating-raft-huck-tom.jpeg",
     "gratitude/eyes.md",
     "img/dalle-davinci-eye-blueprint.jpeg",
     "sortspec.md",
@@ -169,14 +178,7 @@
     "docs/-Dataview Drafts.html",
     "docs/book-review/reading-list.html",
     "book-review/reading-list.md",
-    "christianity/no-empty-chairs.md",
-    "christianity/2023-12-31-cfm-rev-15-21/index.md",
-    "tech/swapping-out-human-labor-for-ai.md",
     "tech.qmd",
-    "docs/tech.xml",
-    "docs/tech/swapping-out-human-labor-for-ai.html",
-    "docs/tech",
-    "docs/tech.html",
     "docs/img/dalle-ai-task-vs-human.jpeg",
     "docs/img/photo-beach-day-waves.png",
     "docs/img/photo-water-is-precious.png",
@@ -186,22 +188,8 @@
     "gratitude/beaches.md",
     "posts/water-as-a-currency.md",
     "docs/img/dalle-red-light-night.png",
-    "img/photo-water-is-precious.png",
     "null/hh.md",
     "posts/emotional-recovery.md",
-    "img/dalle-red-light-night.png",
-    "book-review/dune.md",
-    "posts/how-to-blog-with-obsidian-and-quarto.md",
-    "posts/quarto-vs-quartz-for-obsidian.md",
-    "book-review/killers-of-the-flower-moonyfg if.md",
-    "img/book-killers-flower-moon.jpeg",
-    "img/book-edgar-allen-poe.jpeg",
-    "book-review/hitchhikers-guide-to-the-galaxy.md",
-    "book-review/scientific-freedom.md",
-    "posts/the-little-red-hen.md",
-    "docs/_templates/new-post.md",
-    "christianity/is-christianity-true.md",
-    "posts/poem-timeless.md",
-    "posts/leaving-my-startup-was-the-right-decision.md"
+    "book-review/dune.md"
   ]
 }

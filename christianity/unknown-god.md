@@ -3,8 +3,11 @@ title: An Unknown God
 description: |
   God is indeed unknown, but that doesn't mean He doesn't exist. And learning His ways requires seeing all sides, being intellectually and spiritually honest, and open. 
 date: 2023-12-27
-image: photo.jpeg
-categories: [christianity, theology, faith, doubts]
+categories:
+  - christianity
+  - theology
+  - faith
+  - doubts
 draft: false
 ---
 
@@ -22,7 +25,7 @@ Here's a summary of some points I try to make here:
 
 I think too many people grow up thinking of God in black/white terms and when one, linking piece of the puzzle doesn't fit or is missing, some throw Him out all together. Here's my take on why people misrepresent God, and how this can lead to personal doubts of faith in Him and His Son. 
 
-![Christ asking his disciples, "Whom say he that I am?"](photo.jpeg){.preview-image}
+![Christ asking his disciples, "Whom say he that I am?"](../img/dalle-whom-say-ye-i-am.jpeg){.preview-image}
 
 
 # An unknown God

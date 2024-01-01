@@ -4,6 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "date-finished": "date",
-    "updated": "datetime"
+    "updated": "datetime",
+    "date": "datetime"
   }
 }

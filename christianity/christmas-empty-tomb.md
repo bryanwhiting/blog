@@ -1,10 +1,11 @@
 ---
-title: "Post Christmas blues? Remember the empty tombs"
+title: Post Christmas blues? Remember the empty tombs
 description: |
   An empty room and an empty tomb. There is meaningful symbolism in taking down the tree. 
 date: 2023-12-27
-image: photo.jpeg
-categories: [christianity]
+categories:
+  - christianity
+  - christmas
 draft: false
 ---
 
@@ -16,7 +17,7 @@ My child remarked, "it feels so empty without the tree!" I couldn't help but agr
 
 The thought dawned on me, perhaps this is what the disciples felt once His light left the earth. Some accounts declare there was thundering and lightning and three days of darkness that covered the earth after He gave His life. 
 
-![A dead Christmas tree reminds us of a Christ who died for us _on_ a tree, the cross.](deadtree.jpeg)
+![A dead Christmas tree reminds us of a Christ who died for us _on_ a tree, the cross.](../img/dalle-half-tree-half-christ-dying.jpeg)
 
 # An empty room, an empty tomb
 
@@ -34,7 +35,7 @@ The death of Christ marked the fulfillment of prophecy and the fulfillment of th
 
 Let's take this new year to remember all are loved. All are remembered. All are invited to happiness and peace through Christ. 
 
-![Dead tree? Remember the living Christ!](photo.jpeg){.preview-image}
+![Dead tree? Remember the living Christ!](../img/dalle-half-tree-half-christ-color.jpeg){.preview-image}
  
 
 

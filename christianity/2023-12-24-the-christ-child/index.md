@@ -3,14 +3,14 @@ title: The Christ Child
 description: |
   The birth of Jesus Christ teach us what we can do to have greater peace in this life
 date: 2023-12-24
-image: photo.jpeg
-categories: [christianity]
+categories:
+  - christianity
 draft: false
 ---
 
 The story of the Savior's birth brings many wonderful concepts to memory and can teach us a lot about what will bring us true joy and happiness in this life. 
 
-![](photo.jpeg){.preview-image}
+![](screenshot-mary-with-baby-christ.jpeg){.preview-image}
 
 This is my favorite video of the Christmas story. The most powerful part is the moment when Mary sings a lullaby to Jesus. I remember reading somewhere that this moment was completely impromptu by the actress, and it speaks volumes to the sacredness of the moment where Mary first laid eyes on her beloved son. 
 
