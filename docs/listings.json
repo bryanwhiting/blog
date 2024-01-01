@@ -11,6 +11,32 @@
     ]
   },
   {
+    "listing": "/lists.html",
+    "items": [
+      "/lists/ai/index.html"
+    ]
+  },
+  {
+    "listing": "/books.html",
+    "items": [
+      "/book-review/unbelievable.html",
+      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
+      "/book-review/dune.html",
+      "/book-review/the-best-of-edgar-allen-poe.html",
+      "/book-review/killers-of-the-flower-moonyfg if.html",
+      "/book-review/101-essays-to-make-you-think.html",
+      "/book-review/hitchhikers-guide-to-the-galaxy.html",
+      "/book-review/scientific-freedom.html",
+      "/book-review/getting-things-done.html"
+    ]
+  },
+  {
+    "listing": "/tech.html",
+    "items": [
+      "/tech/swapping-out-human-labor-for-ai.html"
+    ]
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/book-review/unbelievable.html",
@@ -77,32 +103,6 @@
     ]
   },
   {
-    "listing": "/tech.html",
-    "items": [
-      "/tech/swapping-out-human-labor-for-ai.html"
-    ]
-  },
-  {
-    "listing": "/books.html",
-    "items": [
-      "/book-review/unbelievable.html",
-      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
-      "/book-review/dune.html",
-      "/book-review/the-best-of-edgar-allen-poe.html",
-      "/book-review/killers-of-the-flower-moonyfg if.html",
-      "/book-review/101-essays-to-make-you-think.html",
-      "/book-review/hitchhikers-guide-to-the-galaxy.html",
-      "/book-review/scientific-freedom.html",
-      "/book-review/getting-things-done.html"
-    ]
-  },
-  {
-    "listing": "/lists.html",
-    "items": [
-      "/lists/ai/index.html"
-    ]
-  },
-  {
     "listing": "/all.html",
     "items": [
       "/book-review/unbelievable.html",
@@ -119,9 +119,9 @@
       "/posts/flip-a-coin.html",
       "/posts/decisions-are-rivers.html",
       "/posts/flip-a-coin-and-not-fail.html",
-      "/christianity/christmas-empty-tomb/index.html",
+      "/christianity/christmas-empty-tomb.html",
       "/gratitude/grateful-for-artists.html",
-      "/christianity/unknown-god/index.html",
+      "/christianity/unknown-god.html",
       "/posts/writing-is-enlivening/index.html",
       "/posts/write-despite-ai/index.html",
       "/posts/quarto-feature-requests/index.html",
@@ -147,7 +147,7 @@
       "/posts/2023-12-15-prompt-techniques/index.html",
       "/posts/2023-12-15-llms-can-find-a-needle-in-the-haystack/index.html",
       "/lists/ai/index.html",
-      "/christianity/2023-12-13-three-little-pigs/index.html",
+      "/christianity/three-little-pigs-christ.html",
       "/posts/2023-12-13-learn-by-doing/index.html",
       "/book-review/scientific-freedom.html",
       "/posts/2023-12-12-future-of-coding/index.html",
@@ -184,12 +184,12 @@
   {
     "listing": "/christianity.html",
     "items": [
-      "/christianity/unknown-god/index.html",
-      "/christianity/christmas-empty-tomb/index.html",
+      "/christianity/unknown-god.html",
+      "/christianity/christmas-empty-tomb.html",
       "/christianity/2023-12-24-he-is-the-light-that-we-should-share/index.html",
       "/christianity/2023-12-24-the-christ-child/index.html",
       "/christianity/2023-12-17-christmas-celebrates-a-living-christ/index.html",
-      "/christianity/2023-12-13-three-little-pigs/index.html"
+      "/christianity/three-little-pigs-christ.html"
     ]
   }
 ]
