@@ -1,0 +1,180 @@
+{
+  "main": {
+    "id": "e19f7f77e090c62a",
+    "type": "split",
+    "children": [
+      {
+        "id": "b4da82d928c25261",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "619a0c6166783d6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "gratitude/_backlog.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c361ee29672dfe63",
+    "type": "split",
+    "children": [
+      {
+        "id": "3a89ddbe487aee83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aef2977e7838271a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a17f3c68c462d416",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "328948121d2c7670",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "20163f82a6eff9d6",
+    "type": "split",
+    "children": [
+      {
+        "id": "0fb1cb6def881e03",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb9cf3af04dbe4ae",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "gratitude/_backlog.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "34a29e33cffffbfc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "gratitude/_backlog.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8998a8cf80a794db",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f8610b0c1b4f0d51",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "gratitude/_backlog.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "command-palette:Open command palette": false,
+      "custom-sort:Toggle custom sorting": false,
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false
+    }
+  },
+  "active": "619a0c6166783d6c",
+  "lastOpenFiles": [
+    "_templates/link-to-file.md",
+    "gratitude/_backlog.md",
+    "christianity/cfm-2023-12-31-rev-15-21.md",
+    "christianity/the-christ-child.md",
+    "christianity/2023-12-24-he-is-the-light-that-we-should-share/index.md",
+    "christianity/christmas-celebrates-a-living-christ.md",
+    "img/dalle-away-in-manger.jpeg",
+    "christianity/no-empty-chairs.md",
+    "scriptures/test.md",
+    "scriptures/Think Celestial!.md",
+    "scriptures/Revelation 22.3.md",
+    "scriptures",
+    "img/dalle-whom-say-ye-i-am.jpeg",
+    "img/dalle-three-pigs.jpeg",
+    "img/dalle-half-tree-half-christ-dying.jpeg",
+    "img/dalle-half-tree-half-christ-color.jpeg",
+    "img/dalle-floating-raft-huck-tom.jpeg",
+    "img/dalle-davinci-eye-blueprint.jpeg",
+    "gratitude/eyes.md",
+    "docs/img/dalle-floating-raft-huck-tom.jpeg",
+    "docs/img/dalle-davinci-eye-blueprint.jpeg",
+    "docs/gratitude/eyes.html",
+    "docs/all.xml",
+    "christianity/three-little-pigs-christ.md",
+    "christianity/christmas-empty-tomb.md",
+    "img/screenshot-mary-with-baby-christ.jpeg",
+    "christianity/unknown-god.md",
+    "-Dataview Drafts.md",
+    "christianity/2023-12-13-three-little-pigs/index.md"
+  ]
+}

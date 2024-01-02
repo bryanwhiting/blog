@@ -10,7 +10,7 @@ draft: false
 
 The story of the Savior's birth brings many wonderful concepts to memory and can teach us a lot about what will bring us true joy and happiness in this life. 
 
-![](screenshot-mary-with-baby-christ.jpeg){.preview-image}
+![The Christ Child](../img/screenshot-mary-with-baby-christ.jpeg){.preview-image}
 
 This is my favorite video of the Christmas story. The most powerful part is the moment when Mary sings a lullaby to Jesus. I remember reading somewhere that this moment was completely impromptu by the actress, and it speaks volumes to the sacredness of the moment where Mary first laid eyes on her beloved son. 
 
@@ -33,4 +33,4 @@ How can we apply these things to our life, today?
 
 He came like all of us, as a child. But he came to show us how a God would live. And he did. 
 
-![The Christ as a Child, before worshipping Wise men](standing.jpeg)
+![The Christ as a Child, before worshipping Wise men](../img/standing.jpeg)

@@ -3,11 +3,14 @@ title: Christmas celebrates a Living Christ
 description: |
   Christ is the way, the light and life of the world. Always has been. Always will be.  
 date: 2023-12-17
-categories: [christianity, ai]
+categories:
+  - christianity
+  - ai
+  - christmas
 draft: false
 ---
 
-![Away in a manger.](photo.jpeg) 
+![Away in a manger.](../img/dalle-away-in-manger.jpeg) 
 
 # Old news
 
