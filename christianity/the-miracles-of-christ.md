@@ -21,6 +21,8 @@ I'll tag things "scripture of the day" for any one-scripture thoughts. If it's r
 >  For behold, the time cometh, and is not far distant, that with power, the Lord Omnipotent who reigneth, who was, and is from all eternity to all eternity, shall come down from heaven among the children of men, and shall dwell in a tabernacle of clay, and shall go forth amongst men, **working mighty miracles, such as healing the sick, raising the dead, causing the lame to walk, the blind to receive their sight, and the deaf to hear, and curing all manner of diseases.**
 > [Mosiah 3.5](../scriptures/mosiah-3.5)
 
+![Christ healing all who come unto him](../img/dalle-christ-healing-clay.jpeg){.preview-image}
+
 I have seen miracles in my life. I've also seen contra-miracles, which is the miracle that happens when you're expecting one thing but another thing happens instead. 
 
 I've seen someone healed from a Priesthood blessing. I've seen someone healed from depression. I've seen someone healed from doubt and disbelief. I've felt the power of the Holy Ghost in my life. 
