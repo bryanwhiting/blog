@@ -37,3 +37,9 @@ When God has appointed a man to die, he guides his wants to desire that place
 - Focusing too much on sight dulls the other senses
 - We became weak on caladan
 - Why beat yourself up after an emotional experience? What does it take to relevel yiur head. 
+- "Their minds rejected what they could not comprehend or encompass"
+- Taking and giving force. a man loves the taking force, but he can't get into the giving force without being changed. 
+- Power changed Muaddib to not care about lost people. Why is that?
+
+Storytelling
+- How he explains their thoughts after subtle observations. He explains things through humanity, not through narration alone. This makes those points more salient. It's as if the dialogue is the content and the narration are the footnotes and context. 
