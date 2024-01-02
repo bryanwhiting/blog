@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/rest.md",
+                "file": "posts/why-we-want-new-software.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "gratitude/rest.md",
+            "file": "posts/why-we-want-new-software.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "gratitude/rest.md"
+            "file": "posts/why-we-want-new-software.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "gratitude/rest.md",
+            "file": "posts/why-we-want-new-software.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,11 +132,14 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-ship-fashion-software.jpeg",
+    "book-review/innovators-dilemma.md",
+    "posts/why-we-want-new-software.md",
+    "posts/rest.md",
     "docs/img/dalle-resting-hammock-surreal.jpeg",
     "docs/gratitude/rest.html",
     "img/dalle-resting-hammock-surreal.jpeg",
     "christianity/the-miracles-of-christ.md",
-    "gratitude/rest.md",
     "gratitude/_backlog.md",
     "christianity/christmas-celebrates-a-living-christ.md",
     "christianity/the-christ-child.md",
@@ -157,7 +160,6 @@
     "docs/scriptures/1-kings-19.11-12.html",
     "docs/scriptures/matthew-5.45.html",
     "docs/scriptures",
-    "docs/img/dalle-open-book-on-table.jpeg",
     "scriptures/alma-32.16-18.md",
     "scriptures/matthew-5.45.md",
     "scriptures/1-kings-19.11-12.md",
@@ -175,8 +177,6 @@
     "scriptures/acts-24.24-25.md",
     "scriptures/Hi.md",
     "scriptures/jeffrey-r-holland-the-greatest-possession.md",
-    "scriptures/Think Celestial!.md",
-    "scriptures/the-greatest-possessionjeffrey-r-holland.md",
-    "christianity/cfm-2023-12-31-rev-15-21.md"
+    "scriptures/Think Celestial!.md"
   ]
 }

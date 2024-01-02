@@ -1,6 +1,6 @@
 ---
 title: rest
-description: ""
+description: Rest is restorative
 date: 2024-01-02
 categories:
   - gratitude

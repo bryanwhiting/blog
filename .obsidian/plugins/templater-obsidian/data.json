@@ -22,7 +22,8 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "_templates/link-to-file.md"
+    "_templates/link-to-file.md",
+    "_templates/new-post.md"
   ],
   "startup_templates": [
     ""
