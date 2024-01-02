@@ -9,14 +9,16 @@ let includedExtensions = ['md', 'jpg', 'png', 'jpeg']; // Add or remove extensio
 let excludedDirectories = ['renv/', 'docs/', '_templates/']; // Replace with your directory names
 
 // Filter files to meet ex/inclusions
-let filteredFiles = allFiles.filter(file => includedExtensions.includes(file.extension) && !excludedDirectories.some(dir => file.path.includes(dir))
+let filteredFiles = allFiles.filter(file => 
+    includedExtensions.includes(file.extension) && 
+    !excludedDirectories.some(dir => file.path.includes(dir))
 );
 
-// Create a list of file names with extensions for the suggester
-let fileNamesWithExtensions = filteredFiles.map(file => file.name);
+// Create a list of full file paths for the suggester
+let fileFullPaths = filteredFiles.map(file => file.path);
 
 // Use the suggester to select a file
-let selectedFile = await tp.system.suggester(fileNamesWithExtensions, filteredFiles);
+let selectedFile = await tp.system.suggester(fileFullPaths, filteredFiles);
 
 
 if (selectedFile) {
