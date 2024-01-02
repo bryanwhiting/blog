@@ -9,7 +9,7 @@
     "obsidian-footnotes:insert-autonumbered-footnote",
     "editor:undo",
     "editor:toggle-bold",
-    "templater-obsidian:insert-templater",
+    "templater-obsidian:_templates/link-to-file.md",
     "templater-obsidian:create-new-note-from-template",
     "app:go-forward",
     "editor:set-heading",

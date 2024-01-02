@@ -59,6 +59,10 @@
       {
         "commandID": "url-into-selection:paste-url-into-selection",
         "iconID": "link-2"
+      },
+      {
+        "commandID": "templater-obsidian:_templates/link-to-file.md",
+        "iconID": "lucide-link"
       }
     ],
     "tooltips": false,
