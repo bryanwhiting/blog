@@ -13,7 +13,8 @@
 <lastBuildDate>Tue, 02 Jan 2024 00:00:00 GMT</lastBuildDate>
 <item>
   <title>rest</title>
-  <link>https://www.bryanwhiting.com/gratitude/rest.html</link>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/rest.html</link>
   <description><![CDATA[ 
 
 
@@ -35,7 +36,7 @@
 <p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
   <category>gratitude</category>
   <category>observations</category>
-  <guid>https://www.bryanwhiting.com/gratitude/rest.html</guid>
+  <guid>https://www.bryanwhiting.com/posts/rest.html</guid>
   <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
@@ -85,6 +86,39 @@
   <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
+  <title>The Psychology of New Software Releases and its Parallels with Fashion</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/why-we-want-new-software.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>What is it about a new release that gets people excited? Would you buy software that never changes? How about a hammer?</p>
+<p>Why are we okay with buying a hammer, but not stagnant software? Our culture is addicted to new widgets. A/B testing.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-ship-fashion-software.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Shipping software like fashion, every season</figcaption>
+</figure>
+</div>
+<p>Software releases are free, but development is not. Therefore, research and development is constant, whereas the Hammer company hasn’t needed to update its product in a couple…millenia.</p>
+<p>Is there a way to sell software like you sell a hammer?</p>
+<p>No.&nbsp;Because per <a href="../book-review/innovators-dilemma.html">Innovator’s Dilemma</a>, those who can out-do you will. And software is invitely easy to alter and improve. I’m not convinced most “updates” out there are actually improvements, but people like change (ever see a fashion line repeat itself?)</p>
+<p>Software is like fashion.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>business strategy</category>
+  <category>saas</category>
+  <category>sales</category>
+  <guid>https://www.bryanwhiting.com/posts/why-we-want-new-software.html</guid>
+  <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
   <title>The Church of Jesus Christ of Latter-day Saints</title>
   <link>https://www.bryanwhiting.com/christianity/the-church-of-jesus-christ-of-latter-day-saints.html</link>
   <description><![CDATA[ 
@@ -100,6 +134,23 @@
 <p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
   <category>christianity</category>
   <guid>https://www.bryanwhiting.com/christianity/the-church-of-jesus-christ-of-latter-day-saints.html</guid>
+  <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Innovator’s Dilemma</title>
+  <link>https://www.bryanwhiting.com/book-review/innovators-dilemma.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book-review</category>
+  <guid>https://www.bryanwhiting.com/book-review/innovators-dilemma.html</guid>
   <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
@@ -687,88 +738,6 @@ Timeless
   <category>decisions</category>
   <guid>https://www.bryanwhiting.com/posts/decisions-are-rivers.html</guid>
   <pubDate>Thu, 28 Dec 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>97 percent chance you’ll fail</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/flip-a-coin-and-not-fail.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>In <a href="../posts/flip-a-coin.html">Flipping the coins of life</a>, I outline how you can succeed 5 times with a success rate of 3%. That also means you have a 97% chance you won’t succeed 5 times in a row.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/flip-five-coins.png" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Flipping five coins will almost certainly yield at least tails</figcaption>
-</figure>
-</div>
-<p>In life, we sometimes overemphasize winning. Even in the tech world of wanting to fail fast, I think most people just really want to win every time. Nobody seeks failure - that’s not the goal. They seek other things (learning, promotions, making more money).</p>
-<p>When making decisions, it’s easy to black-and-white them. If there’s only a 3% change we’ll win 5 times in a row (with a 50% chance of winning every time), there’s a 97% chance you’ll fail at least once every 5 attempts.</p>
-<p>If your probability of success is lower, then the odds of failing at once in five are almost 100%.</p>
-<p>How do you quantify a life decision though? Maybe you only get one big choice a year (job change, like as is discussed in <a href="../book-review/how-to-decide-simple-tools-for-making-better-choices.html">How to Decide: Simple Tools for Making Better Choices</a>). Is there a 50% chance of “success”? If so, every five years you’re highly likely to “fail”.</p>
-<p>Per the book, it’s more likely that one bad thing happens and we hindsight bias our decision and black-and-white it.</p>
-<p>Reality is: getting fired or your startup blowing up might be the best thing that ever happens to you. You just don’t know. Your story isn’t written yet. And actually, it’s not so much about if you made the right choice as if you just make the choice right in some way.</p>
-<p>Choose your love, and then love your choice, as they say.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>success</category>
-  <category>decisions</category>
-  <category>philosophy</category>
-  <guid>https://www.bryanwhiting.com/posts/flip-a-coin-and-not-fail.html</guid>
-  <pubDate>Thu, 28 Dec 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Post Christmas blues? Remember the empty tombs</title>
-  <link>https://www.bryanwhiting.com/christianity/christmas-empty-tomb.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="an-empty-spot-in-the-room" class="level1 page-columns page-full">
-<h1>An empty spot in the room</h1>
-<p>Just cleaned up the Christmas tree and all its ornaments and needles. The glittering, shimmering, and sparkling lights that have warmed us for the last month are officially gone. Packed up. Shipped out. Sent home.</p>
-<p>My child remarked, “it feels so empty without the tree!” I couldn’t help but agree.</p>
-<p>The thought dawned on me, perhaps this is what the disciples felt once His light left the earth. Some accounts declare there was thundering and lightning and three days of darkness that covered the earth after He gave His life.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-half-tree-half-christ-dying.jpeg" class="img-fluid figure-img"></p>
-<figcaption class="margin-caption">A dead Christmas tree reminds us of a Christ who died for us <em>on</em> a tree, the cross.</figcaption>
-</figure>
-</div>
-</section>
-<section id="an-empty-room-an-empty-tomb" class="level1 page-columns page-full">
-<h1>An empty room, an empty tomb</h1>
-<p>But just as His easily preventable departure left friends and parents weeping (because they didn’t fully understand what He was dying for, (<a href="https://www.churchofjesuschrist.org/study/scriptures/nt/matt/16?id=p21-p23&amp;lang=eng#p21">Matthew 16:21-23</a>), perhaps we can remember a little of that sadness that they felt as we clean up the tree. The child was born. He was born to break the bonds of death. He died, some describing He died on a tree. And now, my pine tree representing Christ(mas) is also dead.</p>
-<blockquote class="blockquote">
-<p>Who his own self bare our sins in his own body on the tree, that we, being dead to sins, should live unto righteousness: by whose stripes ye were healed. (1 Peter 2:24)</p>
-</blockquote>
-<p>Perhaps it’s also symbolic we cut down the tree to put it in our homes. It has an expiration date, just like Christ’s life. He knew it was time (<a href="https://www.churchofjesuschrist.org/study/scriptures/nt/john/13?id=p26-p27&amp;lang=eng#p26">John 13:26-27</a>), even if nobody else could comprehend.</p>
-<p>But remember what happened after? He resurrected. He brought His light back to His friends.</p>
-<p>Perhaps New Year’s lights can remind us of His return. And perhaps a New Year’s resolution can remind us that He invited His disciples to change their ways and go and preach to the gentiles (people previously not allowed to have His gospel and His gift of baptism and the Holy Ghost), to share the gift of Christ(mas) with everyone.</p>
-<p>The death of Christ marked the fulfillment of prophecy and the fulfillment of the Law of Moses, which meant that the Jews and the house of Israel were no longer the only ones chosen by God but now everybody could receive the gospel (Galatians 3:29).</p>
-<p>Let’s take this new year to remember all are loved. All are remembered. All are invited to happiness and peace through Christ.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-half-tree-half-christ-color.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Dead tree? Remember the living Christ!</figcaption>
-</figure>
-</div>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>christianity</category>
-  <category>christmas</category>
-  <guid>https://www.bryanwhiting.com/christianity/christmas-empty-tomb.html</guid>
-  <pubDate>Wed, 27 Dec 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

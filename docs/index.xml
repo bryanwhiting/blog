@@ -10,7 +10,85 @@
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Sun, 31 Dec 2023 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 02 Jan 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>rest</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/rest.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I’m grateful for rest. Time away. I’m grateful that by taking time away, my brain resets. Now I’m more energized to tackle the day.</p>
+<p>Why is rest necessary? I don’t know. But it is. Bodies need sleep. Minds need breaks.</p>
+<p>I find that the mind is easier to overrule than a tired body. Why? Why can we push our brains more than is healthy for them? It’s hard to answer, but only rest tells us where our mind can be.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-resting-hammock-surreal.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Resting in an abstract and surrealistic way</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>gratitude</category>
+  <category>observations</category>
+  <guid>https://www.bryanwhiting.com/posts/rest.html</guid>
+  <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Psychology of New Software Releases and its Parallels with Fashion</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/why-we-want-new-software.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>What is it about a new release that gets people excited? Would you buy software that never changes? How about a hammer?</p>
+<p>Why are we okay with buying a hammer, but not stagnant software? Our culture is addicted to new widgets. A/B testing.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-ship-fashion-software.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Shipping software like fashion, every season</figcaption>
+</figure>
+</div>
+<p>Software releases are free, but development is not. Therefore, research and development is constant, whereas the Hammer company hasn’t needed to update its product in a couple…millenia.</p>
+<p>Is there a way to sell software like you sell a hammer?</p>
+<p>No.&nbsp;Because per <a href="../book-review/innovators-dilemma.html">Innovator’s Dilemma</a>, those who can out-do you will. And software is invitely easy to alter and improve. I’m not convinced most “updates” out there are actually improvements, but people like change (ever see a fashion line repeat itself?)</p>
+<p>Software is like fashion.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>business strategy</category>
+  <category>saas</category>
+  <category>sales</category>
+  <guid>https://www.bryanwhiting.com/posts/why-we-want-new-software.html</guid>
+  <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Innovator’s Dilemma</title>
+  <link>https://www.bryanwhiting.com/book-review/innovators-dilemma.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book-review</category>
+  <guid>https://www.bryanwhiting.com/book-review/innovators-dilemma.html</guid>
+  <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Unbelievable</title>
   <link>https://www.bryanwhiting.com/book-review/unbelievable.html</link>
@@ -767,176 +845,6 @@ With a proper objective function, machines can do really hard, isolated tasks
   <guid>https://www.bryanwhiting.com/posts/2023-12-25-ai-robots-are-mastering-tasks-faster-than-humans-/</guid>
   <pubDate>Mon, 25 Dec 2023 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/2023-12-25-ai-robots-are-mastering-tasks-faster-than-humans-/photo.jpeg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Twas the Night before Christmas</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2023-12-24-twas-the-night-before-christmas/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<div class="callout callout-style-simple callout-tip no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<ul>
-<li>Link to the 1912 publication, <a href="http://www.gutenberg.org/ebooks/17135">Twas the Night Before Christmas</a></li>
-<li>original poem was 1820’s</li>
-<li>St Nick was 4th century</li>
-<li>Dutch brought the name “Sinterklass” to the U.S. in the 1600’s.</li>
-<li>St Nick becomes red by 1931, thanks to Coke</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/posts/2023-12-24-twas-the-night-before-christmas/photo.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">The OG St.&nbsp;Nick</figcaption>
-</figure>
-</div>
-<p>Everything below is produced by GPT:</p>
-<p>“How long has the concept of Santa been around? Where did”st nick” come from?”</p>
-<blockquote class="blockquote">
-<p>The concept of Santa Claus has evolved over many centuries, originating from the historical figure of Saint Nicholas. Saint Nicholas was a 4th-century Christian bishop in Myra, which is now part of modern-day Turkey. He was known for his generosity and for performing miracles, which earned him a reputation as a protector of children and sailors.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>The name “Santa Claus” evolved from the Dutch “Sinterklaas,” a short form of Sint Nikolaas (Saint Nicholas). Dutch immigrants brought the traditions of Sinterklaas to America in the 17th and 18th centuries. In these traditions, Sinterklaas was depicted as a serious, religious figure who rewarded good children and punished the naughty ones.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>During the 19th century, especially in America, the image of Santa Claus as we know it today began to take shape. The 1823 poem “A Visit from St.&nbsp;Nicholas” (commonly known as “Twas the Night Before Christmas”) played a crucial role in shaping the modern character of Santa Claus, including his physical appearance and the tradition of delivering gifts to children.</p>
-</blockquote>
-<blockquote class="blockquote">
-<p>Later, in the 19th and 20th centuries, Santa’s image was further popularized through various media, including advertisements, films, and songs, which contributed to the jovial, red-suited, and reindeer-driving character recognized globally today. This character represents a blend of the historical Saint Nicholas, folk traditions from various cultures, and modern commercial and media influences.</p>
-</blockquote>
-<p>How did St Nick become red?</p>
-<blockquote class="blockquote">
-<p>The transformation of Saint Nicholas into the red-suited Santa Claus is a gradual evolution influenced by cultural, artistic, and commercial factors. The image of Santa Claus wearing red clothes began to become popular in the 19th century, but it was solidified in the 20th century, particularly through advertising.</p>
-</blockquote>
-<blockquote class="blockquote">
-<ol type="1">
-<li><strong>19th Century Literature and Art</strong>: In the 19th century, Santa Claus was often depicted in various colors of robes, including blue, green, and brown. However, by the latter half of the 19th century, the image of Santa in a red suit began to appear more frequently in literature and illustrations. Thomas Nast, a prominent American cartoonist, played a significant role in popularizing this image. In his illustrations for Harper’s Weekly starting in the 1860s, Nast depicted Santa Claus in a variety of outfits, including the now-familiar red suit.</li>
-</ol>
-</blockquote>
-<blockquote class="blockquote">
-<ol start="2" type="1">
-<li><strong>Coca-Cola Advertising in the 20th Century</strong>: The standardized image of Santa Claus in a red suit with white fur trim was popularized and became iconic largely due to Coca-Cola advertising campaigns. In 1931, Coca-Cola commissioned illustrator Haddon Sundblom to create a Santa Claus for their Christmas advertising campaign. Sundblom’s Santa was jolly, rotund, and dressed in a red suit with white fur trim, which matched the company’s color scheme. These advertisements were widely circulated and became immensely popular, cementing the image of Santa Claus in a red suit in the public’s imagination.</li>
-</ol>
-</blockquote>
-<blockquote class="blockquote">
-<p>While the red-suited Santa Claus is now ubiquitous, it’s important to note that the evolution of his image was influenced by a blend of historical, cultural, and commercial factors over several decades.</p>
-</blockquote>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>christmas</category>
-  <category>ask gpt</category>
-  <guid>https://www.bryanwhiting.com/posts/2023-12-24-twas-the-night-before-christmas/</guid>
-  <pubDate>Sun, 24 Dec 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/posts/2023-12-24-twas-the-night-before-christmas/photo.jpeg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>The Best of Edgar Allen Poe</title>
-  <link>https://www.bryanwhiting.com/book-review/the-best-of-edgar-allen-poe.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<div class="callout callout-style-simple callout-tip no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-
-</div>
-</div>
-</div>
-<p><img src="https://www.bryanwhiting.com/../img/book-edgar-allen-poe.jpeg" class="preview-image img-fluid"></p>
-<section id="raw-notes" class="level1">
-<h1>Raw Notes</h1>
-<p>The Tell-Tale Heart:</p>
-<ul>
-<li>you think me mad. Nah, I’m cool. But the man grows increasingly mad.</li>
-<li>guilt follows the commission, before then the guilt is only in the hesrt. After it consumes.</li>
-</ul>
-<p>The Cask of Amontillado:</p>
-<ul>
-<li>watch your pride. Don’t let it trick you into walking into catacombs</li>
-</ul>
-<p>The Masque of the Red Death:</p>
-<ul>
-<li>fruitless to avoid it</li>
-<li>allegory of phases of life</li>
-<li>Prince Prospero tries to fight death, but dies in the process</li>
-</ul>
-<p>The Raven</p>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book review</category>
-  <guid>https://www.bryanwhiting.com/book-review/the-best-of-edgar-allen-poe.html</guid>
-  <pubDate>Sat, 23 Dec 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/book-review/photo.jpeg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Dune</title>
-  <link>https://www.bryanwhiting.com/book-review/dune.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-
-</div>
-</div>
-</div>
-<p><img src="https://www.bryanwhiting.com/img/book-dune.jpeg" class="preview-image img-fluid"></p>
-<ul>
-<li>shield your son too much and he’ll not grow strong enough to fulfill any destiny</li>
-<li>deprogram after the machines. Let the machines do too much thinking.</li>
-<li>humans must never submit to animals</li>
-<li>“how did the woman seal my tongue?” Paul can’t tell his father he’s going to die. Why? Sometimes our tongues are bound to speak that which can’t be changed</li>
-<li>“the mind commands the body and it obeys. It commands itself and it rebels”</li>
-</ul>
-<p>Connections: - Alan Pinkerton <a href="../killers-of-the-flower-moonyfg if.md">killers</a> “secrets break the character of the criminal till they give it out”. Dr Yueh cries when his scripture is given out.</p>
-<p>Notes: - if I made him do it it wouldn’t be his doing. - storytelling: why tell us 100% of everything up front? The movie hides the secrets about Yueh. - storytelling: the hindsight narrator</p>
-<p>When God has appointed a man to die, he guides his wants to desire that place</p>
-<ul>
-<li>you’re remembered for what you fear</li>
-<li>Focusing too much on sight dulls the other senses</li>
-<li>We became weak on caladan</li>
-<li>Why beat yourself up after an emotional experience? What does it take to relevel yiur head.</li>
-<li>“Their minds rejected what they could not comprehend or encompass”</li>
-<li>Taking and giving force. a man loves the taking force, but he can’t get into the giving force without being changed.</li>
-<li>Power changed Muaddib to not care about lost people. Why is that?</li>
-</ul>
-<p>Storytelling - How he explains their thoughts after subtle observations. He explains things through humanity, not through narration alone. This makes those points more salient. It’s as if the dialogue is the content and the narration are the footnotes and context.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book review</category>
-  <guid>https://www.bryanwhiting.com/book-review/dune.html</guid>
-  <pubDate>Sat, 23 Dec 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/book-review/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

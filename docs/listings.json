@@ -3,7 +3,6 @@
     "listing": "/gratitude.html",
     "items": [
       "/gratitude/good-books.html",
-      "/gratitude/rest.html",
       "/gratitude/eyes.html",
       "/gratitude/beaches.html",
       "/gratitude/grateful-for-artists.html",
@@ -15,6 +14,9 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/rest.html",
+      "/posts/why-we-want-new-software.html",
+      "/book-review/innovators-dilemma.html",
       "/book-review/unbelievable.html",
       "/tech/swapping-out-human-labor-for-ai.html",
       "/posts/water-as-a-currency.html",
@@ -87,6 +89,7 @@
   {
     "listing": "/books.html",
     "items": [
+      "/book-review/innovators-dilemma.html",
       "/book-review/unbelievable.html",
       "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
       "/book-review/dune.html",
@@ -107,9 +110,11 @@
   {
     "listing": "/all.html",
     "items": [
-      "/gratitude/rest.html",
+      "/posts/rest.html",
       "/christianity/the-miracles-of-christ.html",
+      "/posts/why-we-want-new-software.html",
       "/christianity/the-church-of-jesus-christ-of-latter-day-saints.html",
+      "/book-review/innovators-dilemma.html",
       "/gratitude/good-books.html",
       "/book-review/unbelievable.html",
       "/tech/swapping-out-human-labor-for-ai.html",
