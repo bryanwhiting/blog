@@ -21,5 +21,28 @@ Spotify
 
 Libby:
 - [ ] Edgar Allen Poe
+- [ ] 
 - [x] [Dune](dune.md)
+
+YouTube
+- [ ] 1984
+
+Literature
+- [ ] Anna Karenina
+- [ ] War and peace 
+- [ ] Don Quixote 
+- [ ] Les Mis
+- [ ] Animal farm 
+- [ ] In Search of lost time
+- [ ] Beloved - Toni Morrison 
+- [ ] The great gatsby
+- [ ] To kill a mockingbird
+- [ ] Neuromancer 
+- [ ] Brave new world
+- [ ] Foundation 
+Others 
+- [ ]
+- [ ] Wealth of Nations
+- [ ] Guns, germs, steel 
+
 

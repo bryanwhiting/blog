@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_templates/new-post.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ba4750059d7c4841",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "scriptures/test.md",
+                "file": "christianity/the-miracles-of-christ.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "_templates/new-post.md",
+            "file": "christianity/the-miracles-of-christ.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "_templates/new-post.md"
+            "file": "christianity/the-miracles-of-christ.md"
           }
         }
       },
@@ -125,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "_templates/new-post.md",
+            "file": "christianity/the-miracles-of-christ.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -143,53 +130,53 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "78912cccc2282195",
+  "active": "be767112276aa446",
   "lastOpenFiles": [
+    "docs/img/dalle-open-book-on-table.jpeg",
+    "docs/gratitude/good-books.html",
+    "img/dalle-christ-healing-clay.jpeg",
+    "scriptures/alma-32.16-18.md",
+    "scriptures/matthew-5.45.md",
+    "scriptures/1-kings-19.11-12.md",
+    "scriptures/mosiah-3.5.md",
+    "Untitled.md",
+    "christianity/the-miracles-of-christ.md",
+    "christianity/the-church-of-jesus-christ-of-latter-day-saints.md",
+    "concepts",
+    "book-review/reading-list.md",
+    "gratitude/good-books.md",
+    "docs/christianity/2023-12-24-the-christ-child/screenshot-mary-with-baby-christ.jpeg",
+    "docs/christianity/three-little-pigs-christ.html",
+    "docs/christianity/cfm-2023-12-31-rev-15-21.html",
+    "docs/christianity/unknown-god.html",
+    "docs/christianity/christmas-empty-tomb.html",
+    "docs/img/dalle-half-tree-half-christ-dying.jpeg",
+    "docs/img/dalle-half-tree-half-christ-color.jpeg",
+    "docs/img/dalle-whom-say-ye-i-am.jpeg",
+    "docs/scriptures/Think Celestial!.html",
+    "docs/scriptures/Revelation 22.3.html",
+    "docs/scriptures/test.html",
+    "docs/scriptures",
+    "img/dalle-open-book-on-table.jpeg",
+    "book-review/dune.md",
     "scriptures/Revelation 22.3.md",
+    "_templates/new-post.md",
+    "scriptures/emily-belle-freeman-walking-in-covenant-relationship-with-christ.md",
+    "scriptures/acts-24.26-27.md",
+    "scriptures/acts-24-25–26.md",
+    "scriptures/emily belle freeman walking in covenant relationship with christ.md",
+    "scriptures/acts-24.24-25.md",
+    "scriptures/Hi.md",
+    "scriptures/jeffrey-r-holland-the-greatest-possession.md",
     "scriptures/Think Celestial!.md",
+    "scriptures/the-greatest-possessionjeffrey-r-holland.md",
+    "christianity/cfm-2023-12-31-rev-15-21.md",
     "scriptures/test.md",
     "tech/swapping-out-human-labor-for-ai.md",
     "scriptures/Dec 31, 2023 at 9:39 PM.md",
-    "christianity/cfm-2023-12-31-rev-15-21.md",
-    "scriptures",
-    "christianity/2023-12-24-the-christ-child/index.md",
-    "christianity/no-empty-chairs.md",
-    "christianity/is-christianity-true.md",
-    "christianity/unknown-god.md",
-    "christianity/christmas-empty-tomb.md",
     "img/dalle-half-tree-half-christ-color.jpeg",
-    "posts/flip-a-coin-and-not-fail.md",
     "img/dalle-whom-say-ye-i-am.jpeg",
-    "posts/decisions-are-rivers.md",
-    "scriptures/Revelation 22.1–2.md",
-    "scriptures/Revelation 22:1–2.md",
-    "scriptures",
-    "docs/gratitude/eyes.html",
     "docs/img/dalle-davinci-eye-blueprint.jpeg",
-    "docs/all.xml",
-    "img/dalle-floating-raft-huck-tom.jpeg",
-    "gratitude/eyes.md",
-    "img/dalle-davinci-eye-blueprint.jpeg",
-    "sortspec.md",
-    "-Dataview Drafts.md",
-    "_freeze/about/execute-results/html.json",
-    "_freeze/about/execute-results",
-    "_freeze/about",
-    "docs/-Dataview Drafts.html",
-    "docs/book-review/reading-list.html",
-    "book-review/reading-list.md",
-    "tech.qmd",
-    "docs/img/dalle-ai-task-vs-human.jpeg",
-    "docs/img/photo-beach-day-waves.png",
-    "docs/img/photo-water-is-precious.png",
-    "img/dalle-ai-task-vs-human.jpeg",
-    "_templates/new-post.md",
-    "book-review/unbelievable.md",
-    "gratitude/beaches.md",
-    "posts/water-as-a-currency.md",
-    "docs/img/dalle-red-light-night.png",
-    "null/hh.md",
-    "posts/emotional-recovery.md",
-    "book-review/dune.md"
+    "img/dalle-floating-raft-huck-tom.jpeg"
   ]
 }
