@@ -2,6 +2,7 @@
   {
     "listing": "/gratitude.html",
     "items": [
+      "/gratitude/good-books.html",
       "/gratitude/eyes.html",
       "/gratitude/beaches.html",
       "/gratitude/grateful-for-artists.html",
@@ -105,6 +106,7 @@
   {
     "listing": "/all.html",
     "items": [
+      "/gratitude/good-books.html",
       "/book-review/unbelievable.html",
       "/tech/swapping-out-human-labor-for-ai.html",
       "/gratitude/eyes.html",
