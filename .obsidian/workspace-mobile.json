@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/the-miracles-of-christ.md",
+                "file": "gratitude/rest.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/the-miracles-of-christ.md",
+            "file": "gratitude/rest.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/the-miracles-of-christ.md"
+            "file": "gratitude/rest.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/the-miracles-of-christ.md",
+            "file": "gratitude/rest.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,6 +132,29 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-resting-hammock-surreal.jpeg",
+    "christianity/the-miracles-of-christ.md",
+    "gratitude/rest.md",
+    "gratitude/_backlog.md",
+    "christianity/christmas-celebrates-a-living-christ.md",
+    "christianity/the-christ-child.md",
+    "img/dalle-away-in-manger.jpeg",
+    "img/dalle-christ-whom-say-i-am.jpeg",
+    "img/screenshot-mary-with-baby-christ.jpeg",
+    "img/standing.jpeg",
+    "docs/christianity/the-miracles-of-christ.html",
+    "docs/christianity/christmas-celebrates-a-living-christ.html",
+    "docs/christianity/the-church-of-jesus-christ-of-latter-day-saints.html",
+    "docs/christianity/the-christ-child.html",
+    "docs/img/dalle-away-in-manger.jpeg",
+    "docs/img/screenshot-mary-with-baby-christ.jpeg",
+    "docs/img/dalle-christ-healing-clay.jpeg",
+    "docs/img/standing.jpeg",
+    "docs/scriptures/mosiah-3.5.html",
+    "docs/scriptures/alma-32.16-18.html",
+    "docs/scriptures/1-kings-19.11-12.html",
+    "docs/scriptures/matthew-5.45.html",
+    "docs/scriptures",
     "docs/img/dalle-open-book-on-table.jpeg",
     "docs/gratitude/good-books.html",
     "img/dalle-christ-healing-clay.jpeg",
@@ -139,25 +162,9 @@
     "scriptures/matthew-5.45.md",
     "scriptures/1-kings-19.11-12.md",
     "scriptures/mosiah-3.5.md",
-    "Untitled.md",
-    "christianity/the-miracles-of-christ.md",
     "christianity/the-church-of-jesus-christ-of-latter-day-saints.md",
-    "concepts",
     "book-review/reading-list.md",
     "gratitude/good-books.md",
-    "docs/christianity/2023-12-24-the-christ-child/screenshot-mary-with-baby-christ.jpeg",
-    "docs/christianity/three-little-pigs-christ.html",
-    "docs/christianity/cfm-2023-12-31-rev-15-21.html",
-    "docs/christianity/unknown-god.html",
-    "docs/christianity/christmas-empty-tomb.html",
-    "docs/img/dalle-half-tree-half-christ-dying.jpeg",
-    "docs/img/dalle-half-tree-half-christ-color.jpeg",
-    "docs/img/dalle-whom-say-ye-i-am.jpeg",
-    "docs/scriptures/Think Celestial!.html",
-    "docs/scriptures/Revelation 22.3.html",
-    "docs/scriptures/test.html",
-    "docs/scriptures",
-    "img/dalle-open-book-on-table.jpeg",
     "book-review/dune.md",
     "scriptures/Revelation 22.3.md",
     "_templates/new-post.md",
@@ -170,13 +177,6 @@
     "scriptures/jeffrey-r-holland-the-greatest-possession.md",
     "scriptures/Think Celestial!.md",
     "scriptures/the-greatest-possessionjeffrey-r-holland.md",
-    "christianity/cfm-2023-12-31-rev-15-21.md",
-    "scriptures/test.md",
-    "tech/swapping-out-human-labor-for-ai.md",
-    "scriptures/Dec 31, 2023 at 9:39 PM.md",
-    "img/dalle-half-tree-half-christ-color.jpeg",
-    "img/dalle-whom-say-ye-i-am.jpeg",
-    "docs/img/dalle-davinci-eye-blueprint.jpeg",
-    "img/dalle-floating-raft-huck-tom.jpeg"
+    "christianity/cfm-2023-12-31-rev-15-21.md"
   ]
 }
