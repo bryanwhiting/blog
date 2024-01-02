@@ -106,10 +106,13 @@
   {
     "listing": "/all.html",
     "items": [
+      "/christianity/the-miracles-of-christ.html",
+      "/christianity/the-church-of-jesus-christ-of-latter-day-saints.html",
       "/gratitude/good-books.html",
       "/book-review/unbelievable.html",
       "/tech/swapping-out-human-labor-for-ai.html",
       "/gratitude/eyes.html",
+      "/christianity/cfm-2023-12-31-rev-15-21.html",
       "/posts/water-as-a-currency.html",
       "/posts/emotional-recovery.html",
       "/gratitude/beaches.html",
@@ -132,7 +135,7 @@
       "/gratitude/2023-12-25-grateful-for-doctors/index.html",
       "/posts/2023-12-25-ai-robots-are-mastering-tasks-faster-than-humans-/index.html",
       "/posts/2023-12-24-twas-the-night-before-christmas/index.html",
-      "/christianity/2023-12-24-the-christ-child/index.html",
+      "/christianity/the-christ-child.html",
       "/gratitude/2023-12-24-light/index.html",
       "/christianity/2023-12-24-he-is-the-light-that-we-should-share/index.html",
       "/book-review/the-best-of-edgar-allen-poe.html",
@@ -144,7 +147,7 @@
       "/posts/2023-12-19-how-to-encourage-your-kids-/index.html",
       "/book-review/101-essays-to-make-you-think.html",
       "/book-review/hitchhikers-guide-to-the-galaxy.html",
-      "/christianity/2023-12-17-christmas-celebrates-a-living-christ/index.html",
+      "/christianity/christmas-celebrates-a-living-christ.html",
       "/posts/2023-12-16-humanity-and-ai/index.html",
       "/posts/2023-12-15-prompt-techniques/index.html",
       "/posts/2023-12-15-llms-can-find-a-needle-in-the-haystack/index.html",
@@ -186,11 +189,14 @@
   {
     "listing": "/christianity.html",
     "items": [
+      "/christianity/the-church-of-jesus-christ-of-latter-day-saints.html",
+      "/christianity/the-miracles-of-christ.html",
+      "/christianity/cfm-2023-12-31-rev-15-21.html",
       "/christianity/unknown-god.html",
       "/christianity/christmas-empty-tomb.html",
       "/christianity/2023-12-24-he-is-the-light-that-we-should-share/index.html",
-      "/christianity/2023-12-24-the-christ-child/index.html",
-      "/christianity/2023-12-17-christmas-celebrates-a-living-christ/index.html",
+      "/christianity/the-christ-child.html",
+      "/christianity/christmas-celebrates-a-living-christ.html",
       "/christianity/three-little-pigs-christ.html"
     ]
   }
