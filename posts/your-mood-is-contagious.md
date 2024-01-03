@@ -6,6 +6,8 @@ categories:
   - posts
   - leadership
   - parenting
+  - emotional resilience
+  - grit
 draft: false
 ---
 There's no question that moods are contagious. I once asked someone at the beach to leash their dog, and they slightly rebuked me, "this is a dog friendly beach." *Well, so it is,* I thought, grumpily. I complained to a family member about this grumpy dog owner.

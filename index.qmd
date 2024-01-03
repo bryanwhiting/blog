@@ -24,7 +24,5 @@ page-layout: full
 title-block-banner: false
 ---
 
-Thoughts on adventures in [tech](tech.md)
-
-<a href="https://www.bryanwhiting.com/tech>tech</a>, <a href="https://www.bryanwhiting.com/books>books</a>, <a href="https://www.bryanwhiting.com/christianity>faith</a>, <a href="https://www.bryanwhiting.com/gratitude>gratitude</a>, and <a href="https://www.bryanwhiting.com/>whatever's on my mind</a>. "All [blogs](https://en.wikipedia.org/wiki/All_models_are_wrong) are wrong, but some are useful."
+Thoughts on [tech](tech.qmd), [faith](christianity.qmd), [gratitude](gratitude.qmd) and anything else. _"All [blogs](https://en.wikipedia.org/wiki/All_models_are_wrong) are wrong, but some are useful."_
 
