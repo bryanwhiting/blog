@@ -10,7 +10,39 @@
 <atom:link href="https://www.bryanwhiting.com/tech.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Tue, 02 Jan 2024 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 03 Jan 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>The Dream State of Software</title>
+  <link>https://www.bryanwhiting.com/tech/dreaming-software.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-dreaming-software.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Dreaming code working is ever coders dream</figcaption>
+</figure>
+</div>
+<p>I returned from vacation yesterday and tried running my code. It didn’t work. I looked at code I had written, it had my imports correctly and all - why wasn’t it running?</p>
+<p>The file it was importing didn’t exist.</p>
+<p>I thought I created that. I swear I made it. My coworker remarked, “oh so you set up all the scafffolding but didn’t write the actual code?” I was in disbelief. maybe it was deleted by accident or stashed on another branch. But the <code>git log</code> shows all: the imported file never existed.</p>
+<p>In <a href="../book-review/dune.html">Dune</a>, Paul Atriedes has many visions and the author uses this feature to skip the book ahead three years. Paul wakes up one morning and doesn’t know what’s past or future. It’s all one in his mind.</p>
+<p>So it is with software. It gets created in the mind near instantly. Coding is a burden, the journey of many failures and design choices to enable the simple vision of the mind.</p>
+<p>Perhaps Gen AI can help us dream software faster. I look forward to when my dreams are realities, and not the rude awakening I still have coding to do.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>design</category>
+  <category>ai</category>
+  <category>futurism</category>
+  <guid>https://www.bryanwhiting.com/tech/dreaming-software.html</guid>
+  <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>The Psychology of New Software Releases and its Parallels with Fashion</title>
   <link>https://www.bryanwhiting.com/tech/why-we-want-new-software.html</link>

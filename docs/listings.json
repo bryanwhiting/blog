@@ -15,6 +15,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/tech/dreaming-software.html",
       "/tech/why-we-want-new-software.html",
       "/book-review/innovators-dilemma.html",
       "/book-review/socrates-a-life-worth-living.html",
@@ -100,6 +101,7 @@
   {
     "listing": "/tech.html",
     "items": [
+      "/tech/dreaming-software.html",
       "/tech/why-we-want-new-software.html",
       "/tech/swapping-out-human-labor-for-ai.html"
     ]
@@ -113,6 +115,7 @@
   {
     "listing": "/all.html",
     "items": [
+      "/tech/dreaming-software.html",
       "/christianity/the-miracles-of-christ.html",
       "/tech/why-we-want-new-software.html",
       "/christianity/the-church-of-jesus-christ-of-latter-day-saints.html",

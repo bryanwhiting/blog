@@ -10,7 +10,39 @@
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Tue, 02 Jan 2024 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Wed, 03 Jan 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>The Dream State of Software</title>
+  <link>https://www.bryanwhiting.com/tech/dreaming-software.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-dreaming-software.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Dreaming code working is ever coders dream</figcaption>
+</figure>
+</div>
+<p>I returned from vacation yesterday and tried running my code. It didn’t work. I looked at code I had written, it had my imports correctly and all - why wasn’t it running?</p>
+<p>The file it was importing didn’t exist.</p>
+<p>I thought I created that. I swear I made it. My coworker remarked, “oh so you set up all the scafffolding but didn’t write the actual code?” I was in disbelief. maybe it was deleted by accident or stashed on another branch. But the <code>git log</code> shows all: the imported file never existed.</p>
+<p>In <a href="../book-review/dune.html">Dune</a>, Paul Atriedes has many visions and the author uses this feature to skip the book ahead three years. Paul wakes up one morning and doesn’t know what’s past or future. It’s all one in his mind.</p>
+<p>So it is with software. It gets created in the mind near instantly. Coding is a burden, the journey of many failures and design choices to enable the simple vision of the mind.</p>
+<p>Perhaps Gen AI can help us dream software faster. I look forward to when my dreams are realities, and not the rude awakening I still have coding to do.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>design</category>
+  <category>ai</category>
+  <category>futurism</category>
+  <guid>https://www.bryanwhiting.com/tech/dreaming-software.html</guid>
+  <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>The Psychology of New Software Releases and its Parallels with Fashion</title>
   <link>https://www.bryanwhiting.com/tech/why-we-want-new-software.html</link>
@@ -775,71 +807,6 @@ quarto has strengths and drawbacks
   <guid>https://www.bryanwhiting.com/posts/quarto-from-phone/</guid>
   <pubDate>Tue, 26 Dec 2023 00:00:00 GMT</pubDate>
   <media:content url="https://www.bryanwhiting.com/posts/quarto-from-phone/photo.jpeg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>AI Robots are mastering tasks faster than humans</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/2023-12-25-ai-robots-are-mastering-tasks-faster-than-humans-/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<div class="callout callout-style-simple callout-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-With a proper objective function, machines can do really hard, isolated tasks
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>they can walk</li>
-<li>they can solve complex physical challenges</li>
-<li>they can play the toughest strategic games on earth and win (AlphaGo 2017, AlphaStar 2019)</li>
-<li>but can they determine the objective function by themselves?</li>
-</ul>
-</div>
-</div>
-<section id="reinforcement-learning" class="level1 page-columns page-full">
-<h1>Reinforcement Learning</h1>
-<p>Great article written <a href="https://www.techradar.com/computing/artificial-intelligence/my-jaw-hit-the-floor-when-i-watched-an-ai-master-one-of-the-worlds-toughest-physical-games-in-just-six-hours">at Techradar</a> going over the advances in reinforcement learning that allow a robot to finish labyrinth faster than humans. The video does the feat even more justice:</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/zQMKfuWZRdA?si=lWEaMy_BhKQGDDQd" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<p>This stands out to me in a few ways, principally that they crippled the machine to not take shortcuts. It still won.</p>
-<p>Reminds me first of AlphaGo:</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/WXuK6gekU1Y?si=UGZea1kUWNV_4iTr" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<p>Which reminds me of <a href="https://deepmind.google/discover/blog/alphastar-mastering-the-real-time-strategy-game-starcraft-ii/">AlphaStar</a>. Here’s a video with commentary on AlphaStar’s performance:</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/6EQAsrfUIyo?si=t3x_Nn8Mr2SDJ9uH" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<p>The thing I connect this video (or some other I watched) with labyrinth is that AlphaStar devised brand new strategies. Players against AlphaStar remarked how they felt like it was indeed being creative. Likewise, Cyberrunner (labyrinth) found shortcuts.</p>
-<p>All of this points to reinforcement learning as a viable solution to getting stuff done both in the digital and physical worlds. Take, for example, how RL is used to teach a <a href="https://interestingengineering.com/innovation/humanoid-taught-itself-to-walk">robot how to walk</a>.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/posts/2023-12-25-ai-robots-are-mastering-tasks-faster-than-humans-/photo.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">An AI robot learning to play StarCraft for the first time…</figcaption>
-</figure>
-</div>
-</section>
-<section id="whats-the-objective" class="level1">
-<h1>What’s the objective?</h1>
-<p>The goal for Super AI will be to figure out what the objective is. If we can marry digital and physical worlds, teaching the systems how to solve objective functions, the possibilities become…super/human.</p>
-<p>The unique thing about a human, it seems, is that we have our objective function hardwired into us: survive. First this is “food/shelter”. Next it’s social survival.</p>
-<p>How do humans figure out objective functions so fast? A human looking at labyrinth will know what to do within a second. Does it have interest/patience to sit there and learn it? Does GPT 4Vision have the ability to figure out these objective functions?</p>
-<p>We learn by objective functions. Minimize wrong answers on a test. Minimize missed baskets on the basketball court. Minimize rejections in a sales funnel. Maximize great conversation and connection at a dinner party.</p>
-<p>Humans learn very quickly. For now, robots are being isolated to specific tasks and their results are impressive. But perhaps to become our overlords all they need is the one objective function to rule them all. Er, uhm, and by “them” I of course don’t mean “us”…</p>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>ai</category>
-  <category>tech</category>
-  <category>futurism</category>
-  <guid>https://www.bryanwhiting.com/posts/2023-12-25-ai-robots-are-mastering-tasks-faster-than-humans-/</guid>
-  <pubDate>Mon, 25 Dec 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/posts/2023-12-25-ai-robots-are-mastering-tasks-faster-than-humans-/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
