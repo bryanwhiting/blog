@@ -1,5 +1,5 @@
 ---
-title: rest
+title: I'm grateful for rest
 description: Rest is restorative
 date: 2024-01-02
 categories:

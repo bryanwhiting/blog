@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/why-we-want-new-software.md",
+                "file": "tech/why-we-want-new-software.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/why-we-want-new-software.md",
+            "file": "tech/why-we-want-new-software.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/why-we-want-new-software.md"
+            "file": "tech/why-we-want-new-software.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/why-we-want-new-software.md",
+            "file": "tech/why-we-want-new-software.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,10 +132,12 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "gratitude/rest.md",
+    "docs/_templates/new-post.md",
+    "Untitled.md",
+    "tech/why-we-want-new-software.md",
     "img/dalle-ship-fashion-software.jpeg",
     "book-review/innovators-dilemma.md",
-    "posts/why-we-want-new-software.md",
-    "posts/rest.md",
     "docs/img/dalle-resting-hammock-surreal.jpeg",
     "docs/gratitude/rest.html",
     "img/dalle-resting-hammock-surreal.jpeg",
@@ -154,7 +156,6 @@
     "docs/img/dalle-away-in-manger.jpeg",
     "docs/img/screenshot-mary-with-baby-christ.jpeg",
     "docs/img/dalle-christ-healing-clay.jpeg",
-    "docs/img/standing.jpeg",
     "docs/scriptures/mosiah-3.5.html",
     "docs/scriptures/alma-32.16-18.html",
     "docs/scriptures/1-kings-19.11-12.html",
@@ -176,7 +177,6 @@
     "scriptures/emily belle freeman walking in covenant relationship with christ.md",
     "scriptures/acts-24.24-25.md",
     "scriptures/Hi.md",
-    "scriptures/jeffrey-r-holland-the-greatest-possession.md",
-    "scriptures/Think Celestial!.md"
+    "scriptures/jeffrey-r-holland-the-greatest-possession.md"
   ]
 }
