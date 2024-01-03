@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3e0940abb38815d5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -145,36 +156,42 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "619a0c6166783d6c",
+  "active": "3e0940abb38815d5",
   "lastOpenFiles": [
+    "tech/why-we-want-new-software.md",
+    "tech/dreaming-software.md",
+    "lists/writing-ethos.md",
+    "img/dalle-ship-fashion-software.jpeg",
+    "img/dalle-dreaming-software.jpeg",
+    "img/book-socrates.jpeg",
+    "docs/tech/why-we-want-new-software.html",
+    "docs/tech/dreaming-software.html",
+    "docs/img/dalle-ship-fashion-software.jpeg",
+    "docs/img/dalle-dreaming-software.jpeg",
+    "docs/img/book-socrates.jpeg",
+    "docs/book-review/socrates-a-life-worth-living.html",
+    "docs/book-review/innovators-dilemma.html",
+    "docs/Untitled.html",
+    "book-review/socrates-a-life-worth-living.md",
+    "book-review/innovators-dilemma.md",
+    "Untitled.md",
+    "img/dalle-resting-hammock-surreal.jpeg",
+    "gratitude/rest.md",
+    "docs/img/dalle-resting-hammock-surreal.jpeg",
+    "docs/gratitude/rest.html",
     "docs/scriptures/mosiah-3.5.html",
     "docs/scriptures/matthew-5.45.html",
     "docs/scriptures/alma-32.16-18.html",
     "docs/scriptures/1-kings-19.11-12.html",
-    "docs/scriptures",
     "docs/img/standing.jpeg",
     "docs/img/screenshot-mary-with-baby-christ.jpeg",
-    "docs/img/dalle-christ-healing-clay.jpeg",
-    "docs/img/dalle-away-in-manger.jpeg",
-    "docs/christianity/the-miracles-of-christ.html",
-    "docs/christianity/the-church-of-jesus-christ-of-latter-day-saints.html",
-    "docs/christianity/the-christ-child.html",
-    "docs/christianity/christmas-celebrates-a-living-christ.html",
     "_templates/link-to-file.md",
     "gratitude/_backlog.md",
     "scriptures/mosiah-3.5.md",
     "scriptures/matthew-5.45.md",
     "scriptures/alma-32.16-18.md",
     "scriptures/1-kings-19.11-12.md",
-    "img/dalle-open-book-on-table.jpeg",
-    "img/dalle-christ-healing-clay.jpeg",
     "gratitude/good-books.md",
-    "docs/img/dalle-whom-say-ye-i-am.jpeg",
-    "docs/img/dalle-open-book-on-table.jpeg",
-    "docs/img/dalle-half-tree-half-christ-dying.jpeg",
-    "docs/img/dalle-half-tree-half-christ-color.jpeg",
-    "docs/gratitude/good-books.html",
-    "docs/christianity/unknown-god.html",
     "christianity/the-miracles-of-christ.md",
     "christianity/the-church-of-jesus-christ-of-latter-day-saints.md",
     "christianity/cfm-2023-12-31-rev-15-21.md",
@@ -186,10 +203,6 @@
     "scriptures/Think Celestial!.md",
     "scriptures/Revelation 22.3.md",
     "gratitude/eyes.md",
-    "christianity/three-little-pigs-christ.md",
-    "christianity/christmas-empty-tomb.md",
-    "christianity/unknown-god.md",
-    "-Dataview Drafts.md",
-    "christianity/2023-12-13-three-little-pigs/index.md"
+    "christianity/three-little-pigs-christ.md"
   ]
 }
