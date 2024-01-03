@@ -21,13 +21,15 @@ Spotify
 
 Libby:
 - [ ] Edgar Allen Poe
-- [ ] 
+- [ ] Count of Monte Cristo
 - [x] [Dune](dune.md)
 
 YouTube
 - [ ] 1984
 
 Literature
+- [ ] The great gatsby
+- [ ] One hundred years of solitude
 - [ ] Anna Karenina
 - [ ] War and peace 
 - [ ] Don Quixote 
@@ -35,11 +37,14 @@ Literature
 - [ ] Animal farm 
 - [ ] In Search of lost time
 - [ ] Beloved - Toni Morrison 
-- [ ] The great gatsby
 - [ ] To kill a mockingbird
 - [ ] Neuromancer 
 - [ ] Brave new world
 - [ ] Foundation 
+- [ ] Catcher in the Rye
+- [ ] Of mice and men
+- [ ] Grapes of Wrath
+- [ ] 
 Others 
 - [ ]
 - [ ] Wealth of Nations

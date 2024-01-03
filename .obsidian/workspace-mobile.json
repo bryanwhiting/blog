@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/why-we-want-new-software.md",
+                "file": "christianity/the-miracles-of-christ.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "tech/why-we-want-new-software.md",
+            "file": "christianity/the-miracles-of-christ.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "tech/why-we-want-new-software.md"
+            "file": "christianity/the-miracles-of-christ.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "tech/why-we-want-new-software.md",
+            "file": "christianity/the-miracles-of-christ.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,10 +132,15 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "scriptures/mosiah-3.5.md",
+    "book-review/reading-list.md",
+    "book-review/socrates-a-life-worth-living.md",
+    "img/book-socrates.jpeg",
+    "book-review/dune.md",
+    "tech/why-we-want-new-software.md",
     "gratitude/rest.md",
     "docs/_templates/new-post.md",
     "Untitled.md",
-    "tech/why-we-want-new-software.md",
     "img/dalle-ship-fashion-software.jpeg",
     "book-review/innovators-dilemma.md",
     "docs/img/dalle-resting-hammock-surreal.jpeg",
@@ -155,7 +160,6 @@
     "docs/christianity/the-christ-child.html",
     "docs/img/dalle-away-in-manger.jpeg",
     "docs/img/screenshot-mary-with-baby-christ.jpeg",
-    "docs/img/dalle-christ-healing-clay.jpeg",
     "docs/scriptures/mosiah-3.5.html",
     "docs/scriptures/alma-32.16-18.html",
     "docs/scriptures/1-kings-19.11-12.html",
@@ -164,19 +168,14 @@
     "scriptures/alma-32.16-18.md",
     "scriptures/matthew-5.45.md",
     "scriptures/1-kings-19.11-12.md",
-    "scriptures/mosiah-3.5.md",
     "christianity/the-church-of-jesus-christ-of-latter-day-saints.md",
-    "book-review/reading-list.md",
     "gratitude/good-books.md",
-    "book-review/dune.md",
     "scriptures/Revelation 22.3.md",
     "_templates/new-post.md",
     "scriptures/emily-belle-freeman-walking-in-covenant-relationship-with-christ.md",
     "scriptures/acts-24.26-27.md",
     "scriptures/acts-24-25–26.md",
     "scriptures/emily belle freeman walking in covenant relationship with christ.md",
-    "scriptures/acts-24.24-25.md",
-    "scriptures/Hi.md",
-    "scriptures/jeffrey-r-holland-the-greatest-possession.md"
+    "scriptures/acts-24.24-25.md"
   ]
 }

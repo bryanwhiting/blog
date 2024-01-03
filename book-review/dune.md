@@ -4,13 +4,22 @@ description: |
   The plans and risks of generations 
 date: 2023-12-23
 image: photo.jpeg
-categories: [book review]
+categories:
+  - book review
 draft: false
+date-finished: 2024-01-02
 ---
 
 
 ::: callout-note
-## 
+## Great book
+
+Love the storytelling. Herbert has a way of revealing things he narrates, observations, but holds the conclusions and insights to the individuals. 
+
+Makes you feel like you have superpowers as you read it. Am I a Fremen? An Atreities? It's fun to read and consider. 
+
+Thought provoking. Concepts of politics, religion, science, and diplomacy. War, worms, and wonder. Great read. 
+
 :::
 
 ![](../img/book-dune.jpeg){.preview-image}
@@ -43,3 +52,8 @@ When God has appointed a man to die, he guides his wants to desire that place
 
 Storytelling
 - How he explains their thoughts after subtle observations. He explains things through humanity, not through narration alone. This makes those points more salient. It's as if the dialogue is the content and the narration are the footnotes and context. 
+
+- Stilgar becoming a worshipper. 
+- Having lived billions upon billions of lives. Known cruelty. 
+- Trying to prevent the jihad, does he inevitably create it?
+- 

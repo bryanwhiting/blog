@@ -1,6 +1,6 @@
 ---
 title: The miracles of Christ
-description: ""
+description: What is a miracle? How does He do His work?
 date: 2024-01-02
 categories:
   - christianity
@@ -12,22 +12,28 @@ categories:
 draft: false
 ---
 
-I'm reading the Book of Mormon this year with the Come Follow Me (by [The Church of Jesus Christ of Latter-day Saints](the-church-of-jesus-christ-of-latter-day-saints.md)) curriculum. Hope you enjoy as I write something I learn each day. 
+I'm reading the Book of Mormon this year with the Come Follow Me (by [The Church of Jesus Christ of Latter-day Saints](the-church-of-jesus-christ-of-latter-day-saints.md)) curriculum. I hope you enjoy as I write something I learn each day. 
 
 I'll tag things "scripture of the day" for any one-scripture thoughts. If it's related to the Come Follow Me theme, l'll add a tag. 
 
 # Miracles of Christ 
+
+This scripture caught me eye:
 
 >  For behold, the time cometh, and is not far distant, that with power, the Lord Omnipotent who reigneth, who was, and is from all eternity to all eternity, shall come down from heaven among the children of men, and shall dwell in a tabernacle of clay, and shall go forth amongst men, **working mighty miracles, such as healing the sick, raising the dead, causing the lame to walk, the blind to receive their sight, and the deaf to hear, and curing all manner of diseases.**
 > [Mosiah 3.5](../scriptures/mosiah-3.5)
 
 ![Christ healing all who come unto him](../img/dalle-christ-healing-clay.jpeg){.preview-image}
 
-I have seen miracles in my life. I've also seen contra-miracles, which is the miracle that happens when you're expecting one thing but another thing happens instead. 
+I have seen miracles in my life. I've also seen collateral-miracles, which is the miracle that happens when you're expecting one thing but another thing happens instead. 
 
 I've seen someone healed from a Priesthood blessing. I've seen someone healed from depression. I've seen someone healed from doubt and disbelief. I've felt the power of the Holy Ghost in my life. 
 
-If any of these things sounds fanciful to those not of my Church, it's actually a lot more simple and plain than you can imagine. Because "the Lord was not in the wind: and after the wind an earthquake; but the Lord was not in the earthquake: And after the earthquake a fire; but the Lord was not in the fire: and after the fire a **still small voice**." ([1 Kings 19.11–12](../scriptures/1-kings-19.11-12))
+I've also seen people not healed, left to the struggles we all face, and yet miracles abound. 
+
+So what is a miracle? Is it an outcome? No. It's the process of seeing how an event can be changed by God for the benefit of an individual. Occasionally, there are supernatural changes in the natural course of things. 
+
+If any of these things sounds fanciful to those not of my Church, it's actually a lot more simple and plain than it sounds. Because "the Lord was not in the wind: and after the wind an earthquake; but the Lord was not in the earthquake: And after the earthquake a fire; but the Lord was not in the fire: and after the fire a **still small voice**." ([1 Kings 19.11–12](../scriptures/1-kings-19.11-12))  For me, seeing a miracle of Christ is perceiving the hand by how he operates. 
 
 Some have a hard time reading the Old Testament because how can a God who brought fire from heaven, parted the seas, gave manna from heaven also be a God who doesn't do those things today?
 
