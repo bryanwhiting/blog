@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/your-mood-is-contagious.md",
+                "file": "posts/poem-timeless.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/your-mood-is-contagious.md",
+            "file": "posts/poem-timeless.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/your-mood-is-contagious.md"
+            "file": "posts/poem-timeless.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/your-mood-is-contagious.md",
+            "file": "posts/poem-timeless.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -130,11 +130,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "be767112276aa446",
+  "active": "78912cccc2282195",
   "lastOpenFiles": [
+    "book-review/dune.md",
+    "posts/your-mood-is-contagious.md",
+    "docs/posts/your-mood-is-contagious.html",
     "img/dalle-mood-sharing.jpeg",
     "lists/writing-ethos.md",
-    "posts/your-mood-is-contagious.md",
     "tech/dreaming-software.md",
     "docs/img/book-socrates.jpeg",
     "docs/book-review/socrates-a-life-worth-living.html",
@@ -144,7 +146,6 @@
     "book-review/reading-list.md",
     "book-review/socrates-a-life-worth-living.md",
     "img/book-socrates.jpeg",
-    "book-review/dune.md",
     "tech/why-we-want-new-software.md",
     "gratitude/rest.md",
     "docs/_templates/new-post.md",
@@ -160,7 +161,6 @@
     "img/dalle-away-in-manger.jpeg",
     "img/dalle-christ-whom-say-i-am.jpeg",
     "img/screenshot-mary-with-baby-christ.jpeg",
-    "img/standing.jpeg",
     "docs/christianity/the-miracles-of-christ.html",
     "docs/christianity/christmas-celebrates-a-living-christ.html",
     "docs/christianity/the-church-of-jesus-christ-of-latter-day-saints.html",
@@ -168,7 +168,6 @@
     "docs/scriptures/mosiah-3.5.html",
     "docs/scriptures/alma-32.16-18.html",
     "docs/scriptures/1-kings-19.11-12.html",
-    "docs/scriptures/matthew-5.45.html",
     "scriptures/alma-32.16-18.md",
     "scriptures/matthew-5.45.md",
     "scriptures/1-kings-19.11-12.md",
