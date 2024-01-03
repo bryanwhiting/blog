@@ -13,38 +13,11 @@
     ]
   },
   {
-    "listing": "/lists.html",
-    "items": [
-      "/lists/ai/index.html"
-    ]
-  },
-  {
-    "listing": "/tech.html",
-    "items": [
-      "/tech/why-we-want-new-software.html",
-      "/tech/swapping-out-human-labor-for-ai.html"
-    ]
-  },
-  {
-    "listing": "/books.html",
-    "items": [
-      "/book-review/innovators-dilemma.html",
-      "/book-review/unbelievable.html",
-      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
-      "/book-review/dune.html",
-      "/book-review/the-best-of-edgar-allen-poe.html",
-      "/book-review/killers-of-the-flower-moonyfg if.html",
-      "/book-review/101-essays-to-make-you-think.html",
-      "/book-review/hitchhikers-guide-to-the-galaxy.html",
-      "/book-review/scientific-freedom.html",
-      "/book-review/getting-things-done.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/tech/why-we-want-new-software.html",
       "/book-review/innovators-dilemma.html",
+      "/book-review/socrates-a-life-worth-living.html",
       "/book-review/unbelievable.html",
       "/tech/swapping-out-human-labor-for-ai.html",
       "/posts/water-as-a-currency.html",
@@ -109,6 +82,35 @@
     ]
   },
   {
+    "listing": "/books.html",
+    "items": [
+      "/book-review/socrates-a-life-worth-living.html",
+      "/book-review/innovators-dilemma.html",
+      "/book-review/unbelievable.html",
+      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
+      "/book-review/dune.html",
+      "/book-review/the-best-of-edgar-allen-poe.html",
+      "/book-review/killers-of-the-flower-moonyfg if.html",
+      "/book-review/101-essays-to-make-you-think.html",
+      "/book-review/hitchhikers-guide-to-the-galaxy.html",
+      "/book-review/scientific-freedom.html",
+      "/book-review/getting-things-done.html"
+    ]
+  },
+  {
+    "listing": "/tech.html",
+    "items": [
+      "/tech/why-we-want-new-software.html",
+      "/tech/swapping-out-human-labor-for-ai.html"
+    ]
+  },
+  {
+    "listing": "/lists.html",
+    "items": [
+      "/lists/ai/index.html"
+    ]
+  },
+  {
     "listing": "/all.html",
     "items": [
       "/christianity/the-miracles-of-christ.html",
@@ -117,6 +119,7 @@
       "/book-review/innovators-dilemma.html",
       "/gratitude/rest.html",
       "/gratitude/good-books.html",
+      "/book-review/socrates-a-life-worth-living.html",
       "/book-review/unbelievable.html",
       "/tech/swapping-out-human-labor-for-ai.html",
       "/gratitude/eyes.html",
