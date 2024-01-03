@@ -109,12 +109,14 @@
   {
     "listing": "/lists.html",
     "items": [
-      "/lists/ai/index.html"
+      "/lists/ai/index.html",
+      "/lists/writing-ethos.html"
     ]
   },
   {
     "listing": "/all.html",
     "items": [
+      "/lists/writing-ethos.html",
       "/tech/dreaming-software.html",
       "/christianity/the-miracles-of-christ.html",
       "/tech/why-we-want-new-software.html",
