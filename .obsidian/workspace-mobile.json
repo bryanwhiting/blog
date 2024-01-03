@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/the-miracles-of-christ.md",
+                "file": "tech/dreaming-software.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/the-miracles-of-christ.md",
+            "file": "tech/dreaming-software.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/the-miracles-of-christ.md"
+            "file": "tech/dreaming-software.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/the-miracles-of-christ.md",
+            "file": "tech/dreaming-software.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,6 +132,9 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-dreaming-software.jpeg",
+    "christianity/the-miracles-of-christ.md",
+    "tech/dreaming-software.md",
     "scriptures/mosiah-3.5.md",
     "book-review/reading-list.md",
     "book-review/socrates-a-life-worth-living.md",
@@ -146,7 +149,6 @@
     "docs/img/dalle-resting-hammock-surreal.jpeg",
     "docs/gratitude/rest.html",
     "img/dalle-resting-hammock-surreal.jpeg",
-    "christianity/the-miracles-of-christ.md",
     "gratitude/_backlog.md",
     "christianity/christmas-celebrates-a-living-christ.md",
     "christianity/the-christ-child.md",
@@ -175,7 +177,6 @@
     "scriptures/emily-belle-freeman-walking-in-covenant-relationship-with-christ.md",
     "scriptures/acts-24.26-27.md",
     "scriptures/acts-24-25–26.md",
-    "scriptures/emily belle freeman walking in covenant relationship with christ.md",
-    "scriptures/acts-24.24-25.md"
+    "scriptures/emily belle freeman walking in covenant relationship with christ.md"
   ]
 }
