@@ -12,34 +12,6 @@
 <generator>quarto-1.4.515</generator>
 <lastBuildDate>Tue, 02 Jan 2024 00:00:00 GMT</lastBuildDate>
 <item>
-  <title>rest</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/rest.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>I’m grateful for rest. Time away. I’m grateful that by taking time away, my brain resets. Now I’m more energized to tackle the day.</p>
-<p>Why is rest necessary? I don’t know. But it is. Bodies need sleep. Minds need breaks.</p>
-<p>I find that the mind is easier to overrule than a tired body. Why? Why can we push our brains more than is healthy for them? It’s hard to answer, but only rest tells us where our mind can be.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-resting-hammock-surreal.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Resting in an abstract and surrealistic way</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>gratitude</category>
-  <category>observations</category>
-  <guid>https://www.bryanwhiting.com/posts/rest.html</guid>
-  <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
   <title>The miracles of Christ</title>
   <link>https://www.bryanwhiting.com/christianity/the-miracles-of-christ.html</link>
   <description><![CDATA[ 
@@ -87,8 +59,7 @@
 </item>
 <item>
   <title>The Psychology of New Software Releases and its Parallels with Fashion</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/why-we-want-new-software.html</link>
+  <link>https://www.bryanwhiting.com/tech/why-we-want-new-software.html</link>
   <description><![CDATA[ 
 
 
@@ -103,19 +74,19 @@
 <figcaption class="margin-caption">Shipping software like fashion, every season</figcaption>
 </figure>
 </div>
-<p>Software releases are free, but development is not. Therefore, research and development is constant, whereas the Hammer company hasn’t needed to update its product in a couple…millenia.</p>
+<p>Software releases are free, but development is not. Therefore, research and development is constant, whereas the Hammer company hasn’t needed to update its product in a couple…millennia. That’s why they call it software. It’s not hard to make.</p>
 <p>Is there a way to sell software like you sell a hammer?</p>
-<p>No.&nbsp;Because per <a href="../book-review/innovators-dilemma.html">Innovator’s Dilemma</a>, those who can out-do you will. And software is invitely easy to alter and improve. I’m not convinced most “updates” out there are actually improvements, but people like change (ever see a fashion line repeat itself?)</p>
+<p>No.&nbsp;Because per <a href="../book-review/innovators-dilemma.html">Innovator’s Dilemma</a>, those who can out-do you will. And software is easy to alter and improve. I’m not convinced all “updates” done in the software industry are actually improvements, but people like change. Ever see a fashion line repeat itself?</p>
 <p>Software is like fashion.</p>
 
 
 
 <p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>posts</category>
   <category>business strategy</category>
   <category>saas</category>
   <category>sales</category>
-  <guid>https://www.bryanwhiting.com/posts/why-we-want-new-software.html</guid>
+  <category>tech</category>
+  <guid>https://www.bryanwhiting.com/tech/why-we-want-new-software.html</guid>
   <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
@@ -151,6 +122,33 @@
 <p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
   <category>book-review</category>
   <guid>https://www.bryanwhiting.com/book-review/innovators-dilemma.html</guid>
+  <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>I’m grateful for rest</title>
+  <link>https://www.bryanwhiting.com/gratitude/rest.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I’m grateful for rest. Time away. I’m grateful that by taking time away, my brain resets. Now I’m more energized to tackle the day.</p>
+<p>Why is rest necessary? I don’t know. But it is. Bodies need sleep. Minds need breaks.</p>
+<p>I find that the mind is easier to overrule than a tired body. Why? Why can we push our brains more than is healthy for them? It’s hard to answer, but only rest tells us where our mind can be.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-resting-hammock-surreal.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Resting in an abstract and surrealistic way</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> is an amatueur husband, father, Christian, and tech writer, but a professional data scientist. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>gratitude</category>
+  <category>observations</category>
+  <guid>https://www.bryanwhiting.com/gratitude/rest.html</guid>
   <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
