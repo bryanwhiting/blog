@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/dreaming-software.md",
+                "file": "lists/writing-ethos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "tech/dreaming-software.md",
+            "file": "lists/writing-ethos.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "tech/dreaming-software.md"
+            "file": "lists/writing-ethos.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "tech/dreaming-software.md",
+            "file": "lists/writing-ethos.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,9 +132,12 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "tech/dreaming-software.md",
+    "lists/writing-ethos.md",
+    "docs/img/book-socrates.jpeg",
+    "docs/book-review/socrates-a-life-worth-living.html",
     "img/dalle-dreaming-software.jpeg",
     "christianity/the-miracles-of-christ.md",
-    "tech/dreaming-software.md",
     "scriptures/mosiah-3.5.md",
     "book-review/reading-list.md",
     "book-review/socrates-a-life-worth-living.md",
@@ -160,13 +163,10 @@
     "docs/christianity/christmas-celebrates-a-living-christ.html",
     "docs/christianity/the-church-of-jesus-christ-of-latter-day-saints.html",
     "docs/christianity/the-christ-child.html",
-    "docs/img/dalle-away-in-manger.jpeg",
-    "docs/img/screenshot-mary-with-baby-christ.jpeg",
     "docs/scriptures/mosiah-3.5.html",
     "docs/scriptures/alma-32.16-18.html",
     "docs/scriptures/1-kings-19.11-12.html",
     "docs/scriptures/matthew-5.45.html",
-    "docs/scriptures",
     "scriptures/alma-32.16-18.md",
     "scriptures/matthew-5.45.md",
     "scriptures/1-kings-19.11-12.md",
