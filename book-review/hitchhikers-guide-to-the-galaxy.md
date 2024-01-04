@@ -7,7 +7,7 @@ categories: [book review, storytelling]
 draft: false
 ---
 
-![The book of infinite possibilities](../../img/book-hitchhikers-guide.jpeg) 
+![The book of infinite possibilities](../img/book-hitchhikers-guide.jpeg) 
 
 This is a classic. First time reading it and I love it. 
 
