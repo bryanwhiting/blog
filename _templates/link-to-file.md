@@ -14,6 +14,9 @@ let filteredFiles = allFiles.filter(file =>
     !excludedDirectories.some(dir => file.path.includes(dir))
 );
 
+// Sort filtered files by modified date in descending order 
+filteredFiles.sort((a, b) => b.stat.mtime - a.stat.mtime);
+
 // Create a list of full file paths for the suggester
 let fileFullPaths = filteredFiles.map(file => file.path);
 

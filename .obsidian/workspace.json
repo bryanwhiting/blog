@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
+                "file": "book-review/unbelievable.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "20163f82a6eff9d6",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
+                "file": "book-review/unbelievable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
+                "file": "book-review/unbelievable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "book-review/how-to-decide-simple-tools-for-making-better-choices.md"
+                "file": "book-review/unbelievable.md"
               }
             }
           }
@@ -160,6 +160,32 @@
   },
   "active": "3e0940abb38815d5",
   "lastOpenFiles": [
+    "tech/30-seconds-to-fame.md",
+    "scriptures/testimony-of-eight-witnesses.md",
+    "scriptures/russell-m-nelson-revelation-for-the-church-revelation-for-our-lives.md",
+    "scriptures/mosiah-18.9.md",
+    "scriptures/matthew-16.15-17.md",
+    "scriptures/alma-32.34-36.md",
+    "scriptures/alma-18.26-28.md",
+    "posts/the-multiverse-of-careers.md",
+    "img/dalle-three-witnesses.jpeg",
+    "img/dalle-three-witnesses-one-missing.jpeg",
+    "img/dalle-multiverse-of-choice.jpeg",
+    "docs/tech/30-seconds-to-fame.html",
+    "docs/scriptures/testimony-of-eight-witnesses.html",
+    "docs/scriptures/russell-m-nelson-revelation-for-the-church-revelation-for-our-lives.html",
+    "docs/scriptures/mosiah-18.9.html",
+    "docs/scriptures/matthew-16.15-17.html",
+    "docs/scriptures/alma-32.34-36.html",
+    "docs/scriptures/alma-18.26-28.html",
+    "docs/img/dalle-three-witnesses.jpeg",
+    "docs/img/dalle-three-witnesses-one-missing.jpeg",
+    "docs/christianity/share-your-testimony.html",
+    "docs/christianity/a-change-in-witness.html",
+    "christianity/share-your-testimony.md",
+    "_templates/link-to-file.md",
+    "_templates/new-post.md",
+    "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
     "book-review/unbelievable.md",
     "book-review/innovators-dilemma.md",
     "book-review/socrates-a-life-worth-living.md",
@@ -174,37 +200,11 @@
     "book-review/killers-of-the-flower-moon.md",
     "christianity/a-change-in-witness.md",
     "scriptures/leviticus-19.18.md",
-    "posts/your-mood-is-contagious.md",
-    "posts/my-tombstone.md",
     "img/dalle-mood-sharing.jpeg",
     "img/dalle-lunch-with-friends-impressionist.jpeg",
     "img/dalle-data-scientist-tombstone-on-beach.jpeg",
     "img/dalle-caravaggio-zoom.jpeg",
-    "gratitude/zoom.md",
     "docs/scriptures/leviticus-19.18.html",
-    "docs/posts/your-mood-is-contagious.html",
-    "docs/posts/my-tombstone.html",
-    "docs/img/dalle-mood-sharing.jpeg",
-    "docs/img/dalle-lunch-with-friends-impressionist.jpeg",
-    "docs/img/dalle-data-scientist-tombstone-on-beach.jpeg",
-    "docs/img/dalle-caravaggio-zoom.jpeg",
-    "docs/img/book-scientific-freedom.jpeg",
-    "docs/img/book-killers-flower-moon.jpeg",
-    "docs/gratitude/zoom.html",
-    "docs/christianity/love-thy-neighbor-but-have-friends.html",
-    "docs/book-review/steve-jobs-biography.html",
-    "docs/book-review/leonardo-da-vinci.html",
-    "docs/book-review/killers-of-the-flower-moon.html",
-    "christianity/love-thy-neighbor-but-have-friends.md",
-    "book-review/dune.md",
-    "_templates/new-post.md",
-    "Untitled 1.md",
-    "docs/lists/writing-ethos.html",
-    "tech/why-we-want-new-software.md",
-    "tech/dreaming-software.md",
-    "lists/writing-ethos.md",
-    "docs/tech/why-we-want-new-software.html",
-    "gratitude/rest.md",
-    "_templates/link-to-file.md"
+    "docs/img/dalle-mood-sharing.jpeg"
   ]
 }
