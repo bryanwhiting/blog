@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/a-change-in-witness.md",
+                "file": "posts/write-a-thousand-songs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/a-change-in-witness.md",
+            "file": "posts/write-a-thousand-songs.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/a-change-in-witness.md"
+            "file": "posts/write-a-thousand-songs.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/a-change-in-witness.md",
+            "file": "posts/write-a-thousand-songs.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,6 +132,9 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-hockey-shots-surreal-impressionist-water.jpeg",
+    "christianity/a-change-in-witness.md",
+    "posts/write-a-thousand-songs.md",
     "posts/losing-to-yesmen.md",
     "docs/img/dalle-multiverse-of-choice.jpeg",
     "docs/posts/the-multiverse-of-careers.html",
@@ -139,7 +142,6 @@
     "docs/_templates/new-post.md",
     "posts/the-multiverse-of-careers.md",
     "img/dalle-multiverse-of-choice.jpeg",
-    "christianity/a-change-in-witness.md",
     "docs/tech/30-seconds-to-fame.html",
     "docs/christianity/share-your-testimony.html",
     "docs/img/dalle-three-witnesses.jpeg",
@@ -173,7 +175,6 @@
     "book-review/killers-of-the-flower-moon.md",
     "book-review/dune.md",
     "docs/posts/your-mood-is-contagious.html",
-    "lists/writing-ethos.md",
     "docs/book-review/socrates-a-life-worth-living.html",
     "docs/gratitude/rest.html",
     "docs/christianity/the-miracles-of-christ.html"
