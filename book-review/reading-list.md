@@ -2,7 +2,7 @@
 title: Reading List
 description: Wish list of books
 date: 2015-12-01T12:00:00
-updated: 2023-12-31T14:17:00
+updated: 2024-01-04T10:16:37
 categories:
   - book review
 draft: true
@@ -31,23 +31,19 @@ Literature
 - [ ] The great gatsby
 - [ ] One hundred years of solitude
 - [ ] Anna Karenina
-- [ ] War and peace 
-- [ ] Don Quixote 
+- [ ] War and peace
+- [ ] Don Quixote
 - [ ] Les Mis
-- [ ] Animal farm 
+- [ ] Animal farm
 - [ ] In Search of lost time
-- [ ] Beloved - Toni Morrison 
+- [ ] Beloved - Toni Morrison
 - [ ] To kill a mockingbird
-- [ ] Neuromancer 
+- [ ] Neuromancer
 - [ ] Brave new world
-- [ ] Foundation 
+- [ ] Foundation
 - [ ] Catcher in the Rye
 - [ ] Of mice and men
-- [ ] Grapes of Wrath
-- [ ] 
-Others 
-- [ ]
+- [ ] Grapes of Wrath  
+Others
 - [ ] Wealth of Nations
-- [ ] Guns, germs, steel 
-
-
+- [ ] Guns, germs, steel

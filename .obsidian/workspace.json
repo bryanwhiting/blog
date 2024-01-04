@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/a-change-in-witness.md",
+                "file": "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "christianity/a-change-in-witness.md",
+                "file": "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "christianity/a-change-in-witness.md",
+                "file": "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "christianity/a-change-in-witness.md"
+                "file": "book-review/how-to-decide-simple-tools-for-making-better-choices.md"
               }
             }
           }
@@ -160,51 +160,51 @@
   },
   "active": "3e0940abb38815d5",
   "lastOpenFiles": [
-    "book-review/socrates-a-life-worth-living.md",
-    "book-review/dune.md",
+    "book-review/unbelievable.md",
     "book-review/innovators-dilemma.md",
-    "_templates/new-post.md",
+    "book-review/socrates-a-life-worth-living.md",
+    "book-review/reading-list.md",
+    "book-review/101-essays-to-make-you-think.md",
+    "book-review/getting-things-done.md",
+    "book-review/leonardo-da-vinci.md",
+    "book-review/hitchhikers-guide-to-the-galaxy.md",
+    "book-review/the-best-of-edgar-allen-poe.md",
+    "book-review/steve-jobs-biography.md",
+    "book-review/scientific-freedom.md",
+    "book-review/killers-of-the-flower-moon.md",
     "christianity/a-change-in-witness.md",
+    "scriptures/leviticus-19.18.md",
+    "posts/your-mood-is-contagious.md",
+    "posts/my-tombstone.md",
+    "img/dalle-mood-sharing.jpeg",
+    "img/dalle-lunch-with-friends-impressionist.jpeg",
+    "img/dalle-data-scientist-tombstone-on-beach.jpeg",
+    "img/dalle-caravaggio-zoom.jpeg",
+    "gratitude/zoom.md",
+    "docs/scriptures/leviticus-19.18.html",
+    "docs/posts/your-mood-is-contagious.html",
+    "docs/posts/my-tombstone.html",
+    "docs/img/dalle-mood-sharing.jpeg",
+    "docs/img/dalle-lunch-with-friends-impressionist.jpeg",
+    "docs/img/dalle-data-scientist-tombstone-on-beach.jpeg",
+    "docs/img/dalle-caravaggio-zoom.jpeg",
+    "docs/img/book-scientific-freedom.jpeg",
+    "docs/img/book-killers-flower-moon.jpeg",
+    "docs/gratitude/zoom.html",
+    "docs/christianity/love-thy-neighbor-but-have-friends.html",
+    "docs/book-review/steve-jobs-biography.html",
+    "docs/book-review/leonardo-da-vinci.html",
+    "docs/book-review/killers-of-the-flower-moon.html",
+    "christianity/love-thy-neighbor-but-have-friends.md",
+    "book-review/dune.md",
+    "_templates/new-post.md",
     "Untitled 1.md",
     "docs/lists/writing-ethos.html",
     "tech/why-we-want-new-software.md",
     "tech/dreaming-software.md",
     "lists/writing-ethos.md",
-    "img/dalle-ship-fashion-software.jpeg",
-    "img/dalle-dreaming-software.jpeg",
-    "img/book-socrates.jpeg",
     "docs/tech/why-we-want-new-software.html",
-    "docs/tech/dreaming-software.html",
-    "docs/img/dalle-ship-fashion-software.jpeg",
-    "docs/img/dalle-dreaming-software.jpeg",
-    "docs/img/book-socrates.jpeg",
-    "docs/book-review/socrates-a-life-worth-living.html",
-    "docs/book-review/innovators-dilemma.html",
-    "docs/Untitled.html",
-    "img/dalle-resting-hammock-surreal.jpeg",
     "gratitude/rest.md",
-    "docs/img/dalle-resting-hammock-surreal.jpeg",
-    "docs/gratitude/rest.html",
-    "docs/scriptures/mosiah-3.5.html",
-    "docs/scriptures/matthew-5.45.html",
-    "docs/scriptures/alma-32.16-18.html",
-    "docs/img/standing.jpeg",
-    "docs/img/screenshot-mary-with-baby-christ.jpeg",
-    "_templates/link-to-file.md",
-    "gratitude/_backlog.md",
-    "scriptures/mosiah-3.5.md",
-    "scriptures/matthew-5.45.md",
-    "scriptures/alma-32.16-18.md",
-    "scriptures/1-kings-19.11-12.md",
-    "gratitude/good-books.md",
-    "christianity/the-miracles-of-christ.md",
-    "christianity/the-church-of-jesus-christ-of-latter-day-saints.md",
-    "christianity/cfm-2023-12-31-rev-15-21.md",
-    "christianity/the-christ-child.md",
-    "christianity/2023-12-24-he-is-the-light-that-we-should-share/index.md",
-    "christianity/christmas-celebrates-a-living-christ.md",
-    "christianity/no-empty-chairs.md",
-    "scriptures/test.md",
-    "scriptures/Think Celestial!.md"
+    "_templates/link-to-file.md"
   ]
 }
