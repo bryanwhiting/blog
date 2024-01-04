@@ -23,7 +23,8 @@ Thought provoking. Concepts of politics, religion, science, and diplomacy. War, 
 
 :::
 
-![](../img/book-dune.jpeg){.preview-image}
+
+![Dune](../img/book-dune.jpeg){.preview-image}
 
 - shield your son too much and he'll not grow strong enough to fulfill any destiny
 - deprogram after the machines. Let the machines do too much thinking.

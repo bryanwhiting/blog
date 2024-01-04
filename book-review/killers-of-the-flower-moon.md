@@ -11,7 +11,7 @@ draft: false
 date-finished: 2023-12-28
 ---
 
-![](../../img/book-killers-flower-moon.jpeg){.preview-image}
+![](../img/book-killers-flower-moon.jpeg){.preview-image}
 
 ::: callout-note
 ## TL;DR: 

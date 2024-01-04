@@ -7,7 +7,7 @@ categories: [book review, philosophy, mindfulness]
 draft: false
 ---
 
-![](../../img/book-101-essays.jpeg){.preview-image}
+![](../img/book-101-essays.jpeg){.preview-image}
 
 ::: callout-note
 ## TL;DR: 101 ideas. This is like a modern day Meditations. 

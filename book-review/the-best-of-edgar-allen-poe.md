@@ -13,7 +13,7 @@ draft: false
 
 :::
 
-![](../../img/book-edgar-allen-poe.jpeg){.preview-image}
+![](../img/book-edgar-allen-poe.jpeg){.preview-image}
 
 
 # Raw Notes

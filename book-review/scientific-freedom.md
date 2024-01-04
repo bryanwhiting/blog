@@ -7,7 +7,7 @@ categories: [book review]
 draft: false
 ---
 
-![Max Plank, GPT 4](../../img/book-scientific-freedom.jpeg) 
+![Max Plank, GPT 4](../img/book-scientific-freedom.jpeg) 
 
 # “Scientific Freedom”
 
