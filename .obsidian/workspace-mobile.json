@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/30-seconds-to-fame.md",
+                "file": "christianity/a-change-in-witness.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "tech/30-seconds-to-fame.md",
+            "file": "christianity/a-change-in-witness.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "tech/30-seconds-to-fame.md"
+            "file": "christianity/a-change-in-witness.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "tech/30-seconds-to-fame.md",
+            "file": "christianity/a-change-in-witness.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,11 +132,16 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-three-witnesses-one-missing.jpeg",
+    "scriptures/russell-m-nelson-revelation-for-the-church-revelation-for-our-lives.md",
+    "scriptures/alma-32.34-36.md",
+    "scriptures/matthew-16.15-17.md",
+    "scriptures/alma-18.26-28.md",
+    "scriptures/testimony-of-eight-witnesses.md",
     "christianity/share-your-testimony.md",
     "tech/30-seconds-to-fame.md",
     "img/dalle-three-witnesses.jpeg",
     "scriptures/mosiah-18.9.md",
-    "scriptures/testimony-of-eight-witnesses.md",
     "christianity/unknown-god.md",
     "posts/my-tombstone.md",
     "docs/img/book-killers-flower-moon.jpeg",
@@ -166,11 +171,6 @@
     "scriptures/mosiah-3.5.md",
     "book-review/reading-list.md",
     "book-review/socrates-a-life-worth-living.md",
-    "tech/why-we-want-new-software.md",
-    "gratitude/rest.md",
-    "docs/_templates/new-post.md",
-    "Untitled.md",
-    "book-review/innovators-dilemma.md",
     "docs/gratitude/rest.html",
     "docs/christianity/the-miracles-of-christ.html",
     "docs/christianity/christmas-celebrates-a-living-christ.html",
