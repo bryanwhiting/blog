@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/your-mood-is-contagious.md",
+                "file": "posts/my-tombstone.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/your-mood-is-contagious.md",
+            "file": "posts/my-tombstone.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/your-mood-is-contagious.md"
+            "file": "posts/my-tombstone.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/your-mood-is-contagious.md",
+            "file": "posts/my-tombstone.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,11 +132,20 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-data-scientist-tombstone-on-beach.jpeg",
+    "christianity/love-thy-neighbor-but-have-friends.md",
+    "posts/my-tombstone.md",
+    "book-review/leonardo-da-vinci.md",
+    "book-review/steve-jobs-biography.md",
+    "img/dalle-lunch-with-friends-impressionist.jpeg",
+    "scriptures/leviticus-19.18.md",
+    "gratitude/zoom.md",
+    "img/dalle-caravaggio-zoom.jpeg",
+    "posts/your-mood-is-contagious.md",
     "tech/dreaming-software.md",
     "posts/poem-timeless.md",
     "book-review/killers-of-the-flower-moon.md",
     "book-review/dune.md",
-    "posts/your-mood-is-contagious.md",
     "docs/posts/your-mood-is-contagious.html",
     "img/dalle-mood-sharing.jpeg",
     "lists/writing-ethos.md",
@@ -161,8 +170,6 @@
     "christianity/christmas-celebrates-a-living-christ.md",
     "christianity/the-christ-child.md",
     "img/dalle-away-in-manger.jpeg",
-    "img/dalle-christ-whom-say-i-am.jpeg",
-    "img/screenshot-mary-with-baby-christ.jpeg",
     "docs/christianity/the-miracles-of-christ.html",
     "docs/christianity/christmas-celebrates-a-living-christ.html",
     "docs/christianity/the-church-of-jesus-christ-of-latter-day-saints.html",
@@ -170,13 +177,6 @@
     "docs/scriptures/mosiah-3.5.html",
     "docs/scriptures/alma-32.16-18.html",
     "docs/scriptures/1-kings-19.11-12.html",
-    "scriptures/alma-32.16-18.md",
-    "scriptures/matthew-5.45.md",
-    "scriptures/1-kings-19.11-12.md",
-    "christianity/the-church-of-jesus-christ-of-latter-day-saints.md",
-    "gratitude/good-books.md",
-    "scriptures/Revelation 22.3.md",
-    "_templates/new-post.md",
-    "scriptures/emily-belle-freeman-walking-in-covenant-relationship-with-christ.md"
+    "scriptures/alma-32.16-18.md"
   ]
 }
