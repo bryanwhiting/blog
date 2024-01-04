@@ -2,6 +2,7 @@
   {
     "listing": "/gratitude.html",
     "items": [
+      "/gratitude/zoom.html",
       "/gratitude/good-books.html",
       "/gratitude/rest.html",
       "/gratitude/eyes.html",
@@ -13,41 +14,13 @@
     ]
   },
   {
-    "listing": "/lists.html",
-    "items": [
-      "/lists/ai/index.html",
-      "/lists/writing-ethos.html"
-    ]
-  },
-  {
-    "listing": "/tech.html",
-    "items": [
-      "/tech/dreaming-software.html",
-      "/tech/why-we-want-new-software.html",
-      "/tech/swapping-out-human-labor-for-ai.html"
-    ]
-  },
-  {
-    "listing": "/books.html",
-    "items": [
-      "/book-review/socrates-a-life-worth-living.html",
-      "/book-review/innovators-dilemma.html",
-      "/book-review/unbelievable.html",
-      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
-      "/book-review/dune.html",
-      "/book-review/the-best-of-edgar-allen-poe.html",
-      "/book-review/killers-of-the-flower-moon.html",
-      "/book-review/101-essays-to-make-you-think.html",
-      "/book-review/hitchhikers-guide-to-the-galaxy.html",
-      "/book-review/scientific-freedom.html",
-      "/book-review/getting-things-done.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/posts/your-mood-is-contagious.html",
       "/tech/dreaming-software.html",
+      "/book-review/steve-jobs-biography.html",
+      "/posts/my-tombstone.html",
+      "/book-review/leonardo-da-vinci.html",
       "/tech/why-we-want-new-software.html",
       "/book-review/innovators-dilemma.html",
       "/book-review/socrates-a-life-worth-living.html",
@@ -115,11 +88,49 @@
     ]
   },
   {
+    "listing": "/books.html",
+    "items": [
+      "/book-review/leonardo-da-vinci.html",
+      "/book-review/steve-jobs-biography.html",
+      "/book-review/socrates-a-life-worth-living.html",
+      "/book-review/innovators-dilemma.html",
+      "/book-review/unbelievable.html",
+      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
+      "/book-review/dune.html",
+      "/book-review/the-best-of-edgar-allen-poe.html",
+      "/book-review/killers-of-the-flower-moon.html",
+      "/book-review/101-essays-to-make-you-think.html",
+      "/book-review/hitchhikers-guide-to-the-galaxy.html",
+      "/book-review/scientific-freedom.html",
+      "/book-review/getting-things-done.html"
+    ]
+  },
+  {
+    "listing": "/tech.html",
+    "items": [
+      "/tech/dreaming-software.html",
+      "/tech/why-we-want-new-software.html",
+      "/tech/swapping-out-human-labor-for-ai.html"
+    ]
+  },
+  {
+    "listing": "/lists.html",
+    "items": [
+      "/lists/ai/index.html",
+      "/lists/writing-ethos.html"
+    ]
+  },
+  {
     "listing": "/all.html",
     "items": [
+      "/gratitude/zoom.html",
       "/posts/your-mood-is-contagious.html",
       "/lists/writing-ethos.html",
       "/tech/dreaming-software.html",
+      "/book-review/steve-jobs-biography.html",
+      "/posts/my-tombstone.html",
+      "/christianity/love-thy-neighbor-but-have-friends.html",
+      "/book-review/leonardo-da-vinci.html",
       "/christianity/the-miracles-of-christ.html",
       "/tech/why-we-want-new-software.html",
       "/christianity/the-church-of-jesus-christ-of-latter-day-saints.html",
@@ -207,6 +218,7 @@
   {
     "listing": "/christianity.html",
     "items": [
+      "/christianity/love-thy-neighbor-but-have-friends.html",
       "/christianity/the-church-of-jesus-christ-of-latter-day-saints.html",
       "/christianity/the-miracles-of-christ.html",
       "/christianity/cfm-2023-12-31-rev-15-21.html",
