@@ -10,6 +10,8 @@ categories:
   - grit
 draft: false
 ---
+![Moods flow. Keep the negative waves at bay](../img/dalle-mood-sharing.jpeg){.preview-image}
+
 There's no question that moods are contagious. I once asked someone at the beach to leash their dog, and they slightly rebuked me, "this is a dog friendly beach." *Well, so it is,* I thought, grumpily. I complained to a family member about this grumpy dog owner.
 
 Moods escalate. And negative moods are even more pervasive and contagious than positive ones. They say a disgruntled customer tells more friends and family than happy ones. Why is this?

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/poem-timeless.md",
+                "file": "posts/your-mood-is-contagious.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/poem-timeless.md",
+            "file": "posts/your-mood-is-contagious.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/poem-timeless.md"
+            "file": "posts/your-mood-is-contagious.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/poem-timeless.md",
+            "file": "posts/your-mood-is-contagious.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -130,14 +130,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "78912cccc2282195",
+  "active": "be767112276aa446",
   "lastOpenFiles": [
+    "tech/dreaming-software.md",
+    "posts/poem-timeless.md",
+    "book-review/killers-of-the-flower-moon.md",
     "book-review/dune.md",
     "posts/your-mood-is-contagious.md",
     "docs/posts/your-mood-is-contagious.html",
     "img/dalle-mood-sharing.jpeg",
     "lists/writing-ethos.md",
-    "tech/dreaming-software.md",
     "docs/img/book-socrates.jpeg",
     "docs/book-review/socrates-a-life-worth-living.html",
     "img/dalle-dreaming-software.jpeg",
@@ -175,7 +177,6 @@
     "gratitude/good-books.md",
     "scriptures/Revelation 22.3.md",
     "_templates/new-post.md",
-    "scriptures/emily-belle-freeman-walking-in-covenant-relationship-with-christ.md",
-    "scriptures/acts-24.26-27.md"
+    "scriptures/emily-belle-freeman-walking-in-covenant-relationship-with-christ.md"
   ]
 }
