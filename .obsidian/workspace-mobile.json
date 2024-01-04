@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/a-change-in-witness.md",
+                "file": "posts/the-multiverse-of-careers.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/a-change-in-witness.md",
+            "file": "posts/the-multiverse-of-careers.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/a-change-in-witness.md"
+            "file": "posts/the-multiverse-of-careers.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/a-change-in-witness.md",
+            "file": "posts/the-multiverse-of-careers.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,6 +132,15 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-multiverse-of-choice.jpeg",
+    "docs/_templates/new-post.md",
+    "posts/the-multiverse-of-careers.md",
+    "christianity/a-change-in-witness.md",
+    "docs/tech/30-seconds-to-fame.html",
+    "docs/christianity/share-your-testimony.html",
+    "docs/img/dalle-three-witnesses.jpeg",
+    "docs/scriptures/mosiah-18.9.html",
+    "docs/scriptures/testimony-of-eight-witnesses.html",
     "img/dalle-three-witnesses-one-missing.jpeg",
     "scriptures/russell-m-nelson-revelation-for-the-church-revelation-for-our-lives.md",
     "scriptures/alma-32.34-36.md",
@@ -152,11 +161,9 @@
     "docs/img/dalle-mood-sharing.jpeg",
     "docs/img/book-edgar-allen-poe.jpeg",
     "docs/book-review/killers-of-the-flower-moon.html",
-    "img/dalle-data-scientist-tombstone-on-beach.jpeg",
     "christianity/love-thy-neighbor-but-have-friends.md",
     "book-review/leonardo-da-vinci.md",
     "book-review/steve-jobs-biography.md",
-    "img/dalle-lunch-with-friends-impressionist.jpeg",
     "scriptures/leviticus-19.18.md",
     "gratitude/zoom.md",
     "posts/your-mood-is-contagious.md",
@@ -168,15 +175,8 @@
     "lists/writing-ethos.md",
     "docs/book-review/socrates-a-life-worth-living.html",
     "christianity/the-miracles-of-christ.md",
-    "scriptures/mosiah-3.5.md",
-    "book-review/reading-list.md",
-    "book-review/socrates-a-life-worth-living.md",
     "docs/gratitude/rest.html",
     "docs/christianity/the-miracles-of-christ.html",
-    "docs/christianity/christmas-celebrates-a-living-christ.html",
-    "docs/christianity/the-church-of-jesus-christ-of-latter-day-saints.html",
-    "docs/christianity/the-christ-child.html",
-    "docs/scriptures/mosiah-3.5.html",
-    "docs/scriptures/alma-32.16-18.html"
+    "docs/christianity/christmas-celebrates-a-living-christ.html"
   ]
 }
