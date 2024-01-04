@@ -14,36 +14,9 @@
     ]
   },
   {
-    "listing": "/lists.html",
-    "items": [
-      "/lists/ai/index.html",
-      "/lists/writing-ethos.html"
-    ]
-  },
-  {
-    "listing": "/books.html",
-    "items": [
-      "/book-review/leonardo-da-vinci.html",
-      "/book-review/steve-jobs-biography.html",
-      "/book-review/socrates-a-life-worth-living.html",
-      "/book-review/innovators-dilemma.html",
-      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
-      "/book-review/killers-of-the-flower-moon.html",
-      "/book-review/unbelievable.html",
-      "/book-review/scientific-freedom.html"
-    ]
-  },
-  {
-    "listing": "/tech.html",
-    "items": [
-      "/tech/dreaming-software.html",
-      "/tech/why-we-want-new-software.html",
-      "/tech/swapping-out-human-labor-for-ai.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
+      "/posts/losing-to-yesmen.html",
       "/posts/the-multiverse-of-careers.html",
       "/posts/your-mood-is-contagious.html",
       "/tech/dreaming-software.html",
@@ -112,9 +85,39 @@
     ]
   },
   {
+    "listing": "/tech.html",
+    "items": [
+      "/tech/dreaming-software.html",
+      "/tech/why-we-want-new-software.html",
+      "/tech/swapping-out-human-labor-for-ai.html"
+    ]
+  },
+  {
+    "listing": "/books.html",
+    "items": [
+      "/book-review/leonardo-da-vinci.html",
+      "/book-review/steve-jobs-biography.html",
+      "/book-review/socrates-a-life-worth-living.html",
+      "/book-review/innovators-dilemma.html",
+      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
+      "/book-review/killers-of-the-flower-moon.html",
+      "/book-review/unbelievable.html",
+      "/book-review/scientific-freedom.html"
+    ]
+  },
+  {
+    "listing": "/lists.html",
+    "items": [
+      "/lists/ai/index.html",
+      "/lists/writing-ethos.html"
+    ]
+  },
+  {
     "listing": "/all.html",
     "items": [
+      "/posts/losing-to-yesmen.html",
       "/posts/the-multiverse-of-careers.html",
+      "/christianity/a-change-in-witness.html",
       "/gratitude/zoom.html",
       "/posts/your-mood-is-contagious.html",
       "/lists/writing-ethos.html",
@@ -206,6 +209,7 @@
   {
     "listing": "/christianity.html",
     "items": [
+      "/christianity/a-change-in-witness.html",
       "/christianity/love-thy-neighbor-but-have-friends.html",
       "/christianity/share-your-testimony.html",
       "/christianity/the-church-of-jesus-christ-of-latter-day-saints.html",
