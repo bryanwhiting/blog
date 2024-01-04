@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/my-tombstone.md",
+                "file": "tech/30-seconds-to-fame.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/my-tombstone.md",
+            "file": "tech/30-seconds-to-fame.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/my-tombstone.md"
+            "file": "tech/30-seconds-to-fame.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/my-tombstone.md",
+            "file": "tech/30-seconds-to-fame.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,51 +132,51 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "christianity/share-your-testimony.md",
+    "tech/30-seconds-to-fame.md",
+    "img/dalle-three-witnesses.jpeg",
+    "scriptures/mosiah-18.9.md",
+    "scriptures/testimony-of-eight-witnesses.md",
+    "christianity/unknown-god.md",
+    "posts/my-tombstone.md",
+    "docs/img/book-killers-flower-moon.jpeg",
+    "docs/img/book-gtd.jpeg",
+    "docs/img/book-101-essays.jpeg",
+    "docs/img/book-scientific-freedom.jpeg",
+    "docs/img/book-hitchhikers-guide.jpeg",
+    "docs/img/dalle-mood-sharing.jpeg",
+    "docs/img/book-edgar-allen-poe.jpeg",
+    "docs/book-review/killers-of-the-flower-moon.html",
     "img/dalle-data-scientist-tombstone-on-beach.jpeg",
     "christianity/love-thy-neighbor-but-have-friends.md",
-    "posts/my-tombstone.md",
     "book-review/leonardo-da-vinci.md",
     "book-review/steve-jobs-biography.md",
     "img/dalle-lunch-with-friends-impressionist.jpeg",
     "scriptures/leviticus-19.18.md",
     "gratitude/zoom.md",
-    "img/dalle-caravaggio-zoom.jpeg",
     "posts/your-mood-is-contagious.md",
     "tech/dreaming-software.md",
     "posts/poem-timeless.md",
     "book-review/killers-of-the-flower-moon.md",
     "book-review/dune.md",
     "docs/posts/your-mood-is-contagious.html",
-    "img/dalle-mood-sharing.jpeg",
     "lists/writing-ethos.md",
-    "docs/img/book-socrates.jpeg",
     "docs/book-review/socrates-a-life-worth-living.html",
-    "img/dalle-dreaming-software.jpeg",
     "christianity/the-miracles-of-christ.md",
     "scriptures/mosiah-3.5.md",
     "book-review/reading-list.md",
     "book-review/socrates-a-life-worth-living.md",
-    "img/book-socrates.jpeg",
     "tech/why-we-want-new-software.md",
     "gratitude/rest.md",
     "docs/_templates/new-post.md",
     "Untitled.md",
-    "img/dalle-ship-fashion-software.jpeg",
     "book-review/innovators-dilemma.md",
-    "docs/img/dalle-resting-hammock-surreal.jpeg",
     "docs/gratitude/rest.html",
-    "img/dalle-resting-hammock-surreal.jpeg",
-    "gratitude/_backlog.md",
-    "christianity/christmas-celebrates-a-living-christ.md",
-    "christianity/the-christ-child.md",
-    "img/dalle-away-in-manger.jpeg",
     "docs/christianity/the-miracles-of-christ.html",
     "docs/christianity/christmas-celebrates-a-living-christ.html",
     "docs/christianity/the-church-of-jesus-christ-of-latter-day-saints.html",
     "docs/christianity/the-christ-child.html",
     "docs/scriptures/mosiah-3.5.html",
-    "docs/scriptures/alma-32.16-18.html",
-    "docs/scriptures/1-kings-19.11-12.html",
-    "scriptures/alma-32.16-18.md"
+    "docs/scriptures/alma-32.16-18.html"
   ]
 }

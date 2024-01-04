@@ -97,7 +97,7 @@ This line of thinking is absurd to anyone with a brain, let alone to anyone who 
 
 To be comfortable with unanswered questions from a yet unknown God, we should consider how the question is already answered. 
 
-For example, did Hod stop Christ from suffering? No. Did Christ stop himself from suffering on the cross when He had the power to turn water to wine for the thirsty, heal the suffering swordsman's ear, or even raise Himself from the dead?
+For example, did God stop Christ from suffering? No. Did Christ stop himself from suffering on the cross when He had the power to turn water to wine for the thirsty, heal the suffering swordsman's ear, or even raise Himself from the dead?
 
 I'm trying to rally around the point: we set up for ourselves false philosophical arguments about who or what God is and should be like when there's a lot of nuance to be considered. 
 

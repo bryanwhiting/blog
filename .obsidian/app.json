@@ -31,5 +31,6 @@
   ],
   "alwaysUpdateLinks": true,
   "promptDelete": false,
-  "mobilePullAction": "command-palette:open"
+  "mobilePullAction": "command-palette:open",
+  "spellcheck": true
 }
