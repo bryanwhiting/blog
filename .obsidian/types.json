@@ -6,6 +6,7 @@
     "date-finished": "date",
     "updated": "datetime",
     "date": "datetime",
-    "date-start": "date"
+    "date-start": "date",
+    "draft": "checkbox"
   }
 }

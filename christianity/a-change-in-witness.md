@@ -2,10 +2,10 @@
 title: A Change in Witness
 description: What is a witness? What if someone flip flops? How do we know what is true?
 date: 2024-01-04T09:11:17
-updated: 2024-01-04T12:25:24
+updated: 2024-01-04T14:41:52
 categories:
   - christianity
-draft: true
+draft: false
 ---
 
 The Book of Mormon had 12 witnesses of its divinity - the three spiritual testimonies by the Three Witnesses, the Eight Witnesses with a physical witness, and Joseph Smith, the one who translated it as prophet, seer, and revelator. Powerfully, all Three Witnesses left the church years later (1937/38) nearly 8-9 years after writing their testimony (1829), but never left their testimonies:

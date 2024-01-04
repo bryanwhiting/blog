@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/losing-to-yesmen.md",
+                "file": "christianity/a-change-in-witness.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/losing-to-yesmen.md",
+            "file": "christianity/a-change-in-witness.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/losing-to-yesmen.md"
+            "file": "christianity/a-change-in-witness.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/losing-to-yesmen.md",
+            "file": "christianity/a-change-in-witness.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,9 +132,11 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "posts/losing-to-yesmen.md",
+    "docs/img/dalle-multiverse-of-choice.jpeg",
+    "docs/posts/the-multiverse-of-careers.html",
     "img/dalle-king-one-voice-to-rule.jpeg",
     "docs/_templates/new-post.md",
-    "posts/losing-to-yesmen.md",
     "posts/the-multiverse-of-careers.md",
     "img/dalle-multiverse-of-choice.jpeg",
     "christianity/a-change-in-witness.md",
@@ -159,8 +161,6 @@
     "docs/img/book-gtd.jpeg",
     "docs/img/book-101-essays.jpeg",
     "docs/img/book-scientific-freedom.jpeg",
-    "docs/img/book-hitchhikers-guide.jpeg",
-    "docs/img/dalle-mood-sharing.jpeg",
     "docs/book-review/killers-of-the-flower-moon.html",
     "christianity/love-thy-neighbor-but-have-friends.md",
     "book-review/leonardo-da-vinci.md",
@@ -176,7 +176,6 @@
     "lists/writing-ethos.md",
     "docs/book-review/socrates-a-life-worth-living.html",
     "docs/gratitude/rest.html",
-    "docs/christianity/the-miracles-of-christ.html",
-    "docs/christianity/christmas-celebrates-a-living-christ.html"
+    "docs/christianity/the-miracles-of-christ.html"
   ]
 }
