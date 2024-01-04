@@ -5,6 +5,7 @@
     "tags": "tags",
     "date-finished": "date",
     "updated": "datetime",
-    "date": "datetime"
+    "date": "datetime",
+    "date-start": "date"
   }
 }

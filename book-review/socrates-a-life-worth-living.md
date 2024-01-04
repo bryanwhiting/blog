@@ -5,6 +5,7 @@ date: 2024-01-02
 categories:
   - book-review
 draft: false
+date-start: 2024-01-02
 ---
 ![Socrates, a Life Worth Living](../img/book-socrates.jpeg){.preview-image}
 

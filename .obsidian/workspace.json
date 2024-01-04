@@ -23,9 +23,11 @@
             "id": "3e0940abb38815d5",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.5.3"
+                "file": "christianity/a-change-in-witness.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "gratitude/_backlog.md",
+                "file": "christianity/a-change-in-witness.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "gratitude/_backlog.md",
+                "file": "christianity/a-change-in-witness.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "gratitude/_backlog.md"
+                "file": "christianity/a-change-in-witness.md"
               }
             }
           }
@@ -158,6 +160,13 @@
   },
   "active": "3e0940abb38815d5",
   "lastOpenFiles": [
+    "book-review/socrates-a-life-worth-living.md",
+    "book-review/dune.md",
+    "book-review/innovators-dilemma.md",
+    "_templates/new-post.md",
+    "christianity/a-change-in-witness.md",
+    "Untitled 1.md",
+    "docs/lists/writing-ethos.html",
     "tech/why-we-want-new-software.md",
     "tech/dreaming-software.md",
     "lists/writing-ethos.md",
@@ -172,9 +181,6 @@
     "docs/book-review/socrates-a-life-worth-living.html",
     "docs/book-review/innovators-dilemma.html",
     "docs/Untitled.html",
-    "book-review/socrates-a-life-worth-living.md",
-    "book-review/innovators-dilemma.md",
-    "Untitled.md",
     "img/dalle-resting-hammock-surreal.jpeg",
     "gratitude/rest.md",
     "docs/img/dalle-resting-hammock-surreal.jpeg",
@@ -182,7 +188,6 @@
     "docs/scriptures/mosiah-3.5.html",
     "docs/scriptures/matthew-5.45.html",
     "docs/scriptures/alma-32.16-18.html",
-    "docs/scriptures/1-kings-19.11-12.html",
     "docs/img/standing.jpeg",
     "docs/img/screenshot-mary-with-baby-christ.jpeg",
     "_templates/link-to-file.md",
@@ -200,9 +205,6 @@
     "christianity/christmas-celebrates-a-living-christ.md",
     "christianity/no-empty-chairs.md",
     "scriptures/test.md",
-    "scriptures/Think Celestial!.md",
-    "scriptures/Revelation 22.3.md",
-    "gratitude/eyes.md",
-    "christianity/three-little-pigs-christ.md"
+    "scriptures/Think Celestial!.md"
   ]
 }
