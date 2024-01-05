@@ -2,7 +2,7 @@
 title: When a Person Changes their Perspective on Christ
 description: What is a witness? What if someone flip flops? How do we know what is true?
 date: 2024-01-04T09:11:17
-updated: 2024-01-04T14:41:52
+updated: 2024-01-04T16:39:53
 categories:
   - christianity
   - come follow me
