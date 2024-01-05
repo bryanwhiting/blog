@@ -50,7 +50,9 @@ I just cannot believe for sure.
 Not another chore.
 I just mopped there, I can assure.
 I feel denial swelling more.
-  *That* creature must be *her* Adore.  
+  That creature must be 
+    her 
+  Adore.  
 
 
 Then in Jan the rain starts stalling.  
