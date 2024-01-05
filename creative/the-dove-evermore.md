@@ -18,83 +18,52 @@ A twist on "[The Raven](https://www.poetryfoundation.org/poems/48860/the-raven)"
 ## The Dove (Evermore)
 
 
-3am I hear you wrapping 
-
-Desitin, I keep slapping
-
-Diapers fresh, for poop, post napping
-
-Diapers fresh, for my Adore
+3am I hear you wrapping   <br /> 
+Desitin, I keep slapping   <br /> 
+Diapers fresh, for poop, post napping   <br /> 
+Diapers fresh, for my Adore   <br /> 
 
 
-It was a cold and bleak December 
-
-Dark and dreary, as I remember 
-
-Sleepless nights and occasional frights 
-
-I'd forgotten the parent's implore:
-
-please protect my Sweet Adore
+It was a cold and bleak December   <br /> 
+Dark and dreary, as I remember   <br /> 
+Sleepless nights and occasional frights   <br /> 
+I'd forgotten the parent's implore:   <br /> 
+please protect my Sweet Adore   <br /> 
 
 
-Nothing strange, just parents living
+Nothing strange, just parents living   <br /> 
+Babies growing, always swimming   <br /> 
+Through the tides of life they're dipping,   <br /> 
+Dripping, tripping, slick socks slipping   <br /> 
+Lovey, pants, they all keep ripping   <br /> 
+"Will it stop?", my mind keeps slipping   <br /> 
 
-Babies growing, always swimming
+I love them so, my Adore.   <br />
+But I just ask rest, i implore.   <br /> 
+Will I get it? "Nevermore"   <br /> 
 
-Through the tides of life they're dipping,
-
-Dripping, tripping, slick socks slipping
-
-Lovey, pants, they all keep ripping
-
-"Will it stop?", my mind keeps slipping
-
-I love them so, my Adore.
-
-But I just ask rest, i implore. 
-
-Will I get it? "Nevermore"
-
-
-What's that I hear, is something slapping?
-
-NO! by Jove! A creature crapping!
-
-Crapping on my kitchen floor
-
-Right. next. to. the.. bathroom...door.....
-
-I just cannot believe for sure
-
-That creature must be *her* Adore...
+What's that I hear, is something slapping?   <br /> 
+NO! by Jove! A creature crapping!   <br /> 
+Crapping on my kitchen floor   <br /> 
+Right. next. to. the.. bathroom...door.....   <br />
+I just cannot believe for sure   <br /> 
+That creature must be *her* Adore...   <br /> 
 
 
+Then in Jan a rain starts stalling   <br /> 
+On my chest the baby falling   <br /> 
+Napping, cooing, smiling, fawning,   <br /> 
+My bedroom window, in Jan is calling   <br />
+Calling in a creature, sure   <br /> 
 
 
-Then in Jan a rain starts stalling
-
-On my chest the baby falling
-
-Napping, cooing, smiling, fawning,
-
-My bedroom window, in Jan is calling
-
-Calling in a creature, sure
-
-
-"What's this?" I wonder, as I slumber 
-
-Is it just me, or am I dumber?
-
-Is that a bird?! What's that number?
+"What's this?" I wonder, as I slumber   <br /> 
+Is it just me, or am I dumber?   <br /> 
+Is that a bird?! What's that number?   <br /> 
 
 "Animal control!" I now thunder
-
 "For the dove! Not one mess more!!"
-
 "Get out, you bird!" I implore!
-
 It cocks its head, "Nevermore"
 
 
