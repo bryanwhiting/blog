@@ -1,5 +1,5 @@
 ---
-title: The miracles of Christ
+title: The Miracles of Christ
 description: What is a miracle? How does He do His work?
 date: 2024-01-02
 categories:

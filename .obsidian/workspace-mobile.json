@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/the-future-wave-of-ai-hype.md",
+                "file": "christianity/the-miracles-of-christ.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "tech/the-future-wave-of-ai-hype.md",
+            "file": "christianity/the-miracles-of-christ.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "tech/the-future-wave-of-ai-hype.md"
+            "file": "christianity/the-miracles-of-christ.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "tech/the-future-wave-of-ai-hype.md",
+            "file": "christianity/the-miracles-of-christ.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,8 +132,8 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "docs/_templates/new-post.md",
     "tech/the-future-wave-of-ai-hype.md",
+    "docs/_templates/new-post.md",
     "christianity/a-change-in-witness.md",
     "docs/posts/write-a-thousand-songs.html",
     "docs/img/dalle-hockey-shots-surreal-impressionist-water.jpeg",
