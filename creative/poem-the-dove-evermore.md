@@ -16,8 +16,6 @@ A twist on "[The Raven](https://www.poetryfoundation.org/poems/48860/the-raven)"
 
 # The Dove (Forevermore)
 
-![Messy rooms, a memory forevermore](../img/dalle-dove-windowsill-messy-toys-light.jpeg){.preview-image}
-
 
 ```
 Three A.M., I hear you wrapping.
@@ -125,8 +123,6 @@ In eternity, your gift unravels
   Forevermore."
 ```
 
-
-
 The tides of parenting are just phases. The good, the bad, the guilt, the love, the denial you even have kids to the overwhelming joy you could never express adequately in words...it all comes and goes - sometimes within the same hour. 
 
 Then suddenly we realize it's all gone before we can blink.
@@ -134,3 +130,5 @@ Then suddenly we realize it's all gone before we can blink.
 The newborn is now walking at my feet. The eighteeen-month-old-diaper-generator is now riding his bike. The four-year-old brother slapper is now six and creating "Daddy, I love you" cards. Thankfully families are forevermore.
 
 *(Mostly) written 5:02am after a sweet midnight feeding, where she cooed and smiled right before passing out peacefully on my chest.*
+
+![Messy rooms, a memory forevermore](../img/dalle-dove-windowsill-messy-toys-light.jpeg){.preview-image}
