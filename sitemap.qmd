@@ -1,5 +1,5 @@
 ---
-title: "Sitemap"
+title: "Sitemap (All Posts)"
 listing:
   contents: 
     - "*/*.md"

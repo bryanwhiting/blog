@@ -52,12 +52,12 @@ website:
         contents:
             - tech.qmd
             - books.qmd
-            - lists.qmd
             - christianity.qmd
             - gratitude.qmd
             - creative.qmd
-      - section: "Site"
+      - section: "Other"
         contents:
+          - lists.qmd
           - sitemap.qmd
       
 
