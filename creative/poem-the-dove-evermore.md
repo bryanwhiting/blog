@@ -112,7 +112,7 @@ When I could hold her, and nothing more.
 When in my hands, and on the floor
 we cuddle, huddle, muddle more.
 Bring it back, I implore
-Turn back time, I plead sure.
+Turn back time, I plead pure.
 
 Then entered in that dove once more, 
 the welcomed bird, the dove of yore.
