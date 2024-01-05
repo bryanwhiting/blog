@@ -558,52 +558,6 @@
   <pubDate>Sat, 30 Dec 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
-  <title>Timeless</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/poem-timeless.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<div class="callout callout-style-simple callout-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Timeless
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>The days pass by like weeks</p>
-<p>The weeks pass by like days</p>
-<p>The sun continues to set</p>
-<p>in it’s old, familiar way</p>
-<p>Time is an illusion,</p>
-<p>Restful nights, a delusion</p>
-<p>My state of mind, a confusion,</p>
-<p>But still my kids want to play</p>
-</div>
-</div>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-timeless.png" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Time slips away, under our watchful eye</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>poem</category>
-  <category>poetry</category>
-  <category>parenting</category>
-  <guid>https://www.bryanwhiting.com/posts/poem-timeless.html</guid>
-  <pubDate>Fri, 29 Dec 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
   <title>Quarto vs. quartz for Obsidian blog</title>
   <dc:creator>Bryan Whiting</dc:creator>
   <link>https://www.bryanwhiting.com/posts/quarto-vs-quartz-for-obsidian.html</link>
@@ -762,6 +716,39 @@ Timeless
   <category>tutorial</category>
   <guid>https://www.bryanwhiting.com/posts/how-to-blog-with-obsidian-and-quarto.html</guid>
   <pubDate>Fri, 29 Dec 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>How to Decide: Simple Tools for Making Better Choices</title>
+  <link>https://www.bryanwhiting.com/book-review/how-to-decide-simple-tools-for-making-better-choices.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/book-how-to-decide.png" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">How to Decide, on Spotify</figcaption>
+</figure>
+</div>
+<p>What is my best decision? Worst?</p>
+<ul>
+<li>resulting: focusing on outcomes, rather than expected values and doing the best</li>
+<li>to improve decision making: focus on what the process was for decision making. Information gathering. Question asking.</li>
+<li>Remember choosing to leave Novi, wondering if someone was going to be a millionaire in my absence. Couldn’t help but feel I was leaving money on the table by leaving. But I decided to leave to pursue what I was passionate about, and regardless that Novi went under I felt that was the right call as I finished my masters.</li>
+</ul>
+<p>Actions: - make a knowledge tracker. Details on decisions. Info known before/after. Make this going forward</p>
+<p>Decision process: - where do you want to go? - What are all the ways to get there? - By taking X choice, what are other ways it could go? What’s the probability?</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book review</category>
+  <category>decisions</category>
+  <category>philosophy</category>
+  <guid>https://www.bryanwhiting.com/book-review/how-to-decide-simple-tools-for-making-better-choices.html</guid>
+  <pubDate>Thu, 28 Dec 2023 14:23:48 GMT</pubDate>
 </item>
 </channel>
 </rss>
