@@ -1,5 +1,5 @@
 ---
-title: The Dove (Evermore)
+title: The Dove (Forevermore)
 description: 'The phases of parenting, inspired by ["The Raven"](www.google.com).'
 date: 2024-01-05T05:09:33
 updated: 2024-01-05T13:13:03
@@ -14,7 +14,10 @@ created: 2024-01-05 05:09:33
 
 A twist on "[The Raven](https://www.poetryfoundation.org/poems/48860/the-raven)", by [The Best of Edgar Allen Poe](../book-review/the-best-of-edgar-allen-poe.md). Poe got it all wrong.
 
-# The Dove (Evermore)
+# The Dove (Forevermore)
+
+![Messy rooms, a memory forevermore](../img/dalle-dove-windowsill-messy-toys-light.jpeg){.preview-image}
+
 
 ```
 Three A.M., I hear you wrapping.
@@ -46,8 +49,11 @@ No! by Jove! A creature crapping!
 Crapping on my kitchen floor!! 
 Right next to the. bathroom..door...   
 I just cannot believe for sure.
+Not another chore.
+I just mopped there, I can assure.
 I feel denial swelling more.
-  That creature must be *her* Adore.  
+  *That* creature must be *her* Adore.  
+
 
 Then in Jan the rain starts stalling.  
 On my chest, her eyes are falling,  
@@ -119,9 +125,11 @@ In eternity, your gift unravels
   Forevermore."
 ```
 
-![Messy rooms, a memory forevermore ](../img/dalle-dove-windowsill-messy-toys-light.jpeg){.preview-image}
 
-The tides of parenting are just phases. The good, the bad, the guilt, the love...it all comes and goes. And then suddenly we realize it's all gone before we can blink.
+
+The tides of parenting are just phases. The good, the bad, the guilt, the love, the denial you even have kids to the overwhelming joy you could never express adequately in words...it all comes and goes - sometimes within the same hour. 
+
+Then suddenly we realize it's all gone before we can blink.
 
 The newborn is now walking at my feet. The eighteeen-month-old-diaper-generator is now riding his bike. The four-year-old brother slapper is now six and creating "Daddy, I love you" cards. Thankfully families are forevermore.
 
