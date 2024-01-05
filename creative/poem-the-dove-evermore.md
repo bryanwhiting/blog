@@ -106,7 +106,9 @@ Days asleep and nights awake.
 Dream eyes open, for goodness sake.
 What I wouldn't give to take
 another look at my Make.
-Another look at my Adore
+Another look at 
+    my 
+  Adore.
 
 When I could hold her, and nothing more. 
 When in my hands, and on the floor
