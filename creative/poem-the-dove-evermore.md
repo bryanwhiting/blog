@@ -120,7 +120,7 @@ we cuddle, huddle, muddle more.
 
 Then entered in that dove once more, 
 the welcomed bird, the dove of yore.
-"The past is gone, time gave its seal.
+"The past is gone, time pressed its seal.
 But yours to keep, for it is real
 past and present, space time is traveled
 In eternity, your gift unravels
