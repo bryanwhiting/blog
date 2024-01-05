@@ -3,8 +3,9 @@ title: His is the light that we should share
 description: |
   Who is the source of light?
 date: 2023-12-24
-image: cover.jpeg
-categories: [christianity]
+image: ../img/dalle-raise-your-light.jpeg
+categories:
+  - christianity
 draft: false
 ---
 
@@ -24,6 +25,6 @@ The pronouns here are impactful by their implication:
 
 "Let your light so shine before men that they may see your good works...". Read in this new way: obtain the Lord as your light. Then shine His light before men. 
 
-![](photo.jpeg){.preview-image}
+![](../../img/dalle-lantern-on-ground.jpeg){.preview-image}
 
 

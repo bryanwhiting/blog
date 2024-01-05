@@ -1,10 +1,10 @@
 ---
 title: testimony-of-eight-witnesses
-description: 
+description: testimony-of-eight-witnesses
 date: 2024-01-03T23:36:45
 updated: 2024-01-05T08:56:52
 categories: 
-draft: 
+draft:
 ---
 
 > And we give our names unto the world, to witness unto the world that which we have seen. And we lie not, God bearing witness of it.

@@ -1,10 +1,10 @@
 ---
 title: russell-m-nelson-revelation-for-the-church-revelation-for-our-lives
-description: 
+description: russell-m-nelson-revelation-for-the-church-revelation-for-our-lives
 date: 2024-01-04T12:17:49
 updated: 2024-01-05T08:56:52
 categories: 
-draft: 
+draft:
 ---
 
 > In coming days, it will not be possible to survive spiritually without the guiding, directing, comforting, and constant influence of the Holy Ghost.   What

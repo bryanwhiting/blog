@@ -1,10 +1,10 @@
 ---
 title: mosiah-18.9
-description: 
+description: mosiah-18.9
 date: 2024-01-03T23:50:10
 updated: 2024-01-05T08:56:52
 categories: 
-draft: 
+draft:
 ---
 
 > to stand as witnesses of God at all times and in all things, and in all places that ye may be in,
