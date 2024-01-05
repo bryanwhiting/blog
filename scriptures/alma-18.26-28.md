@@ -3,7 +3,8 @@ title: alma-18.26-28
 description: alma-18.26-28
 date: 2024-01-04T11:42:28
 updated: 2024-01-05T08:56:52
-categories: 
+categories:
+  - favorite scripture
 draft:
 ---
 

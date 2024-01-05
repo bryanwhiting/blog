@@ -3,7 +3,8 @@ title: testimony-of-eight-witnesses
 description: testimony-of-eight-witnesses
 date: 2024-01-03T23:36:45
 updated: 2024-01-05T08:56:52
-categories: 
+categories:
+  - favorite scripture
 draft:
 ---
 

@@ -3,7 +3,8 @@ title: matthew-5.45
 description: matthew-5.45
 date: 2024-01-02T12:09:41
 updated: 2024-01-05T08:56:52
-categories: 
+categories:
+  - favorite scripture
 draft:
 ---
 

@@ -3,7 +3,8 @@ title: matthew-16.15-17
 description: matthew-16.15-17
 date: 2024-01-04T11:45:29
 updated: 2024-01-05T08:56:52
-categories: 
+categories:
+  - favorite scripture
 draft:
 ---
 

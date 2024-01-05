@@ -3,7 +3,8 @@ title: alma-32.28
 description: alma-32.28
 date: 2024-01-05T08:53:53
 updated: 2024-01-05T08:56:52
-categories: 
+categories:
+  - favorite scripture
 draft:
 ---
 

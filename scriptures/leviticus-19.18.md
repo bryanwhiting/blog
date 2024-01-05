@@ -3,7 +3,8 @@ title: leviticus-19.18
 description: leviticus-19.18
 date: 2024-01-03T17:20:09
 updated: 2024-01-05T08:56:52
-categories: 
+categories:
+  - favorite scripture
 draft:
 ---
 

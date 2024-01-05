@@ -3,7 +3,8 @@ title: moroni-10.4
 description: moroni-10.4
 date: 2024-01-05T08:44:02
 updated: 2024-01-05T08:56:52
-categories: 
+categories:
+  - favorite scripture
 draft:
 ---
 

@@ -3,7 +3,8 @@ title: alma-32.16-18
 description: alma-32.16-18
 date: 2024-01-02T12:13:09
 updated: 2024-01-05T08:56:52
-categories: 
+categories:
+  - favorite scripture
 draft:
 ---
 

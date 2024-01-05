@@ -3,7 +3,8 @@ title: mosiah-3.5
 description: mosiah-3.5
 date: 2024-01-02T12:01:21
 updated: 2024-01-05T08:56:52
-categories: 
+categories:
+  - favorite scripture
 draft:
 ---
 

@@ -3,7 +3,8 @@ title: alma-32.34-36
 description: alma-32.34-36
 date: 2024-01-04T11:55:47
 updated: 2024-01-05T08:56:52
-categories: 
+categories:
+  - favorite scripture
 draft:
 ---
 

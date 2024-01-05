@@ -3,7 +3,8 @@ title: 2-nephi-32.9
 description: 2-nephi-32.9
 date: 2024-01-05T08:40:44
 updated: 2024-01-05T08:56:52
-categories: 
+categories:
+  - favorite scripture
 draft:
 ---
 

@@ -3,7 +3,8 @@ title: 1-kings-19.11-12
 description: 1-kings-19.11-12
 date: 2024-01-02T12:05:44
 updated: 2024-01-05T08:56:52
-categories: 
+categories:
+  - favorite scripture
 draft:
 ---
 

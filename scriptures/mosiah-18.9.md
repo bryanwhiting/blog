@@ -3,7 +3,8 @@ title: mosiah-18.9
 description: mosiah-18.9
 date: 2024-01-03T23:50:10
 updated: 2024-01-05T08:56:52
-categories: 
+categories:
+  - favorite scripture
 draft:
 ---
 

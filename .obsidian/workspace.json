@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "scriptures/2-nephi-32.9.md",
+                "file": "scriptures/testimony-of-eight-witnesses.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "scriptures/2-nephi-32.9.md",
+                "file": "scriptures/testimony-of-eight-witnesses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "scriptures/2-nephi-32.9.md",
+                "file": "scriptures/testimony-of-eight-witnesses.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "scriptures/2-nephi-32.9.md"
+                "file": "scriptures/testimony-of-eight-witnesses.md"
               }
             }
           }
@@ -160,21 +160,21 @@
   },
   "active": "3e0940abb38815d5",
   "lastOpenFiles": [
-    "scriptures/1-kings-19.11-12.md",
-    "scriptures/alma-32.28.md",
-    "scriptures/alma-32.16-18.md",
-    "scriptures/alma-18.26-28.md",
-    "scriptures/alma-32.34-36.md",
-    "scriptures/leviticus-19.18.md",
-    "scriptures/matthew-16.15-17.md",
-    "scriptures/matthew-5.45.md",
-    "scriptures/moroni-10.4.md",
-    "scriptures/mosiah-18.9.md",
-    "scriptures/mosiah-3.5.md",
     "scriptures/russell-m-nelson-revelation-for-the-church-revelation-for-our-lives.md",
+    "scriptures/mosiah-3.5.md",
+    "scriptures/mosiah-18.9.md",
+    "scriptures/moroni-10.4.md",
+    "scriptures/matthew-5.45.md",
+    "scriptures/matthew-16.15-17.md",
+    "scriptures/leviticus-19.18.md",
+    "scriptures/alma-32.34-36.md",
+    "scriptures/alma-18.26-28.md",
+    "scriptures/alma-32.16-18.md",
+    "scriptures/alma-32.28.md",
+    "scriptures/1-kings-19.11-12.md",
+    "scriptures/2-nephi-32.9.md",
     "scriptures/testimony-of-eight-witnesses.md",
     "christianity/let-your-light-so-shine.md",
-    "scriptures/2-nephi-32.9.md",
     "img/dalle-plant-growing-cartoon.jpeg",
     "img/dalle-plant-a-seed-and-grow.jpeg",
     "creative/poem-timeless.md",

@@ -3,7 +3,8 @@ title: russell-m-nelson-revelation-for-the-church-revelation-for-our-lives
 description: russell-m-nelson-revelation-for-the-church-revelation-for-our-lives
 date: 2024-01-04T12:17:49
 updated: 2024-01-05T08:56:52
-categories: 
+categories:
+  - favorite scripture
 draft:
 ---
 
