@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/a-change-in-witness.md",
+                "file": "tech/the-future-wave-of-ai-hype.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/a-change-in-witness.md",
+            "file": "tech/the-future-wave-of-ai-hype.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/a-change-in-witness.md"
+            "file": "tech/the-future-wave-of-ai-hype.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/a-change-in-witness.md",
+            "file": "tech/the-future-wave-of-ai-hype.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,6 +132,9 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "docs/_templates/new-post.md",
+    "tech/the-future-wave-of-ai-hype.md",
+    "christianity/a-change-in-witness.md",
     "docs/posts/write-a-thousand-songs.html",
     "docs/img/dalle-hockey-shots-surreal-impressionist-water.jpeg",
     "gratitude/rest.md",
@@ -139,12 +142,10 @@
     "docs/img/dalle-king-one-voice-to-rule.jpeg",
     "docs/posts/losing-to-yesmen.html",
     "img/dalle-hockey-shots-surreal-impressionist-water.jpeg",
-    "christianity/a-change-in-witness.md",
     "posts/losing-to-yesmen.md",
     "docs/img/dalle-multiverse-of-choice.jpeg",
     "docs/posts/the-multiverse-of-careers.html",
     "img/dalle-king-one-voice-to-rule.jpeg",
-    "docs/_templates/new-post.md",
     "posts/the-multiverse-of-careers.md",
     "img/dalle-multiverse-of-choice.jpeg",
     "docs/tech/30-seconds-to-fame.html",
@@ -176,7 +177,6 @@
     "posts/poem-timeless.md",
     "book-review/killers-of-the-flower-moon.md",
     "docs/posts/your-mood-is-contagious.html",
-    "docs/book-review/socrates-a-life-worth-living.html",
-    "docs/gratitude/rest.html"
+    "docs/book-review/socrates-a-life-worth-living.html"
   ]
 }

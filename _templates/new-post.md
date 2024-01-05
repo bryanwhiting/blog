@@ -25,6 +25,7 @@ let content = `---
 title: "${title}"  
 description: ""  
 date: "${date}"  
+created: "${date}"
 categories: ${folder}  
 draft: false`;
 
