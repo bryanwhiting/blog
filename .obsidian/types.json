@@ -7,7 +7,6 @@
     "updated": "datetime",
     "date": "datetime",
     "date-start": "date",
-    "draft": "checkbox",
     "created": "datetime"
   }
 }

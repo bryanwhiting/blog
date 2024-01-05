@@ -1,0 +1,13 @@
+---
+title: "Sitemap"
+listing:
+  contents: 
+    - "*/*.md"
+    - "*/*.qmd"
+  template: quarto_templates/gallery.ejs
+  sort:
+    - "date desc"
+  # max-description-length: 10000
+date-format: "YYYY-MM-DD"
+---
+List of all posts across the blog

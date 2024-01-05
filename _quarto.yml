@@ -46,14 +46,19 @@ website:
       - icon: rss
         href: index.xml
     contents:
-      - index.qmd
-      - tech.qmd
-      - books.qmd
-      - lists.qmd
-      - christianity.qmd
-      - gratitude.qmd
-      - creative.qmd
       - about.qmd
+      - index.qmd
+      - section: "Writing"
+        contents:
+            - tech.qmd
+            - books.qmd
+            - lists.qmd
+            - christianity.qmd
+            - gratitude.qmd
+            - creative.qmd
+      - section: "Site"
+        contents:
+          - sitemap.qmd
       
 
 format:
@@ -61,7 +66,9 @@ format:
   html:
     # author: "Bryan Whiting"
     theme: sandstone
-    css: styles.css
+    css: 
+        - css/styles.css
+        - css/poem.css
     template-partials:
       - title-metadata.html
       # - title-block.html

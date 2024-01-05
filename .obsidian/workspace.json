@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "scriptures/testimony-of-eight-witnesses.md",
+                "file": "creative/poem-the-dove-evermore.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "scriptures/testimony-of-eight-witnesses.md",
+                "file": "creative/poem-the-dove-evermore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "scriptures/testimony-of-eight-witnesses.md",
+                "file": "creative/poem-the-dove-evermore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "scriptures/testimony-of-eight-witnesses.md"
+                "file": "creative/poem-the-dove-evermore.md"
               }
             }
           }
@@ -160,6 +160,30 @@
   },
   "active": "3e0940abb38815d5",
   "lastOpenFiles": [
+    "_templates/new-post.md",
+    "gratitude/hard-work.md",
+    "creative/poem-the-dove-evermore.md",
+    "docs/sitemap-listing.json",
+    "docs/creative-listing.json",
+    "docs/creative.feed-full-staged",
+    "sitemap-listing.json",
+    "sitemap.html",
+    "sitemap_files/mediabag",
+    "sitemap_files",
+    "creative-listing.json",
+    "creative.feed-full-staged",
+    "site_libs/quarto-listing/quarto-listing.js",
+    "creative/test.md",
+    "quarto_templates/README.md",
+    "docs/docs/docs/docs/docs/renv/library/R-4.1/x86_64-apple-darwin17.0/renv/NEWS.md",
+    "docs/docs/docs/docs/renv/library/R-4.1/x86_64-apple-darwin17.0/renv/NEWS.md",
+    "docs/docs/docs/renv/library/R-4.1/x86_64-apple-darwin17.0/renv/NEWS.md",
+    "docs/docs/renv/library/R-4.1/x86_64-apple-darwin17.0/renv/NEWS.md",
+    "docs/renv/library/R-4.1/x86_64-apple-darwin17.0/renv/NEWS.md",
+    "creative/the-dove-evermore.md",
+    "scriptures/testimony-of-eight-witnesses.md",
+    "docs/img/dalle-raise-your-light.jpeg",
+    "docs/img/dalle-plant-a-seed-and-grow.jpeg",
     "scriptures/russell-m-nelson-revelation-for-the-church-revelation-for-our-lives.md",
     "scriptures/mosiah-3.5.md",
     "scriptures/mosiah-18.9.md",
@@ -173,38 +197,14 @@
     "scriptures/alma-32.28.md",
     "scriptures/1-kings-19.11-12.md",
     "scriptures/2-nephi-32.9.md",
-    "scriptures/testimony-of-eight-witnesses.md",
     "christianity/let-your-light-so-shine.md",
     "img/dalle-plant-growing-cartoon.jpeg",
     "img/dalle-plant-a-seed-and-grow.jpeg",
-    "creative/poem-timeless.md",
-    "creative.qmd",
-    "christianity/how-to-use-the-book-of-mormon.md",
     "img/dalle-raise-your-light.jpeg",
-    "book-review/unbelievable.md",
-    "tech/what-startups-and-musicians-have-in-common.md",
-    "tech/the-future-wave-of-ai-hype.md",
-    "posts/write-a-thousand-songs.md",
-    "posts/losing-to-yesmen.md",
-    "posts/30-seconds-for-payment.md",
     "img/dalle-musician-signing-record-label-watercolors.jpeg",
     "img/dalle-listening-to-music-colorful.jpeg",
     "img/dalle-king-one-voice-to-rule.jpeg",
     "img/dalle-hockey-shots-surreal-impressionist-water.jpeg",
-    "img/dalle-dove-windowsill-messy-toys-light.jpeg",
-    "img/dalle-beat-farming.jpeg",
-    "img/-chart-carta-company-shutdowns.jpeg",
-    "gratitude/hard-work.md",
-    "docs/tech/what-startups-and-musicians-have-in-common.html",
-    "docs/tech/the-future-wave-of-ai-hype.html",
-    "docs/posts/write-a-thousand-songs.html",
-    "docs/posts/the-multiverse-of-careers.html",
-    "docs/posts/losing-to-yesmen.html",
-    "docs/posts/30-seconds-for-payment.html",
-    "docs/gratitude/hard-work.html",
-    "docs/creative/the-dove-evermore.html",
-    "docs/creative",
-    "creative/the-dove-evermore.md",
-    "tech/30-seconds-to-fame.md"
+    "img/dalle-dove-windowsill-messy-toys-light.jpeg"
   ]
 }

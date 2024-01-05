@@ -32,5 +32,6 @@
   "alwaysUpdateLinks": true,
   "promptDelete": false,
   "mobilePullAction": "command-palette:open",
-  "spellcheck": true
+  "spellcheck": true,
+  "vimMode": true
 }
