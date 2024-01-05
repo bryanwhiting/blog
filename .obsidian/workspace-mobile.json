@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/the-miracles-of-christ.md",
+                "file": "creative/the-dove-evermore.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/the-miracles-of-christ.md",
+            "file": "creative/the-dove-evermore.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/the-miracles-of-christ.md"
+            "file": "creative/the-dove-evermore.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/the-miracles-of-christ.md",
+            "file": "creative/the-dove-evermore.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,8 +132,16 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "tech/the-future-wave-of-ai-hype.md",
+    "img/dalle-dove-windowsill-messy-toys-light.jpeg",
+    "posts/poem-timeless.md",
+    "creative/the-dove-evermore.md",
+    "_templates/new-post.md",
+    "creative",
     "docs/_templates/new-post.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "christianity/the-miracles-of-christ.md",
+    "tech/the-future-wave-of-ai-hype.md",
     "christianity/a-change-in-witness.md",
     "docs/posts/write-a-thousand-songs.html",
     "docs/img/dalle-hockey-shots-surreal-impressionist-water.jpeg",
@@ -169,14 +177,6 @@
     "docs/book-review/killers-of-the-flower-moon.html",
     "christianity/love-thy-neighbor-but-have-friends.md",
     "book-review/leonardo-da-vinci.md",
-    "book-review/steve-jobs-biography.md",
-    "scriptures/leviticus-19.18.md",
-    "gratitude/zoom.md",
-    "posts/your-mood-is-contagious.md",
-    "tech/dreaming-software.md",
-    "posts/poem-timeless.md",
-    "book-review/killers-of-the-flower-moon.md",
-    "docs/posts/your-mood-is-contagious.html",
-    "docs/book-review/socrates-a-life-worth-living.html"
+    "docs/posts/your-mood-is-contagious.html"
   ]
 }

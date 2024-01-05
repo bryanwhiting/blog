@@ -1,6 +1,6 @@
 <%*
 // Define the list of folders  
-const folders = ["book-review", "christianity", "gratitude", "tech", "posts"];
+const folders = ["book-review", "christianity", "gratitude", "tech", "creative", "posts"];
 
 // Use the suggester to let the user choose a folder  
 let folder = await tp.system.suggester(folders, folders);
@@ -21,7 +21,7 @@ let slug = await tp.system.prompt("Slug/Filename:", fileNameSlug)
 let date = tp.date.now("YYYY-MM-DD HH:mm:ss");
 
 // Create the file with YAML front matter  
-let content = `---  
+let content = `
 title: "${title}"  
 description: ""  
 date: "${date}"  
@@ -35,10 +35,8 @@ date-start: "${date}"`;
 }
 
 content += `
----
-
 `;
 
 const filepath = `${folder}/${slug}`  
 await tp.file.move(filepath)  
--%><% content %>
+-%>---<% content %>---
