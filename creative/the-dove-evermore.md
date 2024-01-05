@@ -67,13 +67,13 @@ Is that a bird?! What's that number?   <br />
 > It cocks its head, "Nevermore"
 > 
 
+```
 Something changed, as I remember
-
 After that, cold, bleak December
-
 The sleep rolled in, and so I weather
+  Weather just a little bit more.
+```
 
-Weather just a little bit more. 
 
 
 The baby's coos I now see freshly
