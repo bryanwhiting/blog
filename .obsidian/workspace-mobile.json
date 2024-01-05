@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "creative/the-dove-evermore.md",
+                "file": "christianity/how-to-use-the-book-of-mormon.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "creative/the-dove-evermore.md",
+            "file": "christianity/how-to-use-the-book-of-mormon.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "creative/the-dove-evermore.md"
+            "file": "christianity/how-to-use-the-book-of-mormon.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "creative/the-dove-evermore.md",
+            "file": "christianity/how-to-use-the-book-of-mormon.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,12 +132,18 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-plant-a-seed-and-grow.jpeg",
+    "img/dalle-plant-growing-cartoon.jpeg",
+    "scriptures/moroni-10.4.md",
+    "scriptures/alma-32.28.md",
+    "christianity/how-to-use-the-book-of-mormon.md",
+    "creative/the-dove-evermore.md",
+    "scriptures/2-nephi-32.9.md",
     "docs/creative/the-dove-evermore.html",
     "docs/creative",
     "docs/img/dalle-dove-windowsill-messy-toys-light.jpeg",
     "img/dalle-dove-windowsill-messy-toys-light.jpeg",
     "posts/poem-timeless.md",
-    "creative/the-dove-evermore.md",
     "_templates/new-post.md",
     "creative",
     "docs/_templates/new-post.md",
@@ -164,7 +170,6 @@
     "docs/img/dalle-three-witnesses.jpeg",
     "docs/scriptures/mosiah-18.9.html",
     "docs/scriptures/testimony-of-eight-witnesses.html",
-    "img/dalle-three-witnesses-one-missing.jpeg",
     "scriptures/russell-m-nelson-revelation-for-the-church-revelation-for-our-lives.md",
     "scriptures/alma-32.34-36.md",
     "scriptures/matthew-16.15-17.md",
@@ -172,11 +177,6 @@
     "scriptures/testimony-of-eight-witnesses.md",
     "christianity/share-your-testimony.md",
     "tech/30-seconds-to-fame.md",
-    "scriptures/mosiah-18.9.md",
-    "christianity/unknown-god.md",
-    "posts/my-tombstone.md",
-    "docs/book-review/killers-of-the-flower-moon.html",
-    "christianity/love-thy-neighbor-but-have-friends.md",
-    "book-review/leonardo-da-vinci.md"
+    "scriptures/mosiah-18.9.md"
   ]
 }
