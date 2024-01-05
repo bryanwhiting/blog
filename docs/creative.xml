@@ -9,8 +9,8 @@
 <link>https://www.bryanwhiting.com/creative.html</link>
 <atom:link href="https://www.bryanwhiting.com/creative.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.2.269</generator>
-<lastBuildDate>Fri, 05 Jan 2024 13:09:33 GMT</lastBuildDate>
+<generator>quarto-1.4.515</generator>
+<lastBuildDate>Fri, 05 Jan 2024 05:09:33 GMT</lastBuildDate>
 <item>
   <title>The Dove (Evermore)</title>
   <link>https://www.bryanwhiting.com/creative/poem-the-dove-evermore.html</link>
@@ -19,7 +19,8 @@
 
 
 
-<p>A twist on “<a href="https://www.poetryfoundation.org/poems/48860/the-raven">The Raven</a>”, by <a href="../book-review/the-best-of-edgar-allen-poe.html">The Best of Edgar Allen Poe</a>. <strong>Poe got it all wrong.</strong></p>
+
+<p>A twist on “<a href="https://www.poetryfoundation.org/poems/48860/the-raven">The Raven</a>”, by <a href="../book-review/the-best-of-edgar-allen-poe.html">The Best of Edgar Allen Poe</a>. Poe got it all wrong.</p>
 <section id="the-dove-evermore" class="level1 page-columns page-full">
 <h1>The Dove (Evermore)</h1>
 <pre><code>Three A.M., I hear you wrapping.
@@ -125,12 +126,12 @@ In eternity, your gift unravels
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="https://www.bryanwhiting.com/img/dalle-dove-windowsill-messy-toys-light.jpeg" class="preview-image img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption margin-caption">Messy rooms, a memory forevermore</figcaption><p></p>
+<figcaption class="margin-caption">Messy rooms, a memory forevermore</figcaption>
 </figure>
 </div>
-<p>The tides of parenting are just phases. The good, the bad, the guilt, the lover all comes and goes. And then suddenly we realize it’s all gone before we can blink.</p>
-<p>The newborn is now walking at my feet. The 18month old diaper generator is now four. The four-year-old brother slapper is now six and creating “Daddy, I love you” cards. Thankfully families are forevermore.</p>
-<p><em>(Mostly) written 5:02am after a sweet midnight feeding, where she cooed and smiles right before passing out peacefully on my chest.</em></p>
+<p>The tides of parenting are just phases. The good, the bad, the guilt, the love…it all comes and goes. And then suddenly we realize it’s all gone before we can blink.</p>
+<p>The newborn is now walking at my feet. The eighteeen-month-old-diaper-generator is now riding his bike. The four-year-old brother slapper is now six and creating “Daddy, I love you” cards. Thankfully families are forevermore.</p>
+<p><em>(Mostly) written 5:02am after a sweet midnight feeding, where she cooed and smiled right before passing out peacefully on my chest.</em></p>
 
 
 </section>
@@ -141,8 +142,7 @@ In eternity, your gift unravels
   <category>poetry</category>
   <category>parenting</category>
   <guid>https://www.bryanwhiting.com/creative/poem-the-dove-evermore.html</guid>
-  <pubDate>Fri, 05 Jan 2024 13:09:33 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/img/dalle-dove-windowsill-messy-toys-light.jpeg" medium="image" type="image/jpeg"/>
+  <pubDate>Fri, 05 Jan 2024 05:09:33 GMT</pubDate>
 </item>
 <item>
   <title>Timeless</title>
@@ -152,12 +152,13 @@ In eternity, your gift unravels
 
 
 
-<div class="callout-tip callout callout-style-simple no-icon callout-captioned">
+
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Timeless
 </div>
 </div>
@@ -175,7 +176,7 @@ Timeless
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="https://www.bryanwhiting.com/img/dalle-timeless.png" class="preview-image img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption margin-caption">Time slips away, under our watchful eye</figcaption><p></p>
+<figcaption class="margin-caption">Time slips away, under our watchful eye</figcaption>
 </figure>
 </div>
 
@@ -187,8 +188,7 @@ Timeless
   <category>parenting</category>
   <category>creative</category>
   <guid>https://www.bryanwhiting.com/creative/poem-timeless.html</guid>
-  <pubDate>Fri, 29 Dec 2023 08:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/img/dalle-timeless.png" medium="image" type="image/png" height="144" width="144"/>
+  <pubDate>Fri, 29 Dec 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
