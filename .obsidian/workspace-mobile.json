@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/how-to-use-the-book-of-mormon.md",
+                "file": "creative/the-dove-evermore.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/how-to-use-the-book-of-mormon.md",
+            "file": "creative/the-dove-evermore.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/how-to-use-the-book-of-mormon.md"
+            "file": "creative/the-dove-evermore.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/how-to-use-the-book-of-mormon.md",
+            "file": "creative/the-dove-evermore.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,18 +132,19 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "creative/poem-timeless.md",
+    "creative/the-dove-evermore.md",
+    "christianity/how-to-use-the-book-of-mormon.md",
+    "gratitude-2.qmd",
     "img/dalle-plant-a-seed-and-grow.jpeg",
     "img/dalle-plant-growing-cartoon.jpeg",
     "scriptures/moroni-10.4.md",
     "scriptures/alma-32.28.md",
-    "christianity/how-to-use-the-book-of-mormon.md",
-    "creative/the-dove-evermore.md",
     "scriptures/2-nephi-32.9.md",
     "docs/creative/the-dove-evermore.html",
     "docs/creative",
     "docs/img/dalle-dove-windowsill-messy-toys-light.jpeg",
     "img/dalle-dove-windowsill-messy-toys-light.jpeg",
-    "posts/poem-timeless.md",
     "_templates/new-post.md",
     "creative",
     "docs/_templates/new-post.md",
@@ -167,9 +168,7 @@
     "img/dalle-multiverse-of-choice.jpeg",
     "docs/tech/30-seconds-to-fame.html",
     "docs/christianity/share-your-testimony.html",
-    "docs/img/dalle-three-witnesses.jpeg",
     "docs/scriptures/mosiah-18.9.html",
-    "docs/scriptures/testimony-of-eight-witnesses.html",
     "scriptures/russell-m-nelson-revelation-for-the-church-revelation-for-our-lives.md",
     "scriptures/alma-32.34-36.md",
     "scriptures/matthew-16.15-17.md",

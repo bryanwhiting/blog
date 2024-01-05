@@ -1,0 +1,20 @@
+---
+title: "Creative"
+comments: false
+listing:
+  contents: creative
+  type: grid
+  sort: 
+    - "date desc"
+    - "title asc"
+  sort-ui: [date, title]
+  filter-ui: [date, title]
+  page-size: 30
+  grid-item-border: true
+  feed: true
+  categories: cloud
+---
+
+Creative writing.
+
+***

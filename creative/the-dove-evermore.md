@@ -57,7 +57,7 @@ But I just ask rest, i implore.
 Will I get it? "Nevermore"
 
 
-What's that I hear, something slapping?
+What's that I hear, is something slapping?
 
 NO! by Jove! A creature crapping!
 
@@ -65,9 +65,9 @@ Crapping on my kitchen floor
 
 Right. next. to. the.. bathroom...door.....
 
-I refuse to say for sure
+I just cannot believe for sure
 
-"That creature" must be *her* Adore...
+That creature must be *her* Adore...
 
 
 
