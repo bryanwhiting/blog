@@ -1,7 +1,7 @@
 ---
 title: I'm grateful for rest
 description: Rest is restorative
-date: 2024-01-02
+date: 2024-01-01T00:00:00
 categories:
   - gratitude
   - observations
