@@ -2,6 +2,7 @@
   {
     "listing": "/gratitude.html",
     "items": [
+      "/gratitude/hard-work.html",
       "/gratitude/zoom.html",
       "/gratitude/good-books.html",
       "/gratitude/rest.html",
@@ -36,6 +37,8 @@
   {
     "listing": "/tech.html",
     "items": [
+      "/tech/what-startups-and-musicians-have-in-common.html",
+      "/tech/the-future-wave-of-ai-hype.html",
       "/tech/dreaming-software.html",
       "/tech/why-we-want-new-software.html",
       "/tech/swapping-out-human-labor-for-ai.html"
@@ -44,9 +47,12 @@
   {
     "listing": "/index.html",
     "items": [
+      "/tech/what-startups-and-musicians-have-in-common.html",
+      "/tech/the-future-wave-of-ai-hype.html",
       "/posts/write-a-thousand-songs.html",
       "/posts/losing-to-yesmen.html",
       "/posts/the-multiverse-of-careers.html",
+      "/posts/30-seconds-for-payment.html",
       "/posts/your-mood-is-contagious.html",
       "/tech/dreaming-software.html",
       "/book-review/steve-jobs-biography.html",
@@ -116,10 +122,14 @@
   {
     "listing": "/all.html",
     "items": [
+      "/gratitude/hard-work.html",
+      "/tech/what-startups-and-musicians-have-in-common.html",
+      "/tech/the-future-wave-of-ai-hype.html",
       "/posts/write-a-thousand-songs.html",
       "/posts/losing-to-yesmen.html",
       "/posts/the-multiverse-of-careers.html",
       "/christianity/a-change-in-witness.html",
+      "/posts/30-seconds-for-payment.html",
       "/gratitude/zoom.html",
       "/posts/your-mood-is-contagious.html",
       "/lists/writing-ethos.html",

@@ -21,10 +21,11 @@ let slug = await tp.system.prompt("Slug/Filename:", fileNameSlug)
 let date = tp.date.now("YYYY-MM-DD HH:mm:ss");
 
 // Create the file with YAML front matter  
-let content = `---
+let content = `---  
 title: "${title}"  
 description: ""  
 date: "${date}"  
+created: "${date}"
 categories: ${folder}  
 draft: false`;
 

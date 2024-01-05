@@ -10,7 +10,73 @@
 <atom:link href="https://www.bryanwhiting.com/tech.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Wed, 03 Jan 2024 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 04 Jan 2024 20:53:53 GMT</lastBuildDate>
+<item>
+  <title>What startups and musicians have in common</title>
+  <link>https://www.bryanwhiting.com/tech/what-startups-and-musicians-have-in-common.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I was reminded of a video I watched a while back on YouTube. It was a great documentary about these new artists and their debate about whether to sign a record label (there’s a recent trend to selling music as an independent artist).</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-musician-signing-record-label-watercolors.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Putting pen to ink</figcaption>
+</figure>
+</div>
+<p>I forget all the details, but there are some roughly insane trends that are generally interesting as I recall:</p>
+<ul>
+<li>new record labels are for $500k give or take. This is so the artist can invest a year into their music and get an album out, pay for production, etc.</li>
+<li>many artists at that early stage aren’t financially literate and end up wasting the (they’re musicians, not bankers)</li>
+<li>Some have to pay back the money</li>
+<li>Up to 85% of the streaming royalties are owed to the label (started when streaming became a thing)</li>
+<li>Labels also take a large portion of touring revenues now (something that wasn’t common 10 years ago)</li>
+</ul>
+<p>Why is this similar to tech startups? Lots.</p>
+<p>Musicians have to find product market fit. They need to find their customers. Their monthly listeners.</p>
+<p>They need to keep them coming back.</p>
+<p>They need to differentiate.</p>
+<p>Those who are customer focused and build a following are those who succeed. (Money in the bank and relying too much on the label can cripple you)</p>
+<section id="the-musicians-in-town" class="level1">
+<h1>The Musicians in Town</h1>
+<p>I remember hanging out with some new artists while I was running my startup (we both used the same videographer). I couldn’t help but notice how similar the dynamics were. The founders. The first hires (replacements). The convos about who gets what. It’s all very fascinating.</p>
+<p>Not much else to say.</p>
+
+
+</section>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>startups</category>
+  <category>music</category>
+  <guid>https://www.bryanwhiting.com/tech/what-startups-and-musicians-have-in-common.html</guid>
+  <pubDate>Thu, 04 Jan 2024 20:53:53 GMT</pubDate>
+</item>
+<item>
+  <title>The future wave of AI hype</title>
+  <link>https://www.bryanwhiting.com/tech/the-future-wave-of-ai-hype.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Reading about Airplane’s failure per OnlyCFO. A few notable quotes:</p>
+<blockquote class="blockquote">
+<p>Airplane’s shutdown and future shutdowns like this will have negative consequences for many early stage companies. For many years buyers of these tools haven’t had to deal with a tool being abruptly killed. It only takes this happening once for you to really second guess purchasing a startup tool that is mission critical, deeply integrated, or would take a long time to replace.</p>
+</blockquote>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>news</category>
+  <guid>https://www.bryanwhiting.com/tech/the-future-wave-of-ai-hype.html</guid>
+  <pubDate>Thu, 04 Jan 2024 20:32:46 GMT</pubDate>
+</item>
 <item>
   <title>The Dream State of Software</title>
   <link>https://www.bryanwhiting.com/tech/dreaming-software.html</link>
