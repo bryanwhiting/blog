@@ -1,6 +1,6 @@
 ---
 title: The Dove (Evermore)
-description: '"The phases of parenting, inspired by ["The Raven"](www.google.com)."'
+description: 'The phases of parenting, inspired by ["The Raven"](www.google.com).'
 date: 2024-01-05T05:09:33
 updated: 2024-01-05T13:13:03
 categories:
