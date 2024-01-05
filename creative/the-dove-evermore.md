@@ -61,11 +61,11 @@ Calling in a creature, sure   <br />
 Is it just me, or am I dumber?   <br /> 
 Is that a bird?! What's that number?   <br /> 
 
-"Animal control!" I now thunder
-"For the dove! Not one mess more!!"
-"Get out, you bird!" I implore!
-It cocks its head, "Nevermore"
-
+> "Animal control!" I now thunder
+> "For the dove! Not one mess more!!"
+> "Get out, you bird!" I implore!
+> It cocks its head, "Nevermore"
+> 
 
 Something changed, as I remember
 
