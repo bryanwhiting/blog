@@ -10,7 +10,42 @@
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Thu, 04 Jan 2024 20:53:53 GMT</lastBuildDate>
+<lastBuildDate>Fri, 05 Jan 2024 23:21:29 GMT</lastBuildDate>
+<item>
+  <title>AI won’t replace us. We’ll always create.</title>
+  <link>https://www.bryanwhiting.com/tech/ai-will-not-replace-human-creativity.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I recently got back into writing some poems. <a href="../creative/poem-the-dove-forevermore.html">The Dove (Forevermore)</a> was fun to write. After the fact, I tried getting ChatGPT to create something similar. I only tried once before declaring victory.</p>
+<p>Why is this poem meaningful to me? Because it has my soul in it. It’s the summation of my experience as a parent. Should you find it interesting, perhaps that’s why.</p>
+<p>Reading <a href="../book-review/the-best-of-edgar-allen-poe.html">The Best of Edgar Allen Poe</a> recently I’m amazed (besides how depressing he is) at how excellent a writer he is. He peers into the mind and soul and extricates anything interesting. It’s interesting because a human wrote it.</p>
+<p>Do we still paint, even if a camera can take a picture? Do we still ride bikes and horses even with cars and things? Do we still read even though we have TV and movies?</p>
+<p>Words. Creative expression. They will always be interesting to us. Humans are interesting to us. Stories. Social acceptance is a fundamental human need. We desire connection. We’ll like reading something because a human wrote it.</p>
+<p>But what about that guy I heard about who makes a ton of money using ChatGPT to create fake digital books on Amazon. People don’t <em>know</em> it’s AI-written. Digital GenAI images now are insanely accurate - it’s only 2024. It’s very possible great AI art will inspire us more than non-AI art (whatever that means because everyone uses photoshop anyway).</p>
+<p>I’m not saying we won’t find value in AI art (creative writing, digital, video, etc.). We will. It’s clear we’ll have a really hard time knowing what’s human vs not.</p>
+<p>But I am saying that creativity will never disappear. We’re always going to be interested in creating - even if machines can do it better. Machines can beat us at Go and StarCraft (<a href="../posts/2023-12-25-ai-robots-are-mastering-tasks-faster-than-humans-/index.html">AI Robots are mastering tasks faster than humans</a>), but we’ll still play. Because what else will there be to do?</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-leonardo-painting-the-mona-lisa.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">I guess I’ll pick up painting now…</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>ai</category>
+  <category>futurism</category>
+  <category>humanity</category>
+  <category>creativity</category>
+  <guid>https://www.bryanwhiting.com/tech/ai-will-not-replace-human-creativity.html</guid>
+  <pubDate>Fri, 05 Jan 2024 23:21:29 GMT</pubDate>
+</item>
 <item>
   <title>What startups and musicians have in common</title>
   <link>https://www.bryanwhiting.com/tech/what-startups-and-musicians-have-in-common.html</link>
@@ -716,39 +751,6 @@
   <category>tutorial</category>
   <guid>https://www.bryanwhiting.com/posts/how-to-blog-with-obsidian-and-quarto.html</guid>
   <pubDate>Fri, 29 Dec 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>How to Decide: Simple Tools for Making Better Choices</title>
-  <link>https://www.bryanwhiting.com/book-review/how-to-decide-simple-tools-for-making-better-choices.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/book-how-to-decide.png" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">How to Decide, on Spotify</figcaption>
-</figure>
-</div>
-<p>What is my best decision? Worst?</p>
-<ul>
-<li>resulting: focusing on outcomes, rather than expected values and doing the best</li>
-<li>to improve decision making: focus on what the process was for decision making. Information gathering. Question asking.</li>
-<li>Remember choosing to leave Novi, wondering if someone was going to be a millionaire in my absence. Couldn’t help but feel I was leaving money on the table by leaving. But I decided to leave to pursue what I was passionate about, and regardless that Novi went under I felt that was the right call as I finished my masters.</li>
-</ul>
-<p>Actions: - make a knowledge tracker. Details on decisions. Info known before/after. Make this going forward</p>
-<p>Decision process: - where do you want to go? - What are all the ways to get there? - By taking X choice, what are other ways it could go? What’s the probability?</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book review</category>
-  <category>decisions</category>
-  <category>philosophy</category>
-  <guid>https://www.bryanwhiting.com/book-review/how-to-decide-simple-tools-for-making-better-choices.html</guid>
-  <pubDate>Thu, 28 Dec 2023 14:23:48 GMT</pubDate>
 </item>
 </channel>
 </rss>
