@@ -2,6 +2,7 @@
   {
     "listing": "/sitemap.html",
     "items": [
+      "/creative/poem-cabinet-handle.html",
       "/gratitude/time.html",
       "/scriptures/alma-32.28.html",
       "/scriptures/moroni-10.4.html",
@@ -132,128 +133,9 @@
   {
     "listing": "/creative.html",
     "items": [
+      "/creative/poem-cabinet-handle.html",
       "/creative/poem-the-dove-forevermore.html",
       "/creative/poem-timeless.html"
-    ]
-  },
-  {
-    "listing": "/gratitude.html",
-    "items": [
-      "/gratitude/time.html",
-      "/gratitude/hard-work.html",
-      "/gratitude/zoom.html",
-      "/gratitude/good-books.html",
-      "/gratitude/rest.html",
-      "/gratitude/eyes.html",
-      "/gratitude/beaches.html",
-      "/gratitude/grateful-for-artists.html",
-      "/gratitude/2023-12-26-i'm-grateful-for-blankets/index.html",
-      "/gratitude/2023-12-25-grateful-for-doctors/index.html",
-      "/gratitude/2023-12-24-light/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/tech/what-startups-and-musicians-have-in-common.html",
-      "/tech/the-future-wave-of-ai-hype.html",
-      "/posts/write-a-thousand-songs.html",
-      "/posts/losing-to-yesmen.html",
-      "/posts/the-multiverse-of-careers.html",
-      "/posts/30-seconds-for-payment.html",
-      "/posts/your-mood-is-contagious.html",
-      "/tech/dreaming-software.html",
-      "/book-review/steve-jobs-biography.html",
-      "/posts/my-tombstone.html",
-      "/book-review/leonardo-da-vinci.html",
-      "/tech/why-we-want-new-software.html",
-      "/book-review/innovators-dilemma.html",
-      "/book-review/socrates-a-life-worth-living.html",
-      "/tech/swapping-out-human-labor-for-ai.html",
-      "/posts/water-as-a-currency.html",
-      "/posts/emotional-recovery.html",
-      "/posts/quarto-vs-quartz-for-obsidian.html",
-      "/posts/how-to-blog-with-obsidian-and-quarto.html",
-      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
-      "/posts/leaving-my-startup-was-the-right-decision.html",
-      "/posts/flip-a-coin.html",
-      "/posts/decisions-are-rivers.html",
-      "/posts/flip-a-coin-and-not-fail.html",
-      "/posts/writing-is-enlivening/index.html",
-      "/posts/write-despite-ai/index.html",
-      "/posts/quarto-feature-requests/index.html",
-      "/posts/quarto-from-phone/index.html",
-      "/posts/2023-12-25-ai-robots-are-mastering-tasks-faster-than-humans-/index.html",
-      "/posts/2023-12-24-twas-the-night-before-christmas/index.html",
-      "/book-review/killers-of-the-flower-moon.html",
-      "/posts/2023-12-21-the-dodo/index.html",
-      "/posts/2023-12-21-github-copilot-levels-up/index.html",
-      "/book-review/unbelievable.html",
-      "/posts/the-little-red-hen.html",
-      "/posts/2023-12-19-how-to-encourage-your-kids-/index.html",
-      "/posts/2023-12-16-humanity-and-ai/index.html",
-      "/posts/2023-12-15-prompt-techniques/index.html",
-      "/posts/2023-12-15-llms-can-find-a-needle-in-the-haystack/index.html",
-      "/posts/2023-12-13-learn-by-doing/index.html",
-      "/book-review/scientific-freedom.html",
-      "/posts/2023-12-12-future-of-coding/index.html",
-      "/posts/2022-12-23-who-do-you-want-to-be-known-for/index.html",
-      "/posts/2022-12-15-chatgpt-rshiny/index.html",
-      "/posts/2022-12-06-more-new-businesses-than-ever/index.html",
-      "/posts/2022-11-18-writing-a-tech-resume/index.html",
-      "/posts/2022-11-18-substance-over-style/index.html",
-      "/posts/2022-11-12-what-is-a-model/index.html",
-      "/posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html",
-      "/posts/2022-07-03-when-data-collection-goes-too-far/index.html",
-      "/posts/2022-06-28-pomodoro-principles/index.html",
-      "/posts/2022-06-28-increase-focus-through-writing-down-everything/index.html",
-      "/posts/2022-06-25-how-i-use-ticktick/index.html",
-      "/posts/2022-06-23-the-best-todolist-manager/index.html",
-      "/posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html",
-      "/posts/2022-06-22-downstream-impact/index.html",
-      "/posts/2022-06-21-the-power-of-party-pay-by-visible/index.html",
-      "/posts/2022-06-21-products-for-dads/index.html",
-      "/posts/2022-06-20-blogging-with-quarto/index.html",
-      "/posts/2021-07-17-authors-angle-matters/index.html",
-      "/posts/2020-12-18-productivity-notes/index.html",
-      "/posts/2020-12-16-pretotyping-ml-solutions/index.html",
-      "/posts/2020-12-15-calendaring-todos/index.html",
-      "/posts/2020-12-15-data-beats-opinions/index.html",
-      "/posts/2018-07-02-semantic-versioning-for-data-science-models/semantic-versioning-for-data-science-models.html",
-      "/posts/2017-10-19-used-cars-analysis/used-cars.html",
-      "/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html",
-      "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
-      "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html"
-    ]
-  },
-  {
-    "listing": "/tech.html",
-    "items": [
-      "/tech/what-startups-and-musicians-have-in-common.html",
-      "/tech/the-future-wave-of-ai-hype.html",
-      "/tech/dreaming-software.html",
-      "/tech/why-we-want-new-software.html",
-      "/tech/swapping-out-human-labor-for-ai.html"
-    ]
-  },
-  {
-    "listing": "/books.html",
-    "items": [
-      "/book-review/leonardo-da-vinci.html",
-      "/book-review/steve-jobs-biography.html",
-      "/book-review/socrates-a-life-worth-living.html",
-      "/book-review/innovators-dilemma.html",
-      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
-      "/book-review/killers-of-the-flower-moon.html",
-      "/book-review/unbelievable.html",
-      "/book-review/scientific-freedom.html"
-    ]
-  },
-  {
-    "listing": "/lists.html",
-    "items": [
-      "/lists/ai/index.html",
-      "/lists/writing-ethos.html"
     ]
   },
   {
@@ -354,6 +236,126 @@
       "/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html",
       "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
       "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html"
+    ]
+  },
+  {
+    "listing": "/lists.html",
+    "items": [
+      "/lists/ai/index.html",
+      "/lists/writing-ethos.html"
+    ]
+  },
+  {
+    "listing": "/books.html",
+    "items": [
+      "/book-review/leonardo-da-vinci.html",
+      "/book-review/steve-jobs-biography.html",
+      "/book-review/socrates-a-life-worth-living.html",
+      "/book-review/innovators-dilemma.html",
+      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
+      "/book-review/killers-of-the-flower-moon.html",
+      "/book-review/unbelievable.html",
+      "/book-review/scientific-freedom.html"
+    ]
+  },
+  {
+    "listing": "/tech.html",
+    "items": [
+      "/tech/what-startups-and-musicians-have-in-common.html",
+      "/tech/the-future-wave-of-ai-hype.html",
+      "/tech/dreaming-software.html",
+      "/tech/why-we-want-new-software.html",
+      "/tech/swapping-out-human-labor-for-ai.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/tech/what-startups-and-musicians-have-in-common.html",
+      "/tech/the-future-wave-of-ai-hype.html",
+      "/posts/write-a-thousand-songs.html",
+      "/posts/losing-to-yesmen.html",
+      "/posts/the-multiverse-of-careers.html",
+      "/posts/30-seconds-for-payment.html",
+      "/posts/your-mood-is-contagious.html",
+      "/tech/dreaming-software.html",
+      "/book-review/steve-jobs-biography.html",
+      "/posts/my-tombstone.html",
+      "/book-review/leonardo-da-vinci.html",
+      "/tech/why-we-want-new-software.html",
+      "/book-review/innovators-dilemma.html",
+      "/book-review/socrates-a-life-worth-living.html",
+      "/tech/swapping-out-human-labor-for-ai.html",
+      "/posts/water-as-a-currency.html",
+      "/posts/emotional-recovery.html",
+      "/posts/quarto-vs-quartz-for-obsidian.html",
+      "/posts/how-to-blog-with-obsidian-and-quarto.html",
+      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
+      "/posts/leaving-my-startup-was-the-right-decision.html",
+      "/posts/flip-a-coin.html",
+      "/posts/decisions-are-rivers.html",
+      "/posts/flip-a-coin-and-not-fail.html",
+      "/posts/writing-is-enlivening/index.html",
+      "/posts/write-despite-ai/index.html",
+      "/posts/quarto-feature-requests/index.html",
+      "/posts/quarto-from-phone/index.html",
+      "/posts/2023-12-25-ai-robots-are-mastering-tasks-faster-than-humans-/index.html",
+      "/posts/2023-12-24-twas-the-night-before-christmas/index.html",
+      "/book-review/killers-of-the-flower-moon.html",
+      "/posts/2023-12-21-the-dodo/index.html",
+      "/posts/2023-12-21-github-copilot-levels-up/index.html",
+      "/book-review/unbelievable.html",
+      "/posts/the-little-red-hen.html",
+      "/posts/2023-12-19-how-to-encourage-your-kids-/index.html",
+      "/posts/2023-12-16-humanity-and-ai/index.html",
+      "/posts/2023-12-15-prompt-techniques/index.html",
+      "/posts/2023-12-15-llms-can-find-a-needle-in-the-haystack/index.html",
+      "/posts/2023-12-13-learn-by-doing/index.html",
+      "/book-review/scientific-freedom.html",
+      "/posts/2023-12-12-future-of-coding/index.html",
+      "/posts/2022-12-23-who-do-you-want-to-be-known-for/index.html",
+      "/posts/2022-12-15-chatgpt-rshiny/index.html",
+      "/posts/2022-12-06-more-new-businesses-than-ever/index.html",
+      "/posts/2022-11-18-writing-a-tech-resume/index.html",
+      "/posts/2022-11-18-substance-over-style/index.html",
+      "/posts/2022-11-12-what-is-a-model/index.html",
+      "/posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.html",
+      "/posts/2022-07-03-when-data-collection-goes-too-far/index.html",
+      "/posts/2022-06-28-pomodoro-principles/index.html",
+      "/posts/2022-06-28-increase-focus-through-writing-down-everything/index.html",
+      "/posts/2022-06-25-how-i-use-ticktick/index.html",
+      "/posts/2022-06-23-the-best-todolist-manager/index.html",
+      "/posts/2022-06-23-new-ideas-are-distractingly-exciting/index.html",
+      "/posts/2022-06-22-downstream-impact/index.html",
+      "/posts/2022-06-21-the-power-of-party-pay-by-visible/index.html",
+      "/posts/2022-06-21-products-for-dads/index.html",
+      "/posts/2022-06-20-blogging-with-quarto/index.html",
+      "/posts/2021-07-17-authors-angle-matters/index.html",
+      "/posts/2020-12-18-productivity-notes/index.html",
+      "/posts/2020-12-16-pretotyping-ml-solutions/index.html",
+      "/posts/2020-12-15-calendaring-todos/index.html",
+      "/posts/2020-12-15-data-beats-opinions/index.html",
+      "/posts/2018-07-02-semantic-versioning-for-data-science-models/semantic-versioning-for-data-science-models.html",
+      "/posts/2017-10-19-used-cars-analysis/used-cars.html",
+      "/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html",
+      "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
+      "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html"
+    ]
+  },
+  {
+    "listing": "/gratitude.html",
+    "items": [
+      "/gratitude/time.html",
+      "/gratitude/hard-work.html",
+      "/gratitude/zoom.html",
+      "/gratitude/good-books.html",
+      "/gratitude/rest.html",
+      "/gratitude/eyes.html",
+      "/gratitude/beaches.html",
+      "/gratitude/grateful-for-artists.html",
+      "/gratitude/2023-12-26-i'm-grateful-for-blankets/index.html",
+      "/gratitude/2023-12-25-grateful-for-doctors/index.html",
+      "/gratitude/2023-12-24-light/index.html"
     ]
   }
 ]
