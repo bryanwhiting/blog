@@ -26,7 +26,7 @@ Diapers fresh, for my Adore.
 It was a cold and bleak December.
 Dark and dreary, I remember.
 Sleepless nights and occasional frights,    
-I'd forgotten the parent's implore:    
+I'd forgotten the parent's implore:
   please protect my Sweet Adore   
 
 Nothing strange, just parents living.
