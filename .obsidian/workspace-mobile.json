@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/ai-will-not-replace-human-creativity.md",
+                "file": "creative/poem-the-dove-forevermore.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "tech/ai-will-not-replace-human-creativity.md",
+            "file": "creative/poem-the-dove-forevermore.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "tech/ai-will-not-replace-human-creativity.md"
+            "file": "creative/poem-the-dove-forevermore.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "tech/ai-will-not-replace-human-creativity.md",
+            "file": "creative/poem-the-dove-forevermore.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,9 +132,9 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "tech/ai-will-not-replace-human-creativity.md",
     "img/dalle-leonardo-painting-the-mona-lisa.jpeg",
     "creative/poem-cabinet-handle.md",
-    "tech/ai-will-not-replace-human-creativity.md",
     "docs/gratitude/time.html",
     "docs/creative/poem-the-dove-forevermore.html",
     "docs/img/dalle-hourglass-on-the-beach.jpeg",
@@ -163,7 +163,6 @@
     "scriptures/moroni-10.4.md",
     "scriptures/alma-32.28.md",
     "scriptures/2-nephi-32.9.md",
-    "docs/img/dalle-dove-windowsill-messy-toys-light.jpeg",
     "_templates/new-post.md",
     "docs/_templates/new-post.md",
     "Untitled 1.md",

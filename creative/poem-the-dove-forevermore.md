@@ -82,7 +82,7 @@ The sleep rolled in, and so I weather,
 The baby's coos I now see freshly.
 The piqued smiles now enmesh me.
 The drools of milk now refresh me.
-Refresh me, my Adore.
+"Refresh me, my Adore."
 How could I ever
   have seen anything more?
     Please don't let it end, I implore.
@@ -140,3 +140,12 @@ The newborn is now walking at my feet. The eighteeen-month-old-diaper-generator 
 *(Mostly) written 5:02am on Jan 5, 2024, after a sweet midnight feeding, where she cooed and smiled right before passing out peacefully on my chest.*
 
 ![Messy rooms, a memory forevermore](../img/dalle-dove-windowsill-messy-toys-light.jpeg){.preview-image}
+
+Other lines...
+
+``` 
+Pints of puke are never more
+Once held lovey is now a bore
+once scraped knees now never sore
+going to the park now a chore
+``` 
