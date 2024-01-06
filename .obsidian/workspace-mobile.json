@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/time.md",
+                "file": "creative/poem-cabinet-handle.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "gratitude/time.md",
+            "file": "creative/poem-cabinet-handle.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "gratitude/time.md"
+            "file": "creative/poem-cabinet-handle.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "gratitude/time.md",
+            "file": "creative/poem-cabinet-handle.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,9 +132,11 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "img/dalle-hourglass-on-the-beach.jpeg",
+    "img/dalle-baby-staring-at-a-handle.jpeg",
     "creative/poem-the-dove-forevermore.md",
+    "creative/poem-cabinet-handle.md",
     "gratitude/time.md",
+    "img/dalle-hourglass-on-the-beach.jpeg",
     "creative/poem-timeless.md",
     "creative/the-dove-evermore.md",
     "sitemap.qmd",
@@ -170,13 +172,11 @@
     "docs/img/dalle-hockey-shots-surreal-impressionist-water.jpeg",
     "gratitude/rest.md",
     "posts/write-a-thousand-songs.md",
-    "docs/img/dalle-king-one-voice-to-rule.jpeg",
     "posts/losing-to-yesmen.md",
     "posts/the-multiverse-of-careers.md",
     "scriptures/russell-m-nelson-revelation-for-the-church-revelation-for-our-lives.md",
     "scriptures/alma-32.34-36.md",
     "scriptures/matthew-16.15-17.md",
-    "scriptures/alma-18.26-28.md",
-    "scriptures/testimony-of-eight-witnesses.md"
+    "scriptures/alma-18.26-28.md"
   ]
 }

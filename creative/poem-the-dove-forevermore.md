@@ -1,6 +1,6 @@
 ---
 title: The Dove (Forevermore)
-description: 'The phases of parenting, inspired by ["The Raven"](www.google.com).'
+description: The phases of parenting, inspired by ["The Raven"](www.google.com).
 date: 2024-01-05T05:09:33
 updated: 2024-01-05T13:13:03
 categories:
@@ -8,14 +8,19 @@ categories:
   - poem
   - poetry
   - parenting
+  - featured
 draft: false
 created: 2024-01-05 05:09:33
 ---
 
-A twist on "[The Raven](https://www.poetryfoundation.org/poems/48860/the-raven)", by [The Best of Edgar Allen Poe](../book-review/the-best-of-edgar-allen-poe.md). Poe got it all wrong.
+A twist on "[The Raven](https://www.poetryfoundation.org/poems/48860/the-raven)", from [The Best of Edgar Allen Poe](../book-review/the-best-of-edgar-allen-poe.md). Poe got it all wrong.
+
+If you haven't read "[The Raven](https://www.poetryfoundation.org/poems/48860/the-raven)" recently, take a moment first to remember, remember that Raven of yore. 
+
 
 # The Dove (Forevermore)
-
+*A twist on "The Raven"*
+by Bryan Whiting
 
 ```
 Three A.M., I hear you wrapping.
@@ -36,7 +41,7 @@ through the tides of life they're dipping,
     tripping, slick socks 
         slipping    
     lovey, pants, they all keep ripping    
-"Will it stop?", my mind weeps tipping
+"Will it stop?", my mind is tipping
 I love them so, my Adore.   
 But I just ask rest, I implore.    
 Will I get it? 
@@ -45,7 +50,7 @@ Will I get it?
 What's that I hear, is something slapping?    
 No! by Jove! A creature crapping!    
 Crapping on my kitchen floor!! 
-Right next to the. bathroom..door...   
+Right next to the. bathroom..door...
 I just cannot believe for sure.
 Not another chore.
 I just mopped there, I can assure.
@@ -54,16 +59,15 @@ I feel denial swelling more.
     her 
   Adore.  
 
-
 Then in Jan the rain starts stalling.  
 On my chest, her eyes are falling,  
-Napping, cooing, smiling, fawning,    
-My bedroom window, in Jan is calling   
+Napping, cooing, smiling, fawning,
+My bedroom window, in Jan is calling
 Calling in a creature, sure.
 
 "What's this?" I wonder, as I slumber.
 Is it just me, or am I dumber?    
-Is that a bird?! What's that number?    
+Is that a bird?! What's that number? 
 "Animal control!" I now thunder,
 "For the dove! Not one mess more!!"
 "Begone, you bird!" I implore!
@@ -133,6 +137,6 @@ Then suddenly we realize it's all gone before we can blink.
 
 The newborn is now walking at my feet. The eighteeen-month-old-diaper-generator is now riding his bike. The four-year-old brother slapper is now six and creating "Daddy, I love you" cards. Thankfully families are forevermore.
 
-*(Mostly) written 5:02am after a sweet midnight feeding, where she cooed and smiled right before passing out peacefully on my chest.*
+*(Mostly) written 5:02am on Jan 5, 2024, after a sweet midnight feeding, where she cooed and smiled right before passing out peacefully on my chest.*
 
 ![Messy rooms, a memory forevermore](../img/dalle-dove-windowsill-messy-toys-light.jpeg){.preview-image}
