@@ -2,11 +2,12 @@
   {
     "listing": "/sitemap.html",
     "items": [
+      "/gratitude/time.html",
       "/scriptures/alma-32.28.html",
       "/scriptures/moroni-10.4.html",
       "/christianity/how-to-use-the-book-of-mormon.html",
       "/scriptures/2-nephi-32.9.html",
-      "/creative/poem-the-dove-evermore.html",
+      "/creative/poem-the-dove-forevermore.html",
       "/gratitude/hard-work.html",
       "/tech/what-startups-and-musicians-have-in-common.html",
       "/tech/the-future-wave-of-ai-hype.html",
@@ -131,13 +132,14 @@
   {
     "listing": "/creative.html",
     "items": [
-      "/creative/poem-the-dove-evermore.html",
+      "/creative/poem-the-dove-forevermore.html",
       "/creative/poem-timeless.html"
     ]
   },
   {
     "listing": "/gratitude.html",
     "items": [
+      "/gratitude/time.html",
       "/gratitude/hard-work.html",
       "/gratitude/zoom.html",
       "/gratitude/good-books.html",
@@ -148,36 +150,6 @@
       "/gratitude/2023-12-26-i'm-grateful-for-blankets/index.html",
       "/gratitude/2023-12-25-grateful-for-doctors/index.html",
       "/gratitude/2023-12-24-light/index.html"
-    ]
-  },
-  {
-    "listing": "/lists.html",
-    "items": [
-      "/lists/ai/index.html",
-      "/lists/writing-ethos.html"
-    ]
-  },
-  {
-    "listing": "/books.html",
-    "items": [
-      "/book-review/leonardo-da-vinci.html",
-      "/book-review/steve-jobs-biography.html",
-      "/book-review/socrates-a-life-worth-living.html",
-      "/book-review/innovators-dilemma.html",
-      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
-      "/book-review/killers-of-the-flower-moon.html",
-      "/book-review/unbelievable.html",
-      "/book-review/scientific-freedom.html"
-    ]
-  },
-  {
-    "listing": "/tech.html",
-    "items": [
-      "/tech/what-startups-and-musicians-have-in-common.html",
-      "/tech/the-future-wave-of-ai-hype.html",
-      "/tech/dreaming-software.html",
-      "/tech/why-we-want-new-software.html",
-      "/tech/swapping-out-human-labor-for-ai.html"
     ]
   },
   {
@@ -255,8 +227,39 @@
     ]
   },
   {
+    "listing": "/tech.html",
+    "items": [
+      "/tech/what-startups-and-musicians-have-in-common.html",
+      "/tech/the-future-wave-of-ai-hype.html",
+      "/tech/dreaming-software.html",
+      "/tech/why-we-want-new-software.html",
+      "/tech/swapping-out-human-labor-for-ai.html"
+    ]
+  },
+  {
+    "listing": "/books.html",
+    "items": [
+      "/book-review/leonardo-da-vinci.html",
+      "/book-review/steve-jobs-biography.html",
+      "/book-review/socrates-a-life-worth-living.html",
+      "/book-review/innovators-dilemma.html",
+      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
+      "/book-review/killers-of-the-flower-moon.html",
+      "/book-review/unbelievable.html",
+      "/book-review/scientific-freedom.html"
+    ]
+  },
+  {
+    "listing": "/lists.html",
+    "items": [
+      "/lists/ai/index.html",
+      "/lists/writing-ethos.html"
+    ]
+  },
+  {
     "listing": "/all.html",
     "items": [
+      "/gratitude/time.html",
       "/christianity/how-to-use-the-book-of-mormon.html",
       "/gratitude/hard-work.html",
       "/tech/what-startups-and-musicians-have-in-common.html",
