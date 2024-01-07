@@ -1,12 +1,12 @@
 ---
 title: Hitchhiker's Guide to the Galaxy
-description: ""
+description: How did it take me so long to finally read this?
 date: 2023-12-18T10:11:57
 updated: 2024-01-04T10:15:11
 categories:
   - book review
   - storytelling
-draft: false How did it take me so long to finally read this?
+draft: false
 date-start: 2023-12-18
 date-finished: 2023-12-23
 ---

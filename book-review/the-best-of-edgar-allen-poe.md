@@ -1,11 +1,11 @@
 ---
 title: The Best of Edgar Allen Poe
-description: ""
+description: You think me mad?
 date: 2023-12-23T10:11:57
 updated: 2024-01-04T10:14:40
 categories:
   - book review
-draft: false You think me mad?
+draft: false
 date-start: 2023-12-23
 image: photo.jpeg
 ---

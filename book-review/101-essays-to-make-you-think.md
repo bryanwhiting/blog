@@ -1,13 +1,13 @@
 ---
 title: 101 Essays that will Change the Way You Think, by Brianna Wiest
-description: ""
+description: We all started as strangers. It's a choice who stays that way.
 date: 2023-12-19T10:11:57
 updated: 2024-01-04T10:16:20
 categories:
   - book review
   - philosophy
   - mindfulness
-draft: false We all started as strangers. It's a choice who remains one.
+draft: false
 date-start: 2023-12-19
 ---
 

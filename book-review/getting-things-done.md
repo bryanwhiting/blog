@@ -1,12 +1,12 @@
 ---
 title: Getting Things Done
-description: ""
+description: A system of thought and action
 date: 2022-06-24T10:11:57
 updated: 2024-01-04T10:15:46
 categories:
   - book review
   - productivity
-draft: false A powerful system to be more present.
+draft: false
 date-start: 2022-06-24
 image: photo.jpeg
 ---
