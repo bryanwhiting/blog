@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/haircuts.md",
+                "file": "creative/red-eyed.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "gratitude/haircuts.md",
+            "file": "creative/red-eyed.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "gratitude/haircuts.md"
+            "file": "creative/red-eyed.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "gratitude/haircuts.md",
+            "file": "creative/red-eyed.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,9 +132,11 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-red-eye-blue-eye.jpeg",
+    "gratitude/haircuts.md",
+    "creative/red-eyed.md",
     "img/dalle-mom-cutting-boys-hair.jpeg",
     "creative/poem-the-dove-forevermore.md",
-    "gratitude/haircuts.md",
     "tech/ai-will-not-replace-human-creativity.md",
     "img/dalle-leonardo-painting-the-mona-lisa.jpeg",
     "creative/poem-cabinet-handle.md",
@@ -161,7 +163,6 @@
     "docs/img/dalle-raise-your-light.jpeg",
     "christianity/how-to-use-the-book-of-mormon.md",
     "img/dalle-plant-a-seed-and-grow.jpeg",
-    "img/dalle-plant-growing-cartoon.jpeg",
     "scriptures/moroni-10.4.md",
     "scriptures/alma-32.28.md",
     "scriptures/2-nephi-32.9.md",
@@ -176,7 +177,6 @@
     "posts/write-a-thousand-songs.md",
     "posts/losing-to-yesmen.md",
     "posts/the-multiverse-of-careers.md",
-    "scriptures/russell-m-nelson-revelation-for-the-church-revelation-for-our-lives.md",
-    "scriptures/alma-32.34-36.md"
+    "scriptures/russell-m-nelson-revelation-for-the-church-revelation-for-our-lives.md"
   ]
 }
