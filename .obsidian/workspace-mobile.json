@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "creative/poem-the-dove-forevermore.md",
+                "file": "gratitude/haircuts.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "creative/poem-the-dove-forevermore.md",
+            "file": "gratitude/haircuts.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "creative/poem-the-dove-forevermore.md"
+            "file": "gratitude/haircuts.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "creative/poem-the-dove-forevermore.md",
+            "file": "gratitude/haircuts.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,6 +132,9 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-mom-cutting-boys-hair.jpeg",
+    "creative/poem-the-dove-forevermore.md",
+    "gratitude/haircuts.md",
     "tech/ai-will-not-replace-human-creativity.md",
     "img/dalle-leonardo-painting-the-mona-lisa.jpeg",
     "creative/poem-cabinet-handle.md",
@@ -139,7 +142,6 @@
     "docs/creative/poem-the-dove-forevermore.html",
     "docs/img/dalle-hourglass-on-the-beach.jpeg",
     "img/dalle-baby-staring-at-a-handle.jpeg",
-    "creative/poem-the-dove-forevermore.md",
     "gratitude/time.md",
     "img/dalle-hourglass-on-the-beach.jpeg",
     "creative/poem-timeless.md",
@@ -175,7 +177,6 @@
     "posts/losing-to-yesmen.md",
     "posts/the-multiverse-of-careers.md",
     "scriptures/russell-m-nelson-revelation-for-the-church-revelation-for-our-lives.md",
-    "scriptures/alma-32.34-36.md",
-    "scriptures/matthew-16.15-17.md"
+    "scriptures/alma-32.34-36.md"
   ]
 }
