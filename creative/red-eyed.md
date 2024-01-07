@@ -9,6 +9,7 @@ categories:
   - funny
   - perspective
   - hypothetical
+  - angle of vision
 draft: false
 ---
 How would you like to sleep next to a stranger?
@@ -16,8 +17,6 @@ How would you like to sleep next to a stranger?
 How about *between* two strangers?
 
 And sometimes you cuddle! But you can't pick the strangers. 
-
-And pay a lot of money for it?
 
 Oh! And all three of you are sleeping in chairs!
 
@@ -37,7 +36,7 @@ Going 700mph?
 
 And everyone is suspended at 30,000 feet?
 
-Yea, you'd like that? 
+Yea, you'd like that? You'd pay a *lot* of money for that experience? Wow. 
 
 Well, I guess everybody has their limit. 
 
