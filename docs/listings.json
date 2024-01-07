@@ -2,8 +2,13 @@
   {
     "listing": "/sitemap.html",
     "items": [
+      "/christianity/sacrament-symbol-vaulted-ceiling.html",
+      "/christianity/come-follow-me-2024-01-07-jan-7.html",
       "/gratitude/cars.html",
       "/creative/red-eyed.html",
+      "/scriptures/introduction.html",
+      "/scriptures/russell-m-nelson-make-time-for-the-lord.html",
+      "/scriptures/russell-m-nelson-the-book-of-mormon-what-would-your-life-be-like-without-it.html",
       "/gratitude/haircuts.html",
       "/tech/ai-will-not-replace-human-creativity.html",
       "/creative/poem-cabinet-handle.html",
@@ -124,6 +129,8 @@
   {
     "listing": "/christianity.html",
     "items": [
+      "/christianity/sacrament-symbol-vaulted-ceiling.html",
+      "/christianity/come-follow-me-2024-01-07-jan-7.html",
       "/christianity/how-to-use-the-book-of-mormon.html",
       "/christianity/a-change-in-witness.html",
       "/christianity/love-thy-neighbor-but-have-friends.html",
@@ -164,6 +171,42 @@
       "/gratitude/2023-12-26-i'm-grateful-for-blankets/index.html",
       "/gratitude/2023-12-25-grateful-for-doctors/index.html",
       "/gratitude/2023-12-24-light/index.html"
+    ]
+  },
+  {
+    "listing": "/lists.html",
+    "items": [
+      "/lists/ai/index.html",
+      "/lists/writing-ethos.html"
+    ]
+  },
+  {
+    "listing": "/books.html",
+    "items": [
+      "/book-review/leonardo-da-vinci.html",
+      "/book-review/steve-jobs-biography.html",
+      "/book-review/socrates-a-life-worth-living.html",
+      "/book-review/innovators-dilemma.html",
+      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
+      "/book-review/dune.html",
+      "/book-review/the-best-of-edgar-allen-poe.html",
+      "/book-review/killers-of-the-flower-moon.html",
+      "/book-review/unbelievable.html",
+      "/book-review/101-essays-to-make-you-think.html",
+      "/book-review/hitchhikers-guide-to-the-galaxy.html",
+      "/book-review/scientific-freedom.html",
+      "/book-review/getting-things-done.html"
+    ]
+  },
+  {
+    "listing": "/tech.html",
+    "items": [
+      "/tech/ai-will-not-replace-human-creativity.html",
+      "/tech/what-startups-and-musicians-have-in-common.html",
+      "/tech/the-future-wave-of-ai-hype.html",
+      "/tech/dreaming-software.html",
+      "/tech/why-we-want-new-software.html",
+      "/tech/swapping-out-human-labor-for-ai.html"
     ]
   },
   {
@@ -247,44 +290,10 @@
     ]
   },
   {
-    "listing": "/tech.html",
-    "items": [
-      "/tech/ai-will-not-replace-human-creativity.html",
-      "/tech/what-startups-and-musicians-have-in-common.html",
-      "/tech/the-future-wave-of-ai-hype.html",
-      "/tech/dreaming-software.html",
-      "/tech/why-we-want-new-software.html",
-      "/tech/swapping-out-human-labor-for-ai.html"
-    ]
-  },
-  {
-    "listing": "/books.html",
-    "items": [
-      "/book-review/leonardo-da-vinci.html",
-      "/book-review/steve-jobs-biography.html",
-      "/book-review/socrates-a-life-worth-living.html",
-      "/book-review/innovators-dilemma.html",
-      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
-      "/book-review/dune.html",
-      "/book-review/the-best-of-edgar-allen-poe.html",
-      "/book-review/killers-of-the-flower-moon.html",
-      "/book-review/unbelievable.html",
-      "/book-review/101-essays-to-make-you-think.html",
-      "/book-review/hitchhikers-guide-to-the-galaxy.html",
-      "/book-review/scientific-freedom.html",
-      "/book-review/getting-things-done.html"
-    ]
-  },
-  {
-    "listing": "/lists.html",
-    "items": [
-      "/lists/ai/index.html",
-      "/lists/writing-ethos.html"
-    ]
-  },
-  {
     "listing": "/all.html",
     "items": [
+      "/christianity/sacrament-symbol-vaulted-ceiling.html",
+      "/christianity/come-follow-me-2024-01-07-jan-7.html",
       "/gratitude/cars.html",
       "/gratitude/haircuts.html",
       "/tech/ai-will-not-replace-human-creativity.html",
