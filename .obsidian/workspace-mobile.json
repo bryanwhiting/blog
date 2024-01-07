@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/dune.md",
+                "file": "christianity/come-follow-me-2024-01-07-jan-7.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "book-review/dune.md",
+            "file": "christianity/come-follow-me-2024-01-07-jan-7.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "book-review/dune.md"
+            "file": "christianity/come-follow-me-2024-01-07-jan-7.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "book-review/dune.md",
+            "file": "christianity/come-follow-me-2024-01-07-jan-7.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,12 +132,18 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "scriptures/russell-m-nelson-the-book-of-mormon-what-would-your-life-be-like-without-it.md",
+    "scriptures/russell-m-nelson-make-time-for-the-lord.md",
+    "scriptures/introduction.md",
+    "christianity/come-follow-me-2024-01-07-jan-7.md",
+    "book-review/dune.md",
+    "docs/gratitude/cars.html",
+    "docs/img/dalle-subaru-hill.jpeg",
     "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
     "book-review/101-essays-to-make-you-think.md",
     "book-review/getting-things-done.md",
     "book-review/hitchhikers-guide-to-the-galaxy.md",
     "book-review/the-best-of-edgar-allen-poe.md",
-    "book-review/dune.md",
     "gratitude/cars.md",
     "img/dalle-subaru-hill.jpeg",
     "creative/red-eyed.md",
@@ -165,18 +171,12 @@
     "docs/sitemap.html",
     "docs/css/styles.css",
     "docs/css",
-    "css/styles.css",
     "christianity/let-your-light-so-shine.md",
-    "img/dalle-raise-your-light.jpeg",
     "christianity/how-to-use-the-book-of-mormon.md",
     "scriptures/moroni-10.4.md",
     "scriptures/alma-32.28.md",
     "scriptures/2-nephi-32.9.md",
     "_templates/new-post.md",
-    "docs/_templates/new-post.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "christianity/the-miracles-of-christ.md",
-    "tech/the-future-wave-of-ai-hype.md"
+    "docs/_templates/new-post.md"
   ]
 }
