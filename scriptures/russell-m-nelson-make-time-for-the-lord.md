@@ -1,7 +1,7 @@
 ---
-title: "Make Time for the Lord", Russell M. Nelson
+title: "'Make Time for the Lord', Russell M. Nelson"
 date: 2024-01-07
-description: "Make Time for the Lord", Russell M. Nelson
+description: '"Make Time for the Lord", Russell M. Nelson'
 categories: favorite scriptures
 ---
 

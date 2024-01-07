@@ -1,7 +1,7 @@
 ---
-title: "The Book of Mormon: What Would Your Life Be Like without It?", Russell M. Nelson
+title: '"The Book of Mormon: What Would Your Life Be Like without It?", Russell M. Nelson'
 date: 2024-01-07
-description: "The Book of Mormon: What Would Your Life Be Like without It?", Russell M. Nelson
+description: '"The Book of Mormon: What Would Your Life Be Like without It?", Russell M. Nelson'
 categories: favorite scriptures
 ---
 

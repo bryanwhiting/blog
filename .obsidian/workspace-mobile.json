@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/come-follow-me-2024-01-07-jan-7.md",
+                "file": "scriptures/russell-m-nelson-the-book-of-mormon-what-would-your-life-be-like-without-it.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/come-follow-me-2024-01-07-jan-7.md",
+            "file": "scriptures/russell-m-nelson-the-book-of-mormon-what-would-your-life-be-like-without-it.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/come-follow-me-2024-01-07-jan-7.md"
+            "file": "scriptures/russell-m-nelson-the-book-of-mormon-what-would-your-life-be-like-without-it.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/come-follow-me-2024-01-07-jan-7.md",
+            "file": "scriptures/russell-m-nelson-the-book-of-mormon-what-would-your-life-be-like-without-it.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -130,12 +130,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "be767112276aa446",
+  "active": "78912cccc2282195",
   "lastOpenFiles": [
-    "scriptures/russell-m-nelson-the-book-of-mormon-what-would-your-life-be-like-without-it.md",
     "scriptures/russell-m-nelson-make-time-for-the-lord.md",
-    "scriptures/introduction.md",
+    "christianity/sacrament-symbol-vaulted-ceiling.md",
     "christianity/come-follow-me-2024-01-07-jan-7.md",
+    "scriptures/russell-m-nelson-the-book-of-mormon-what-would-your-life-be-like-without-it.md",
+    "scriptures/introduction.md",
     "book-review/dune.md",
     "docs/gratitude/cars.html",
     "docs/img/dalle-subaru-hill.jpeg",
@@ -176,7 +177,6 @@
     "scriptures/moroni-10.4.md",
     "scriptures/alma-32.28.md",
     "scriptures/2-nephi-32.9.md",
-    "_templates/new-post.md",
-    "docs/_templates/new-post.md"
+    "_templates/new-post.md"
   ]
 }
