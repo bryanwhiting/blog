@@ -2,6 +2,7 @@
   {
     "listing": "/sitemap.html",
     "items": [
+      "/posts/becoming-an-expert.html",
       "/concepts/hand-of-god.html",
       "/christianity/my-testimony-2024-01-07.html",
       "/christianity/what-does-it-mean-to-preside.html",
@@ -168,50 +169,9 @@
     ]
   },
   {
-    "listing": "/concepts.html",
-    "items": [
-      "/concepts/hand-of-god.html"
-    ]
-  },
-  {
-    "listing": "/lists.html",
-    "items": [
-      "/lists/ai/index.html",
-      "/lists/writing-ethos.html"
-    ]
-  },
-  {
-    "listing": "/books.html",
-    "items": [
-      "/book-review/leonardo-da-vinci.html",
-      "/book-review/steve-jobs-biography.html",
-      "/book-review/socrates-a-life-worth-living.html",
-      "/book-review/innovators-dilemma.html",
-      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
-      "/book-review/dune.html",
-      "/book-review/the-best-of-edgar-allen-poe.html",
-      "/book-review/killers-of-the-flower-moon.html",
-      "/book-review/unbelievable.html",
-      "/book-review/101-essays-to-make-you-think.html",
-      "/book-review/hitchhikers-guide-to-the-galaxy.html",
-      "/book-review/scientific-freedom.html",
-      "/book-review/getting-things-done.html"
-    ]
-  },
-  {
-    "listing": "/tech.html",
-    "items": [
-      "/tech/ai-will-not-replace-human-creativity.html",
-      "/tech/what-startups-and-musicians-have-in-common.html",
-      "/tech/the-future-wave-of-ai-hype.html",
-      "/tech/dreaming-software.html",
-      "/tech/why-we-want-new-software.html",
-      "/tech/swapping-out-human-labor-for-ai.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
+      "/posts/becoming-an-expert.html",
       "/tech/ai-will-not-replace-human-creativity.html",
       "/tech/what-startups-and-musicians-have-in-common.html",
       "/tech/the-future-wave-of-ai-hype.html",
@@ -290,6 +250,48 @@
     ]
   },
   {
+    "listing": "/tech.html",
+    "items": [
+      "/tech/ai-will-not-replace-human-creativity.html",
+      "/tech/what-startups-and-musicians-have-in-common.html",
+      "/tech/the-future-wave-of-ai-hype.html",
+      "/tech/dreaming-software.html",
+      "/tech/why-we-want-new-software.html",
+      "/tech/swapping-out-human-labor-for-ai.html"
+    ]
+  },
+  {
+    "listing": "/books.html",
+    "items": [
+      "/book-review/leonardo-da-vinci.html",
+      "/book-review/steve-jobs-biography.html",
+      "/book-review/socrates-a-life-worth-living.html",
+      "/book-review/innovators-dilemma.html",
+      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
+      "/book-review/dune.html",
+      "/book-review/the-best-of-edgar-allen-poe.html",
+      "/book-review/killers-of-the-flower-moon.html",
+      "/book-review/unbelievable.html",
+      "/book-review/101-essays-to-make-you-think.html",
+      "/book-review/hitchhikers-guide-to-the-galaxy.html",
+      "/book-review/scientific-freedom.html",
+      "/book-review/getting-things-done.html"
+    ]
+  },
+  {
+    "listing": "/lists.html",
+    "items": [
+      "/lists/ai/index.html",
+      "/lists/writing-ethos.html"
+    ]
+  },
+  {
+    "listing": "/concepts.html",
+    "items": [
+      "/concepts/hand-of-god.html"
+    ]
+  },
+  {
     "listing": "/gratitude.html",
     "items": [
       "/gratitude/cars.html",
@@ -310,6 +312,7 @@
   {
     "listing": "/all.html",
     "items": [
+      "/posts/becoming-an-expert.html",
       "/christianity/my-testimony-2024-01-07.html",
       "/christianity/what-does-it-mean-to-preside.html",
       "/christianity/come-follow-me-2024-01-07-jan-7.html",
