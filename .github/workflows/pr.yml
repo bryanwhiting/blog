@@ -46,6 +46,7 @@ jobs:
 
       - name: Render blog 
         run: |
+          R -e "install.packages(c('yaml', 'lubridate'))"
           quarto render
       
       - name: Push rendered code

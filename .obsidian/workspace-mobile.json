@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "scriptures/john-3.16.md",
+                "file": "sacrament-symbols/vaulted-ceiling.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "scriptures/john-3.16.md",
+            "file": "sacrament-symbols/vaulted-ceiling.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "scriptures/john-3.16.md"
+            "file": "sacrament-symbols/vaulted-ceiling.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "scriptures/john-3.16.md",
+            "file": "sacrament-symbols/vaulted-ceiling.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,8 +132,9 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "christianity/sacrament-symbol-vaulted-ceiling.md",
+    "sacrament-symbols",
     "scriptures/john-3.16.md",
+    "sacrament-symbols/vaulted-ceiling.md",
     "_templates/new-post.md",
     "LOGGING-NOTE (iPhone).md",
     "christianity/my-testimony-2024-01-07.md",
@@ -172,7 +173,6 @@
     "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
     "book-review/101-essays-to-make-you-think.md",
     "book-review/getting-things-done.md",
-    "book-review/hitchhikers-guide-to-the-galaxy.md",
     "img/dalle-subaru-hill.jpeg",
     "docs/img/dalle-red-eye-blue-eye.jpeg",
     "docs/img/dalle-mom-cutting-boys-hair.jpeg",

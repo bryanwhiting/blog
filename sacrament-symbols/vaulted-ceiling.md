@@ -5,7 +5,7 @@ date: 2024-01-07 10:30:10
 created: 2024-01-07 10:30:10
 categories:
   - christianity
-  - symbols of the sacrament
+  - sacrament symbol
 draft: false
 ---
 Every chapel I've been in has a vaulted, high ceiling. This is common across many church architectures. 
