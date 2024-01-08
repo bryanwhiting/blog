@@ -20,3 +20,53 @@ listing:
 In November 2020, a Christian apostle named Russell Nelson invited the world to [flood social media with gratitude](https://www.churchofjesuschrist.org/inspiration/the-story-behind-my-global-prayer-of-gratitude?lang=eng). I rather enjoyed posting gratitude publicly, so here we go.
 
 ***
+
+
+```{r}
+library(yaml)
+library(ggplot2)
+library(lubridate)
+
+# Function to extract YAML from a markdown file
+extract_yaml <- function(file_path) {
+  lines <- readLines(file_path)
+  yaml_start <- which(lines == "---")[1]
+  yaml_end <- which(lines == "---")[2]
+  
+  if (length(yaml_start) == 0 || length(yaml_end) == 0) {
+    return(NA)
+  }
+  
+  yaml_content <- paste(lines[(yaml_start+1):(yaml_end-1)], collapse = "\n")
+  yaml.load(yaml_content)
+}
+
+# Directory containing markdown files
+dir_path <- "path/to/your/markdown/files"
+
+# Extracting dates from all markdown files
+file_paths <- list.files(dir_path, pattern = "\\.md$", full.names = TRUE)
+dates <- sapply(file_paths, function(file_path) {
+  yaml_data <- extract_yaml(file_path)
+  if (!is.na(yaml_data) && "date" %in% names(yaml_data)) {
+    as.Date(yaml_data$date)
+  }
+})
+
+# Remove NA values and get unique dates
+dates <- unique(na.omit(dates))
+
+# Create data frame for plotting
+plot_data <- data.frame(date = dates)
+plot_data$day_of_year <- yday(plot_data$date)
+plot_data$week_day <- wday(plot_data$date, label = TRUE, abbr = FALSE)
+
+# Create GitHub-style commit graph
+ggplot(plot_data, aes(x = day_of_year, y = week_day)) +
+  geom_tile(color = "white", fill = "blue") +
+  scale_x_continuous(expand = c(0, 0)) +
+  scale_y_discrete(expand = c(0, 0)) +
+  theme_minimal() +
+  labs(x = "Day of Year", y = "Day of Week", title = "Markdown File Activity")
+
+```

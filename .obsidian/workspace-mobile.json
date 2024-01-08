@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_templates/new-post.md",
+                "file": "scriptures/john-3.16.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "_templates/new-post.md",
+            "file": "scriptures/john-3.16.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "_templates/new-post.md"
+            "file": "scriptures/john-3.16.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "_templates/new-post.md",
+            "file": "scriptures/john-3.16.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,17 +132,28 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "christianity/sacrament-symbol-vaulted-ceiling.md",
+    "scriptures/john-3.16.md",
+    "_templates/new-post.md",
+    "LOGGING-NOTE (iPhone).md",
     "christianity/my-testimony-2024-01-07.md",
-    "docs/christianity/sacrament-symbol-vaulted-ceiling.html",
-    "docs/christianity/come-follow-me-2024-01-07-jan-7.html",
-    "docs/scriptures/introduction.html",
-    "docs/scriptures/russell-m-nelson-the-book-of-mormon-what-would-your-life-be-like-without-it.html",
-    "docs/scriptures/russell-m-nelson-make-time-for-the-lord.html",
+    "img/photo-lds-chapel.jpeg",
+    "docs/christianity/my-testimony-2024-01-07.html",
+    "docs/christianity/what-does-it-mean-to-preside.html",
+    "docs/concepts/hand-of-god.html",
+    "docs/concepts",
+    "docs/concepts.html",
+    "docs/img/dalle-u-haul-moving.jpeg",
+    "docs/img/dalle-water-color-a-mother-hen-with-a-chicken-under-her-wing-as-its-raining.jpeg",
+    "docs/scriptures/1-nephi-5.5.html",
+    "docs/scriptures/ephesians-4.4-6.html",
+    "docs/scriptures/3-nephi-10.4-5.html",
+    "docs/scriptures/mosiah-5.7-8.html",
+    "docs/scriptures/doctrine-and-covenants-107.60-62.html",
     "concepts/hand-of-god.md",
     "scriptures/1-nephi-5.5.md",
     "scriptures/mosiah-5.7-8.md",
     "scriptures/ephesians-4.4-6.md",
-    "concepts",
     "christianity/what-does-it-mean-to-preside.md",
     "img/dalle-water-color-a-mother-hen-with-a-chicken-under-her-wing-as-its-raining.jpeg",
     "scriptures/3-nephi-10.4-5.md",
@@ -154,28 +165,18 @@
     "scriptures/dale-g-renlund-the-priesthood-and-the-saviors-atoning-power.md",
     "scriptures/russell-m-nelson-the-book-of-mormon-what-would-your-life-be-like-without-it.md",
     "scriptures/russell-m-nelson-make-time-for-the-lord.md",
-    "christianity/sacrament-symbol-vaulted-ceiling.md",
     "christianity/come-follow-me-2024-01-07-jan-7.md",
     "scriptures/introduction.md",
     "book-review/dune.md",
-    "docs/gratitude/cars.html",
     "docs/img/dalle-subaru-hill.jpeg",
     "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
     "book-review/101-essays-to-make-you-think.md",
     "book-review/getting-things-done.md",
     "book-review/hitchhikers-guide-to-the-galaxy.md",
-    "book-review/the-best-of-edgar-allen-poe.md",
-    "gratitude/cars.md",
     "img/dalle-subaru-hill.jpeg",
-    "docs/creative/red-eyed.html",
     "docs/img/dalle-red-eye-blue-eye.jpeg",
-    "docs/gratitude/haircuts.html",
     "docs/img/dalle-mom-cutting-boys-hair.jpeg",
     "img/dalle-red-eye-blue-eye.jpeg",
-    "img/dalle-mom-cutting-boys-hair.jpeg",
-    "img/dalle-leonardo-painting-the-mona-lisa.jpeg",
-    "docs/gratitude/time.html",
-    "docs/img/dalle-hourglass-on-the-beach.jpeg",
-    "img/dalle-baby-staring-at-a-handle.jpeg"
+    "img/dalle-mom-cutting-boys-hair.jpeg"
   ]
 }
