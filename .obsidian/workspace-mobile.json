@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/my-testimony-2024-01-07.md",
+                "file": "_templates/new-post.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/my-testimony-2024-01-07.md",
+            "file": "_templates/new-post.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/my-testimony-2024-01-07.md"
+            "file": "_templates/new-post.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/my-testimony-2024-01-07.md",
+            "file": "_templates/new-post.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,8 +132,13 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "concepts/hand-of-god.md",
     "christianity/my-testimony-2024-01-07.md",
+    "docs/christianity/sacrament-symbol-vaulted-ceiling.html",
+    "docs/christianity/come-follow-me-2024-01-07-jan-7.html",
+    "docs/scriptures/introduction.html",
+    "docs/scriptures/russell-m-nelson-the-book-of-mormon-what-would-your-life-be-like-without-it.html",
+    "docs/scriptures/russell-m-nelson-make-time-for-the-lord.html",
+    "concepts/hand-of-god.md",
     "scriptures/1-nephi-5.5.md",
     "scriptures/mosiah-5.7-8.md",
     "scriptures/ephesians-4.4-6.md",
@@ -162,7 +167,6 @@
     "book-review/the-best-of-edgar-allen-poe.md",
     "gratitude/cars.md",
     "img/dalle-subaru-hill.jpeg",
-    "creative/red-eyed.md",
     "docs/creative/red-eyed.html",
     "docs/img/dalle-red-eye-blue-eye.jpeg",
     "docs/gratitude/haircuts.html",
@@ -171,12 +175,7 @@
     "img/dalle-mom-cutting-boys-hair.jpeg",
     "img/dalle-leonardo-painting-the-mona-lisa.jpeg",
     "docs/gratitude/time.html",
-    "docs/creative/poem-the-dove-forevermore.html",
     "docs/img/dalle-hourglass-on-the-beach.jpeg",
-    "img/dalle-baby-staring-at-a-handle.jpeg",
-    "sitemap.qmd",
-    "docs/creative/poem-the-dove-evermore.html",
-    "docs/sitemap.html",
-    "docs/css/styles.css"
+    "img/dalle-baby-staring-at-a-handle.jpeg"
   ]
 }

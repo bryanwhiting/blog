@@ -1,8 +1,9 @@
 <%*
 // Define the list of folders  
-const folders = ["book-review", "christianity", "gratitude", "tech", "creative", "posts"];
+const folders = ["book-review", "christianity", "gratitude", "tech", "creative", "workout", "posts"];
 
-// Use the suggester to let the user choose a folder  
+// Use the suggester to let the 
+// user choose a folder  
 let folder = await tp.system.suggester(folders, folders);
 
 // Ask for a title  
@@ -15,24 +16,34 @@ let fileNameSlug = title
 	.trim()  
 	.replace(/\s+/g, '-'); // Replace spaces with dashes
 
-let slug = await tp.system.prompt("Slug/Filename:", fileNameSlug)
+// Define a file slug
+if (folder === 'workout') {  
+	let slug = tp.date.now() + "-workout"
+} else {
+    let slug = await tp.system.prompt("Slug/Filename:", fileNameSlug)
+}
 
 // Get current date  
 let date = tp.date.now("YYYY-MM-DD HH:mm:ss");
 
-// Create the file with YAML front matter  
+
+// YAML front matter  
 let content = `
 title: "${title}"  
-description: ""  
+description: |
+  xxx  
 date: "${date}"  
 created: "${date}"
 categories: ${folder}  
 draft: false`;
 
+// Additional properties
 if (folder === 'book-review') {  
 	content += `  
 date-start: "${date}"`;  
-}
+date-finished: 
+pct-complete:
+} 
 
 content += `
 `;
