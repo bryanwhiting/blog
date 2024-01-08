@@ -2,7 +2,9 @@
 title: "Christianity"
 comments: false
 listing:
-  contents: christianity
+  contents: 
+    - christianity
+    - "sacrament-symbols/*.md"
   type: grid
   sort: 
     - "date desc"

@@ -58,6 +58,7 @@ website:
       - section: "Other"
         contents:
           - concepts.qmd
+          - goals.qmd 
           - lists.qmd
           - sitemap.qmd
       

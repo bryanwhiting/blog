@@ -1,0 +1,34 @@
+---
+title: "Goals"
+comments: false
+listing:
+  contents: goals
+  type: table
+  sort: 
+    - "date desc"
+    - "title asc"
+  sort-ui: [date, title]
+  filter-ui: [date, title]
+  page-size: 30
+  grid-item-border: true
+  feed: true
+  categories: cloud
+---
+
+Public accountability is the greatest motivator. These goals are correlated with, but not causal to happiness. They're anti-sad, but pro-happy comes not from checking off boxes but by building meaningful relationships with God, self, family, and friends.
+
+
+2024 Goals:
+- 52 books. 12 fiction. 12 biographies. 12 business/self help. 4 religious. And 12 free choice (history, philosophy, career/data-ai).
+- 52 hikes (1x/wk)
+- Call a friend
+
+Habits, Daily:
+- Pray
+- Meditate
+- Workout (strength and cardio)
+- Give thanks (write a post)
+- Study scriptures (write a post)
+
+
+***
