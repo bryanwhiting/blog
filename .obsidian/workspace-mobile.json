@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sacrament-symbols/vaulted-ceiling.md",
+                "file": "posts/becoming-an-expert.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "sacrament-symbols/vaulted-ceiling.md",
+            "file": "posts/becoming-an-expert.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "sacrament-symbols/vaulted-ceiling.md"
+            "file": "posts/becoming-an-expert.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "sacrament-symbols/vaulted-ceiling.md",
+            "file": "posts/becoming-an-expert.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,11 +132,13 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-rocky-balboa-expert.jpeg",
+    "_templates/new-post.md",
+    "posts/becoming-an-expert.md",
+    "LOGGING-NOTE (iPhone).md",
+    "sacrament-symbols/vaulted-ceiling.md",
     "sacrament-symbols",
     "scriptures/john-3.16.md",
-    "sacrament-symbols/vaulted-ceiling.md",
-    "_templates/new-post.md",
-    "LOGGING-NOTE (iPhone).md",
     "christianity/my-testimony-2024-01-07.md",
     "img/photo-lds-chapel.jpeg",
     "docs/christianity/my-testimony-2024-01-07.html",
@@ -150,7 +152,6 @@
     "docs/scriptures/ephesians-4.4-6.html",
     "docs/scriptures/3-nephi-10.4-5.html",
     "docs/scriptures/mosiah-5.7-8.html",
-    "docs/scriptures/doctrine-and-covenants-107.60-62.html",
     "concepts/hand-of-god.md",
     "scriptures/1-nephi-5.5.md",
     "scriptures/mosiah-5.7-8.md",
@@ -172,7 +173,6 @@
     "docs/img/dalle-subaru-hill.jpeg",
     "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
     "book-review/101-essays-to-make-you-think.md",
-    "book-review/getting-things-done.md",
     "img/dalle-subaru-hill.jpeg",
     "docs/img/dalle-red-eye-blue-eye.jpeg",
     "docs/img/dalle-mom-cutting-boys-hair.jpeg",

@@ -17,10 +17,11 @@ let fileNameSlug = title
 	.replace(/\s+/g, '-'); // Replace spaces with dashes
 
 // Define a file slug
+let slug
 if (folder === 'workout') {  
-	let slug = tp.date.now() + "-workout"
+	slug = tp.date.now() + "-workout";
 } else {
-    let slug = await tp.system.prompt("Slug/Filename:", fileNameSlug)
+    slug = await tp.system.prompt("Slug/Filename:", fileNameSlug)
 }
 
 // Get current date  
@@ -40,9 +41,9 @@ draft: false`;
 // Additional properties
 if (folder === 'book-review') {  
 	content += `  
-date-start: "${date}"`;  
+date-start: "${date}"
 date-finished: 
-pct-complete:
+pct-complete:`;
 } 
 
 content += `
