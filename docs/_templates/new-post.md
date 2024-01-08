@@ -26,6 +26,7 @@ title: "${title}"
 description: ""  
 date: "${date}"  
 created: "${date}"
+updated: 
 categories: ${folder}  
 draft: false`;
 

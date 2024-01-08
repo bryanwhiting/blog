@@ -4,7 +4,7 @@
       "enabled": true
     },
     "escape-yaml-special-characters": {
-      "enabled": false,
+      "enabled": true,
       "try-to-escape-single-line-arrays": false
     },
     "force-yaml-escape": {
@@ -37,7 +37,7 @@
       "yaml-keys-to-remove": ""
     },
     "yaml-key-sort": {
-      "enabled": true,
+      "enabled": false,
       "yaml-key-priority-sort-order": "title:\ndescription:\ndate:\nupdated:\ncategories:\ndraft:",
       "priority-keys-at-start-of-yaml": true,
       "yaml-sort-order-for-other-keys": "None"
@@ -52,7 +52,7 @@
       "format": "YYYY-MM-DDTHH:mm:ss"
     },
     "yaml-title": {
-      "enabled": true,
+      "enabled": false,
       "title-key": "title",
       "mode": "first-h1-or-filename-if-h1-missing"
     },

@@ -7,6 +7,8 @@ categories:
   - christianity
   - come follow me
   - book of mormon
+  - epistemology
+  - theology
 draft: false
 ---
 

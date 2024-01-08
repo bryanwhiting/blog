@@ -1,5 +1,5 @@
 ---
-title: "Your Mood is Contagious "
+title: Your Mood is Contagious
 description: It may take twice the effort to overcome negative vibes.
 date: 2024-01-03
 categories:

@@ -57,6 +57,7 @@ website:
             - creative.qmd
       - section: "Other"
         contents:
+          - concepts.qmd
           - lists.qmd
           - sitemap.qmd
       

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "scriptures/russell-m-nelson-the-book-of-mormon-what-would-your-life-be-like-without-it.md",
+                "file": "christianity/my-testimony-2024-01-07.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "scriptures/russell-m-nelson-the-book-of-mormon-what-would-your-life-be-like-without-it.md",
+            "file": "christianity/my-testimony-2024-01-07.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "scriptures/russell-m-nelson-the-book-of-mormon-what-would-your-life-be-like-without-it.md"
+            "file": "christianity/my-testimony-2024-01-07.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "scriptures/russell-m-nelson-the-book-of-mormon-what-would-your-life-be-like-without-it.md",
+            "file": "christianity/my-testimony-2024-01-07.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -130,12 +130,27 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "78912cccc2282195",
+  "active": "be767112276aa446",
   "lastOpenFiles": [
+    "concepts/hand-of-god.md",
+    "christianity/my-testimony-2024-01-07.md",
+    "scriptures/1-nephi-5.5.md",
+    "scriptures/mosiah-5.7-8.md",
+    "scriptures/ephesians-4.4-6.md",
+    "concepts",
+    "christianity/what-does-it-mean-to-preside.md",
+    "img/dalle-water-color-a-mother-hen-with-a-chicken-under-her-wing-as-its-raining.jpeg",
+    "scriptures/3-nephi-10.4-5.md",
+    "posts/your-mood-is-contagious.md",
+    "christianity/a-change-in-witness.md",
+    "scriptures/doctrine-and-covenants-107.60-62.md",
+    "scriptures/the-family-proclamation.md",
+    "docs/_templates/new-post.md",
+    "scriptures/dale-g-renlund-the-priesthood-and-the-saviors-atoning-power.md",
+    "scriptures/russell-m-nelson-the-book-of-mormon-what-would-your-life-be-like-without-it.md",
     "scriptures/russell-m-nelson-make-time-for-the-lord.md",
     "christianity/sacrament-symbol-vaulted-ceiling.md",
     "christianity/come-follow-me-2024-01-07-jan-7.md",
-    "scriptures/russell-m-nelson-the-book-of-mormon-what-would-your-life-be-like-without-it.md",
     "scriptures/introduction.md",
     "book-review/dune.md",
     "docs/gratitude/cars.html",
@@ -153,30 +168,15 @@
     "docs/gratitude/haircuts.html",
     "docs/img/dalle-mom-cutting-boys-hair.jpeg",
     "img/dalle-red-eye-blue-eye.jpeg",
-    "gratitude/haircuts.md",
     "img/dalle-mom-cutting-boys-hair.jpeg",
-    "creative/poem-the-dove-forevermore.md",
-    "tech/ai-will-not-replace-human-creativity.md",
     "img/dalle-leonardo-painting-the-mona-lisa.jpeg",
-    "creative/poem-cabinet-handle.md",
     "docs/gratitude/time.html",
     "docs/creative/poem-the-dove-forevermore.html",
     "docs/img/dalle-hourglass-on-the-beach.jpeg",
     "img/dalle-baby-staring-at-a-handle.jpeg",
-    "gratitude/time.md",
-    "img/dalle-hourglass-on-the-beach.jpeg",
-    "creative/poem-timeless.md",
-    "creative/the-dove-evermore.md",
     "sitemap.qmd",
     "docs/creative/poem-the-dove-evermore.html",
     "docs/sitemap.html",
-    "docs/css/styles.css",
-    "docs/css",
-    "christianity/let-your-light-so-shine.md",
-    "christianity/how-to-use-the-book-of-mormon.md",
-    "scriptures/moroni-10.4.md",
-    "scriptures/alma-32.28.md",
-    "scriptures/2-nephi-32.9.md",
-    "_templates/new-post.md"
+    "docs/css/styles.css"
   ]
 }
