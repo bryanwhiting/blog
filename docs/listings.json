@@ -2,13 +2,23 @@
   {
     "listing": "/sitemap.html",
     "items": [
+      "/concepts/hand-of-god.html",
+      "/christianity/my-testimony-2024-01-07.html",
+      "/christianity/what-does-it-mean-to-preside.html",
       "/christianity/sacrament-symbol-vaulted-ceiling.html",
       "/christianity/come-follow-me-2024-01-07-jan-7.html",
       "/gratitude/cars.html",
       "/creative/red-eyed.html",
+      "/scriptures/1-nephi-5.5.html",
+      "/scriptures/3-nephi-10.4-5.html",
+      "/scriptures/dale-g-renlund-the-priesthood-and-the-saviors-atoning-power.html",
+      "/scriptures/doctrine-and-covenants-107.60-62.html",
+      "/scriptures/ephesians-4.4-6.html",
       "/scriptures/introduction.html",
+      "/scriptures/mosiah-5.7-8.html",
       "/scriptures/russell-m-nelson-make-time-for-the-lord.html",
       "/scriptures/russell-m-nelson-the-book-of-mormon-what-would-your-life-be-like-without-it.html",
+      "/scriptures/the-family-proclamation.html",
       "/gratitude/haircuts.html",
       "/tech/ai-will-not-replace-human-creativity.html",
       "/creative/poem-cabinet-handle.html",
@@ -129,6 +139,8 @@
   {
     "listing": "/christianity.html",
     "items": [
+      "/christianity/my-testimony-2024-01-07.html",
+      "/christianity/what-does-it-mean-to-preside.html",
       "/christianity/sacrament-symbol-vaulted-ceiling.html",
       "/christianity/come-follow-me-2024-01-07-jan-7.html",
       "/christianity/how-to-use-the-book-of-mormon.html",
@@ -171,6 +183,12 @@
       "/gratitude/2023-12-26-i'm-grateful-for-blankets/index.html",
       "/gratitude/2023-12-25-grateful-for-doctors/index.html",
       "/gratitude/2023-12-24-light/index.html"
+    ]
+  },
+  {
+    "listing": "/concepts.html",
+    "items": [
+      "/concepts/hand-of-god.html"
     ]
   },
   {
@@ -292,6 +310,8 @@
   {
     "listing": "/all.html",
     "items": [
+      "/christianity/my-testimony-2024-01-07.html",
+      "/christianity/what-does-it-mean-to-preside.html",
       "/christianity/sacrament-symbol-vaulted-ceiling.html",
       "/christianity/come-follow-me-2024-01-07-jan-7.html",
       "/gratitude/cars.html",
