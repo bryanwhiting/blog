@@ -4,7 +4,7 @@ description: "Innovation comes by varied incentives: intellectual curiosity and 
 date: 2023-12-12T10:11:57
 updated: 2024-01-04T10:13:37
 categories:
-  - book review
+  - book-review
 draft: false
 date-start: 2023-12-12
 ---

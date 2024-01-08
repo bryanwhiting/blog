@@ -10,4 +10,3 @@ listing:
   # max-description-length: 10000
 date-format: "YYYY-MM-DD"
 ---
-List of all posts across the blog

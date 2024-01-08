@@ -3,9 +3,8 @@ title: Reading List
 description: Wish list of books
 date: 2015-12-01T12:00:00
 updated: 2024-01-04T10:16:37
-categories:
-  - book review
-draft: true
+categories: 
+draft: false
 ---
 
 - [ ] How to win friends and influence people

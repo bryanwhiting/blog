@@ -1,6 +1,6 @@
 <%*
 // Define the list of folders  
-const folders = ["book-review", "christianity", "gratitude", "tech", "creative", "workout", "posts", "sacrament-symbols"];
+const folders = ["book-review", "christianity", "creative", "goals", "gratitude", "posts", "sacrament-symbols", "tech"];
 
 // Use the suggester to let the 
 // user choose a folder  
@@ -18,8 +18,8 @@ let fileNameSlug = title
 
 // Define a file slug
 let slug
-if (folder === 'workout') {  
-	slug = tp.date.now() + "-workout";
+if (folder === 'goals') {  
+	slug = tp.date.now() + "-goals";
 } else {
     slug = await tp.system.prompt("Slug/Filename:", fileNameSlug)
 }
@@ -45,6 +45,17 @@ date-start: "${date}"
 date-finished: 
 pct-complete:`;
 } 
+
+if (folder === 'goals') {  
+	content += `  
+strength: false
+cardio: false
+meditate: false
+pray: false
+notes:
+observations:`;
+} 
+
 
 content += `
 `;

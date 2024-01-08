@@ -4,10 +4,10 @@ description: The plans and risks of generations
 date: 2023-12-23T11:50:46
 updated: 2024-01-04T10:05:53
 categories:
-  - book review
+  - book-review
+  - sci-fi
 draft: false
 date-start: 2023-12-23
-image: photo.jpeg
 date-finished: 2024-01-02
 ---
 

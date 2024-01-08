@@ -7,7 +7,7 @@ categories: [tech, futurism, ai]
 draft: false
 ---
 
-![](ai.jpeg) 
+![](../img/dalle-ai.jpeg) 
 
 ::: callout-note
 ## TL;DR: AI is wild. Last updated per last headline. First created 2023-12-14

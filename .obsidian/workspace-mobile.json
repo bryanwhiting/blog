@@ -11,11 +11,9 @@
             "id": "be767112276aa446",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "posts/becoming-an-expert.md",
-                "mode": "source",
-                "source": false
+                "file": "img/dalle-ai.jpeg"
               }
             }
           }
@@ -85,7 +83,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/becoming-an-expert.md",
+            "file": "img/dalle-ai.jpeg",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/becoming-an-expert.md"
+            "file": "img/dalle-ai.jpeg"
           }
         }
       },
@@ -112,7 +110,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/becoming-an-expert.md",
+            "file": "img/dalle-ai.jpeg",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -130,11 +128,39 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "be767112276aa446",
+  "active": "78912cccc2282195",
   "lastOpenFiles": [
-    "img/dalle-rocky-balboa-expert.jpeg",
+    "lists/ai.md",
+    "book-review/socrates-a-life-worth-living.md",
+    "book-review/killers-of-the-flower-moon.md",
+    "book-review/steve-jobs-biography.md",
+    "book-review/leonardo-da-vinci.md",
+    "lists/reading-list.md",
+    "book-review/101-essays-to-make-you-think.md",
+    "book-review/getting-things-done.md",
+    "book-review/hitchhikers-guide-to-the-galaxy.md",
+    "book-review/scientific-freedom.md",
+    "book-review/the-best-of-edgar-allen-poe.md",
+    "book-review/unbelievable.md",
+    "book-review/innovators-dilemma.md",
+    "book-review/dune.md",
+    "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
+    "goals/2024-01-08-goals.md",
     "_templates/new-post.md",
+    "creative/vacation.md",
+    "goals",
+    "creative/ice-baths.md",
+    "creative/the-thief-of-time.md",
+    "docs/img/dalle-rocky-balboa-expert.jpeg",
+    "docs/posts/becoming-an-expert.html",
+    "img/dalle-time-robbing-time-hourglass-clock.jpeg",
     "posts/becoming-an-expert.md",
+    "Untitled.md",
+    "docs/img/photo-lds-chapel.jpeg",
+    "docs/scriptures/john-3.16.html",
+    "docs/sacrament-symbols/vaulted-ceiling.html",
+    "docs/sacrament-symbols",
+    "img/dalle-rocky-balboa-expert.jpeg",
     "LOGGING-NOTE (iPhone).md",
     "sacrament-symbols/vaulted-ceiling.md",
     "sacrament-symbols",
@@ -145,38 +171,10 @@
     "docs/christianity/what-does-it-mean-to-preside.html",
     "docs/concepts/hand-of-god.html",
     "docs/concepts",
-    "docs/concepts.html",
     "docs/img/dalle-u-haul-moving.jpeg",
     "docs/img/dalle-water-color-a-mother-hen-with-a-chicken-under-her-wing-as-its-raining.jpeg",
-    "docs/scriptures/1-nephi-5.5.html",
-    "docs/scriptures/ephesians-4.4-6.html",
-    "docs/scriptures/3-nephi-10.4-5.html",
-    "docs/scriptures/mosiah-5.7-8.html",
-    "concepts/hand-of-god.md",
-    "scriptures/1-nephi-5.5.md",
-    "scriptures/mosiah-5.7-8.md",
-    "scriptures/ephesians-4.4-6.md",
-    "christianity/what-does-it-mean-to-preside.md",
     "img/dalle-water-color-a-mother-hen-with-a-chicken-under-her-wing-as-its-raining.jpeg",
-    "scriptures/3-nephi-10.4-5.md",
-    "posts/your-mood-is-contagious.md",
-    "christianity/a-change-in-witness.md",
-    "scriptures/doctrine-and-covenants-107.60-62.md",
-    "scriptures/the-family-proclamation.md",
-    "docs/_templates/new-post.md",
-    "scriptures/dale-g-renlund-the-priesthood-and-the-saviors-atoning-power.md",
-    "scriptures/russell-m-nelson-the-book-of-mormon-what-would-your-life-be-like-without-it.md",
-    "scriptures/russell-m-nelson-make-time-for-the-lord.md",
-    "christianity/come-follow-me-2024-01-07-jan-7.md",
-    "scriptures/introduction.md",
-    "book-review/dune.md",
     "docs/img/dalle-subaru-hill.jpeg",
-    "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
-    "book-review/101-essays-to-make-you-think.md",
-    "img/dalle-subaru-hill.jpeg",
-    "docs/img/dalle-red-eye-blue-eye.jpeg",
-    "docs/img/dalle-mom-cutting-boys-hair.jpeg",
-    "img/dalle-red-eye-blue-eye.jpeg",
-    "img/dalle-mom-cutting-boys-hair.jpeg"
+    "img/dalle-subaru-hill.jpeg"
   ]
 }

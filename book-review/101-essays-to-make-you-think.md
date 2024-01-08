@@ -4,9 +4,9 @@ description: We all started as strangers. It's a choice who stays that way.
 date: 2023-12-19T10:11:57
 updated: 2024-01-04T10:16:20
 categories:
-  - book review
   - philosophy
   - mindfulness
+  - book-review
 draft: false
 date-start: 2023-12-19
 ---

@@ -4,9 +4,9 @@ description: Choose wisely, and enjoy the ride.
 date: 2023-12-28T14:23:48
 updated: 2024-01-04T10:18:29
 categories:
-  - book review
   - decisions
   - philosophy
+  - book-review
 draft: false
 date-start: 2023-12-28
 ---

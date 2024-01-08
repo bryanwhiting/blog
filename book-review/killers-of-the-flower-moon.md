@@ -4,12 +4,11 @@ description: An incredible story of how low, sick and twisted humanity can get, 
 date: 2023-12-22T10:11:57
 updated: 2024-01-04T10:12:15
 categories:
-  - book review
   - storytelling
   - murder mystery
+  - book-review
 draft: false
 date-start: 2023-12-22
-image: photo.jpeg
 date-finished: 2023-12-28
 ---
 
