@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/scriptures-within-scriptures.md",
+                "file": "posts/organization-and-minimalism.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/scriptures-within-scriptures.md",
+            "file": "posts/organization-and-minimalism.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/scriptures-within-scriptures.md"
+            "file": "posts/organization-and-minimalism.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/scriptures-within-scriptures.md",
+            "file": "posts/organization-and-minimalism.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,13 +132,26 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-bear-with-messy-stuff.jpeg",
+    "goals/2024-01-09-goals.md",
+    "posts/organization-and-minimalism.md",
+    "tech/the-future-wave-of-ai-hype.md",
+    "gratitude/audiobooks.md",
+    "img/dalle-headphones-audiobook-doing-dishes.jpeg",
+    "lists/reading-ethos.md",
+    "christianity/scriptures-within-scriptures.md",
+    "docs/gratitude/toothbrush.html",
+    "docs/tech/a-knife-to-a-gun-fight.html",
+    "docs/img/book-the-power-of-habit.jpeg",
+    "docs/img/dalle-knife-gun-fight.jpeg",
+    "docs/img/dalle-toothbrush-family-1920.jpeg",
+    "docs/book-review/the-power-of-habit.html",
     "img/dalle-white-fruit-delicious-zoom-in.jpeg",
     "scriptures/2-nephi-9.51.md",
     "scriptures/1-nephi-8.10.md",
     "scriptures/1-nephi-3.7.md",
     "scriptures/2-nephi-25.26.md",
     "book-review/dune-messiah.md",
-    "christianity/scriptures-within-scriptures.md",
     "lists/legal-ai.md",
     "lists/ai.md",
     "gratitude/toothbrush.md",
@@ -157,26 +170,13 @@
     "docs/creative/ice-baths.html",
     "docs/creative/the-thief-of-time.html",
     "docs/img/dalle-ai.jpeg",
-    "docs/img/dalle-time-robbing-time-hourglass-clock.jpeg",
     "docs/lists/ai.html",
     "docs/lists/reading-list.html",
-    "docs/goals/2024-01-08-goals.html",
-    "docs/goals",
-    "goals.qmd",
     "book-review/socrates-a-life-worth-living.md",
     "book-review/killers-of-the-flower-moon.md",
     "book-review/steve-jobs-biography.md",
     "book-review/leonardo-da-vinci.md",
     "book-review/101-essays-to-make-you-think.md",
-    "book-review/getting-things-done.md",
-    "book-review/hitchhikers-guide-to-the-galaxy.md",
-    "book-review/scientific-freedom.md",
-    "book-review/the-best-of-edgar-allen-poe.md",
-    "book-review/unbelievable.md",
-    "book-review/innovators-dilemma.md",
-    "docs/img/dalle-rocky-balboa-expert.jpeg",
-    "img/dalle-time-robbing-time-hourglass-clock.jpeg",
-    "docs/img/photo-lds-chapel.jpeg",
-    "img/dalle-rocky-balboa-expert.jpeg"
+    "book-review/getting-things-done.md"
   ]
 }

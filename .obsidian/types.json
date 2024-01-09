@@ -11,6 +11,10 @@
     "draft": "checkbox",
     "difficulty": "number",
     "meditate": "checkbox",
-    "pray": "checkbox"
+    "pray": "checkbox",
+    "ex-core": "checkbox",
+    "ex-back": "checkbox",
+    "ex-legs": "checkbox",
+    "ex-arms": "checkbox"
   }
 }
