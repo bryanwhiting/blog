@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/organization-and-minimalism.md",
+                "file": "book-review/the-power-of-habit.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/organization-and-minimalism.md",
+            "file": "book-review/the-power-of-habit.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/organization-and-minimalism.md"
+            "file": "book-review/the-power-of-habit.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/organization-and-minimalism.md",
+            "file": "book-review/the-power-of-habit.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,9 +132,11 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "book-review/dune-messiah.md",
+    "img/book-dune-messiah.jpeg",
+    "posts/organization-and-minimalism.md",
     "img/dalle-bear-with-messy-stuff.jpeg",
     "goals/2024-01-09-goals.md",
-    "posts/organization-and-minimalism.md",
     "tech/the-future-wave-of-ai-hype.md",
     "gratitude/audiobooks.md",
     "img/dalle-headphones-audiobook-doing-dishes.jpeg",
@@ -151,7 +153,6 @@
     "scriptures/1-nephi-8.10.md",
     "scriptures/1-nephi-3.7.md",
     "scriptures/2-nephi-25.26.md",
-    "book-review/dune-messiah.md",
     "lists/legal-ai.md",
     "lists/ai.md",
     "gratitude/toothbrush.md",
@@ -165,11 +166,9 @@
     "lists/reading-list.md",
     "tech/a-knife-to-a-gun-fight.md",
     "img/dalle-knife-gun-fight.jpeg",
-    "img/dalle-ai.jpeg",
     "docs/creative/vacation.html",
     "docs/creative/ice-baths.html",
     "docs/creative/the-thief-of-time.html",
-    "docs/img/dalle-ai.jpeg",
     "docs/lists/ai.html",
     "docs/lists/reading-list.html",
     "book-review/socrates-a-life-worth-living.md",
