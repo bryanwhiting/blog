@@ -13,6 +13,14 @@ draft: false
 ## TL;DR: AI is wild. Last updated per last headline. First created 2023-12-14
 :::
 
+# Local GPT brain
+2024-01-09
+
+Run GPT locally on your notes. Index it locally for retrieval. 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">What if ChatGPT had knowledge from your notes and documents—while keeping it all private?<br><br>You can run AI locally—no data leaves your laptop—for custom, secure answers from your &quot;second brain.&quot;<br><br>It’s free.<br><br>Here’s how: <a href="https://t.co/Jb27BJF905">pic.twitter.com/Jb27BJF905</a></p>&mdash; Jeremy Nguyen ✍🏼 🚢 (@JeremyNguyenPhD) <a href="https://twitter.com/JeremyNguyenPhD/status/1744341093355794519?ref_src=twsrc%5Etfw">January 8, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
 # v0.dev
 
 2023-12-15

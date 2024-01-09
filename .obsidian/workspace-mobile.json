@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/toothbrush.md",
+                "file": "christianity/scriptures-within-scriptures.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "gratitude/toothbrush.md",
+            "file": "christianity/scriptures-within-scriptures.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "gratitude/toothbrush.md"
+            "file": "christianity/scriptures-within-scriptures.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "gratitude/toothbrush.md",
+            "file": "christianity/scriptures-within-scriptures.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,11 +132,22 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-white-fruit-delicious-zoom-in.jpeg",
+    "scriptures/2-nephi-9.51.md",
+    "scriptures/1-nephi-8.10.md",
+    "scriptures/1-nephi-3.7.md",
+    "scriptures/2-nephi-25.26.md",
+    "book-review/dune-messiah.md",
+    "christianity/scriptures-within-scriptures.md",
+    "lists/legal-ai.md",
+    "lists/ai.md",
+    "gratitude/toothbrush.md",
+    "docs/goals.xml",
+    "docs/goals.html",
     "img/dalle-toothbrush-family-1920.jpeg",
     "book-review/the-power-of-habit.md",
     "img/book-the-power-of-habit.jpeg",
     "docs/_templates/new-post.md",
-    "gratitude/toothbrush.md",
     "goals/2024-01-08-goals.md",
     "lists/reading-list.md",
     "tech/a-knife-to-a-gun-fight.md",
@@ -152,7 +163,6 @@
     "docs/goals/2024-01-08-goals.html",
     "docs/goals",
     "goals.qmd",
-    "lists/ai.md",
     "book-review/socrates-a-life-worth-living.md",
     "book-review/killers-of-the-flower-moon.md",
     "book-review/steve-jobs-biography.md",
@@ -164,19 +174,9 @@
     "book-review/the-best-of-edgar-allen-poe.md",
     "book-review/unbelievable.md",
     "book-review/innovators-dilemma.md",
-    "book-review/dune.md",
-    "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
-    "_templates/new-post.md",
-    "creative/vacation.md",
-    "goals",
-    "creative/ice-baths.md",
-    "creative/the-thief-of-time.md",
     "docs/img/dalle-rocky-balboa-expert.jpeg",
-    "docs/posts/becoming-an-expert.html",
     "img/dalle-time-robbing-time-hourglass-clock.jpeg",
-    "posts/becoming-an-expert.md",
     "docs/img/photo-lds-chapel.jpeg",
-    "img/dalle-rocky-balboa-expert.jpeg",
-    "img/photo-lds-chapel.jpeg"
+    "img/dalle-rocky-balboa-expert.jpeg"
   ]
 }
