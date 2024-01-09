@@ -2,6 +2,7 @@
   {
     "listing": "/sitemap.html",
     "items": [
+      "/posts/whats-your-decision-framework.html",
       "/posts/organization-and-minimalism.html",
       "/goals/2024-01-09-goals.html",
       "/lists/reading-ethos.html",
@@ -192,6 +193,7 @@
   {
     "listing": "/all.html",
     "items": [
+      "/posts/whats-your-decision-framework.html",
       "/posts/organization-and-minimalism.html",
       "/lists/reading-ethos.html",
       "/gratitude/audiobooks.html",
@@ -339,56 +341,9 @@
     ]
   },
   {
-    "listing": "/concepts.html",
-    "items": [
-      "/concepts/hand-of-god.html"
-    ]
-  },
-  {
-    "listing": "/lists.html",
-    "items": [
-      "/lists/ai.html",
-      "/lists/legal-ai.html",
-      "/lists/reading-ethos.html",
-      "/lists/reading-list.html",
-      "/lists/writing-ethos.html"
-    ]
-  },
-  {
-    "listing": "/books.html",
-    "items": [
-      "/book-review/dune-messiah.html",
-      "/book-review/leonardo-da-vinci.html",
-      "/book-review/steve-jobs-biography.html",
-      "/book-review/socrates-a-life-worth-living.html",
-      "/book-review/innovators-dilemma.html",
-      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
-      "/book-review/dune.html",
-      "/book-review/the-best-of-edgar-allen-poe.html",
-      "/book-review/killers-of-the-flower-moon.html",
-      "/book-review/unbelievable.html",
-      "/book-review/101-essays-to-make-you-think.html",
-      "/book-review/hitchhikers-guide-to-the-galaxy.html",
-      "/book-review/scientific-freedom.html",
-      "/book-review/getting-things-done.html",
-      "/book-review/the-power-of-habit.html"
-    ]
-  },
-  {
-    "listing": "/tech.html",
-    "items": [
-      "/tech/a-knife-to-a-gun-fight.html",
-      "/tech/ai-will-not-replace-human-creativity.html",
-      "/tech/what-startups-and-musicians-have-in-common.html",
-      "/tech/the-future-wave-of-ai-hype.html",
-      "/tech/dreaming-software.html",
-      "/tech/why-we-want-new-software.html",
-      "/tech/swapping-out-human-labor-for-ai.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
+      "/posts/whats-your-decision-framework.html",
       "/posts/organization-and-minimalism.html",
       "/book-review/dune-messiah.html",
       "/tech/a-knife-to-a-gun-fight.html",
@@ -469,6 +424,54 @@
       "/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html",
       "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
       "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html"
+    ]
+  },
+  {
+    "listing": "/tech.html",
+    "items": [
+      "/tech/a-knife-to-a-gun-fight.html",
+      "/tech/ai-will-not-replace-human-creativity.html",
+      "/tech/what-startups-and-musicians-have-in-common.html",
+      "/tech/the-future-wave-of-ai-hype.html",
+      "/tech/dreaming-software.html",
+      "/tech/why-we-want-new-software.html",
+      "/tech/swapping-out-human-labor-for-ai.html"
+    ]
+  },
+  {
+    "listing": "/books.html",
+    "items": [
+      "/book-review/dune-messiah.html",
+      "/book-review/leonardo-da-vinci.html",
+      "/book-review/steve-jobs-biography.html",
+      "/book-review/socrates-a-life-worth-living.html",
+      "/book-review/innovators-dilemma.html",
+      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
+      "/book-review/dune.html",
+      "/book-review/the-best-of-edgar-allen-poe.html",
+      "/book-review/killers-of-the-flower-moon.html",
+      "/book-review/unbelievable.html",
+      "/book-review/101-essays-to-make-you-think.html",
+      "/book-review/hitchhikers-guide-to-the-galaxy.html",
+      "/book-review/scientific-freedom.html",
+      "/book-review/getting-things-done.html",
+      "/book-review/the-power-of-habit.html"
+    ]
+  },
+  {
+    "listing": "/lists.html",
+    "items": [
+      "/lists/ai.html",
+      "/lists/legal-ai.html",
+      "/lists/reading-ethos.html",
+      "/lists/reading-list.html",
+      "/lists/writing-ethos.html"
+    ]
+  },
+  {
+    "listing": "/concepts.html",
+    "items": [
+      "/concepts/hand-of-god.html"
     ]
   }
 ]

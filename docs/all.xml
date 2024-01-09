@@ -10,7 +10,56 @@
 <atom:link href="https://www.bryanwhiting.com/all.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Tue, 09 Jan 2024 10:38:11 GMT</lastBuildDate>
+<lastBuildDate>Tue, 09 Jan 2024 13:42:00 GMT</lastBuildDate>
+<item>
+  <title>What’s your decision framework?</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/whats-your-decision-framework.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Annie Duke asks the question “how do you make decisions? What’s your framework?” (<a href="../book-review/how-to-decide-simple-tools-for-making-better-choices.html">How to Decide: Simple Tools for Making Better Choices</a>)</p>
+<p>She remarks that many people don’t have one. Many CEO’s just go off their gut.</p>
+<p>I encountered this in my investing days (ahem, internship). I lead a discussion on a paper I had read about how emotions affect our judgment and investment decisions.</p>
+<p>I proposed an idea: that the investors should make a spreadsheet with labels on their feelings for that decision. They can use this as further information later on when evaluating their buy/sell/holding decisions.</p>
+<p>I was laughed out of the room.</p>
+<p>“Hey! Why don’t we all get some mood rings?!” Well, that guy (the boss) was later fired, but that’s not the point.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-unhappy-investor-vector.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Don’t let your emotions cloud your judgment.</figcaption>
+</figure>
+</div>
+<p>Point is: if you think you’re making decisions independent of your emotions, you’re incredibly mistaken. Judgment is based off reason and gut. Decisions usually rely on gut though. You have to “feel good”.</p>
+<p>I had seen this boss make many decisions without explaining his thinking. “Hold.” Why? The company is tanking per reports. “Sell”, but this one’s looking good!</p>
+<p>The point is nobody could replicate his decision making. Half the time it felt arbitrary.</p>
+<p>Only later did I learn that one of the most famous investment company, Bridgewater Capital, does this very thing. It’s not for everybody, nor do I do it, but I think it’s a good idea 😄. # proposal</p>
+<p>Make a spreadsheet for your decisions.</p>
+<ul>
+<li>What to decide</li>
+<li>Description</li>
+<li>Decision: what you chose</li>
+<li>Rationale: why you chose it</li>
+<li>Facts: supporting facts</li>
+<li>Emotional Reasoning: how you “felt” about it.</li>
+</ul>
+<p>Do this for all decisions: even the “hold” decisions (maintain status quo). Because decision to not change course is a decision in and of itself.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>insights from books</category>
+  <category>investing</category>
+  <category>memories</category>
+  <category>personal stories</category>
+  <category>emotional intelligence</category>
+  <guid>https://www.bryanwhiting.com/posts/whats-your-decision-framework.html</guid>
+  <pubDate>Tue, 09 Jan 2024 13:42:00 GMT</pubDate>
+</item>
 <item>
   <title>Organization and Minimalism</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -748,28 +797,6 @@ So my dad got a desk job. And so did I.</p>
   <category>music</category>
   <guid>https://www.bryanwhiting.com/tech/what-startups-and-musicians-have-in-common.html</guid>
   <pubDate>Thu, 04 Jan 2024 20:53:53 GMT</pubDate>
-</item>
-<item>
-  <title>The future wave of AI hype</title>
-  <link>https://www.bryanwhiting.com/tech/the-future-wave-of-ai-hype.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Reading about Airplane’s failure per OnlyCFO. A few notable quotes:</p>
-<blockquote class="blockquote">
-<p>Airplane’s shutdown and future shutdowns like this will have negative consequences for many early stage companies. For many years buyers of these tools haven’t had to deal with a tool being abruptly killed. It only takes this happening once for you to really second guess purchasing a startup tool that is mission critical, deeply integrated, or would take a long time to replace.</p>
-</blockquote>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>tech</category>
-  <category>news</category>
-  <guid>https://www.bryanwhiting.com/tech/the-future-wave-of-ai-hype.html</guid>
-  <pubDate>Thu, 04 Jan 2024 20:32:46 GMT</pubDate>
 </item>
 </channel>
 </rss>
