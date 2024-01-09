@@ -6,43 +6,48 @@ updated: 2024-01-04T10:16:37
 categories: 
 draft: false
 ---
+### Business books/Self Help
+- [ ] How to win friends and influence people #spotify 
+- [ ] This is Marketing #audible
+- [ ] Ten Day MBA #audible 
+- [ ] Wealth of Nations #youtube https://www.youtube.com/watch?v=PH4B-SGf6-A
 
-- [ ] How to win friends and influence people
+### Fiction
+- [ ] The Great Gatsby #libby 
+- [ ] brave new world #libby
+- [ ] Count of Monte Cristo #libby
+- [ ] Neuromancer #libby 
+- [ ] Animal farm #libby 
+- [ ] Les Mis #libby 
+- [ ] To Kill a Mockingbird #libby 
+- [ ] Foundation #libby 
 
-Audible
-- [ ] This is marketing
-- [ ] Ten Day MBA
+To finish
+- [ ] 1984 #youtube
 
-Spotify
+### Biography/History/Anthropology
+- [ ] Sapiens #libby
+- [ ] Guns germs and steel #libby 
+- [ ] Elon Musk #libby 
 
+### Religion and Philosophy
+- [ ] Paradise Lost and Paradise Regained #libby 
+- [ ] Mere Christianity #libby 
+
+# Backlog
 - [x] [killers-of-the-flower-moonyfg if](book-review/killers-of-the-flower-moonyfg%20if.md)
-- [ ] [how-to-decide-simple-tools-for-making-better-choices](book-review/how-to-decide-simple-tools-for-making-better-choices.md)
+- [x] [how-to-decide-simple-tools-for-making-better-choices](book-review/how-to-decide-simple-tools-for-making-better-choices.md)
 
 Libby:
-- [ ] Edgar Allen Poe
-- [ ] Count of Monte Cristo
 - [x] [Dune](dune.md)
 
-YouTube
-- [ ] 1984
-
 Literature
-- [ ] The great gatsby
 - [ ] One hundred years of solitude
 - [ ] Anna Karenina
 - [ ] War and peace
 - [ ] Don Quixote
-- [ ] Les Mis
-- [ ] Animal farm
 - [ ] In Search of lost time
 - [ ] Beloved - Toni Morrison
-- [ ] To kill a mockingbird
-- [ ] Neuromancer
-- [ ] Brave new world
-- [ ] Foundation
 - [ ] Catcher in the Rye
 - [ ] Of mice and men
-- [ ] Grapes of Wrath  
-Others
-- [ ] Wealth of Nations
-- [ ] Guns, germs, steel
+- [ ] Grapes of Wrath

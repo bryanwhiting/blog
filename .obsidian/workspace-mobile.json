@@ -11,9 +11,11 @@
             "id": "be767112276aa446",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "img/dalle-ai.jpeg"
+                "file": "gratitude/toothbrush.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "img/dalle-ai.jpeg",
+            "file": "gratitude/toothbrush.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "img/dalle-ai.jpeg"
+            "file": "gratitude/toothbrush.md"
           }
         }
       },
@@ -110,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "img/dalle-ai.jpeg",
+            "file": "gratitude/toothbrush.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -128,14 +130,33 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "78912cccc2282195",
+  "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-toothbrush-family-1920.jpeg",
+    "book-review/the-power-of-habit.md",
+    "img/book-the-power-of-habit.jpeg",
+    "docs/_templates/new-post.md",
+    "gratitude/toothbrush.md",
+    "goals/2024-01-08-goals.md",
+    "lists/reading-list.md",
+    "tech/a-knife-to-a-gun-fight.md",
+    "img/dalle-knife-gun-fight.jpeg",
+    "img/dalle-ai.jpeg",
+    "docs/creative/vacation.html",
+    "docs/creative/ice-baths.html",
+    "docs/creative/the-thief-of-time.html",
+    "docs/img/dalle-ai.jpeg",
+    "docs/img/dalle-time-robbing-time-hourglass-clock.jpeg",
+    "docs/lists/ai.html",
+    "docs/lists/reading-list.html",
+    "docs/goals/2024-01-08-goals.html",
+    "docs/goals",
+    "goals.qmd",
     "lists/ai.md",
     "book-review/socrates-a-life-worth-living.md",
     "book-review/killers-of-the-flower-moon.md",
     "book-review/steve-jobs-biography.md",
     "book-review/leonardo-da-vinci.md",
-    "lists/reading-list.md",
     "book-review/101-essays-to-make-you-think.md",
     "book-review/getting-things-done.md",
     "book-review/hitchhikers-guide-to-the-galaxy.md",
@@ -145,7 +166,6 @@
     "book-review/innovators-dilemma.md",
     "book-review/dune.md",
     "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
-    "goals/2024-01-08-goals.md",
     "_templates/new-post.md",
     "creative/vacation.md",
     "goals",
@@ -155,26 +175,8 @@
     "docs/posts/becoming-an-expert.html",
     "img/dalle-time-robbing-time-hourglass-clock.jpeg",
     "posts/becoming-an-expert.md",
-    "Untitled.md",
     "docs/img/photo-lds-chapel.jpeg",
-    "docs/scriptures/john-3.16.html",
-    "docs/sacrament-symbols/vaulted-ceiling.html",
-    "docs/sacrament-symbols",
     "img/dalle-rocky-balboa-expert.jpeg",
-    "LOGGING-NOTE (iPhone).md",
-    "sacrament-symbols/vaulted-ceiling.md",
-    "sacrament-symbols",
-    "scriptures/john-3.16.md",
-    "christianity/my-testimony-2024-01-07.md",
-    "img/photo-lds-chapel.jpeg",
-    "docs/christianity/my-testimony-2024-01-07.html",
-    "docs/christianity/what-does-it-mean-to-preside.html",
-    "docs/concepts/hand-of-god.html",
-    "docs/concepts",
-    "docs/img/dalle-u-haul-moving.jpeg",
-    "docs/img/dalle-water-color-a-mother-hen-with-a-chicken-under-her-wing-as-its-raining.jpeg",
-    "img/dalle-water-color-a-mother-hen-with-a-chicken-under-her-wing-as-its-raining.jpeg",
-    "docs/img/dalle-subaru-hill.jpeg",
-    "img/dalle-subaru-hill.jpeg"
+    "img/photo-lds-chapel.jpeg"
   ]
 }
