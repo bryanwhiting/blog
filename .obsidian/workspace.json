@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "creative/poem-the-dove-evermore.md",
+                "file": "christianity/three-little-pigs-christ.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "creative/poem-the-dove-evermore.md",
+                "file": "christianity/three-little-pigs-christ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "creative/poem-the-dove-evermore.md",
+                "file": "christianity/three-little-pigs-christ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "creative/poem-the-dove-evermore.md"
+                "file": "christianity/three-little-pigs-christ.md"
               }
             }
           }
@@ -160,51 +160,51 @@
   },
   "active": "3e0940abb38815d5",
   "lastOpenFiles": [
-    "_templates/new-post.md",
-    "gratitude/hard-work.md",
-    "creative/poem-the-dove-evermore.md",
-    "docs/sitemap-listing.json",
-    "docs/creative-listing.json",
-    "docs/creative.feed-full-staged",
-    "sitemap-listing.json",
-    "sitemap.html",
-    "sitemap_files/mediabag",
-    "sitemap_files",
-    "creative-listing.json",
-    "creative.feed-full-staged",
-    "site_libs/quarto-listing/quarto-listing.js",
-    "creative/test.md",
-    "quarto_templates/README.md",
-    "docs/docs/docs/docs/docs/renv/library/R-4.1/x86_64-apple-darwin17.0/renv/NEWS.md",
-    "docs/docs/docs/docs/renv/library/R-4.1/x86_64-apple-darwin17.0/renv/NEWS.md",
-    "docs/docs/docs/renv/library/R-4.1/x86_64-apple-darwin17.0/renv/NEWS.md",
-    "docs/docs/renv/library/R-4.1/x86_64-apple-darwin17.0/renv/NEWS.md",
-    "docs/renv/library/R-4.1/x86_64-apple-darwin17.0/renv/NEWS.md",
-    "creative/the-dove-evermore.md",
-    "scriptures/testimony-of-eight-witnesses.md",
-    "docs/img/dalle-raise-your-light.jpeg",
-    "docs/img/dalle-plant-a-seed-and-grow.jpeg",
-    "scriptures/russell-m-nelson-revelation-for-the-church-revelation-for-our-lives.md",
-    "scriptures/mosiah-3.5.md",
-    "scriptures/mosiah-18.9.md",
-    "scriptures/moroni-10.4.md",
-    "scriptures/matthew-5.45.md",
-    "scriptures/matthew-16.15-17.md",
-    "scriptures/leviticus-19.18.md",
-    "scriptures/alma-32.34-36.md",
-    "scriptures/alma-18.26-28.md",
-    "scriptures/alma-32.16-18.md",
-    "scriptures/alma-32.28.md",
-    "scriptures/1-kings-19.11-12.md",
-    "scriptures/2-nephi-32.9.md",
-    "christianity/let-your-light-so-shine.md",
-    "img/dalle-plant-growing-cartoon.jpeg",
-    "img/dalle-plant-a-seed-and-grow.jpeg",
-    "img/dalle-raise-your-light.jpeg",
-    "img/dalle-musician-signing-record-label-watercolors.jpeg",
-    "img/dalle-listening-to-music-colorful.jpeg",
-    "img/dalle-king-one-voice-to-rule.jpeg",
-    "img/dalle-hockey-shots-surreal-impressionist-water.jpeg",
-    "img/dalle-dove-windowsill-messy-toys-light.jpeg"
+    "tech/a-knife-to-a-gun-fight.md",
+    "scriptures/the-family-proclamation.md",
+    "scriptures/russell-m-nelson-the-book-of-mormon-what-would-your-life-be-like-without-it.md",
+    "scriptures/russell-m-nelson-make-time-for-the-lord.md",
+    "scriptures/mosiah-5.7-8.md",
+    "scriptures/john-3.16.md",
+    "scriptures/introduction.md",
+    "scriptures/ephesians-4.4-6.md",
+    "scriptures/doctrine-and-covenants-107.60-62.md",
+    "scriptures/dale-g-renlund-the-priesthood-and-the-saviors-atoning-power.md",
+    "scriptures/3-nephi-10.4-5.md",
+    "scriptures/2-nephi-9.51.md",
+    "scriptures/2-nephi-25.26.md",
+    "scriptures/1-nephi-8.10.md",
+    "scriptures/1-nephi-5.5.md",
+    "scriptures/1-nephi-5.21.md",
+    "scriptures/1-nephi-3.7.md",
+    "sacrament-symbols/vaulted-ceiling.md",
+    "sacrament-symbols",
+    "posts/organization-and-minimalism.md",
+    "posts/becoming-an-expert.md",
+    "lists/reading-list.md",
+    "lists/reading-ethos.md",
+    "lists/legal-ai.md",
+    "lists/ai.md",
+    "img/photo-lds-chapel.jpeg",
+    "img/dalle-white-fruit-delicious-zoom-in.jpeg",
+    "img/dalle-water-color-a-mother-hen-with-a-chicken-under-her-wing-as-its-raining.jpeg",
+    "img/dalle-u-haul-moving.jpeg",
+    "img/dalle-toothbrush-family-1920.jpeg",
+    "img/dalle-time-robbing-time-hourglass-clock.jpeg",
+    "img/dalle-subaru-hill.jpeg",
+    "img/dalle-rocky-balboa-expert.jpeg",
+    "img/dalle-knife-gun-fight.jpeg",
+    "img/dalle-headphones-audiobook-doing-dishes.jpeg",
+    "gratitude/toothbrush.md",
+    "gratitude/cars.md",
+    "goals",
+    "goals.qmd",
+    "docs/tech/a-knife-to-a-gun-fight.html",
+    "docs/scriptures/the-family-proclamation.html",
+    "docs/scriptures/russell-m-nelson-the-book-of-mormon-what-would-your-life-be-like-without-it.html",
+    "docs/scriptures/russell-m-nelson-make-time-for-the-lord.html",
+    "docs/scriptures/mosiah-5.7-8.html",
+    "docs/scriptures/john-3.16.html",
+    "docs/scriptures/introduction.html"
   ]
 }

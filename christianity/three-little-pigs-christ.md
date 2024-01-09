@@ -7,7 +7,7 @@ categories: [book review, christianity]
 draft: false
 ---
 
-![](../../img/dalle-three-pigs.jpeg) 
+![](../img/dalle-three-pigs.jpeg) 
 
 ## first glance
 
