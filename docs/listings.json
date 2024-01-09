@@ -2,6 +2,9 @@
   {
     "listing": "/sitemap.html",
     "items": [
+      "/book-review/the-power-of-habit.html",
+      "/gratitude/toothbrush.html",
+      "/tech/a-knife-to-a-gun-fight.html",
       "/goals/2024-01-08-goals.html",
       "/creative/the-thief-of-time.html",
       "/posts/becoming-an-expert.html",
@@ -176,6 +179,9 @@
   {
     "listing": "/all.html",
     "items": [
+      "/book-review/the-power-of-habit.html",
+      "/gratitude/toothbrush.html",
+      "/tech/a-knife-to-a-gun-fight.html",
       "/posts/becoming-an-expert.html",
       "/christianity/my-testimony-2024-01-07.html",
       "/christianity/what-does-it-mean-to-preside.html",
@@ -289,6 +295,7 @@
   {
     "listing": "/gratitude.html",
     "items": [
+      "/gratitude/toothbrush.html",
       "/gratitude/cars.html",
       "/gratitude/haircuts.html",
       "/gratitude/time.html",
@@ -305,6 +312,12 @@
     ]
   },
   {
+    "listing": "/goals.html",
+    "items": [
+      "/goals/2024-01-08-goals.html"
+    ]
+  },
+  {
     "listing": "/concepts.html",
     "items": [
       "/concepts/hand-of-god.html"
@@ -313,6 +326,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/book-review/the-power-of-habit.html",
+      "/tech/a-knife-to-a-gun-fight.html",
       "/posts/becoming-an-expert.html",
       "/tech/ai-will-not-replace-human-creativity.html",
       "/tech/what-startups-and-musicians-have-in-common.html",
@@ -394,6 +409,7 @@
   {
     "listing": "/tech.html",
     "items": [
+      "/tech/a-knife-to-a-gun-fight.html",
       "/tech/ai-will-not-replace-human-creativity.html",
       "/tech/what-startups-and-musicians-have-in-common.html",
       "/tech/the-future-wave-of-ai-hype.html",
@@ -405,6 +421,7 @@
   {
     "listing": "/books.html",
     "items": [
+      "/book-review/the-power-of-habit.html",
       "/book-review/leonardo-da-vinci.html",
       "/book-review/steve-jobs-biography.html",
       "/book-review/socrates-a-life-worth-living.html",
@@ -426,12 +443,6 @@
       "/lists/ai.html",
       "/lists/reading-list.html",
       "/lists/writing-ethos.html"
-    ]
-  },
-  {
-    "listing": "/goals.html",
-    "items": [
-      "/goals/2024-01-08-goals.html"
     ]
   }
 ]

@@ -42,7 +42,7 @@ draft: false`;
 if (folder === 'book-review') {  
 	content += `  
 date-start: "${date}"
-date-finished: "2030-01-01"
+date-finished: 
 pct-complete:`;
 } 
 
