@@ -2,10 +2,18 @@
   {
     "listing": "/sitemap.html",
     "items": [
+      "/christianity/scriptures-within-scriptures.html",
+      "/book-review/dune-messiah.html",
+      "/lists/legal-ai.html",
       "/book-review/the-power-of-habit.html",
       "/gratitude/toothbrush.html",
       "/tech/a-knife-to-a-gun-fight.html",
       "/goals/2024-01-08-goals.html",
+      "/scriptures/1-nephi-3.7.html",
+      "/scriptures/1-nephi-5.21.html",
+      "/scriptures/1-nephi-8.10.html",
+      "/scriptures/2-nephi-25.26.html",
+      "/scriptures/2-nephi-9.51.html",
       "/creative/the-thief-of-time.html",
       "/posts/becoming-an-expert.html",
       "/concepts/hand-of-god.html",
@@ -147,6 +155,7 @@
   {
     "listing": "/christianity.html",
     "items": [
+      "/christianity/scriptures-within-scriptures.html",
       "/christianity/my-testimony-2024-01-07.html",
       "/christianity/what-does-it-mean-to-preside.html",
       "/sacrament-symbols/vaulted-ceiling.html",
@@ -179,6 +188,9 @@
   {
     "listing": "/all.html",
     "items": [
+      "/christianity/scriptures-within-scriptures.html",
+      "/book-review/dune-messiah.html",
+      "/lists/legal-ai.html",
       "/book-review/the-power-of-habit.html",
       "/gratitude/toothbrush.html",
       "/tech/a-knife-to-a-gun-fight.html",
@@ -326,6 +338,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/book-review/dune-messiah.html",
       "/book-review/the-power-of-habit.html",
       "/tech/a-knife-to-a-gun-fight.html",
       "/posts/becoming-an-expert.html",
@@ -421,6 +434,7 @@
   {
     "listing": "/books.html",
     "items": [
+      "/book-review/dune-messiah.html",
       "/book-review/the-power-of-habit.html",
       "/book-review/leonardo-da-vinci.html",
       "/book-review/steve-jobs-biography.html",
@@ -441,6 +455,7 @@
     "listing": "/lists.html",
     "items": [
       "/lists/ai.html",
+      "/lists/legal-ai.html",
       "/lists/reading-list.html",
       "/lists/writing-ethos.html"
     ]
