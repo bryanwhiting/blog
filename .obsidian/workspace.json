@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/come-follow-me-2024-01-14-jan-14.md",
+                "file": "posts/your-mood-is-contagious.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "christianity/come-follow-me-2024-01-14-jan-14.md",
+                "file": "posts/your-mood-is-contagious.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "christianity/come-follow-me-2024-01-14-jan-14.md",
+                "file": "posts/your-mood-is-contagious.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "christianity/come-follow-me-2024-01-14-jan-14.md"
+                "file": "posts/your-mood-is-contagious.md"
               }
             }
           }
@@ -160,6 +160,11 @@
   },
   "active": "3e0940abb38815d5",
   "lastOpenFiles": [
+    "posts/whats-your-decision-framework.md",
+    "concepts/my-mission.md",
+    "posts/the-six-hour-sandwich.md",
+    "concepts/the-church-of-jesus-christ-of-latter-day-saints.md",
+    "christianity/come-follow-me-2024-01-14-jan-14.md",
     "docs/tech/this-drug-is-habit-forming.html",
     "docs/tech/the-matrix.html",
     "docs/site_libs/quarto-contrib/videojs/video.min.js",
@@ -170,7 +175,6 @@
     "docs/scriptures/alma-37.7.html",
     "docs/scriptures/2-nephi-28.30.html",
     "docs/scriptures/1-nephi-1.7-8.html",
-    "docs/scriptures/1-nephi-1.5.html",
     "docs/img/dalle-three-pigs.jpeg",
     "docs/img/dalle-pillar-of-fire-on-rock.jpeg",
     "docs/img/dalle-habit-forming-drug.jpeg",
@@ -188,9 +192,6 @@
     "scriptures/1-nephi-1.7-8.md",
     "scriptures/1-nephi-1.5.md",
     "scriptures/1-nephi-1.5-6.md",
-    "posts/the-six-hour-sandwich.md",
-    "posts/the-church-of-jesus-christ-of-latter-day-saints.md",
-    "posts/my-mission.md",
     "img/photo-sandwich-avocado.jpeg",
     "img/dalle-pillar-of-fire-on-rock.jpeg",
     "gratitude/small-things.md",
@@ -202,7 +203,6 @@
     "christianity/he-prepares-us-to-teach-us.md",
     "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
     "gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.md",
-    "christianity/come-follow-me-2024-01-14-jan-14.md",
     "christianity/come-follow-me-2024-01-07-jan-7.md",
     "christianity/cfm-2023-12-31-rev-15-21.md",
     "lists/gratitude-backlog.md"
