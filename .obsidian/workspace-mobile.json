@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/whats-your-decision-framework.md",
+                "file": "christianity/praying-for-other-people.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/whats-your-decision-framework.md",
+            "file": "christianity/praying-for-other-people.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/whats-your-decision-framework.md"
+            "file": "christianity/praying-for-other-people.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/whats-your-decision-framework.md",
+            "file": "christianity/praying-for-other-people.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,9 +132,19 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "scriptures/1-nephi-1.5.md",
+    "tech/this-drug-is-habit-forming.md",
+    "christianity/praying-for-other-people.md",
+    "img/dalle-habit-forming-drug.jpeg",
+    "tech/the-matrix.md",
+    "tech/a-knife-to-a-gun-fight.md",
+    "img/dalle-alone-in-a-crowded-room.jpeg",
+    "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
+    "img/book-the-oxford-inklings.jpeg",
+    "lists/reading-list.md",
+    "posts/whats-your-decision-framework.md",
     "img/dalle-unhappy-investor-vector.jpeg",
     "book-review/the-power-of-habit.md",
-    "posts/whats-your-decision-framework.md",
     "book-review/dune-messiah.md",
     "img/book-dune-messiah.jpeg",
     "posts/organization-and-minimalism.md",
@@ -151,7 +161,6 @@
     "docs/img/dalle-knife-gun-fight.jpeg",
     "docs/img/dalle-toothbrush-family-1920.jpeg",
     "docs/book-review/the-power-of-habit.html",
-    "img/dalle-white-fruit-delicious-zoom-in.jpeg",
     "scriptures/2-nephi-9.51.md",
     "scriptures/1-nephi-8.10.md",
     "scriptures/1-nephi-3.7.md",
@@ -161,22 +170,13 @@
     "gratitude/toothbrush.md",
     "docs/goals.xml",
     "docs/goals.html",
-    "img/dalle-toothbrush-family-1920.jpeg",
-    "img/book-the-power-of-habit.jpeg",
     "docs/_templates/new-post.md",
     "goals/2024-01-08-goals.md",
-    "lists/reading-list.md",
-    "tech/a-knife-to-a-gun-fight.md",
-    "img/dalle-knife-gun-fight.jpeg",
     "docs/creative/vacation.html",
     "docs/creative/ice-baths.html",
     "docs/creative/the-thief-of-time.html",
     "docs/lists/ai.html",
     "docs/lists/reading-list.html",
-    "book-review/socrates-a-life-worth-living.md",
-    "book-review/killers-of-the-flower-moon.md",
-    "book-review/steve-jobs-biography.md",
-    "book-review/leonardo-da-vinci.md",
-    "book-review/101-essays-to-make-you-think.md"
+    "book-review/socrates-a-life-worth-living.md"
   ]
 }

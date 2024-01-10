@@ -21,6 +21,7 @@ draft: false
 - [ ] Les Mis #libby 
 - [ ] To Kill a Mockingbird #libby 
 - [ ] Foundation #libby 
+- [ ] Wool #libby 
 
 To finish
 - [ ] 1984 #youtube
@@ -29,6 +30,8 @@ To finish
 - [ ] Sapiens #libby
 - [ ] Guns germs and steel #libby 
 - [ ] Elon Musk #libby 
+- [ ] The Inklings #spotify 6hr
+- [ ] The coddling of the American Mind #libby 
 
 ### Religion and Philosophy
 - [ ] Paradise Lost and Paradise Regained #libby 
