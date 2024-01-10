@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "news",
+      "path": "lists/news.md"
+    },
+    {
+      "basename": "reading-list",
+      "path": "lists/reading-list.md"
+    },
+    {
+      "basename": "attention-is-increased-capacity-to-handle-multiple-ideas-increases-without-social-media",
+      "path": "posts/attention-is-increased-capacity-to-handle-multiple-ideas-increases-without-social-media.md"
+    },
+    {
       "basename": "praying-for-other-people",
       "path": "christianity/praying-for-other-people.md"
     },
@@ -43,10 +55,6 @@
     {
       "basename": "gratus-sum-ergo-habeo",
       "path": "concepts/gratus-sum-ergo-habeo.md"
-    },
-    {
-      "basename": "my-mission",
-      "path": "posts/my-mission.md"
     }
   ],
   "omittedPaths": [],

@@ -34,6 +34,7 @@ To finish
 - [ ] Elon Musk #libby 
 - [ ] The Inklings #spotify 6hr
 - [ ] The coddling of the American Mind #libby 
+- [ ] The Tyrrany of Experts #libby 
 
 ### Religion and Philosophy
 - [ ] Paradise Lost and Paradise Regained #libby 
