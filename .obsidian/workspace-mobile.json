@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/the-power-of-habit.md",
+                "file": "posts/whats-your-decision-framework.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "book-review/the-power-of-habit.md",
+            "file": "posts/whats-your-decision-framework.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "book-review/the-power-of-habit.md"
+            "file": "posts/whats-your-decision-framework.md"
           }
         }
       },
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "book-review/the-power-of-habit.md",
+            "file": "posts/whats-your-decision-framework.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,6 +132,9 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-unhappy-investor-vector.jpeg",
+    "book-review/the-power-of-habit.md",
+    "posts/whats-your-decision-framework.md",
     "book-review/dune-messiah.md",
     "img/book-dune-messiah.jpeg",
     "posts/organization-and-minimalism.md",
@@ -159,7 +162,6 @@
     "docs/goals.xml",
     "docs/goals.html",
     "img/dalle-toothbrush-family-1920.jpeg",
-    "book-review/the-power-of-habit.md",
     "img/book-the-power-of-habit.jpeg",
     "docs/_templates/new-post.md",
     "goals/2024-01-08-goals.md",
@@ -175,7 +177,6 @@
     "book-review/killers-of-the-flower-moon.md",
     "book-review/steve-jobs-biography.md",
     "book-review/leonardo-da-vinci.md",
-    "book-review/101-essays-to-make-you-think.md",
-    "book-review/getting-things-done.md"
+    "book-review/101-essays-to-make-you-think.md"
   ]
 }

@@ -20,6 +20,69 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -317,6 +380,605 @@ ga('send', {
 <p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;1: Goals</figcaption><p></p>
 </figure>
 </div>
+</div>
+</div>
+<div class="cell page-columns page-full" data-caption="Recent streak">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gt)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>df2_recent <span class="ot">&lt;-</span> df2 <span class="sc">%&gt;%</span> </span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(date <span class="sc">&gt;=</span> <span class="fu">max</span>(date) <span class="sc">-</span> <span class="dv">13</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(date)) <span class="sc">%&gt;%</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Day</span><span class="st">`</span> <span class="ot">=</span> date,</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Pray</span><span class="st">`</span><span class="ot">=</span>pray,</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Meditate</span><span class="st">`</span> <span class="ot">=</span> meditate,</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Study Post</span><span class="st">`</span> <span class="ot">=</span> post_cfm_study,</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Gratitude Post</span><span class="st">`</span> <span class="ot">=</span> post_gratitude,</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Cardio</span><span class="st">`</span> <span class="ot">=</span> cardio,</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Strength</span><span class="st">`</span> <span class="ot">=</span> strength</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  ) </span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Assuming your data frame is named 'data'</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co"># First, convert the 'Day' column to the desired format</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>df2_recent<span class="sc">$</span>Day <span class="ot">&lt;-</span> <span class="fu">format</span>(<span class="fu">as.Date</span>(df2_recent<span class="sc">$</span>Day), <span class="st">"%a %b %d"</span>)</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>df2_recent <span class="sc">%&gt;%</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gt</span>(<span class="at">rowname_col =</span> <span class="st">"Day"</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">data_color</span>(</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">columns =</span> <span class="fu">c</span>(<span class="dv">2</span><span class="sc">:</span><span class="dv">7</span>),  <span class="co"># replace with the actual column indices or names</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">colors =</span> scales<span class="sc">::</span><span class="fu">col_bin</span>(</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>      <span class="at">bins =</span> <span class="fu">c</span>(<span class="sc">-</span><span class="cn">Inf</span>, <span class="fl">0.5</span>, <span class="cn">Inf</span>),  <span class="co"># defining bins to separate 0 and 1</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>      <span class="at">palette =</span> <span class="fu">c</span>(<span class="st">"white"</span>, <span class="st">"darkgreen"</span>),  <span class="co"># white for 0, dark green for 1</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>      <span class="at">domain =</span> <span class="cn">NULL</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tab_style</span>(</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">style =</span> <span class="fu">list</span>(</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>      <span class="fu">cell_text</span>(<span class="at">color =</span> <span class="st">"transparent"</span>)</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>    ),</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>    <span class="at">locations =</span> <span class="fu">cells_body</span>(</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>      <span class="at">columns =</span> <span class="fu">c</span>(<span class="dv">2</span><span class="sc">:</span><span class="dv">7</span>)  <span class="co"># replace with the actual column indices or names</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>  ) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Since gt v0.9.0, the `colors` argument has been deprecated.
+• Please use the `fn` argument instead.
+This warning is displayed once every 8 hours.</code></pre>
+</div>
+<div id="fig-goals-table" class="quarto-figure quarto-figure-center anchored page-columns page-full">
+<figure class="figure page-columns page-full">
+
+<div id="eynqrajfdg" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#eynqrajfdg table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#eynqrajfdg thead, #eynqrajfdg tbody, #eynqrajfdg tfoot, #eynqrajfdg tr, #eynqrajfdg td, #eynqrajfdg th {
+  border-style: none;
+}
+
+#eynqrajfdg p {
+  margin: 0;
+  padding: 0;
+}
+
+#eynqrajfdg .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#eynqrajfdg .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#eynqrajfdg .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#eynqrajfdg .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#eynqrajfdg .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#eynqrajfdg .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#eynqrajfdg .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#eynqrajfdg .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#eynqrajfdg .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#eynqrajfdg .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#eynqrajfdg .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#eynqrajfdg .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#eynqrajfdg .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#eynqrajfdg .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#eynqrajfdg .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#eynqrajfdg .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#eynqrajfdg .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#eynqrajfdg .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#eynqrajfdg .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#eynqrajfdg .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#eynqrajfdg .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#eynqrajfdg .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#eynqrajfdg .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#eynqrajfdg .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#eynqrajfdg .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#eynqrajfdg .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#eynqrajfdg .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#eynqrajfdg .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#eynqrajfdg .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#eynqrajfdg .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#eynqrajfdg .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#eynqrajfdg .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#eynqrajfdg .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#eynqrajfdg .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#eynqrajfdg .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#eynqrajfdg .gt_left {
+  text-align: left;
+}
+
+#eynqrajfdg .gt_center {
+  text-align: center;
+}
+
+#eynqrajfdg .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#eynqrajfdg .gt_font_normal {
+  font-weight: normal;
+}
+
+#eynqrajfdg .gt_font_bold {
+  font-weight: bold;
+}
+
+#eynqrajfdg .gt_font_italic {
+  font-style: italic;
+}
+
+#eynqrajfdg .gt_super {
+  font-size: 65%;
+}
+
+#eynqrajfdg .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#eynqrajfdg .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#eynqrajfdg .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#eynqrajfdg .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#eynqrajfdg .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#eynqrajfdg .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#eynqrajfdg .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+  <thead>
+    
+    <tr class="gt_col_headings">
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id=""></th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Pray">Pray</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Meditate">Meditate</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Study Post">Study Post</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Gratitude Post">Gratitude Post</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Cardio">Cardio</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Strength">Strength</th>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><th id="stub_1_1" scope="row" class="gt_row gt_left gt_stub">Tue Jan 09</th>
+<td headers="stub_1_1 Pray" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
+<td headers="stub_1_1 Meditate" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
+<td headers="stub_1_1 Study Post" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_1 Gratitude Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
+<td headers="stub_1_1 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_1 Strength" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td></tr>
+    <tr><th id="stub_1_2" scope="row" class="gt_row gt_left gt_stub">Mon Jan 08</th>
+<td headers="stub_1_2 Pray" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
+<td headers="stub_1_2 Meditate" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
+<td headers="stub_1_2 Study Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
+<td headers="stub_1_2 Gratitude Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
+<td headers="stub_1_2 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_2 Strength" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td></tr>
+    <tr><th id="stub_1_3" scope="row" class="gt_row gt_left gt_stub">Sun Jan 07</th>
+<td headers="stub_1_3 Pray" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_3 Meditate" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_3 Study Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
+<td headers="stub_1_3 Gratitude Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
+<td headers="stub_1_3 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_3 Strength" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td></tr>
+    <tr><th id="stub_1_4" scope="row" class="gt_row gt_left gt_stub">Sat Jan 06</th>
+<td headers="stub_1_4 Pray" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_4 Meditate" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_4 Study Post" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_4 Gratitude Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
+<td headers="stub_1_4 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_4 Strength" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td></tr>
+    <tr><th id="stub_1_5" scope="row" class="gt_row gt_left gt_stub">Fri Jan 05</th>
+<td headers="stub_1_5 Pray" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_5 Meditate" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_5 Study Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
+<td headers="stub_1_5 Gratitude Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
+<td headers="stub_1_5 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_5 Strength" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td></tr>
+    <tr><th id="stub_1_6" scope="row" class="gt_row gt_left gt_stub">Thu Jan 04</th>
+<td headers="stub_1_6 Pray" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_6 Meditate" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_6 Study Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
+<td headers="stub_1_6 Gratitude Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
+<td headers="stub_1_6 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_6 Strength" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td></tr>
+    <tr><th id="stub_1_7" scope="row" class="gt_row gt_left gt_stub">Wed Jan 03</th>
+<td headers="stub_1_7 Pray" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_7 Meditate" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_7 Study Post" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_7 Gratitude Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
+<td headers="stub_1_7 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_7 Strength" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td></tr>
+    <tr><th id="stub_1_8" scope="row" class="gt_row gt_left gt_stub">Tue Jan 02</th>
+<td headers="stub_1_8 Pray" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_8 Meditate" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_8 Study Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
+<td headers="stub_1_8 Gratitude Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
+<td headers="stub_1_8 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_8 Strength" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td></tr>
+    <tr><th id="stub_1_9" scope="row" class="gt_row gt_left gt_stub">Mon Jan 01</th>
+<td headers="stub_1_9 Pray" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_9 Meditate" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_9 Study Post" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_9 Gratitude Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
+<td headers="stub_1_9 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_9 Strength" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td></tr>
+    <tr><th id="stub_1_10" scope="row" class="gt_row gt_left gt_stub">Sun Dec 31</th>
+<td headers="stub_1_10 Pray" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_10 Meditate" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_10 Study Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
+<td headers="stub_1_10 Gratitude Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
+<td headers="stub_1_10 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_10 Strength" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td></tr>
+    <tr><th id="stub_1_11" scope="row" class="gt_row gt_left gt_stub">Sat Dec 30</th>
+<td headers="stub_1_11 Pray" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_11 Meditate" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_11 Study Post" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_11 Gratitude Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
+<td headers="stub_1_11 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_11 Strength" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td></tr>
+    <tr><th id="stub_1_12" scope="row" class="gt_row gt_left gt_stub">Fri Dec 29</th>
+<td headers="stub_1_12 Pray" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_12 Meditate" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_12 Study Post" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_12 Gratitude Post" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_12 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_12 Strength" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td></tr>
+    <tr><th id="stub_1_13" scope="row" class="gt_row gt_left gt_stub">Wed Dec 27</th>
+<td headers="stub_1_13 Pray" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_13 Meditate" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_13 Study Post" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_13 Gratitude Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
+<td headers="stub_1_13 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
+<td headers="stub_1_13 Strength" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td></tr>
+  </tbody>
+  
+  
+</table>
+</div>
+<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;2: <strong>?(caption)</strong></figcaption><p></p>
+</figure>
 </div>
 </div>
 <hr>

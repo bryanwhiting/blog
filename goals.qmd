@@ -144,7 +144,11 @@ ggplot(df3, aes(x = week_of_year, y = day_of_week, fill = total_goals)) +
 
 ```{r}
 #| label: fig-goals-table
-#| caption: Recent streak
+#| fig-cap: Recent streak
+#| label: fig-goals
+#| echo: false
+#| message: false
+#| warning: false#| 
 library(gt)
 df2_recent <- df2 %>% 
   filter(date >= max(date) - 13) %>%
@@ -180,13 +184,7 @@ df2_recent %>%
     locations = cells_body(
       columns = c(2:7)  # replace with the actual column indices or names
     )
-  ) %>%
-  tab_options(
-    column_borders.side = "end",
-    column_borders.color = "white",
-    column_borders.width = px(2)
-  )
-
+  ) 
 ```
 
 ***
