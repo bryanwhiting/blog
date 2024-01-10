@@ -12,7 +12,7 @@ listing:
   filter-ui: [date, title]
   page-size: 30
   grid-item-border: true
-  feed: true
+  feed: false
   categories: cloud
 execute:
   echo: false
@@ -153,20 +153,21 @@ df2_recent <- df2 %>%
   arrange(desc(date)) %>%
   select(
     `Day` = date,
-    `Pray`=pray,
-    `Meditate` = meditate,
-    `Study Post` = post_cfm_study,
-    `Gratitude Post` = post_gratitude,
-    `Cardio` = cardio,
-    `Strength` = strength
+    `🛐`=pray,
+    `🧘🏼‍♂️` = meditate,
+    `📖` = post_cfm_study,
+    `🙏🏻` = post_gratitude,
+    `🚴🏻‍♂️` = cardio,
+    `🏋🏼‍♂️` = strength
   ) 
 
 # Assuming your data frame is named 'data'
 # First, convert the 'Day' column to the desired format
 df2_recent$Day <- format(as.Date(df2_recent$Day), "%a %b %d")
 
+
 df2_recent %>%
-  gt(rowname_col = "Day") %>%
+  gt(id='mygt', rowname_col = "Day") %>%
   data_color(
     columns = c(2:7),  # replace with the actual column indices or names
     colors = scales::col_bin(
@@ -175,6 +176,9 @@ df2_recent %>%
       domain = NULL
     )
   ) %>%
+  tab_header(
+    title = "Daily Habits"
+  ) |>
   tab_style(
     style = list(
       cell_text(color = "transparent")
@@ -182,6 +186,15 @@ df2_recent %>%
     locations = cells_body(
       columns = c(2:7)  # replace with the actual column indices or names
     )
+  ) %>%
+  cols_align(align = "center") %>%
+  tab_style(
+    style = cell_borders(sides = "right", color = "white", weight = px(1)),
+    locations = cells_body(columns = everything())
+  ) %>%
+  cols_width(
+    Day ~ px(100),
+    everything() ~ px(50),
   ) 
 ```
 
