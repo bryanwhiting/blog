@@ -14,6 +14,10 @@ listing:
   grid-item-border: true
   feed: true
   categories: cloud
+execute:
+  echo: false
+  warning: false
+  message: false 
 ---
 
 Public accountability is the greatest motivator. These goals are correlated with, but not causal to happiness. They're anti-sad, but pro-happy comes not from checking off boxes but by building meaningful relationships with God, self, family, and friends.
@@ -52,9 +56,6 @@ Fun:
 
 ```{r}
 #| label: fig-goals
-#| echo: false
-#| message: false
-#| warning: false
 #| fig-height: 2
 #| fig-width: 7
 #| fig-align: center
@@ -145,10 +146,6 @@ ggplot(df3, aes(x = week_of_year, y = day_of_week, fill = total_goals)) +
 ```{r}
 #| label: fig-goals-table
 #| fig-cap: Recent streak
-#| label: fig-goals
-#| echo: false
-#| message: false
-#| warning: false
 #| fig-align: center
 library(gt)
 df2_recent <- df2 %>% 
