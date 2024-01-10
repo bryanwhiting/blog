@@ -1,0 +1,20 @@
+---
+title: "Posts - Random Thoughts"
+comments: false
+listing:
+  contents: posts
+  type: grid
+  sort: 
+    - "date desc"
+    - "title asc"
+  sort-ui: [date, title]
+  filter-ui: [date, title]
+  page-size: 30
+  grid-item-border: true
+  feed: true
+  categories: cloud
+---
+
+_"I write what I learn. I learn by what I write"_
+
+***

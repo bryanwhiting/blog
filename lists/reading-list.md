@@ -25,6 +25,7 @@ draft: false
 - [ ] Wool #libby 
 
 To finish
+
 - [ ] 1984 #youtube
 
 ### Biography/History/Anthropology
@@ -40,15 +41,18 @@ To finish
 - [ ] The quest for Cosmic Justice - Sowll #audible-free
 
 # Backlog
+
 - [x] [killers-of-the-flower-moonyfg if](book-review/killers-of-the-flower-moonyfg%20if.md)
 - [x] [how-to-decide-simple-tools-for-making-better-choices](book-review/how-to-decide-simple-tools-for-making-better-choices.md)
 
 Libby:
+
 - [x] [Dune](dune.md)
 
-- [ ] The Quest for
+- [ ] The Quest for ...
 
 Literature
+
 - [ ] One hundred years of solitude
 - [ ] Anna Karenina
 - [ ] War and peace

@@ -1,28 +1,87 @@
 ---
-title: "Recent Posts"
+title: "Blog"
 comments: false
+fields: [image, title, date]
 listing:
-  contents: 
-    - posts
-    - book-review
-    - tech
-  feed: true
-  sort-ui: true
-  sort: 
-    - "date desc"
-    - "title desc"
-  type: "default"
-  grid-columns: 4
-  grid-item-border: true
-  fields: [image, date, title, description, reading-time, categories]
-  categories: cloud
-  date-format: "ddd MMM D, YYYY"
-  page-size: 50
+  - id: landing-posts
+    contents: 
+      - posts
+      - tech
+    type: grid
+    grid-columns: 3
+    fields: [image, title, description, date]
+    max-items: 6
+    sort:
+      - "date desc"
+      - "title asc"
+  - id: landing-gratitude
+    contents: gratitude
+    max-items: 6
+    grid-columns: 1
+    type: grid
+    sort:
+      - "date desc"
+      - "title asc"
+  - id: landing-christianity
+    contents: christianity
+    max-items: 6
+    grid-columns: 1
+    type: grid
+    sort:
+      - "date desc"
+      - "title asc"
+  - id: landing-books
+    contents: book-review
+    max-items: 6
+    grid-columns: 1
+    type: grid
+    sort:
+      - "date desc"
+      - "title asc"
+date-format: "ddd MMM D, YYYY"
 toc: false
 toc-location: body
 page-layout: full
 title-block-banner: false
 ---
 
-Thoughts on [tech](tech.qmd), [faith](christianity.qmd), [gratitude](gratitude.qmd), [books I'm reading](books.qmd) and anything else. _"All [blogs](https://en.wikipedia.org/wiki/All_models_are_wrong) are wrong, but some are useful."_
+Thoughts on [tech](tech.qmd), [faith](christianity.qmd), [gratitude](gratitude.qmd), [books I'm reading](books.qmd) and [anything else](posts.qmd). _"All [blogs](https://en.wikipedia.org/wiki/All_models_are_wrong) are wrong, but some are useful."_
 
+## Recent Tech + Thoughts
+See more [tech](tech.qmd) or [thoughts](posts.qmd).
+
+:::{#landing-posts}
+:::
+
+:::::{.grid}
+<!-- col 1 -->
+::::{.g-col-12 .g-col-md-4}
+
+## Books I'm Reading
+See more [books](books.qmd) and my [reading list](lists/reading-list.md).
+
+:::{#landing-books}
+:::
+::::
+
+<!-- col 2 -->
+::::{.g-col-12 .g-col-md-4}
+
+## Gratitude
+See more [gratitude](gratitude.qmd).
+
+:::{#landing-gratitude}
+:::
+::::
+
+<!-- col 3 -->
+::::{.g-col-12 .g-col-md-4}
+
+## Christianity
+See more [christianity](christianity.qmd).
+
+:::{#landing-christianity}
+:::
+::::
+
+:::::

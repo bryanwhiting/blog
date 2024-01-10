@@ -50,6 +50,7 @@ website:
       - index.qmd
       - section: "Writing"
         contents:
+            - posts.qmd
             - tech.qmd
             - books.qmd
             - christianity.qmd

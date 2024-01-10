@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Bryan Whiting - Blog</title>
+<title>Bryan Whiting - Recent Posts</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -99,7 +99,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
@@ -127,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       page: 18,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
@@ -135,34 +135,6 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-landing-christianity'] = new List('listing-landing-christianity', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-landing-books .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-landing-books'] = new List('listing-landing-books', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -195,10 +167,10 @@ ga('send', {
 
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="css/poem.css">
-<meta property="og:title" content="Bryan Whiting - Blog">
+<meta property="og:title" content="Bryan Whiting - Recent Posts">
 <meta property="og:description" content="Thoughts on tech, faith, gratitude, books I’m reading and anything else. “All blogs are wrong, but some are useful.”">
 <meta property="og:site-name" content="Bryan Whiting">
-<meta name="twitter:title" content="Bryan Whiting - Blog">
+<meta name="twitter:title" content="Bryan Whiting - Recent Posts">
 <meta name="twitter:description" content="Thoughts on tech, faith, gratitude, books I’m reading and anything else. “All blogs are wrong, but some are useful.”">
 <meta name="twitter:creator" content="@bryanwhiting">
 <meta name="twitter:card" content="summary_large_image">
@@ -210,7 +182,7 @@ ga('send', {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Blog</h1>
+      <h1 class="quarto-secondary-nav-title">Recent Posts</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -258,7 +230,7 @@ ga('send', {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">Blog</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Recent Posts</a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -269,11 +241,6 @@ ga('send', {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./posts.html" class="sidebar-item-text sidebar-link">Posts - Random Thoughts</a>
-  </div>
-</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./tech.html" class="sidebar-item-text sidebar-link">Tech, AI, and Data</a>
@@ -341,7 +308,7 @@ ga('send', {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Blog</h1>
+<h1 class="title d-none d-lg-block">Recent Posts</h1>
 </div>
 
 
@@ -351,138 +318,135 @@ ga('send', {
 </div>
 </header>
 
-<p>Thoughts on <a href="./tech.html">tech</a>, <a href="./christianity.html">faith</a>, <a href="./gratitude.html">gratitude</a>, <a href="./books.html">books I’m reading</a> and <a href="./posts.html">anything else</a>. <em>“All <a href="https://en.wikipedia.org/wiki/All_models_are_wrong">blogs</a> are wrong, but some are useful.”</em></p>
-<section id="recent-tech-thoughts" class="level2">
-<h2 class="anchored" data-anchor-id="recent-tech-thoughts">Recent Tech + Thoughts</h2>
-<p>See more <a href="./tech.html">tech</a> or <a href="./posts.html">thoughts</a>.</p>
+<p>Thoughts on <a href="./tech.html">tech</a>, <a href="./christianity.html">faith</a>, <a href="./gratitude.html">gratitude</a>, <a href="./books.html">books I’m reading</a> and anything else. <em>“All <a href="https://en.wikipedia.org/wiki/All_models_are_wrong">blogs</a> are wrong, but some are useful.”</em></p>
 <div id="listing-landing-posts" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="posts,quarto,tech,coding" data-listing-date-sort="1704926669000" data-listing-file-modified-sort="1704927192716" data-listing-reading-time-sort="0.41">
-<a href="./posts/cool-quarto-site.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="book-review" data-listing-date-sort="1704182400000" data-listing-file-modified-sort="1704391347477" data-listing-reading-time-sort="0.265">
+<a href="./book-review/socrates-a-life-worth-living.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./img/quarto-demo-forbo7-landing.png" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./img/book-socrates.jpeg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Cool Quarto Site
+“Socrates A Life Worth Living” by Devra Lehman
 </h5>
 <div class="card-text listing-description">
-Different things you can do pretty easily with quarto.
+Notes: - socrates had a voice he felt was from Gods. Daimonion - Memorization. Lots of it. - Humanism - treated sacrifices to the gods…
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
-Wed Jan 10, 2024
+Tue Jan 2, 2024
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="posts,sales,life musings,people I meet" data-listing-date-sort="1704904160000" data-listing-file-modified-sort="1704912076619" data-listing-reading-time-sort="0.545">
-<a href="./posts/the-six-hour-sandwich.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-categories="philosophy,mindfulness,book-review" data-listing-date-sort="1703009517000" data-listing-file-modified-sort="1704827797931" data-listing-reading-time-sort="0.97">
+<a href="./book-review/101-essays-to-make-you-think.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./img/dalle-avocado-sandwich.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./img/book-101-essays.jpeg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-The six hour sandwich
+101 Essays that will Change the Way You Think, by Brianna Wiest
 </h5>
 <div class="card-text listing-description">
-How to sell a breakfast sandwich
+We all started as strangers. It’s a choice who stays that way.
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
-Wed Jan 10, 2024
+Tue Dec 19, 2023
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="tech,social media" data-listing-date-sort="1704872994000" data-listing-file-modified-sort="1704913875375" data-listing-reading-time-sort="0.985">
-<a href="./tech/this-drug-is-habit-forming.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="2" data-categories="music,economics,incentives,posts" data-listing-date-sort="1704355200000" data-listing-file-modified-sort="1704472121294" data-listing-reading-time-sort="1.59">
+<a href="./posts/30-seconds-for-payment.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./img/dalle-habit-forming-drug.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./img/dalle-listening-to-music-colorful.jpeg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-This drug is habit forming
+30 Seconds is All You Get
 </h5>
 <div class="card-text listing-description">
-An argument against societal acceptance of things not good for us
+Apple set the limit to 30s. That impacted music forever.
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
-Tue Jan 9, 2024
+Thu Jan 4, 2024
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="social media,digital minimalism,tech,modern living" data-listing-date-sort="1704871983000" data-listing-file-modified-sort="1704912076629" data-listing-reading-time-sort="0.925">
-<a href="./tech/the-matrix.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="3" data-categories="success,decisions,philosophy" data-listing-date-sort="1703750400000" data-listing-file-modified-sort="1704128029405" data-listing-reading-time-sort="1.41">
+<a href="./posts/flip-a-coin-and-not-fail.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./img/dalle-alone-in-a-crowded-room.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./img/flip-five-coins.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-The Matrix: Social Media’s Influence on Human Interaction
+97 percent chance you’ll fail
 </h5>
 <div class="card-text listing-description">
-Can you enter it? Or can you leave it?
+The odds of constant success are against you every 5 decisions. So there’s gotta be another way to define success.
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
-Tue Jan 9, 2024
+Thu Dec 28, 2023
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="posts,insights from books,investing,memories,personal stories,emotional intelligence" data-listing-date-sort="1704836520000" data-listing-file-modified-sort="1704868933270" data-listing-reading-time-sort="1.49">
-<a href="./posts/whats-your-decision-framework.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="4" data-categories="tech,personal experiments,A/B testing,social media,big tech,incentives,decisions,relationships,ai,emotional intelligence,purpose of life,digital minimalism" data-listing-date-sort="1704741849000" data-listing-file-modified-sort="1704912075748" data-listing-reading-time-sort="3.07">
+<a href="./tech/a-knife-to-a-gun-fight.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./img/dalle-unhappy-investor-vector.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./img/dalle-knife-gun-fight.jpeg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-What’s your decision framework?
+A Knife to a Gun Fight: Why I’m off Social Media
 </h5>
 <div class="card-text listing-description">
-Facts? Gut? Blend? Do you track your emotional decisioning performance?
+Tim Ferris has a viewpoint that is 100% aligned with what I experienced working in tech.
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
-Tue Jan 9, 2024
+Mon Jan 8, 2024
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="posts,minimalism,organization,software,parenting" data-listing-date-sort="1704825491000" data-listing-file-modified-sort="1704827801128" data-listing-reading-time-sort="1.495">
-<a href="./posts/organization-and-minimalism.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="5" data-categories="ai,tech,futurism" data-listing-date-sort="1703491200000" data-listing-file-modified-sort="1703714961987" data-listing-reading-time-sort="1.905">
+<a href="./posts/2023-12-25-ai-robots-are-mastering-tasks-faster-than-humans-/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="./img/dalle-bear-with-messy-stuff.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+<img src="./posts/2023-12-25-ai-robots-are-mastering-tasks-faster-than-humans-/photo.jpeg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Organization and Minimalism
+AI Robots are mastering tasks faster than humans
 </h5>
 <div class="card-text listing-description">
-When in doubt, “Afuera” it out!
+<p>From walking to labyrinth, the future looks bright for these machines. The key is the objective functions, time, and training data.</p>
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
-Tue Jan 9, 2024
+Mon Dec 25, 2023
 </div>
 </div>
 </div>
@@ -498,172 +462,8 @@ No matching items
 </nav>
 </div>
 <div class="grid">
-<!-- col 1 -->
-<section id="books-im-reading" class="level2 g-col-12 g-col-md-4">
-<h2 class="anchored" data-anchor-id="books-im-reading">Books I’m Reading</h2>
-<p>See more <a href="./books.html">books</a> and my <a href="./lists/reading-list.html">reading list</a>.</p>
-<div id="listing-landing-books" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="book-review,history,philosophy" data-listing-date-sort="1704861149000" data-listing-file-modified-sort="1704912076586" data-listing-reading-time-sort="1.005">
-<a href="./book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./img/book-the-oxford-inklings.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The Oxford Inklings: Lewis, Tolkien and Their Circle
-</h5>
-<div class="card-text listing-description">
-by Colin Duriez
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Tue Jan 9, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="book-review" data-listing-date-sort="1704780430000" data-listing-file-modified-sort="1704827800782" data-listing-reading-time-sort="0.145">
-<a href="./book-review/dune-messiah.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./img/book-dune-messiah.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Dune: Messiah
-</h5>
-<div class="card-text listing-description">
-by Frank Herbert
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Mon Jan 8, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="book-review" data-listing-date-sort="1704268800000" data-listing-file-modified-sort="1704392132361" data-listing-reading-time-sort="0.035">
-<a href="./book-review/leonardo-da-vinci.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-img-bg" style="height: 150px;">
-&nbsp;
-</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Leonardo da Vinci
-</h5>
-<div class="card-text listing-description">
-by Walter Isaacson
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Wed Jan 3, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="book-review" data-listing-date-sort="1704268800000" data-listing-file-modified-sort="1704392041808" data-listing-reading-time-sort="0.005">
-<a href="./book-review/steve-jobs-biography.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-img-bg" style="height: 150px;">
-&nbsp;
-</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Steve Jobs (Biography)
-</h5>
-<div class="card-text listing-description">
-by Walter Isaacson
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Wed Jan 3, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="book-review" data-listing-date-sort="1704182400000" data-listing-file-modified-sort="1704391347477" data-listing-reading-time-sort="0.265">
-<a href="./book-review/socrates-a-life-worth-living.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./img/book-socrates.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-“Socrates A Life Worth Living” by Devra Lehman
-</h5>
-<div class="card-text listing-description">
-Notes: - socrates had a voice he felt was from Gods. Daimonion - Memorization. Lots of it. - Humanism - treated sacrifices to the gods…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Tue Jan 2, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="book-review" data-listing-date-sort="1704182400000" data-listing-file-modified-sort="1704392212777" data-listing-reading-time-sort="0.005">
-<a href="./book-review/innovators-dilemma.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="card-img-bg" style="height: 150px;">
-&nbsp;
-</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Innovator’s Dilemma
-</h5>
-<div class="card-text listing-description">
-by Clayton Christiansen.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Tue Jan 2, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<!-- col 2 -->
-<section id="gratitude" class="level2 g-col-12 g-col-md-4">
-<h2 class="anchored" data-anchor-id="gratitude">Gratitude</h2>
-<p>See more <a href="./gratitude.html">gratitude</a>.</p>
+<section id="blog" class="level2 g-col-12 g-col-md-6 animate__animated animate__fadeIn animate__faster animate__delay-1s">
+<h2 class="anchored" data-anchor-id="blog">Blog</h2>
 <div id="listing-landing-gratitude" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
 <div class="g-col-1" data-index="0" data-categories="gratitude,music" data-listing-date-sort="1704907460000" data-listing-file-modified-sort="1704907559980" data-listing-reading-time-sort="0.105">
@@ -676,13 +476,7 @@ No matching items
 <h5 class="no-anchor card-title listing-title">
 Listening to ‘This is the Christ’ right now, grateful for good music
 </h5>
-<div class="card-text listing-description">
-By Calee Reed
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Wed Jan 10, 2024
 </div>
@@ -701,13 +495,7 @@ Wed Jan 10, 2024
 <h5 class="no-anchor card-title listing-title">
 small things
 </h5>
-<div class="card-text listing-description">
-<p>xxx</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Wed Jan 10, 2024
 </div>
@@ -726,13 +514,7 @@ Wed Jan 10, 2024
 <h5 class="no-anchor card-title listing-title">
 I’m Grateful for Sandwich Shops
 </h5>
-<div class="card-text listing-description">
-I grew up near some of the best
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Wed Jan 10, 2024
 </div>
@@ -751,13 +533,7 @@ Wed Jan 10, 2024
 <h5 class="no-anchor card-title listing-title">
 Audiobooks
 </h5>
-<div class="card-text listing-description">
-Listen here, there, anywhere.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Tue Jan 9, 2024
 </div>
@@ -776,13 +552,7 @@ Tue Jan 9, 2024
 <h5 class="no-anchor card-title listing-title">
 I’m Grateful for the Toothbrush
 </h5>
-<div class="card-text listing-description">
-The power to clean and the power to refresh
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Mon Jan 8, 2024
 </div>
@@ -801,13 +571,7 @@ Mon Jan 8, 2024
 <h5 class="no-anchor card-title listing-title">
 Cars
 </h5>
-<div class="card-text listing-description">
-When’s the last time I walked 40 miles? 30? 20? 10?
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Sun Jan 7, 2024
 </div>
@@ -822,10 +586,9 @@ No matching items
 </div>
 </div>
 </section>
-<!-- col 3 -->
-<section id="christianity" class="level2 g-col-12 g-col-md-4">
-<h2 class="anchored" data-anchor-id="christianity">Christianity</h2>
-<p>See more <a href="./christianity.html">christianity</a>.</p>
+<section id="gratitude" class="level2 g-col-12 g-col-md-6 animate__animated animate__fadeIn animate__faster animate__delay-1s">
+<h2 class="anchored" data-anchor-id="gratitude">Gratitude</h2>
+<p>Click <a href="web_apps/index.qmd">here</a> to play more in the playground.</p>
 <div id="listing-landing-christianity" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
 <div class="g-col-1" data-index="0" data-categories="christianity,come follow me,scripture of the day,book of mormon,revelation,prophets,epistemology" data-listing-date-sort="1704907793000" data-listing-file-modified-sort="1704912076588" data-listing-reading-time-sort="1.675">
@@ -838,13 +601,7 @@ No matching items
 <h5 class="no-anchor card-title listing-title">
 He prepares us to teach us
 </h5>
-<div class="card-text listing-description">
-He teaches us line upon line. He is the master teacher, and if we listen he will teach us.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Wed Jan 10, 2024
 </div>
@@ -863,13 +620,7 @@ Wed Jan 10, 2024
 <h5 class="no-anchor card-title listing-title">
 Praying for Other People
 </h5>
-<div class="card-text listing-description">
-How to have an influence on others and allow them to influence you for good as well.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Tue Jan 9, 2024
 </div>
@@ -888,13 +639,7 @@ Tue Jan 9, 2024
 <h5 class="no-anchor card-title listing-title">
 Scriptures within Scriptures
 </h5>
-<div class="card-text listing-description">
-How Nephi feels about scriptures, and all the things one verse can yield.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Mon Jan 8, 2024
 </div>
@@ -913,13 +658,7 @@ Mon Jan 8, 2024
 <h5 class="no-anchor card-title listing-title">
 My testimony: Moving across the Country
 </h5>
-<div class="card-text listing-description">
-After prayer, a door immediately opened. It doesn’t always work like this, but there’s no mistaking this was the Lord’s hand.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Sun Jan 7, 2024
 </div>
@@ -938,13 +677,7 @@ Sun Jan 7, 2024
 <h5 class="no-anchor card-title listing-title">
 What does it mean to preside?
 </h5>
-<div class="card-text listing-description">
-It means to care for and love those you serve
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Sun Jan 7, 2024
 </div>
@@ -963,13 +696,7 @@ Sun Jan 7, 2024
 <h5 class="no-anchor card-title listing-title">
 2024-01-07 Come Follow Me CTR 7 Jan 1-7
 </h5>
-<div class="card-text listing-description">
-Lesson plan
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
 Sun Jan 7, 2024
 </div>
@@ -991,7 +718,6 @@ No matching items
 
 
 
-</section>
 
 <p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
