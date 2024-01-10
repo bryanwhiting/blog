@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Bryan Whiting</title>
+<link>https://www.bryanwhiting.com/all.html</link>
+<atom:link href="https://www.bryanwhiting.com/all.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.2.269</generator>
+<lastBuildDate>Wed, 10 Jan 2024 22:44:29 GMT</lastBuildDate>
+<item>
+  <title>{B4F502887207:/posts/cool-quarto-site.html}</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/cool-quarto-site.html</link>
+  <description>{B4F502887207:/posts/cool-quarto-site.html}</description>
+  <category>posts</category>
+  <category>quarto</category>
+  <category>tech</category>
+  <category>coding</category>
+  <guid>https://www.bryanwhiting.com/posts/cool-quarto-site.html</guid>
+  <pubDate>Wed, 10 Jan 2024 22:44:29 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/quarto-demo-forbo7-landing.png" medium="image" type="image/png" height="61" width="144"/>
+</item>
+<item>
+  <title>{B4F502887207:/christianity/he-prepares-us-to-teach-us.html}</title>
+  <link>https://www.bryanwhiting.com/christianity/he-prepares-us-to-teach-us.html</link>
+  <description>{B4F502887207:/christianity/he-prepares-us-to-teach-us.html}</description>
+  <category>christianity</category>
+  <category>come follow me</category>
+  <category>scripture of the day</category>
+  <category>book of mormon</category>
+  <category>revelation</category>
+  <category>prophets</category>
+  <category>epistemology</category>
+  <guid>https://www.bryanwhiting.com/christianity/he-prepares-us-to-teach-us.html</guid>
+  <pubDate>Wed, 10 Jan 2024 17:29:53 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-pillar-of-fire-on-rock.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.html}</title>
+  <link>https://www.bryanwhiting.com/gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.html</link>
+  <description>{B4F502887207:/gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.html}</description>
+  <category>gratitude</category>
+  <category>music</category>
+  <guid>https://www.bryanwhiting.com/gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.html</guid>
+  <pubDate>Wed, 10 Jan 2024 17:24:20 GMT</pubDate>
+</item>
+<item>
+  <title>{B4F502887207:/gratitude/small-things.html}</title>
+  <link>https://www.bryanwhiting.com/gratitude/small-things.html</link>
+  <description>{B4F502887207:/gratitude/small-things.html}</description>
+  <category>gratitude</category>
+  <category>christianity</category>
+  <category>book of mormon</category>
+  <category>scripture of the day</category>
+  <category>retrospective</category>
+  <guid>https://www.bryanwhiting.com/gratitude/small-things.html</guid>
+  <pubDate>Wed, 10 Jan 2024 16:48:05 GMT</pubDate>
+</item>
+<item>
+  <title>{B4F502887207:/gratitude/sandwich-shops.html}</title>
+  <link>https://www.bryanwhiting.com/gratitude/sandwich-shops.html</link>
+  <description>{B4F502887207:/gratitude/sandwich-shops.html}</description>
+  <category>gratitude</category>
+  <guid>https://www.bryanwhiting.com/gratitude/sandwich-shops.html</guid>
+  <pubDate>Wed, 10 Jan 2024 16:34:59 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-bec-con-papas.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/posts/the-six-hour-sandwich.html}</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/the-six-hour-sandwich.html</link>
+  <description>{B4F502887207:/posts/the-six-hour-sandwich.html}</description>
+  <category>posts</category>
+  <category>sales</category>
+  <category>life musings</category>
+  <category>people I meet</category>
+  <guid>https://www.bryanwhiting.com/posts/the-six-hour-sandwich.html</guid>
+  <pubDate>Wed, 10 Jan 2024 16:29:20 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-avocado-sandwich.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/christianity/praying-for-other-people.html}</title>
+  <link>https://www.bryanwhiting.com/christianity/praying-for-other-people.html</link>
+  <description>{B4F502887207:/christianity/praying-for-other-people.html}</description>
+  <category>christianity</category>
+  <category>come follow me</category>
+  <category>book of mormon</category>
+  <guid>https://www.bryanwhiting.com/christianity/praying-for-other-people.html</guid>
+  <pubDate>Wed, 10 Jan 2024 07:59:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-christ-praying-oh-jerusalem.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/tech/this-drug-is-habit-forming.html}</title>
+  <link>https://www.bryanwhiting.com/tech/this-drug-is-habit-forming.html</link>
+  <description>{B4F502887207:/tech/this-drug-is-habit-forming.html}</description>
+  <category>tech</category>
+  <category>social media</category>
+  <guid>https://www.bryanwhiting.com/tech/this-drug-is-habit-forming.html</guid>
+  <pubDate>Wed, 10 Jan 2024 07:49:54 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-habit-forming-drug.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/tech/the-matrix.html}</title>
+  <link>https://www.bryanwhiting.com/tech/the-matrix.html</link>
+  <description>{B4F502887207:/tech/the-matrix.html}</description>
+  <category>social media</category>
+  <category>digital minimalism</category>
+  <category>tech</category>
+  <category>modern living</category>
+  <guid>https://www.bryanwhiting.com/tech/the-matrix.html</guid>
+  <pubDate>Wed, 10 Jan 2024 07:33:03 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-alone-in-a-crowded-room.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.html}</title>
+  <link>https://www.bryanwhiting.com/book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.html</link>
+  <description>{B4F502887207:/book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.html}</description>
+  <category>book-review</category>
+  <category>history</category>
+  <category>philosophy</category>
+  <guid>https://www.bryanwhiting.com/book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.html</guid>
+  <pubDate>Wed, 10 Jan 2024 04:32:29 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/book-the-oxford-inklings.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/posts/whats-your-decision-framework.html}</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/whats-your-decision-framework.html</link>
+  <description>{B4F502887207:/posts/whats-your-decision-framework.html}</description>
+  <category>posts</category>
+  <category>insights from books</category>
+  <category>investing</category>
+  <category>memories</category>
+  <category>personal stories</category>
+  <category>emotional intelligence</category>
+  <guid>https://www.bryanwhiting.com/posts/whats-your-decision-framework.html</guid>
+  <pubDate>Tue, 09 Jan 2024 21:42:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-unhappy-investor-vector.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/posts/organization-and-minimalism.html}</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/organization-and-minimalism.html</link>
+  <description>{B4F502887207:/posts/organization-and-minimalism.html}</description>
+  <category>posts</category>
+  <category>minimalism</category>
+  <category>organization</category>
+  <category>software</category>
+  <category>parenting</category>
+  <guid>https://www.bryanwhiting.com/posts/organization-and-minimalism.html</guid>
+  <pubDate>Tue, 09 Jan 2024 18:38:11 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-bear-with-messy-stuff.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/lists/reading-ethos.html}</title>
+  <link>https://www.bryanwhiting.com/lists/reading-ethos.html</link>
+  <description>{B4F502887207:/lists/reading-ethos.html}</description>
+  <category>posts</category>
+  <category>reading</category>
+  <guid>https://www.bryanwhiting.com/lists/reading-ethos.html</guid>
+  <pubDate>Tue, 09 Jan 2024 14:42:59 GMT</pubDate>
+</item>
+<item>
+  <title>{B4F502887207:/gratitude/audiobooks.html}</title>
+  <link>https://www.bryanwhiting.com/gratitude/audiobooks.html</link>
+  <description>{B4F502887207:/gratitude/audiobooks.html}</description>
+  <category>gratitude</category>
+  <category>reading</category>
+  <guid>https://www.bryanwhiting.com/gratitude/audiobooks.html</guid>
+  <pubDate>Tue, 09 Jan 2024 14:36:50 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-headphones-audiobook-doing-dishes.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/christianity/scriptures-within-scriptures.html}</title>
+  <link>https://www.bryanwhiting.com/christianity/scriptures-within-scriptures.html</link>
+  <description>{B4F502887207:/christianity/scriptures-within-scriptures.html}</description>
+  <category>christianity</category>
+  <category>come follow me</category>
+  <category>book of mormon</category>
+  <category>scripture of the day</category>
+  <category>scriptures</category>
+  <guid>https://www.bryanwhiting.com/christianity/scriptures-within-scriptures.html</guid>
+  <pubDate>Tue, 09 Jan 2024 07:33:40 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-white-fruit-delicious-zoom-in.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/book-review/dune-messiah.html}</title>
+  <link>https://www.bryanwhiting.com/book-review/dune-messiah.html</link>
+  <description>{B4F502887207:/book-review/dune-messiah.html}</description>
+  <category>book-review</category>
+  <guid>https://www.bryanwhiting.com/book-review/dune-messiah.html</guid>
+  <pubDate>Tue, 09 Jan 2024 06:07:10 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/book-dune-messiah.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/lists/legal-ai.html}</title>
+  <link>https://www.bryanwhiting.com/lists/legal-ai.html</link>
+  <description>{B4F502887207:/lists/legal-ai.html}</description>
+  <category>tech</category>
+  <category>ai</category>
+  <guid>https://www.bryanwhiting.com/lists/legal-ai.html</guid>
+  <pubDate>Tue, 09 Jan 2024 05:44:17 GMT</pubDate>
+</item>
+<item>
+  <title>{B4F502887207:/gratitude/toothbrush.html}</title>
+  <link>https://www.bryanwhiting.com/gratitude/toothbrush.html</link>
+  <description>{B4F502887207:/gratitude/toothbrush.html}</description>
+  <category>gratitude</category>
+  <guid>https://www.bryanwhiting.com/gratitude/toothbrush.html</guid>
+  <pubDate>Tue, 09 Jan 2024 03:31:43 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-toothbrush-family-1920.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/tech/a-knife-to-a-gun-fight.html}</title>
+  <link>https://www.bryanwhiting.com/tech/a-knife-to-a-gun-fight.html</link>
+  <description>{B4F502887207:/tech/a-knife-to-a-gun-fight.html}</description>
+  <category>tech</category>
+  <category>personal experiments</category>
+  <category>A/B testing</category>
+  <category>social media</category>
+  <category>big tech</category>
+  <category>incentives</category>
+  <category>decisions</category>
+  <category>relationships</category>
+  <category>ai</category>
+  <category>emotional intelligence</category>
+  <category>purpose of life</category>
+  <category>digital minimalism</category>
+  <guid>https://www.bryanwhiting.com/tech/a-knife-to-a-gun-fight.html</guid>
+  <pubDate>Mon, 08 Jan 2024 19:24:09 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-knife-gun-fight.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/posts/becoming-an-expert.html}</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/becoming-an-expert.html</link>
+  <description>{B4F502887207:/posts/becoming-an-expert.html}</description>
+  <category>posts</category>
+  <category>personal development</category>
+  <category>growth</category>
+  <category>grit</category>
+  <category>life lessons</category>
+  <category>data science</category>
+  <guid>https://www.bryanwhiting.com/posts/becoming-an-expert.html</guid>
+  <pubDate>Mon, 08 Jan 2024 06:55:24 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-rocky-balboa-expert.jpeg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

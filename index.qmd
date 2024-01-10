@@ -39,7 +39,7 @@ listing:
       - "date desc"
       - "title asc"
 date-format: "ddd MMM D, YYYY"
-toc: false
+toc: true
 toc-location: body
 page-layout: full
 title-block-banner: false
@@ -53,9 +53,10 @@ See more [tech](tech.qmd) or [thoughts](posts.qmd).
 :::{#landing-posts}
 :::
 
+
 :::::{.grid}
 <!-- col 1 -->
-::::{.g-col-12 .g-col-md-4}
+::::{.g-col-12 .g-col-md-4 .animate__animated .animate__fadeIn .animate__faster .animate__delay-1s}
 
 ## Books I'm Reading
 See more [books](books.qmd) and my [reading list](lists/reading-list.md).
@@ -65,7 +66,7 @@ See more [books](books.qmd) and my [reading list](lists/reading-list.md).
 ::::
 
 <!-- col 2 -->
-::::{.g-col-12 .g-col-md-4}
+::::{.g-col-12 .g-col-md-4  .animate__animated .animate__fadeIn .animate__faster .animate__delay-1s}
 
 ## Gratitude
 See more [gratitude](gratitude.qmd).
@@ -75,7 +76,7 @@ See more [gratitude](gratitude.qmd).
 ::::
 
 <!-- col 3 -->
-::::{.g-col-12 .g-col-md-4}
+::::{.g-col-12 .g-col-md-4  .animate__animated .animate__fadeIn .animate__faster .animate__delay-1s}
 
 ## Christianity
 See more [christianity](christianity.qmd).
