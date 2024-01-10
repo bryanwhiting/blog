@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Bryan Whiting</title>
+<link>https://www.bryanwhiting.com/index.html</link>
+<atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.2.269</generator>
+<lastBuildDate>Wed, 10 Jan 2024 22:44:29 GMT</lastBuildDate>
+<item>
+  <title>Cool Quarto Site</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/cool-quarto-site.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Quarto lists a <a href="https://quarto.org/docs/gallery/">gallery</a> of things you can do with it.</p>
+<p>This post illustrates</p>
+<ol type="1">
+<li>How you can array your blog</li>
+<li>How you can collect subscribers with just google form</li>
+<li>How you can iframe other apps, such as from huggingface.</li>
+</ol>
+<p>I came across this site: <a href="https://forbo7.github.io/" class="uri">https://forbo7.github.io/</a>. I enjoyed seeing how they arrayed their blogs, which I had never seen before - they used grids.</p>
+<p><img src="https://www.bryanwhiting.com/img/quarto-demo-forbo7-landing.png" class="img-fluid"></p>
+<p>They use an embedded google form for subscriptions:</p>
+<p><img src="https://www.bryanwhiting.com/screenshot-quarto-demo-forbo7-subscribe.png" class="img-fluid"></p>
+<p>And they have an<a href="https://forbo7.github.io/web_apps/apps/flood_detector.html">iframe on a Huggingface</a> app to show something cool:</p>
+<p><img src="https://www.bryanwhiting.com/quarto-demo-forbo7-huggingface.png" class="img-fluid"></p>
+<p>That’s all.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>quarto</category>
+  <category>tech</category>
+  <category>coding</category>
+  <guid>https://www.bryanwhiting.com/posts/cool-quarto-site.html</guid>
+  <pubDate>Wed, 10 Jan 2024 22:44:29 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/quarto-demo-forbo7-landing.png" medium="image" type="image/png" height="61" width="144"/>
+</item>
+<item>
+  <title>He prepares us to teach us</title>
+  <link>https://www.bryanwhiting.com/christianity/he-prepares-us-to-teach-us.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Consider this:</p>
+<blockquote class="blockquote">
+<p>And it came to pass that he returned to his own house at Jerusalem; and he cast himself upon his bed, being overcome with the Spirit and the things which he had seen. And being <strong>thus</strong> overcome with the Spirit, he was carried away in a vision, even that he saw the heavens open, <a href="../scriptures/1-nephi-1.7-8">1 Nephi 1.7–8</a></p>
+</blockquote>
+<p>Cause and effect. First: he was overcome by the spirit. Second, he had a vision.</p>
+<p>But that’s not how the vision came. First, it began with prayer.</p>
+<blockquote class="blockquote">
+<p>Wherefore it came to pass that my father, Lehi, as he went forth prayed unto the Lord, yea, even with all his heart, in behalf of his people. And it came to pass as he prayed unto the Lord, there came a pillar of fire and dwelt upon a rock before him; and he saw and heard much; and because of the things which he saw and heard he did quake and tremble exceedingly. <a href="../scriptures/1-nephi-1.5-6">1 Nephi 1.5–6</a></p>
+</blockquote>
+<p>So here’s the order:</p>
+<ol type="1">
+<li>Lehi listens to prophets that Jerusalem will be destroyed (4)</li>
+<li>Lehi prays for his people, hoping they won’t be (5)</li>
+<li>Lehi sees a pillar of fire, sees many things (6)</li>
+<li>Lehi returns home (assumes he’s not home), and is overcome with what he saw (7)</li>
+<li>Lehi then has another, more pronounced vision (8)</li>
+</ol>
+<p>What a way to start off the Book of Mormon: this is a book about personal revelation, written by people who had revelations, and it teaches us the pattern. In this case, we care about others. When we do, the heavens open as we pray.</p>
+<p>We prob won’t have visions, but we <em>will</em> have the spirit.</p>
+<blockquote class="blockquote">
+<p>I will give unto the children of men line upon line, precept upon precept, here a little and there a little; and blessed are those who hearken unto my precepts, and lend an ear unto my counsel, for they shall learn wisdom; for <strong>unto him that receiveth I will give more</strong> <a href="../scriptures/2-nephi-28.30">2 Nephi 28.30</a></p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-pillar-of-fire-on-rock.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Pillar of fire on a rock</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>christianity</category>
+  <category>come follow me</category>
+  <category>scripture of the day</category>
+  <category>book of mormon</category>
+  <category>revelation</category>
+  <category>prophets</category>
+  <category>epistemology</category>
+  <guid>https://www.bryanwhiting.com/christianity/he-prepares-us-to-teach-us.html</guid>
+  <pubDate>Wed, 10 Jan 2024 17:29:53 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-pillar-of-fire-on-rock.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Listening to ‘This is the Christ’ right now, grateful for good music</title>
+  <link>https://www.bryanwhiting.com/gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I’m grateful for people who really know how to sing. This song moved me, and I’m grateful music has that capacity.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>gratitude</category>
+  <category>music</category>
+  <guid>https://www.bryanwhiting.com/gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.html</guid>
+  <pubDate>Wed, 10 Jan 2024 17:24:20 GMT</pubDate>
+</item>
+<item>
+  <title>small things</title>
+  <link>https://www.bryanwhiting.com/gratitude/small-things.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>In my deli this morning (<a href="../gratitude/sandwich-shops.html">I’m Grateful for Sandwich Shops</a>), there’s a cheesy quote on the pinboard:</p>
+<blockquote class="blockquote">
+<p>Maturity is not when we start speaking big things. It is when we start appreciating the small things…</p>
+</blockquote>
+<p>This is why I’ve started to give thanks daily. It’s a powerful rewiring of the brain.</p>
+<blockquote class="blockquote">
+<p>And the Lord God doth work by means to bring about his great and eternal purposes; and by very small means the Lord doth confound the wise and bringeth about the salvation of many souls. <a href="../scriptures/alma-37.7">Alma 37.7</a></p>
+</blockquote>
+<p>Effects so far of giving thanks daily:</p>
+<ul>
+<li>I think about what I gave thanks on later in the day</li>
+<li>While writing, ideas flood into the mind, building the thoughts more than initially realized</li>
+<li>When</li>
+</ul>
+<p>I learned once on <a href="../concepts/my-mission.html">my mission</a> that “when I don’t have gratitude, I don’t have anything.” I remember the day I learned this, discussing the concept with my roommate/companion. Those who don’t give thanks end up complaining. If you’re complaining then you don’t have anything you want. If you give thanks, you have everything you could want. The list is endless</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>gratitude</category>
+  <category>christianity</category>
+  <category>book of mormon</category>
+  <category>scripture of the day</category>
+  <category>retrospective</category>
+  <guid>https://www.bryanwhiting.com/gratitude/small-things.html</guid>
+  <pubDate>Wed, 10 Jan 2024 16:48:05 GMT</pubDate>
+</item>
+<item>
+  <title>I’m Grateful for Sandwich Shops</title>
+  <link>https://www.bryanwhiting.com/gratitude/sandwich-shops.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I grew up in a suburban town in Connecticut. Italians and their amazing propensity for delicious food and sandwiches seemed to flood the streets.</p>
+<p>A brilliant chicken salad melt that truly melts in your mouth.</p>
+<p>A chicken parm from D corner deli that would energize you from lunch through dinner - a classic among rabid pubescent football players.</p>
+<p>Adding “con papas” to any “BEC” meant you were in for a filling treat. It was the insider’s secret menu item, and the man behind the counter knew you had good taste.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-bec-con-papas.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">The papas were <em>on</em> the sandwich tho. Thats how it’s done</figcaption>
+</figure>
+</div>
+<p>What happy memories.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>gratitude</category>
+  <guid>https://www.bryanwhiting.com/gratitude/sandwich-shops.html</guid>
+  <pubDate>Wed, 10 Jan 2024 16:34:59 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-bec-con-papas.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>The six hour sandwich</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/the-six-hour-sandwich.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>“Avocado and turkey over ciabatta, it’s a delicious way to start your day and fills you up for about six hours.”</p>
+<p>That last part - six hours…I had never heard such a sales pitch from a deli person in my life.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-avocado-sandwich.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Six hour sandwich</figcaption>
+</figure>
+</div>
+<p>But it’s the perfect sales pitch. Because I care how full I’m going to get off a $13.00 breakfast sandwich. But he just amortized the cost for me - implicitly stating it’s only $2.16/hr for 6 hours.</p>
+<p>Would I pay $2 to not be hungry for an hour? I’m not sure what other snack (maybe a .60c banana) can fill me up for an hour.</p>
+<p>Genius.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>sales</category>
+  <category>life musings</category>
+  <category>people I meet</category>
+  <guid>https://www.bryanwhiting.com/posts/the-six-hour-sandwich.html</guid>
+  <pubDate>Wed, 10 Jan 2024 16:29:20 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-avocado-sandwich.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Praying for Other People</title>
+  <link>https://www.bryanwhiting.com/christianity/praying-for-other-people.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This scripture stood out to me:</p>
+<blockquote class="blockquote">
+<p>Wherefore it came to pass that my father, Lehi, as he went forth prayed unto the Lord, yea, even with all his heart, in behalf of his people. <a href="../scriptures/1-nephi-1.5">1 Nephi 1.5</a></p>
+</blockquote>
+<p>There are many verses like this, such as Enos praying for his people, or Christ saying “Oh Jerusalem”, or Enoch.</p>
+<p>I’m reading <a href="../book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.html">The Oxford Inklings: Lewis, Tolkien and Their Circle</a> right now and considered just how influenced these authors were by their surroundings. WWI, the rise of machines, etc.</p>
+<p>Aren’t we all influenced by the people around us? What role do those people play in our lives? What role do the loved ones play in our lives? What role do we play in theirs?</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-christ-praying-oh-jerusalem.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Oh Jerusalem</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>christianity</category>
+  <category>come follow me</category>
+  <category>book of mormon</category>
+  <guid>https://www.bryanwhiting.com/christianity/praying-for-other-people.html</guid>
+  <pubDate>Wed, 10 Jan 2024 07:59:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-christ-praying-oh-jerusalem.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>This drug is habit forming</title>
+  <link>https://www.bryanwhiting.com/tech/this-drug-is-habit-forming.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Sometimes they tell you that at the pharmacy: “this drug is habit forming”. Or, the saline nasal spray bottle thing I tried once, “this spray is refreshing, but not habit forming.” Oh, how nice.</p>
+<p>Why doesn’t everything have this distinction? Driving in the car: non habit forming. Eating a bag of goldfish when I’m noodling on a work problem: def habit forming.</p>
+<p>One time, someone put a candy jar with skittles right beside my desk. It was for the whole floor, but my consumption was certainly not a pro-rata share. Buggy code? Gimme some skittles. Habit formed.</p>
+<p>Social media? Someone likes your post? Habit formed.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-habit-forming-drug.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Ironically Dalle put “habit farming”, which is kinda what social media is</figcaption>
+</figure>
+</div>
+<p>Why don’t they warn that social media is one of the most addictive digital things we do? That we’ve just accepted as a society?</p>
+<p>It took until 1964 before the surgeon general announced smoking caused cancer. The first cigarette machine was invented in 1881 by Albert Bonsack. That’s +80 years, not to mention it was popular for much longer before that.</p>
+<p>So yes, society can get it wrong for many years before they change course and do the more healthful thing.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>social media</category>
+  <guid>https://www.bryanwhiting.com/tech/this-drug-is-habit-forming.html</guid>
+  <pubDate>Wed, 10 Jan 2024 07:49:54 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-habit-forming-drug.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>The Matrix: Social Media’s Influence on Human Interaction</title>
+  <link>https://www.bryanwhiting.com/tech/the-matrix.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<blockquote class="blockquote">
+<p>“Have you ever been alone in a crowded room?” - Dark Blue, Jack’s Mannequin</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>I know kung fu - Neo, “The Matrix”</p>
+</blockquote>
+<p>What do these to quotes have in common? Social Media.</p>
+<p>Everyone on social media is downloading something. They do it because they want to learn kung fu. And while they’re not on social media, other people are getting the download even more.</p>
+<p>Something strange happens once you start spending 3+ hours on social a day. You start to see what’s actually going on. You start getting the cross-internet jokes. And once you do, you feel alone in a crowded room: you get the jokes that nobody else in your family gets. (Presumably because they have lives not on social media.)</p>
+<p>Detach from social (<a href="../tech/a-knife-to-a-gun-fight.html">A Knife to a Gun Fight: Why I’m off Social Media</a>) and you start to see something else: when you’re not on your phone at a party, you start to see <em>just</em> how much everyone is on social. Checking their SMS, their posts, etc. That’s when you really feel alone in a crowded room.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-alone-in-a-crowded-room.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Alone in a crowded room</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>social media</category>
+  <category>digital minimalism</category>
+  <category>tech</category>
+  <category>modern living</category>
+  <guid>https://www.bryanwhiting.com/tech/the-matrix.html</guid>
+  <pubDate>Wed, 10 Jan 2024 07:33:03 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-alone-in-a-crowded-room.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>The Oxford Inklings: Lewis, Tolkien and Their Circle</title>
+  <link>https://www.bryanwhiting.com/book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/book-the-oxford-inklings.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">The Oxford inklings</figcaption>
+</figure>
+</div>
+<p>2024-01-10</p>
+<ul>
+<li>long walks. Lewis would walk with Tolkien. Tolkien then wrote about a super long walk in the hobit and lotr</li>
+<li>Language is the invention of objevts or ideas. Myth is the invention about truth. #post-ideas. Get this quote
+<ul>
+<li></li>
+</ul></li>
+</ul>
+<p>2024-01-09 Notes:</p>
+<ul>
+<li>Tolkien build one language and derived it for two elvish languages.
+<ul>
+<li>Saw beauty in languages</li>
+<li>Word at Oxford dictionary</li>
+<li>Places like the shire were inspired by his experiences</li>
+<li>Orcs represent machinists and wizards the old world.</li>
+<li>Fellowship: his friends died in the war. The Tea Club. TCBS.</li>
+<li>My grandma had the “double S” club.</li>
+</ul></li>
+</ul>
+<p>“Well read” - makes you more of what you already are?</p>
+<p>Lewis:</p>
+<ul>
+<li>Dymer: narrative poem
+<ul>
+<li>Plato’s republic</li>
+<li>Dante.</li>
+</ul></li>
+<li>friendship is to disagree. To argue the other side just</li>
+</ul>
+<p>owen Barfield</p>
+<ul>
+<li>anyhroposophical</li>
+<li>Evolution of consciousness
+<ul>
+<li>creativity is grounded, not whimsical, thinking. Even scientists would agree as they become creative in the process of making new discoveries. If you need a creative mind to get to a new way of thinking (new theory that becomes truth), isn’t the creative thinking truth itself? (Or rather it’s not just whimsical).</li>
+<li>Imaginative thinking is crucial for both artistic creation and scientific discovery
+<ul>
+<li><a href="http://owenbarfield.org/BARFIELD/encyclopedia_barfieldiana/Ideas_Concepts/Science.html">Owenbarfield blog</a></li>
+<li></li>
+</ul></li>
+</ul></li>
+</ul>
+<p>Takeaway - their creative ideas took decades to form. Or went years without being published. - Surround yourself with people who challenge you</p>
+<p>Blog ideas: - don’t mistake challenge with truth. Someone who is on mistrurh side can convince you</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book-review</category>
+  <category>history</category>
+  <category>philosophy</category>
+  <guid>https://www.bryanwhiting.com/book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.html</guid>
+  <pubDate>Wed, 10 Jan 2024 04:32:29 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/book-the-oxford-inklings.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>What’s your decision framework?</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/whats-your-decision-framework.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Annie Duke asks the question “how do you make decisions? What’s your framework?” (<a href="../book-review/how-to-decide-simple-tools-for-making-better-choices.html">How to Decide: Simple Tools for Making Better Choices</a>)</p>
+<p>She remarks that many people don’t have one. Many CEO’s just go off their gut.</p>
+<p>I encountered this in my investing days (ahem, internship). I lead a discussion on a paper I had read about how emotions affect our judgment and investment decisions.</p>
+<p>I proposed an idea: that the investors should make a spreadsheet with labels on their feelings for that decision. They can use this as further information later on when evaluating their buy/sell/holding decisions.</p>
+<p>I was laughed out of the room.</p>
+<p>“Hey! Why don’t we all get some mood rings?!” Well, that guy (the boss) was later fired, but that’s not the point.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-unhappy-investor-vector.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Don’t let your emotions cloud your judgment.</figcaption>
+</figure>
+</div>
+<p>Point is: if you think you’re making decisions independent of your emotions, you’re incredibly mistaken. Judgment is based off reason and gut. Decisions usually rely on gut though. You have to “feel good”.</p>
+<p>I had seen this boss make many decisions without explaining his thinking. “Hold.” Why? The company is tanking per reports. “Sell”, but this one’s looking good!</p>
+<p>The point is nobody could replicate his decision making. Half the time it felt arbitrary.</p>
+<p>Only later did I learn that one of the most famous investment company, Bridgewater Capital, does this very thing. It’s not for everybody, nor do I do it, but I think it’s a good idea 😄. # proposal</p>
+<p>Make a spreadsheet for your decisions.</p>
+<ul>
+<li>What to decide</li>
+<li>Description</li>
+<li>Decision: what you chose</li>
+<li>Rationale: why you chose it</li>
+<li>Facts: supporting facts</li>
+<li>Emotional Reasoning: how you “felt” about it.</li>
+</ul>
+<p>Do this for all decisions: even the “hold” decisions (maintain status quo). Because decision to not change course is a decision in and of itself.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>insights from books</category>
+  <category>investing</category>
+  <category>memories</category>
+  <category>personal stories</category>
+  <category>emotional intelligence</category>
+  <guid>https://www.bryanwhiting.com/posts/whats-your-decision-framework.html</guid>
+  <pubDate>Tue, 09 Jan 2024 21:42:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-unhappy-investor-vector.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Organization and Minimalism</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/organization-and-minimalism.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>It’s hard to be a minimalist as a parent. Or as…a human…in this economy. We all want more stuff.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-bear-with-messy-stuff.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">When in doubt, toss it out</figcaption>
+</figure>
+</div>
+<p>With a small living space and a growing family I’ve grown accustomed to throwing stuff out. I grew up in a bigger house than I have now so there was space for everything. Now there’s space for very little. It’s actually a great feeling because I know what’s in every box (after doing some deep cleaning over winter break).</p>
+<p>I remember helping a friend move in high school. Endless hoards of products, products, products. Three moving trucks. Why? I wondered.</p>
+<p>My philosophy now is: RAM and Hard drive.</p>
+<p>RAM: the random access memory. The things you see when you open doors affect your brain state. Your brain can only hold so much. If you live in clutter you have clutter. So the things you see in your house should reflect what you can hold in memory.</p>
+<ul>
+<li>Toys should have a theme (blocks, action figures, doll house). If it doesn’t match a theme, it’s gone (begone random slap bracelet! “Afuera!!!”, (quote from new Argentine President))</li>
+<li>Things you see should be things you use. Don’t use flower every day? Don’t have it in the pantry. Put it in the corner thing. Cereal every day? Put that front and center.</li>
+</ul>
+<p>Then long-storage is the hard drive. It’s about keeping stuff you know you’ll want. This is easier to say than do.</p>
+<ul>
+<li>Holiday decoration? (Theme) keep those in the attic, out of sight out of mind. But when you need it you know where it is.</li>
+<li>You get the point.</li>
+</ul>
+<p>The same goes for code. Maintenance and search cost increase as you add garbage. When it doubt, delete code. Afuera!!</p>
+<p>When in doubt, “afuera!!”</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/1fXr95TcSxY?si=dVxufSBO5XWz5gX0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>minimalism</category>
+  <category>organization</category>
+  <category>software</category>
+  <category>parenting</category>
+  <guid>https://www.bryanwhiting.com/posts/organization-and-minimalism.html</guid>
+  <pubDate>Tue, 09 Jan 2024 18:38:11 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-bear-with-messy-stuff.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Audiobooks</title>
+  <link>https://www.bryanwhiting.com/gratitude/audiobooks.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>When I first discovered audiobooks it felt like a super power. I can listen while working out, while doing dishes, while folding laundry, etc. the possibilities! Then came Libby, the app that allows me to connect to my local library and do what?! Download audiobooks?! Yes plz.</p>
+<p>In 2023 I got back into podcasts. Lots of All-in listening, a lot of Tim Ferris again, some Huberman, etc.</p>
+<p>Despite fascinating interviews that tell the story of now, the benefit of a book is that it’s hundreds if not thousands of hours of mental preparation, editing, preparing. Why wouldn’t I want to read something that someone spent thousands of hours curating vs them just spitballing for 60m.</p>
+<p>Some podcasts can tell a different story than you can get in a book, or tell the backstory, etc. but they’re usually on a podcast to get you to read the book!!</p>
+<p>Thank you to the writers, and to all readers who give them an audience and a livelihood so they’ll keep writing.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-headphones-audiobook-doing-dishes.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Boring chores are now some of my favorite parts of the day</figcaption>
+</figure>
+</div>
+<p>See <a href="../lists/reading-ethos.html">reading-ethos</a></p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>gratitude</category>
+  <category>reading</category>
+  <guid>https://www.bryanwhiting.com/gratitude/audiobooks.html</guid>
+  <pubDate>Tue, 09 Jan 2024 14:36:50 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-headphones-audiobook-doing-dishes.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Scriptures within Scriptures</title>
+  <link>https://www.bryanwhiting.com/christianity/scriptures-within-scriptures.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-white-fruit-delicious-zoom-in.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">The Scriptures are precious and worth our time</figcaption>
+</figure>
+</div>
+<p>Nephi recounts how they had obtained some scriptures:</p>
+<blockquote class="blockquote">
+<p>And <strong>we had obtained the records which the Lord had commanded us</strong>, and searched them and found that they were desirable; yea, even of great worth unto us, insomuch that we could preserve the commandments of the Lord unto our children. <a href="../scriptures/1-nephi-5.21">1 Nephi 5.21</a></p>
+</blockquote>
+<p>A few things that stand out to me:</p>
+<ul>
+<li>He thought about his children. In <a href="../scriptures/2-nephi-25.26">2 Nephi 25.26</a> it’s mentioned “that our children may know to what source they may look for a remission of their sins.”</li>
+<li>They had the scriptures because they accomplished the task laid before them, “I know that the Lord giveth no commandments unto the children of men, save he shall prepare a way for them that they may accomplish the thing which he commandeth them.” <a href="../scriptures/1-nephi-3.7.html">1 Nephi 3.7</a></li>
+<li>These scriptures were “desirable”. Know what else is desirable? The fruit of the tree of life:</li>
+</ul>
+<blockquote class="blockquote">
+<p>And it came to pass that I beheld a tree, whose fruit was desirable to make one happy. <a href="../scriptures/1-nephi-8.10">1 Nephi 8.10</a></p>
+</blockquote>
+<p>The scriptures, especially the Book of Mormon, are precious to help our families know of Christ, have been obtained and written by those obedient to Christ, and are desirable and great to consume.</p>
+<p>In <a href="../tech/a-knife-to-a-gun-fight.html">A Knife to a Gun Fight: Why I’m off Social Media</a>, I talk about how tech workers talk of social media as “snackable content”. Frequently the word “consumption” is used to describe how app “users” “consume” content.</p>
+<p>It’s mostly not the stuff worth consuming in great quantities. Don’t settle for snacks. Enjoy a feast:</p>
+<blockquote class="blockquote">
+<p>Wherefore, do not spend <strong>money</strong> for that which is of no worth, nor your labor for that which cannot satisfy. Hearken diligently unto me, and remember the words which I have spoken; and come unto the Holy One of Israel, and <strong>feast upon that which perisheth not</strong>, neither can be corrupted, and <strong>let your soul delight in fatness.</strong> <a href="../scriptures/2-nephi-9.51">2 Nephi 9.51</a></p>
+</blockquote>
+<p><em>Replace “money” with “time”.</em></p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>christianity</category>
+  <category>come follow me</category>
+  <category>book of mormon</category>
+  <category>scripture of the day</category>
+  <category>scriptures</category>
+  <guid>https://www.bryanwhiting.com/christianity/scriptures-within-scriptures.html</guid>
+  <pubDate>Tue, 09 Jan 2024 07:33:40 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-white-fruit-delicious-zoom-in.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Dune: Messiah</title>
+  <link>https://www.bryanwhiting.com/book-review/dune-messiah.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Sequel to <a href="../book-review/dune.html">Dune</a>.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/book-dune-messiah.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Dune Messiah</figcaption>
+</figure>
+</div>
+<p>Notes: - sometimes lies are easier to believe than the truth - He may be a mentat, Benegesseret, etc but he’s still human. He has a weakness.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book-review</category>
+  <guid>https://www.bryanwhiting.com/book-review/dune-messiah.html</guid>
+  <pubDate>Tue, 09 Jan 2024 06:07:10 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/book-dune-messiah.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>I’m Grateful for the Toothbrush</title>
+  <link>https://www.bryanwhiting.com/gratitude/toothbrush.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Is there anything more refreshing than brushing your teeth? Anything less satisfying than going to bed without brushing your teeth (camping, airplane ride?)?</p>
+<p>Brushing my teeth is a gift. And I know it prevents problems (cavities, disease, etc). It also enables me to have more sugar, which is probably bad for me but I enjoy regardless.</p>
+<p>In <a href="../book-review/the-power-of-habit.html">The Power of Habit</a> and learned about this great fact about tooth brushing (summarized by ChatGPT):</p>
+<blockquote class="blockquote">
+<p>Yes, “The Power of Habit” by Charles Duhigg does mention toothpaste. The book discusses how toothpaste companies, particularly Pepsodent, leveraged the power of habit to increase their product’s usage. Duhigg explains how Pepsodent created a daily habit for people by associating the use of toothpaste with the tingling sensation it produces, which wasn’t common in toothpastes before Pepsodent. This case study is used to illustrate how cues and rewards can create lasting habits.</p>
+</blockquote>
+<p>Pepsodent and their marketing team in the 1920’s changed life for us all. Same goes for body wash, hand soap, and other soaps - they put the bubbles in them to make us think it’s “working”.</p>
+<p>But I also like bubbles. Who doesn’t like bubbles? Toothpaste has bubbles. What a gift.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-toothbrush-family-1920.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Family bonding through bubbling refreshment since the 1920s</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>gratitude</category>
+  <guid>https://www.bryanwhiting.com/gratitude/toothbrush.html</guid>
+  <pubDate>Tue, 09 Jan 2024 03:31:43 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-toothbrush-family-1920.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>A Knife to a Gun Fight: Why I’m off Social Media</title>
+  <link>https://www.bryanwhiting.com/tech/a-knife-to-a-gun-fight.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Tim Ferris describes why he doesn’t have social media on his phone:</p>
+<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="<https://youtu.be/_Fn-giKevmo?si=f1Lz9H2U08BQhKwv>"></video></div>
+<p>I recently deleted social media from my phone 14 days ago. I had been using Instagram until April when I quit and Twitter all year. I realized within days how much better I felt without social media. Happier. Legitimately happier.</p>
+<p>And why? What do I get out of it? I’m not growing closer to friends. That’s what texting and calling and spending time in person does. But I’d argue even texting doesn’t really strengthen a relationship because it’s so hard to properly interpret emotions and cues via text: you interpret them how you read those texts. You interpret it according to your emotional state, not the sender’s.</p>
+<p>Phone provides vocal emotional cues. Body language another set of emotional cues. I can get probably 70% of this out from FaceTime or <a href="../gratitude/zoom.html">Zoom</a>. But being in person is what we’re meant for.</p>
+<p>This is why we strengthen relationships locally, and fail to continue ones from high school or our previous job.</p>
+<p>So what was I doing on social media? Watching clips of either strangers I don’t care about or college associates I friended (once lived locally with) that I no longer talk to.</p>
+<p>So what’s the knife you’re bringing to the gun fight? When at YouTube I heard the CEO praise a team for increasing “seconds watched” by 15% by reducing the lag of the swipes between YouTube shorts (TikTok clone). The lag reduction was in the milliseconds. Your attention is being bought and manipulated by the shareholders of these companies.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-knife-gun-fight.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Yes, they’re targeting specifically you. You don’t stand a chance. And you have a pocket knife, and you’re 50 feet away. Who’s gonna win?</figcaption>
+</figure>
+</div>
+<p>They A/B test everything. This isn’t morally wrong. It’s actually quite human: we all A/B test everything every day. A joke here. A smile there. We put out feelers and see if we get a reaction. Don’t believe me? Ask my kid why he keeps throwing things in the toilet!</p>
+<p>Billions of dollars and the brightest minds on earth are working at FAANG. Why? They need to provide for their families and academics doesn’t pay. Non-profits don’t pay. This isn’t immoral, it just is. There are very good people working there: honest, moral people. Some of the best I’ve seen in the industry. But when you get paid to maximize swipes, you maximize swipes. It’s just human nature. And some of them buy into the odd notions of “snackable content”, as if swiping for 30 minutes while on the toilet is what anyone wakes up excited to do. Keep on snacking…</p>
+<p>Social media and Netflix provide a ton of value to the world in my opinion. I can use them to call anyone I want, raise money for a cause, or get likes on a cute pic of my cat (I don’t have a cat). I <em>do</em> see the value.</p>
+<p>But the costs for me have outweighed the value.</p>
+<p>I <em>do</em> miss laughing about some random Reel. There’s nothing that can get you laughing faster than a 10 second clip paired with the right cuts and music and everything. The right meme just nails it in a way nothing else can. I miss seeing memes from my friends. But when all I do is send memes to these friends, is that a friendship?</p>
+<p>Since being off social media I feel like my senses have grown. I now find my kids a lot funnier, my wife funnier, and I’m able to make heavy situations lighter much easier.</p>
+<p>There’s a quote in <a href="../book-review/dune.html">Dune</a> that’s something like “If you rely only on your eyes, your other senses weaken”. I’d argue my other relationships weakened too. Time to leave the fight. I was losing.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>personal experiments</category>
+  <category>A/B testing</category>
+  <category>social media</category>
+  <category>big tech</category>
+  <category>incentives</category>
+  <category>decisions</category>
+  <category>relationships</category>
+  <category>ai</category>
+  <category>emotional intelligence</category>
+  <category>purpose of life</category>
+  <category>digital minimalism</category>
+  <guid>https://www.bryanwhiting.com/tech/a-knife-to-a-gun-fight.html</guid>
+  <pubDate>Mon, 08 Jan 2024 19:24:09 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-knife-gun-fight.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Becoming an expert is kind of a fallacy</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/becoming-an-expert.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Just watched this clip:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/I2ZK3ngNvvI?si=p4BCDVMWKBoc4KJQ" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>Important discussion points: as a novice you’re worried about where to go or picking the wrong thing.</p>
+<p>I remember not taking an opportunity to learn C++ because “that’s not what I want to do”. In another occasion I wanted to learn PySpark over SQL because Python…</p>
+<p>While I don’t regret that choice per se, because I chose something else I was interested in, I’ve largely come to realize that I don’t care what programming language I’m using. I care about getting the job done.</p>
+<p>Also, I’m probably over the 10,000 hours of <em>something</em>, I just don’t know what. Am I an ML expert? Data expert? SQL? Python? R?</p>
+<p>Is it the application of the skill that makes you an expert? I’m not sure. Because I think novices can do some incredible things if they hone in.</p>
+<p>If you read one book on a topic, you’re by no means an “expert”, but you probably know more about that topic than 99% of the nation. I learned this when I spent 6 months diving into the home security industry for my first job. Pretty sure I knew more about that than anyone I spoke to. Was I an expert? I really only had maybe 300 hours. Maybe I was inexperienced. Sure.</p>
+<p>And who spends literally 10,000 hours on any one thing? Like 10,000 hours on XGBoost? Image classification? Deep learning? Machine learning? A/B testing? Spreadsheets? Generalist vs specialist, etc. if you’re an ML scientist at Google, you worry about very different things than an ML scientist at a startup. At a startup, you worry about your bigquery allocation and pipeline failures. At Google you worry about what your 5th skip VP is going to deprecate that month.</p>
+<p>That’s just the nature of education. There are so many things in the world to know…that being an “expert” is a relative thing. But I agree that working hard and learning useful things helps you innovate faster.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-rocky-balboa-expert.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">I’d change my opinion on being an expert if I needed to beat Rocky.</figcaption>
+</figure>
+</div>
+<p>Last thing, the crux is: don’t compare yourself to others. Compare yourself to yourself. That’s how you assess your progress.</p>
+<p>But I’d argue: why even compare yourself to yourself? Compare your solution to the problem. Does it matter if you have 10,000 hours? No.&nbsp;What matters is if the solution fits. This is why innovations and disruptions come from unexpected places: because novices can nail solutions.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>personal development</category>
+  <category>growth</category>
+  <category>grit</category>
+  <category>life lessons</category>
+  <category>data science</category>
+  <guid>https://www.bryanwhiting.com/posts/becoming-an-expert.html</guid>
+  <pubDate>Mon, 08 Jan 2024 06:55:24 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-rocky-balboa-expert.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>My testimony: Moving across the Country</title>
+  <link>https://www.bryanwhiting.com/christianity/my-testimony-2024-01-07.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><em>Today is fast Sunday, a day when testimonies are shared in church. Here’s my testimony I shared today. Someone had just spoken about moving to a new place and seeing God in their lives, even if it was far away from where they had thought they needed to be. They had moved away from family.</em></p>
+<p>I was reminded today of why I live where I do. Without going into personal details, as a family we decided it was time to leave the east coast and move west. As I wondered how it might be possible, I was encouraged by my wife to reach out to an old contact on a random spreadsheet I had kept seven years prior when I was first looking for jobs. The guy had since changed jobs from when he had interviewed me, but he referred me to his new company.</p>
+<p>Well, this company was otherwise impossible to get noticed at, even with referrals. Turns out this guy was a lot higher than I had known. It was enough to get me the first interview. Four years later we’re still on the west coast. It’s definitely a better situation for our family in many ways.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-u-haul-moving.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Moving because when we had a desire, the Lord opened the door for us</figcaption>
+</figure>
+</div>
+<p>And in terms of family, I grew up living far away from cousins. My church congregation became my family. My parents friends became my Sunday school teachers and mentors. My friends at church became my closest confidants and kept me company in living the principles I believed in.</p>
+<p>Recently, this church family helped us with meals, gifts, and emotional warmth. I don’t know what I’d do without belonging to a group of people who care for one another (I know many communities are like this, but I think it’s extra special in a Christian context where everyone wants to help and strengthen each other in kindness. We all try their best.)</p>
+<p>Christ’s design that we have a church is inspired:</p>
+<blockquote class="blockquote">
+<p>There is <strong>one body, and one Spirit</strong>, even as ye are called in one hope of your calling; One Lord, one faith, one baptism, One God and Father of all, who is above all, and through all, and in you all. <a href="../scriptures/ephesians-4.4-6">Ephesians 4.4–6</a></p>
+</blockquote>
+<p>And are we not all family? The spiritual children of Christ and sons and daughters of Heavenly Father.</p>
+<blockquote class="blockquote">
+<p>And now, because of the covenant which ye have made <strong>ye shall be called the children of Christ, his sons, and his daughters;</strong> for behold, this day he hath spiritually begotten you; for ye say that your hearts are changed through faith on his name; therefore, ye are born of him and have become his sons and his daughters. … therefore, I would that ye should take upon you the name of Christ… <a href="../scriptures/mosiah-5.7-8">Mosiah 5.7–8</a></p>
+</blockquote>
+<p>I testify the <a href="../concepts/hand-of-god.html">Hand of God</a> is real. He leads and guides people to where they need to be gathered. And when we gather together as one body, miracles happen.</p>
+<hr>
+<p>I also love this scripture, how Lehi was guided to a “land of promise”.</p>
+<blockquote class="blockquote">
+<p>behold, I <strong>have obtained</strong> a land of promise <a href="../scriptures/1-nephi-5.5">1 Nephi 5.5</a></p>
+</blockquote>
+<p>He wrote “have obtained” while he was struggling for food and water in the desert. He saw ahead to when he’d eventually live in a near rain forest paradise.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>christianity</category>
+  <category>fast sunday</category>
+  <category>my testimony</category>
+  <category>memories</category>
+  <category>let god prevail</category>
+  <guid>https://www.bryanwhiting.com/christianity/my-testimony-2024-01-07.html</guid>
+  <pubDate>Sun, 07 Jan 2024 22:52:13 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-u-haul-moving.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>What does it mean to preside?</title>
+  <link>https://www.bryanwhiting.com/christianity/what-does-it-mean-to-preside.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>The responsibility of a Father is to preside:</p>
+<blockquote class="blockquote">
+<p>By divine design, <strong>fathers are to preside over their families in love and righteousness</strong> and are responsible to provide the necessities of life and protection for their families. <a href="../scriptures/the-family-proclamation">The Family Proclamation</a></p>
+</blockquote>
+<p>I’ve long wondered what this meant. Earlier in my marriage I wondered: does this mean a father leads all family gatherings, has the first or last word, or delegates who says the prayer? That’s probably because the word “preside” is used synonymously with lead with respect to church callings and such:</p>
+<blockquote class="blockquote">
+<p>Verily, I say unto you, saith the Lord of Hosts, there must needs be presiding elders to <strong>preside</strong> over those who are of the office of an elder; And also priests to <strong>preside</strong> over those who are of the office of a priest; 62 And also teachers to preside <strong>over</strong> those who are of the office of a teacher, in like manner, and also the deacons <a href="../scriptures/doctrine-and-covenants-107.60-62">Doctrine and Covenants 107.60–62</a></p>
+</blockquote>
+<p>I never really wondered if this was “who calls the shots”, or “who runs the show” - that never felt like a thing because my father is a gentle, servant leader. But I know some wonder what the details of this phrase mean. And what does it mean for single moms?</p>
+<p>Well, I recently learned what <em>I</em> think it means. I started getting slightly more-than-average stressed with being sleep deprived after having a newborn.</p>
+<p>I noticed, by consequence, my kids appeared more agitated. I remembered my <a href="../posts/your-mood-is-contagious.html">Mood is Contagious</a>.</p>
+<p>Once I got more sleep, I realized the kids model my behavior as a father than follow my words. The way I talk to them is how they talk to each other - for better or worse.</p>
+<p>Every parent knows this.</p>
+<p>So while “preside” technically means to lead a meeting, it also means to lead a gathering. Is a family not a gathering?</p>
+<blockquote class="blockquote">
+<p>…how oft have I gathered you as a hen gathereth her chickens under her wings, and have nourished you. And again, how oft would I have gathered you as a hen gathereth her chickens under her wings, <a href="../scriptures/3-nephi-10.4-5">3 Nephi 10.4–5</a></p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-water-color-a-mother-hen-with-a-chicken-under-her-wing-as-its-raining.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Shouldn’t we preside more like this?</figcaption>
+</figure>
+</div>
+<p>Maybe we can preside more like Christ: with kindness, gentleness, and love unfeigned.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>christianity</category>
+  <category>book of mormon</category>
+  <category>doctrine and covenants</category>
+  <category>priesthood</category>
+  <category>leadership</category>
+  <category>the family a proclamation to the world</category>
+  <category>parenting</category>
+  <guid>https://www.bryanwhiting.com/christianity/what-does-it-mean-to-preside.html</guid>
+  <pubDate>Sun, 07 Jan 2024 21:37:28 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-water-color-a-mother-hen-with-a-chicken-under-her-wing-as-its-raining.jpeg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

@@ -3,10 +3,9 @@ title: "Sitemap (All Posts)"
 listing:
   contents: 
     - "*/*.md"
-    - "*/*.qmd"
+    # - "*/*.qmd" # this breaks it
   template: quarto_templates/gallery.ejs
   sort:
     - "date desc"
-  # max-description-length: 10000
-date-format: "YYYY-MM-DD"
+  date-format: "YYYY-MM-DD"
 ---

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/cool-quarto-site.md",
+                "file": "gratitude/small-things.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/cool-quarto-site.md",
+                "file": "gratitude/small-things.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/cool-quarto-site.md",
+                "file": "gratitude/small-things.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/cool-quarto-site.md"
+                "file": "gratitude/small-things.md"
               }
             }
           }
@@ -190,28 +190,30 @@
   },
   "active": "3e0940abb38815d5",
   "lastOpenFiles": [
-    "docs/posts/2022-07-03-when-data-collection-goes-too-far/felix.pdf",
-    "docs/posts/2020-12-15-data-beats-opinions/image.jpg",
-    "docs/posts/2020-12-15-data-beats-opinions",
-    "docs/posts/2020-12-15-calendaring-todos/image.png",
-    "docs/posts/2020-12-15-calendaring-todos",
-    "docs/posts/2020-12-16-pretotyping-ml-solutions/image.jpg",
-    "docs/posts/2020-12-16-pretotyping-ml-solutions",
-    "docs/posts/2020-12-18-productivity-notes/image.jpg",
-    "docs/posts/2020-12-18-productivity-notes",
-    "docs/posts/2021-07-17-authors-angle-matters/image.jpg",
-    "docs/posts/2021-07-17-authors-angle-matters",
-    "docs/posts/2022-06-20-blogging-with-quarto/photo.jpeg",
-    "docs/posts/2022-06-20-blogging-with-quarto",
-    "docs/posts/2022-06-21-products-for-dads/photo.jpeg",
-    "docs/posts/2022-06-21-the-power-of-party-pay-by-visible/photo.jpeg",
-    "docs/posts/2022-06-21-the-power-of-party-pay-by-visible",
-    "docs/posts/2022-06-22-downstream-impact/photo.jpeg",
-    "docs/posts/2022-06-22-downstream-impact",
-    "docs/posts/2022-06-23-the-best-todolist-manager/app.jpeg",
-    "docs/posts/2022-06-23-the-best-todolist-manager",
-    "docs/posts/2022-06-28-pomodoro-principles",
+    "posts/attention-is-increased-capacity-to-handle-multiple-ideas-increases-without-social-media.md",
+    "lists/news.md",
     "posts/cool-quarto-site.md",
+    "docs/index-listing.json",
+    "docs/index.feed-full-staged",
+    "index-listing.json",
+    "index.feed-full-staged",
+    "site_libs/quarto-search/quarto-search.js",
+    "site_libs/quarto-search/fuse.min.js",
+    "site_libs/quarto-search/autocomplete.umd.js",
+    "site_libs/quarto-nav/quarto-nav.js",
+    "site_libs/quarto-nav/headroom.min.js",
+    "site_libs/quarto-html/zenscroll-min.js",
+    "docs/screenshot-quarto-demo-forbo7-subscribe.png",
+    "docs/quarto-demo-forbo7-huggingface.png",
+    "docs/posts/quarto-from-phone/repo.jpeg",
+    "docs/posts/2023-12-21-the-dodo/photo.jpeg",
+    "docs/posts/2022-12-15-chatgpt-rshiny/xts.png",
+    "docs/posts/2022-12-15-chatgpt-rshiny/rownames_to_date.png",
+    "docs/posts/2022-12-15-chatgpt-rshiny/recommend.png",
+    "docs/posts/2022-12-15-chatgpt-rshiny/quatmod.png",
+    "docs/posts/2022-12-15-chatgpt-rshiny/missing_date.png",
+    "docs/posts/2022-12-15-chatgpt-rshiny/iris_processing.png",
+    "docs/_templates/new-post.md",
     "tech/this-drug-is-habit-forming.md",
     "posts/your-mood-is-contagious.md",
     "posts/whats-your-decision-framework.md",
@@ -233,8 +235,6 @@
     "concepts/the-book-of-mormon-another-testament-of-jesus-christ.md",
     "concepts/gratus-sum-ergo-habeo.md",
     "christianity/praying-for-other-people.md",
-    "christianity/he-prepares-us-to-teach-us.md",
-    "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
-    "gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.md"
+    "christianity/he-prepares-us-to-teach-us.md"
   ]
 }

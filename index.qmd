@@ -11,6 +11,7 @@ listing:
     grid-columns: 3
     fields: [image, title, description, date]
     max-items: 6
+    feed: true
     sort:
       - "date desc"
       - "title asc"
@@ -39,7 +40,7 @@ listing:
       - "date desc"
       - "title asc"
 date-format: "ddd MMM D, YYYY"
-toc: true
+toc: false
 toc-location: body
 page-layout: full
 title-block-banner: false

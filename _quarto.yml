@@ -50,8 +50,8 @@ website:
       - index.qmd
       - section: "Writing"
         contents:
-            - posts.qmd
             - tech.qmd
+            - posts.qmd
             - books.qmd
             - christianity.qmd
             - gratitude.qmd
