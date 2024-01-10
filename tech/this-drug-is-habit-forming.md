@@ -1,6 +1,6 @@
 ---
 title: This drug is habit forming
-description: A case for societal acceptance of things not good for us
+description: An argument against societal acceptance of things not good for us
 date: 2024-01-09 23:49:54
 created: 2024-01-09 23:49:54
 categories:

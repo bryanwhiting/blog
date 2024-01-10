@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/your-mood-is-contagious.md",
+                "file": "tech/this-drug-is-habit-forming.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/your-mood-is-contagious.md",
+                "file": "tech/this-drug-is-habit-forming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/your-mood-is-contagious.md",
+                "file": "tech/this-drug-is-habit-forming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/your-mood-is-contagious.md"
+                "file": "tech/this-drug-is-habit-forming.md"
               }
             }
           }
@@ -160,6 +160,7 @@
   },
   "active": "3e0940abb38815d5",
   "lastOpenFiles": [
+    "posts/your-mood-is-contagious.md",
     "posts/whats-your-decision-framework.md",
     "concepts/my-mission.md",
     "posts/the-six-hour-sandwich.md",
@@ -204,7 +205,6 @@
     "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
     "gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.md",
     "christianity/come-follow-me-2024-01-07-jan-7.md",
-    "christianity/cfm-2023-12-31-rev-15-21.md",
-    "lists/gratitude-backlog.md"
+    "christianity/cfm-2023-12-31-rev-15-21.md"
   ]
 }
