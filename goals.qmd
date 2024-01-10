@@ -148,7 +148,8 @@ ggplot(df3, aes(x = week_of_year, y = day_of_week, fill = total_goals)) +
 #| label: fig-goals
 #| echo: false
 #| message: false
-#| warning: false#| 
+#| warning: false
+#| fig-align: center
 library(gt)
 df2_recent <- df2 %>% 
   filter(date >= max(date) - 13) %>%
