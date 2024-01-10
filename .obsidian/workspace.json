@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lists/gratitude-backlog.md",
+                "file": "christianity/come-follow-me-2024-01-14-jan-14.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lists/gratitude-backlog.md",
+                "file": "christianity/come-follow-me-2024-01-14-jan-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lists/gratitude-backlog.md",
+                "file": "christianity/come-follow-me-2024-01-14-jan-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lists/gratitude-backlog.md"
+                "file": "christianity/come-follow-me-2024-01-14-jan-14.md"
               }
             }
           }
@@ -160,6 +160,38 @@
   },
   "active": "3e0940abb38815d5",
   "lastOpenFiles": [
+    "tech/this-drug-is-habit-forming.md",
+    "tech/the-matrix.md",
+    "scriptures/mark-4.31-32.md",
+    "scriptures/alma-37.7.md",
+    "scriptures/2-nephi-28.30.md",
+    "scriptures/1-nephi-1.7-8.md",
+    "scriptures/1-nephi-1.5.md",
+    "scriptures/1-nephi-1.5-6.md",
+    "posts/the-six-hour-sandwich.md",
+    "posts/the-church-of-jesus-christ-of-latter-day-saints.md",
+    "posts/my-mission.md",
+    "img/photo-sandwich-avocado.jpeg",
+    "img/dalle-pillar-of-fire-on-rock.jpeg",
+    "img/dalle-mustard-seed.jpeg",
+    "img/dalle-habit-forming-drug.jpeg",
+    "img/dalle-bec-con-papas.jpeg",
+    "img/dalle-avocado-sandwich.jpeg",
+    "img/dalle-alone-in-a-crowded-room.jpeg",
+    "img/book-the-oxford-inklings.jpeg",
+    "gratitude/small-things.md",
+    "gratitude/sandwich-shops.md",
+    "goals/2024-01-10-goals.md",
+    "concepts/the-book-of-mormon-another-testament-of-jesus-christ.md",
+    "concepts/gratus-sum-ergo-habeo.md",
+    "christianity/praying-for-other-people.md",
+    "christianity/he-prepares-us-to-teach-us.md",
+    "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
+    "gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.md",
+    "christianity/come-follow-me-2024-01-14-jan-14.md",
+    "christianity/come-follow-me-2024-01-07-jan-7.md",
+    "christianity/cfm-2023-12-31-rev-15-21.md",
+    "lists/gratitude-backlog.md",
     "_freeze/site_libs/quarto-html/zenscroll-min.js",
     "_freeze/site_libs/quarto-html/tippy.umd.min.js",
     "_freeze/site_libs/quarto-html/tippy.css",
@@ -170,41 +202,9 @@
     "_freeze/site_libs/quarto-html",
     "_freeze/site_libs/bootstrap/bootstrap.min.js",
     "_freeze/site_libs/bootstrap/bootstrap.min.css",
-    "_freeze/site_libs/bootstrap/bootstrap-icons.woff",
     "goals.knit.md",
     "img/dalle-unhappy-investor-vector.jpeg",
     "docs/img/dalle-unhappy-investor-vector.jpeg",
-    "goals_files/figure-html/fig-goals-1.png",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/help/figures/lifecycle-superseded.svg",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/help/figures/lifecycle-stable.svg",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/help/figures/lifecycle-soft-deprecated.svg",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/help/figures/lifecycle-questioning.svg",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/help/figures/lifecycle-maturing.svg",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/help/figures/lifecycle-experimental.svg",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/help/figures/lifecycle-deprecated.svg",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/NEWS.md",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/reactR/NEWS.md",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/reactable/NEWS.md",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/markdown/NEWS.md",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/htmlwidgets/NEWS.md",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/gt/NEWS.md",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/bigD/NEWS.md",
-    "renv/staging/1/gt/NEWS.md",
-    "renv/staging/1/xml2/NEWS.md",
-    "renv/staging/1/reactable/NEWS.md",
-    "renv/staging/1/reactR/NEWS.md",
-    "renv/staging/1/markdown/NEWS.md",
-    "renv/staging/1/htmlwidgets/NEWS.md",
-    "renv/staging/1/bigD/NEWS.md",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/sass/sass-theme/README.md",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/sass/sass-size/README.md",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/sass/sass-font/README.md",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/sass/sass-color/README.md",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/sass/NEWS.md",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/rmarkdown/rmarkdown/templates/github_document/resources/default.md",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/rmarkdown/NEWS.md",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/rappdirs/NEWS.md",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/memoise/NEWS.md",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/jquerylib/NEWS.md"
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/NEWS.md"
   ]
 }
