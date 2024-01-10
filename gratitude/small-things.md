@@ -1,7 +1,6 @@
 ---
-title: small things
-description: |
-  xxx  
+title: I'm grateful for small things
+description: The smaller the better. If you can appreciate a blade of grass, you can appreciate anything.
 date: 2024-01-10 08:48:05
 created: 2024-01-10 08:48:05
 categories:
@@ -10,6 +9,8 @@ categories:
   - book of mormon
   - scripture of the day
   - retrospective
+  - philosophy
+  - principles
 draft: false
 ---
 In my deli this morning ([I'm Grateful for Sandwich Shops](sandwich-shops.md)), there's a cheesy quote on the pinboard:
