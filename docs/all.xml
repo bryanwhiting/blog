@@ -47,6 +47,28 @@
   <pubDate>Wed, 10 Jan 2024 14:44:29 GMT</pubDate>
 </item>
 <item>
+  <title>Newsletters I follow</title>
+  <link>https://www.bryanwhiting.com/lists/news.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Newsletters</p>
+<ul>
+<li><a href="https://www.thedeepview.co/">The Deep View</a></li>
+</ul>
+<p>Second Tier</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>lists</category>
+  <guid>https://www.bryanwhiting.com/lists/news.html</guid>
+  <pubDate>Wed, 10 Jan 2024 13:22:06 GMT</pubDate>
+</item>
+<item>
   <title>He prepares us to teach us</title>
   <link>https://www.bryanwhiting.com/christianity/he-prepares-us-to-teach-us.html</link>
   <description><![CDATA[ 
@@ -137,9 +159,20 @@
 <ul>
 <li>I think about what I gave thanks on later in the day</li>
 <li>While writing, ideas flood into the mind, building the thoughts more than initially realized</li>
-<li>When</li>
+<li>it hones my mind to prepare ahead and think about something. What I write about I think about: before and after.</li>
+<li>It’s fun to blog about things as they happen, such as <a href="../gratitude/sandwich-shops.html">I’m Grateful for Sandwich Shops</a>.</li>
 </ul>
-<p>I learned once on <a href="../concepts/my-mission.html">my mission</a> that “when I don’t have gratitude, I don’t have anything.” I remember the day I learned this, discussing the concept with my roommate/companion. Those who don’t give thanks end up complaining. If you’re complaining then you don’t have anything you want. If you give thanks, you have everything you could want. The list is endless</p>
+<p>I learned once on <a href="../concepts/my-mission.html">my mission</a> that “when I don’t have gratitude, I don’t have anything.” I remember the day I learned this, discussing the concept with my roommate/companion. Those who don’t give thanks end up complaining. If you’re complaining then you don’t have anything you want. If you give thanks, you have everything you could want. The list is endless on both ends.</p>
+<p><a href="../scriptures/alma-37.7.html">Alma 37.7</a></p>
+<blockquote class="blockquote">
+<p>And the Lord God doth work by means to bring about his great and eternal purposes; and by very small means the Lord doth confound the wise and bringeth about the salvation of many souls.</p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-mustard-seed.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Smaller the better</figcaption>
+</figure>
+</div>
 
 
 
@@ -719,47 +752,6 @@
   <category>digital minimalism</category>
   <guid>https://www.bryanwhiting.com/tech/a-knife-to-a-gun-fight.html</guid>
   <pubDate>Mon, 08 Jan 2024 11:24:09 GMT</pubDate>
-</item>
-<item>
-  <title>Becoming an expert is kind of a fallacy</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/becoming-an-expert.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Just watched this clip:</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/I2ZK3ngNvvI?si=p4BCDVMWKBoc4KJQ" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<p>Important discussion points: as a novice you’re worried about where to go or picking the wrong thing.</p>
-<p>I remember not taking an opportunity to learn C++ because “that’s not what I want to do”. In another occasion I wanted to learn PySpark over SQL because Python…</p>
-<p>While I don’t regret that choice per se, because I chose something else I was interested in, I’ve largely come to realize that I don’t care what programming language I’m using. I care about getting the job done.</p>
-<p>Also, I’m probably over the 10,000 hours of <em>something</em>, I just don’t know what. Am I an ML expert? Data expert? SQL? Python? R?</p>
-<p>Is it the application of the skill that makes you an expert? I’m not sure. Because I think novices can do some incredible things if they hone in.</p>
-<p>If you read one book on a topic, you’re by no means an “expert”, but you probably know more about that topic than 99% of the nation. I learned this when I spent 6 months diving into the home security industry for my first job. Pretty sure I knew more about that than anyone I spoke to. Was I an expert? I really only had maybe 300 hours. Maybe I was inexperienced. Sure.</p>
-<p>And who spends literally 10,000 hours on any one thing? Like 10,000 hours on XGBoost? Image classification? Deep learning? Machine learning? A/B testing? Spreadsheets? Generalist vs specialist, etc. if you’re an ML scientist at Google, you worry about very different things than an ML scientist at a startup. At a startup, you worry about your bigquery allocation and pipeline failures. At Google you worry about what your 5th skip VP is going to deprecate that month.</p>
-<p>That’s just the nature of education. There are so many things in the world to know…that being an “expert” is a relative thing. But I agree that working hard and learning useful things helps you innovate faster.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-rocky-balboa-expert.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">I’d change my opinion on being an expert if I needed to beat Rocky.</figcaption>
-</figure>
-</div>
-<p>Last thing, the crux is: don’t compare yourself to others. Compare yourself to yourself. That’s how you assess your progress.</p>
-<p>But I’d argue: why even compare yourself to yourself? Compare your solution to the problem. Does it matter if you have 10,000 hours? No.&nbsp;What matters is if the solution fits. This is why innovations and disruptions come from unexpected places: because novices can nail solutions.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>posts</category>
-  <category>personal development</category>
-  <category>growth</category>
-  <category>grit</category>
-  <category>life lessons</category>
-  <category>data science</category>
-  <guid>https://www.bryanwhiting.com/posts/becoming-an-expert.html</guid>
-  <pubDate>Sun, 07 Jan 2024 22:55:24 GMT</pubDate>
 </item>
 </channel>
 </rss>

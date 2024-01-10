@@ -6,11 +6,11 @@
       version="2.0">
 <channel>
 <title>Bryan Whiting</title>
-<link>https://www.bryanwhiting.com/index.html</link>
+<link>https://www.bryanwhiting.com/</link>
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.2.269</generator>
-<lastBuildDate>Wed, 10 Jan 2024 22:44:29 GMT</lastBuildDate>
+<generator>quarto-1.4.515</generator>
+<lastBuildDate>Wed, 10 Jan 2024 14:44:29 GMT</lastBuildDate>
 <item>
   <title>Cool Quarto Site</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -44,8 +44,7 @@
   <category>tech</category>
   <category>coding</category>
   <guid>https://www.bryanwhiting.com/posts/cool-quarto-site.html</guid>
-  <pubDate>Wed, 10 Jan 2024 22:44:29 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/img/quarto-demo-forbo7-landing.png" medium="image" type="image/png" height="61" width="144"/>
+  <pubDate>Wed, 10 Jan 2024 14:44:29 GMT</pubDate>
 </item>
 <item>
   <title>He prepares us to teach us</title>
@@ -96,8 +95,7 @@
   <category>prophets</category>
   <category>epistemology</category>
   <guid>https://www.bryanwhiting.com/christianity/he-prepares-us-to-teach-us.html</guid>
-  <pubDate>Wed, 10 Jan 2024 17:29:53 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/img/dalle-pillar-of-fire-on-rock.jpeg" medium="image" type="image/jpeg"/>
+  <pubDate>Wed, 10 Jan 2024 09:29:53 GMT</pubDate>
 </item>
 <item>
   <title>Listening to ‘This is the Christ’ right now, grateful for good music</title>
@@ -116,7 +114,7 @@
   <category>gratitude</category>
   <category>music</category>
   <guid>https://www.bryanwhiting.com/gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.html</guid>
-  <pubDate>Wed, 10 Jan 2024 17:24:20 GMT</pubDate>
+  <pubDate>Wed, 10 Jan 2024 09:24:20 GMT</pubDate>
 </item>
 <item>
   <title>small things</title>
@@ -139,9 +137,20 @@
 <ul>
 <li>I think about what I gave thanks on later in the day</li>
 <li>While writing, ideas flood into the mind, building the thoughts more than initially realized</li>
-<li>When</li>
+<li>it hones my mind to prepare ahead and think about something. What I write about I think about: before and after.</li>
+<li>It’s fun to blog about things as they happen, such as <a href="../gratitude/sandwich-shops.html">I’m Grateful for Sandwich Shops</a>.</li>
 </ul>
-<p>I learned once on <a href="../concepts/my-mission.html">my mission</a> that “when I don’t have gratitude, I don’t have anything.” I remember the day I learned this, discussing the concept with my roommate/companion. Those who don’t give thanks end up complaining. If you’re complaining then you don’t have anything you want. If you give thanks, you have everything you could want. The list is endless</p>
+<p>I learned once on <a href="../concepts/my-mission.html">my mission</a> that “when I don’t have gratitude, I don’t have anything.” I remember the day I learned this, discussing the concept with my roommate/companion. Those who don’t give thanks end up complaining. If you’re complaining then you don’t have anything you want. If you give thanks, you have everything you could want. The list is endless on both ends.</p>
+<p><a href="../scriptures/alma-37.7.html">Alma 37.7</a></p>
+<blockquote class="blockquote">
+<p>And the Lord God doth work by means to bring about his great and eternal purposes; and by very small means the Lord doth confound the wise and bringeth about the salvation of many souls.</p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-mustard-seed.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Smaller the better</figcaption>
+</figure>
+</div>
 
 
 
@@ -152,7 +161,7 @@
   <category>scripture of the day</category>
   <category>retrospective</category>
   <guid>https://www.bryanwhiting.com/gratitude/small-things.html</guid>
-  <pubDate>Wed, 10 Jan 2024 16:48:05 GMT</pubDate>
+  <pubDate>Wed, 10 Jan 2024 08:48:05 GMT</pubDate>
 </item>
 <item>
   <title>I’m Grateful for Sandwich Shops</title>
@@ -180,8 +189,7 @@
 <p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
   <category>gratitude</category>
   <guid>https://www.bryanwhiting.com/gratitude/sandwich-shops.html</guid>
-  <pubDate>Wed, 10 Jan 2024 16:34:59 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/img/dalle-bec-con-papas.jpeg" medium="image" type="image/jpeg"/>
+  <pubDate>Wed, 10 Jan 2024 08:34:59 GMT</pubDate>
 </item>
 <item>
   <title>The six hour sandwich</title>
@@ -213,8 +221,7 @@
   <category>life musings</category>
   <category>people I meet</category>
   <guid>https://www.bryanwhiting.com/posts/the-six-hour-sandwich.html</guid>
-  <pubDate>Wed, 10 Jan 2024 16:29:20 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/img/dalle-avocado-sandwich.jpeg" medium="image" type="image/jpeg"/>
+  <pubDate>Wed, 10 Jan 2024 08:29:20 GMT</pubDate>
 </item>
 <item>
   <title>Praying for Other People</title>
@@ -246,8 +253,7 @@
   <category>come follow me</category>
   <category>book of mormon</category>
   <guid>https://www.bryanwhiting.com/christianity/praying-for-other-people.html</guid>
-  <pubDate>Wed, 10 Jan 2024 07:59:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/img/dalle-christ-praying-oh-jerusalem.jpeg" medium="image" type="image/jpeg"/>
+  <pubDate>Tue, 09 Jan 2024 23:59:00 GMT</pubDate>
 </item>
 <item>
   <title>This drug is habit forming</title>
@@ -278,8 +284,7 @@
   <category>tech</category>
   <category>social media</category>
   <guid>https://www.bryanwhiting.com/tech/this-drug-is-habit-forming.html</guid>
-  <pubDate>Wed, 10 Jan 2024 07:49:54 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/img/dalle-habit-forming-drug.jpeg" medium="image" type="image/jpeg"/>
+  <pubDate>Tue, 09 Jan 2024 23:49:54 GMT</pubDate>
 </item>
 <item>
   <title>The Matrix: Social Media’s Influence on Human Interaction</title>
@@ -315,8 +320,7 @@
   <category>tech</category>
   <category>modern living</category>
   <guid>https://www.bryanwhiting.com/tech/the-matrix.html</guid>
-  <pubDate>Wed, 10 Jan 2024 07:33:03 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/img/dalle-alone-in-a-crowded-room.jpeg" medium="image" type="image/jpeg"/>
+  <pubDate>Tue, 09 Jan 2024 23:33:03 GMT</pubDate>
 </item>
 <item>
   <title>The Oxford Inklings: Lewis, Tolkien and Their Circle</title>
@@ -386,8 +390,7 @@
   <category>history</category>
   <category>philosophy</category>
   <guid>https://www.bryanwhiting.com/book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.html</guid>
-  <pubDate>Wed, 10 Jan 2024 04:32:29 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/img/book-the-oxford-inklings.jpeg" medium="image" type="image/jpeg"/>
+  <pubDate>Tue, 09 Jan 2024 20:32:29 GMT</pubDate>
 </item>
 <item>
   <title>What’s your decision framework?</title>
@@ -436,8 +439,7 @@
   <category>personal stories</category>
   <category>emotional intelligence</category>
   <guid>https://www.bryanwhiting.com/posts/whats-your-decision-framework.html</guid>
-  <pubDate>Tue, 09 Jan 2024 21:42:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/img/dalle-unhappy-investor-vector.jpeg" medium="image" type="image/jpeg"/>
+  <pubDate>Tue, 09 Jan 2024 13:42:00 GMT</pubDate>
 </item>
 <item>
   <title>Organization and Minimalism</title>
@@ -482,8 +484,7 @@
   <category>software</category>
   <category>parenting</category>
   <guid>https://www.bryanwhiting.com/posts/organization-and-minimalism.html</guid>
-  <pubDate>Tue, 09 Jan 2024 18:38:11 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/img/dalle-bear-with-messy-stuff.jpeg" medium="image" type="image/jpeg"/>
+  <pubDate>Tue, 09 Jan 2024 10:38:11 GMT</pubDate>
 </item>
 <item>
   <title>Audiobooks</title>
@@ -513,8 +514,7 @@
   <category>gratitude</category>
   <category>reading</category>
   <guid>https://www.bryanwhiting.com/gratitude/audiobooks.html</guid>
-  <pubDate>Tue, 09 Jan 2024 14:36:50 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/img/dalle-headphones-audiobook-doing-dishes.jpeg" medium="image" type="image/jpeg"/>
+  <pubDate>Tue, 09 Jan 2024 06:36:50 GMT</pubDate>
 </item>
 <item>
   <title>Scriptures within Scriptures</title>
@@ -561,8 +561,7 @@
   <category>scripture of the day</category>
   <category>scriptures</category>
   <guid>https://www.bryanwhiting.com/christianity/scriptures-within-scriptures.html</guid>
-  <pubDate>Tue, 09 Jan 2024 07:33:40 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/img/dalle-white-fruit-delicious-zoom-in.jpeg" medium="image" type="image/jpeg"/>
+  <pubDate>Mon, 08 Jan 2024 23:33:40 GMT</pubDate>
 </item>
 <item>
   <title>Dune: Messiah</title>
@@ -587,8 +586,7 @@
 <p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
   <category>book-review</category>
   <guid>https://www.bryanwhiting.com/book-review/dune-messiah.html</guid>
-  <pubDate>Tue, 09 Jan 2024 06:07:10 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/img/book-dune-messiah.jpeg" medium="image" type="image/jpeg"/>
+  <pubDate>Mon, 08 Jan 2024 22:07:10 GMT</pubDate>
 </item>
 <item>
   <title>I’m Grateful for the Toothbrush</title>
@@ -619,8 +617,7 @@
 <p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
   <category>gratitude</category>
   <guid>https://www.bryanwhiting.com/gratitude/toothbrush.html</guid>
-  <pubDate>Tue, 09 Jan 2024 03:31:43 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/img/dalle-toothbrush-family-1920.jpeg" medium="image" type="image/jpeg"/>
+  <pubDate>Mon, 08 Jan 2024 19:31:43 GMT</pubDate>
 </item>
 <item>
   <title>A Knife to a Gun Fight: Why I’m off Social Media</title>
@@ -669,8 +666,7 @@
   <category>purpose of life</category>
   <category>digital minimalism</category>
   <guid>https://www.bryanwhiting.com/tech/a-knife-to-a-gun-fight.html</guid>
-  <pubDate>Mon, 08 Jan 2024 19:24:09 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/img/dalle-knife-gun-fight.jpeg" medium="image" type="image/jpeg"/>
+  <pubDate>Mon, 08 Jan 2024 11:24:09 GMT</pubDate>
 </item>
 <item>
   <title>Becoming an expert is kind of a fallacy</title>
@@ -711,8 +707,7 @@
   <category>life lessons</category>
   <category>data science</category>
   <guid>https://www.bryanwhiting.com/posts/becoming-an-expert.html</guid>
-  <pubDate>Mon, 08 Jan 2024 06:55:24 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/img/dalle-rocky-balboa-expert.jpeg" medium="image" type="image/jpeg"/>
+  <pubDate>Sun, 07 Jan 2024 22:55:24 GMT</pubDate>
 </item>
 <item>
   <title>My testimony: Moving across the Country</title>
@@ -759,8 +754,7 @@
   <category>memories</category>
   <category>let god prevail</category>
   <guid>https://www.bryanwhiting.com/christianity/my-testimony-2024-01-07.html</guid>
-  <pubDate>Sun, 07 Jan 2024 22:52:13 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/img/dalle-u-haul-moving.jpeg" medium="image" type="image/jpeg"/>
+  <pubDate>Sun, 07 Jan 2024 14:52:13 GMT</pubDate>
 </item>
 <item>
   <title>What does it mean to preside?</title>
@@ -807,8 +801,7 @@
   <category>the family a proclamation to the world</category>
   <category>parenting</category>
   <guid>https://www.bryanwhiting.com/christianity/what-does-it-mean-to-preside.html</guid>
-  <pubDate>Sun, 07 Jan 2024 21:37:28 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/img/dalle-water-color-a-mother-hen-with-a-chicken-under-her-wing-as-its-raining.jpeg" medium="image" type="image/jpeg"/>
+  <pubDate>Sun, 07 Jan 2024 13:37:28 GMT</pubDate>
 </item>
 </channel>
 </rss>
