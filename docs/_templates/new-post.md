@@ -52,8 +52,8 @@ strength: false
 cardio: false
 meditate: false
 pray: false
-notes:
-observations:`;
+notes: x
+observations: x`;
 } 
 
 

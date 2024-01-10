@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "goals/2024-01-10-goals.md",
+                "file": "goals/2024-01-09-goals.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "goals/2024-01-10-goals.md",
+            "file": "goals/2024-01-09-goals.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "goals/2024-01-10-goals.md"
+            "file": "goals/2024-01-09-goals.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "goals/2024-01-10-goals.md",
+            "file": "goals/2024-01-09-goals.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -138,10 +138,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "be767112276aa446",
+  "active": "78912cccc2282195",
   "lastOpenFiles": [
-    "goals/2024-01-09-goals.md",
     "goals/2024-01-10-goals.md",
+    "docs/_templates/new-post.md",
+    "goals/2024-01-09-goals.md",
     "christianity/he-prepares-us-to-teach-us.md",
     "scriptures/2-nephi-28.30.md",
     "img/dalle-pillar-of-fire-on-rock.jpeg",
@@ -160,7 +161,6 @@
     "concepts/the-book-of-mormon-another-testament-of-jesus-christ.md",
     "_templates/new-post.md",
     "Untitled.md",
-    "docs/_templates/new-post.md",
     "scriptures/alma-37.7.md",
     "img/dalle-bec-con-papas.jpeg",
     "img/dalle-avocado-sandwich.jpeg",
