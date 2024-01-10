@@ -7,9 +7,10 @@ categories:
 draft: false
 ---
 ### Business books/Self Help
-- [ ] How to win friends and influence people #spotify 
+- [ ] How to win friends and influence people #spotify #libby 
 - [ ] This is Marketing #audible
 - [ ] Ten Day MBA #audible 
+- [ ] Team of Teams #spotify 12hr.
 - [ ] Wealth of Nations #youtube https://www.youtube.com/watch?v=PH4B-SGf6-A
 
 ### Fiction
@@ -36,6 +37,7 @@ To finish
 ### Religion and Philosophy
 - [ ] Paradise Lost and Paradise Regained #libby 
 - [ ] Mere Christianity #libby 
+- [ ] The quest for Cosmic Justice - Sowll #audible-free
 
 # Backlog
 - [x] [killers-of-the-flower-moonyfg if](book-review/killers-of-the-flower-moonyfg%20if.md)
@@ -43,6 +45,8 @@ To finish
 
 Libby:
 - [x] [Dune](dune.md)
+
+- [ ] The Quest for
 
 Literature
 - [ ] One hundred years of solitude

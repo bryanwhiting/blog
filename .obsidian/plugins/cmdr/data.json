@@ -32,6 +32,12 @@
       "icon": "file-search",
       "name": "Omnisearch: In-file search",
       "mode": "any"
+    },
+    {
+      "id": "recent-files-obsidian:recent-files-open",
+      "icon": "rewind",
+      "name": "Recent Files: Open",
+      "mode": "any"
     }
   ],
   "macros": [],

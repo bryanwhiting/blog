@@ -8,6 +8,10 @@ draft: false
 ---
 List of reasons why I write this blog and principles I aspire to. They evolve over time, and I like to keep track. 
 
+2024-01-10
+
+- write gratitude posts day of. No planning. Same with scripture studies. 
+
 
 2023-12-31
 

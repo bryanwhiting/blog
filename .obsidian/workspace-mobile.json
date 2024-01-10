@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/praying-for-other-people.md",
+                "file": "gratitude/small-things.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,9 +71,17 @@
           "type": "bookmarks",
           "state": {}
         }
+      },
+      {
+        "id": "eaac7e078c7a8b68",
+        "type": "leaf",
+        "state": {
+          "type": "recent-files",
+          "state": {}
+        }
       }
     ],
-    "currentTab": 0
+    "currentTab": 4
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -85,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/praying-for-other-people.md",
+            "file": "gratitude/small-things.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/praying-for-other-people.md"
+            "file": "gratitude/small-things.md"
           }
         }
       },
@@ -112,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/praying-for-other-people.md",
+            "file": "gratitude/small-things.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -132,16 +140,28 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "posts/my-mission.md",
+    "posts/the-church-of-jesus-christ-of-latter-day-saints.md",
+    "concepts/the-book-of-mormon-another-testament-of-jesus-christ.md",
+    "_templates/new-post.md",
+    "Untitled.md",
+    "docs/_templates/new-post.md",
+    "gratitude/small-things.md",
+    "scriptures/alma-37.7.md",
+    "gratitude/sandwich-shops.md",
+    "img/dalle-bec-con-papas.jpeg",
+    "posts/the-six-hour-sandwich.md",
+    "img/dalle-avocado-sandwich.jpeg",
+    "lists/reading-list.md",
+    "christianity/praying-for-other-people.md",
     "scriptures/1-nephi-1.5.md",
     "tech/this-drug-is-habit-forming.md",
-    "christianity/praying-for-other-people.md",
     "img/dalle-habit-forming-drug.jpeg",
     "tech/the-matrix.md",
     "tech/a-knife-to-a-gun-fight.md",
     "img/dalle-alone-in-a-crowded-room.jpeg",
     "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
     "img/book-the-oxford-inklings.jpeg",
-    "lists/reading-list.md",
     "posts/whats-your-decision-framework.md",
     "img/dalle-unhappy-investor-vector.jpeg",
     "book-review/the-power-of-habit.md",
@@ -158,25 +178,13 @@
     "docs/gratitude/toothbrush.html",
     "docs/tech/a-knife-to-a-gun-fight.html",
     "docs/img/book-the-power-of-habit.jpeg",
-    "docs/img/dalle-knife-gun-fight.jpeg",
-    "docs/img/dalle-toothbrush-family-1920.jpeg",
     "docs/book-review/the-power-of-habit.html",
-    "scriptures/2-nephi-9.51.md",
-    "scriptures/1-nephi-8.10.md",
-    "scriptures/1-nephi-3.7.md",
-    "scriptures/2-nephi-25.26.md",
-    "lists/legal-ai.md",
-    "lists/ai.md",
-    "gratitude/toothbrush.md",
     "docs/goals.xml",
     "docs/goals.html",
-    "docs/_templates/new-post.md",
-    "goals/2024-01-08-goals.md",
     "docs/creative/vacation.html",
     "docs/creative/ice-baths.html",
     "docs/creative/the-thief-of-time.html",
     "docs/lists/ai.html",
-    "docs/lists/reading-list.html",
-    "book-review/socrates-a-life-worth-living.md"
+    "docs/lists/reading-list.html"
   ]
 }
