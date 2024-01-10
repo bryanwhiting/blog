@@ -7,8 +7,8 @@
       "/gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.html",
       "/concepts/gratus-sum-ergo-habeo.html",
       "/concepts/the-book-of-mormon-another-testament-of-jesus-christ.html",
-      "/posts/the-church-of-jesus-christ-of-latter-day-saints.html",
-      "/posts/my-mission.html",
+      "/concepts/the-church-of-jesus-christ-of-latter-day-saints.html",
+      "/concepts/my-mission.html",
       "/gratitude/small-things.html",
       "/gratitude/sandwich-shops.html",
       "/posts/the-six-hour-sandwich.html",
@@ -218,8 +218,6 @@
     "items": [
       "/christianity/he-prepares-us-to-teach-us.html",
       "/gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.html",
-      "/posts/the-church-of-jesus-christ-of-latter-day-saints.html",
-      "/posts/my-mission.html",
       "/gratitude/small-things.html",
       "/gratitude/sandwich-shops.html",
       "/posts/the-six-hour-sandwich.html",
@@ -376,13 +374,18 @@
     "items": [
       "/concepts/gratus-sum-ergo-habeo.html",
       "/concepts/the-book-of-mormon-another-testament-of-jesus-christ.html",
+      "/concepts/the-church-of-jesus-christ-of-latter-day-saints.html",
+      "/concepts/my-mission.html",
       "/concepts/hand-of-god.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
+<<<<<<< HEAD
       "/posts/cool-quarto-site.html",
+=======
+>>>>>>> ba029086ccc1d9b0fa9d233d1e09a69afb986163
       "/posts/the-six-hour-sandwich.html",
       "/tech/this-drug-is-habit-forming.html",
       "/tech/the-matrix.html",

@@ -19,3 +19,5 @@ There are many verses like this, such as Enos praying for his people, or Christ 
 I'm reading [The Oxford Inklings: Lewis, Tolkien and Their Circle](../book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md) right now and considered just how influenced these authors were by their surroundings. WWI, the rise of machines, etc. 
 
 Aren't we all influenced by the people around us? What role do those people play in our lives? What role do the loved ones play in our lives? What role do we play in theirs?
+
+![Oh Jerusalem](../img/dalle-christ-praying-oh-jerusalem.jpeg){.preview-image}

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "goals/2024-01-09-goals.md",
+                "file": "christianity/praying-for-other-people.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "goals/2024-01-09-goals.md",
+            "file": "christianity/praying-for-other-people.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "goals/2024-01-09-goals.md"
+            "file": "christianity/praying-for-other-people.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "goals/2024-01-09-goals.md",
+            "file": "christianity/praying-for-other-people.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -138,11 +138,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "78912cccc2282195",
+  "active": "be767112276aa446",
   "lastOpenFiles": [
+    "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
+    "img/dalle-christ-praying-oh-jerusalem.jpeg",
+    "goals/2024-01-09-goals.md",
     "goals/2024-01-10-goals.md",
     "docs/_templates/new-post.md",
-    "goals/2024-01-09-goals.md",
     "christianity/he-prepares-us-to-teach-us.md",
     "scriptures/2-nephi-28.30.md",
     "img/dalle-pillar-of-fire-on-rock.jpeg",
@@ -172,10 +174,8 @@
     "tech/the-matrix.md",
     "tech/a-knife-to-a-gun-fight.md",
     "img/dalle-alone-in-a-crowded-room.jpeg",
-    "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
     "img/book-the-oxford-inklings.jpeg",
     "img/dalle-unhappy-investor-vector.jpeg",
-    "img/book-dune-messiah.jpeg",
     "docs/gratitude/toothbrush.html",
     "docs/tech/a-knife-to-a-gun-fight.html",
     "docs/book-review/the-power-of-habit.html",

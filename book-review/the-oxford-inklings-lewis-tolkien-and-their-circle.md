@@ -14,6 +14,14 @@ pct-complete:
 ---
 ![The Oxford inklings](../img/book-the-oxford-inklings.jpeg){.preview-image}
 
+
+2024-01-10
+
+- long walks. Lewis would walk with Tolkien. Tolkien then wrote about a super long walk in the hobit and lotr 
+- Language is the invention of objevts or ideas. Myth is the invention about truth. #post-ideas. Get this quote 
+	- 
+
+2024-01-09
 Notes:
 
 - Tolkien build one language and derived it for two elvish languages. 
