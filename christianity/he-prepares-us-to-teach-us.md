@@ -10,6 +10,7 @@ categories:
   - book of mormon
   - revelation
   - prophets
+  - epistemology
 draft: false
 ---
 Consider this:
