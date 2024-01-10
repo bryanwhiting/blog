@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.4.515">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,72 +17,9 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-    color: #aaaaaa;
-  }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -110,7 +47,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -120,7 +63,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 <script>
@@ -168,15 +112,16 @@ ga('send', {
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="css/poem.css">
-<link rel="alternate" type="application/rss+xml" title="Bryan Whiting" href="goals.xml"><meta property="og:title" content="Bryan Whiting - Goals">
-<meta property="og:description" content="Public accountability is the greatest motivator. These goals are correlated with, but not causal to happiness.">
-<meta property="og:site-name" content="Bryan Whiting">
+<link rel="alternate" type="application/rss+xml" title="Bryan Whiting" href="goals.xml" data-external="1"><meta property="og:title" content="Bryan Whiting - Goals">
+<meta property="og:description" content="">
+<meta property="og:site_name" content="Bryan Whiting">
 <meta name="twitter:title" content="Bryan Whiting - Goals">
-<meta name="twitter:description" content="Public accountability is the greatest motivator. These goals are correlated with, but not causal to happiness.">
+<meta name="twitter:description" content="">
 <meta name="twitter:creator" content="@bryanwhiting">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -185,20 +130,25 @@ ga('send', {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Goals</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./concepts.html">Other</a></li><li class="breadcrumb-item"><a href="./goals.html">Goals</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./concepts.html">Other</a></li><li class="breadcrumb-item"><a href="./goals.html">Goals</a></li></ol></nav>
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title d-none d-lg-block">Goals</h1>
+      <h1 class="title">Goals</h1>
                       </div>
   </div>
     
@@ -208,108 +158,123 @@ ga('send', {
   </div>  
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Bryan Whiting</a> 
         <div class="sidebar-tools-main tools-wide">
-    <a href="" title="" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-github"></i></a>
-    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/bryanwhiting/blog">
-          This blog
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/bryanwhiting">
-          Profile
-          </a>
-        </li>
-    </ul>
-    <a href="https://www.linkedin.com/in/bryan-whiting/" title="" class="sidebar-tool px-1"><i class="bi bi-linkedin"></i></a>
-    <a href="https://twitter.com/bryanwhiting" title="" class="sidebar-tool px-1"><i class="bi bi-twitter"></i></a>
-    <a href="./index.xml" title="" class="sidebar-tool px-1"><i class="bi bi-rss"></i></a>
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/bryanwhiting/blog">
+            This blog
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/bryanwhiting">
+            Profile
+            </a>
+          </li>
+      </ul>
+    </div>
+    <a href="https://www.linkedin.com/in/bryan-whiting/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
+    <a href="https://twitter.com/bryanwhiting" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
+    <a href="./index.xml" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-rss"></i></a>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link">About</a>
+  <a href="./about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Recent Posts</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Recent Posts</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Writing</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Writing</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./tech.html" class="sidebar-item-text sidebar-link">Tech, AI, and Data</a>
+  <a href="./tech.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tech, AI, and Data</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./books.html" class="sidebar-item-text sidebar-link">Book Reviews</a>
+  <a href="./books.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Book Reviews</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./christianity.html" class="sidebar-item-text sidebar-link">Christianity</a>
+  <a href="./christianity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Christianity</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./gratitude.html" class="sidebar-item-text sidebar-link">Gratitude</a>
+  <a href="./gratitude.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Gratitude</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./creative.html" class="sidebar-item-text sidebar-link">Creative</a>
+  <a href="./creative.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Creative</span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Other</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Other</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./concepts.html" class="sidebar-item-text sidebar-link">Concepts</a>
+  <a href="./concepts.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Concepts</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./goals.html" class="sidebar-item-text sidebar-link active">Goals</a>
+  <a href="./goals.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Goals</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lists.html" class="sidebar-item-text sidebar-link">Lists of Things</a>
+  <a href="./lists.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lists of Things</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sitemap.html" class="sidebar-item-text sidebar-link">Sitemap (All Posts)</a>
+  <a href="./sitemap.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sitemap (All Posts)</span></a>
   </div>
 </li>
       </ul>
@@ -318,22 +283,24 @@ ga('send', {
     </div>
     
 </nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="goals"><span class="quarto-category-count category-cloud-5">goals</span></div><div class="category" data-category="workout"><span class="quarto-category-count category-cloud-5">workout</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="goals"><span class="quarto-category-count category-cloud-7">goals</span></div><div class="category" data-category="workout"><span class="quarto-category-count category-cloud-4">workout</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
 
 
 
 
+
 <p>Public accountability is the greatest motivator. These goals are correlated with, but not causal to happiness. They’re anti-sad, but pro-happy comes not from checking off boxes but by building meaningful relationships with God, self, family, and friends.</p>
-<div class="callout-tip callout callout-style-simple no-icon callout-captioned">
+<div class="callout callout-style-simple callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 2024 Goals: Read, hike, pray, meditate, workout, give thanks daily, study scripture daily
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
@@ -374,76 +341,39 @@ ga('send', {
 </div>
 <div class="cell page-columns page-full" data-layout-align="center">
 <div class="cell-output-display page-columns page-full">
-<div id="fig-goals" class="quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="goals_files/figure-html/fig-goals-1.png" class="img-fluid figure-img" width="672"></p>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;1: Goals</figcaption><p></p>
+<div id="fig-goals" class="quarto-figure quarto-figure-center anchored page-columns page-full" data-fig-align="center" width="672">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-goals-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="goals_files/figure-html/fig-goals-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-goals-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Goals
+</figcaption>
 </figure>
 </div>
 </div>
 </div>
-<div class="cell page-columns page-full" data-caption="Recent streak">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gt)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>df2_recent <span class="ot">&lt;-</span> df2 <span class="sc">%&gt;%</span> </span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(date <span class="sc">&gt;=</span> <span class="fu">max</span>(date) <span class="sc">-</span> <span class="dv">13</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(date)) <span class="sc">%&gt;%</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Day</span><span class="st">`</span> <span class="ot">=</span> date,</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Pray</span><span class="st">`</span><span class="ot">=</span>pray,</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Meditate</span><span class="st">`</span> <span class="ot">=</span> meditate,</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Study Post</span><span class="st">`</span> <span class="ot">=</span> post_cfm_study,</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Gratitude Post</span><span class="st">`</span> <span class="ot">=</span> post_gratitude,</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Cardio</span><span class="st">`</span> <span class="ot">=</span> cardio,</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">`</span><span class="at">Strength</span><span class="st">`</span> <span class="ot">=</span> strength</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  ) </span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Assuming your data frame is named 'data'</span></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co"># First, convert the 'Day' column to the desired format</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>df2_recent<span class="sc">$</span>Day <span class="ot">&lt;-</span> <span class="fu">format</span>(<span class="fu">as.Date</span>(df2_recent<span class="sc">$</span>Day), <span class="st">"%a %b %d"</span>)</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>df2_recent <span class="sc">%&gt;%</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>  <span class="fu">gt</span>(<span class="at">rowname_col =</span> <span class="st">"Day"</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">data_color</span>(</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="at">columns =</span> <span class="fu">c</span>(<span class="dv">2</span><span class="sc">:</span><span class="dv">7</span>),  <span class="co"># replace with the actual column indices or names</span></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    <span class="at">colors =</span> scales<span class="sc">::</span><span class="fu">col_bin</span>(</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>      <span class="at">bins =</span> <span class="fu">c</span>(<span class="sc">-</span><span class="cn">Inf</span>, <span class="fl">0.5</span>, <span class="cn">Inf</span>),  <span class="co"># defining bins to separate 0 and 1</span></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>      <span class="at">palette =</span> <span class="fu">c</span>(<span class="st">"white"</span>, <span class="st">"darkgreen"</span>),  <span class="co"># white for 0, dark green for 1</span></span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>      <span class="at">domain =</span> <span class="cn">NULL</span></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>  <span class="fu">tab_style</span>(</span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>    <span class="at">style =</span> <span class="fu">list</span>(</span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>      <span class="fu">cell_text</span>(<span class="at">color =</span> <span class="st">"transparent"</span>)</span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>    ),</span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>    <span class="at">locations =</span> <span class="fu">cells_body</span>(</span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>      <span class="at">columns =</span> <span class="fu">c</span>(<span class="dv">2</span><span class="sc">:</span><span class="dv">7</span>)  <span class="co"># replace with the actual column indices or names</span></span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>    )</span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>  ) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: Since gt v0.9.0, the `colors` argument has been deprecated.
-• Please use the `fn` argument instead.
-This warning is displayed once every 8 hours.</code></pre>
-</div>
-<div id="fig-goals-table" class="quarto-figure quarto-figure-center anchored page-columns page-full">
-<figure class="figure page-columns page-full">
-
-<div id="eynqrajfdg" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#eynqrajfdg table {
+<div class="cell page-columns page-full" data-layout-align="center">
+<div id="fig-goals-table" class="cell-output-display quarto-figure quarto-figure-center anchored page-columns page-full">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-goals-table-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div id="ufraqcfxtn" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#ufraqcfxtn table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#eynqrajfdg thead, #eynqrajfdg tbody, #eynqrajfdg tfoot, #eynqrajfdg tr, #eynqrajfdg td, #eynqrajfdg th {
+#ufraqcfxtn thead, #ufraqcfxtn tbody, #ufraqcfxtn tfoot, #ufraqcfxtn tr, #ufraqcfxtn td, #ufraqcfxtn th {
   border-style: none;
 }
 
-#eynqrajfdg p {
+#ufraqcfxtn p {
   margin: 0;
   padding: 0;
 }
 
-#eynqrajfdg .gt_table {
+#ufraqcfxtn .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -469,12 +399,12 @@ This warning is displayed once every 8 hours.</code></pre>
   border-left-color: #D3D3D3;
 }
 
-#eynqrajfdg .gt_caption {
+#ufraqcfxtn .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#eynqrajfdg .gt_title {
+#ufraqcfxtn .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -486,7 +416,7 @@ This warning is displayed once every 8 hours.</code></pre>
   border-bottom-width: 0;
 }
 
-#eynqrajfdg .gt_subtitle {
+#ufraqcfxtn .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -498,7 +428,7 @@ This warning is displayed once every 8 hours.</code></pre>
   border-top-width: 0;
 }
 
-#eynqrajfdg .gt_heading {
+#ufraqcfxtn .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -510,13 +440,13 @@ This warning is displayed once every 8 hours.</code></pre>
   border-right-color: #D3D3D3;
 }
 
-#eynqrajfdg .gt_bottom_border {
+#ufraqcfxtn .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#eynqrajfdg .gt_col_headings {
+#ufraqcfxtn .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -531,7 +461,7 @@ This warning is displayed once every 8 hours.</code></pre>
   border-right-color: #D3D3D3;
 }
 
-#eynqrajfdg .gt_col_heading {
+#ufraqcfxtn .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -551,7 +481,7 @@ This warning is displayed once every 8 hours.</code></pre>
   overflow-x: hidden;
 }
 
-#eynqrajfdg .gt_column_spanner_outer {
+#ufraqcfxtn .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -563,15 +493,15 @@ This warning is displayed once every 8 hours.</code></pre>
   padding-right: 4px;
 }
 
-#eynqrajfdg .gt_column_spanner_outer:first-child {
+#ufraqcfxtn .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#eynqrajfdg .gt_column_spanner_outer:last-child {
+#ufraqcfxtn .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#eynqrajfdg .gt_column_spanner {
+#ufraqcfxtn .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -583,11 +513,11 @@ This warning is displayed once every 8 hours.</code></pre>
   width: 100%;
 }
 
-#eynqrajfdg .gt_spanner_row {
+#ufraqcfxtn .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#eynqrajfdg .gt_group_heading {
+#ufraqcfxtn .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -613,7 +543,7 @@ This warning is displayed once every 8 hours.</code></pre>
   text-align: left;
 }
 
-#eynqrajfdg .gt_empty_group_heading {
+#ufraqcfxtn .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -628,15 +558,15 @@ This warning is displayed once every 8 hours.</code></pre>
   vertical-align: middle;
 }
 
-#eynqrajfdg .gt_from_md > :first-child {
+#ufraqcfxtn .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#eynqrajfdg .gt_from_md > :last-child {
+#ufraqcfxtn .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#eynqrajfdg .gt_row {
+#ufraqcfxtn .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -655,7 +585,7 @@ This warning is displayed once every 8 hours.</code></pre>
   overflow-x: hidden;
 }
 
-#eynqrajfdg .gt_stub {
+#ufraqcfxtn .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -668,7 +598,7 @@ This warning is displayed once every 8 hours.</code></pre>
   padding-right: 5px;
 }
 
-#eynqrajfdg .gt_stub_row_group {
+#ufraqcfxtn .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -682,15 +612,15 @@ This warning is displayed once every 8 hours.</code></pre>
   vertical-align: top;
 }
 
-#eynqrajfdg .gt_row_group_first td {
+#ufraqcfxtn .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#eynqrajfdg .gt_row_group_first th {
+#ufraqcfxtn .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#eynqrajfdg .gt_summary_row {
+#ufraqcfxtn .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -700,16 +630,16 @@ This warning is displayed once every 8 hours.</code></pre>
   padding-right: 5px;
 }
 
-#eynqrajfdg .gt_first_summary_row {
+#ufraqcfxtn .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#eynqrajfdg .gt_first_summary_row.thick {
+#ufraqcfxtn .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#eynqrajfdg .gt_last_summary_row {
+#ufraqcfxtn .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -719,7 +649,7 @@ This warning is displayed once every 8 hours.</code></pre>
   border-bottom-color: #D3D3D3;
 }
 
-#eynqrajfdg .gt_grand_summary_row {
+#ufraqcfxtn .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -729,7 +659,7 @@ This warning is displayed once every 8 hours.</code></pre>
   padding-right: 5px;
 }
 
-#eynqrajfdg .gt_first_grand_summary_row {
+#ufraqcfxtn .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -739,7 +669,7 @@ This warning is displayed once every 8 hours.</code></pre>
   border-top-color: #D3D3D3;
 }
 
-#eynqrajfdg .gt_last_grand_summary_row_top {
+#ufraqcfxtn .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -749,11 +679,11 @@ This warning is displayed once every 8 hours.</code></pre>
   border-bottom-color: #D3D3D3;
 }
 
-#eynqrajfdg .gt_striped {
+#ufraqcfxtn .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#eynqrajfdg .gt_table_body {
+#ufraqcfxtn .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -762,7 +692,7 @@ This warning is displayed once every 8 hours.</code></pre>
   border-bottom-color: #D3D3D3;
 }
 
-#eynqrajfdg .gt_footnotes {
+#ufraqcfxtn .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -776,7 +706,7 @@ This warning is displayed once every 8 hours.</code></pre>
   border-right-color: #D3D3D3;
 }
 
-#eynqrajfdg .gt_footnote {
+#ufraqcfxtn .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -785,7 +715,7 @@ This warning is displayed once every 8 hours.</code></pre>
   padding-right: 5px;
 }
 
-#eynqrajfdg .gt_sourcenotes {
+#ufraqcfxtn .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -799,7 +729,7 @@ This warning is displayed once every 8 hours.</code></pre>
   border-right-color: #D3D3D3;
 }
 
-#eynqrajfdg .gt_sourcenote {
+#ufraqcfxtn .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -807,177 +737,205 @@ This warning is displayed once every 8 hours.</code></pre>
   padding-right: 5px;
 }
 
-#eynqrajfdg .gt_left {
+#ufraqcfxtn .gt_left {
   text-align: left;
 }
 
-#eynqrajfdg .gt_center {
+#ufraqcfxtn .gt_center {
   text-align: center;
 }
 
-#eynqrajfdg .gt_right {
+#ufraqcfxtn .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#eynqrajfdg .gt_font_normal {
+#ufraqcfxtn .gt_font_normal {
   font-weight: normal;
 }
 
-#eynqrajfdg .gt_font_bold {
+#ufraqcfxtn .gt_font_bold {
   font-weight: bold;
 }
 
-#eynqrajfdg .gt_font_italic {
+#ufraqcfxtn .gt_font_italic {
   font-style: italic;
 }
 
-#eynqrajfdg .gt_super {
+#ufraqcfxtn .gt_super {
   font-size: 65%;
 }
 
-#eynqrajfdg .gt_footnote_marks {
+#ufraqcfxtn .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#eynqrajfdg .gt_asterisk {
+#ufraqcfxtn .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#eynqrajfdg .gt_indent_1 {
+#ufraqcfxtn .gt_indent_1 {
   text-indent: 5px;
 }
 
-#eynqrajfdg .gt_indent_2 {
+#ufraqcfxtn .gt_indent_2 {
   text-indent: 10px;
 }
 
-#eynqrajfdg .gt_indent_3 {
+#ufraqcfxtn .gt_indent_3 {
   text-indent: 15px;
 }
 
-#eynqrajfdg .gt_indent_4 {
+#ufraqcfxtn .gt_indent_4 {
   text-indent: 20px;
 }
 
-#eynqrajfdg .gt_indent_5 {
+#ufraqcfxtn .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
-<table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
-  <thead>
-    
-    <tr class="gt_col_headings">
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id=""></th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Pray">Pray</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Meditate">Meditate</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Study Post">Study Post</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Gratitude Post">Gratitude Post</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Cardio">Cardio</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_right" rowspan="1" colspan="1" scope="col" id="Strength">Strength</th>
-    </tr>
-  </thead>
-  <tbody class="gt_table_body">
-    <tr><th id="stub_1_1" scope="row" class="gt_row gt_left gt_stub">Tue Jan 09</th>
-<td headers="stub_1_1 Pray" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
-<td headers="stub_1_1 Meditate" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
-<td headers="stub_1_1 Study Post" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_1 Gratitude Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
-<td headers="stub_1_1 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_1 Strength" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td></tr>
-    <tr><th id="stub_1_2" scope="row" class="gt_row gt_left gt_stub">Mon Jan 08</th>
-<td headers="stub_1_2 Pray" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
-<td headers="stub_1_2 Meditate" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
-<td headers="stub_1_2 Study Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
-<td headers="stub_1_2 Gratitude Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
-<td headers="stub_1_2 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_2 Strength" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td></tr>
-    <tr><th id="stub_1_3" scope="row" class="gt_row gt_left gt_stub">Sun Jan 07</th>
-<td headers="stub_1_3 Pray" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_3 Meditate" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_3 Study Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
-<td headers="stub_1_3 Gratitude Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
-<td headers="stub_1_3 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_3 Strength" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td></tr>
-    <tr><th id="stub_1_4" scope="row" class="gt_row gt_left gt_stub">Sat Jan 06</th>
-<td headers="stub_1_4 Pray" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_4 Meditate" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_4 Study Post" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_4 Gratitude Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
-<td headers="stub_1_4 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_4 Strength" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td></tr>
-    <tr><th id="stub_1_5" scope="row" class="gt_row gt_left gt_stub">Fri Jan 05</th>
-<td headers="stub_1_5 Pray" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_5 Meditate" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_5 Study Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
-<td headers="stub_1_5 Gratitude Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
-<td headers="stub_1_5 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_5 Strength" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td></tr>
-    <tr><th id="stub_1_6" scope="row" class="gt_row gt_left gt_stub">Thu Jan 04</th>
-<td headers="stub_1_6 Pray" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_6 Meditate" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_6 Study Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
-<td headers="stub_1_6 Gratitude Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
-<td headers="stub_1_6 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_6 Strength" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td></tr>
-    <tr><th id="stub_1_7" scope="row" class="gt_row gt_left gt_stub">Wed Jan 03</th>
-<td headers="stub_1_7 Pray" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_7 Meditate" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_7 Study Post" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_7 Gratitude Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
-<td headers="stub_1_7 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_7 Strength" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td></tr>
-    <tr><th id="stub_1_8" scope="row" class="gt_row gt_left gt_stub">Tue Jan 02</th>
-<td headers="stub_1_8 Pray" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_8 Meditate" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_8 Study Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
-<td headers="stub_1_8 Gratitude Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
-<td headers="stub_1_8 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_8 Strength" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td></tr>
-    <tr><th id="stub_1_9" scope="row" class="gt_row gt_left gt_stub">Mon Jan 01</th>
-<td headers="stub_1_9 Pray" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_9 Meditate" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_9 Study Post" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_9 Gratitude Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
-<td headers="stub_1_9 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_9 Strength" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td></tr>
-    <tr><th id="stub_1_10" scope="row" class="gt_row gt_left gt_stub">Sun Dec 31</th>
-<td headers="stub_1_10 Pray" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_10 Meditate" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_10 Study Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
-<td headers="stub_1_10 Gratitude Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
-<td headers="stub_1_10 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_10 Strength" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td></tr>
-    <tr><th id="stub_1_11" scope="row" class="gt_row gt_left gt_stub">Sat Dec 30</th>
-<td headers="stub_1_11 Pray" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_11 Meditate" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_11 Study Post" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_11 Gratitude Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
-<td headers="stub_1_11 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_11 Strength" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td></tr>
-    <tr><th id="stub_1_12" scope="row" class="gt_row gt_left gt_stub">Fri Dec 29</th>
-<td headers="stub_1_12 Pray" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_12 Meditate" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_12 Study Post" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_12 Gratitude Post" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_12 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_12 Strength" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td></tr>
-    <tr><th id="stub_1_13" scope="row" class="gt_row gt_left gt_stub">Wed Dec 27</th>
-<td headers="stub_1_13 Pray" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_13 Meditate" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_13 Study Post" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_13 Gratitude Post" class="gt_row gt_right" style="background-color: #006400; color: rgba(255,255,255,0);">1</td>
-<td headers="stub_1_13 Cardio" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td>
-<td headers="stub_1_13 Strength" class="gt_row gt_right" style="background-color: #FFFFFF; color: rgba(255,255,255,0);">0</td></tr>
-  </tbody>
-  
-  
+
+<table class="gt_table table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="header gt_col_headings">
+<th class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"></th>
+<th id="Pray" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Pray</th>
+<th id="Meditate" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Meditate</th>
+<th id="Study Post" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Study Post</th>
+<th id="Gratitude Post" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Gratitude Post</th>
+<th id="Cardio" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Cardio</th>
+<th id="Strength" class="gt_col_heading gt_columns_bottom_border gt_right" data-quarto-table-cell-role="th" scope="col">Strength</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td id="stub_1_1" class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" scope="row">Wed Jan 10</td>
+<td class="gt_row gt_right" headers="stub_1_1 Pray" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_1 Meditate" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_1 Study Post" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_1 Gratitude Post" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_1 Cardio" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_1 Strength" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+</tr>
+<tr class="even">
+<td id="stub_1_2" class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" scope="row">Tue Jan 09</td>
+<td class="gt_row gt_right" headers="stub_1_2 Pray" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_2 Meditate" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_2 Study Post" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_2 Gratitude Post" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_2 Cardio" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_2 Strength" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+</tr>
+<tr class="odd">
+<td id="stub_1_3" class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" scope="row">Mon Jan 08</td>
+<td class="gt_row gt_right" headers="stub_1_3 Pray" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_3 Meditate" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_3 Study Post" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_3 Gratitude Post" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_3 Cardio" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_3 Strength" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+</tr>
+<tr class="even">
+<td id="stub_1_4" class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" scope="row">Sun Jan 07</td>
+<td class="gt_row gt_right" headers="stub_1_4 Pray" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_4 Meditate" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_4 Study Post" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_4 Gratitude Post" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_4 Cardio" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_4 Strength" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+</tr>
+<tr class="odd">
+<td id="stub_1_5" class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" scope="row">Sat Jan 06</td>
+<td class="gt_row gt_right" headers="stub_1_5 Pray" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_5 Meditate" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_5 Study Post" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_5 Gratitude Post" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_5 Cardio" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_5 Strength" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+</tr>
+<tr class="even">
+<td id="stub_1_6" class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" scope="row">Fri Jan 05</td>
+<td class="gt_row gt_right" headers="stub_1_6 Pray" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_6 Meditate" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_6 Study Post" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_6 Gratitude Post" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_6 Cardio" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_6 Strength" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+</tr>
+<tr class="odd">
+<td id="stub_1_7" class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" scope="row">Thu Jan 04</td>
+<td class="gt_row gt_right" headers="stub_1_7 Pray" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_7 Meditate" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_7 Study Post" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_7 Gratitude Post" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_7 Cardio" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_7 Strength" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+</tr>
+<tr class="even">
+<td id="stub_1_8" class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" scope="row">Wed Jan 03</td>
+<td class="gt_row gt_right" headers="stub_1_8 Pray" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_8 Meditate" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_8 Study Post" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_8 Gratitude Post" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_8 Cardio" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_8 Strength" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+</tr>
+<tr class="odd">
+<td id="stub_1_9" class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" scope="row">Tue Jan 02</td>
+<td class="gt_row gt_right" headers="stub_1_9 Pray" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_9 Meditate" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_9 Study Post" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_9 Gratitude Post" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_9 Cardio" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_9 Strength" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+</tr>
+<tr class="even">
+<td id="stub_1_10" class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" scope="row">Mon Jan 01</td>
+<td class="gt_row gt_right" headers="stub_1_10 Pray" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_10 Meditate" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_10 Study Post" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_10 Gratitude Post" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_10 Cardio" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_10 Strength" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+</tr>
+<tr class="odd">
+<td id="stub_1_11" class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" scope="row">Sun Dec 31</td>
+<td class="gt_row gt_right" headers="stub_1_11 Pray" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_11 Meditate" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_11 Study Post" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_11 Gratitude Post" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_11 Cardio" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_11 Strength" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+</tr>
+<tr class="even">
+<td id="stub_1_12" class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" scope="row">Sat Dec 30</td>
+<td class="gt_row gt_right" headers="stub_1_12 Pray" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_12 Meditate" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_12 Study Post" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_12 Gratitude Post" style="background-color: #006400; color: rgba(255,255,255,0)">1</td>
+<td class="gt_row gt_right" headers="stub_1_12 Cardio" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_12 Strength" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+</tr>
+<tr class="odd">
+<td id="stub_1_13" class="gt_row gt_left gt_stub" data-quarto-table-cell-role="th" scope="row">Fri Dec 29</td>
+<td class="gt_row gt_right" headers="stub_1_13 Pray" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_13 Meditate" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_13 Study Post" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_13 Gratitude Post" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_13 Cardio" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+<td class="gt_row gt_right" headers="stub_1_13 Strength" style="background-color: #FFFFFF; color: rgba(255,255,255,0)">0</td>
+</tr>
+</tbody>
 </table>
+
 </div>
-<p></p><figcaption class="figure-caption margin-caption">Figure&nbsp;2: <strong>?(caption)</strong></figcaption><p></p>
+</div>
+<figcaption class="quarto-float-caption-margin quarto-float-caption quarto-float-fig margin-caption" id="fig-goals-table-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Recent streak
+</figcaption>
 </figure>
 </div>
 </div>
@@ -1009,7 +967,6 @@ This warning is displayed once every 8 hours.</code></pre>
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-
 <table class="quarto-listing-table table">
 <thead>
 <tr>
@@ -1025,30 +982,40 @@ Description
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="goals" data-listing-date-sort="1704820333000" data-listing-file-modified-sort="1704830014984" data-listing-reading-time-sort="0.16" data-listing-title-sort="Workout" data-listing-filename-sort="2024-01-09-goals.md">
-<td class="listing-date">
-Tuesday January 9, 2024
+<tr data-index="0" data-categories="goals" data-listing-date-sort="1704880360000" data-listing-file-modified-sort="1704912131104" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Goals" data-listing-filename-sort="2024-01-10-goals.md">
+<td>
+<span class="listing-date">Wednesday January 10, 2024</span>
 </td>
-<td class="listing-title">
-<a href="./goals/2024-01-09-goals.html" class="title">Workout</a>
+<td>
+<a href="./goals/2024-01-10-goals.html" class="title listing-title">Goals</a>
 </td>
-<td class="listing-description">
-Two Tabatas. First was kettlebell, then pushups then sit ups. Two rounds. Second Tabata was rows and biceps. Three rounds.
+<td>
+<span class="listing-description">xxx </span>
 </td>
 </tr>
-<tr data-index="1" data-categories="workout" data-listing-date-sort="1704733602000" data-listing-file-modified-sort="1704827800882" data-listing-reading-time-sort="0.005" data-listing-title-sort="Body: Sit-up, pushup, squat tabata" data-listing-filename-sort="2024-01-08-goals.md">
-<td class="listing-date">
-Monday January 8, 2024
+<tr data-index="1" data-categories="goals" data-listing-date-sort="1704791533000" data-listing-file-modified-sort="1704912131104" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32" data-listing-title-sort="Workout" data-listing-filename-sort="2024-01-09-goals.md">
+<td>
+<span class="listing-date">Tuesday January 9, 2024</span>
 </td>
-<td class="listing-title">
-<a href="./goals/2024-01-08-goals.html" class="title">Body: Sit-up, pushup, squat tabata</a>
+<td>
+<a href="./goals/2024-01-09-goals.html" class="title listing-title">Workout</a>
 </td>
-<td class="listing-description">
-60s sit-up, 60s pushup, 60s squat. 2 sets. 30s rest in between. Replaced squats with squat jumps. Didn’t rest. Stayed in plank, down squat, or descending sit-up position.
+<td>
+<span class="listing-description">Two Tabatas. First was kettlebell, then pushups then sit ups. Two rounds. Second Tabata was rows and biceps. Three rounds.</span>
+</td>
+</tr>
+<tr data-index="2" data-categories="workout" data-listing-date-sort="1704704802000" data-listing-file-modified-sort="1704912131104" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Body: Sit-up, pushup, squat tabata" data-listing-filename-sort="2024-01-08-goals.md">
+<td>
+<span class="listing-date">Monday January 8, 2024</span>
+</td>
+<td>
+<a href="./goals/2024-01-08-goals.html" class="title listing-title">Body: Sit-up, pushup, squat tabata</a>
+</td>
+<td>
+<span class="listing-description">60s sit-up, 60s pushup, 60s squat. 2 sets. 30s rest in between. Replaced squats with squat jumps. Didn’t rest. Stayed in plank, down squat, or descending sit-up position.</span>
 </td>
 </tr>
 </tbody>
-
 </table>
 <div class="listing-no-matching d-none">
 No matching items
@@ -1081,9 +1048,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -1119,10 +1100,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1132,8 +1112,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1148,6 +1137,248 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        typesetMath(container);
+        return container.innerHTML
+      } else {
+        typesetMath(note);
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      typesetMath(note);
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -1190,7 +1421,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Copyright 2021-2024, Bryan Whiting</div>   
+    <div class="nav-footer-left">
+<p>Copyright 2021-2024, Bryan Whiting</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
@@ -1221,6 +1457,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
 
 
 
