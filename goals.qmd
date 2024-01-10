@@ -2,8 +2,9 @@
 title: "Goals"
 comments: false
 listing:
-  contents: goals
   type: table
+  contents: goals
+  fields: [date, title, description]
   sort: 
     - "date desc"
     - "title asc"
@@ -17,18 +18,175 @@ listing:
 
 Public accountability is the greatest motivator. These goals are correlated with, but not causal to happiness. They're anti-sad, but pro-happy comes not from checking off boxes but by building meaningful relationships with God, self, family, and friends.
 
+::: {.callout-tip collapse="true"}
+## 2024 Goals: Read, hike, pray, meditate, workout, give thanks daily, study scripture daily
 
-2024 Goals:
+### Objective
+
+- Deepen my relationship with and connection to God, self, family, and friends.
+- Enjoy intellectual growth and historical understanding
+- Have fun.
+
+### KPIs 
+
+Reading:
+
 - 52 books. 12 fiction. 12 biographies. 12 business/self help. 4 religious. And 12 free choice (history, philosophy, career/data-ai).
-- 52 hikes (1x/wk)
-- Call a friend
 
-Habits, Daily:
+Daily Habits:
+
 - Pray
 - Meditate
 - Workout (strength and cardio)
 - Give thanks (write a post)
 - Study scriptures (write a post)
 
+Fun:
+
+- 52 hikes (1x/wk)
+- Call a friend
+- 4 weekend trips/vacations to new destinations and parks
+
+:::
+
+
+```{r}
+#| label: fig-goals
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-height: 2
+#| fig-width: 7
+#| fig-align: center
+#| fig-cap: "Goals"
+library(dplyr)
+library(ggplot2)
+
+
+list_fields = c('categories')
+
+extract_yaml_to_df <- function(file) {
+  # file = "christianity/three-little-pigs-christ.md"  
+  # cat("Reading file", file)
+  file_content <- readLines(file)
+  yaml_lines <- grep("---", file_content)
+  yaml_start <- yaml_lines[1] + 1
+  yaml_end <- yaml_lines[2] - 1
+  # yaml content
+  yaml_list <- file_content[(yaml_start):(yaml_end)]
+  yaml_text = paste(yaml_list, collapse = "\n")
+  yaml_data <- yaml::read_yaml(text=yaml_text)
+  yaml_data
+  # parse any lists
+  for(field in list_fields){
+    yaml_data[field] = paste(unlist(yaml_data[field]), collapse=", ")
+  }
+  return(tibble::as_tibble(yaml_data))
+}
+
+# add gratitude
+dirs <- c('goals', 'gratitude', "christianity")
+df <- tibble::tibble()
+for(dir in dirs){
+  files <- list.files(path = dir, pattern = "*.md", full.names = TRUE)
+  for(file in files){
+    # convert to df
+    df_new <- extract_yaml_to_df(file) 
+    df_new$folder = dir
+    df <- bind_rows(df, df_new)
+  }
+}
+
+
+df$date <- lubridate::parse_date_time(df$date, orders = c("ymd", "ymd HMS", "ymd HM", "ymdHMS", "ymdHM")) 
+df$date <- as.Date(df$date)
+
+df2 <- df %>% 
+  mutate(
+    post_cfm_study = stringr::str_detect(categories, 'come follow me'),
+    post_gratitude = folder == 'gratitude'
+    ) %>%
+  select(
+    date, pray, meditate, strength, cardio, post_cfm_study, post_gratitude
+  ) %>% 
+  group_by(date) %>%
+  summarize(
+    pray=max(pray, na.rm=T), 
+    meditate=max(meditate, na.rm=T), 
+    cardio = max(cardio, na.rm=T), 
+    strength=max(strength, na.rm=T), 
+    post_cfm_study=max(post_cfm_study, na.rm=T), 
+    post_gratitude=max(post_gratitude, na.rm=T)
+  ) %>%
+  tidyr::replace_na(list(pray=0, meditate=0, strength=0, cardio=0, post_cfm_study=0, post_gratitude=0))
+df2[df2 == -Inf] <- 0
+
+
+df3 <- df2 %>% 
+  rowwise() %>%
+  mutate(total_goals = sum(pray, meditate, strength, cardio, post_cfm_study, post_gratitude, na.rm = TRUE)) %>%
+  ungroup() %>%
+  select(date, total_goals) %>%
+  mutate(week_of_year = lubridate::week(date),
+         day_of_week = lubridate::wday(date, label = TRUE)) 
+
+ggplot(df3, aes(x = week_of_year, y = day_of_week, fill = total_goals)) +
+  geom_tile(color = "white", width = 0.9, height = 0.9) +  # Adjust these values as needed to shrink the tiles
+  scale_fill_gradient(low = "white", high = "darkgreen", limits = c(1, 6)) +
+  labs(x = "Week of the Year", y = "Day of Week", fill='Count') +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        axis.ticks = element_blank())
+```
+
+```{r}
+#| label: fig-goals-table
+#| caption: Recent streak
+library(gt)
+df2_recent <- df2 %>% 
+  filter(date >= max(date) - 13) %>%
+  arrange(desc(date)) %>%
+  select(
+    `Day` = date,
+    `Pray`=pray,
+    `Meditate` = meditate,
+    `Study Post` = post_cfm_study,
+    `Gratitude Post` = post_gratitude,
+    `Cardio` = cardio,
+    `Strength` = strength
+  ) 
+
+# Assuming your data frame is named 'data'
+# First, convert the 'Day' column to the desired format
+df2_recent$Day <- format(as.Date(df2_recent$Day), "%a %b %d")
+
+df2_recent %>%
+  gt(rowname_col = "Day") %>%
+  data_color(
+    columns = c(2:7),  # replace with the actual column indices or names
+    colors = scales::col_bin(
+      bins = c(-Inf, 0.5, Inf),  # defining bins to separate 0 and 1
+      palette = c("white", "darkgreen"),  # white for 0, dark green for 1
+      domain = NULL
+    )
+  ) %>%
+  tab_style(
+    style = list(
+      cell_text(color = "transparent")
+    ),
+    locations = cells_body(
+      columns = c(2:7)  # replace with the actual column indices or names
+    )
+  ) %>%
+  tab_options(
+    column_borders.side = "end",
+    column_borders.color = "white",
+    column_borders.width = px(2)
+  )
+
+```
 
 ***

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/_backlog.md",
+                "file": "lists/gratitude-backlog.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/three-little-pigs-christ.md",
+                "file": "lists/gratitude-backlog.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "christianity/three-little-pigs-christ.md",
+                "file": "lists/gratitude-backlog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "christianity/three-little-pigs-christ.md",
+                "file": "lists/gratitude-backlog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "christianity/three-little-pigs-christ.md"
+                "file": "lists/gratitude-backlog.md"
               }
             }
           }
@@ -160,51 +160,51 @@
   },
   "active": "3e0940abb38815d5",
   "lastOpenFiles": [
-    "tech/a-knife-to-a-gun-fight.md",
-    "scriptures/the-family-proclamation.md",
-    "scriptures/russell-m-nelson-the-book-of-mormon-what-would-your-life-be-like-without-it.md",
-    "scriptures/russell-m-nelson-make-time-for-the-lord.md",
-    "scriptures/mosiah-5.7-8.md",
-    "scriptures/john-3.16.md",
-    "scriptures/introduction.md",
-    "scriptures/ephesians-4.4-6.md",
-    "scriptures/doctrine-and-covenants-107.60-62.md",
-    "scriptures/dale-g-renlund-the-priesthood-and-the-saviors-atoning-power.md",
-    "scriptures/3-nephi-10.4-5.md",
-    "scriptures/2-nephi-9.51.md",
-    "scriptures/2-nephi-25.26.md",
-    "scriptures/1-nephi-8.10.md",
-    "scriptures/1-nephi-5.5.md",
-    "scriptures/1-nephi-5.21.md",
-    "scriptures/1-nephi-3.7.md",
-    "sacrament-symbols/vaulted-ceiling.md",
-    "sacrament-symbols",
-    "posts/organization-and-minimalism.md",
-    "posts/becoming-an-expert.md",
-    "lists/reading-list.md",
-    "lists/reading-ethos.md",
-    "lists/legal-ai.md",
-    "lists/ai.md",
-    "img/photo-lds-chapel.jpeg",
-    "img/dalle-white-fruit-delicious-zoom-in.jpeg",
-    "img/dalle-water-color-a-mother-hen-with-a-chicken-under-her-wing-as-its-raining.jpeg",
-    "img/dalle-u-haul-moving.jpeg",
-    "img/dalle-toothbrush-family-1920.jpeg",
-    "img/dalle-time-robbing-time-hourglass-clock.jpeg",
-    "img/dalle-subaru-hill.jpeg",
-    "img/dalle-rocky-balboa-expert.jpeg",
-    "img/dalle-knife-gun-fight.jpeg",
-    "img/dalle-headphones-audiobook-doing-dishes.jpeg",
-    "gratitude/toothbrush.md",
-    "gratitude/cars.md",
-    "goals",
-    "goals.qmd",
-    "docs/tech/a-knife-to-a-gun-fight.html",
-    "docs/scriptures/the-family-proclamation.html",
-    "docs/scriptures/russell-m-nelson-the-book-of-mormon-what-would-your-life-be-like-without-it.html",
-    "docs/scriptures/russell-m-nelson-make-time-for-the-lord.html",
-    "docs/scriptures/mosiah-5.7-8.html",
-    "docs/scriptures/john-3.16.html",
-    "docs/scriptures/introduction.html"
+    "goals.html",
+    "goals_files/mediabag",
+    "goals.knit.md",
+    "goals.rmarkdown",
+    "goals_files/figure-html/fig-goals-1.png",
+    "goals_files/figure-html",
+    "goals_files",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/help/figures/lifecycle-superseded.svg",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/help/figures/lifecycle-stable.svg",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/help/figures/lifecycle-soft-deprecated.svg",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/help/figures/lifecycle-questioning.svg",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/help/figures/lifecycle-maturing.svg",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/help/figures/lifecycle-experimental.svg",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/help/figures/lifecycle-deprecated.svg",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/help/figures/lifecycle-defunct.svg",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/help/figures/lifecycle-archived.svg",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/libs/xml2.so",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/include/xml2_types.h",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/html/R.css",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/html/00Index.html",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/help/xml2.rdx",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/help/xml2.rdb",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/xml2/NEWS.md",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/reactR/NEWS.md",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/reactable/NEWS.md",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/markdown/NEWS.md",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/htmlwidgets/NEWS.md",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/gt/NEWS.md",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/bigD/NEWS.md",
+    "renv/staging/1/gt/NEWS.md",
+    "renv/staging/1/xml2/NEWS.md",
+    "renv/staging/1/reactable/NEWS.md",
+    "renv/staging/1/reactR/NEWS.md",
+    "renv/staging/1/markdown/NEWS.md",
+    "renv/staging/1/htmlwidgets/NEWS.md",
+    "renv/staging/1/bigD/NEWS.md",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/sass/sass-theme/README.md",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/sass/sass-size/README.md",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/sass/sass-font/README.md",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/sass/sass-color/README.md",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/sass/NEWS.md",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/rmarkdown/rmarkdown/templates/github_document/resources/default.md",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/rmarkdown/NEWS.md",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/rappdirs/NEWS.md",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/memoise/NEWS.md",
+    "renv/library/R-4.1/x86_64-apple-darwin17.0/jquerylib/NEWS.md"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.2.2",
+    "Version": "4.1.3",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -9,20 +9,6 @@
     ]
   },
   "Packages": {
-    "MASS": {
-      "Package": "MASS",
-      "Version": "7.3-54",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "0e59129db205112e3963904db67fd0dc"
-    },
-    "Matrix": {
-      "Package": "Matrix",
-      "Version": "1.3-4",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "4ed05e9c9726267e4a5872e09c04587c"
-    },
     "R6": {
       "Package": "R6",
       "Version": "2.5.1",
@@ -30,353 +16,61 @@
       "Repository": "RSPM",
       "Hash": "470851b6d5d0ac559e9d01bb352b4021"
     },
-    "RColorBrewer": {
-      "Package": "RColorBrewer",
-      "Version": "1.1-2",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "e031418365a7f7a766181ab5a41a5716"
-    },
-    "Rcpp": {
-      "Package": "Rcpp",
-      "Version": "1.0.9",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "e9c08b94391e9f3f97355841229124f2"
-    },
-    "askpass": {
-      "Package": "askpass",
-      "Version": "1.1",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "e8a22846fff485f0be3770c2da758713"
-    },
-    "backports": {
-      "Package": "backports",
-      "Version": "1.2.1",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "644043219fc24e190c2f620c1a380a69"
-    },
-    "base64enc": {
-      "Package": "base64enc",
-      "Version": "0.1-3",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "543776ae6848fde2f48ff3816d0628bc"
-    },
-    "bitops": {
-      "Package": "bitops",
-      "Version": "1.0-7",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "b7d8d8ee39869c18d8846a184dd8a1af"
-    },
-    "checkmate": {
-      "Package": "checkmate",
-      "Version": "2.0.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "a667800d5f0350371bedeb8b8b950289"
-    },
     "cli": {
       "Package": "cli",
-      "Version": "3.0.1",
+      "Version": "3.6.2",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "e3ae5d68dea0c55a12ea12a9fda02e61"
-    },
-    "colorspace": {
-      "Package": "colorspace",
-      "Version": "2.0-2",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "6baccb763ee83c0bd313460fdb8b8a84"
-    },
-    "commonmark": {
-      "Package": "commonmark",
-      "Version": "1.7",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "0f22be39ec1d141fd03683c06f3a6e67"
-    },
-    "cpp11": {
-      "Package": "cpp11",
-      "Version": "0.4.2",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "fa53ce256cd280f468c080a58ea5ba8c"
-    },
-    "crayon": {
-      "Package": "crayon",
-      "Version": "1.4.1",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "e75525c55c70e5f4f78c9960a4b402e9"
-    },
-    "crosstalk": {
-      "Package": "crosstalk",
-      "Version": "1.2.0",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "6aa54f69598c32177e920eb3402e8293"
-    },
-    "curl": {
-      "Package": "curl",
-      "Version": "4.3.2",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "022c42d49c28e95d69ca60446dbabf88"
-    },
-    "data.table": {
-      "Package": "data.table",
-      "Version": "1.14.2",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "36b67b5adf57b292923f5659f5f0c853"
-    },
-    "digest": {
-      "Package": "digest",
-      "Version": "0.6.28",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "49b5c6e230bfec487b8917d5a0c77cca"
+      "Hash": "1216ac65ac55ec0058a6f75d7ca0fd52"
     },
     "dplyr": {
       "Package": "dplyr",
-      "Version": "1.0.7",
+      "Version": "1.1.4",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "36f1ae62f026c8ba9f9b5c9a08c03297"
-    },
-    "ellipsis": {
-      "Package": "ellipsis",
-      "Version": "0.3.2",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "bb0eec2fe32e88d9e2836c2f73ea2077"
-    },
-    "evaluate": {
-      "Package": "evaluate",
-      "Version": "0.14",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "ec8ca05cffcc70569eaaad8469d2a3a7"
+      "Hash": "fedd9d00c2944ff00a0e2696ccf048ec"
     },
     "fansi": {
       "Package": "fansi",
-      "Version": "0.5.0",
+      "Version": "1.0.6",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "d447b40982c576a72b779f0a3b3da227"
-    },
-    "farver": {
-      "Package": "farver",
-      "Version": "2.1.0",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "c98eb5133d9cb9e1622b8691487f11bb"
-    },
-    "fastmap": {
-      "Package": "fastmap",
-      "Version": "1.1.0",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "77bd60a6157420d4ffa93b27cf6a58b8"
-    },
-    "fontawesome": {
-      "Package": "fontawesome",
-      "Version": "0.2.2.9000",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "fontawesome",
-      "RemoteUsername": "rstudio",
-      "RemoteRef": "HEAD",
-      "RemoteSha": "0de890f128e1bfa4637577beb6772fa01894433b",
-      "Hash": "99ebebf4278c61c41144842460ba009e"
-    },
-    "fs": {
-      "Package": "fs",
-      "Version": "1.5.0",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "44594a07a42e5f91fac9f93fda6d0109"
+      "Hash": "962174cf2aeb5b9eea581522286a911f"
     },
     "generics": {
       "Package": "generics",
-      "Version": "0.1.0",
+      "Version": "0.1.3",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "4d243a9c10b00589889fe32314ffd902"
-    },
-    "ggplot2": {
-      "Package": "ggplot2",
-      "Version": "3.3.5",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "d7566c471c7b17e095dd023b9ef155ad"
+      "Hash": "15e9634c0fcd294799e9b2e929ed1b86"
     },
     "glue": {
       "Package": "glue",
-      "Version": "1.4.2",
+      "Version": "1.6.2",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "6efd734b14c6471cfe443345f3e35e29"
-    },
-    "gt": {
-      "Package": "gt",
-      "Version": "0.3.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "e027761c361e66a24e22f9446b3dd86c"
-    },
-    "gtable": {
-      "Package": "gtable",
-      "Version": "0.3.0",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "ac5c6baf7822ce8732b343f14c072c4d"
-    },
-    "highr": {
-      "Package": "highr",
-      "Version": "0.9",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "8eb36c8125038e648e5d111c0d7b2ed4"
-    },
-    "htmltools": {
-      "Package": "htmltools",
-      "Version": "0.5.2",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "526c484233f42522278ab06fb185cb26"
-    },
-    "htmlwidgets": {
-      "Package": "htmlwidgets",
-      "Version": "1.5.4",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "76147821cd3fcd8c4b04e1ef0498e7fb"
-    },
-    "httr": {
-      "Package": "httr",
-      "Version": "1.4.3",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "88d1b310583777edf01ccd1216fb0b2b"
-    },
-    "isoband": {
-      "Package": "isoband",
-      "Version": "0.2.5",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "7ab57a6de7f48a8dc84910d1eca42883"
-    },
-    "jquerylib": {
-      "Package": "jquerylib",
-      "Version": "0.1.4",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "5aab57a3bd297eee1c1d862735972182"
-    },
-    "jsonlite": {
-      "Package": "jsonlite",
-      "Version": "1.7.2",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "98138e0994d41508c7a6b84a0600cfcb"
-    },
-    "knitr": {
-      "Package": "knitr",
-      "Version": "1.36",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "46344b93f8854714cdf476433a59ed10"
-    },
-    "labeling": {
-      "Package": "labeling",
-      "Version": "0.4.2",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "3d5108641f47470611a32d0bdf357a72"
-    },
-    "later": {
-      "Package": "later",
-      "Version": "1.3.0",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "7e7b457d7766bc47f2a5f21cc2984f8e"
-    },
-    "lattice": {
-      "Package": "lattice",
-      "Version": "0.20-44",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "f36bf1a849d9106dc2af72e501f9de41"
-    },
-    "lazyeval": {
-      "Package": "lazyeval",
-      "Version": "0.2.2",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "d908914ae53b04d4c0c0fd72ecc35370"
+      "Hash": "4f2596dfb05dac67b9dc558e5c6fba2e"
     },
     "lifecycle": {
       "Package": "lifecycle",
-      "Version": "1.0.1",
+      "Version": "1.0.4",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "a6b6d352e3ed897373ab19d8395c98d0"
+      "Hash": "b8552d117e1b808b09a832f589b79035"
     },
     "magrittr": {
       "Package": "magrittr",
-      "Version": "2.0.1",
+      "Version": "2.0.3",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "41287f1ac7d28a92f0a286ed507928d3"
-    },
-    "mgcv": {
-      "Package": "mgcv",
-      "Version": "1.8-36",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "93cc747b0e1ad882a4570463c3575c23"
-    },
-    "mime": {
-      "Package": "mime",
-      "Version": "0.12",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "18e9c28c1d3ca1560ce30658b22ce104"
-    },
-    "munsell": {
-      "Package": "munsell",
-      "Version": "0.5.0",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "6dfe8bf774944bd5595785e3229d8771"
-    },
-    "nlme": {
-      "Package": "nlme",
-      "Version": "3.1-152",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "35de1ce639f20b5e10f7f46260730c65"
-    },
-    "openssl": {
-      "Package": "openssl",
-      "Version": "2.0.2",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "6d3bef2e305f55c705c674653c7d7d3d"
+      "Hash": "7ce2733a9826b3aeb1775d56fd305472"
     },
     "pillar": {
       "Package": "pillar",
-      "Version": "1.6.4",
+      "Version": "1.9.0",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "60200b6aa32314ac457d3efbb5ccbd98"
+      "Hash": "15da5a8412f317beeee6175fbc76f4bb"
     },
     "pkgconfig": {
       "Package": "pkgconfig",
@@ -384,34 +78,6 @@
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "01f28d4278f15c76cddbea05899c5d6f"
-    },
-    "plotly": {
-      "Package": "plotly",
-      "Version": "4.10.0",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "fbb11e44d057996ca5fe40d959cacfb0"
-    },
-    "promises": {
-      "Package": "promises",
-      "Version": "1.2.0.1",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "4ab2c43adb4d4699cf3690acd378d75d"
-    },
-    "purrr": {
-      "Package": "purrr",
-      "Version": "0.3.4",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "97def703420c8ab10d8f0e6c72101e02"
-    },
-    "rappdirs": {
-      "Package": "rappdirs",
-      "Version": "0.3.3",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "5e3c5dc0b071b21fa128676560dbe94d"
     },
     "renv": {
       "Package": "renv",
@@ -422,122 +88,59 @@
     },
     "rlang": {
       "Package": "rlang",
-      "Version": "0.4.12",
+      "Version": "1.1.2",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "0879f5388fe6e4d56d7ef0b7ccb031e5"
-    },
-    "rmarkdown": {
-      "Package": "rmarkdown",
-      "Version": "2.11",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "320017b52d05a943981272b295750388"
-    },
-    "sass": {
-      "Package": "sass",
-      "Version": "0.4.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "50cf822feb64bb3977bda0b7091be623"
-    },
-    "scales": {
-      "Package": "scales",
-      "Version": "1.1.1",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "6f76f71042411426ec8df6c54f34e6dd"
+      "Hash": "50a6dbdc522936ca35afc5e2082ea91b"
     },
     "stringi": {
       "Package": "stringi",
-      "Version": "1.7.5",
+      "Version": "1.8.3",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "cd50dc9b449de3d3b47cdc9976886999"
+      "Hash": "058aebddea264f4c99401515182e656a"
     },
     "stringr": {
       "Package": "stringr",
-      "Version": "1.4.0",
+      "Version": "1.5.1",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "0759e6b6c0957edb1311028a49a35e76"
-    },
-    "sys": {
-      "Package": "sys",
-      "Version": "3.4",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "b227d13e29222b4574486cfcbde077fa"
+      "Hash": "960e2ae9e09656611e0b8214ad543207"
     },
     "tibble": {
       "Package": "tibble",
-      "Version": "3.1.5",
+      "Version": "3.2.1",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "36eb05ad4cfdfeaa56f5a9b2a1311efd"
-    },
-    "tidyr": {
-      "Package": "tidyr",
-      "Version": "1.2.0",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "d8b95b7fee945d7da6888cf7eb71a49c"
+      "Hash": "a84e2cc86d07289b3b6f5069df7a004c"
     },
     "tidyselect": {
       "Package": "tidyselect",
-      "Version": "1.1.1",
+      "Version": "1.2.0",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "7243004a708d06d4716717fa1ff5b2fe"
-    },
-    "tinytex": {
-      "Package": "tinytex",
-      "Version": "0.34",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "043daa786f4d254f0031534150e28d42"
+      "Hash": "79540e5fcd9e0435af547d885f184fd5"
     },
     "utf8": {
       "Package": "utf8",
-      "Version": "1.2.2",
+      "Version": "1.2.4",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "c9c462b759a5cc844ae25b5942654d13"
+      "Hash": "62b65c52671e6665f803ff02954446e9"
     },
     "vctrs": {
       "Package": "vctrs",
-      "Version": "0.3.8",
+      "Version": "0.6.5",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "ecf749a1b39ea72bd9b51b76292261f1"
-    },
-    "viridisLite": {
-      "Package": "viridisLite",
-      "Version": "0.4.0",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "55e157e2aa88161bdb0754218470d204"
+      "Hash": "c03fa420630029418f7e6da3667aac4a"
     },
     "withr": {
       "Package": "withr",
-      "Version": "2.4.2",
+      "Version": "2.5.2",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "ad03909b44677f930fa156d47d7a3aeb"
-    },
-    "xfun": {
-      "Package": "xfun",
-      "Version": "0.27",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "12b69332f085d350fc1f2ea6cca58397"
-    },
-    "yaml": {
-      "Package": "yaml",
-      "Version": "2.2.1",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "2826c5d9efb0a88f657c7a679c7106db"
+      "Hash": "4b25e70111b7d644322e9513f403a272"
     }
   }
 }
