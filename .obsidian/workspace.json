@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/small-things.md",
+                "file": "concepts/christian.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "gratitude/small-things.md",
+                "file": "concepts/christian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "gratitude/small-things.md",
+                "file": "concepts/christian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "gratitude/small-things.md"
+                "file": "concepts/christian.md"
               }
             }
           }
@@ -197,8 +197,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9827e452298e80c1",
+  "active": "3e0940abb38815d5",
   "lastOpenFiles": [
+    "christianity/find-the-fun.md",
+    "concepts/christian.md",
+    "img/dalle-find-the-fun.png",
+    "gratitude/small-things.md",
     "img/book-the-quest-for-cosmic-justice.jpeg",
     "docs/posts/attention-is-increased-capacity-to-handle-multiple-ideas-increases-without-social-media.html",
     "docs/lists/news.html",
@@ -222,8 +226,6 @@
     "docs/posts/quarto-from-phone/repo.jpeg",
     "docs/posts/2023-12-21-the-dodo/photo.jpeg",
     "docs/posts/2022-12-15-chatgpt-rshiny/xts.png",
-    "docs/posts/2022-12-15-chatgpt-rshiny/rownames_to_date.png",
-    "docs/posts/2022-12-15-chatgpt-rshiny/recommend.png",
     "docs/_templates/new-post.md",
     "tech/this-drug-is-habit-forming.md",
     "posts/your-mood-is-contagious.md",
@@ -240,10 +242,8 @@
     "scriptures/1-nephi-1.7-8.md",
     "scriptures/1-nephi-1.5.md",
     "scriptures/1-nephi-1.5-6.md",
-    "gratitude/small-things.md",
     "gratitude/sandwich-shops.md",
     "goals/2024-01-10-goals.md",
-    "concepts/the-book-of-mormon-another-testament-of-jesus-christ.md",
-    "concepts/gratus-sum-ergo-habeo.md"
+    "concepts/the-book-of-mormon-another-testament-of-jesus-christ.md"
   ]
 }
