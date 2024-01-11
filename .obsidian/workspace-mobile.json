@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/small-things.md",
+                "file": "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "gratitude/small-things.md",
+            "file": "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "gratitude/small-things.md"
+            "file": "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "gratitude/small-things.md",
+            "file": "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -140,6 +140,7 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "gratitude/small-things.md",
     "quarto-demo-forbo7-huggingface.png",
     "posts.qmd",
     "img/quarto-demo-forbo7-landing.png",
@@ -156,7 +157,6 @@
     "posts/cool-quarto-site.md",
     "screenshot-quarto-demo-forbo7-subscribe.png",
     "scriptures/alma-37.7.md",
-    "gratitude/small-things.md",
     "lists/news.md",
     "lists/reading-list.md",
     "posts/attention-is-increased-capacity-to-handle-multiple-ideas-increases-without-social-media.md",
@@ -171,7 +171,6 @@
     "docs/img/dalle-avocado-sandwich.jpeg",
     "docs/img/dalle-alone-in-a-crowded-room.jpeg",
     "docs/img/dalle-pillar-of-fire-on-rock.jpeg",
-    "docs/img/dalle-habit-forming-drug.jpeg",
     "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
     "goals/2024-01-09-goals.md",
     "goals/2024-01-10-goals.md",
