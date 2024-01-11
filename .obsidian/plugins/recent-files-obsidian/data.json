@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "small-things",
+      "path": "gratitude/small-things.md"
+    },
+    {
       "basename": "news",
       "path": "lists/news.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "sandwich-shops",
       "path": "gratitude/sandwich-shops.md"
-    },
-    {
-      "basename": "small-things",
-      "path": "gratitude/small-things.md"
     },
     {
       "basename": "writing-ethos",

@@ -10,14 +10,16 @@ listing:
     type: grid
     grid-columns: 3
     fields: [image, title, description, date]
-    max-items: 6
+    page-size: 3
+    max-items: 24
     feed: true
     sort:
       - "date desc"
       - "title asc"
   - id: landing-gratitude
     contents: gratitude
-    max-items: 6
+    page-size: 6
+    max-items: 24
     grid-columns: 1
     type: grid
     sort:
@@ -25,7 +27,8 @@ listing:
       - "title asc"
   - id: landing-christianity
     contents: christianity
-    max-items: 6
+    page-size: 6
+    max-items: 24
     grid-columns: 1
     type: grid
     sort:
@@ -33,7 +36,8 @@ listing:
       - "title asc"
   - id: landing-books
     contents: book-review
-    max-items: 6
+    page-size: 6
+    max-items: 24
     grid-columns: 1
     type: grid
     sort:
@@ -46,20 +50,25 @@ page-layout: full
 title-block-banner: false
 ---
 
-Thoughts on [tech](tech.qmd), [faith](christianity.qmd), [gratitude](gratitude.qmd), [books I'm reading](books.qmd) and [anything else](posts.qmd). _"All [blogs](https://en.wikipedia.org/wiki/All_models_are_wrong) are wrong, but some are useful."_
+> "All [blogs](https://en.wikipedia.org/wiki/All_models_are_wrong) are wrong, but some are useful."
 
-## Recent Tech + Thoughts
-See more [tech](tech.qmd) or [thoughts](posts.qmd).
+Musings on [tech](tech.qmd), [faith](christianity.qmd), [gratitude](gratitude.qmd), [books I'm reading](books.qmd) and [anything else](posts.qmd). 
+
+## Recent Thoughts
+Posts on [tech](tech.qmd) and spurious [thoughts](posts.qmd).
 
 :::{#landing-posts}
 :::
+
+<!-- this br fixes the alignment issue with pagination from above -->
+<br>
 
 
 :::::{.grid}
 <!-- col 1 -->
 ::::{.g-col-12 .g-col-md-4 .animate__animated .animate__fadeIn .animate__faster .animate__delay-1s}
 
-## Books I'm Reading
+## Reading
 See more [books](books.qmd) and my [reading list](lists/reading-list.md).
 
 :::{#landing-books}

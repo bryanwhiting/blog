@@ -1,5 +1,5 @@
 ---
-title: "Posts - Random Thoughts"
+title: "Posts"
 comments: false
 listing:
   contents: posts

@@ -107,8 +107,17 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "9827e452298e80c1",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -188,21 +197,23 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3e0940abb38815d5",
+  "active": "9827e452298e80c1",
   "lastOpenFiles": [
+    "_freeze/site_libs/quarto-html/zenscroll-min.js",
+    "_freeze/site_libs/quarto-html/tippy.umd.min.js",
+    "_freeze/site_libs/quarto-html/tippy.css",
+    "_freeze/site_libs/quarto-html/quarto.js",
+    "_freeze/site_libs/quarto-html/quarto-syntax-highlighting.css",
+    "_freeze/site_libs/quarto-html/popper.min.js",
+    "_freeze/site_libs/quarto-html/anchor.min.js",
+    "_freeze/site_libs/quarto-html",
+    "_freeze/site_libs/bootstrap/bootstrap.min.js",
+    "_freeze/site_libs/bootstrap/bootstrap.min.css",
+    "_freeze/site_libs/bootstrap/bootstrap-icons.woff",
+    "docs/img/dalle-mustard-seed.jpeg",
     "posts/attention-is-increased-capacity-to-handle-multiple-ideas-increases-without-social-media.md",
     "lists/news.md",
     "posts/cool-quarto-site.md",
-    "docs/index-listing.json",
-    "docs/index.feed-full-staged",
-    "index-listing.json",
-    "index.feed-full-staged",
-    "site_libs/quarto-search/quarto-search.js",
-    "site_libs/quarto-search/fuse.min.js",
-    "site_libs/quarto-search/autocomplete.umd.js",
-    "site_libs/quarto-nav/quarto-nav.js",
-    "site_libs/quarto-nav/headroom.min.js",
-    "site_libs/quarto-html/zenscroll-min.js",
     "docs/screenshot-quarto-demo-forbo7-subscribe.png",
     "docs/quarto-demo-forbo7-huggingface.png",
     "docs/posts/quarto-from-phone/repo.jpeg",
@@ -212,7 +223,6 @@
     "docs/posts/2022-12-15-chatgpt-rshiny/recommend.png",
     "docs/posts/2022-12-15-chatgpt-rshiny/quatmod.png",
     "docs/posts/2022-12-15-chatgpt-rshiny/missing_date.png",
-    "docs/posts/2022-12-15-chatgpt-rshiny/iris_processing.png",
     "docs/_templates/new-post.md",
     "tech/this-drug-is-habit-forming.md",
     "posts/your-mood-is-contagious.md",
@@ -234,7 +244,6 @@
     "goals/2024-01-10-goals.md",
     "concepts/the-book-of-mormon-another-testament-of-jesus-christ.md",
     "concepts/gratus-sum-ergo-habeo.md",
-    "christianity/praying-for-other-people.md",
-    "christianity/he-prepares-us-to-teach-us.md"
+    "christianity/praying-for-other-people.md"
   ]
 }
