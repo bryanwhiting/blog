@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
+                "file": "posts/cool-quarto-site.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
+            "file": "posts/cool-quarto-site.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md"
+            "file": "posts/cool-quarto-site.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
+            "file": "posts/cool-quarto-site.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,6 +141,7 @@
   "active": "be767112276aa446",
   "lastOpenFiles": [
     "gratitude/small-things.md",
+    "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
     "quarto-demo-forbo7-huggingface.png",
     "posts.qmd",
     "img/quarto-demo-forbo7-landing.png",
@@ -171,7 +172,6 @@
     "docs/img/dalle-avocado-sandwich.jpeg",
     "docs/img/dalle-alone-in-a-crowded-room.jpeg",
     "docs/img/dalle-pillar-of-fire-on-rock.jpeg",
-    "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
     "goals/2024-01-09-goals.md",
     "goals/2024-01-10-goals.md",
     "docs/_templates/new-post.md",
