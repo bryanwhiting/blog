@@ -1,6 +1,6 @@
 <%*
 // Define the list of folders  
-const folders = ["book-review", "christianity", "concepts", "creative", "goals", "gratitude", "posts", "sacrament-symbols", "tech"];
+const folders = ["book-review", "christianity", "concepts", "creative", "goals", "gratitude", "news", "posts", "sacrament-symbols", "tech"];
 
 // Use the suggester to let the 
 // user choose a folder  

@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "ai-and-the-future-of-saas",
+      "path": "news/ai-and-the-future-of-saas.md"
+    },
+    {
+      "basename": "new-post",
+      "path": "_templates/new-post.md"
+    },
+    {
       "basename": "the-future-wave-of-ai-hype",
       "path": "tech/the-future-wave-of-ai-hype.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "2024-01-10-goals",
       "path": "goals/2024-01-10-goals.md"
-    },
-    {
-      "basename": "new-post",
-      "path": "_templates/new-post.md"
     },
     {
       "basename": "reading-list",
