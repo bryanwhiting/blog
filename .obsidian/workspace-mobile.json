@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "news/ai-and-the-future-of-saas.md",
+                "file": "concepts/christian.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "news/ai-and-the-future-of-saas.md",
+            "file": "concepts/christian.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "news/ai-and-the-future-of-saas.md"
+            "file": "concepts/christian.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "news/ai-and-the-future-of-saas.md",
+            "file": "concepts/christian.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,8 +141,9 @@
   "active": "be767112276aa446",
   "lastOpenFiles": [
     "_templates/new-post.md",
-    "news",
+    "concepts/christian.md",
     "news/ai-and-the-future-of-saas.md",
+    "news",
     "tech/the-future-wave-of-ai-hype.md",
     "docs/img/book-the-quest-for-cosmic-justice.jpeg",
     "lists/ai.md",

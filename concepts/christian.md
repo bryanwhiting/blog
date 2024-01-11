@@ -1,6 +1,6 @@
 ---
 title: Christian
-description: 
+description: A child of God
 date: 2024-01-11 10:37:11
 created: 2024-01-11 10:37:11
 categories:
