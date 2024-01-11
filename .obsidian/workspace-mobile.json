@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/the-quest-for-cosmic-justice.md",
+                "file": "tech/the-future-wave-of-ai-hype.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "book-review/the-quest-for-cosmic-justice.md",
+            "file": "tech/the-future-wave-of-ai-hype.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "book-review/the-quest-for-cosmic-justice.md"
+            "file": "tech/the-future-wave-of-ai-hype.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "book-review/the-quest-for-cosmic-justice.md",
+            "file": "tech/the-future-wave-of-ai-hype.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -140,10 +140,12 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "lists/ai.md",
+    "book-review/the-quest-for-cosmic-justice.md",
+    "docs/book-review/the-quest-for-cosmic-justice.html",
     "docs/_templates/new-post.md",
     "goals/2024-01-10-goals.md",
     "_templates/new-post.md",
-    "book-review/the-quest-for-cosmic-justice.md",
     "lists/reading-list.md",
     "book-review/dune-messiah.md",
     "posts/cool-quarto-site.md",
@@ -173,7 +175,6 @@
     "concepts/the-church-of-jesus-christ-of-latter-day-saints.md",
     "docs/gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.html",
     "docs/gratitude/sandwich-shops.html",
-    "docs/gratitude/small-things.html",
     "docs/img/dalle-avocado-sandwich.jpeg",
     "docs/img/dalle-alone-in-a-crowded-room.jpeg",
     "docs/img/dalle-pillar-of-fire-on-rock.jpeg",
@@ -184,7 +185,6 @@
     "scriptures/1-nephi-1.7-8.md",
     "posts/the-six-hour-sandwich.md",
     "gratitude/sandwich-shops.md",
-    "scriptures/mark-4.31-32.md",
-    "lists/writing-ethos.md"
+    "scriptures/mark-4.31-32.md"
   ]
 }

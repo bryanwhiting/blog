@@ -13,6 +13,12 @@ draft: false
 ## TL;DR: AI is wild. Last updated per last headline. First created 2023-12-14
 :::
 
+# 2024-01-11
+## Chatbot UI
+
+Create a UI for a chatbot convo. Backend supabase. Hosted vercel. McKay Wrigley. 
+
+[GitHub](https://github.com/mckaywrigley/chatbot-ui)
 # Local GPT brain
 2024-01-09
 
