@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/small-things.md",
+                "file": "lists/scripture-study-list.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,8 +107,17 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "9827e452298e80c1",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -128,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "gratitude/small-things.md",
+                "file": "lists/scripture-study-list.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "gratitude/small-things.md",
+                "file": "lists/scripture-study-list.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "gratitude/small-things.md"
+                "file": "lists/scripture-study-list.md"
               }
             }
           }
@@ -190,29 +199,34 @@
   },
   "active": "3e0940abb38815d5",
   "lastOpenFiles": [
+    "concepts/christian.md",
+    "lists/scripture-study-list.md",
+    "christianity/find-the-fun.md",
+    "img/dalle-find-the-fun.png",
+    "gratitude/small-things.md",
+    "img/book-the-quest-for-cosmic-justice.jpeg",
+    "docs/posts/attention-is-increased-capacity-to-handle-multiple-ideas-increases-without-social-media.html",
+    "docs/lists/news.html",
+    "docs/img/book-the-quest-for-cosmic-justice.jpeg",
+    "docs/img/-chart-carta-company-shutdowns.jpeg",
+    "docs/book-review/the-quest-for-cosmic-justice.html",
+    "book-review/the-quest-for-cosmic-justice.md",
+    "_freeze/site_libs/bootstrap/bootstrap.min.js",
+    "_freeze/site_libs/bootstrap/bootstrap.min.css",
+    "_freeze/site_libs/bootstrap/bootstrap-icons.woff",
+    "_freeze/site_libs/bootstrap/bootstrap-icons.css",
+    "_freeze/site_libs/bootstrap",
+    "docs/index-listing.json",
+    "docs/index.feed-full-staged",
+    "docs/img/dalle-mustard-seed.jpeg",
     "posts/attention-is-increased-capacity-to-handle-multiple-ideas-increases-without-social-media.md",
     "lists/news.md",
     "posts/cool-quarto-site.md",
-    "docs/index-listing.json",
-    "docs/index.feed-full-staged",
-    "index-listing.json",
-    "index.feed-full-staged",
-    "site_libs/quarto-search/quarto-search.js",
-    "site_libs/quarto-search/fuse.min.js",
-    "site_libs/quarto-search/autocomplete.umd.js",
-    "site_libs/quarto-nav/quarto-nav.js",
-    "site_libs/quarto-nav/headroom.min.js",
-    "site_libs/quarto-html/zenscroll-min.js",
     "docs/screenshot-quarto-demo-forbo7-subscribe.png",
     "docs/quarto-demo-forbo7-huggingface.png",
     "docs/posts/quarto-from-phone/repo.jpeg",
     "docs/posts/2023-12-21-the-dodo/photo.jpeg",
     "docs/posts/2022-12-15-chatgpt-rshiny/xts.png",
-    "docs/posts/2022-12-15-chatgpt-rshiny/rownames_to_date.png",
-    "docs/posts/2022-12-15-chatgpt-rshiny/recommend.png",
-    "docs/posts/2022-12-15-chatgpt-rshiny/quatmod.png",
-    "docs/posts/2022-12-15-chatgpt-rshiny/missing_date.png",
-    "docs/posts/2022-12-15-chatgpt-rshiny/iris_processing.png",
     "docs/_templates/new-post.md",
     "tech/this-drug-is-habit-forming.md",
     "posts/your-mood-is-contagious.md",
@@ -229,12 +243,7 @@
     "scriptures/1-nephi-1.7-8.md",
     "scriptures/1-nephi-1.5.md",
     "scriptures/1-nephi-1.5-6.md",
-    "gratitude/small-things.md",
     "gratitude/sandwich-shops.md",
-    "goals/2024-01-10-goals.md",
-    "concepts/the-book-of-mormon-another-testament-of-jesus-christ.md",
-    "concepts/gratus-sum-ergo-habeo.md",
-    "christianity/praying-for-other-people.md",
-    "christianity/he-prepares-us-to-teach-us.md"
+    "goals/2024-01-10-goals.md"
   ]
 }
