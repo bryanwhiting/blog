@@ -11,7 +11,7 @@ date-finished:
 pct-complete: 
 book-time: 5.85
 ---
-
+![Quest for cosmic justice](../img/book-the-quest-for-cosmic-justice.jpeg){.preview-image}
 
 2024-01-10
 

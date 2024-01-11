@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "the-quest-for-cosmic-justice",
+      "path": "book-review/the-quest-for-cosmic-justice.md"
+    },
+    {
       "basename": "new-post",
       "path": "docs/_templates/new-post.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "new-post",
       "path": "_templates/new-post.md"
-    },
-    {
-      "basename": "the-quest-for-cosmic-justice",
-      "path": "book-review/the-quest-for-cosmic-justice.md"
     },
     {
       "basename": "reading-list",

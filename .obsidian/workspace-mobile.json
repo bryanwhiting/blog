@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/_templates/new-post.md",
+                "file": "book-review/the-quest-for-cosmic-justice.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "docs/_templates/new-post.md",
+            "file": "book-review/the-quest-for-cosmic-justice.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "docs/_templates/new-post.md"
+            "file": "book-review/the-quest-for-cosmic-justice.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "docs/_templates/new-post.md",
+            "file": "book-review/the-quest-for-cosmic-justice.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -140,10 +140,10 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "docs/_templates/new-post.md",
     "goals/2024-01-10-goals.md",
     "_templates/new-post.md",
     "book-review/the-quest-for-cosmic-justice.md",
-    "docs/_templates/new-post.md",
     "lists/reading-list.md",
     "book-review/dune-messiah.md",
     "posts/cool-quarto-site.md",
