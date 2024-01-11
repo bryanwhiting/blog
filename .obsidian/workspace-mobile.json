@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/strollers.md",
+                "file": "_templates/new-post.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "gratitude/strollers.md",
+            "file": "_templates/new-post.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "gratitude/strollers.md"
+            "file": "_templates/new-post.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "gratitude/strollers.md",
+            "file": "_templates/new-post.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -140,16 +140,22 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "img/dalle-chariot-stroller.jpeg",
-    "christianity/receiving-a-promised-land.md",
+    "concepts/christian.md",
     "gratitude/strollers.md",
+    "christianity/receiving-a-promised-land.md",
+    "img/dalle-chariot-stroller.jpeg",
     "img/dalle-leaving-the-promised-land.jpeg",
-    "christianity/my-testimony-2024-01-07.md",
-    "scriptures/1-nephi-5.5.md",
     "scriptures/1-nephi-2.20.md",
     "scriptures/1-nephi-2.4.md",
-    "news/ai-and-the-future-of-saas.md",
+    "docs/christianity/find-the-fun.html",
+    "docs/concepts/christian.html",
+    "docs/news/ai-and-the-future-of-saas.html",
+    "docs/news",
+    "docs/img/dalle-find-the-fun.png",
+    "docs/lists/scripture-study-list.html",
+    "goals/2024-01-11-goals.md",
     "_templates/new-post.md",
+    "news/ai-and-the-future-of-saas.md",
     "news",
     "tech/the-future-wave-of-ai-hype.md",
     "docs/img/book-the-quest-for-cosmic-justice.jpeg",
@@ -171,12 +177,7 @@
     "docs/quarto-demo-forbo7-huggingface.png",
     "docs/img/dalle-christ-praying-oh-jerusalem.jpeg",
     "docs/img/quarto-demo-forbo7-landing.png",
-    "docs/posts.html",
-    "docs/index-20240110.html",
-    "docs/index-20240110.xml",
-    "docs/posts/cool-quarto-site.html",
     "docs/screenshot-quarto-demo-forbo7-subscribe.png",
-    "screenshot-quarto-demo-forbo7-subscribe.png",
     "scriptures/alma-37.7.md",
     "lists/news.md",
     "posts/attention-is-increased-capacity-to-handle-multiple-ideas-increases-without-social-media.md",
@@ -184,7 +185,6 @@
     "gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.md",
     "christianity/come-follow-me-2024-01-14-jan-14.md",
     "concepts/my-mission.md",
-    "docs/gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.html",
-    "docs/img/dalle-avocado-sandwich.jpeg"
+    "concepts/the-church-of-jesus-christ-of-latter-day-saints.md"
   ]
 }
