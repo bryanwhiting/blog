@@ -2,7 +2,9 @@
   {
     "listing": "/sitemap.html",
     "items": [
+      "/book-review/the-quest-for-cosmic-justice.html",
       "/posts/cool-quarto-site.html",
+      "/lists/news.html",
       "/goals/2024-01-10-goals.html",
       "/christianity/he-prepares-us-to-teach-us.html",
       "/gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.html",
@@ -211,7 +213,9 @@
   {
     "listing": "/all.html",
     "items": [
+      "/book-review/the-quest-for-cosmic-justice.html",
       "/posts/cool-quarto-site.html",
+      "/lists/news.html",
       "/christianity/he-prepares-us-to-teach-us.html",
       "/gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.html",
       "/gratitude/small-things.html",
@@ -343,14 +347,6 @@
     ]
   },
   {
-    "listing": "/goals.html",
-    "items": [
-      "/goals/2024-01-10-goals.html",
-      "/goals/2024-01-09-goals.html",
-      "/goals/2024-01-08-goals.html"
-    ]
-  },
-  {
     "listing": "/concepts.html",
     "items": [
       "/concepts/gratus-sum-ergo-habeo.html",
@@ -470,6 +466,7 @@
       "/christianity/the-christ-child.html",
       "/christianity/christmas-celebrates-a-living-christ.html",
       "/christianity/three-little-pigs-christ.html",
+      "/book-review/the-quest-for-cosmic-justice.html",
       "/book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.html",
       "/book-review/dune-messiah.html",
       "/book-review/leonardo-da-vinci.html",
@@ -557,6 +554,7 @@
   {
     "listing": "/books.html",
     "items": [
+      "/book-review/the-quest-for-cosmic-justice.html",
       "/book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.html",
       "/book-review/dune-messiah.html",
       "/book-review/leonardo-da-vinci.html",
@@ -594,10 +592,19 @@
     "items": [
       "/lists/ai.html",
       "/lists/legal-ai.html",
+      "/lists/news.html",
       "/lists/reading-ethos.html",
       "/lists/reading-list.html",
       "/lists/gratitude-backlog.html",
       "/lists/writing-ethos.html"
+    ]
+  },
+  {
+    "listing": "/goals.html",
+    "items": [
+      "/goals/2024-01-10-goals.html",
+      "/goals/2024-01-09-goals.html",
+      "/goals/2024-01-08-goals.html"
     ]
   },
   {
@@ -626,6 +633,7 @@
   {
     "listing": "/index-20240110.html",
     "items": [
+      "/book-review/the-quest-for-cosmic-justice.html",
       "/posts/cool-quarto-site.html",
       "/posts/the-six-hour-sandwich.html",
       "/tech/this-drug-is-habit-forming.html",

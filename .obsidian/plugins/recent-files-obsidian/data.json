@@ -1,16 +1,61 @@
 {
   "recentFiles": [
     {
+<<<<<<< HEAD
       "basename": "small-things",
       "path": "gratitude/small-things.md"
     },
     {
       "basename": "news",
       "path": "lists/news.md"
+=======
+      "basename": "the-future-wave-of-ai-hype",
+      "path": "tech/the-future-wave-of-ai-hype.md"
+    },
+    {
+      "basename": "ai",
+      "path": "lists/ai.md"
+    },
+    {
+      "basename": "the-quest-for-cosmic-justice",
+      "path": "book-review/the-quest-for-cosmic-justice.md"
+    },
+    {
+      "basename": "new-post",
+      "path": "docs/_templates/new-post.md"
+    },
+    {
+      "basename": "2024-01-10-goals",
+      "path": "goals/2024-01-10-goals.md"
+    },
+    {
+      "basename": "new-post",
+      "path": "_templates/new-post.md"
+>>>>>>> ac2b5862e4b87981866424e953946c904807109b
     },
     {
       "basename": "reading-list",
       "path": "lists/reading-list.md"
+    },
+    {
+      "basename": "dune-messiah",
+      "path": "book-review/dune-messiah.md"
+    },
+    {
+      "basename": "cool-quarto-site",
+      "path": "posts/cool-quarto-site.md"
+    },
+    {
+      "basename": "small-things",
+      "path": "gratitude/small-things.md"
+    },
+    {
+      "basename": "the-oxford-inklings-lewis-tolkien-and-their-circle",
+      "path": "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md"
+    },
+    {
+      "basename": "news",
+      "path": "lists/news.md"
     },
     {
       "basename": "attention-is-increased-capacity-to-handle-multiple-ideas-increases-without-social-media",
@@ -21,20 +66,8 @@
       "path": "christianity/praying-for-other-people.md"
     },
     {
-      "basename": "the-oxford-inklings-lewis-tolkien-and-their-circle",
-      "path": "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md"
-    },
-    {
       "basename": "2024-01-09-goals",
       "path": "goals/2024-01-09-goals.md"
-    },
-    {
-      "basename": "2024-01-10-goals",
-      "path": "goals/2024-01-10-goals.md"
-    },
-    {
-      "basename": "new-post",
-      "path": "docs/_templates/new-post.md"
     },
     {
       "basename": "he-prepares-us-to-teach-us",

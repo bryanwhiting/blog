@@ -22,7 +22,7 @@ This post illustrates
 
 I came across this site: <https://forbo7.github.io/>. I enjoyed seeing how they arrayed their blogs, which I had never seen before - they used grids. 
 
-![](../img/quarto-demo-forbo7-landing.png)
+![](../img/quarto-demo-forbo7-landing.png){.preview-image}
 
 They use an embedded google form for subscriptions:
 

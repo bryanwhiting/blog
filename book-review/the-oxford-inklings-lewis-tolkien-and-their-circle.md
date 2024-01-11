@@ -54,6 +54,7 @@ owen Barfield
 Takeaway
 - their creative ideas took decades to form. Or went years without being published. 
 - Surround yourself with people who challenge you
+- They created a new syllabus. - power is to those who hold it. Everyone else adapts. 
 
 Blog ideas:
 - don't mistake challenge with truth. Someone who is on mistrurh side can convince you

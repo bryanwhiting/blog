@@ -29,7 +29,7 @@
 <li>How you can iframe other apps, such as from huggingface.</li>
 </ol>
 <p>I came across this site: <a href="https://forbo7.github.io/" class="uri">https://forbo7.github.io/</a>. I enjoyed seeing how they arrayed their blogs, which I had never seen before - they used grids.</p>
-<p><img src="https://www.bryanwhiting.com/img/quarto-demo-forbo7-landing.png" class="img-fluid"></p>
+<p><img src="https://www.bryanwhiting.com/img/quarto-demo-forbo7-landing.png" class="preview-image img-fluid"></p>
 <p>They use an embedded google form for subscriptions:</p>
 <p><img src="https://www.bryanwhiting.com/screenshot-quarto-demo-forbo7-subscribe.png" class="img-fluid"></p>
 <p>And they have an<a href="https://forbo7.github.io/web_apps/apps/flood_detector.html">iframe on a Huggingface</a> app to show something cool:</p>

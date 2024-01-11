@@ -32,7 +32,7 @@ let date = tp.date.now("YYYY-MM-DD HH:mm:ss");
 let content = `
 title: "${title}"  
 description: |
-  xxx  
+  x
 date: "${date}"  
 created: "${date}"
 categories: ${folder}  

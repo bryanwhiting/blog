@@ -14,6 +14,12 @@ Sequel to [Dune](dune.md).
 
 ![Dune Messiah](../img/book-dune-messiah.jpeg){.preview-image}
 
+2024-01-10
+
+- The sea. Why join the jihad? I had to believe. → there are only a few conductors. The rest want to jump on the moving train. By definition, a conductor has people following. 
+
+2024-01-08
 Notes:
 - sometimes lies are easier to believe than the truth
 - He may be a mentat, Benegesseret, etc but he's still human. He has a weakness. 
+- 
