@@ -12,6 +12,7 @@ draft: false
 - [ ] Ten Day MBA #audible 
 - [ ] Team of Teams #spotify 12hr.
 - [ ] Wealth of Nations #youtube https://www.youtube.com/watch?v=PH4B-SGf6-A
+- [ ] Competing Against Luck #spotify #audible-credit 7.25hr. $13
 
 ### Fiction
 - [ ] The Great Gatsby #libby 
@@ -39,7 +40,7 @@ To finish
 ### Religion and Philosophy
 - [ ] Paradise Lost and Paradise Regained #libby 
 - [ ] Mere Christianity #libby 
-- [ ] The quest for Cosmic Justice - Sowll #audible-free
+- [x] The quest for Cosmic Justice - Sowll #audible-free
 
 # Backlog
 

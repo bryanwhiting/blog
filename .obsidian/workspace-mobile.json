@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/cool-quarto-site.md",
+                "file": "docs/_templates/new-post.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 4
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/cool-quarto-site.md",
+            "file": "docs/_templates/new-post.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/cool-quarto-site.md"
+            "file": "docs/_templates/new-post.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/cool-quarto-site.md",
+            "file": "docs/_templates/new-post.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -140,6 +140,13 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "goals/2024-01-10-goals.md",
+    "_templates/new-post.md",
+    "book-review/the-quest-for-cosmic-justice.md",
+    "docs/_templates/new-post.md",
+    "lists/reading-list.md",
+    "book-review/dune-messiah.md",
+    "posts/cool-quarto-site.md",
     "gratitude/small-things.md",
     "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
     "quarto-demo-forbo7-huggingface.png",
@@ -155,11 +162,9 @@
     "docs/index-20240110.xml",
     "docs/posts/cool-quarto-site.html",
     "docs/screenshot-quarto-demo-forbo7-subscribe.png",
-    "posts/cool-quarto-site.md",
     "screenshot-quarto-demo-forbo7-subscribe.png",
     "scriptures/alma-37.7.md",
     "lists/news.md",
-    "lists/reading-list.md",
     "posts/attention-is-increased-capacity-to-handle-multiple-ideas-increases-without-social-media.md",
     "christianity/praying-for-other-people.md",
     "gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.md",
@@ -173,8 +178,6 @@
     "docs/img/dalle-alone-in-a-crowded-room.jpeg",
     "docs/img/dalle-pillar-of-fire-on-rock.jpeg",
     "goals/2024-01-09-goals.md",
-    "goals/2024-01-10-goals.md",
-    "docs/_templates/new-post.md",
     "christianity/he-prepares-us-to-teach-us.md",
     "scriptures/2-nephi-28.30.md",
     "scriptures/1-nephi-1.5-6.md",
@@ -182,8 +185,6 @@
     "posts/the-six-hour-sandwich.md",
     "gratitude/sandwich-shops.md",
     "scriptures/mark-4.31-32.md",
-    "lists/writing-ethos.md",
-    "concepts/gratus-sum-ergo-habeo.md",
-    "posts/my-mission.md"
+    "lists/writing-ethos.md"
   ]
 }

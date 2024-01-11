@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "new-post",
+      "path": "docs/_templates/new-post.md"
+    },
+    {
+      "basename": "2024-01-10-goals",
+      "path": "goals/2024-01-10-goals.md"
+    },
+    {
+      "basename": "new-post",
+      "path": "_templates/new-post.md"
+    },
+    {
+      "basename": "the-quest-for-cosmic-justice",
+      "path": "book-review/the-quest-for-cosmic-justice.md"
+    },
+    {
+      "basename": "reading-list",
+      "path": "lists/reading-list.md"
+    },
+    {
+      "basename": "dune-messiah",
+      "path": "book-review/dune-messiah.md"
+    },
+    {
       "basename": "cool-quarto-site",
       "path": "posts/cool-quarto-site.md"
     },
@@ -17,10 +41,6 @@
       "path": "lists/news.md"
     },
     {
-      "basename": "reading-list",
-      "path": "lists/reading-list.md"
-    },
-    {
       "basename": "attention-is-increased-capacity-to-handle-multiple-ideas-increases-without-social-media",
       "path": "posts/attention-is-increased-capacity-to-handle-multiple-ideas-increases-without-social-media.md"
     },
@@ -31,14 +51,6 @@
     {
       "basename": "2024-01-09-goals",
       "path": "goals/2024-01-09-goals.md"
-    },
-    {
-      "basename": "2024-01-10-goals",
-      "path": "goals/2024-01-10-goals.md"
-    },
-    {
-      "basename": "new-post",
-      "path": "docs/_templates/new-post.md"
     },
     {
       "basename": "he-prepares-us-to-teach-us",

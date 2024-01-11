@@ -15,6 +15,12 @@
     "ex-core": "checkbox",
     "ex-back": "checkbox",
     "ex-legs": "checkbox",
-    "ex-arms": "checkbox"
+    "ex-arms": "checkbox",
+    "pelo-kj": "number",
+    "pelo": "number",
+    "pelo-time": "number",
+    "pelo-avg": "number",
+    "book-time": "number",
+    "exercises": "multitext"
   }
 }

@@ -43,6 +43,7 @@ if (folder === 'book-review') {
 	content += `  
 date-start: "${date}"
 date-finished: 
+book-time: 0
 pct-complete:`;
 } 
 
@@ -52,8 +53,9 @@ strength: false
 cardio: false
 meditate: false
 pray: false
-notes:
-observations:`;
+exercises: ""
+notes: ""
+observations: ""`;
 } 
 
 
