@@ -32,7 +32,7 @@ let date = tp.date.now("YYYY-MM-DD HH:mm:ss");
 let content = `
 title: "${title}"  
 description: |
-  xxx  
+  x
 date: "${date}"  
 created: "${date}"
 categories: ${folder}  
@@ -43,7 +43,6 @@ if (folder === 'book-review') {
 	content += `  
 date-start: "${date}"
 date-finished: 
-book-time: 0
 pct-complete:`;
 } 
 
@@ -53,9 +52,8 @@ strength: false
 cardio: false
 meditate: false
 pray: false
-exercises: ""
-notes: ""
-observations: ""`;
+notes:
+observations:`;
 } 
 
 
