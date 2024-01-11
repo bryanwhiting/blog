@@ -62,6 +62,7 @@ Posts on [tech](tech.qmd) and spurious [thoughts](posts.qmd).
 
 <!-- this br fixes the alignment issue with pagination from above -->
 <br>
+<br>
 
 
 :::::{.grid}
@@ -89,7 +90,7 @@ See more [gratitude](gratitude.qmd).
 ::::{.g-col-12 .g-col-md-4  .animate__animated .animate__fadeIn .animate__faster .animate__delay-1s}
 
 ## Christianity
-See more [christianity](christianity.qmd).
+A Life worth following. Read [more](christianity.qmd).
 
 :::{#landing-christianity}
 :::
