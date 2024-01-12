@@ -1,5 +1,5 @@
 ---
-title: Receiving a promised land
+title: 1 Nephi 2 - Receiving a promised land
 description: The Lord gives us one thing, takes it to give us another even better
 date: 2024-01-11 10:52:34
 created: 2024-01-11 10:52:34
@@ -7,6 +7,8 @@ categories:
   - christianity
   - covenant
   - individual covenant
+  - come follow me
+  - book of mormon
 draft: false
 ---
 While Lehi wandered in the wilderness, Nephi recounted he left the "land of his inheritance":

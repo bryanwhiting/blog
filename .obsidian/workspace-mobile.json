@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "goals/2024-01-11-goals.md",
+                "file": "christianity/receiving-a-promised-land.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "goals/2024-01-11-goals.md",
+            "file": "christianity/receiving-a-promised-land.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "goals/2024-01-11-goals.md"
+            "file": "christianity/receiving-a-promised-land.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "goals/2024-01-11-goals.md",
+            "file": "christianity/receiving-a-promised-land.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -140,6 +140,7 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "goals/2024-01-11-goals.md",
     "_templates/new-post.md",
     "concepts/christian.md",
     "gratitude/strollers.md",
@@ -154,7 +155,6 @@
     "docs/news",
     "docs/img/dalle-find-the-fun.png",
     "docs/lists/scripture-study-list.html",
-    "goals/2024-01-11-goals.md",
     "news/ai-and-the-future-of-saas.md",
     "news",
     "tech/the-future-wave-of-ai-hype.md",
