@@ -19,3 +19,8 @@ book-time: 5.85
 - People who want equality will end up destroying it - Milton Friedman's. They'll be consumed by their power. 
 - We must consider the costs given the world we live in now. We cannot recreate the world from scratch. 
 - "Through no fault of their own"
+- 4/5 of millionaires are self made
+- Problems stated in 1960
+- Envy = social justice 
+- Imposing any constraint creates other costs. 
+- power. Politicians like promoting ideas so they can get elected. 

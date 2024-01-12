@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/receiving-a-promised-land.md",
+                "file": "posts/bidens-debt-relief-wont-relieve-what-he-thinks-it-will.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/receiving-a-promised-land.md",
+            "file": "posts/bidens-debt-relief-wont-relieve-what-he-thinks-it-will.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/receiving-a-promised-land.md"
+            "file": "posts/bidens-debt-relief-wont-relieve-what-he-thinks-it-will.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/receiving-a-promised-land.md",
+            "file": "posts/bidens-debt-relief-wont-relieve-what-he-thinks-it-will.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -140,11 +140,14 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-robinhood-stealing.jpeg",
+    "book-review/the-quest-for-cosmic-justice.md",
+    "posts/bidens-debt-relief-wont-relieve-what-he-thinks-it-will.md",
+    "christianity/receiving-a-promised-land.md",
     "goals/2024-01-11-goals.md",
     "_templates/new-post.md",
     "concepts/christian.md",
     "gratitude/strollers.md",
-    "christianity/receiving-a-promised-land.md",
     "img/dalle-chariot-stroller.jpeg",
     "img/dalle-leaving-the-promised-land.jpeg",
     "scriptures/1-nephi-2.20.md",
@@ -160,7 +163,6 @@
     "tech/the-future-wave-of-ai-hype.md",
     "docs/img/book-the-quest-for-cosmic-justice.jpeg",
     "lists/ai.md",
-    "book-review/the-quest-for-cosmic-justice.md",
     "docs/book-review/the-quest-for-cosmic-justice.html",
     "docs/_templates/new-post.md",
     "goals/2024-01-10-goals.md",
@@ -183,8 +185,6 @@
     "posts/attention-is-increased-capacity-to-handle-multiple-ideas-increases-without-social-media.md",
     "christianity/praying-for-other-people.md",
     "gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.md",
-    "christianity/come-follow-me-2024-01-14-jan-14.md",
-    "concepts/my-mission.md",
-    "concepts/the-church-of-jesus-christ-of-latter-day-saints.md"
+    "christianity/come-follow-me-2024-01-14-jan-14.md"
   ]
 }
