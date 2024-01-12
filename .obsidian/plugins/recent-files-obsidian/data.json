@@ -5,6 +5,14 @@
       "path": "christianity/poem-lint.md"
     },
     {
+      "basename": "poem-bound",
+      "path": "creative/poem-bound.md"
+    },
+    {
+      "basename": "junk-attracts-junk",
+      "path": "posts/junk-attracts-junk.md"
+    },
+    {
       "basename": "new-post",
       "path": "docs/_templates/new-post.md"
     },
