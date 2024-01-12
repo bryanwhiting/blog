@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_templates/new-post.md",
+                "file": "goals/2024-01-11-goals.md",
                 "mode": "source",
                 "source": true
               }
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 4
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "_templates/new-post.md",
+            "file": "goals/2024-01-11-goals.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "_templates/new-post.md"
+            "file": "goals/2024-01-11-goals.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "_templates/new-post.md",
+            "file": "goals/2024-01-11-goals.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -140,6 +140,7 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "_templates/new-post.md",
     "concepts/christian.md",
     "gratitude/strollers.md",
     "christianity/receiving-a-promised-land.md",
@@ -154,7 +155,6 @@
     "docs/img/dalle-find-the-fun.png",
     "docs/lists/scripture-study-list.html",
     "goals/2024-01-11-goals.md",
-    "_templates/new-post.md",
     "news/ai-and-the-future-of-saas.md",
     "news",
     "tech/the-future-wave-of-ai-hype.md",
