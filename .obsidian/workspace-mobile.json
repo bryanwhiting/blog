@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/bidens-debt-relief-wont-relieve-what-he-thinks-it-will.md",
+                "file": "christianity/poem-lint.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/bidens-debt-relief-wont-relieve-what-he-thinks-it-will.md",
+            "file": "christianity/poem-lint.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/bidens-debt-relief-wont-relieve-what-he-thinks-it-will.md"
+            "file": "christianity/poem-lint.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/bidens-debt-relief-wont-relieve-what-he-thinks-it-will.md",
+            "file": "christianity/poem-lint.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -140,12 +140,14 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "docs/_templates/new-post.md",
+    "_templates/new-post.md",
+    "christianity/poem-lint.md",
+    "goals/2024-01-11-goals.md",
+    "christianity/receiving-a-promised-land.md",
+    "posts/bidens-debt-relief-wont-relieve-what-he-thinks-it-will.md",
     "img/dalle-robinhood-stealing.jpeg",
     "book-review/the-quest-for-cosmic-justice.md",
-    "posts/bidens-debt-relief-wont-relieve-what-he-thinks-it-will.md",
-    "christianity/receiving-a-promised-land.md",
-    "goals/2024-01-11-goals.md",
-    "_templates/new-post.md",
     "concepts/christian.md",
     "gratitude/strollers.md",
     "img/dalle-chariot-stroller.jpeg",
@@ -164,7 +166,6 @@
     "docs/img/book-the-quest-for-cosmic-justice.jpeg",
     "lists/ai.md",
     "docs/book-review/the-quest-for-cosmic-justice.html",
-    "docs/_templates/new-post.md",
     "goals/2024-01-10-goals.md",
     "lists/reading-list.md",
     "book-review/dune-messiah.md",
@@ -179,7 +180,6 @@
     "docs/quarto-demo-forbo7-huggingface.png",
     "docs/img/dalle-christ-praying-oh-jerusalem.jpeg",
     "docs/img/quarto-demo-forbo7-landing.png",
-    "docs/screenshot-quarto-demo-forbo7-subscribe.png",
     "scriptures/alma-37.7.md",
     "lists/news.md",
     "posts/attention-is-increased-capacity-to-handle-multiple-ideas-increases-without-social-media.md",

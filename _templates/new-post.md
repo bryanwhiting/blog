@@ -32,7 +32,7 @@ let date = tp.date.now("YYYY-MM-DD HH:mm:ss");
 let content = `
 title: "${title}"  
 description: |
-  x
+  ""
 date: "${date}"  
 created: "${date}"
 categories: ${folder}  
@@ -48,10 +48,13 @@ pct-complete:`;
 
 if (folder === 'goals') {  
 	content += `  
-strength: false
-cardio: false
 meditate: false
 pray: false
+strength: false
+cardio: false
+cardio-type: ""
+exercises: ""
+body-zones: ""
 notes: ""
 observations: ""`;
 } 

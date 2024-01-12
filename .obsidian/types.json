@@ -21,6 +21,8 @@
     "pelo-time": "number",
     "pelo-avg": "number",
     "book-time": "number",
-    "exercises": "multitext"
+    "exercises": "multitext",
+    "cardio-type": "multitext",
+    "body zones": "multitext"
   }
 }
