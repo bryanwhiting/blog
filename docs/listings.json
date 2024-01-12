@@ -2,10 +2,15 @@
   {
     "listing": "/sitemap.html",
     "items": [
+      "/goals/2024-01-11-goals.html",
+      "/gratitude/strollers.html",
+      "/christianity/receiving-a-promised-land.html",
       "/lists/scripture-study-list.html",
       "/concepts/christian.html",
       "/christianity/find-the-fun.html",
       "/news/ai-and-the-future-of-saas.html",
+      "/scriptures/1-nephi-2.20.html",
+      "/scriptures/1-nephi-2.4.html",
       "/book-review/the-quest-for-cosmic-justice.html",
       "/posts/cool-quarto-site.html",
       "/lists/news.html",
@@ -180,17 +185,6 @@
     ]
   },
   {
-    "listing": "/concepts.html",
-    "items": [
-      "/concepts/christian.html",
-      "/concepts/gratus-sum-ergo-habeo.html",
-      "/concepts/the-book-of-mormon-another-testament-of-jesus-christ.html",
-      "/concepts/the-church-of-jesus-christ-of-latter-day-saints.html",
-      "/concepts/my-mission.html",
-      "/concepts/hand-of-god.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/posts/cool-quarto-site.html",
@@ -263,6 +257,7 @@
       "/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html",
       "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
       "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html",
+      "/gratitude/strollers.html",
       "/gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.html",
       "/gratitude/small-things.html",
       "/gratitude/sandwich-shops.html",
@@ -281,6 +276,7 @@
       "/gratitude/2023-12-26-i'm-grateful-for-blankets/index.html",
       "/gratitude/2023-12-25-grateful-for-doctors/index.html",
       "/gratitude/2023-12-24-light/index.html",
+      "/christianity/receiving-a-promised-land.html",
       "/christianity/find-the-fun.html",
       "/christianity/he-prepares-us-to-teach-us.html",
       "/christianity/praying-for-other-people.html",
@@ -436,8 +432,20 @@
     ]
   },
   {
+    "listing": "/concepts.html",
+    "items": [
+      "/concepts/christian.html",
+      "/concepts/gratus-sum-ergo-habeo.html",
+      "/concepts/the-book-of-mormon-another-testament-of-jesus-christ.html",
+      "/concepts/the-church-of-jesus-christ-of-latter-day-saints.html",
+      "/concepts/my-mission.html",
+      "/concepts/hand-of-god.html"
+    ]
+  },
+  {
     "listing": "/goals.html",
     "items": [
+      "/goals/2024-01-11-goals.html",
       "/goals/2024-01-10-goals.html",
       "/goals/2024-01-09-goals.html",
       "/goals/2024-01-08-goals.html"
@@ -446,6 +454,7 @@
   {
     "listing": "/gratitude.html",
     "items": [
+      "/gratitude/strollers.html",
       "/gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.html",
       "/gratitude/small-things.html",
       "/gratitude/sandwich-shops.html",
@@ -469,6 +478,8 @@
   {
     "listing": "/all.html",
     "items": [
+      "/gratitude/strollers.html",
+      "/christianity/receiving-a-promised-land.html",
       "/lists/scripture-study-list.html",
       "/christianity/find-the-fun.html",
       "/book-review/the-quest-for-cosmic-justice.html",
@@ -617,6 +628,7 @@
   {
     "listing": "/christianity.html",
     "items": [
+      "/christianity/receiving-a-promised-land.html",
       "/christianity/find-the-fun.html",
       "/christianity/he-prepares-us-to-teach-us.html",
       "/christianity/praying-for-other-people.html",
