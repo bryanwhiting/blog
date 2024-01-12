@@ -10,7 +10,46 @@
 <atom:link href="https://www.bryanwhiting.com/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Wed, 10 Jan 2024 14:44:29 GMT</lastBuildDate>
+<lastBuildDate>Thu, 11 Jan 2024 21:33:05 GMT</lastBuildDate>
+<item>
+  <title>Biden’s debt relief won’t relieve what he thinks it will</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/bidens-debt-relief-wont-relieve-what-he-thinks-it-will.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Reading <a href="../book-review/the-quest-for-cosmic-justice.html">The Quest for Cosmic Justice</a>, Sowell points out repeatedly how policies focused on helping a target demographic may not only hinder them, but those around them too. Policies are for politicians to pursue power, to win the next vote.</p>
+<p>What good does relieving <a href="https://www.ed.gov/news/press-releases/biden-harris-administration-announces-additional-9-billion-student-debt-relief">130bn</a> in university debt do?</p>
+<p>the argument is that our system is broken. So we’ll fix it with money.</p>
+<p>The more flawed thinking is that “education is a right.” Should this be true, then food is a right. Then social media is a right. Our phones are a right.</p>
+<p>Life is a right. Liberty, and the pursuit of happiness, too.</p>
+<p>But my decision to go 200k in debt for an investment that didn’t return dividends (hence my inability to pay), is not a right. It’s a poor investment choice.</p>
+<p>Sending out money signals a poor precedence, apart from the blatant desire to buy votes. The economics aren’t aligned. The incentives are bad.</p>
+<p>“Go learn about something, investing 4 years, and discover it’s not capable of helping you earn wages” is nothing more than a sabbatical.</p>
+<p>We need to spend that money incentivizing innovation. Entrepreneurs. People who create value.</p>
+<p>The “educated” masses (3.6m) who cannot afford to pay their debt, when they scoffed at tradespeople who were employable the moment they finished their 3 week training, and then asked those tradespeople to pay for their schooling, is disappointing.</p>
+<p>We need to think about incentives, both long and short term.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-robinhood-stealing.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">At some level the government stole from the uneducated to pay for the unemployable ‘educated’</figcaption>
+</figure>
+</div>
+<p>The solution: student loan officers should be on the hook to ask “what is your potential income return?” The loan must be payable within 8 years at a 10% additional tax on their wages. They need to be able to survive with this 10% tax, and the 10% tax over 8 years should be sufficient to pay the bills.</p>
+<p>So if you have a $100k job, that’s $80k education. 10% tax for 8 years is 10k per year to pay the debt.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>politics</category>
+  <category>economics</category>
+  <guid>https://www.bryanwhiting.com/posts/bidens-debt-relief-wont-relieve-what-he-thinks-it-will.html</guid>
+  <pubDate>Thu, 11 Jan 2024 21:33:05 GMT</pubDate>
+</item>
 <item>
   <title>Cool Quarto Site</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -767,49 +806,6 @@
   <category>hindsight</category>
   <guid>https://www.bryanwhiting.com/posts/leaving-my-startup-was-the-right-decision.html</guid>
   <pubDate>Thu, 28 Dec 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>How to blog from your phone using quarto (or hugo/jekyll/etc) using Working Copy and Obsidian</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/quarto-from-phone/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Here are the steps I use to post content from my phone to bryanwhiting.com.</p>
-<ol type="1">
-<li>Create a new, empty vault in Obsidian</li>
-<li>Open working copy, set up synced repo. This means any changes are auto-synced.</li>
-<li>Add remote, point it at your GitHub repo where your blog is</li>
-<li>Set up a “pull, stage, commit, push” shortcut</li>
-<li>Set up GitHub actions to build, and push (use my repo’s workflow.yaml if you need an example)</li>
-<li>Have GitHub pages (if your repo is private) or Netlify (if your repo is private, because you can’t have a private GitHub repo without paying)</li>
-</ol>
-<p>And that’s it! Write markdown in obsidian. Push when you’re ready, let GitHub actions build and deploy. Check GitHub actions logs for any errors! (You’ll get an email if it fails.)</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/posts/quarto-from-phone/photo.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Set up synced repo</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/posts/quarto-from-phone/repo.jpeg" class="img-fluid figure-img"></p>
-<figcaption class="margin-caption">Link the repo</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>productivity</category>
-  <category>tech</category>
-  <category>tutorial</category>
-  <guid>https://www.bryanwhiting.com/posts/quarto-from-phone/</guid>
-  <pubDate>Tue, 26 Dec 2023 00:00:00 GMT</pubDate>
-  <media:content url="https://www.bryanwhiting.com/posts/quarto-from-phone/photo.jpeg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
