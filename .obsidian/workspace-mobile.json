@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/1-nephi-3-dreamed-a-dream.md",
+                "file": "creative/poem-stairwell-scoop.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/1-nephi-3-dreamed-a-dream.md",
+            "file": "creative/poem-stairwell-scoop.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/1-nephi-3-dreamed-a-dream.md"
+            "file": "creative/poem-stairwell-scoop.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/1-nephi-3-dreamed-a-dream.md",
+            "file": "creative/poem-stairwell-scoop.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,8 +141,11 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "goals/2024-01-12.md",
+    "img/dalle-stairwell-scoop.jpeg",
+    "christianity/best-ministering-interviews.md",
+    "creative/poem-stairwell-scoop.md",
     "christianity/1-nephi-3-dreamed-a-dream.md",
+    "goals/2024-01-12.md",
     "scriptures/1-nephi-5.4-5.md",
     "scriptures/1-nephi-5.2.md",
     "scriptures/1-nephi-2.11.md",
@@ -171,11 +174,8 @@
     "posts/bidens-debt-relief-wont-relieve-what-he-thinks-it-will.md",
     "img/dalle-robinhood-stealing.jpeg",
     "book-review/the-quest-for-cosmic-justice.md",
-    "concepts/christian.md",
-    "gratitude/strollers.md",
     "img/dalle-chariot-stroller.jpeg",
     "img/dalle-leaving-the-promised-land.jpeg",
-    "scriptures/1-nephi-2.20.md",
     "docs/christianity/find-the-fun.html",
     "docs/concepts/christian.html",
     "docs/news/ai-and-the-future-of-saas.html",
