@@ -15,7 +15,7 @@
               "state": {
                 "file": "gratitude/my-childhood.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -141,6 +141,7 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-childhood-leaves.jpeg",
     "_templates/new-post.md",
     "gratitude/my-childhood.md",
     "gratitude/my-childhood.md",
@@ -183,7 +184,6 @@
     "docs/img/book-the-quest-for-cosmic-justice.jpeg",
     "lists/ai.md",
     "docs/book-review/the-quest-for-cosmic-justice.html",
-    "lists/reading-list.md",
     "quarto-demo-forbo7-huggingface.png",
     "posts.qmd",
     "index-20240110.qmd"
