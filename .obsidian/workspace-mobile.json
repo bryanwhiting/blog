@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/my-childhood.md",
+                "file": "goals/2024-01-12.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "gratitude/my-childhood.md",
+            "file": "goals/2024-01-12.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "gratitude/my-childhood.md"
+            "file": "goals/2024-01-12.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "gratitude/my-childhood.md",
+            "file": "goals/2024-01-12.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -139,19 +139,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "be767112276aa446",
+  "active": "78912cccc2282195",
   "lastOpenFiles": [
+    "goals/2024-01-11-goals.md",
+    "goals/2024-01-10-goals.md",
+    "goals/2024-01-09-goals.md",
+    "goals/2024-01-08-goals.md",
+    "gratitude/my-childhood.md",
     "img/dalle-childhood-leaves.jpeg",
     "_templates/new-post.md",
-    "gratitude/my-childhood.md",
-    "gratitude/my-childhood.md",
-    "goals/2024-01-11-goals.md",
     "Untitled 1.md",
     "_templates/day.md",
     "goals/2024-01-12.md",
-    "goals/2024-01-09-goals.md",
-    "goals/2024-01-08-goals.md",
-    "goals/2024-01-10-goals.md",
     "christianity/poem-lint.md",
     "goals/2024-01-12-goals.md",
     "creative/poem-bound.md",
@@ -184,7 +183,6 @@
     "docs/img/book-the-quest-for-cosmic-justice.jpeg",
     "lists/ai.md",
     "docs/book-review/the-quest-for-cosmic-justice.html",
-    "quarto-demo-forbo7-huggingface.png",
     "posts.qmd",
     "index-20240110.qmd"
   ]
