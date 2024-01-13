@@ -172,7 +172,7 @@ df2_recent %>%
     columns = c(2:7),  # replace with the actual column indices or names
     colors = scales::col_bin(
       bins = c(-Inf, 0.5, Inf),  # defining bins to separate 0 and 1
-      palette = c("white", "darkgreen"),  # white for 0, dark green for 1
+      palette = c("white", "darkgreen", "blue"),  # white for 0, dark green for 1
       domain = NULL
     )
   ) %>%

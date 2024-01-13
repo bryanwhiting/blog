@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "goals/2024-01-12.md",
+                "file": "christianity/1-nephi-3-dreamed-a-dream.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 4
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "goals/2024-01-12.md",
+            "file": "christianity/1-nephi-3-dreamed-a-dream.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "goals/2024-01-12.md"
+            "file": "christianity/1-nephi-3-dreamed-a-dream.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "goals/2024-01-12.md",
+            "file": "christianity/1-nephi-3-dreamed-a-dream.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -139,8 +139,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "78912cccc2282195",
+  "active": "be767112276aa446",
   "lastOpenFiles": [
+    "goals/2024-01-12.md",
+    "christianity/1-nephi-3-dreamed-a-dream.md",
+    "scriptures/1-nephi-5.4-5.md",
+    "scriptures/1-nephi-5.2.md",
+    "scriptures/1-nephi-2.11.md",
+    "scriptures/1-nephi-3.2.md",
+    "posts/you-can-plan-your-life-in-5-minutes.md",
     "goals/2024-01-11-goals.md",
     "goals/2024-01-10-goals.md",
     "goals/2024-01-09-goals.md",
@@ -150,7 +157,6 @@
     "_templates/new-post.md",
     "Untitled 1.md",
     "_templates/day.md",
-    "goals/2024-01-12.md",
     "christianity/poem-lint.md",
     "goals/2024-01-12-goals.md",
     "creative/poem-bound.md",
@@ -170,18 +176,14 @@
     "img/dalle-chariot-stroller.jpeg",
     "img/dalle-leaving-the-promised-land.jpeg",
     "scriptures/1-nephi-2.20.md",
-    "scriptures/1-nephi-2.4.md",
     "docs/christianity/find-the-fun.html",
     "docs/concepts/christian.html",
     "docs/news/ai-and-the-future-of-saas.html",
     "docs/news",
     "docs/img/dalle-find-the-fun.png",
     "docs/lists/scripture-study-list.html",
-    "news/ai-and-the-future-of-saas.md",
     "news",
-    "tech/the-future-wave-of-ai-hype.md",
     "docs/img/book-the-quest-for-cosmic-justice.jpeg",
-    "lists/ai.md",
     "docs/book-review/the-quest-for-cosmic-justice.html",
     "posts.qmd",
     "index-20240110.qmd"
