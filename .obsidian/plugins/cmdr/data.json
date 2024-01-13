@@ -28,15 +28,15 @@
       "mode": "any"
     },
     {
-      "id": "omnisearch:show-modal-infile",
-      "icon": "file-search",
-      "name": "Omnisearch: In-file search",
-      "mode": "any"
-    },
-    {
       "id": "recent-files-obsidian:recent-files-open",
       "icon": "rewind",
       "name": "Recent Files: Open",
+      "mode": "any"
+    },
+    {
+      "id": "periodic-notes:open-daily-note",
+      "icon": "calendar",
+      "name": "Periodic Notes: Open daily note",
       "mode": "any"
     }
   ],

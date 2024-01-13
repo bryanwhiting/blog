@@ -23,4 +23,6 @@ You clench it like a prized possession
 Its presence makes you my obsession
 ```
 
+![Cute toes](../img/photo-baby-feet.jpeg){.preview-image}
+
 Seriously, it's like a [windtrap](https://dune.fandom.com/wiki/Windtrap) of Arrakis ([Dune](../book-review/dune.md)). Just appears. 

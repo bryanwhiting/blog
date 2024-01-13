@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "my-childhood",
+      "path": "gratitude/my-childhood.md"
+    },
+    {
+      "basename": "new-post",
+      "path": "_templates/new-post.md"
+    },
+    {
+      "basename": "2024-01-11-goals",
+      "path": "goals/2024-01-11-goals.md"
+    },
+    {
+      "basename": "day",
+      "path": "_templates/day.md"
+    },
+    {
+      "basename": "2024-01-12",
+      "path": "goals/2024-01-12.md"
+    },
+    {
+      "basename": "2024-01-09-goals",
+      "path": "goals/2024-01-09-goals.md"
+    },
+    {
+      "basename": "2024-01-08-goals",
+      "path": "goals/2024-01-08-goals.md"
+    },
+    {
+      "basename": "2024-01-10-goals",
+      "path": "goals/2024-01-10-goals.md"
+    },
+    {
       "basename": "poem-lint",
       "path": "christianity/poem-lint.md"
     },
@@ -15,14 +47,6 @@
     {
       "basename": "new-post",
       "path": "docs/_templates/new-post.md"
-    },
-    {
-      "basename": "new-post",
-      "path": "_templates/new-post.md"
-    },
-    {
-      "basename": "2024-01-11-goals",
-      "path": "goals/2024-01-11-goals.md"
     },
     {
       "basename": "receiving-a-promised-land",

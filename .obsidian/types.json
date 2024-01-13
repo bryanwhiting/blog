@@ -23,6 +23,7 @@
     "book-time": "number",
     "exercises": "multitext",
     "cardio-type": "multitext",
-    "body zones": "multitext"
+    "body zones": "multitext",
+    "pelo-warmup": "number"
   }
 }
