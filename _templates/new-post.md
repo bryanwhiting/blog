@@ -59,7 +59,7 @@ strength: false
 cardio: false
 cardio-type: ""
 exercises: ""
-body-zones: ""
+muscle-groups: ""
 notes: ""
 observations: ""`;
 } 
