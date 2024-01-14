@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "goals/2024-01-13.md",
+                "file": "christianity/1-nephi-4-why-not.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 4
+    "currentTab": 1
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "goals/2024-01-13.md",
+            "file": "christianity/1-nephi-4-why-not.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "goals/2024-01-13.md"
+            "file": "christianity/1-nephi-4-why-not.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "goals/2024-01-13.md",
+            "file": "christianity/1-nephi-4-why-not.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,15 +141,18 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-why-wouldn't-an-angel.jpeg",
+    "scriptures/moses-6.31-32.md",
+    "goals/2024-01-13.md",
+    "christianity/1-nephi-4-why-not.md",
+    "christianity/unknown-god.md",
     "goals/2024-01-14.md",
-    "christianity/1-nephi-4.md",
     "scriptures/1-nephi-4.1.md",
     "gratitude/healing.md",
     "img/dalle-healing-abstract.jpeg",
     "book-review/dune-messiah.md",
     "creative/poem-slow-blink.md",
     "img/dalle-baby-slow-blink.jpeg",
-    "goals/2024-01-13.md",
     "creative/poem-stairwell-scoop.md",
     "img/dalle-stairwell-scoop.jpeg",
     "christianity/best-ministering-interviews.md",
@@ -168,9 +171,6 @@
     "img/dalle-childhood-leaves.jpeg",
     "_templates/new-post.md",
     "Untitled 1.md",
-    "_templates/day.md",
-    "christianity/poem-lint.md",
-    "goals/2024-01-12-goals.md",
     "img/photo-baby-feet.jpeg",
     "img/dalle-child-hand-parent-finger-adam-to-god.jpeg",
     "img/dalle-one-bowl.jpeg",

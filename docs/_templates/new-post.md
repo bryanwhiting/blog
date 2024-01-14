@@ -1,6 +1,6 @@
 <%*
 // Define the list of folders  
-const folders = ["book-review", "christianity", "concepts", "creative", "goals", "gratitude", "news", "posts", "sacrament-symbols", "tech"];
+const folders = ["book-review", "christianity", "concepts", "creative", "gratitude", "news", "posts", "sacrament-symbols", "tech"];
 
 // Use the suggester to let the 
 // user choose a folder  
@@ -24,13 +24,18 @@ if (folder === 'goals') {
     slug = await tp.system.prompt("Slug/Filename:", fileNameSlug)
 }
 
+if (folder === 'gratitude') {  
+	title = `I'm Grateful for ${title}`
+}
+
+
 // Get current date  
 let date = tp.date.now("YYYY-MM-DD HH:mm:ss");
 
 
 // YAML front matter  
 let content = `
-title: "${title}"  
+title: "${title}"
 description: |
   x
 date: "${date}"  
@@ -48,10 +53,13 @@ pct-complete:`;
 
 if (folder === 'goals') {  
 	content += `  
-strength: false
-cardio: false
 meditate: false
 pray: false
+strength: false
+cardio: false
+cardio-type: ""
+exercises: ""
+muscle-groups: ""
 notes: ""
 observations: ""`;
 } 
