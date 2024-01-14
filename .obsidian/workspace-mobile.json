@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "creative/poem-stairwell-scoop.md",
+                "file": "book-review/dune-messiah.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "creative/poem-stairwell-scoop.md",
+            "file": "book-review/dune-messiah.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "creative/poem-stairwell-scoop.md"
+            "file": "book-review/dune-messiah.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "creative/poem-stairwell-scoop.md",
+            "file": "book-review/dune-messiah.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,12 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "creative/poem-slow-blink.md",
+    "img/dalle-baby-slow-blink.jpeg",
+    "goals/2024-01-13.md",
+    "creative/poem-stairwell-scoop.md",
     "img/dalle-stairwell-scoop.jpeg",
     "christianity/best-ministering-interviews.md",
-    "creative/poem-stairwell-scoop.md",
     "christianity/1-nephi-3-dreamed-a-dream.md",
     "goals/2024-01-12.md",
     "scriptures/1-nephi-5.4-5.md",
@@ -171,19 +174,15 @@
     "docs/posts/bidens-debt-relief-wont-relieve-what-he-thinks-it-will.html",
     "docs/_templates/new-post.md",
     "christianity/receiving-a-promised-land.md",
-    "posts/bidens-debt-relief-wont-relieve-what-he-thinks-it-will.md",
     "img/dalle-robinhood-stealing.jpeg",
-    "book-review/the-quest-for-cosmic-justice.md",
     "img/dalle-chariot-stroller.jpeg",
     "img/dalle-leaving-the-promised-land.jpeg",
     "docs/christianity/find-the-fun.html",
     "docs/concepts/christian.html",
     "docs/news/ai-and-the-future-of-saas.html",
     "docs/news",
-    "docs/img/dalle-find-the-fun.png",
     "docs/lists/scripture-study-list.html",
     "news",
-    "docs/img/book-the-quest-for-cosmic-justice.jpeg",
     "docs/book-review/the-quest-for-cosmic-justice.html",
     "posts.qmd",
     "index-20240110.qmd"
