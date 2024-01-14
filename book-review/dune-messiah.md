@@ -24,7 +24,12 @@ Sequel to [Dune](dune.md).
 Questions:
 - where is Gurney?
 - What is a stone burner?
-- Why did he go to Othiel's house to get the dwarf?
+- Why did he go to Othiem house to get the dwarf?
+- "It's easy to confuse clear thinking with correct thinking. Was there a flaw in the Tleliaxieu logic?
+- What was the detailed plan of the dwarf? 
+	- kill Chaney, restore her body as a ghola and relinquish is throne 
+- What's the relationship of the dwarf with 
+
 
 2024-01-10
 

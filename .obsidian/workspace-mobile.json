@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/dune-messiah.md",
+                "file": "goals/2024-01-13.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "book-review/dune-messiah.md",
+            "file": "goals/2024-01-13.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "book-review/dune-messiah.md"
+            "file": "goals/2024-01-13.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "book-review/dune-messiah.md",
+            "file": "goals/2024-01-13.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,6 +141,12 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "goals/2024-01-14.md",
+    "christianity/1-nephi-4.md",
+    "scriptures/1-nephi-4.1.md",
+    "gratitude/healing.md",
+    "img/dalle-healing-abstract.jpeg",
+    "book-review/dune-messiah.md",
     "creative/poem-slow-blink.md",
     "img/dalle-baby-slow-blink.jpeg",
     "goals/2024-01-13.md",
@@ -165,18 +171,13 @@
     "_templates/day.md",
     "christianity/poem-lint.md",
     "goals/2024-01-12-goals.md",
-    "creative/poem-bound.md",
     "img/photo-baby-feet.jpeg",
     "img/dalle-child-hand-parent-finger-adam-to-god.jpeg",
-    "posts/junk-attracts-junk.md",
     "img/dalle-one-bowl.jpeg",
     "docs/img/dalle-robinhood-stealing.jpeg",
     "docs/posts/bidens-debt-relief-wont-relieve-what-he-thinks-it-will.html",
-    "docs/_templates/new-post.md",
-    "christianity/receiving-a-promised-land.md",
     "img/dalle-robinhood-stealing.jpeg",
     "img/dalle-chariot-stroller.jpeg",
-    "img/dalle-leaving-the-promised-land.jpeg",
     "docs/christianity/find-the-fun.html",
     "docs/concepts/christian.html",
     "docs/news/ai-and-the-future-of-saas.html",
