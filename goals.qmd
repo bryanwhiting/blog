@@ -192,7 +192,7 @@ df2_recent %>%
     style = cell_text(color = "darkgreen"),
     locations = cells_body(
       columns = c(2:7),
-      rows = df2_recent[[2:7]] > 1
+      rows = df2_recent[,2:7] > 1
     )
   ) %>%
   tab_header(
