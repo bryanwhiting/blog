@@ -28,3 +28,10 @@ The Lord's thoughts are above our thoughts. Too often we put limiting beliefs on
 Why not instead ask, "why *wouldn't* Heavenly Father want to help me? He loves me and has promised he *would* help me. "
 
 ![Angels want to help](../img/dalle-why-wouldn't-an-angel.jpeg){.preview-image}
+
+I love this quote by Jared after just going through something really hard:
+
+> And it came to pass that Jared spake again unto his brother, saying: Go and inquire of the Lord whether he will drive us out of the land, and if he will drive us out of the land, cry unto him whither we shall go. **And who knoweth but the Lord will carry us forth into a land which is choice above all the earth?** And if it so be, let us be faithful unto the Lord, that we may receive it for our inheritance.
+> [Ether 1.38](../scriptures/ether-1.38)
+
+Just lost your job? Who knoweth but the Lord will provide a better one? Just lost your house? Who knoweth but the Lord will give you a promised land? (They had lost their jobs and house and were wandering at this point.) I love the optimism here. 

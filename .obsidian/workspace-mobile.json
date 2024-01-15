@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/1-nephi-4-why-not.md",
+                "file": "goals/2024-01-14.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/1-nephi-4-why-not.md",
+            "file": "goals/2024-01-14.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/1-nephi-4-why-not.md"
+            "file": "goals/2024-01-14.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/1-nephi-4-why-not.md",
+            "file": "goals/2024-01-14.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,51 +141,51 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "img/dalle-why-wouldn't-an-angel.jpeg",
-    "scriptures/moses-6.31-32.md",
-    "goals/2024-01-13.md",
+    "creative/vanished.md",
+    "christianity/1-nephi-5-trusting-a-promise.md",
+    "scriptures/doctrine-and-covenants-7.5-6.md",
+    "scriptures/doctrine-and-covenants-7.4.md",
+    "scriptures/alma-40.6-9.md",
+    "img/dalle-weary-wanderer-waiting.jpeg",
+    "scriptures/doctrine-and-covenants-7.8.md",
+    "scriptures/1-nephi-5.8.md",
     "christianity/1-nephi-4-why-not.md",
-    "christianity/unknown-god.md",
+    "scriptures/ether-1.38.md",
+    "gratitude/heaven.md",
+    "scriptures/mosiah-4.9.md",
+    "img/dalle-heavenly-home.jpeg",
+    "christianity/sacrament-talk-on-missionary-work.md",
+    "img/dalle-orange-juice-rainforest.jpeg",
+    "concepts/president-russel-m-nelson.md",
+    "scriptures/hope-of-israel.md",
+    "goals/2024-01-13.md",
     "goals/2024-01-14.md",
+    "goals/test.md",
+    "docs/goals/2024-01-13.html",
+    "docs/img/dalle-child-hand-parent-finger-adam-to-god.jpeg",
+    "goals/2024-01-10.md",
+    "docs/scriptures/1-nephi-2.11.html",
+    "docs/goals/test.html",
+    "docs/goals/2024-01-12.html",
+    "docs/christianity/poem-lint.html",
+    "docs/img/photo-sunrise-on-hike.jpeg",
+    "docs/goals/2024-01-11.html",
+    "docs/img/dalle-baby-slow-blink.jpeg",
+    "docs/scriptures/1-nephi-3.2.html",
+    "docs/img/dalle-one-bowl.jpeg",
+    "docs/creative/poem-stairwell-scoop.html",
+    "docs/goals/2024-01-10.html",
+    "docs/posts/junk-attracts-junk.html",
+    "docs/img/dalle-childhood-leaves.jpeg",
+    "goals/2024-01-11.md",
+    "goals/2024-01-08.md",
+    "docs/img/photo-baby-feet.jpeg",
+    "docs/img/dalle-stairwell-scoop.jpeg",
+    "goals/2024-01-09.md",
+    "scriptures/moses-6.31-32.md",
+    "christianity/unknown-god.md",
     "scriptures/1-nephi-4.1.md",
     "gratitude/healing.md",
-    "img/dalle-healing-abstract.jpeg",
-    "book-review/dune-messiah.md",
-    "creative/poem-slow-blink.md",
-    "img/dalle-baby-slow-blink.jpeg",
-    "creative/poem-stairwell-scoop.md",
-    "img/dalle-stairwell-scoop.jpeg",
-    "christianity/best-ministering-interviews.md",
-    "christianity/1-nephi-3-dreamed-a-dream.md",
-    "goals/2024-01-12.md",
-    "scriptures/1-nephi-5.4-5.md",
-    "scriptures/1-nephi-5.2.md",
-    "scriptures/1-nephi-2.11.md",
-    "scriptures/1-nephi-3.2.md",
-    "posts/you-can-plan-your-life-in-5-minutes.md",
-    "goals/2024-01-11-goals.md",
-    "goals/2024-01-10-goals.md",
-    "goals/2024-01-09-goals.md",
-    "goals/2024-01-08-goals.md",
-    "gratitude/my-childhood.md",
-    "img/dalle-childhood-leaves.jpeg",
-    "_templates/new-post.md",
-    "Untitled 1.md",
-    "img/photo-baby-feet.jpeg",
-    "img/dalle-child-hand-parent-finger-adam-to-god.jpeg",
-    "img/dalle-one-bowl.jpeg",
-    "docs/img/dalle-robinhood-stealing.jpeg",
-    "docs/posts/bidens-debt-relief-wont-relieve-what-he-thinks-it-will.html",
-    "img/dalle-robinhood-stealing.jpeg",
-    "img/dalle-chariot-stroller.jpeg",
-    "docs/christianity/find-the-fun.html",
-    "docs/concepts/christian.html",
-    "docs/news/ai-and-the-future-of-saas.html",
-    "docs/news",
-    "docs/lists/scripture-study-list.html",
-    "news",
-    "docs/book-review/the-quest-for-cosmic-justice.html",
-    "posts.qmd",
-    "index-20240110.qmd"
+    "book-review/dune-messiah.md"
   ]
 }

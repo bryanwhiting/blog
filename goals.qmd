@@ -184,14 +184,15 @@ df2_recent <- df2 %>%
 df2_recent$Day <- format(as.Date(df2_recent$Day), "%a %b %d")
 
 
+
+
 df2_recent %>%
   gt(id='mygt', rowname_col = "Day") %>%
-  data_color(
-    columns = c(2:7),  # replace with the actual column indices or names
-    colors = scales::col_bin(
-      bins = c(-Inf, 0.5, Inf),  # defining bins to separate 0 and 1
-      palette = c("white", "darkgreen"),  # white for 0, dark green for 1
-      domain = NULL
+  tab_style(
+    style = cell_text(color = "darkgreen"),
+    locations = cells_body(
+      columns = 2:7,
+      rows = df2_recent[[2:7]] > 1
     )
   ) %>%
   tab_header(
