@@ -113,7 +113,6 @@ for(col in c('run-dist', 'hike-dist')){
 df <- df %>%
   mutate(across(where(is.character), ~ifelse(. == 'x', NA, .)))
 
-
 # Create "cardio" and "strength" flags
 df <- df %>% 
   mutate(
@@ -121,7 +120,7 @@ df <- df %>%
     post_gratitude = folder == 'gratitude',
     pelo = ifelse(`pelo-time` > 0, 1, 0),
     cardio = ifelse(`pelo-time` > 0 | `run-dist` > 0 | `hike-dist` > 0, 1, 0),
-    strength = ifelse(length(exercises) >=1, 1, 0)
+    strength = ifelse(!is.na(exercises) >= 1, 1, 0)
   ) %>%
   filter(title != "test")
 
@@ -133,7 +132,9 @@ df2 <- df %>%
   mutate(across(-date, as.numeric)) %>%
   mutate(across(-date, ~replace_na(., 0))) %>%
   group_by(date) %>%
-  summarize_all(max)
+  summarize_all(max) %>%
+  ungroup() %>%
+  arrange(desc(date))
 ```
 
 ```{r}
@@ -167,33 +168,28 @@ ggplot(df3, aes(x = week_of_year, y = day_of_week, fill = total_goals)) +
 #| fig-cap: Recent streak
 #| fig-align: center
 df2_recent <- df2 %>% 
-  filter(date >= max(date) - 13) %>%
   arrange(desc(date)) %>%
+  head(14) %>%
   select(
     `Day` = date,
-    `🛐` = pray,
-    `🧘🏼‍♂️` = meditate,
     `📖` = post_cfm_study,
     `🙏🏻` = post_gratitude,
+    `🛐` = pray,
     `🚴🏻‍♂️` = cardio,
-    `🏋🏼‍♂️` = strength
+    `🏋🏼‍♂️` = strength,
+    `🧘🏼‍♂️` = meditate,
   ) 
 
 # Assuming your data frame is named 'data'
 # First, convert the 'Day' column to the desired format
 df2_recent$Day <- format(as.Date(df2_recent$Day), "%a %b %d")
 
-
-
-
 df2_recent %>%
   gt(id='mygt', rowname_col = "Day") %>%
-  tab_style(
-    style = cell_text(color = "darkgreen"),
-    locations = cells_body(
-      columns = c(2:7),
-      rows = df2_recent[,2:7] > 1
-    )
+  data_color(
+    method = "numeric",
+    palette = c("white", "darkgreen"),
+    domain = c(0, 1)
   ) %>%
   tab_header(
     title = "Daily Habits"
@@ -214,7 +210,10 @@ df2_recent %>%
   cols_width(
     Day ~ px(100),
     everything() ~ px(50),
-  ) 
+  ) %>%
+  tab_source_note(
+    md("📖: Study, 🙏🏻: Gratitude, 🛐: Pray, 🚴🏻‍♂️: Cardio, 🏋🏼‍♂️: Strength, 🧘🏼‍♂️: Meditate")
+  )
 ```
 
 ```{r}
