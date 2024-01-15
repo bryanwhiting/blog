@@ -191,7 +191,7 @@ df2_recent %>%
   tab_style(
     style = cell_text(color = "darkgreen"),
     locations = cells_body(
-      columns = 2:7,
+      columns = c(2:7),
       rows = df2_recent[[2:7]] > 1
     )
   ) %>%

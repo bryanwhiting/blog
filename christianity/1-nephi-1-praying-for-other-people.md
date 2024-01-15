@@ -1,5 +1,5 @@
 ---
-title: Praying for Other People
+title: 1 Nephi 1 - Praying for Other People
 description: How to have an influence on others and allow them to influence you for good as well.
 date: 2024-01-09T23:59:00
 created: 2024-01-09T23:59:00

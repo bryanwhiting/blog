@@ -1,5 +1,5 @@
 ---
-title: He prepares us to teach us
+title: 1 Nephi 1 - He prepares us to teach us
 description: He teaches us line upon line. He is the master teacher, and if we listen he will teach us.
 date: 2024-01-10 09:29:53
 created: 2024-01-10 09:29:53

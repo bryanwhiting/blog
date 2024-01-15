@@ -1,5 +1,5 @@
 ---
-title: 1 Nephi 5 Will a promise be delivered?
+title: 1 Nephi 5 - Will a promise be delivered?
 description: Trust in what you're promised. Don't worry about what you're not.
 date: 2024-01-14 22:59:28
 created: 2024-01-14 22:59:28
