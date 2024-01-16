@@ -278,4 +278,8 @@ df %>%
 
 ```
 
+things to fix:
+
+- github days are off  sunday. NA
+
 ***

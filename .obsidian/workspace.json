@@ -199,6 +199,10 @@
   },
   "active": "3e0940abb38815d5",
   "lastOpenFiles": [
+    "img/dalle-ice-rink-outdoors.jpeg",
+    "gratitude/ice-skating.md",
+    "goals/2024-01-15.md",
+    "docs/goals/2024-01-15.html",
     "docs/goals-listing.json",
     "goals-listing.json",
     "site_libs/quarto-nav/headroom.min.js",
@@ -208,8 +212,6 @@
     "site_libs/quarto-search/autocomplete.umd.js",
     "site_libs/quarto-nav/quarto-nav.js",
     "site_libs/quarto-listing/quarto-listing.js",
-    "site_libs/quarto-listing/list.min.js",
-    "site_libs/quarto-html/zenscroll-min.js",
     "goals.knit.md",
     "goals_files/figure-html/fig-goals-1.png",
     "scriptures/mosiah-4.9.md",
@@ -242,8 +244,6 @@
     "christianity/1-nephi-2-receiving-a-promised-land.md",
     "christianity/1-nephi-1-praying-for-other-people.md",
     "christianity/1-Nephi-1-he-prepares-us-to-teach-us.md",
-    "goals/test.md",
-    "goals/2024-01-13 copy.md",
-    "goals/2024-01-11.md"
+    "goals/test.md"
   ]
 }
