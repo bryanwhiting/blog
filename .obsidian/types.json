@@ -24,6 +24,8 @@
     "exercises": "multitext",
     "cardio-type": "multitext",
     "body zones": "multitext",
-    "pelo-warmup": "number"
+    "pelo-warmup": "number",
+    "jumprope-time": "number",
+    "jumprope-cnt": "number"
   }
 }

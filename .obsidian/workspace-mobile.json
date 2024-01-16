@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/come-follow-me-2024-01-14-jan-14.md",
+                "file": "goals/2024-01-15.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/come-follow-me-2024-01-14-jan-14.md",
+            "file": "goals/2024-01-15.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/come-follow-me-2024-01-14-jan-14.md"
+            "file": "goals/2024-01-15.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/come-follow-me-2024-01-14-jan-14.md",
+            "file": "goals/2024-01-15.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,8 +141,10 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "christianity/1-nephi-4-why-not.md",
     "christianity/come-follow-me-2024-01-14-jan-14.md",
+    "goals/2024-01-15.md",
+    "Untitled 2.md",
+    "christianity/1-nephi-4-why-not.md",
     "christianity/1-nephi-5-trusting-a-promise.md",
     "christianity/1-Nephi-1-he-prepares-us-to-teach-us.md",
     "christianity/1-nephi-3-dreamed-a-dream.md",
@@ -183,8 +185,6 @@
     "docs/goals/2024-01-10.html",
     "docs/posts/junk-attracts-junk.html",
     "docs/img/dalle-childhood-leaves.jpeg",
-    "goals/2024-01-11.md",
-    "goals/2024-01-08.md",
     "docs/img/photo-baby-feet.jpeg",
     "docs/img/dalle-stairwell-scoop.jpeg"
   ]
