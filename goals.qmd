@@ -20,7 +20,8 @@ execute:
   message: false 
 ---
 
-_Public accountability is the greatest motivator._
+::::{.callout-tip collapse="true"}
+## Public accountability is the greatest motivator.
 
 :::{.callout-tip collapse="true"}
 ## These goals are correlated with, but not causal to happiness. 
@@ -77,6 +78,7 @@ Fun:
 - 4 weekend trips/vacations to new destinations and parks
 
 :::
+::::
 
 
 ```{r}
@@ -129,7 +131,7 @@ df$date <- lubridate::parse_date_time(df$date, orders = c("ymd", "ymd HMS", "ymd
 df$date <- as.Date(df$date)
 
 # add missing columsn
-for(col in c('run-dist', 'hike-dist')){
+for(col in c('run-dist', 'hike-dist', 'jumprope-time')){
   if(!(col %in% colnames(df))){
     df[[col]] <- 0
   }
