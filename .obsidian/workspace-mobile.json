@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/dune-messiah.md",
+                "file": "gratitude/open-source.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "book-review/dune-messiah.md",
+            "file": "gratitude/open-source.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "book-review/dune-messiah.md"
+            "file": "gratitude/open-source.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "book-review/dune-messiah.md",
+            "file": "gratitude/open-source.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,8 +141,10 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "_templates/new-post.md",
+    "img/dalle-open-source-personified.jpeg",
     "book-review/dune-messiah.md",
+    "gratitude/open-source.md",
+    "_templates/new-post.md",
     "goals/2024-01-16.md",
     "creative/apology.md",
     "christianity/1-nephi-6-god-of-the-covenanf.md",
@@ -167,8 +169,6 @@
     "img/dalle-weary-wanderer-waiting.jpeg",
     "scriptures/doctrine-and-covenants-7.8.md",
     "scriptures/1-nephi-5.8.md",
-    "scriptures/ether-1.38.md",
-    "gratitude/heaven.md",
     "img/dalle-heavenly-home.jpeg",
     "img/dalle-orange-juice-rainforest.jpeg",
     "docs/goals/2024-01-13.html",
