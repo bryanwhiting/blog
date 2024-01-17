@@ -1,10 +1,12 @@
 ---
-title: "The Problem with Public Opinions"
-description: |
-  x
-date: "2024-01-16 22:19:58"  
-created: "2024-01-16 22:19:58"
-categories: posts  
+title: The Problem with Public Opinions
+description: Everyone has one, and they all stink...
+date: 2024-01-16 22:19:58
+created: 2024-01-16 22:19:58
+categories:
+  - posts
+  - philosophy
+  - social media
 draft: false
 ---
 If you become a public opinion person (author, speaker, podcaster), you're inherently inviting publicity bias. 

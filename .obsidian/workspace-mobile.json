@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/the-problem-with-public-opinions.md",
+                "file": "christianity/come-follow-me-2024-01-21-study.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/the-problem-with-public-opinions.md",
+            "file": "christianity/come-follow-me-2024-01-21-study.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/the-problem-with-public-opinions.md"
+            "file": "christianity/come-follow-me-2024-01-21-study.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/the-problem-with-public-opinions.md",
+            "file": "christianity/come-follow-me-2024-01-21-study.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,16 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "christianity/1-nephi-7.md",
+    "christianity/come-follow-me-2024-01-21-study.md",
+    "posts/you-can-plan-your-life-in-5-minutes.md",
+    "creative/apology.md",
+    "gratitude/open-source.md",
+    "posts/the-problem-with-public-opinions.md",
+    "docs/gratitude/ice-skating.html",
+    "docs/gratitude.xml",
     "img/dalle-galileo-stars.jpeg",
     "book-review/the-quest-for-cosmic-justice.md",
-    "posts/the-problem-with-public-opinions.md",
     "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
     "lists/reading-list.md",
     "book-review/paradise-lost-and-paradise-regained.md",
@@ -151,10 +158,8 @@
     "img/book-paradise-lost-and-paradise-regained.jpeg",
     "book-review/dune-messiah.md",
     "_templates/day.md",
-    "gratitude/open-source.md",
     "img/dalle-open-source-personified.jpeg",
     "_templates/new-post.md",
-    "creative/apology.md",
     "christianity/1-nephi-6-god-of-the-covenanf.md",
     "scriptures/1-nephi-6.4.md",
     "goals/2024-01-15.md",
@@ -168,8 +173,6 @@
     "christianity/1-nephi-3-dreamed-a-dream.md",
     "christianity/1-nephi-1-praying-for-other-people.md",
     "christianity/scriptures-within-scriptures.md",
-    "christianity/1-nephi-2-receiving-a-promised-land.md",
-    "goals/2024-01-14.md",
     "img/dalle-weary-wanderer-waiting.jpeg",
     "img/dalle-heavenly-home.jpeg",
     "img/dalle-orange-juice-rainforest.jpeg",
@@ -183,9 +186,6 @@
     "docs/goals/2024-01-11.html",
     "docs/img/dalle-baby-slow-blink.jpeg",
     "docs/scriptures/1-nephi-3.2.html",
-    "docs/img/dalle-one-bowl.jpeg",
-    "docs/creative/poem-stairwell-scoop.html",
-    "docs/goals/2024-01-10.html",
-    "docs/posts/junk-attracts-junk.html"
+    "docs/creative/poem-stairwell-scoop.html"
   ]
 }

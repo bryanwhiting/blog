@@ -1,11 +1,11 @@
 ---
 title: You can plan your life in 5 minutes
-description: |
-  x
+description: You know what's good for you.
 date: 2024-01-12 22:44:00
 created: 2024-01-12 22:44:00
 categories:
   - posts
+  - purpose of life
 draft: false
 ---
 It doesn't take 30 years to plan a good life. It's actually quite simple and if you sit down for 5 minutes you can figure out the following:
