@@ -30,3 +30,8 @@ I always try to think about this when listening to a popular author or podcaster
 Few people are like Amy Cuddy in that their ideas cannot be easily tested and so the world lazily believes them. This is the risk: when people stop thinking for themselves. 
 
 Things why Frank Herbert wrote [Dune](../book-review/dune.md): to encourage people to think for themselves and not put too much trust in their leaders. 
+
+***
+[2024-01-17](../goals/2024-01-17.md) update:
+
+Chapter 14 of [The Quest for Cosmic Justice](../book-review/the-quest-for-cosmic-justice.md) discusses this way better than I do here. 
