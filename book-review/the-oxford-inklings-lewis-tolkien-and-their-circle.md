@@ -14,6 +14,11 @@ pct-complete:
 ---
 ![The Oxford inklings](../img/book-the-oxford-inklings.jpeg){.preview-image}
 
+2024-01-16
+- critique. Harsh critique. Safe space. 
+- Get together. Review. Discuss ideas. Listen. 
+- Freely gathered friends. Not assigned. Friends. This was important. Innovation. 
+- Creating worlds is hard. So Tolkien told many stories within the lotr world. Same with Lewis and 
 
 2024-01-10
 

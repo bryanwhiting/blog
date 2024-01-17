@@ -2,6 +2,7 @@
 date: <% tp.date.now() %>
 title: <% tp.date.now() %>
 description: x
+workout-time: 0
 muscle-groups:
   - x
 exercises:
@@ -20,6 +21,6 @@ run-time: 0
 hike-dist: 0
 hike-elev: 0
 hike-time: 0
-categories: 
+categories:
   - goals
 ---

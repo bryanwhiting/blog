@@ -13,6 +13,10 @@ book-time: 5.85
 ---
 ![Quest for cosmic justice](../img/book-the-quest-for-cosmic-justice.jpeg){.preview-image}
 
+[2024-01-16](2024-01-16)
+- war preparedness prevents war. 
+- Ego and vision vs evidence. What's the evidence for my theory? People defend visions more than evidence even in spite of evidence. 
+
 2024-01-10
 
 - cosmic justice - principle of equity

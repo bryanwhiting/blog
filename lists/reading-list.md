@@ -36,10 +36,12 @@ To finish
 - [ ] The Inklings #spotify 6hr
 - [ ] The coddling of the American Mind #libby 
 - [ ] The Tyrrany of Experts #libby 
+- [ ] the boys in the boat #libby 
 
 ### Religion and Philosophy
 - [ ] Paradise Lost and Paradise Regained #libby 
 - [ ] Mere Christianity #libby 
+- [ ] The Place of the Lion #audible-credit #spotify 7.5
 - [x] The quest for Cosmic Justice - Sowll #audible-free
 
 # Backlog
