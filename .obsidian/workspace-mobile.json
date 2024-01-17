@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "creative/apology.md",
+                "file": "book-review/dune-messiah.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "creative/apology.md",
+            "file": "book-review/dune-messiah.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "creative/apology.md"
+            "file": "book-review/dune-messiah.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "creative/apology.md",
+            "file": "book-review/dune-messiah.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,8 +141,11 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "christianity/1-nephi-6-god-of-the-covenanf.md",
+    "_templates/new-post.md",
+    "book-review/dune-messiah.md",
+    "goals/2024-01-16.md",
     "creative/apology.md",
+    "christianity/1-nephi-6-god-of-the-covenanf.md",
     "scriptures/1-nephi-6.4.md",
     "goals/2024-01-15.md",
     "gratitude/ice-skating.md",
@@ -166,11 +169,8 @@
     "scriptures/1-nephi-5.8.md",
     "scriptures/ether-1.38.md",
     "gratitude/heaven.md",
-    "scriptures/mosiah-4.9.md",
     "img/dalle-heavenly-home.jpeg",
-    "christianity/sacrament-talk-on-missionary-work.md",
     "img/dalle-orange-juice-rainforest.jpeg",
-    "concepts/president-russel-m-nelson.md",
     "docs/goals/2024-01-13.html",
     "docs/img/dalle-child-hand-parent-finger-adam-to-god.jpeg",
     "docs/scriptures/1-nephi-2.11.html",

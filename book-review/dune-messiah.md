@@ -7,9 +7,17 @@ categories:
   - book-review
 draft: false
 date-start: 2024-01-08 22:07:10
-date-finished: 
-pct-complete:
+pct-complete: 
+date-finished: 2024-01-16
 ---
+Vibe:
+
+- coool ending. The blind guy sees out of his kids eyes. 
+- Refuses Chaney reincarnation. 
+- Duncan Idaho returns. 
+- Twins: Star Wars copies. And padme. And all that. 
+
+
 Sequel to [Dune](dune.md).
 
 ![Dune Messiah](../img/book-dune-messiah.jpeg){.preview-image}
