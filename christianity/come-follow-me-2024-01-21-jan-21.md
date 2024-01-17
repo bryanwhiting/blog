@@ -6,6 +6,7 @@ date: 2024-01-16 23:34:29
 created: 2024-01-16 23:34:29
 categories:
   - christianity
+  - come follow me lesson plan
 draft: false
 ---
 Activity ideas 

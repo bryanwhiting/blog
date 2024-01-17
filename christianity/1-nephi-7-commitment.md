@@ -8,6 +8,7 @@ categories:
   - commitment
   - learning
   - epistemology
+  - come follow me
 draft: false
 ---
 
