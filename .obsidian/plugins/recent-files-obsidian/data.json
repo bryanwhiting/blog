@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "day",
+      "path": "_templates/day.md"
+    },
+    {
+      "basename": "2024-01-16",
+      "path": "goals/2024-01-16.md"
+    },
+    {
+      "basename": "2024-01-17",
+      "path": "goals/2024-01-17.md"
+    },
+    {
       "basename": "1-nephi-7-commitment",
       "path": "christianity/1-nephi-7-commitment.md"
     },
@@ -45,16 +57,8 @@
       "path": "book-review/paradise-lost-and-paradise-regained.md"
     },
     {
-      "basename": "2024-01-16",
-      "path": "goals/2024-01-16.md"
-    },
-    {
       "basename": "dune-messiah",
       "path": "book-review/dune-messiah.md"
-    },
-    {
-      "basename": "day",
-      "path": "_templates/day.md"
     },
     {
       "basename": "new-post",

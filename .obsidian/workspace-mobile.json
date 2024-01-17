@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/1-nephi-7-commitment.md",
+                "file": "_templates/day.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/1-nephi-7-commitment.md",
+            "file": "_templates/day.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/1-nephi-7-commitment.md"
+            "file": "_templates/day.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/1-nephi-7-commitment.md",
+            "file": "_templates/day.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,11 +141,13 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "goals/2024-01-16.md",
+    "goals/2024-01-17.md",
+    "christianity/1-nephi-7-commitment.md",
     "img/dalle-walking-away.jpeg",
     "scriptures/revelation-3.16.md",
     "scriptures/1-nephi-7.15-16.md",
     "christianity/come-follow-me-2024-01-21-jan-21.md",
-    "christianity/1-nephi-7-commitment.md",
     "scriptures/1-nephi-11.1.md",
     "scriptures/1-nephi-6.5.md",
     "christianity/1-nephi-6-god-of-the-covenant.md",
@@ -160,7 +162,6 @@
     "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
     "lists/reading-list.md",
     "book-review/paradise-lost-and-paradise-regained.md",
-    "goals/2024-01-16.md",
     "img/book-paradise-lost-and-paradise-regained.jpeg",
     "book-review/dune-messiah.md",
     "_templates/day.md",
@@ -184,7 +185,6 @@
     "docs/christianity/poem-lint.html",
     "docs/img/photo-sunrise-on-hike.jpeg",
     "docs/goals/2024-01-11.html",
-    "docs/img/dalle-baby-slow-blink.jpeg",
     "docs/scriptures/1-nephi-3.2.html",
     "docs/creative/poem-stairwell-scoop.html"
   ]
