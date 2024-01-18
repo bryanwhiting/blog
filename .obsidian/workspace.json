@@ -199,6 +199,8 @@
   },
   "active": "3e0940abb38815d5",
   "lastOpenFiles": [
+    "docs/img/dalle-library-of-brains.jpeg",
+    "docs/gratitude/things-i-dont-understand.html",
     "docs/goals-listing.json",
     "site_libs/bootstrap/bootstrap.min.js",
     "site_libs/bootstrap/bootstrap.min.css",
@@ -208,8 +210,6 @@
     "site_libs/quarto-search/fuse.min.js",
     "site_libs/quarto-search/autocomplete.umd.js",
     "site_libs/quarto-nav/quarto-nav.js",
-    "site_libs/quarto-nav/headroom.min.js",
-    "site_libs/quarto-listing/quarto-listing.js",
     "goals.knit.md",
     "goals_files/figure-html/fig-goals-1.png",
     "img/dalle-library-of-brains.jpeg",
