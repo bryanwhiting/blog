@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/1-nephi-8-what-others-think.md",
+                "file": "_templates/day.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/1-nephi-8-what-others-think.md",
+            "file": "_templates/day.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/1-nephi-8-what-others-think.md"
+            "file": "_templates/day.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/1-nephi-8-what-others-think.md",
+            "file": "_templates/day.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,14 +141,15 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "scriptures/1-nephi-8.27-28.md",
-    "img/dalle-lehi-dream.jpeg",
     "goals/2024-01-18.md",
     "_templates/day.md",
+    "gratitude/things-i-dont-understand.md",
+    "goals/2024-01-17.md",
     "christianity/1-nephi-8-what-others-think.md",
+    "scriptures/1-nephi-8.27-28.md",
+    "img/dalle-lehi-dream.jpeg",
     "news/ai-news-01.md",
     "img/dalle-dreamy-cloud.jpeg",
-    "goals/2024-01-17.md",
     "goals/2024-01-16.md",
     "christianity/1-nephi-7-commitment.md",
     "gratitude/music.md",
@@ -172,7 +173,6 @@
     "img/dalle-walking-away.jpeg",
     "scriptures/revelation-3.16.md",
     "scriptures/1-nephi-7.15-16.md",
-    "scriptures/1-nephi-11.1.md",
     "docs/gratitude/ice-skating.html",
     "docs/gratitude.xml",
     "img/dalle-galileo-stars.jpeg",
