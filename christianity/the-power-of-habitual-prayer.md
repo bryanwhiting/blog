@@ -10,6 +10,7 @@ categories:
   - prayer
   - scripture of the day
   - book of mormon
+  - featured
 draft: false
 ---
 I want to share my experience with how prayer has turned from not very meaningful to substantively helpful in a matter of a few short weeks. 
@@ -75,5 +76,5 @@ So that's the invitation: try to make prayer meaningful (whatever that means to 
 ![Pray alone in your wilderness. Find somewhere.](../img/dalle-pray-in-your-wilderness.jpeg){.preview-image}
 
 
-[^1]: while writing this the insight came: I'm in the state of mind of wanting them to change. This is a mindset of control. The fallacy a mind believes is "if only they're better I'd be at more peace". Consider the alternative: if they were peaceful but I'm still in a mindset of control. Would I be happier? Perhaps I would feel more comfortable (less noise in my ear). But I'm going to posit that a person in a mindset of control, regardless of whether they're being listened to and their control is being obeyed, aren't happy and aren't mindful. They aren't present with what is. A healthier mindset for me might be: "anything could happen, delightful that they're food now, but it's okay if they misbehave. They're kids! How can I [Find the Fun](find-the-fun.md) in this moment?" 
+[^1]: while writing this the insight came: I'm in the state of mind of wanting them to change. This is a mindset of control ([Stop trying to change people. Stop it.](stop-trying-to-change-people.md)). The fallacy a mind believes is "if only they're better I'd be at more peace". Consider the alternative: if they were peaceful but I'm still in a mindset of control. Would I be happier? Perhaps I would feel more comfortable (less noise in my ear). But I'm going to posit that a person in a mindset of control, regardless of whether they're being listened to and their control is being obeyed, aren't happy and aren't mindful. They aren't present with what is. A healthier mindset for me might be: "anything could happen, delightful that they're food now, but it's okay if they misbehave. They're kids! How can I [Find the Fun](find-the-fun.md) in this moment?" 
 [^2]: The math is this: 1.001^365=1.44. Or, your daily return is 1.001. Invest $10 and you'll have $10.01 by the end of day one. Invest $10.01 on day two and gain 0.1% and you'll have $10.02001 by end of day two. Do this 365 times and you'll have $10*1.001^365=$14.40
