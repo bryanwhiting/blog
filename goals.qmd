@@ -92,7 +92,7 @@ source('goals.R')
 
 ```{r}
 #| label: fig-goals
-#| fig-height: 2
+#| fig-height: 1.5
 #| fig-width: 7
 #| fig-align: center
 #| fig-cap: "Goals"

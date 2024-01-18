@@ -210,14 +210,14 @@ df_pelo_records <- df_raw %>%
 plt_github_daily_habits <- ggplot(df_plt_github_daily_habits, aes(x = week_start_date, y = day_of_week)) +
   theme_minimal() +
   # background shading - nearly works.
-  # geom_tile(aes(color=as.factor(month_type)), show.legend = FALSE) + 
-  # geom_tile(aes(color=as.factor(month_type))) + 
-  # scale_color_manual(values = c("white", "lightgray")) +
+  geom_tile(aes(fill=as.factor(month_type)), show.legend = FALSE) + 
+  scale_fill_manual(values = c("white", "lightgray")) +
+  geom_point(data=df_plt_github_daily_habits, aes(color = total_goals), shape=15, size=2) +
+  scale_color_gradient2(low = "white", high = "darkgreen", limits = c(0, 9), breaks = 0:9) +
   # add titles for goals
-  # geom_tile( aes(color = total_goals), color = "white", width = 5, height = 0.9) +
-  geom_tile(data=df_plt_github_daily_habits, aes(fill = total_goals), color = "white", width = 5, height = 0.9) + 
-  scale_fill_gradient2(low = "white", high = "darkgreen", limits = c(0, 9), breaks = 0:9) +
-  labs(x = "", y = "", fill='Habits\nAccomplished', title = "Daily Success") +
+  # geom_tile(data=df_plt_github_daily_habits, aes(fill = total_goals), color = "white", width = 5, height = 0.9) + 
+#   scale_color_gradient2(low = "white", high = "darkgreen", limits = c(0, 9), breaks = 0:9) +
+  labs(x = "", y = "", color='Habits\nAccomplished', title = "Daily Success") +
   scale_x_date(limits = as.Date(c("2023-12-25", "2024-12-31")), labels = scales::date_format("%b")) +
   scale_y_discrete(limits = rev(levels(df_plt_github_daily_habits$day_of_week))) +
   theme(axis.text.x = element_text(angle = 0, hjust = 0),
@@ -226,7 +226,28 @@ plt_github_daily_habits <- ggplot(df_plt_github_daily_habits, aes(x = week_start
         panel.border = element_blank(),
         axis.ticks = element_blank())
 
+# Generate a sequence of dates for a year
+start_date <- ymd("2023-01-01")
+end_date <- ymd("2023-12-31")
+dates <- seq.Date(start_date, end_date, by = "day")
 
+# Create a data frame
+data <- data.frame(date = dates)
+
+# Extract week of the year and month
+data$week <- isoweek(data$date)
+data$month <- month(data$date)
+
+# Determine shading color based on the month
+data$color <- ifelse(data$month %% 2 == 0, "lightgray", "white")
+
+# Plotting
+ggplot(data, aes(xmin = week - 0.5, xmax = week + 0.5, ymin = date - 0.5, ymax = date + 0.5, fill = factor(color))) +
+  geom_rect() +
+  scale_fill_manual(values = c("lightgray" = "lightgray", "white" = "white")) +
+  theme_minimal() +
+  labs(x = "Week of the Year", y = "Date", fill = "Month") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
 tab_l15_daily_habits <- df_daily_goals_only_recent %>%
   gt(id='mygt', rowname_col = "Day") %>%
