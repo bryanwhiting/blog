@@ -2,7 +2,16 @@
   {
     "listing": "/sitemap.html",
     "items": [
+      "/gratitude/music.html",
+      "/christianity/the-power-of-habitual-prayer.html",
       "/goals/2024-01-17.html",
+      "/scriptures/1-nephi-3.31.html",
+      "/scriptures/alma-34.26.html",
+      "/scriptures/matthew-7.3.html",
+      "/scriptures/mosiah-21.15.html",
+      "/scriptures/mosiah-23.28.html",
+      "/scriptures/mosiah-27.14.html",
+      "/scriptures/mosiah-27.16.html",
       "/christianity/come-follow-me-2024-01-21-jan-21.html",
       "/christianity/1-nephi-7-commitment.html",
       "/posts/the-problem-with-public-opinions.html",
@@ -61,6 +70,7 @@
       "/book-review/the-quest-for-cosmic-justice.html",
       "/posts/cool-quarto-site.html",
       "/lists/news.html",
+      "/christianity/stop-trying-to-change-people.html",
       "/goals/2024-01-10.html",
       "/christianity/1-Nephi-1-he-prepares-us-to-teach-us.html",
       "/gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.html",
@@ -236,6 +246,8 @@
   {
     "listing": "/all.html",
     "items": [
+      "/gratitude/music.html",
+      "/christianity/the-power-of-habitual-prayer.html",
       "/christianity/come-follow-me-2024-01-21-jan-21.html",
       "/christianity/1-nephi-7-commitment.html",
       "/posts/the-problem-with-public-opinions.html",
@@ -261,6 +273,7 @@
       "/book-review/the-quest-for-cosmic-justice.html",
       "/posts/cool-quarto-site.html",
       "/lists/news.html",
+      "/christianity/stop-trying-to-change-people.html",
       "/christianity/1-Nephi-1-he-prepares-us-to-teach-us.html",
       "/gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.html",
       "/christianity/come-follow-me-2024-01-14-jan-14.html",
@@ -395,6 +408,7 @@
   {
     "listing": "/gratitude.html",
     "items": [
+      "/gratitude/music.html",
       "/gratitude/open-source.html",
       "/gratitude/ice-skating.html",
       "/gratitude/heaven.html",
@@ -419,22 +433,6 @@
       "/gratitude/2023-12-26-i'm-grateful-for-blankets/index.html",
       "/gratitude/2023-12-25-grateful-for-doctors/index.html",
       "/gratitude/2023-12-24-light/index.html"
-    ]
-  },
-  {
-    "listing": "/goals.html",
-    "items": [
-      "/goals/2024-01-17.html",
-      "/goals/2024-01-16.html",
-      "/goals/2024-01-15.html",
-      "/goals/2024-01-14.html",
-      "/goals/2024-01-13.html",
-      "/goals/2024-01-12.html",
-      "/goals/2024-01-11.html",
-      "/goals/2024-01-10.html",
-      "/goals/2024-01-09.html",
-      "/goals/2024-01-08.html",
-      "/goals/test.html"
     ]
   },
   {
@@ -634,6 +632,7 @@
       "/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html",
       "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
       "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html",
+      "/gratitude/music.html",
       "/gratitude/open-source.html",
       "/gratitude/ice-skating.html",
       "/gratitude/heaven.html",
@@ -658,6 +657,7 @@
       "/gratitude/2023-12-26-i'm-grateful-for-blankets/index.html",
       "/gratitude/2023-12-25-grateful-for-doctors/index.html",
       "/gratitude/2023-12-24-light/index.html",
+      "/christianity/the-power-of-habitual-prayer.html",
       "/christianity/come-follow-me-2024-01-21-jan-21.html",
       "/christianity/1-nephi-7-commitment.html",
       "/christianity/1-nephi-6-god-of-the-covenant.html",
@@ -668,6 +668,7 @@
       "/christianity/poem-lint.html",
       "/christianity/1-nephi-2-receiving-a-promised-land.html",
       "/christianity/find-the-fun.html",
+      "/christianity/stop-trying-to-change-people.html",
       "/christianity/1-Nephi-1-he-prepares-us-to-teach-us.html",
       "/christianity/come-follow-me-2024-01-14-jan-14.html",
       "/christianity/1-nephi-1-praying-for-other-people.html",
@@ -721,6 +722,22 @@
     ]
   },
   {
+    "listing": "/goals.html",
+    "items": [
+      "/goals/2024-01-17.html",
+      "/goals/2024-01-16.html",
+      "/goals/2024-01-15.html",
+      "/goals/2024-01-14.html",
+      "/goals/2024-01-13.html",
+      "/goals/2024-01-12.html",
+      "/goals/2024-01-11.html",
+      "/goals/2024-01-10.html",
+      "/goals/2024-01-09.html",
+      "/goals/2024-01-08.html",
+      "/goals/test.html"
+    ]
+  },
+  {
     "listing": "/creative.html",
     "items": [
       "/creative/poem-slow-blink.html",
@@ -736,6 +753,7 @@
   {
     "listing": "/christianity.html",
     "items": [
+      "/christianity/the-power-of-habitual-prayer.html",
       "/christianity/come-follow-me-2024-01-21-jan-21.html",
       "/christianity/1-nephi-7-commitment.html",
       "/christianity/1-nephi-6-god-of-the-covenant.html",
@@ -746,6 +764,7 @@
       "/christianity/poem-lint.html",
       "/christianity/1-nephi-2-receiving-a-promised-land.html",
       "/christianity/find-the-fun.html",
+      "/christianity/stop-trying-to-change-people.html",
       "/christianity/1-Nephi-1-he-prepares-us-to-teach-us.html",
       "/christianity/come-follow-me-2024-01-14-jan-14.html",
       "/christianity/1-nephi-1-praying-for-other-people.html",

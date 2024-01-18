@@ -10,7 +10,39 @@
 <atom:link href="https://www.bryanwhiting.com/gratitude.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Tue, 16 Jan 2024 17:07:25 GMT</lastBuildDate>
+<lastBuildDate>Wed, 17 Jan 2024 15:55:40 GMT</lastBuildDate>
+<item>
+  <title>I’m Grateful for Music</title>
+  <link>https://www.bryanwhiting.com/gratitude/music.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Music is a beautiful thing.</p>
+<p>I’m not much of a musician, but I do love it. The first time I learned to play the guitar I felt a new form of communication.</p>
+<p>I had known the piano before that, having played it in high school. But there was something about the guitar that taught me how to speak with music.</p>
+<p>You speak with random noises from your mouth, surely you can speak with emotion from a musical instrument.</p>
+<p>And people do. Great musicians communicate something in a way that words alone cannot express. And sometimes the music itself evokes an identity you didn’t know existed.</p>
+<p>That’s the power of music. And I think it’s really cool that humans all over the world understand this power.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-guitar-on-the-beach.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">At some point you wanted to be this guy or girl, admit it.</figcaption>
+</figure>
+</div>
+<hr>
+<p>Reminds me as well of a close friend who wrote an album when a loved one passed away. Those were some of the most beautiful lyrics and music I had ever heard. Sometimes the best music comes from nobodies, including yourself.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>gratitude</category>
+  <category>music</category>
+  <guid>https://www.bryanwhiting.com/gratitude/music.html</guid>
+  <pubDate>Wed, 17 Jan 2024 15:55:40 GMT</pubDate>
+</item>
 <item>
   <title>I’m Grateful for Open Source</title>
   <link>https://www.bryanwhiting.com/gratitude/open-source.html</link>
@@ -584,35 +616,6 @@ So my dad got a desk job. And so did I.</p>
   <category>gratitude</category>
   <guid>https://www.bryanwhiting.com/gratitude/eyes.html</guid>
   <pubDate>Sun, 31 Dec 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Beaches</title>
-  <link>https://www.bryanwhiting.com/gratitude/beaches.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>I’m grateful for beaches. That they exist. That they haven’t been removed. That they are places where people can go and recharge.</p>
-<p>At 5pm, hundreds of people showed up to take a photo of this hydrogen blob descending to the horizon line. Why?</p>
-<p>Because sunsets are cool, and so are beaches.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/photo-beach-day-waves.png" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Hydrogen descending over hydrogen dioxide</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>gratitude</category>
-  <category>water</category>
-  <category>beach</category>
-  <category>sunset</category>
-  <guid>https://www.bryanwhiting.com/gratitude/beaches.html</guid>
-  <pubDate>Sat, 30 Dec 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
