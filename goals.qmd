@@ -154,7 +154,7 @@ df <- df %>%
 # df2 = daily df
 df2 <- df %>%
   select(
-    date, pray, meditate, cardio, strength, post_cfm_study, post_gratitude
+    date, pray, meditate, cardio, strength, post_cfm_study, post_gratitude, sun,sss
   ) %>% 
   mutate(across(-date, as.numeric)) %>%
   mutate(across(-date, ~replace_na(., 0))) %>%
@@ -250,7 +250,7 @@ ggplot(df4, aes(x = week_start_date, y = day_of_week)) +
 #| fig-align: center
 df2_recent <- df2 %>% 
   arrange(desc(date)) %>%
-  head(14) %>%
+  head(15) %>%
   select(
     `Day` = date,
     `📖` = post_cfm_study,
@@ -259,6 +259,9 @@ df2_recent <- df2 %>%
     `🚴🏻‍♂️` = cardio,
     `🏋🏼‍♂️` = strength,
     `🧘🏼‍♂️` = meditate,
+    `☀️` = sun,
+    `🥷` = sss,
+    
   ) 
 
 # Assuming your data frame is named 'data'
@@ -281,7 +284,7 @@ df2_recent %>%
       cell_text(color = "transparent")
     ),
     locations = cells_body(
-      columns = c(2:7)  # replace with the actual column indices or names
+      columns = c(2:9)  # replace with the actual column indices or names
     )
   ) %>%
   cols_align(align = "center") %>%
