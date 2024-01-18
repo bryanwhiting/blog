@@ -116,8 +116,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -194,11 +193,13 @@
       "command-palette:Open command palette": false,
       "custom-sort:Toggle custom sorting": false,
       "templater-obsidian:Templater": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "3e0940abb38815d5",
   "lastOpenFiles": [
+    "lists/scripture-study-list.md",
     "docs/goals-listing.json",
     "goals-listing.json",
     "site_libs/bootstrap/bootstrap.min.js",
@@ -209,7 +210,6 @@
     "site_libs/quarto-html/quarto-syntax-highlighting.css",
     "site_libs/quarto-listing/quarto-listing.js",
     "site_libs/quarto-listing/list.min.js",
-    "site_libs/quarto-html/zenscroll-min.js",
     "goals.knit.md",
     "goals_files/figure-html/fig-goals-1.png",
     "renv/library/R-4.1/x86_64-apple-darwin17.0/crayon/NEWS.md",

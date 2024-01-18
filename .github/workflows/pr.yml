@@ -15,7 +15,7 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       # - name: Replace smart quotes in Markdown files
         #run: |
         #  chmod +x ./replace_smart_quotes.sh
