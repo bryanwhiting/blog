@@ -13,6 +13,16 @@ book-time: 5.85
 ---
 ![Quest for cosmic justice](../img/book-the-quest-for-cosmic-justice.jpeg){.preview-image}
 
+[2024-01-17](../goals/2024-01-17.md)
+- housing reform: makes observers feel better about themselves. People who saved money in slums were forced to move to more expensive housing. This causes them to be even more dependent on the government as housing is more expensive and now they need subsidies
+- Tyranny of visions. 
+- [The Problem with Public Opinions](../posts/the-problem-with-public-opinions.md) - money and power. Chapter 14. 
+- Chapter 15. Napoleonic power. Men will rise to seek this. 
+
+[2024-01-16](../goals/2024-01-16)
+- war preparedness prevents war. 
+- Ego and vision vs evidence. What's the evidence for my theory? People defend visions more than evidence even in spite of evidence. 
+
 2024-01-10
 
 - cosmic justice - principle of equity

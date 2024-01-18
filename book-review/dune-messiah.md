@@ -1,15 +1,26 @@
 ---
 title: "Dune: Messiah"
-description: by Frank Herbert
+description: by Frank Herbert. More political than the first. Focusing on the torment of a leader who has it all. What must it be like to have everything? The thought experiment is worth the read.
 date: 2024-01-08 22:07:10
 created: 2024-01-08 22:07:10
 categories:
   - book-review
 draft: false
 date-start: 2024-01-08 22:07:10
-date-finished: 
-pct-complete:
+pct-complete: 
+date-finished: 2024-01-16
+book-time: 8.9
 ---
+Vibe:
+
+- coool ending. The blind guy sees out of his kids eyes. 
+- Refuses Chaney reincarnation. 
+- Duncan Idaho returns. 
+- Twins: Star Wars copies. And padme. And all that. 
+- More political than the first. Focusing on the torment of a leader who has it all. What must it be like to have everything? The thought experiment is worth the read. 
+- People try to kill him. Want his blood. His children. But he can't have his wife, and sacrifices her and himself for the Dunes. May he enjoy his rest. 
+
+
 Sequel to [Dune](dune.md).
 
 ![Dune Messiah](../img/book-dune-messiah.jpeg){.preview-image}

@@ -26,6 +26,9 @@
     "body zones": "multitext",
     "pelo-warmup": "number",
     "jumprope-time": "number",
-    "jumprope-cnt": "number"
+    "jumprope-cnt": "number",
+    "workout-time": "number",
+    "sun": "checkbox",
+    "sss": "checkbox"
   }
 }

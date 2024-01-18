@@ -9,16 +9,116 @@
       "path": "gratitude/ice-skating.md"
     },
     {
-      "basename": "2024-01-15",
-      "path": "goals/2024-01-15.md"
+      "basename": "1-nephi-8-what-others-think",
+      "path": "christianity/1-nephi-8-what-others-think.md"
     },
     {
-      "basename": "christian",
-      "path": "concepts/christian.md"
+      "basename": "2024-01-18",
+      "path": "goals/2024-01-18.md"
+    },
+    {
+      "basename": "day",
+      "path": "_templates/day.md"
+    },
+    {
+      "basename": "ai-news-01",
+      "path": "news/ai-news-01.md"
+    },
+    {
+      "basename": "2024-01-17",
+      "path": "goals/2024-01-17.md"
+    },
+    {
+      "basename": "2024-01-16",
+      "path": "goals/2024-01-16.md"
+    },
+    {
+      "basename": "1-nephi-7-commitment",
+      "path": "christianity/1-nephi-7-commitment.md"
+    },
+    {
+      "basename": "music",
+      "path": "gratitude/music.md"
+    },
+    {
+      "basename": "stop-trying-to-change-people",
+      "path": "christianity/stop-trying-to-change-people.md"
+    },
+    {
+      "basename": "the-power-of-habitual-prayer",
+      "path": "christianity/the-power-of-habitual-prayer.md"
     },
     {
       "basename": "find-the-fun",
       "path": "christianity/find-the-fun.md"
+    },
+    {
+      "basename": "the-quest-for-cosmic-justice",
+      "path": "book-review/the-quest-for-cosmic-justice.md"
+    },
+    {
+      "basename": "the-problem-with-public-opinions",
+      "path": "posts/the-problem-with-public-opinions.md"
+    },
+    {
+      "basename": "come-follow-me-2024-01-21-jan-21",
+      "path": "christianity/come-follow-me-2024-01-21-jan-21.md"
+    },
+    {
+      "basename": "paradise-lost-and-paradise-regained",
+      "path": "book-review/paradise-lost-and-paradise-regained.md"
+    },
+    {
+      "basename": "1-nephi-6-god-of-the-covenant",
+      "path": "christianity/1-nephi-6-god-of-the-covenant.md"
+    },
+    {
+      "basename": "you-can-plan-your-life-in-5-minutes",
+      "path": "posts/you-can-plan-your-life-in-5-minutes.md"
+    },
+    {
+      "basename": "apology",
+      "path": "creative/apology.md"
+    },
+    {
+      "basename": "open-source",
+      "path": "gratitude/open-source.md"
+    },
+    {
+      "basename": "the-oxford-inklings-lewis-tolkien-and-their-circle",
+      "path": "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md"
+    },
+    {
+      "basename": "reading-list",
+      "path": "lists/reading-list.md"
+    },
+    {
+      "basename": "dune-messiah",
+      "path": "book-review/dune-messiah.md"
+    },
+    {
+      "basename": "new-post",
+      "path": "_templates/new-post.md"
+>>>>>>> 6d7468d18f4a5265e47f79b1b7734f7d42819c25
+    },
+    {
+      "basename": "2024-01-15",
+      "path": "goals/2024-01-15.md"
+    },
+    {
+<<<<<<< HEAD
+=======
+      "basename": "ice-skating",
+      "path": "gratitude/ice-skating.md"
+    },
+    {
+      "basename": "scripture-study-list",
+      "path": "lists/scripture-study-list.md"
+    },
+    {
+>>>>>>> 6d7468d18f4a5265e47f79b1b7734f7d42819c25
+      "basename": "christian",
+      "path": "concepts/christian.md"
     },
     {
       "basename": "dalle-find-the-fun",
@@ -33,16 +133,8 @@
       "path": "lists/news.md"
     },
     {
-      "basename": "reading-list",
-      "path": "lists/reading-list.md"
-    },
-    {
       "basename": "attention-is-increased-capacity-to-handle-multiple-ideas-increases-without-social-media",
       "path": "posts/attention-is-increased-capacity-to-handle-multiple-ideas-increases-without-social-media.md"
-    },
-    {
-      "basename": "the-oxford-inklings-lewis-tolkien-and-their-circle",
-      "path": "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md"
     },
     {
       "basename": "new-post",

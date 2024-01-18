@@ -27,7 +27,8 @@
     "file-explorer:move-file",
     "editor:configure-toolbar",
     "editor:toggle-numbered-list",
-    "obsidian-linter:lint-file"
+    "obsidian-linter:lint-file",
+    "obsidian-auto-link-title:auto-link-title-paste"
   ],
   "alwaysUpdateLinks": true,
   "promptDelete": false,

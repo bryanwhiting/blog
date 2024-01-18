@@ -2,6 +2,32 @@
   {
     "listing": "/sitemap.html",
     "items": [
+      "/goals/2024-01-18.html",
+      "/scriptures/1-nephi-8.27-28.html",
+      "/news/ai-news-01.html",
+      "/gratitude/music.html",
+      "/christianity/the-power-of-habitual-prayer.html",
+      "/christianity/1-nephi-8-what-others-think.html",
+      "/goals/2024-01-17.html",
+      "/scriptures/1-nephi-3.31.html",
+      "/scriptures/alma-34.26.html",
+      "/scriptures/matthew-7.3.html",
+      "/scriptures/mosiah-21.15.html",
+      "/scriptures/mosiah-23.28.html",
+      "/scriptures/mosiah-27.14.html",
+      "/scriptures/mosiah-27.16.html",
+      "/christianity/come-follow-me-2024-01-21-jan-21.html",
+      "/christianity/1-nephi-7-commitment.html",
+      "/posts/the-problem-with-public-opinions.html",
+      "/book-review/paradise-lost-and-paradise-regained.html",
+      "/gratitude/open-source.html",
+      "/goals/2024-01-16.html",
+      "/scriptures/1-nephi-11.1.html",
+      "/scriptures/1-nephi-6.4.html",
+      "/scriptures/1-nephi-6.5.html",
+      "/scriptures/1-nephi-7.15-16.html",
+      "/scriptures/revelation-3.16.html",
+      "/christianity/1-nephi-6-god-of-the-covenant.html",
       "/gratitude/ice-skating.html",
       "/goals/2024-01-15.html",
       "/christianity/1-nephi-5-trusting-a-promise.html",
@@ -48,6 +74,7 @@
       "/book-review/the-quest-for-cosmic-justice.html",
       "/posts/cool-quarto-site.html",
       "/lists/news.html",
+      "/christianity/stop-trying-to-change-people.html",
       "/goals/2024-01-10.html",
       "/christianity/1-Nephi-1-he-prepares-us-to-teach-us.html",
       "/gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.html",
@@ -221,20 +248,61 @@
     ]
   },
   {
-    "listing": "/concepts.html",
+    "listing": "/christianity.html",
     "items": [
-      "/concepts/president-russel-m-nelson.html",
-      "/concepts/christian.html",
-      "/concepts/gratus-sum-ergo-habeo.html",
-      "/concepts/the-book-of-mormon-another-testament-of-jesus-christ.html",
-      "/concepts/the-church-of-jesus-christ-of-latter-day-saints.html",
-      "/concepts/my-mission.html",
-      "/concepts/hand-of-god.html"
+      "/christianity/the-power-of-habitual-prayer.html",
+      "/christianity/1-nephi-8-what-others-think.html",
+      "/christianity/come-follow-me-2024-01-21-jan-21.html",
+      "/christianity/1-nephi-7-commitment.html",
+      "/christianity/1-nephi-6-god-of-the-covenant.html",
+      "/christianity/1-nephi-5-trusting-a-promise.html",
+      "/christianity/sacrament-talk-on-missionary-work.html",
+      "/christianity/1-nephi-4-why-not.html",
+      "/christianity/1-nephi-3-dreamed-a-dream.html",
+      "/christianity/poem-lint.html",
+      "/christianity/1-nephi-2-receiving-a-promised-land.html",
+      "/christianity/find-the-fun.html",
+      "/christianity/stop-trying-to-change-people.html",
+      "/christianity/1-Nephi-1-he-prepares-us-to-teach-us.html",
+      "/christianity/come-follow-me-2024-01-14-jan-14.html",
+      "/christianity/1-nephi-1-praying-for-other-people.html",
+      "/christianity/scriptures-within-scriptures.html",
+      "/christianity/my-testimony-2024-01-07.html",
+      "/christianity/what-does-it-mean-to-preside.html",
+      "/sacrament-symbols/vaulted-ceiling.html",
+      "/christianity/come-follow-me-2024-01-07-jan-7.html",
+      "/christianity/how-to-use-the-book-of-mormon.html",
+      "/christianity/a-change-in-witness.html",
+      "/christianity/love-thy-neighbor-but-have-friends.html",
+      "/christianity/share-your-testimony.html",
+      "/christianity/the-church-of-jesus-christ-of-latter-day-saints.html",
+      "/christianity/the-miracles-of-christ.html",
+      "/christianity/cfm-2023-12-31-rev-15-21.html",
+      "/christianity/unknown-god.html",
+      "/christianity/christmas-empty-tomb.html",
+      "/christianity/let-your-light-so-shine.html",
+      "/christianity/the-christ-child.html",
+      "/christianity/christmas-celebrates-a-living-christ.html",
+      "/christianity/three-little-pigs-christ.html"
+    ]
+  },
+  {
+    "listing": "/creative.html",
+    "items": [
+      "/creative/poem-slow-blink.html",
+      "/creative/poem-stairwell-scoop.html",
+      "/creative/poem-bound.html",
+      "/creative/the-thief-of-time.html",
+      "/creative/red-eyed.html",
+      "/creative/poem-cabinet-handle.html",
+      "/creative/poem-the-dove-forevermore.html",
+      "/creative/poem-timeless.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
+      "/posts/the-problem-with-public-opinions.html",
       "/posts/you-can-plan-your-life-in-5-minutes.html",
       "/posts/junk-attracts-junk.html",
       "/posts/bidens-debt-relief-wont-relieve-what-he-thinks-it-will.html",
@@ -308,6 +376,8 @@
       "/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html",
       "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
       "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html",
+      "/gratitude/music.html",
+      "/gratitude/open-source.html",
       "/gratitude/ice-skating.html",
       "/gratitude/heaven.html",
       "/gratitude/healing.html",
@@ -331,6 +401,11 @@
       "/gratitude/2023-12-26-i'm-grateful-for-blankets/index.html",
       "/gratitude/2023-12-25-grateful-for-doctors/index.html",
       "/gratitude/2023-12-24-light/index.html",
+      "/christianity/the-power-of-habitual-prayer.html",
+      "/christianity/1-nephi-8-what-others-think.html",
+      "/christianity/come-follow-me-2024-01-21-jan-21.html",
+      "/christianity/1-nephi-7-commitment.html",
+      "/christianity/1-nephi-6-god-of-the-covenant.html",
       "/christianity/1-nephi-5-trusting-a-promise.html",
       "/christianity/sacrament-talk-on-missionary-work.html",
       "/christianity/1-nephi-4-why-not.html",
@@ -338,6 +413,7 @@
       "/christianity/poem-lint.html",
       "/christianity/1-nephi-2-receiving-a-promised-land.html",
       "/christianity/find-the-fun.html",
+      "/christianity/stop-trying-to-change-people.html",
       "/christianity/1-Nephi-1-he-prepares-us-to-teach-us.html",
       "/christianity/come-follow-me-2024-01-14-jan-14.html",
       "/christianity/1-nephi-1-praying-for-other-people.html",
@@ -358,6 +434,7 @@
       "/christianity/the-christ-child.html",
       "/christianity/christmas-celebrates-a-living-christ.html",
       "/christianity/three-little-pigs-christ.html",
+      "/book-review/paradise-lost-and-paradise-regained.html",
       "/book-review/the-quest-for-cosmic-justice.html",
       "/book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.html",
       "/book-review/dune-messiah.html",
@@ -380,6 +457,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/the-problem-with-public-opinions.html",
       "/posts/you-can-plan-your-life-in-5-minutes.html",
       "/posts/junk-attracts-junk.html",
       "/posts/bidens-debt-relief-wont-relieve-what-he-thinks-it-will.html",
@@ -449,6 +527,7 @@
   {
     "listing": "/books.html",
     "items": [
+      "/book-review/paradise-lost-and-paradise-regained.html",
       "/book-review/the-quest-for-cosmic-justice.html",
       "/book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.html",
       "/book-review/dune-messiah.html",
@@ -496,8 +575,23 @@
     ]
   },
   {
+    "listing": "/concepts.html",
+    "items": [
+      "/concepts/president-russel-m-nelson.html",
+      "/concepts/christian.html",
+      "/concepts/gratus-sum-ergo-habeo.html",
+      "/concepts/the-book-of-mormon-another-testament-of-jesus-christ.html",
+      "/concepts/the-church-of-jesus-christ-of-latter-day-saints.html",
+      "/concepts/my-mission.html",
+      "/concepts/hand-of-god.html"
+    ]
+  },
+  {
     "listing": "/goals.html",
     "items": [
+      "/goals/2024-01-18.html",
+      "/goals/2024-01-17.html",
+      "/goals/2024-01-16.html",
       "/goals/2024-01-15.html",
       "/goals/2024-01-14.html",
       "/goals/2024-01-13.html",
@@ -512,6 +606,8 @@
   {
     "listing": "/gratitude.html",
     "items": [
+      "/gratitude/music.html",
+      "/gratitude/open-source.html",
       "/gratitude/ice-skating.html",
       "/gratitude/heaven.html",
       "/gratitude/healing.html",
@@ -540,6 +636,15 @@
   {
     "listing": "/all.html",
     "items": [
+      "/gratitude/music.html",
+      "/christianity/the-power-of-habitual-prayer.html",
+      "/christianity/1-nephi-8-what-others-think.html",
+      "/christianity/come-follow-me-2024-01-21-jan-21.html",
+      "/christianity/1-nephi-7-commitment.html",
+      "/posts/the-problem-with-public-opinions.html",
+      "/book-review/paradise-lost-and-paradise-regained.html",
+      "/gratitude/open-source.html",
+      "/christianity/1-nephi-6-god-of-the-covenant.html",
       "/gratitude/ice-skating.html",
       "/christianity/1-nephi-5-trusting-a-promise.html",
       "/gratitude/heaven.html",
@@ -559,6 +664,7 @@
       "/book-review/the-quest-for-cosmic-justice.html",
       "/posts/cool-quarto-site.html",
       "/lists/news.html",
+      "/christianity/stop-trying-to-change-people.html",
       "/christianity/1-Nephi-1-he-prepares-us-to-teach-us.html",
       "/gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.html",
       "/christianity/come-follow-me-2024-01-14-jan-14.html",
@@ -688,52 +794,6 @@
       "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
       "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html",
       "/lists/reading-list.html"
-    ]
-  },
-  {
-    "listing": "/creative.html",
-    "items": [
-      "/creative/poem-slow-blink.html",
-      "/creative/poem-stairwell-scoop.html",
-      "/creative/poem-bound.html",
-      "/creative/the-thief-of-time.html",
-      "/creative/red-eyed.html",
-      "/creative/poem-cabinet-handle.html",
-      "/creative/poem-the-dove-forevermore.html",
-      "/creative/poem-timeless.html"
-    ]
-  },
-  {
-    "listing": "/christianity.html",
-    "items": [
-      "/christianity/1-nephi-5-trusting-a-promise.html",
-      "/christianity/sacrament-talk-on-missionary-work.html",
-      "/christianity/1-nephi-4-why-not.html",
-      "/christianity/1-nephi-3-dreamed-a-dream.html",
-      "/christianity/poem-lint.html",
-      "/christianity/1-nephi-2-receiving-a-promised-land.html",
-      "/christianity/find-the-fun.html",
-      "/christianity/1-Nephi-1-he-prepares-us-to-teach-us.html",
-      "/christianity/come-follow-me-2024-01-14-jan-14.html",
-      "/christianity/1-nephi-1-praying-for-other-people.html",
-      "/christianity/scriptures-within-scriptures.html",
-      "/christianity/my-testimony-2024-01-07.html",
-      "/christianity/what-does-it-mean-to-preside.html",
-      "/sacrament-symbols/vaulted-ceiling.html",
-      "/christianity/come-follow-me-2024-01-07-jan-7.html",
-      "/christianity/how-to-use-the-book-of-mormon.html",
-      "/christianity/a-change-in-witness.html",
-      "/christianity/love-thy-neighbor-but-have-friends.html",
-      "/christianity/share-your-testimony.html",
-      "/christianity/the-church-of-jesus-christ-of-latter-day-saints.html",
-      "/christianity/the-miracles-of-christ.html",
-      "/christianity/cfm-2023-12-31-rev-15-21.html",
-      "/christianity/unknown-god.html",
-      "/christianity/christmas-empty-tomb.html",
-      "/christianity/let-your-light-so-shine.html",
-      "/christianity/the-christ-child.html",
-      "/christianity/christmas-celebrates-a-living-christ.html",
-      "/christianity/three-little-pigs-christ.html"
     ]
   }
 ]

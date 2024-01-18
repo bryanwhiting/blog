@@ -35,7 +35,7 @@
     },
     {
       "id": "periodic-notes:open-daily-note",
-      "icon": "calendar",
+      "icon": "sun",
       "name": "Periodic Notes: Open daily note",
       "mode": "any"
     }
@@ -69,6 +69,10 @@
       {
         "commandID": "templater-obsidian:_templates/link-to-file.md",
         "iconID": "lucide-link"
+      },
+      {
+        "commandID": "obsidian-auto-link-title:auto-link-title-paste",
+        "iconID": "external-link"
       }
     ],
     "tooltips": false,
