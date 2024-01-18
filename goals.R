@@ -217,7 +217,7 @@ plt_github_daily_habits <- ggplot(df_plt_github_daily_habits, aes(x = week_start
   # add titles for goals
   # geom_tile(data=df_plt_github_daily_habits, aes(fill = total_goals), color = "white", width = 5, height = 0.9) + 
 #   scale_color_gradient2(low = "white", high = "darkgreen", limits = c(0, 9), breaks = 0:9) +
-  labs(x = "", y = "", color='Habits\nAccomplished', title = "Daily Success") +
+  labs(x = "", y = "", color='', title = "Success Rate for Nine Essential Daily Habits") +
   scale_x_date(limits = as.Date(c("2023-12-25", "2024-12-31")), labels = scales::date_format("%b")) +
   scale_y_discrete(limits = rev(levels(df_plt_github_daily_habits$day_of_week))) +
   theme(axis.text.x = element_text(angle = 0, hjust = 0),
