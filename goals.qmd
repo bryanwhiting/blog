@@ -13,7 +13,7 @@ listing:
   page-size: 30
   grid-item-border: true
   feed: false
-  categories: cloud
+  categories: false
 execute:
   echo: false
   warning: false
