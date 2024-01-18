@@ -27,6 +27,8 @@
     "pelo-warmup": "number",
     "jumprope-time": "number",
     "jumprope-cnt": "number",
-    "workout-time": "number"
+    "workout-time": "number",
+    "sun": "checkbox",
+    "sss": "checkbox"
   }
 }
