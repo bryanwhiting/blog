@@ -263,7 +263,8 @@ df2_recent <- df2 %>%
 
 # Assuming your data frame is named 'data'
 # First, convert the 'Day' column to the desired format
-df2_recent$Day <- format(as.Date(df2_recent$Day), "%a %M/%D")
+df2_recent$Day <- format(as.Date(df2_recent$Day), "%a %b/%e")
+# %e = non zero-padded day
 
 df2_recent %>%
   gt(id='mygt', rowname_col = "Day") %>%
