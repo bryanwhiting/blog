@@ -13,20 +13,28 @@
       "path": "christianity/1-nephi-8-what-others-think.md"
     },
     {
-      "basename": "2024-01-18",
-      "path": "goals/2024-01-18.md"
-    },
-    {
       "basename": "day",
       "path": "_templates/day.md"
     },
     {
-      "basename": "ai-news-01",
-      "path": "news/ai-news-01.md"
+      "basename": "2024-01-18",
+      "path": "goals/2024-01-18.md"
+    },
+    {
+      "basename": "things-i-dont-understand",
+      "path": "gratitude/things-i-dont-understand.md"
     },
     {
       "basename": "2024-01-17",
       "path": "goals/2024-01-17.md"
+    },
+    {
+      "basename": "1-nephi-8-what-others-think",
+      "path": "christianity/1-nephi-8-what-others-think.md"
+    },
+    {
+      "basename": "ai-news-01",
+      "path": "news/ai-news-01.md"
     },
     {
       "basename": "2024-01-16",

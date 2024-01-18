@@ -29,6 +29,9 @@
     "jumprope-cnt": "number",
     "workout-time": "number",
     "sun": "checkbox",
-    "sss": "checkbox"
+    "sss": "checkbox",
+    "water": "checkbox",
+    "water24oz": "checkbox",
+    "basketball-time": "number"
   }
 }

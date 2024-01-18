@@ -1,8 +1,9 @@
 ---
 date: <% tp.date.now() %>
-meditate: false
-pray: false
 sun: false
+water24oz: false
+pray: false
+meditate: false
 sss: false
 title: <% tp.date.now() %>
 description: x
@@ -25,4 +26,5 @@ hike-elev: 0
 hike-time: 0
 categories:
   - goals
+basketball-time: 0
 ---
