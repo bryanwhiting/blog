@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/music.md",
+                "file": "goals/2024-01-17.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "gratitude/music.md",
+            "file": "goals/2024-01-17.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "gratitude/music.md"
+            "file": "goals/2024-01-17.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "gratitude/music.md",
+            "file": "goals/2024-01-17.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,9 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "gratitude/music.md",
     "img/dalle-guitar-on-the-beach.jpeg",
     "christianity/stop-trying-to-change-people.md",
-    "gratitude/music.md",
     "img/dalle-chameleon-and-iguana.jpeg",
     "christianity/the-power-of-habitual-prayer.md",
     "scriptures/1-nephi-3.31.md",
@@ -178,7 +178,6 @@
     "img/dalle-ice-rink-outdoors.jpeg",
     "img/dalle-weary-wanderer-waiting.jpeg",
     "img/dalle-heavenly-home.jpeg",
-    "img/dalle-orange-juice-rainforest.jpeg",
     "docs/goals/2024-01-13.html",
     "docs/scriptures/1-nephi-2.11.html",
     "docs/goals/test.html",
