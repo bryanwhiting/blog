@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-nephi-3-write-with-a-purpose.md",
+                "file": "book-review/the-inklings.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 4
+    "currentTab": 0
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "1-nephi-3-write-with-a-purpose.md",
+            "file": "book-review/the-inklings.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "1-nephi-3-write-with-a-purpose.md"
+            "file": "book-review/the-inklings.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "1-nephi-3-write-with-a-purpose.md",
+            "file": "book-review/the-inklings.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,51 +141,51 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "Untitled 3.md",
+    "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
+    "book-review/the-inklings.md",
+    "LOGGING-NOTE (iPhone).md",
+    "Untitled 2.md",
+    "book-review/huu.md",
+    "_templates/day.md",
+    "docs/tech.xml",
+    "docs/listings.json",
+    "docs/CNAME",
+    "docs/posts.xml",
+    "docs/gratitude/2023-12-26-i'm-grateful-for-blankets/photo.jpeg",
+    "docs/gratitude/2023-12-26-i'm-grateful-for-blankets/index.html",
+    "docs/gratitude/img/little-lamb.png",
+    "docs/gratitude/2023-12-24-light/photo.jpeg",
+    "docs/gratitude/2023-12-24-light/index.html",
+    "docs/gratitude/2023-12-25-grateful-for-doctors/photo.jpeg",
+    "docs/gratitude/2023-12-25-grateful-for-doctors/index.html",
+    "docs/gratitude/beaches.html",
+    "docs/gratitude/eyes.html",
+    "docs/gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.html",
+    "docs/quarto-demo-forbo7-huggingface.png",
+    "docs/img/dalle-half-tree-half-christ-dying.jpeg",
+    "docs/img/dalle-plant-a-seed-and-grow.jpeg",
+    "docs/img/dalle-dreamy-cloud.jpeg",
+    "docs/img/photo-sunrise-on-hike.jpeg",
+    "docs/img/dalle-subaru-hill.jpeg",
+    "docs/_templates/new-post.md",
     "1-nephi-3-write-with-a-purpose.md",
     "goals/2024-01-19.md",
     "news/2024-01-19-news-notes.md",
-    "LOGGING-NOTE (iPhone).md",
-    "_templates/day.md",
     "_templates/new-post.md",
     "goals/2024-01-18.md",
     "goals/2024-01-16.md",
-    "img/dalle-writing-on-gold-plates.jpeg",
     "scriptures/1-nephi-9.4.md",
     "gratitude/healing.md",
     "christianity/1-nephi-9.md",
     "gratitude/heaven.md",
-    "docs/christianity/1-nephi-8-what-others-think.html",
-    "docs/news/ai-news-01.html",
-    "docs/img/dalle-dreamy-cloud.jpeg",
-    "docs/img/dalle-lehi-dream.jpeg",
-    "docs/scriptures/1-nephi-8.27-28.html",
-    "docs/goals/2024-01-18.html",
     "gratitude/things-i-dont-understand.md",
     "goals/2024-01-17.md",
     "christianity/1-nephi-8-what-others-think.md",
     "scriptures/1-nephi-8.27-28.md",
-    "img/dalle-lehi-dream.jpeg",
     "news/ai-news-01.md",
-    "img/dalle-dreamy-cloud.jpeg",
     "christianity/1-nephi-7-commitment.md",
     "gratitude/music.md",
-    "img/dalle-guitar-on-the-beach.jpeg",
     "christianity/stop-trying-to-change-people.md",
-    "img/dalle-chameleon-and-iguana.jpeg",
-    "christianity/the-power-of-habitual-prayer.md",
-    "scriptures/1-nephi-3.31.md",
-    "scriptures/mosiah-27.16.md",
-    "scriptures/mosiah-27.14.md",
-    "scriptures/mosiah-23.28.md",
-    "img/dalle-pray-in-your-wilderness.jpeg",
-    "img/dalle-walking-away.jpeg",
-    "docs/gratitude/ice-skating.html",
-    "docs/gratitude.xml",
-    "img/dalle-galileo-stars.jpeg",
-    "docs/goals/2024-01-13.html",
-    "docs/scriptures/1-nephi-2.11.html",
-    "docs/goals/test.html",
-    "docs/goals/2024-01-12.html"
+    "christianity/the-power-of-habitual-prayer.md"
   ]
 }
