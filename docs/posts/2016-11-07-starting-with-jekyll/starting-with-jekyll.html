@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.515">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Bryan Whiting">
+<meta name="description" content="Hello world.">
+
+<title>Bryan Whiting - Starting with Jekyll</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+<script type="text/javascript">
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-85616639-1', 'auto');
+
+ga('send', {
+  hitType: 'pageview',
+  'anonymizeIp': true,
+});
+</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="../../css/styles.css">
+<link rel="stylesheet" href="css/poem.css">
+<meta property="og:title" content="Bryan Whiting - Starting with Jekyll">
+<meta property="og:description" content="Hello world.">
+<meta property="og:site_name" content="Bryan Whiting">
+<meta name="twitter:title" content="Bryan Whiting - Starting with Jekyll">
+<meta name="twitter:description" content="Hello world.">
+<meta name="twitter:creator" content="@bryanwhiting">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-sidebar docked slimcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      Bryan Whiting
+      </li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Starting with Jekyll</h1>
+                  <div>
+        <div class="description">
+          Hello world.
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">productivity</div>
+                <div class="quarto-category">blogging</div>
+                <div class="quarto-category">jekyll</div>
+              </div>
+                  </div>
+  </div>
+    
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Date</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">Thursday November 17, 2016</p>
+      </div>
+    </div>
+          <div>
+      <div class="quarto-title-meta-heading">Topics</div>
+      <div class="quarto-title-meta-contents">
+                <div class="badge badge-small badge-grey quarto-category">productivity</div>
+                <div class="badge badge-small badge-grey quarto-category">blogging</div>
+                <div class="badge badge-small badge-grey quarto-category">jekyll</div>
+            </div>
+    </div>
+      
+  </div>  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../../">Bryan Whiting</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/bryanwhiting/blog">
+            This blog
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/bryanwhiting">
+            Profile
+            </a>
+          </li>
+      </ul>
+    </div>
+    <a href="https://www.linkedin.com/in/bryan-whiting/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
+    <a href="https://twitter.com/bryanwhiting" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
+    <a href="../../index.xml" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-rss"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Blog</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Writing</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../tech.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tech, AI, and Data</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../posts.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Posts</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../books.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Book Reviews</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../christianity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Christianity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../gratitude.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Gratitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../creative.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Creative</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Other</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../concepts.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Concepts</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+ <span class="menu-text">goals.qmd</span>
+  </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lists.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lists of Things</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sitemap.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sitemap (All Posts)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#why-blog-with-jekyll" id="toc-why-blog-with-jekyll" class="nav-link active" data-scroll-target="#why-blog-with-jekyll">Why Blog with Jekyll?</a></li>
+  <li><a href="#how-did-i-get-started-with-jekyll" id="toc-how-did-i-get-started-with-jekyll" class="nav-link" data-scroll-target="#how-did-i-get-started-with-jekyll">How did I get started with Jekyll?</a></li>
+  <li><a href="#set-up-a-blog-in-10-minutes" id="toc-set-up-a-blog-in-10-minutes" class="nav-link" data-scroll-target="#set-up-a-blog-in-10-minutes">Set up a blog in 10 minutes!</a></li>
+  <li><a href="#add-to-jekyll-a-custom-url-from-godaddy" id="toc-add-to-jekyll-a-custom-url-from-godaddy" class="nav-link" data-scroll-target="#add-to-jekyll-a-custom-url-from-godaddy">Add to Jekyll a custom URL from GoDaddy</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
+
+
+
+
+<p>Hello world.</p>
+<p>I wanted to start a blog. I wanted to set it up for free, use a custom URL (and not <em>something.bloggingplatform.com</em>), and be able to both blog and create tutorials. I didn’t mind it possibly being technical<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. Enter Jekyll.</p>
+<div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;Specifically, I was interested in being able to use the command line for my posts. Additionally, I didn’t mind seeing or using a little bit of code.</p></li></div><p><em>If you want to get your blog in 10 minutes, skip to below.</em></p>
+<section id="why-blog-with-jekyll" class="level1 page-columns page-full">
+<h1>Why Blog with Jekyll?</h1>
+<p>Here’s why you can and should blog with Jekyll (if you’re a data scientist):</p>
+<ol start="2" type="1">
+<li>Jekyll has beautiful, free, open-source templates.</li>
+<li>GitHub will host your website for free<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</li>
+<li>Jekyll is <a href="https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/">static</a>.</li>
+<li>Jekyll can be simple to set up<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>.</li>
+<li>I tried Wordpress and blogger.com and got frustrated.</li>
+<li>The blogging content you create is very portable (easy to take your posts from one blog site to another).</li>
+<li>Creating blogs in Markdown syntax is a dream (even for non-technical folks).</li>
+<li>You can manage your blog from your terminal</li>
+<li>You can manage your blog from your phone (if you have a GitHub-editing app)</li>
+</ol>
+<div class="no-row-height column-margin column-container"><li id="fn2"><p><sup>2</sup>&nbsp;Someone has to <a href="https://www.google.com/search?q=what+does+it+mean+to+host+a+website&amp;oq=what+does+it+mean+to+host+&amp;aqs=chrome.0.0j69i57j0l4.2810j0j9&amp;sourceid=chrome&amp;ie=UTF-8">host</a> it (i.e., store and display all the files). I started off trying to set up a WordPress blog, but you have to pay another company to <a href="http://www.webhostingbest10.com/web-hosting-reviews">host</a>. I didn’t want to bother.</p></li><li id="fn3"><p><sup>3</sup>&nbsp;If you try to set it up by following the instructions on <a href="https://jekyllrb.com/">jekyllrb.com</a>, that’s the complicated way. That’s how I originally started, got lost for five hours, and stopped. Six months later, I found a better way.</p></li></div><p>But if you don’t like debugging occasional errors, you probably shouldn’t blog with Jekyll.</p>
+<p>What is Jekyll, you ask? Jekyll is an open-source blogging platform. Anyone can write a template and post it, and anyone else can use that template. Perusing <a href="http://jekyllthemes.org/">Jekyllthemes.org</a>, you can pick out any template you’d like.</p>
+</section>
+<section id="how-did-i-get-started-with-jekyll" class="level1">
+<h1>How did I get started with Jekyll?</h1>
+<p>As a blogging noob, I’ve discovered there are hundreds of ways to generate a blog (e.g., WordPress, Squarespace, blogger.com, Weebly, etc.). But when my colleague <a href="http://luiarthur.github.io/">Arthur Lui</a> showed me his blog, I wanted something similar. I first tried Wordpress, then tried blogspot, then gave up and followed Arthur’s example and landed with Jekyll.</p>
+</section>
+<section id="set-up-a-blog-in-10-minutes" class="level1">
+<h1>Set up a blog in 10 minutes!</h1>
+<p>I followed this Jekyll <a href="https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/">tutorial</a> to set up my first blog. I’ll simplify those steps here to get you up and running quickly:</p>
+<ol type="1">
+<li>Get a GitHub account. (2 min)</li>
+<li>Go to <a href="http://jekyllthemes.org/">Jekyllthemes.org</a>. All of these blog themes are free. Find one you like, and Fork the repo (i.e., “repository”). (2-60 min, depending on how long you peruse)</li>
+<li>In GitHub, rename the newly-forked repo from “REPO name” to “yourgithubusername.github.io”. (1 min)</li>
+<li>Now go to “githubusername.github.io”. Voila, you have a blog.</li>
+</ol>
+<p>And if you want to start writing posts, go to your “_posts” folder. Then create new files and follow the default templates that the repository provides. (The blogs will need to be written in Markdown syntax.)</p>
+<p>That was my 10 minute promise. If you feel a bit cheated or lost, go to the well-done <a href="https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/">tutorial</a> and do all the steps. But the steps I listed are the essential steps to setting up a blog from scratch. So if you want to make a few blogs really quickly, after you figure out the first one the others follow nicely. For example, once I finished the tutorial, I followed those steps above to try two other themes before deciding on the <a href="https://github.com/bencentra/centrarium">Centrarium</a> theme.</p>
+<p>To get Centrarium to work, I did have to change some configurations in the “_config.yml”, so there can be some minor debugging depending on the theme you choose. But with a little patience and some Googling, you’ll get it.</p>
+</section>
+<section id="add-to-jekyll-a-custom-url-from-godaddy" class="level1">
+<h1>Add to Jekyll a custom URL from GoDaddy</h1>
+<p>You’ll notice I have a custom URL and not “bryanwhiting.github.io”. I used GoDaddy to get a domain. (I have no affiliation with GoDaddy.) Here’s how I linked GoDaddy with my GitHub Jekyll blog:</p>
+<ol type="1">
+<li>Get a domain.</li>
+<li>In your Github repo, change (or create) a CNAME file in the main directory. (See my <a href="https://github.com/bryanwhiting/bryanwhiting.github.io/blob/master/CNAME">CNAME</a> file for an example). And for the CNAME file contents, just type in the new “www” that you registered through GoDaddy.</li>
+<li>Then, on GoDaddy, go to the section “DNS Management”. Here’s where you tell GoDaddy how to connect your newly purchased “www” with GitHub. Create the following connections:</li>
+<li>[Type, Name, Value, TTL] = [A, @, 192.30.252.153, 600 seconds]</li>
+<li>[Type, Name, Value, TTL] = [A, @, 192.30.252.154, 600 seconds]</li>
+<li>[Type, Name, Value, TTL] = [CNAME, ftp, yourgithubusername.github.io, 600 seconds]</li>
+<li>[Type, Name, Value, TTL] = [CNAME, www, yourgithubusername.github.io, 600 seconds]</li>
+</ol>
+<p>If you have the CNAME file in your GitHub folder, GitHub and GoDaddy will talk and after a few minutes your custom “www” will work. You don’t technically need the two [A] steps, but those connections allow users to type “<a href="http://www.bryanwhiting.com">bryanwhiting.com</a>” instead of “www.bryanwhiting.com”. It can take up to 24 hours before these [A] connections enable, so don’t be worried if the short URL doesn’t work first try. But the full URL should work soon enough.</p>
+
+
+</section>
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        typesetMath(container);
+        return container.innerHTML
+      } else {
+        typesetMath(note);
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      typesetMath(note);
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<script src="https://giscus.app/client.js" data-repo="bryanwhiting/blog" data-repo-id="R_kgDOHgq18w" data-category="General" data-category-id="DIC_kwDOHgq1884CTE-n" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Copyright 2021-2024, Bryan Whiting</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link active" href="https://github.com/bryanwhiting" aria-current="page">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/bryan-whiting/">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/bryanwhiting">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="../../index.xml">
+      <i class="bi bi-rss" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

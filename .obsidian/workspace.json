@@ -25,9 +25,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lists/scripture-study-list.md",
+                "file": "_templates/day.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lists/scripture-study-list.md",
+                "file": "_templates/day.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "lists/scripture-study-list.md",
+                "file": "_templates/day.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "lists/scripture-study-list.md"
+                "file": "_templates/day.md"
               }
             }
           }
@@ -199,93 +199,51 @@
   },
   "active": "3e0940abb38815d5",
   "lastOpenFiles": [
-    "docs/img/dalle-library-of-brains.jpeg",
-    "docs/gratitude/things-i-dont-understand.html",
-    "docs/goals-listing.json",
-    "site_libs/bootstrap/bootstrap.min.js",
-    "site_libs/bootstrap/bootstrap.min.css",
-    "site_libs/bootstrap/bootstrap-icons.woff",
-    "site_libs/bootstrap/bootstrap-icons.css",
-    "site_libs/bootstrap",
-<<<<<<< Updated upstream
-    "site_libs/quarto-html/quarto-syntax-highlighting.css",
-    "site_libs/quarto-listing/quarto-listing.js",
-    "site_libs/quarto-listing/list.min.js",
-    "site_libs/quarto-html/zenscroll-min.js",
+    "docs/tech/why-we-want-new-software.html",
+    "docs/tech/what-startups-and-musicians-have-in-common.html",
+    "docs/tech/this-drug-is-habit-forming.html",
+    "docs/tech/the-matrix.html",
+    "docs/tech/the-future-wave-of-ai-hype.html",
+    "docs/tech/swapping-out-human-labor-for-ai.html",
+    "docs/tech/dreaming-software.html",
+    "docs/tech/ai-will-not-replace-human-creativity.html",
+    "docs/tech/a-knife-to-a-gun-fight.html",
+    "docs/tech",
+    "docs/tech.xml",
+    "docs/screenshot-quarto-demo-forbo7-subscribe.png",
+    "docs/quarto-demo-forbo7-huggingface.png",
+    "docs/posts/2017-02-10-ggplot-plotly/ggplot-plotly_files/figure-html/unnamed-chunk-8-1.png",
+    "docs/posts/2017-02-10-ggplot-plotly/ggplot-plotly_files/figure-html/unnamed-chunk-4-1.png",
+    "docs/posts/writing-is-enlivening/photo.jpeg",
+    "docs/posts/write-despite-ai/photo.jpeg",
+    "docs/posts/quarto-from-phone/repo.jpeg",
+    "docs/posts/quarto-from-phone/photo.jpeg",
+    "docs/posts/quarto-feature-requests/photo.jpeg",
+    "docs/posts/2023-12-25-ai-robots-are-mastering-tasks-faster-than-humans-/photo.jpeg",
+    "docs/_templates/new-post.md",
+    "goals/2024-01-19.md",
+    "_templates/day.md",
+    "lists/scripture-study-list.md",
+    "scriptures/1-nephi-9.4.md",
+    "news/2024-01-19-news-notes.md",
+    "christianity/1-nephi-9.md",
+    "1-nephi-3-write-with-a-purpose.md",
     "goals.knit.md",
-    "goals_files/figure-html/fig-goals-1.png",
-    "renv/library/R-4.1/x86_64-apple-darwin17.0/crayon/NEWS.md",
-    "renv/staging/1/crayon/NEWS.md",
-    "img/dalle-ice-rink-outdoors.jpeg",
-    "gratitude/ice-skating.md",
-    "goals/2024-01-15.md",
->>>>>>>-main
-ures/alm    "site_libs/quarto-html/zenscroll-min.js",
-    "site_libs/quarto-html/tippy.umd.min.js",
-    "site_libs/quarto-html/tippy.css",
-    "site_libs/quarto-html/anchor.min.js",
-    "goals.knit.md",
-    "goals_files/figure-html/fig-goals-1.png",
->>>>>>>+Stashed changes
-healing-abstract.jpeg",
-    "gratitude/heaven.md",
-    "gratitude/healing.md",
-    "goals/2024-01-14.md",
-    "docs/img/photo-sunrise-on-hike.jpeg",
-    "docs/img/photo-baby-feet.jpeg",
-    "docs/img/dalle-why-wouldn't-an-angel.jpeg",
-    "docs/img/dalle-weary-wanderer-waiting.jpeg",
-    "creative/vanished.md",
-    "concepts/president-russel-m-nelson.md",
-    "christianity/sacrament-talk-on-missionary-work.md",
-    "christianity/1-nephi-5-trusting-a-promise.md",
-    "christianity/1-nephi-4-why-not.md",
-    "christianity/1-nephi-2-receiving-a-promised-land.md",
-    "christianity/1-nephi-1-praying-for-other-people.md",
-    "christianity/1-Nephi-1-he-prepares-us-to-teach-us.md",
-    "goals/test.md",
-    "goals/2024-01-13 copy.md",
-    "goals/2024-01-11.md"
-=======
-    "site_libs/quarto-search/>>>>>>>-Updated upstrea
-site_lib    "docs/img/dalle-weary-wanderer-waiting.jpeg",
->>>>>>>+Stashed changes
-d.js",
-    "site_libs/quarto-nav/quarto-nav.js",
-    "goals.knit.md",
-    "goals_files/figure-html/fig-goals-1.png",
-    "img/dalle-library-of-brains.jpeg",
     "gratitude/things-i-dont-understand.md",
     "scriptures/revelation-3.16.md",
     "scriptures/mosiah-27.16.md",
-    "scri    "christianity/1-nephi-1-praying-for-other-people.md"
->>>>>>>-Updated upstrea
--21.15.m    "christianity/1-nephi-1-praying-for-other-people.md",
-    "christianity/1-Nephi-1-he-prepares-us-to-teach-us.md",
-    "goals/test.md",
-    "goals/2024-01-13 copy.md",
-    "goals/2024-01-11.md"
->>>>>>>+Stashed changes
-res/1-nephi-3.31.md",
+    "scriptures/mosiah-27.14.md",
+    "scriptures/mosiah-23.28.md",
+    "scriptures/mosiah-21.15.md",
+    "scriptures/matthew-7.3.md",
+    "scriptures/alma-34.26.md",
+    "scriptures/1-nephi-8.27-28.md",
+    "scriptures/1-nephi-7.15-16.md",
+    "scriptures/1-nephi-6.5.md",
+    "scriptures/1-nephi-6.4.md",
+    "scriptures/1-nephi-3.31.md",
     "scriptures/1-nephi-11.1.md",
     "posts/the-problem-with-public-opinions.md",
-    "news/ai-news-01.md",
-    "img/dalle-walking-away.jpeg",
-    "img/dalle-pray-in-your-wilderness.jpeg",
-    "img/dalle-open-source-personified.jpeg",
-    "img/dalle-lehi-dream.jpeg",
-    "img/dalle-guitar-on-the-beach.jpeg",
-    "img/dalle-galileo-stars.jpeg",
-    "img/dalle-dreamy-cloud.jpeg",
-    "img/dalle-chameleon-and-iguana.jpeg",
-    "gratitude/open-source.md",
-    "gratitude/music.md",
-    "goals/2024-01-18.md",
-    "goals/2024-01-17.md",
-    "goals/2024-01-16.md",
-    "creative/apology.md",
-    "christianity/the-power-of-habitual-prayer.md",
-    "christianity/stop-trying-to-change-people.md"
->>>>>>> origin/main
+    "news/ai-news-01.md"
   ]
 }
