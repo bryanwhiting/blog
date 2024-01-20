@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "goals/2024-01-16.md",
+                "file": "christianity/1-nephi-10.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "sun",
+            "query": "updated",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "goals/2024-01-16.md",
+            "file": "christianity/1-nephi-10.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "goals/2024-01-16.md"
+            "file": "christianity/1-nephi-10.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "goals/2024-01-16.md",
+            "file": "christianity/1-nephi-10.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,6 +141,10 @@
   },
   "active": "8cc9e0772b97f8cc",
   "lastOpenFiles": [
+    "img/dalle-ascend-the-hill-by-kneeling-in-prayer.jpeg",
+    "scriptures/1-nephi-10.6.md",
+    "goals/2024-01-16.md",
+    "christianity/1-nephi-10.md",
     "goals/2024-01-17.md",
     "goals/2024-01-18.md",
     "goals/2024-01-19.md",
@@ -178,13 +182,10 @@
     "1-nephi-3-write-with-a-purpose.md",
     "news/2024-01-19-news-notes.md",
     "_templates/new-post.md",
-    "goals/2024-01-16.md",
     "scriptures/1-nephi-9.4.md",
     "gratitude/healing.md",
     "christianity/1-nephi-9.md",
     "gratitude/heaven.md",
-    "gratitude/things-i-dont-understand.md",
-    "christianity/1-nephi-8-what-others-think.md",
-    "scriptures/1-nephi-8.27-28.md"
+    "gratitude/things-i-dont-understand.md"
   ]
 }
