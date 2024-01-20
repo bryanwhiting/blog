@@ -2,18 +2,21 @@
   {
     "listing": "/sitemap.html",
     "items": [
-      "/christianity/1-nephi-10.html",
+      "/book-review/how-to-win-friends-and-influence-people.html",
+      "/goals/2024-01-20.html",
       "/scriptures/1-nephi-10.6.html",
       "/gratitude/baby-formula.html",
       "/book-review/the-wealth-of-nations.html",
       "/book-review/the-inklings.html",
       "/news/2024-01-19-news-notes.html",
+      "/christianity/1-nephi-10-rely-on-the-redeemer.html",
       "/goals/2024-01-19.html",
       "/scriptures/1-nephi-9.4.html",
+      "/christianity/1-nephi-9-write-with-a-purpose.html",
       "/gratitude/things-i-dont-understand.html",
-      "/christianity/1-nephi-9.html",
       "/goals/2024-01-18.html",
       "/scriptures/1-nephi-8.27-28.html",
+      "/scriptures/1-nephi-93.html",
       "/news/ai-news-01.html",
       "/gratitude/music.html",
       "/christianity/the-power-of-habitual-prayer.html",
@@ -260,12 +263,13 @@
   {
     "listing": "/all.html",
     "items": [
-      "/christianity/1-nephi-10.html",
+      "/book-review/how-to-win-friends-and-influence-people.html",
       "/gratitude/baby-formula.html",
       "/book-review/the-wealth-of-nations.html",
       "/book-review/the-inklings.html",
+      "/christianity/1-nephi-10-rely-on-the-redeemer.html",
+      "/christianity/1-nephi-9-write-with-a-purpose.html",
       "/gratitude/things-i-dont-understand.html",
-      "/christianity/1-nephi-9.html",
       "/gratitude/music.html",
       "/christianity/the-power-of-habitual-prayer.html",
       "/christianity/1-nephi-8-what-others-think.html",
@@ -461,6 +465,7 @@
   {
     "listing": "/goals.html",
     "items": [
+      "/goals/2024-01-20.html",
       "/goals/2024-01-19.html",
       "/goals/2024-01-18.html",
       "/goals/2024-01-17.html",
@@ -518,6 +523,7 @@
   {
     "listing": "/books.html",
     "items": [
+      "/book-review/how-to-win-friends-and-influence-people.html",
       "/book-review/the-wealth-of-nations.html",
       "/book-review/the-inklings.html",
       "/book-review/paradise-lost-and-paradise-regained.html",
@@ -714,8 +720,8 @@
       "/gratitude/2023-12-26-i'm-grateful-for-blankets/index.html",
       "/gratitude/2023-12-25-grateful-for-doctors/index.html",
       "/gratitude/2023-12-24-light/index.html",
-      "/christianity/1-nephi-10.html",
-      "/christianity/1-nephi-9.html",
+      "/christianity/1-nephi-10-rely-on-the-redeemer.html",
+      "/christianity/1-nephi-9-write-with-a-purpose.html",
       "/christianity/the-power-of-habitual-prayer.html",
       "/christianity/1-nephi-8-what-others-think.html",
       "/christianity/come-follow-me-2024-01-21-jan-21.html",
@@ -749,6 +755,7 @@
       "/christianity/the-christ-child.html",
       "/christianity/christmas-celebrates-a-living-christ.html",
       "/christianity/three-little-pigs-christ.html",
+      "/book-review/how-to-win-friends-and-influence-people.html",
       "/book-review/the-wealth-of-nations.html",
       "/book-review/the-inklings.html",
       "/book-review/paradise-lost-and-paradise-regained.html",
@@ -787,8 +794,8 @@
   {
     "listing": "/christianity.html",
     "items": [
-      "/christianity/1-nephi-10.html",
-      "/christianity/1-nephi-9.html",
+      "/christianity/1-nephi-10-rely-on-the-redeemer.html",
+      "/christianity/1-nephi-9-write-with-a-purpose.html",
       "/christianity/the-power-of-habitual-prayer.html",
       "/christianity/1-nephi-8-what-others-think.html",
       "/christianity/come-follow-me-2024-01-21-jan-21.html",
