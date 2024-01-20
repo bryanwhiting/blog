@@ -58,33 +58,28 @@ extract_yaml_to_df <- function(file) {
   for(field in list_fields){
     yaml_data[field] = paste(unlist(yaml_data[field]), collapse=", ")
   }
-
-  # missing yaml data columns get set to False
-  for(col in bool_cols){
-    if(is.null(yaml_data[[col]])){
-      yaml_data[[col]] <- FALSE
-    } else {
-        yaml_data[[col]] <- as.logical(yaml_data[[col]])
+  for(field in names(yaml_data)){
+    # missing yaml data columns get set to False
+    if(is.null(yaml_data[[field]])){
+      yaml_data[[field]] <- NA
+    }
+    if(field %in% bool_cols){
+      yaml_data[[field]] <- as.logical(yaml_data[[field]])
+    }
+    if(field %in% num_cols){
+      yaml_data[[field]] <- as.numeric(yaml_data[[field]])
     }
   }
 
-  for(col in c(str_cols, list_cols)){
-    if(is.null(yaml_data[[col]])){
-      yaml_data[[col]] <- "x"
-    } else {
-        yaml_data[[col]] <- as.character(yaml_data[[col]])
-    }
+  result <- try({
+    df <- tibble::as_tibble(yaml_data)
+  })
+
+  if (inherits(result, "try-error")) {
+    cat("Error in file:", file, "\n")
   }
 
-  for(col in num_cols){
-    if(is.null(yaml_data[[col]])){
-      yaml_data[[col]] <- 0
-    } else {
-        yaml_data[[col]] <- as.numeric(yaml_data[[col]])
-    }
-  }
-  
-  return(tibble::as_tibble(yaml_data))
+  return(df)
 }
 
 # add gratitude
