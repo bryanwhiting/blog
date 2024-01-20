@@ -146,7 +146,11 @@ df <- df %>%
     post_cfm_study = stringr::str_detect(categories, 'come follow me'),
     post_gratitude = folder == 'gratitude',
     pelo = ifelse(`pelo-time` > 0, 1, 0),
+<<<<<<< Updated upstream
     cardio = ifelse(`pelo-time` > 0 | `run-dist` > 0 | `hike-dist` > 0 | `jumprope-time` > 0, 1, 0),
+=======
+    cardio = ifelse(`pelo-time` > 0 | `run-dist` > 0 | `hike-dist` > 0, 1, 0),
+>>>>>>> Stashed changes
     strength = ifelse(!is.na(exercises) >= 1, 1, 0)
   ) %>%
   filter(title != "test")
@@ -250,7 +254,11 @@ ggplot(df4, aes(x = week_start_date, y = day_of_week)) +
 #| fig-align: center
 df2_recent <- df2 %>% 
   arrange(desc(date)) %>%
+<<<<<<< Updated upstream
   head(15) %>%
+=======
+  head(14) %>%
+>>>>>>> Stashed changes
   select(
     `Day` = date,
     `📖` = post_cfm_study,
@@ -259,15 +267,22 @@ df2_recent <- df2 %>%
     `🚴🏻‍♂️` = cardio,
     `🏋🏼‍♂️` = strength,
     `🧘🏼‍♂️` = meditate,
+<<<<<<< Updated upstream
     `☀️` = sun,
     `🥷` = sss,
     
+=======
+>>>>>>> Stashed changes
   ) 
 
 # Assuming your data frame is named 'data'
 # First, convert the 'Day' column to the desired format
+<<<<<<< Updated upstream
 df2_recent$Day <- format(as.Date(df2_recent$Day), "%a %m/%e")
 # %e = non zero-padded day
+=======
+df2_recent$Day <- format(as.Date(df2_recent$Day), "%a %b %d")
+>>>>>>> Stashed changes
 
 df2_recent %>%
   gt(id='mygt', rowname_col = "Day") %>%

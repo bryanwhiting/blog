@@ -206,6 +206,7 @@
     "site_libs/bootstrap/bootstrap-icons.woff",
     "site_libs/bootstrap/bootstrap-icons.css",
     "site_libs/bootstrap",
+<<<<<<< Updated upstream
     "site_libs/quarto-html/quarto-syntax-highlighting.css",
     "site_libs/quarto-listing/quarto-listing.js",
     "site_libs/quarto-listing/list.min.js",
@@ -217,6 +218,14 @@
     "img/dalle-ice-rink-outdoors.jpeg",
     "gratitude/ice-skating.md",
     "goals/2024-01-15.md",
+=======
+    "site_libs/quarto-html/zenscroll-min.js",
+    "site_libs/quarto-html/tippy.umd.min.js",
+    "site_libs/quarto-html/tippy.css",
+    "site_libs/quarto-html/anchor.min.js",
+    "goals.knit.md",
+    "goals_files/figure-html/fig-goals-1.png",
+>>>>>>> Stashed changes
     "scriptures/mosiah-4.9.md",
     "scriptures/moses-6.31-32.md",
     "scriptures/hope-of-israel.md",
@@ -238,12 +247,24 @@
     "docs/img/photo-sunrise-on-hike.jpeg",
     "docs/img/photo-baby-feet.jpeg",
     "docs/img/dalle-why-wouldn't-an-angel.jpeg",
+<<<<<<< Updated upstream
+=======
+    "docs/img/dalle-weary-wanderer-waiting.jpeg",
+>>>>>>> Stashed changes
     "creative/vanished.md",
     "concepts/president-russel-m-nelson.md",
     "christianity/sacrament-talk-on-missionary-work.md",
     "christianity/1-nephi-5-trusting-a-promise.md",
     "christianity/1-nephi-4-why-not.md",
     "christianity/1-nephi-2-receiving-a-promised-land.md",
+<<<<<<< Updated upstream
     "christianity/1-nephi-1-praying-for-other-people.md"
+=======
+    "christianity/1-nephi-1-praying-for-other-people.md",
+    "christianity/1-Nephi-1-he-prepares-us-to-teach-us.md",
+    "goals/test.md",
+    "goals/2024-01-13 copy.md",
+    "goals/2024-01-11.md"
+>>>>>>> Stashed changes
   ]
 }

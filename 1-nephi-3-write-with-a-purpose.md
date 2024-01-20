@@ -1,6 +1,6 @@
 ---
-title: 1 Nephi 9 - different books of write g
-description: Some of your work can be r
+title: 1 Nephi 9 - Write with a Purpose
+description: Some of your work can focus on the savior, other work on not the savior.
 date: 2024-01-18 23:59:57
 created: 2024-01-18 23:59:57
 categories:
