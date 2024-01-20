@@ -7,7 +7,7 @@ categories:
 draft: false
 ---
 ### Business books/Self Help
-- [ ] How to win friends and influence people #spotify #libby 
+- [x] How to win friends and influence people #spotify #libby  
 - [ ] This is Marketing #audible-credit 
 - [ ] Ten Day MBA #audible-credit 
 - [ ] Team of Teams #spotify 12hr.
@@ -48,6 +48,7 @@ To finish
 
 - [x] [killers-of-the-flower-moonyfg if](book-review/killers-of-the-flower-moonyfg%20if.md)
 - [x] [how-to-decide-simple-tools-for-making-better-choices](book-review/how-to-decide-simple-tools-for-making-better-choices.md)
+- [ ] Dale Carnegie Lincoln the Unknown #audible-credit 9.5hr
 
 Libby:
 
