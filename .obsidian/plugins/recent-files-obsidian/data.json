@@ -1,20 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "1-nephi-3-write-with-a-purpose",
-      "path": "1-nephi-3-write-with-a-purpose.md"
+      "basename": "scripture-study-list",
+      "path": "lists/scripture-study-list.md"
     },
     {
-      "basename": "2024-01-19",
-      "path": "goals/2024-01-19.md"
+      "basename": "ice-skating",
+      "path": "gratitude/ice-skating.md"
     },
     {
-      "basename": "2024-01-19-news-notes",
-      "path": "news/2024-01-19-news-notes.md"
-    },
-    {
-      "basename": "LOGGING-NOTE (iPhone)",
-      "path": "LOGGING-NOTE (iPhone).md"
+      "basename": "1-nephi-8-what-others-think",
+      "path": "christianity/1-nephi-8-what-others-think.md"
     },
     {
       "basename": "day",
@@ -121,6 +117,11 @@
       "path": "book-review/dune-messiah.md"
     },
     {
+      "basename": "new-post",
+      "path": "_templates/new-post.md"
+    },
+    {
+>>>>>>> origin/main
       "basename": "2024-01-15",
       "path": "goals/2024-01-15.md"
     },
