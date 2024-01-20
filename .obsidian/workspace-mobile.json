@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/1-nephi-10.md",
+                "file": "goals/2024-01-20.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/1-nephi-10.md",
+            "file": "goals/2024-01-20.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/1-nephi-10.md"
+            "file": "goals/2024-01-20.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/1-nephi-10.md",
+            "file": "goals/2024-01-20.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -139,15 +139,19 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8cc9e0772b97f8cc",
+  "active": "be767112276aa446",
   "lastOpenFiles": [
+    "goals/2024-01-19.md",
+    "goals/2024-01-20.md",
+    "christianity/1-nephi-9-write-with-a-purpose.md",
+    "scriptures/1-nephi-93.md",
+    "christianity/1-nephi-8-what-others-think.md",
+    "christianity/1-nephi-10-rely-on-the-redeemer.md",
     "img/dalle-ascend-the-hill-by-kneeling-in-prayer.jpeg",
     "scriptures/1-nephi-10.6.md",
     "goals/2024-01-16.md",
-    "christianity/1-nephi-10.md",
     "goals/2024-01-17.md",
     "goals/2024-01-18.md",
-    "goals/2024-01-19.md",
     "gratitude/baby-formula.md",
     "goals.qmd",
     "img/dalle-baby-formula-rainforest.jpeg",
@@ -177,15 +181,11 @@
     "docs/quarto-demo-forbo7-huggingface.png",
     "docs/img/dalle-half-tree-half-christ-dying.jpeg",
     "docs/img/dalle-plant-a-seed-and-grow.jpeg",
-    "docs/img/dalle-dreamy-cloud.jpeg",
     "docs/_templates/new-post.md",
-    "1-nephi-3-write-with-a-purpose.md",
     "news/2024-01-19-news-notes.md",
     "_templates/new-post.md",
     "scriptures/1-nephi-9.4.md",
     "gratitude/healing.md",
-    "christianity/1-nephi-9.md",
-    "gratitude/heaven.md",
-    "gratitude/things-i-dont-understand.md"
+    "gratitude/heaven.md"
   ]
 }

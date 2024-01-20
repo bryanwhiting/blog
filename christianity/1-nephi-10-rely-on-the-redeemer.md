@@ -1,7 +1,7 @@
 ---
 title: 1 Nephi 10 - Rely on the Redeemer
 description: We are all lost and fallen. Perhaps we can fall to our knees to grow.
-date: 2024-01-20 00:07:57
+date: 2024-01-19T00:07:00
 created: 2024-01-20 00:07:57
 categories:
   - christianity
