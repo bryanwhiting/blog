@@ -11,7 +11,7 @@ draft: false
 date-start: 2024-01-09 20:32:29
 date-finished: 
 pct-complete: 
-book-time: 
+book-time: 6.5
 book-year: "2014"
 ---
 ![The Oxford inklings](../img/book-the-oxford-inklings.jpeg){.preview-image}

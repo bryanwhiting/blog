@@ -1,15 +1,19 @@
 ---
 title: The Quest for Cosmic Justice
-description: by Thomas Sowell
+description: I'm shocked this was written in 1999. I didn't learn the date until after finishing the book. That illustrates that we live in the same general state of challenge that he wrote about, and things haven't changed for 20 years. People in power still seek power. Seek to restrict freedoms of few, in an attempt to empower the many, in the name of equity and cosmic justice.
 date: 2024-01-10 21:21:51
 created: 2024-01-10 21:21:51
 categories:
   - book-review
+  - economics
+  - social justice
+  - politics
 draft: false
 date-start: 2024-01-10 21:21:51
-date-finished: 
-pct-complete: 
+date-finished: 2024-01-19
+pct-complete: "100"
 book-time: 5.85
+author: Thomas Sowell
 ---
 ![Quest for cosmic justice](../img/book-the-quest-for-cosmic-justice.jpeg){.preview-image}
 

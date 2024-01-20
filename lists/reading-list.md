@@ -8,10 +8,10 @@ draft: false
 ---
 ### Business books/Self Help
 - [ ] How to win friends and influence people #spotify #libby 
-- [ ] This is Marketing #audible
-- [ ] Ten Day MBA #audible 
+- [ ] This is Marketing #audible-credit 
+- [ ] Ten Day MBA #audible-credit 
 - [ ] Team of Teams #spotify 12hr.
-- [ ] Wealth of Nations #youtube https://www.youtube.com/watch?v=PH4B-SGf6-A
+- [ ] Wealth of Nations #youtube https://www.youtube.com/watch?v=PH4B-SGf6-A #librivox #audible-credit 36hrs
 - [ ] Competing Against Luck #spotify #audible-credit 7.25hr. $13
 
 ### Fiction
@@ -33,7 +33,7 @@ To finish
 - [ ] Sapiens #libby
 - [ ] Guns germs and steel #libby 
 - [ ] Elon Musk #libby 
-- [ ] The Inklings #spotify 6hr
+- [x] The Oxford Inklings #spotify [The Oxford Inklings: Lewis, Tolkien and Their Circle](../book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md)
 - [ ] The coddling of the American Mind #libby 
 - [ ] The Tyrrany of Experts #libby 
 - [ ] the boys in the boat #libby 
@@ -42,7 +42,7 @@ To finish
 - [ ] Paradise Lost and Paradise Regained #libby 
 - [ ] Mere Christianity #libby 
 - [ ] The Place of the Lion #audible-credit #spotify 7.5
-- [x] The quest for Cosmic Justice - Sowll #audible-free
+- [x] The quest for Cosmic Justice - Sowll #audible-free [The Quest for Cosmic Justice](../book-review/the-quest-for-cosmic-justice.md)
 
 # Backlog
 

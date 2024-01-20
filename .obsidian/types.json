@@ -32,6 +32,7 @@
     "sss": "checkbox",
     "water": "checkbox",
     "water24oz": "checkbox",
-    "basketball-time": "number"
+    "basketball-time": "number",
+    "book-year": "number"
   }
 }
