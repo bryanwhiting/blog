@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "day",
+      "path": "_templates/day.md"
+    },
+    {
+      "basename": "2024-01-19",
+      "path": "goals/2024-01-19.md"
+    },
+    {
       "basename": "scripture-study-list",
       "path": "lists/scripture-study-list.md"
     },

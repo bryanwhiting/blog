@@ -1,4 +1,20 @@
----
+<%*
+// folder where this template will be rendered
+const folder = 'goals';
+
+const ymd = "YYYY-MM-DD"
+const ddmd = "dd M/D"
+const yday = moment(tp.file.title, ymd).add(-1, 'days')
+const tday = moment(tp.file.title, ymd).add(0, 'days')
+const tom = moment(tp.file.title, ymd).add(1, 'days')
+
+// create header
+let left = `[⏪ ${yday.format(ddmd)}](${folder}/${yday.format(ymd)})`;
+let middle = moment(tp.file.title,'YYYY-MM-DD').format("dddd, MMMM Do, yyyy");
+let right = `[${tom.format(ddmd)} ⏩](${folder}/${tom.format(ymd)})`;
+let header =  `${left} | **${middle}** | ${right}`;
+
+-%>---
 date: <% tp.date.now() %>
 title: <% tp.date.now() %>
 description: x
@@ -28,3 +44,6 @@ hike-elev: 0
 hike-time: 0
 basketball-time: 0
 ---
+<%header%>
+
+
