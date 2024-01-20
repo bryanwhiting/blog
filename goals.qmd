@@ -13,7 +13,7 @@ listing:
   page-size: 30
   grid-item-border: true
   feed: false
-  categories: cloud
+  categories: false
 execute:
   echo: false
   warning: false
@@ -83,85 +83,7 @@ Fun:
 
 ```{r}
 #| label: prep-data
-library(dplyr)
-library(ggplot2)
-library(purrr)
-library(tidyr)
-library(gt)
-
-
-# list_fields = c('categories', 'body-zones', 'exercies')
-
-extract_yaml_to_df <- function(file) {
-  # file = "christianity/three-little-pigs-christ.md"  
-  # cat("Reading file", file)
-  file_content <- readLines(file)
-  yaml_lines <- grep("---", file_content)
-  yaml_start <- yaml_lines[1] + 1
-  yaml_end <- yaml_lines[2] - 1
-  # yaml content
-  yaml_list <- file_content[(yaml_start):(yaml_end)]
-  yaml_text = paste(yaml_list, collapse = "\n")
-  yaml_data <- yaml::read_yaml(text=yaml_text)
-  yaml_data
-  # Anything that's a vector should be listed and collapsed
-  list_fields <- names(yaml_data)[sapply(yaml_data, function(x) is.vector(x) && length(x) > 1)]
-  for(field in list_fields){
-    yaml_data[field] = paste(unlist(yaml_data[field]), collapse=", ")
-  }
-  return(tibble::as_tibble(yaml_data))
-}
-
-# add gratitude
-dirs <- c('goals', 'gratitude', "christianity")
-df <- tibble::tibble()
-for(dir in dirs){
-  files <- list.files(path = dir, pattern = "*.md", full.names = TRUE)
-  for(file in files){
-    # print(file)
-    # convert to df
-    df_new <- extract_yaml_to_df(file) 
-    df_new$folder = dir
-    df <- bind_rows(df, df_new)
-  }
-}
-
-
-df$date <- lubridate::parse_date_time(df$date, orders = c("ymd", "ymd HMS", "ymd HM", "ymdHMS", "ymdHM")) 
-df$date <- as.Date(df$date)
-
-# add missing columsn
-for(col in c('run-dist', 'hike-dist', 'jumprope-time')){
-  if(!(col %in% colnames(df))){
-    df[[col]] <- 0
-  }
-}
-# fill in missing defaults, characters are set to 'x' by default in _day journal
-df <- df %>%
-  mutate(across(where(is.character), ~ifelse(. == 'x', NA, .)))
-
-# Create "cardio" and "strength" flags
-df <- df %>% 
-  mutate(
-    post_cfm_study = stringr::str_detect(categories, 'come follow me'),
-    post_gratitude = folder == 'gratitude',
-    pelo = ifelse(`pelo-time` > 0, 1, 0),
-    cardio = ifelse(`pelo-time` > 0 | `run-dist` > 0 | `hike-dist` > 0 | `jumprope-time` > 0, 1, 0),
-    strength = ifelse(!is.na(exercises) >= 1, 1, 0)
-  ) %>%
-  filter(title != "test")
-
-# df2 = daily df
-df2 <- df %>%
-  select(
-    date, pray, meditate, cardio, strength, post_cfm_study, post_gratitude, sun,sss
-  ) %>% 
-  mutate(across(-date, as.numeric)) %>%
-  mutate(across(-date, ~replace_na(., 0))) %>%
-  group_by(date) %>%
-  summarize_all(max) %>%
-  ungroup() %>%
-  arrange(desc(date))
+source('goals.R')
 ```
 
 ::: {.panel-tabset}
@@ -170,135 +92,18 @@ df2 <- df %>%
 
 ```{r}
 #| label: fig-goals
-#| fig-height: 2
+#| fig-height: 1.5
 #| fig-width: 7
 #| fig-align: center
 #| fig-cap: "Goals"
-df3 <- df2 %>% 
-  rowwise() %>%
-  mutate(total_goals = sum(pray, meditate, strength, cardio, post_cfm_study, post_gratitude)) %>%
-  ungroup() %>%
-  select(date, total_goals) 
-
-
-df_dates <- bind_rows(data.frame(date = seq(as.Date("2024-01-01"), as.Date("2024-12-31"), by = "days"))) %>%
-  mutate(day_of_month = lubridate::day(date)) %>%
-  mutate(month_type = ifelse(lubridate::month(date) %% 2 == 0, 1, 0))
-
-df4 <- left_join(df_dates, df3, by = 'date') %>%
-  mutate(#week_of_year = lubridate::week(date),
-         week_start_date = lubridate::floor_date(date, "week"),
-         day_of_week = lubridate::wday(date, label = TRUE)) %>%
-  mutate(total_goals = replace_na(total_goals, 0))
-
-
-
-# p1 <- ggplot(df4, aes(x = week_start_date, y = day_of_week)) +
-#   geom_tile(aes(fill = as.factor(month_type)), show.legend = FALSE) +
-#   scale_fill_manual(values = c("0" = "white", "1" = "lightgray")) + 
-#   theme_minimal()
-
-# p2 <- ggplot(df4, aes(x = week_start_date, y = day_of_week)) +
-#   geom_tile(aes(fill = total_goals), color = "white", width = 5, height = 0.9) +
-#   scale_fill_gradient(low = "white", high = "darkgreen", limits = c(1, 6)) +
-#   theme_minimal()
-
-# library(gtable)
-# g1 <- ggplotGrob(p1)
-# g2 <- ggplotGrob(p2)
-
-# # Make sure the sizes match
-# g2$widths <- g1$widths
-# g2$heights <- g1$heights
-
-# # Overlay the plots
-# g <- rbind(g1, g2, size = "first")
-# g <- gtable::gtable_add_grob(g, g2$grobs, t = 1, l = 1, z = Inf)
-
-# # Draw the combined plot
-# grid.newpage()
-# grid.draw(g)
-
-# p1 + annotation_custom(ggplotGrob(p2), xmin = min(df4$week_start_date), xmax = max(df4$week_start_date), ymin = min(df4$day_of_week), ymax = max(df4$day_of_week))
-
-
-
-
-ggplot(df4, aes(x = week_start_date, y = day_of_week)) +
-  theme_minimal() +
-  # background shading - nearly works.
-  # geom_tile(aes(color=as.factor(month_type)), show.legend = FALSE) + 
-  # geom_tile(aes(color=as.factor(month_type))) + 
-  # scale_color_manual(values = c("white", "lightgray")) +
-  # add titles for goals
-  # geom_tile( aes(color = total_goals), color = "white", width = 5, height = 0.9) +
-  geom_tile(data=df4, aes(fill = total_goals), color = "white", width = 5, height = 0.9) + 
-  scale_fill_gradient(low = "white", high = "darkgreen", limits = c(0, 6)) +
-  labs(x = "", y = "", fill='Habits\nAccomplished', title = "Daily Success") +
-  scale_x_date(limits = as.Date(c("2023-12-25", "2024-12-31")), labels = scales::date_format("%b")) +
-  scale_y_discrete(limits = rev(levels(df4$day_of_week))) +
-  theme(axis.text.x = element_text(angle = 0, hjust = 0),
-        panel.grid.major = element_blank(),
-        panel.grid.minor = element_blank(),
-        panel.border = element_blank(),
-        axis.ticks = element_blank())
+plt_github_daily_habits
 ```
 
 ```{r}
 #| label: fig-goals-table
 #| fig-cap: Recent streak
 #| fig-align: center
-df2_recent <- df2 %>% 
-  arrange(desc(date)) %>%
-  head(15) %>%
-  select(
-    `Day` = date,
-    `📖` = post_cfm_study,
-    `🙏🏻` = post_gratitude,
-    `🛐` = pray,
-    `🚴🏻‍♂️` = cardio,
-    `🏋🏼‍♂️` = strength,
-    `🧘🏼‍♂️` = meditate,
-    `☀️` = sun,
-    `🥷` = sss,
-    
-  ) 
-
-# Assuming your data frame is named 'data'
-# First, convert the 'Day' column to the desired format
-df2_recent$Day <- format(as.Date(df2_recent$Day), "%a %m/%e")
-# %e = non zero-padded day
-
-df2_recent %>%
-  gt(id='mygt', rowname_col = "Day") %>%
-  data_color(
-    method = "numeric",
-    palette = c("white", "darkgreen"),
-    domain = c(0, 1)
-  ) %>%
-  tab_header(
-    title = "Daily Habits"
-  ) |>
-  tab_style(
-    style = list(
-      cell_text(color = "transparent")
-    ),
-    locations = cells_body(
-      columns = c(2:9)  # replace with the actual column indices or names
-    )
-  ) %>%
-  cols_align(align = "center") %>%
-  tab_style(
-    style = cell_borders(sides = "right", color = "white", weight = px(1)),
-    locations = cells_body(columns = everything())
-  ) %>%
-  cols_width(
-    Day ~ px(100),
-    everything() ~ px(50),
-  ) %>%
-  tab_source_note(
-    md("📖: Study, 🙏🏻: Gratitude, 🛐: Pray, 🚴🏻‍♂️: Cardio, 🏋🏼‍♂️: Strength, 🧘🏼‍♂️: Meditate")
-  )
+tab_l15_daily_habits
 ```
 
 ##### Records
@@ -306,32 +111,7 @@ df2_recent %>%
 #| label: fig-peloton
 #| fig-cap: Peloton Records
 #| fig-align: center
-df %>% 
-  filter(pelo == 1) %>%
-  filter(date >= Sys.Date() - 60) %>%
-  group_by(`pelo-time`) %>%
-  filter(`pelo-kj` == max(`pelo-kj`)) %>%
-  select(`pelo-time`, `pelo-kj`, `pelo-avg`, date, `workout-notes`) %>%
-  ungroup() %>%
-  mutate(`90%` = paste0("", .9 * `pelo-kj`, "KJ\n(", .9 * `pelo-avg`, "avg)")) %>%
-  mutate(`80%` = paste0("", .8 * `pelo-kj`, "KJ (", .8 * `pelo-avg`, "avg)")) %>%
-  mutate(`70%` = paste0("", .7 * `pelo-kj`, "KJ (", .7 * `pelo-avg`, "avg)")) %>%
-  gt() %>%
-  cols_width(
-    `90%` ~ px(70),
-    `80%` ~ px(70),
-    `70%` ~ px(70),
-    # everything() ~ px(150),
-  ) %>%
-  cols_label(
-    `pelo-time` = "Time",
-    `pelo-kj` = "KJ",
-    `pelo-avg` = "Avg W",
-    `workout-notes` = "Notes",
-    `date` = "Day"
-  ) %>%
-  tab_header(title = "Bike Records")
-
+tab_pelo_records
 ```
 
 :::
