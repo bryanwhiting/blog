@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/baby-formula.md",
+                "file": "goals/2024-01-19.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "gratitude/baby-formula.md",
+            "file": "goals/2024-01-19.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "gratitude/baby-formula.md"
+            "file": "goals/2024-01-19.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "gratitude/baby-formula.md",
+            "file": "goals/2024-01-19.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,10 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "gratitude/baby-formula.md",
+    "goals.qmd",
     "img/dalle-baby-formula-rainforest.jpeg",
     "book-review/the-inklings.md",
-    "gratitude/baby-formula.md",
     "lists/reading-list.md",
     "book-review/the-wealth-of-nations.md",
     "book-review/the-quest-for-cosmic-justice.md",
@@ -166,12 +167,10 @@
     "docs/gratitude/2023-12-25-grateful-for-doctors/index.html",
     "docs/gratitude/beaches.html",
     "docs/gratitude/eyes.html",
-    "docs/gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.html",
     "docs/quarto-demo-forbo7-huggingface.png",
     "docs/img/dalle-half-tree-half-christ-dying.jpeg",
     "docs/img/dalle-plant-a-seed-and-grow.jpeg",
     "docs/img/dalle-dreamy-cloud.jpeg",
-    "docs/img/photo-sunrise-on-hike.jpeg",
     "docs/_templates/new-post.md",
     "1-nephi-3-write-with-a-purpose.md",
     "goals/2024-01-19.md",
