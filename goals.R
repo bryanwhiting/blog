@@ -35,7 +35,10 @@ str_cols = c(
     "title",
     "description",
     "workout-vibe",
-    "workout-notes"
+    "workout-notes",
+    "date",
+    "updated",
+    "created"
 )
 
 extract_yaml_to_df <- function(file) {
