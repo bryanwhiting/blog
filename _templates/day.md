@@ -1,12 +1,14 @@
 ---
 date: <% tp.date.now() %>
+title: <% tp.date.now() %>
+description: x
+categories:
+  - goals
 sun: false
 water24oz: false
 pray: false
 meditate: false
 sss: false
-title: <% tp.date.now() %>
-description: x
 workout-time: 0
 muscle-groups:
   - x
@@ -24,7 +26,5 @@ run-time: 0
 hike-dist: 0
 hike-elev: 0
 hike-time: 0
-categories:
-  - goals
 basketball-time: 0
 ---

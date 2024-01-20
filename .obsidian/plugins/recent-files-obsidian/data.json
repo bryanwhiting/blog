@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "LOGGING-NOTE (iPhone)",
+      "path": "LOGGING-NOTE (iPhone).md"
+    },
+    {
+      "basename": "2024-01-19-news-notes",
+      "path": "news/2024-01-19-news-notes.md"
+    },
+    {
       "basename": "day",
       "path": "_templates/day.md"
     },
     {
+      "basename": "new-post",
+      "path": "_templates/new-post.md"
+    },
+    {
+      "basename": "2024-01-19",
+      "path": "goals/2024-01-19.md"
+    },
+    {
       "basename": "2024-01-18",
       "path": "goals/2024-01-18.md"
+    },
+    {
+      "basename": "2024-01-16",
+      "path": "goals/2024-01-16.md"
+    },
+    {
+      "basename": "1-nephi-3-write-with-a-",
+      "path": "1-nephi-3-write-with-a-.md"
+    },
+    {
+      "basename": "healing",
+      "path": "gratitude/healing.md"
+    },
+    {
+      "basename": "heaven",
+      "path": "gratitude/heaven.md"
     },
     {
       "basename": "things-i-dont-understand",
@@ -23,10 +55,6 @@
     {
       "basename": "ai-news-01",
       "path": "news/ai-news-01.md"
-    },
-    {
-      "basename": "2024-01-16",
-      "path": "goals/2024-01-16.md"
     },
     {
       "basename": "1-nephi-7-commitment",
@@ -91,10 +119,6 @@
     {
       "basename": "dune-messiah",
       "path": "book-review/dune-messiah.md"
-    },
-    {
-      "basename": "new-post",
-      "path": "_templates/new-post.md"
     },
     {
       "basename": "2024-01-15",

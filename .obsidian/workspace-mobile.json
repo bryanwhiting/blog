@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_templates/day.md",
+                "file": "LOGGING-NOTE (iPhone).md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "_templates/day.md",
+            "file": "LOGGING-NOTE (iPhone).md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "_templates/day.md"
+            "file": "LOGGING-NOTE (iPhone).md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "_templates/day.md",
+            "file": "LOGGING-NOTE (iPhone).md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,14 +141,26 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "news/2024-01-19-news-notes.md",
+    "Untitled 3.md",
+    "_templates/day.md",
+    "_templates/new-post.md",
+    "goals/2024-01-19.md",
+    "goals/2024-01-18.md",
+    "LOGGING-NOTE (iPhone).md",
+    "goals/2024-01-16.md",
+    "1-nephi-3-write-with-a-.md",
+    "img/dalle-writing-on-gold-plates.jpeg",
+    "scriptures/1-nephi-9.4.md",
+    "gratitude/healing.md",
+    "christianity/1-nephi-9.md",
+    "gratitude/heaven.md",
     "docs/christianity/1-nephi-8-what-others-think.html",
     "docs/news/ai-news-01.html",
     "docs/img/dalle-dreamy-cloud.jpeg",
     "docs/img/dalle-lehi-dream.jpeg",
     "docs/scriptures/1-nephi-8.27-28.html",
     "docs/goals/2024-01-18.html",
-    "goals/2024-01-18.md",
-    "_templates/day.md",
     "gratitude/things-i-dont-understand.md",
     "goals/2024-01-17.md",
     "christianity/1-nephi-8-what-others-think.md",
@@ -156,7 +168,6 @@
     "img/dalle-lehi-dream.jpeg",
     "news/ai-news-01.md",
     "img/dalle-dreamy-cloud.jpeg",
-    "goals/2024-01-16.md",
     "christianity/1-nephi-7-commitment.md",
     "gratitude/music.md",
     "img/dalle-guitar-on-the-beach.jpeg",
@@ -167,25 +178,14 @@
     "scriptures/mosiah-27.16.md",
     "scriptures/mosiah-27.14.md",
     "scriptures/mosiah-23.28.md",
-    "scriptures/matthew-7.3.md",
     "img/dalle-pray-in-your-wilderness.jpeg",
-    "scriptures/mosiah-21.15.md",
-    "scriptures/alma-34.26.md",
-    "christianity/find-the-fun.md",
-    "book-review/the-quest-for-cosmic-justice.md",
-    "posts/the-problem-with-public-opinions.md",
-    "christianity/come-follow-me-2024-01-21-jan-21.md",
-    "book-review/paradise-lost-and-paradise-regained.md",
     "img/dalle-walking-away.jpeg",
-    "scriptures/revelation-3.16.md",
     "docs/gratitude/ice-skating.html",
     "docs/gratitude.xml",
     "img/dalle-galileo-stars.jpeg",
-    "img/book-paradise-lost-and-paradise-regained.jpeg",
     "docs/goals/2024-01-13.html",
     "docs/scriptures/1-nephi-2.11.html",
     "docs/goals/test.html",
-    "docs/goals/2024-01-12.html",
-    "docs/christianity/poem-lint.html"
+    "docs/goals/2024-01-12.html"
   ]
 }

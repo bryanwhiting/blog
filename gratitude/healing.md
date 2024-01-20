@@ -1,7 +1,6 @@
 ---
 title: I'm Grateful for Healing
-description: |
-  x
+description: That it's possible and that I've experienced it
 date: 2024-01-13T23:59:00
 created: 2024-01-13T23:59:00
 categories:

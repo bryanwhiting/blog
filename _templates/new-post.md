@@ -6,7 +6,18 @@ const folders = ["book-review", "christianity", "concepts", "creative", "gratitu
 // user choose a folder  
 let folder = await tp.system.suggester(folders, folders);
 
+
+// Get current date  
+let date = tp.date.now("YYYY-MM-DD HH:mm:ss");
+let ymd = tp.date.now();
+
 // Ask for a title  
+
+if (folder === 'news') {  
+	let slug = `${ymd}-news-notes`;
+	let title = `News Notes for ${ymd}`;
+} else {
+
 let title = await tp.system.prompt("Post title:");
 
 // Convert title to a slug  
@@ -23,14 +34,12 @@ if (folder === 'goals') {
 } else {
     slug = await tp.system.prompt("Slug/Filename:", fileNameSlug)
 }
+}
+
 
 if (folder === 'gratitude') {  
 	title = `I'm Grateful for ${title}`
 }
-
-
-// Get current date  
-let date = tp.date.now("YYYY-MM-DD HH:mm:ss");
 
 
 // YAML front matter  

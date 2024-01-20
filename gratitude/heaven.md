@@ -1,6 +1,6 @@
 ---
 title: I'm Grateful for Heaven
-description: As a concept
+description: As a concept and as a place
 date: 2024-01-14 22:48:24
 created: 2024-01-14 22:48:24
 categories:
