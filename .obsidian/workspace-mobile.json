@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "goals/2024-01-20.md",
+                "file": "christianity/choosing-to-press-forward.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 4
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "goals/2024-01-20.md",
+            "file": "christianity/choosing-to-press-forward.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "goals/2024-01-20.md"
+            "file": "christianity/choosing-to-press-forward.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "goals/2024-01-20.md",
+            "file": "christianity/choosing-to-press-forward.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,10 +141,22 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-the-tree-of-light.jpeg",
+    "goals/2024-01-20.md",
+    "christianity/choosing-to-press-forward.md",
+    "christianity/stop-trying-to-change-people.md",
+    "christianity/unknown-god.md",
+    "scriptures/1-nephi-8.24.md",
+    "gratitude/social-gatherings.md",
+    "img/dalle-banjo-at-the-library.jpeg",
+    "sacrament-symbols/symbol-beam.md",
+    "scriptures/matthew-16.24-26.md",
+    "img/dalle-wooden-beam-church.jpeg",
+    "creative/cuddles.md",
+    "img/dalle-cuddle-bear-lovey.jpeg",
     "lists/reading-list.md",
     "book-review/how-to-win-friends-and-influence-people.md",
     "img/book-how-to-win-friends.jpeg",
-    "goals/2024-01-20.md",
     "goals/2024-01-19.md",
     "christianity/1-nephi-9-write-with-a-purpose.md",
     "scriptures/1-nephi-93.md",
@@ -163,10 +175,6 @@
     "book-review/the-quest-for-cosmic-justice.md",
     "img/book-wealth-of-nations-book-1.jpeg",
     "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
-    "LOGGING-NOTE (iPhone).md",
-    "Untitled 2.md",
-    "book-review/huu.md",
-    "_templates/day.md",
     "docs/tech.xml",
     "docs/listings.json",
     "docs/CNAME",
@@ -176,15 +184,8 @@
     "docs/gratitude/img/little-lamb.png",
     "docs/gratitude/2023-12-24-light/photo.jpeg",
     "docs/gratitude/2023-12-24-light/index.html",
-    "docs/gratitude/2023-12-25-grateful-for-doctors/photo.jpeg",
     "docs/gratitude/2023-12-25-grateful-for-doctors/index.html",
     "docs/gratitude/beaches.html",
-    "docs/gratitude/eyes.html",
-    "docs/quarto-demo-forbo7-huggingface.png",
-    "docs/img/dalle-half-tree-half-christ-dying.jpeg",
-    "docs/_templates/new-post.md",
-    "news/2024-01-19-news-notes.md",
-    "_templates/new-post.md",
-    "scriptures/1-nephi-9.4.md"
+    "docs/gratitude/eyes.html"
   ]
 }
