@@ -106,5 +106,7 @@ And why do we always want His spirit to be with us? Because the spirit is a prox
 
 So when I take the sacrament every week, I'm making the covenant to always remember Him so that I can enjoy the *gift* of *receiving* the Holy Ghost always. 
 
+***
+Why is this relevant to me personally?
 
-
+- the *gift* isn't some separate power that I can offend or please. It's not some separate God. Instead, the gift is a covenant. This changes my focus away from a relationship with the Holy Ghost and instead a relationship with the Savior. The purpose of the holy ghost is to point me to the Savior. And if I'm not feeling the spirit, it's not about trying to please the Holy Ghost - I just need to begin remembering the savior in that moment. 
