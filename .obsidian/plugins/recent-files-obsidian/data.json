@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "1-nephi-11-seeing-signs-of-christ",
+      "path": "christianity/1-nephi-11-seeing-signs-of-christ.md"
+    },
+    {
+      "basename": "early-morning-workouts",
+      "path": "gratitude/early-morning-workouts.md"
+    },
+    {
       "basename": "2024-01-22",
       "path": "goals/2024-01-22.md"
+    },
+    {
+      "basename": "day",
+      "path": "_templates/day.md"
+    },
+    {
+      "basename": "how-to-win-friends-and-influence-people",
+      "path": "book-review/how-to-win-friends-and-influence-people.md"
     },
     {
       "basename": "2024-01-21",
@@ -97,10 +113,6 @@
       "path": "lists/reading-list.md"
     },
     {
-      "basename": "how-to-win-friends-and-influence-people",
-      "path": "book-review/how-to-win-friends-and-influence-people.md"
-    },
-    {
       "basename": "2024-01-19",
       "path": "goals/2024-01-19.md"
     },
@@ -151,10 +163,6 @@
     {
       "basename": "the-oxford-inklings-lewis-tolkien-and-their-circle",
       "path": "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md"
-    },
-    {
-      "basename": "day",
-      "path": "_templates/day.md"
     }
   ],
   "omittedPaths": [],

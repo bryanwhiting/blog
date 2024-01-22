@@ -43,6 +43,7 @@ hike-dist: 0
 hike-elev: 0
 hike-time: 0
 basketball-time: 0
+draft: false
 ---
 <%header%>
 
