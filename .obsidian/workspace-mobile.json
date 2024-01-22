@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "creative/poem-lint.md",
+                "file": "sacrament-symbols/receive-the-holy-ghost.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "creative/poem-lint.md",
+            "file": "sacrament-symbols/receive-the-holy-ghost.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "creative/poem-lint.md"
+            "file": "sacrament-symbols/receive-the-holy-ghost.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "creative/poem-lint.md",
+            "file": "sacrament-symbols/receive-the-holy-ghost.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -139,8 +139,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "be767112276aa446",
+  "active": "78912cccc2282195",
   "lastOpenFiles": [
+    "creative/poem-lint.md",
     "sacrament-symbols/vaulted-ceiling.md",
     "sacrament-symbols/support-beams-represent-the-cross.md",
     "sacrament-symbols/receive-the-holy-ghost.md",
@@ -171,7 +172,6 @@
     "goals/2024-01-21.md",
     "christianity/choosing-to-press-forward.md",
     "img/dalle-the-tree-of-light.jpeg",
-    "christianity/stop-trying-to-change-people.md",
     "img/dalle-banjo-at-the-library.jpeg",
     "img/dalle-wooden-beam-church.jpeg",
     "img/dalle-cuddle-bear-lovey.jpeg",
