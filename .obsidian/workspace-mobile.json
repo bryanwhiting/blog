@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sacrament-symbols/receive-the-holy-ghost.md",
+                "file": "sacrament-symbols/vaulted-ceiling.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 4
+    "currentTab": 0
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "sacrament-symbols/receive-the-holy-ghost.md",
+            "file": "sacrament-symbols/vaulted-ceiling.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "sacrament-symbols/receive-the-holy-ghost.md"
+            "file": "sacrament-symbols/vaulted-ceiling.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "sacrament-symbols/receive-the-holy-ghost.md",
+            "file": "sacrament-symbols/vaulted-ceiling.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -139,10 +139,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "be767112276aa446",
+  "active": "78912cccc2282195",
   "lastOpenFiles": [
-    "img/book-how-to-win-friends.jpeg",
+    "sacrament-symbols/support-beams-represent-the-cross.md",
     "sacrament-symbols/receive-the-holy-ghost.md",
+    "img/book-how-to-win-friends.jpeg",
     "scriptures/gift-of-the-holy-ghost.md",
     "scriptures/doctrine-and-covenants-49.14.md",
     "scriptures/acts-10.45.md",
