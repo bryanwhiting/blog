@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sacrament-symbols/receive-the-holy-ghost.md",
+                "file": "goals/2024-01-22.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "sacrament-symbols/receive-the-holy-ghost.md",
+            "file": "goals/2024-01-22.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "sacrament-symbols/receive-the-holy-ghost.md"
+            "file": "goals/2024-01-22.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "sacrament-symbols/receive-the-holy-ghost.md",
+            "file": "goals/2024-01-22.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,8 +141,16 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "book-review/saints-book-1-the-standard-of-truth-1815-1846.md",
+    "goals/2024-01-21.md",
+    "goals/2024-01-22.md",
+    "gratitude/similarities.md",
+    "img/dalle-human-similarities.jpeg",
+    "christianity/come-follow-me-2024-01-21-jan-21.md",
+    "img/dalle-1-nephi-610-summary.jpeg",
+    "posts/mark-cuban-mogul-support.md",
+    "img/photo-mark-cuban-youtube.jpeg",
     "sacrament-symbols/receive-the-holy-ghost.md",
+    "book-review/saints-book-1-the-standard-of-truth-1815-1846.md",
     "docs/creative/poem-lint.html",
     "docs/concepts/sacrament-covenant.html",
     "docs/img/dalle-receive-the-holy-ghostXimage-the-resurrected-christ-in-white-laying-both-of-his-hands-on-the-heads-of-one-person-water-colors-peaceful--inside-focus-on-the-savior-phase-out-other-things-impressionist.jpeg",
@@ -177,15 +185,7 @@
     "scriptures/john-15.26.md",
     "scriptures/john-14.16-18.md",
     "scriptures/john-16.7.md",
-    "scriptures/moroni-4.3.md",
-    "scriptures/doctrine-and-covenants-35.6.md",
-    "scriptures/john-20.22.md",
-    "goals/2024-01-20.md",
-    "goals/2024-01-21.md",
     "img/dalle-the-tree-of-light.jpeg",
-    "img/dalle-banjo-at-the-library.jpeg",
-    "img/dalle-wooden-beam-church.jpeg",
-    "img/dalle-cuddle-bear-lovey.jpeg",
-    "img/dalle-ascend-the-hill-by-kneeling-in-prayer.jpeg"
+    "img/dalle-banjo-at-the-library.jpeg"
   ]
 }
