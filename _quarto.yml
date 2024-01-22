@@ -91,7 +91,8 @@ format:
     code-link: true
     anchor-sections: true
     fig-cap-location: margin
-    reference-location: margin
+    # if you want footnotes on side:
+    # reference-location: margin
     # mainfont: "Lato"
     # monofont: "Fira Mono"
     footnotes-hover: true
