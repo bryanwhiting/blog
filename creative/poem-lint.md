@@ -4,10 +4,10 @@ description: a poem on lint
 date: 2024-01-11 23:50:31
 created: 2024-01-11 23:50:31
 categories:
-  - christianity
   - babies
   - parenting
   - poem
+  - creative
 draft: false
 ---
 
