@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/turn-to-god-not-your-idols.md",
+                "file": "posts/writing-only-makes-sense-to-the-author.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/turn-to-god-not-your-idols.md",
+            "file": "posts/writing-only-makes-sense-to-the-author.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/turn-to-god-not-your-idols.md"
+            "file": "posts/writing-only-makes-sense-to-the-author.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/turn-to-god-not-your-idols.md",
+            "file": "posts/writing-only-makes-sense-to-the-author.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,6 +141,10 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-image-people-in-an-art-museum-staring-at-a-painting-of-scribbles-on-the-wall.jpeg",
+    "goals/2024-01-23.md",
+    "posts/writing-only-makes-sense-to-the-author.md",
+    "christianity/turn-to-god-not-your-idols.md",
     "img/dalle-angels-in-the-crop-fields.jpeg",
     "scriptures/2-nephi-32.8.md",
     "scriptures/doctrine-and-covenants-58.27.md",
@@ -148,7 +152,6 @@
     "scriptures/doctrine-and-covenants-6.36.md",
     "scriptures/matthew-11.28-30.md",
     "goals/2024-01-22.md",
-    "christianity/turn-to-god-not-your-idols.md",
     "scriptures/russell-m-nelson-think-celestial.md",
     "book-review/how-to-win-friends-and-influence-people.md",
     "lists/reading-list.md",
@@ -181,11 +184,8 @@
     "docs/scriptures/doctrine-and-covenants-39.23.html",
     "docs/scriptures/john-16.7.html",
     "creative/poem-lint.md",
-    "sacrament-symbols/vaulted-ceiling.md",
-    "sacrament-symbols/support-beams-represent-the-cross.md",
     "img/book-how-to-win-friends.jpeg",
     "img/dalle-receive-the-holy-ghostXimage-the-resurrected-christ-in-white-laying-both-of-his-hands-on-the-heads-of-one-person-water-colors-peaceful--inside-focus-on-the-savior-phase-out-other-things-impressionist.jpeg",
-    "img/dalle-image:-the-resurrected-christ-in-white-laying-both-of-his-hands-on-the-heads-of-one-person.-water-colors.-peaceful.--inside.-focus-on-the-savior,-phase-out-other-things.-impressionist.jpeg",
-    "img/dalle-image:-the-resurrected-christ-in-white-laying-both-of-his-hands-on-the-heads-of-one-person.-water-colors.-peaceful.--inside.-focus-on-the-savior,-phase-out-other-things.-impressionist-2.jpeg"
+    "img/dalle-image:-the-resurrected-christ-in-white-laying-both-of-his-hands-on-the-heads-of-one-person.-water-colors.-peaceful.--inside.-focus-on-the-savior,-phase-out-other-things.-impressionist.jpeg"
   ]
 }
