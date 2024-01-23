@@ -1,5 +1,5 @@
 ---
-title: Turn to God, not your idols
+title: Turn to God in All Things, and Not Your Idols
 description: Where do we turn when things get hard?
 date: 2024-01-22T21:43:10
 created: 2024-01-22 21:43:10
@@ -12,8 +12,9 @@ categories:
 draft: false
 updated: 2024-01-22T22:20:41
 ---
-
 I wrote [The Power of Habitual Prayer](the-power-of-habitual-prayer.md) in the mindset of having intentional prayers. Today, I experienced another one.
+
+# A Typical Day
 
 I felt overwhelmed by a few things (just day to day life, parenting, working, making sure I get that insurance policy and that bill figured out, etc, etc, etc.)
 
@@ -25,7 +26,7 @@ During my prayer, I felt something happen. I decided I would pray until I felt a
 
 We get into moods. And bad moods are hard to get out of. But this is life. Life is full of bad moods.
 
-What do you do to fix your bad mood?
+# What do you do to fix your bad mood?
 
 This quote came to mind while I was praying:
 
@@ -61,6 +62,8 @@ Perhaps He wants us to decide what our labor is, bring it to Him, and consecrate
 > [Doctrine and Covenants 58.28](../scriptures/doctrine-and-covenants-58.28)
 
 (This comes after "Verily I say, men should be anxiously engaged in a good cause, and do many things of their own free will, and bring to pass much righteousness;" [Doctrine and Covenants 58.27](../scriptures/doctrine-and-covenants-58.27))
+
+# Let God Prevail
 
 So: get an idea of some good cause to be engaged in (parenting, providing for family, etc), pray for support in it, ask Him to consecrate it, watch for miracles.
 
