@@ -137,7 +137,7 @@ ga('send', {
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-sidebar docked slimcontent">
+<body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -342,7 +342,7 @@ ga('send', {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
@@ -379,7 +379,7 @@ ga('send', {
 <li>Facet wrapping is very easy in <code>ggplot2</code>. (I think you have to do <a href="https://plot.ly/r/subplots/">subplots</a> in <code>plotly</code>.)</li>
 <li><code>ggplot2</code> is probably quicker for exploratory analysis.</li>
 </ul>
-<section id="converting-ggplot2-into-plotly" class="level1 page-columns page-full">
+<section id="converting-ggplot2-into-plotly" class="level1">
 <h1>Converting ggplot2 into plotly</h1>
 <p>An additional benefit of <code>plotly</code> is that you can convert your <code>ggplot()</code> graphs into a <code>plotly</code> object.</p>
 <div class="cell">
@@ -462,7 +462,7 @@ ga('send', {
 </div>
 </div>
 <p>(You notice the Plotly X-axis title can get cut off<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, so let’s put that <code>+1</code> to <code>ggplot2</code>.)</p>
-<div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;This may depend on your screen.</p></li></div><p>Plotly seems very intuitive relative to <code>ggplot2</code> in doing layout customization. Things that took me many iterations on StackOverflow to figure out, like adding a black line on y = 0, are built in to Plotly.</p>
+<p>Plotly seems very intuitive relative to <code>ggplot2</code> in doing layout customization. Things that took me many iterations on StackOverflow to figure out, like adding a black line on y = 0, are built in to Plotly.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>p <span class="ot">&lt;-</span> <span class="fu">plot_ly</span>(iris,</span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">x =</span> <span class="sc">~</span>Sepal.Width,</span>
@@ -503,10 +503,10 @@ ga('send', {
 <li>You can <a href="https://plot.ly/r/static-image-export/">export static plotly</a> images out to file. My hypothesis is that Plotly images take longer to generate than <code>ggplot2</code>. So if I’m mass producing 30,000 plots (which I had to do last month), which is the faster approach? I would assume <code>ggplot2</code>.</li>
 </ul>
 </section>
-<section id="plotly-in-rshiny-dashboards" class="level1 page-columns page-full">
+<section id="plotly-in-rshiny-dashboards" class="level1">
 <h1>Plotly in RShiny Dashboards</h1>
 <p>The goal in learning Plotly was for me was to eliminate the Excel-VBA dashboard I created using for my manager. Excel has (some) benefits over <code>ggplot2</code> static charts: you can easily hover your mouse over a series to see the data value, and most industry users know how to manage an Excel axes. Grated, you can build in an RShiny widget to allow the user to control the axes, but Excel comes with that knowledge base built-in. <code>ggvis</code> allows for the powerful library of Google charts, but I think for a reactive dashboard, <code>plotly</code> is a great way to go<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
-<div class="no-row-height column-margin column-container"><li id="fn2"><p><sup>2</sup>&nbsp;Of course, this is relative to the chart you’re trying to make.</p></li></div><p>So Plotly solved the Excel problem for me. Now my manager can click and zoom to the parts of the graph that are interesting, and hover the mouse to see the values. Just use <code>renderPlotly()</code> instead of <code>renderPlot()</code> in the <code>server.R</code> file, and <code>plotlyOutput()</code> instead of <code>plotOutput()</code> in the <code>ui.R</code> file.</p>
+<p>So Plotly solved the Excel problem for me. Now my manager can click and zoom to the parts of the graph that are interesting, and hover the mouse to see the values. Just use <code>renderPlotly()</code> instead of <code>renderPlot()</code> in the <code>server.R</code> file, and <code>plotlyOutput()</code> instead of <code>plotOutput()</code> in the <code>ui.R</code> file.</p>
 <p>More info here: <a href="https://plot.ly/r/shiny-tutorial/">RShiny and Plotly</a></p>
 </section>
 <section id="rshiny-vs-plotly-dashboards" class="level1">
@@ -519,7 +519,13 @@ ga('send', {
 
 
 </section>
-
+<aside id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>This may depend on your screen.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Of course, this is relative to the chart you’re trying to make.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</aside>
 
 <p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
