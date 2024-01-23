@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/how-to-win-friends-and-influence-people.md",
+                "file": "goals/2024-01-22.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "book-review/how-to-win-friends-and-influence-people.md",
+            "file": "goals/2024-01-22.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "book-review/how-to-win-friends-and-influence-people.md"
+            "file": "goals/2024-01-22.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "book-review/how-to-win-friends-and-influence-people.md",
+            "file": "goals/2024-01-22.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,6 +141,7 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "book-review/how-to-win-friends-and-influence-people.md",
     "lists/reading-list.md",
     "Untitled.md",
     "christianity/1-nephi-11-seeing-signs-of-christ.md",
@@ -151,7 +152,6 @@
     "img/dalle-early-morning-workouts-football.jpeg",
     "goals/2024-01-22.md",
     "_templates/day.md",
-    "book-review/how-to-win-friends-and-influence-people.md",
     "goals/2024-01-21.md",
     "gratitude/similarities.md",
     "img/dalle-human-similarities.jpeg",
