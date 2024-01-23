@@ -25,6 +25,8 @@ pct-complete:
 - Ford: put yourself in their position. Consider it. And consider your own
 - Consider how they'll receive your email. They have a ton of problems. They're overwhelmed. Don't sell them. Teach them the benefits they'll get. 
 - Flattery vs appreciation - flattery is lip service. If you're trying to convince someone to do something and you're using flattery, then thats manipulation. And you're prone to get angry if they don't want to do it (kids). But if you're sincere, you'll find a solution
+- Arouse in others an eager want
+	- Don't tell someone an idea. Plant the seed and make them think it's their own. 
 
 2024-01-20
 - 85% of success is in non-technical skills. Communication. 

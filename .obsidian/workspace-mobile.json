@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lists/reading-list.md",
+                "file": "book-review/how-to-win-friends-and-influence-people.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "lists/reading-list.md",
+            "file": "book-review/how-to-win-friends-and-influence-people.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "lists/reading-list.md"
+            "file": "book-review/how-to-win-friends-and-influence-people.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "lists/reading-list.md",
+            "file": "book-review/how-to-win-friends-and-influence-people.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,6 +141,8 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "lists/reading-list.md",
+    "Untitled.md",
     "christianity/1-nephi-11-seeing-signs-of-christ.md",
     "img/dalle-moses-raising-a-brass-serpent-watercolor-expressionist.jpeg",
     "scriptures/matthew-16.1-4.md",
@@ -184,7 +186,6 @@
     "scriptures/articles-of-faith-1.4.md",
     "img/dalle-receive-the-holy-ghostXimage-the-resurrected-christ-in-white-laying-both-of-his-hands-on-the-heads-of-one-person-water-colors-peaceful--inside-focus-on-the-savior-phase-out-other-things-impressionist.jpeg",
     "img/dalle-image:-the-resurrected-christ-in-white-laying-both-of-his-hands-on-the-heads-of-one-person.-water-colors.-peaceful.--inside.-focus-on-the-savior,-phase-out-other-things.-impressionist.jpeg",
-    "img/dalle-image:-the-resurrected-christ-in-white-laying-both-of-his-hands-on-the-heads-of-one-person.-water-colors.-peaceful.--inside.-focus-on-the-savior,-phase-out-other-things.-impressionist-2.jpeg",
-    "concepts/sacrament-covenant.md"
+    "img/dalle-image:-the-resurrected-christ-in-white-laying-both-of-his-hands-on-the-heads-of-one-person.-water-colors.-peaceful.--inside.-focus-on-the-savior,-phase-out-other-things.-impressionist-2.jpeg"
   ]
 }
