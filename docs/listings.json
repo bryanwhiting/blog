@@ -2,6 +2,8 @@
   {
     "listing": "/sitemap.html",
     "items": [
+      "/posts/writing-only-makes-sense-to-the-author.html",
+      "/goals/2024-01-23.html",
       "/christianity/turn-to-god-not-your-idols.html",
       "/christianity/1-nephi-11-seeing-signs-of-christ.html",
       "/gratitude/early-morning-workouts.html",
@@ -304,6 +306,7 @@
   {
     "listing": "/all.html",
     "items": [
+      "/posts/writing-only-makes-sense-to-the-author.html",
       "/christianity/turn-to-god-not-your-idols.html",
       "/christianity/1-nephi-11-seeing-signs-of-christ.html",
       "/gratitude/early-morning-workouts.html",
@@ -516,6 +519,7 @@
   {
     "listing": "/goals.html",
     "items": [
+      "/goals/2024-01-23.html",
       "/goals/2024-01-22.html",
       "/goals/2024-01-21.html",
       "/goals/2024-01-20.html",
@@ -532,19 +536,6 @@
       "/goals/2024-01-09.html",
       "/goals/2024-01-08.html",
       "/goals/test.html"
-    ]
-  },
-  {
-    "listing": "/concepts.html",
-    "items": [
-      "/concepts/sacrament-covenant.html",
-      "/concepts/president-russel-m-nelson.html",
-      "/concepts/christian.html",
-      "/concepts/gratus-sum-ergo-habeo.html",
-      "/concepts/the-book-of-mormon-another-testament-of-jesus-christ.html",
-      "/concepts/the-church-of-jesus-christ-of-latter-day-saints.html",
-      "/concepts/my-mission.html",
-      "/concepts/hand-of-god.html"
     ]
   },
   {
@@ -604,6 +595,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/writing-only-makes-sense-to-the-author.html",
       "/posts/the-problem-with-public-opinions.html",
       "/posts/you-can-plan-your-life-in-5-minutes.html",
       "/posts/junk-attracts-junk.html",
@@ -675,6 +667,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/writing-only-makes-sense-to-the-author.html",
       "/posts/the-problem-with-public-opinions.html",
       "/posts/you-can-plan-your-life-in-5-minutes.html",
       "/posts/junk-attracts-junk.html",
@@ -839,6 +832,19 @@
       "/book-review/scientific-freedom.html",
       "/book-review/getting-things-done.html",
       "/book-review/the-power-of-habit.html"
+    ]
+  },
+  {
+    "listing": "/concepts.html",
+    "items": [
+      "/concepts/sacrament-covenant.html",
+      "/concepts/president-russel-m-nelson.html",
+      "/concepts/christian.html",
+      "/concepts/gratus-sum-ergo-habeo.html",
+      "/concepts/the-book-of-mormon-another-testament-of-jesus-christ.html",
+      "/concepts/the-church-of-jesus-christ-of-latter-day-saints.html",
+      "/concepts/my-mission.html",
+      "/concepts/hand-of-god.html"
     ]
   },
   {
