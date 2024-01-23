@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/writing-only-makes-sense-to-the-author.md",
+                "file": "news/2024-01-23-news-notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/writing-only-makes-sense-to-the-author.md",
+            "file": "news/2024-01-23-news-notes.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/writing-only-makes-sense-to-the-author.md"
+            "file": "news/2024-01-23-news-notes.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/writing-only-makes-sense-to-the-author.md",
+            "file": "news/2024-01-23-news-notes.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,11 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "lists/ai.md",
+    "news/2024-01-23-news-notes.md",
+    "posts/writing-only-makes-sense-to-the-author.md",
     "img/dalle-image-people-in-an-art-museum-staring-at-a-painting-of-scribbles-on-the-wall.jpeg",
     "goals/2024-01-23.md",
-    "posts/writing-only-makes-sense-to-the-author.md",
     "christianity/turn-to-god-not-your-idols.md",
     "img/dalle-angels-in-the-crop-fields.jpeg",
     "scriptures/2-nephi-32.8.md",
@@ -183,9 +185,7 @@
     "docs/scriptures/18.-performing-priesthood-ordinances-and-blessings.html",
     "docs/scriptures/doctrine-and-covenants-39.23.html",
     "docs/scriptures/john-16.7.html",
-    "creative/poem-lint.md",
     "img/book-how-to-win-friends.jpeg",
-    "img/dalle-receive-the-holy-ghostXimage-the-resurrected-christ-in-white-laying-both-of-his-hands-on-the-heads-of-one-person-water-colors-peaceful--inside-focus-on-the-savior-phase-out-other-things-impressionist.jpeg",
-    "img/dalle-image:-the-resurrected-christ-in-white-laying-both-of-his-hands-on-the-heads-of-one-person.-water-colors.-peaceful.--inside.-focus-on-the-savior,-phase-out-other-things.-impressionist.jpeg"
+    "img/dalle-receive-the-holy-ghostXimage-the-resurrected-christ-in-white-laying-both-of-his-hands-on-the-heads-of-one-person-water-colors-peaceful--inside-focus-on-the-savior-phase-out-other-things-impressionist.jpeg"
   ]
 }

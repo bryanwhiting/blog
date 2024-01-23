@@ -18,6 +18,7 @@
     "url-into-selection:paste-url-into-selection",
     "editor:toggle-bullet-list",
     "editor:paste",
+    "obsidian-auto-link-title:auto-link-title-paste",
     "editor:insert-wikilink",
     "editor:insert-tag",
     "editor:toggle-checklist-status",
@@ -27,8 +28,7 @@
     "file-explorer:move-file",
     "editor:configure-toolbar",
     "editor:toggle-numbered-list",
-    "obsidian-linter:lint-file",
-    "obsidian-auto-link-title:auto-link-title-paste"
+    "obsidian-linter:lint-file"
   ],
   "alwaysUpdateLinks": true,
   "promptDelete": false,

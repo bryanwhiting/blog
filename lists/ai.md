@@ -13,6 +13,11 @@ draft: false
 ## TL;DR: AI is wild. Last updated per last headline. First created 2023-12-14
 :::
 
+
+# 2024-01-23
+[Auto Wiki by Mutable.ai](https://wiki.mutable.ai/?utm_source=tldrai) #ai/tool
+- generate docs drom code automatically 
+
 # 2024-01-11
 ## Chatbot UI
 
