@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "news/2024-01-23-news-notes.md",
+                "file": "christianity/1-nephi-12-broad-roads.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 4
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "news/2024-01-23-news-notes.md",
+            "file": "christianity/1-nephi-12-broad-roads.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "news/2024-01-23-news-notes.md"
+            "file": "christianity/1-nephi-12-broad-roads.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "news/2024-01-23-news-notes.md",
+            "file": "christianity/1-nephi-12-broad-roads.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,11 +141,18 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "lists/ai.md",
+    "img/dalle-broad-roads.jpeg",
+    "img/dalle-image-a-hill-with-a-tree-at-the-top-a-lot-of-broad-roads-at-the-base-of-the-hill-heading-down-strange-paths.jpeg",
+    "scriptures/1-nephi-12.17.md",
+    "book-review/the-coddling-of-the-american-mind.md",
+    "christianity/1-nephi-12-broad-roads.md",
+    "goals/2024-01-23.md",
+    "gratitude/navajo-code-talkers.md",
+    "img/book-the-coddling-of-the-american-mind.jpeg",
     "news/2024-01-23-news-notes.md",
+    "lists/ai.md",
     "posts/writing-only-makes-sense-to-the-author.md",
     "img/dalle-image-people-in-an-art-museum-staring-at-a-painting-of-scribbles-on-the-wall.jpeg",
-    "goals/2024-01-23.md",
     "christianity/turn-to-god-not-your-idols.md",
     "img/dalle-angels-in-the-crop-fields.jpeg",
     "scriptures/2-nephi-32.8.md",
@@ -166,14 +173,9 @@
     "img/dalle-early-morning-workouts-football.jpeg",
     "_templates/day.md",
     "goals/2024-01-21.md",
-    "gratitude/similarities.md",
     "img/dalle-human-similarities.jpeg",
-    "christianity/come-follow-me-2024-01-21-jan-21.md",
     "img/dalle-1-nephi-610-summary.jpeg",
-    "posts/mark-cuban-mogul-support.md",
     "img/photo-mark-cuban-youtube.jpeg",
-    "sacrament-symbols/receive-the-holy-ghost.md",
-    "book-review/saints-book-1-the-standard-of-truth-1815-1846.md",
     "docs/creative/poem-lint.html",
     "docs/concepts/sacrament-covenant.html",
     "docs/img/dalle-receive-the-holy-ghostXimage-the-resurrected-christ-in-white-laying-both-of-his-hands-on-the-heads-of-one-person-water-colors-peaceful--inside-focus-on-the-savior-phase-out-other-things-impressionist.jpeg",
@@ -184,8 +186,6 @@
     "docs/scriptures/moroni-4.3.html",
     "docs/scriptures/18.-performing-priesthood-ordinances-and-blessings.html",
     "docs/scriptures/doctrine-and-covenants-39.23.html",
-    "docs/scriptures/john-16.7.html",
-    "img/book-how-to-win-friends.jpeg",
-    "img/dalle-receive-the-holy-ghostXimage-the-resurrected-christ-in-white-laying-both-of-his-hands-on-the-heads-of-one-person-water-colors-peaceful--inside-focus-on-the-savior-phase-out-other-things-impressionist.jpeg"
+    "docs/scriptures/john-16.7.html"
   ]
 }
