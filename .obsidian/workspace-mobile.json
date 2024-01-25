@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/1-nephi-12-broad-roads.md",
+                "file": "gratitude/challenges.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 4
+    "currentTab": 0
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/1-nephi-12-broad-roads.md",
+            "file": "gratitude/challenges.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/1-nephi-12-broad-roads.md"
+            "file": "gratitude/challenges.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/1-nephi-12-broad-roads.md",
+            "file": "gratitude/challenges.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,11 +141,16 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-pushing-boulder-up-the-hill.jpeg",
+    "book-review/wool.md",
+    "gratitude/challenges.md",
+    "goals/2024-01-24.md",
+    "img/book-wool.jpeg",
+    "christianity/1-nephi-12-broad-roads.md",
     "img/dalle-broad-roads.jpeg",
     "img/dalle-image-a-hill-with-a-tree-at-the-top-a-lot-of-broad-roads-at-the-base-of-the-hill-heading-down-strange-paths.jpeg",
     "scriptures/1-nephi-12.17.md",
     "book-review/the-coddling-of-the-american-mind.md",
-    "christianity/1-nephi-12-broad-roads.md",
     "goals/2024-01-23.md",
     "gratitude/navajo-code-talkers.md",
     "img/book-the-coddling-of-the-american-mind.jpeg",
@@ -169,16 +174,11 @@
     "img/dalle-moses-raising-a-brass-serpent-watercolor-expressionist.jpeg",
     "scriptures/matthew-16.1-4.md",
     "scriptures/1-nephi-11.7.md",
-    "gratitude/early-morning-workouts.md",
     "img/dalle-early-morning-workouts-football.jpeg",
-    "_templates/day.md",
-    "goals/2024-01-21.md",
     "img/dalle-human-similarities.jpeg",
     "img/dalle-1-nephi-610-summary.jpeg",
-    "img/photo-mark-cuban-youtube.jpeg",
     "docs/creative/poem-lint.html",
     "docs/concepts/sacrament-covenant.html",
-    "docs/img/dalle-receive-the-holy-ghostXimage-the-resurrected-christ-in-white-laying-both-of-his-hands-on-the-heads-of-one-person-water-colors-peaceful--inside-focus-on-the-savior-phase-out-other-things-impressionist.jpeg",
     "docs/scriptures/moses-5.58.html",
     "docs/scriptures/john-20.22.html",
     "docs/scriptures/doctrine-and-covenants-33.15.html",
