@@ -2,6 +2,14 @@
   {
     "listing": "/sitemap.html",
     "items": [
+      "/gratitude/new-perspectives.html",
+      "/goals/2024-01-25.html",
+      "/goals/2024-01-26.html",
+      "/scriptures/1-nephi-13.37.html",
+      "/christianity/1-nephi-13-publish-peace.html",
+      "/gratitude/challenges.html",
+      "/book-review/wool.html",
+      "/goals/2024-01-24.html",
       "/christianity/1-nephi-12-broad-roads.html",
       "/book-review/the-coddling-of-the-american-mind.html",
       "/gratitude/navajo-code-talkers.html",
@@ -309,67 +317,6 @@
     ]
   },
   {
-    "listing": "/christianity.html",
-    "items": [
-      "/christianity/1-nephi-12-broad-roads.html",
-      "/christianity/turn-to-god-not-your-idols.html",
-      "/christianity/1-nephi-11-seeing-signs-of-christ.html",
-      "/christianity/come-follow-me-2024-01-21-jan-21.html",
-      "/sacrament-symbols/receive-the-holy-ghost.html",
-      "/christianity/choosing-to-press-forward.html",
-      "/christianity/1-nephi-10-rely-on-the-redeemer.html",
-      "/christianity/1-nephi-9-write-with-a-purpose.html",
-      "/christianity/the-power-of-habitual-prayer.html",
-      "/christianity/1-nephi-8-what-others-think.html",
-      "/christianity/1-nephi-7-commitment.html",
-      "/christianity/1-nephi-6-god-of-the-covenant.html",
-      "/christianity/1-nephi-5-trusting-a-promise.html",
-      "/christianity/sacrament-talk-on-missionary-work.html",
-      "/sacrament-symbols/support-beams-represent-the-cross.html",
-      "/christianity/1-nephi-4-why-not.html",
-      "/christianity/1-nephi-3-dreamed-a-dream.html",
-      "/christianity/1-nephi-2-receiving-a-promised-land.html",
-      "/christianity/find-the-fun.html",
-      "/christianity/stop-trying-to-change-people.html",
-      "/christianity/1-Nephi-1-he-prepares-us-to-teach-us.html",
-      "/christianity/come-follow-me-2024-01-14-jan-14.html",
-      "/christianity/1-nephi-1-praying-for-other-people.html",
-      "/christianity/scriptures-within-scriptures.html",
-      "/christianity/my-testimony-2024-01-07.html",
-      "/christianity/what-does-it-mean-to-preside.html",
-      "/sacrament-symbols/vaulted-ceiling.html",
-      "/christianity/come-follow-me-2024-01-07-jan-7.html",
-      "/christianity/how-to-use-the-book-of-mormon.html",
-      "/christianity/a-change-in-witness.html",
-      "/christianity/love-thy-neighbor-but-have-friends.html",
-      "/christianity/share-your-testimony.html",
-      "/christianity/the-church-of-jesus-christ-of-latter-day-saints.html",
-      "/christianity/the-miracles-of-christ.html",
-      "/christianity/cfm-2023-12-31-rev-15-21.html",
-      "/christianity/unknown-god.html",
-      "/christianity/christmas-empty-tomb.html",
-      "/christianity/let-your-light-so-shine.html",
-      "/christianity/the-christ-child.html",
-      "/christianity/christmas-celebrates-a-living-christ.html",
-      "/christianity/three-little-pigs-christ.html"
-    ]
-  },
-  {
-    "listing": "/creative.html",
-    "items": [
-      "/creative/cuddles.html",
-      "/creative/poem-slow-blink.html",
-      "/creative/poem-stairwell-scoop.html",
-      "/creative/poem-bound.html",
-      "/creative/poem-lint.html",
-      "/creative/the-thief-of-time.html",
-      "/creative/red-eyed.html",
-      "/creative/poem-cabinet-handle.html",
-      "/creative/poem-the-dove-forevermore.html",
-      "/creative/poem-timeless.html"
-    ]
-  },
-  {
     "listing": "/lists.html",
     "items": [
       "/lists/ai.html",
@@ -383,45 +330,16 @@
     ]
   },
   {
-    "listing": "/tech.html",
+    "listing": "/concepts.html",
     "items": [
-      "/tech/this-drug-is-habit-forming.html",
-      "/tech/the-matrix.html",
-      "/tech/a-knife-to-a-gun-fight.html",
-      "/tech/ai-will-not-replace-human-creativity.html",
-      "/tech/what-startups-and-musicians-have-in-common.html",
-      "/tech/the-future-wave-of-ai-hype.html",
-      "/tech/dreaming-software.html",
-      "/tech/why-we-want-new-software.html",
-      "/tech/swapping-out-human-labor-for-ai.html"
-    ]
-  },
-  {
-    "listing": "/books.html",
-    "items": [
-      "/book-review/the-coddling-of-the-american-mind.html",
-      "/book-review/saints-book-1-the-standard-of-truth-1815-1846.html",
-      "/book-review/how-to-win-friends-and-influence-people.html",
-      "/book-review/the-wealth-of-nations.html",
-      "/book-review/the-inklings.html",
-      "/book-review/paradise-lost-and-paradise-regained.html",
-      "/book-review/the-quest-for-cosmic-justice.html",
-      "/book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.html",
-      "/book-review/dune-messiah.html",
-      "/book-review/leonardo-da-vinci.html",
-      "/book-review/steve-jobs-biography.html",
-      "/book-review/socrates-a-life-worth-living.html",
-      "/book-review/innovators-dilemma.html",
-      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
-      "/book-review/dune.html",
-      "/book-review/the-best-of-edgar-allen-poe.html",
-      "/book-review/killers-of-the-flower-moon.html",
-      "/book-review/unbelievable.html",
-      "/book-review/101-essays-to-make-you-think.html",
-      "/book-review/hitchhikers-guide-to-the-galaxy.html",
-      "/book-review/scientific-freedom.html",
-      "/book-review/getting-things-done.html",
-      "/book-review/the-power-of-habit.html"
+      "/concepts/sacrament-covenant.html",
+      "/concepts/president-russel-m-nelson.html",
+      "/concepts/christian.html",
+      "/concepts/gratus-sum-ergo-habeo.html",
+      "/concepts/the-book-of-mormon-another-testament-of-jesus-christ.html",
+      "/concepts/the-church-of-jesus-christ-of-latter-day-saints.html",
+      "/concepts/my-mission.html",
+      "/concepts/hand-of-god.html"
     ]
   },
   {
@@ -575,6 +493,8 @@
       "/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html",
       "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
       "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html",
+      "/gratitude/new-perspectives.html",
+      "/gratitude/challenges.html",
       "/gratitude/navajo-code-talkers.html",
       "/gratitude/early-morning-workouts.html",
       "/gratitude/similarities.html",
@@ -606,6 +526,7 @@
       "/gratitude/2023-12-26-i'm-grateful-for-blankets/index.html",
       "/gratitude/2023-12-25-grateful-for-doctors/index.html",
       "/gratitude/2023-12-24-light/index.html",
+      "/christianity/1-nephi-13-publish-peace.html",
       "/christianity/1-nephi-12-broad-roads.html",
       "/christianity/turn-to-god-not-your-idols.html",
       "/christianity/1-nephi-11-seeing-signs-of-christ.html",
@@ -644,6 +565,7 @@
       "/christianity/the-christ-child.html",
       "/christianity/christmas-celebrates-a-living-christ.html",
       "/christianity/three-little-pigs-christ.html",
+      "/book-review/wool.html",
       "/book-review/the-coddling-of-the-american-mind.html",
       "/book-review/saints-book-1-the-standard-of-truth-1815-1846.html",
       "/book-review/how-to-win-friends-and-influence-people.html",
@@ -670,21 +592,58 @@
     ]
   },
   {
-    "listing": "/concepts.html",
+    "listing": "/christianity.html",
     "items": [
-      "/concepts/sacrament-covenant.html",
-      "/concepts/president-russel-m-nelson.html",
-      "/concepts/christian.html",
-      "/concepts/gratus-sum-ergo-habeo.html",
-      "/concepts/the-book-of-mormon-another-testament-of-jesus-christ.html",
-      "/concepts/the-church-of-jesus-christ-of-latter-day-saints.html",
-      "/concepts/my-mission.html",
-      "/concepts/hand-of-god.html"
+      "/christianity/1-nephi-13-publish-peace.html",
+      "/christianity/1-nephi-12-broad-roads.html",
+      "/christianity/turn-to-god-not-your-idols.html",
+      "/christianity/1-nephi-11-seeing-signs-of-christ.html",
+      "/christianity/come-follow-me-2024-01-21-jan-21.html",
+      "/sacrament-symbols/receive-the-holy-ghost.html",
+      "/christianity/choosing-to-press-forward.html",
+      "/christianity/1-nephi-10-rely-on-the-redeemer.html",
+      "/christianity/1-nephi-9-write-with-a-purpose.html",
+      "/christianity/the-power-of-habitual-prayer.html",
+      "/christianity/1-nephi-8-what-others-think.html",
+      "/christianity/1-nephi-7-commitment.html",
+      "/christianity/1-nephi-6-god-of-the-covenant.html",
+      "/christianity/1-nephi-5-trusting-a-promise.html",
+      "/christianity/sacrament-talk-on-missionary-work.html",
+      "/sacrament-symbols/support-beams-represent-the-cross.html",
+      "/christianity/1-nephi-4-why-not.html",
+      "/christianity/1-nephi-3-dreamed-a-dream.html",
+      "/christianity/1-nephi-2-receiving-a-promised-land.html",
+      "/christianity/find-the-fun.html",
+      "/christianity/stop-trying-to-change-people.html",
+      "/christianity/1-Nephi-1-he-prepares-us-to-teach-us.html",
+      "/christianity/come-follow-me-2024-01-14-jan-14.html",
+      "/christianity/1-nephi-1-praying-for-other-people.html",
+      "/christianity/scriptures-within-scriptures.html",
+      "/christianity/my-testimony-2024-01-07.html",
+      "/christianity/what-does-it-mean-to-preside.html",
+      "/sacrament-symbols/vaulted-ceiling.html",
+      "/christianity/come-follow-me-2024-01-07-jan-7.html",
+      "/christianity/how-to-use-the-book-of-mormon.html",
+      "/christianity/a-change-in-witness.html",
+      "/christianity/love-thy-neighbor-but-have-friends.html",
+      "/christianity/share-your-testimony.html",
+      "/christianity/the-church-of-jesus-christ-of-latter-day-saints.html",
+      "/christianity/the-miracles-of-christ.html",
+      "/christianity/cfm-2023-12-31-rev-15-21.html",
+      "/christianity/unknown-god.html",
+      "/christianity/christmas-empty-tomb.html",
+      "/christianity/let-your-light-so-shine.html",
+      "/christianity/the-christ-child.html",
+      "/christianity/christmas-celebrates-a-living-christ.html",
+      "/christianity/three-little-pigs-christ.html"
     ]
   },
   {
     "listing": "/goals.html",
     "items": [
+      "/goals/2024-01-26.html",
+      "/goals/2024-01-25.html",
+      "/goals/2024-01-24.html",
       "/goals/2024-01-23.html",
       "/goals/2024-01-22.html",
       "/goals/2024-01-21.html",
@@ -705,8 +664,53 @@
     ]
   },
   {
+    "listing": "/tech.html",
+    "items": [
+      "/tech/this-drug-is-habit-forming.html",
+      "/tech/the-matrix.html",
+      "/tech/a-knife-to-a-gun-fight.html",
+      "/tech/ai-will-not-replace-human-creativity.html",
+      "/tech/what-startups-and-musicians-have-in-common.html",
+      "/tech/the-future-wave-of-ai-hype.html",
+      "/tech/dreaming-software.html",
+      "/tech/why-we-want-new-software.html",
+      "/tech/swapping-out-human-labor-for-ai.html"
+    ]
+  },
+  {
+    "listing": "/books.html",
+    "items": [
+      "/book-review/wool.html",
+      "/book-review/the-coddling-of-the-american-mind.html",
+      "/book-review/saints-book-1-the-standard-of-truth-1815-1846.html",
+      "/book-review/how-to-win-friends-and-influence-people.html",
+      "/book-review/the-wealth-of-nations.html",
+      "/book-review/the-inklings.html",
+      "/book-review/paradise-lost-and-paradise-regained.html",
+      "/book-review/the-quest-for-cosmic-justice.html",
+      "/book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.html",
+      "/book-review/dune-messiah.html",
+      "/book-review/leonardo-da-vinci.html",
+      "/book-review/steve-jobs-biography.html",
+      "/book-review/socrates-a-life-worth-living.html",
+      "/book-review/innovators-dilemma.html",
+      "/book-review/how-to-decide-simple-tools-for-making-better-choices.html",
+      "/book-review/dune.html",
+      "/book-review/the-best-of-edgar-allen-poe.html",
+      "/book-review/killers-of-the-flower-moon.html",
+      "/book-review/unbelievable.html",
+      "/book-review/101-essays-to-make-you-think.html",
+      "/book-review/hitchhikers-guide-to-the-galaxy.html",
+      "/book-review/scientific-freedom.html",
+      "/book-review/getting-things-done.html",
+      "/book-review/the-power-of-habit.html"
+    ]
+  },
+  {
     "listing": "/gratitude.html",
     "items": [
+      "/gratitude/new-perspectives.html",
+      "/gratitude/challenges.html",
       "/gratitude/navajo-code-talkers.html",
       "/gratitude/early-morning-workouts.html",
       "/gratitude/similarities.html",
@@ -743,6 +747,10 @@
   {
     "listing": "/all.html",
     "items": [
+      "/gratitude/new-perspectives.html",
+      "/christianity/1-nephi-13-publish-peace.html",
+      "/gratitude/challenges.html",
+      "/book-review/wool.html",
       "/christianity/1-nephi-12-broad-roads.html",
       "/book-review/the-coddling-of-the-american-mind.html",
       "/gratitude/navajo-code-talkers.html",
@@ -919,6 +927,21 @@
       "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
       "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html",
       "/lists/reading-list.html"
+    ]
+  },
+  {
+    "listing": "/creative.html",
+    "items": [
+      "/creative/cuddles.html",
+      "/creative/poem-slow-blink.html",
+      "/creative/poem-stairwell-scoop.html",
+      "/creative/poem-bound.html",
+      "/creative/poem-lint.html",
+      "/creative/the-thief-of-time.html",
+      "/creative/red-eyed.html",
+      "/creative/poem-cabinet-handle.html",
+      "/creative/poem-the-dove-forevermore.html",
+      "/creative/poem-timeless.html"
     ]
   }
 ]
