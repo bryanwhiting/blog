@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "new-perspectives",
+      "path": "gratitude/new-perspectives.md"
+    },
+    {
+      "basename": "the-coddling-of-the-american-mind",
+      "path": "book-review/the-coddling-of-the-american-mind.md"
+    },
+    {
+      "basename": "2024-01-25",
+      "path": "goals/2024-01-25.md"
+    },
+    {
+      "basename": "2024-01-26",
+      "path": "goals/2024-01-26.md"
+    },
+    {
+      "basename": "day",
+      "path": "_templates/day.md"
+    },
+    {
+      "basename": "2024-01-24",
+      "path": "goals/2024-01-24.md"
+    },
+    {
+      "basename": "1-nephi-13-publish-peace",
+      "path": "christianity/1-nephi-13-publish-peace.md"
+    },
+    {
       "basename": "challenges",
       "path": "gratitude/challenges.md"
     },
@@ -9,16 +37,8 @@
       "path": "book-review/wool.md"
     },
     {
-      "basename": "2024-01-24",
-      "path": "goals/2024-01-24.md"
-    },
-    {
       "basename": "1-nephi-12-broad-roads",
       "path": "christianity/1-nephi-12-broad-roads.md"
-    },
-    {
-      "basename": "the-coddling-of-the-american-mind",
-      "path": "book-review/the-coddling-of-the-american-mind.md"
     },
     {
       "basename": "2024-01-23",
@@ -63,10 +83,6 @@
     {
       "basename": "early-morning-workouts",
       "path": "gratitude/early-morning-workouts.md"
-    },
-    {
-      "basename": "day",
-      "path": "_templates/day.md"
     },
     {
       "basename": "2024-01-21",
@@ -183,22 +199,6 @@
     {
       "basename": "2024-01-17",
       "path": "goals/2024-01-17.md"
-    },
-    {
-      "basename": "2024-01-18",
-      "path": "goals/2024-01-18.md"
-    },
-    {
-      "basename": "baby-formula",
-      "path": "gratitude/baby-formula.md"
-    },
-    {
-      "basename": "the-inklings",
-      "path": "book-review/the-inklings.md"
-    },
-    {
-      "basename": "the-wealth-of-nations",
-      "path": "book-review/the-wealth-of-nations.md"
     }
   ],
   "omittedPaths": [],

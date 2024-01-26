@@ -17,6 +17,16 @@ date-finished: 2030-01-01
 pct-complete:
 ---
 
+# 2024-01-25
+- us vs them thinking 
+- Labeling. 
+- cognitive distortions. 
+- Illogical gaps. 
+- Tribalism. It's within us all. 
+- The rhetoric in the world affects us all. We can overcome by paying heed. But the people who probably need to read this book don't. Same with any book: it's never received by the people who need it most, perhaps. 
+- anti-fragility: don't want you to be safe. Want you to be strong. Armor. Don't want you to run. Want you to have the strength to overcome. 
+- concept creep. 
+- Don't defend the attacked. 
 
 # 2024-01-23
 
