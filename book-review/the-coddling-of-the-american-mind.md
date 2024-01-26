@@ -27,6 +27,7 @@ pct-complete:
 - anti-fragility: don't want you to be safe. Want you to be strong. Armor. Don't want you to run. Want you to have the strength to overcome. 
 - concept creep. 
 - Don't defend the attacked. 
+- "rallies are sometimes in the belief in a God, but always in the belief of a devil"
 
 # 2024-01-23
 

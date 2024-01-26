@@ -6,6 +6,7 @@ created: 2024-01-24 23:59:45
 categories:
   - christianity
   - peace
+  - come follow me
 draft: false
 ---
 A lot of us have very little control over the world we're born into. We can do a lot for our own lives, but very few of us will have the ability to change nations. 
