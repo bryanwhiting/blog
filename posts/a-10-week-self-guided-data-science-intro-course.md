@@ -1,6 +1,6 @@
 ---
 title: Become a Data Scientist in 10 Weeks
-description: You only need the desire. The rest is freely accessible. You got this.
+description: You only need the desire. The rest is freely accessible. You got this. Resume tips included!
 date: 2024-01-26 21:59:18
 created: 2024-01-26 21:59:18
 categories:
@@ -16,7 +16,7 @@ I asked this question while working as an analyst 8 years ago and wanting to bre
 
 I was asked this question today: "how do I get started and get a job in data science if I don't have any experience?"
 
-Simple: get experience. For free. In 10 weeks. 
+Simple: get experience. For free. In 10 weeks. Write a good resume. Network like crazy - try to connect with real people (and not just spam).
 
 There are a million ways to do this, and a million blog posts like this one. But here's my biased opinion, so enjoy!
 
@@ -26,8 +26,8 @@ There are a million ways to do this, and a million blog posts like this one. But
 
 While doing the following, on weeks 2-10, write one blog post to outline what you learned. 
 
-1) where did you start? Why was it hard to learn? What did you want to know? 
-2) what concepts were new to you? 
+1) Where did you start? Why was it hard to learn? What did you want to know? 
+2) What concepts were new to you? 
 3) Do something with that knowledge. Search the internet to find data you can write about. 
 
 If you don't get very far, just move on to the next topic. Breadth is better early on to find out what you enjoy. Don't get caught up in the details. Skim more. Write more. Worry less. You got this. 
@@ -35,6 +35,8 @@ If you don't get very far, just move on to the next topic. Breadth is better ear
 In all things, use ChatGPT to tutor you. Ask it questions. Be relentless. Have it explain things to you like you're five. 
 
 Balancing learning between real books and ChatGPT is the best combo. ChatGPT is a better teacher, and the books have real info in them you can more fully trust. Using both together will get you there faster. 
+
+If any of the books below don't vibe for you, there are a million free books out there. Find a simpler one and the same topic (and post in the comments so I can add it!)
 
 # Week 1: Prepare to Share
 
@@ -71,9 +73,17 @@ Both these books are great. Read both. It's good to learn early that there are m
 - [Visualization Curriculum](https://jjallaire.github.io/visualization-curriculum/)
 - [R Graphics Cookbook, 2nd edition](https://r-graphics.org/)
 
-This is after analytics because analytics is more important (knowing what to look for and how to think about data) than plotting it. 
+This is after analytics because analytics is more important (knowing what to look for and how to think about data) than plotting it.
 
-Plotting is really hard and time consuming. Details can take hours. Focus on the basics at first. 
+There are two types of plots: those for you to learn from and those for others to learn from. First, learn what's in the data. Learn for yourself. 
+
+> "Look at the plot. Look at the plot. No seriously, look at the plot."
+> Chris Peterson, Capital One
+
+Second, plot for other people. After you've learned something by sifting out all the noise, learn how to communicate that externally.
+
+Beautiful plotting is really hard and time consuming. Details can take hours. Focus on the basics at first. The simplest plot focuses on "what's the one thing I want someone to take away from this?"
+
 
 # Week 5: Intro to Machine Learning
 
@@ -116,6 +126,8 @@ Now that you've studied analytics, data viz, regression, machine learning, and d
 Now you've got 10 blog posts, which is 10 more bullet points on your resume than you had before you started. You've learned a ton if you only do 10% of all that's above. 
 
 I've loved the advice I found written up here: [Writing a Tech Resume](2022-11-18-writing-a-tech-resume/index.md).
+
+Once you have a good resume, find real people to give it to. Dont apply blindly online. Talk to everyone you know. Find people on LinkedIn and message them directly with a personal message. Use one of your blog posts in your message to tell them why you're a good fit for their role. Perhaps even write a blog post specific to data from their company!
 
 Good luck!
 

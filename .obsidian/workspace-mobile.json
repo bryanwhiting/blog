@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "goals/2024-01-26.md",
+                "file": "posts/a-10-week-self-guided-data-science-intro-course.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "goals/2024-01-26.md",
+            "file": "posts/a-10-week-self-guided-data-science-intro-course.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "goals/2024-01-26.md"
+            "file": "posts/a-10-week-self-guided-data-science-intro-course.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "goals/2024-01-26.md",
+            "file": "posts/a-10-week-self-guided-data-science-intro-course.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,11 +141,12 @@
   "active": "be767112276aa446",
   "lastOpenFiles": [
     "goals/2024-01-27.md",
+    "goals/2024-01-26.md",
+    "goals/2024-01-25.md",
     "christianity/1-nephi-15-hearken-and-hold-fast.md",
     "img/dalle-hold-fast-fiery-darts.jpeg",
     "scriptures/1-nephi-15.24.md",
     "christianity/1-nephi-14-convincing-unto-peace.md",
-    "goals/2024-01-26.md",
     "posts/a-10-week-self-guided-data-science-intro-course.md",
     "docs/christianity/1-nephi-14-convincing-unto-peace.html",
     "docs/img/dalle-seeing-through-a-glass-darkly-and-then-clearly.jpeg",
@@ -160,7 +161,6 @@
     "christianity/1-nephi-13-publish-peace.md",
     "img/dalle-convincing-of-peace-dove-two-guys.jpeg",
     "scriptures/1-nephi-14.7.md",
-    "goals/2024-01-25.md",
     "book-review/wool.md",
     "book-review/the-coddling-of-the-american-mind.md",
     "gratitude/new-perspectives.md",
