@@ -1,10 +1,13 @@
 ---
-title: "A 10 week self guided Data Science Intro Course"
-description: |
-  x
-date: "2024-01-26 21:59:18"  
-created: "2024-01-26 21:59:18"
-categories: posts  
+title: Become a Data Scientist in 10 Weeks
+description: You only need the desire. The rest is freely accessible. You got this.
+date: 2024-01-26 21:59:18
+created: 2024-01-26 21:59:18
+categories:
+  - posts
+  - data science
+  - featured
+  - career
 draft: false
 ---
 How do you get a job in data science if you currently aren't a data scientist?
@@ -40,7 +43,7 @@ Balancing learning between real books and ChatGPT is the best combo. ChatGPT is 
 - Set up a blog. 
 	- Medium.com
 	- Substack.com
-	- Or use Quarto and publish on GitHub
+	- (Harder) Or use [Quarto](https://quarto.org/) and publish on GitHub
 - Find 5 blogs by top data scientists. Read their posts. See what they write about. 
 - Your first blog post is about what you like about these 5 blogs. 
 - Share your blog post on all social media. LinkedIn, Twitter, Facebook. 
