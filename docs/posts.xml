@@ -24,7 +24,7 @@
 <p>How do you get a job in data science if you currently aren’t a data scientist?</p>
 <p>I asked this question while working as an analyst 8 years ago and wanting to break into data science. I wrote about it back then (lost the post), so I’m gonna revisit it now.</p>
 <p>I was asked this question today: “how do I get started and get a job in data science if I don’t have any experience?”</p>
-<p>Simple: get experience. For free. In 10 weeks.</p>
+<p>Simple: get experience. For free. In 10 weeks. Write a good resume. Network like crazy - try to connect with real people (and not just spam).</p>
 <p>There are a million ways to do this, and a million blog posts like this one. But here’s my biased opinion, so enjoy!</p>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
@@ -32,17 +32,25 @@
 <figcaption class="margin-caption">Some O.G. Data scientists</figcaption>
 </figure>
 </div>
-<section id="mindset" class="level1">
-<h1>Mindset</h1>
+<section id="no-single-data-science-definition" class="level1">
+<h1>No Single Data Science Definition</h1>
+<p>Look at 10 job postings for data science and you’ll see 10 unique definitions for a data scientist. Roughly, I’d categorize them as such:</p>
+<ol type="1">
+<li>Human decision support: someone who supports others in their decision making. This would be their boss, their team, etc. Decisions are: should we shut this line of business down? Are our customers churning and how do we prevent that?</li>
+<li>Machine Decision Support: someone who helps machines make automated decisions, like whether to approve a loan, recommend a YouTube video, etc.</li>
+<li>Product developer: someone who uses data to build a web product or service. This is similar to machine decision support, but the role might be in a SaaS capacity.</li>
+</ol>
+<p>Most of these things below will help with 1-2. Today, AI products are all the rage and I offer one week on deep learning. That being said, all the principles in each one of these sections is important in any field you pursue. # Mindset</p>
 <p>While doing the following, on weeks 2-10, write one blog post to outline what you learned.</p>
 <ol type="1">
-<li>where did you start? Why was it hard to learn? What did you want to know?</li>
-<li>what concepts were new to you?</li>
+<li>Where did you start? Why was it hard to learn? What did you want to know?</li>
+<li>What concepts were new to you?</li>
 <li>Do something with that knowledge. Search the internet to find data you can write about.</li>
 </ol>
 <p>If you don’t get very far, just move on to the next topic. Breadth is better early on to find out what you enjoy. Don’t get caught up in the details. Skim more. Write more. Worry less. You got this.</p>
 <p>In all things, use ChatGPT to tutor you. Ask it questions. Be relentless. Have it explain things to you like you’re five.</p>
 <p>Balancing learning between real books and ChatGPT is the best combo. ChatGPT is a better teacher, and the books have real info in them you can more fully trust. Using both together will get you there faster.</p>
+<p>If any of the books below don’t vibe for you, there are a million free books out there. Find a simpler one and the same topic (and post in the comments so I can add it!)</p>
 </section>
 <section id="week-1-prepare-to-share" class="level1">
 <h1>Week 1: Prepare to Share</h1>
@@ -76,6 +84,7 @@
 <blockquote class="blockquote">
 <p>To be able to make predictions about the future, you first need to understand how to understand the past.</p>
 </blockquote>
+<p>Analytics is the foundation of data science. It’s the process of manipulating data and reshaping it to see it in new ways.</p>
 <ul>
 <li><a href="https://wesmckinney.com/book/">Python for Data Analysis, 3E</a> - written by the creator of <code>pandas</code></li>
 <li><a href="https://r4ds.hadley.nz/">R for Data Science (2e)</a> - written by the creator of <code>dplyr</code>, the best data manipulation language ever.</li>
@@ -92,10 +101,34 @@
 <li><a href="https://r-graphics.org/">R Graphics Cookbook, 2nd edition</a></li>
 </ul>
 <p>This is after analytics because analytics is more important (knowing what to look for and how to think about data) than plotting it.</p>
-<p>Plotting is really hard and time consuming. Details can take hours. Focus on the basics at first.</p>
+<p>There are two types of plots: those for you to learn from and those for others to learn from. First, learn what’s in the data. Learn for yourself.</p>
+<blockquote class="blockquote">
+<p>“Look at the plot. Look at the plot. No seriously, look at the plot.” Chris Peterson, Capital One</p>
+</blockquote>
+<p>Second, plot for other people. After you’ve learned something by sifting out all the noise, learn how to communicate that externally.</p>
+<p>Beautiful plotting is really hard and time consuming. Details can take hours. Focus on the basics at first. The simplest plot focuses on “what’s the one thing I want someone to take away from this?”</p>
 </section>
-<section id="week-5-intro-to-machine-learning" class="level1">
-<h1>Week 5: Intro to Machine Learning</h1>
+<section id="week-5-get-data-you-dont-yet-have" class="level1">
+<h1>Week 5: Get Data You Don’t Yet Have</h1>
+<blockquote class="blockquote">
+<p>If you work at a company &gt; 50 people, your company’s data is probably stored in a database. Learning how to get this data so you can do data analytics and visualization will help you be self sufficient.</p>
+</blockquote>
+<p>Analytics is more important than this, because someone else may be able to get you the data. Or, once you know analytics then you can use SQL to <em>do</em> analytics.</p>
+<p>Three primary ways to get data include the following:</p>
+<ol type="1">
+<li>SQL (from a database, returns a spreadsheet like table)</li>
+<li>API (get data from a website, returns JSON data)</li>
+<li>Webscraping (getting it yourself, this is considered “unstructured” data)</li>
+</ol>
+<p>Interactive tutorials here are the way to go. Just google around for some good ones.</p>
+<ul>
+<li><a href="https://sqlbolt.com/">SQLBolt - Learn SQL - Introduction to SQL</a></li>
+<li><a href="https://www.dataquest.io/blog/python-api-tutorial/">Python API Tutorial: Getting Started with APIs – Dataquest</a></li>
+<li><a href="https://realpython.com/python-web-scraping-practical-introduction/">A Practical Introduction to Web Scraping in Python – Real Python</a></li>
+</ul>
+</section>
+<section id="week-6-intro-to-machine-learning" class="level1">
+<h1>Week 6: Intro to Machine Learning</h1>
 <blockquote class="blockquote">
 <p>This book nails the foundations of machine learning. Doesn’t get too mathy, but teaches you the principles.</p>
 </blockquote>
@@ -104,8 +137,8 @@
 <li>For reference, a more mathy and dense book that supports the Intro book is <a href="https://hastie.su.domains/Papers/ESLII.pdf">Elements of Statistical Learninf</a></li>
 </ul>
 </section>
-<section id="week-6-regression-analysis" class="level1">
-<h1>Week 6: Regression Analysis</h1>
+<section id="week-7-regression-analysis" class="level1">
+<h1>Week 7: Regression Analysis</h1>
 <blockquote class="blockquote">
 <p>Regression Is key to getting insights out of data. It’s what sets you apart from a data analyst role.</p>
 </blockquote>
@@ -114,8 +147,23 @@
 <li><a href="https://avehtari.github.io/ROS-Examples/">Regression and Other Stories</a></li>
 </ul>
 </section>
-<section id="week-7-time-series-data" class="level1">
-<h1>Week 7: Time Series Data</h1>
+<section id="week-8-choose-your-own-adventure" class="level1">
+<h1>Week 8 Choose your own Adventure</h1>
+<section id="ab-testing-and-kpi-optimization-for-online-companies-applies-to-offline-too" class="level2">
+<h2 class="anchored" data-anchor-id="ab-testing-and-kpi-optimization-for-online-companies-applies-to-offline-too">A/B Testing and KPI Optimization for Online Companies (applies to offline too)</h2>
+<blockquote class="blockquote">
+<p>All big internet companies use A/B testing, or split testing, to make decisions about how to improve their product. If you’re interested in software, or understanding how all modern websites and software are improved, you need to understand A/B testing.</p>
+</blockquote>
+<p>If You’ve taken stat 101, this is where the “t.test” gets used to literally make Big Tech billions of dollars. I’m not kidding. It’s simple, but it’s powerful.</p>
+<ul>
+<li><a href="https://netflixtechblog.com/its-all-a-bout-testing-the-netflix-experimentation-platform-4e1ca458c15">It’s All A/Bout Testing: The Netflix Experimentation Platform | by Netflix Technology Blog | Netflix TechBlog</a></li>
+<li>A seven part series by Netflix: <a href="https://netflixtechblog.com/netflix-a-culture-of-learning-394bc7d0f94c">Netflix: A Culture of Learning. Martin Tingley with Wenjing Zheng… | by Netflix Technology Blog | Netflix TechBlog</a> I put here the seventh post because it likes to parts 1-6 in the intro. This part 7 is probably the best to start with because it explains the context behind A/B testing.</li>
+<li><a href="https://experimentguide.com/">Experiment Guide – Accelerate innovation using trustworthy online controlled experiments</a> This book tells you how Microsoft, Amazon, and Google use online experimentation to make billions of dollars. It’s written by the people who invented online experimentation and who are top data scientists at those companies.</li>
+</ul>
+</section>
+</section>
+<section id="time-series-data" class="level1">
+<h1>Time Series Data</h1>
 <blockquote class="blockquote">
 <p>All modern data is time series data in some way (data collected over time). Even though you may not use forecasting in everything or what not, understanding the nature of that data will set you apart. Focus on principles, not techniques as you may not use these specific techniques.</p>
 </blockquote>
@@ -123,10 +171,10 @@
 <li><a href="https://otexts.com/fpp3/">Forecasting: Principles&nbsp;and&nbsp;Practice (3rd&nbsp;ed)</a></li>
 </ul>
 </section>
-<section id="week-8-intro-to-deep-learning" class="level1">
-<h1>Week 8: Intro to Deep Learning</h1>
+<section id="week-9-intro-to-deep-learning" class="level1">
+<h1>Week 9: Intro to Deep Learning</h1>
 <blockquote class="blockquote">
-<p>Deep learning is all the rage, and will change the future for everyone.</p>
+<p>Deep learning is all the rage, and will change the future for everyone. It’s vital you know how these systems work because this is the future of society.</p>
 </blockquote>
 <ul>
 <li><a href="https://www.fast.ai/">fast.ai - fast.ai—Making neural nets uncool again</a>
@@ -134,9 +182,23 @@
 <li>Great courses that teaches you how to build ChatGPT and Image Generators and understand it.</li>
 </ul></li>
 </ul>
+<p>This YouTube videos and others by him are great:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/zjkBMFhNj_g" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>Also this:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/jkrNMKz9pWU" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
-<section id="week-9-10-do-two-projects" class="level1">
-<h1>Week 9-10: Do two projects</h1>
+<section id="week-10-recommendation-systems" class="level1">
+<h1>Week 10: Recommendation Systems</h1>
+<blockquote class="blockquote">
+<p>If you’re making automated decisions with data, you’re probably using a recommendation system at some level. Recommendation systems typically focus on “what video does Bryan want given all the data we have on him and people like him?”. But the principles also extend to: how do I recommend one course of action to my stakeholder?</p>
+</blockquote>
+<p>I don’t have great resources here, but getting the concepts down will help you understand how virtually every social media app or streaming service works. (Netflix, Spotify, Instagram, etc all use recommenders to figure out the content you’re interested in. )</p>
+<ul>
+<li><a href="http://eliassi.org/charu_recsys_intro.pdf">http://eliassi.org/charu_recsys_intro.pdf</a></li>
+</ul>
+</section>
+<section id="week-11-do-projects" class="level1">
+<h1>Week 11+: Do Projects</h1>
 <p>Now that you’ve studied analytics, data viz, regression, machine learning, and deep learning, create two blog posts or personal projects.</p>
 <ul>
 <li>Build a dashboard using a Jupyter notebook that updates daily. You can host on GitHub using quarto to render the notebook and use GitHub actions to update it every day.</li>
@@ -148,6 +210,7 @@
 <h1>Prepare your Resume</h1>
 <p>Now you’ve got 10 blog posts, which is 10 more bullet points on your resume than you had before you started. You’ve learned a ton if you only do 10% of all that’s above.</p>
 <p>I’ve loved the advice I found written up here: <a href="../posts/2022-11-18-writing-a-tech-resume/index.html">Writing a Tech Resume</a>.</p>
+<p>Once you have a good resume, find real people to give it to. Dont apply blindly online. Talk to everyone you know. Find people on LinkedIn and message them directly with a personal message. Use one of your blog posts in your message to tell them why you’re a good fit for their role. Perhaps even write a blog post specific to data from their company!</p>
 <p>Good luck!</p>
 
 
@@ -158,6 +221,10 @@
   <category>data science</category>
   <category>featured</category>
   <category>career</category>
+  <category>recommendation systems</category>
+  <category>A/B testing</category>
+  <category>analytics</category>
+  <category>beginners</category>
   <guid>https://www.bryanwhiting.com/posts/a-10-week-self-guided-data-science-intro-course.html</guid>
   <pubDate>Fri, 26 Jan 2024 21:59:18 GMT</pubDate>
 </item>
