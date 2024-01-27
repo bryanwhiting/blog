@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/rock-climbing.md",
+                "file": "posts/a-10-week-self-guided-data-science-intro-course.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "gratitude/rock-climbing.md",
+            "file": "posts/a-10-week-self-guided-data-science-intro-course.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "gratitude/rock-climbing.md"
+            "file": "posts/a-10-week-self-guided-data-science-intro-course.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "gratitude/rock-climbing.md",
+            "file": "posts/a-10-week-self-guided-data-science-intro-course.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -140,9 +140,12 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-plato-socrates-archimedes-and-r-a-fisher.jpeg",
+    "posts/2022-11-18-writing-a-tech-resume/index.md",
+    "posts/a-10-week-self-guided-data-science-intro-course.md",
+    "gratitude/rock-climbing.md",
     "img/dalle-rock-climbing-free-fall.jpeg",
     "goals/2024-01-26.md",
-    "gratitude/rock-climbing.md",
     "christianity/1-nephi-13-publish-peace.md",
     "christianity/1-nephi-14-convincing-unto-peace.md",
     "img/dalle-convincing-of-peace-dove-two-guys.jpeg",
@@ -168,14 +171,11 @@
     "scriptures/1-nephi-12.17.md",
     "goals/2024-01-23.md",
     "gratitude/navajo-code-talkers.md",
-    "img/book-the-coddling-of-the-american-mind.jpeg",
     "news/2024-01-23-news-notes.md",
     "lists/ai.md",
     "posts/writing-only-makes-sense-to-the-author.md",
     "christianity/turn-to-god-not-your-idols.md",
     "scriptures/2-nephi-32.8.md",
-    "scriptures/doctrine-and-covenants-58.27.md",
-    "scriptures/doctrine-and-covenants-58.28.md",
     "docs/creative/poem-lint.html",
     "docs/concepts/sacrament-covenant.html",
     "docs/scriptures/moses-5.58.html",

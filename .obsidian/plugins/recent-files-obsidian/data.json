@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "a-10-week-self-guided-data-science-intro-course",
+      "path": "posts/a-10-week-self-guided-data-science-intro-course.md"
+    },
+    {
+      "basename": "index",
+      "path": "posts/2022-11-18-writing-a-tech-resume/index.md"
+    },
+    {
       "basename": "rock-climbing",
       "path": "gratitude/rock-climbing.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "2024-01-19",
       "path": "goals/2024-01-19.md"
-    },
-    {
-      "basename": "1-nephi-9-write-with-a-purpose",
-      "path": "christianity/1-nephi-9-write-with-a-purpose.md"
-    },
-    {
-      "basename": "1-nephi-93",
-      "path": "scriptures/1-nephi-93.md"
     }
   ],
   "omittedPaths": [],
