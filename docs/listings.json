@@ -2,6 +2,8 @@
   {
     "listing": "/sitemap.html",
     "items": [
+      "/posts/a-10-week-self-guided-data-science-intro-course.html",
+      "/gratitude/rock-climbing.html",
       "/scriptures/1-nephi-14.7.html",
       "/christianity/1-nephi-14-convincing-unto-peace.html",
       "/book-review/greenlights.html",
@@ -323,6 +325,7 @@
   {
     "listing": "/gratitude.html",
     "items": [
+      "/gratitude/rock-climbing.html",
       "/gratitude/new-perspectives.html",
       "/gratitude/challenges.html",
       "/gratitude/navajo-code-talkers.html",
@@ -478,6 +481,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/a-10-week-self-guided-data-science-intro-course.html",
       "/posts/the-only-mind-thats-clear-is-the-one-that-sees-no-alternative.html",
       "/posts/writing-only-makes-sense-to-the-author.html",
       "/posts/the-problem-with-public-opinions.html",
@@ -555,6 +559,7 @@
       "/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html",
       "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
       "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html",
+      "/gratitude/rock-climbing.html",
       "/gratitude/new-perspectives.html",
       "/gratitude/challenges.html",
       "/gratitude/navajo-code-talkers.html",
@@ -658,6 +663,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/a-10-week-self-guided-data-science-intro-course.html",
       "/posts/the-only-mind-thats-clear-is-the-one-that-sees-no-alternative.html",
       "/posts/writing-only-makes-sense-to-the-author.html",
       "/posts/the-problem-with-public-opinions.html",
@@ -757,6 +763,8 @@
   {
     "listing": "/all.html",
     "items": [
+      "/posts/a-10-week-self-guided-data-science-intro-course.html",
+      "/gratitude/rock-climbing.html",
       "/christianity/1-nephi-14-convincing-unto-peace.html",
       "/book-review/greenlights.html",
       "/posts/the-only-mind-thats-clear-is-the-one-that-sees-no-alternative.html",

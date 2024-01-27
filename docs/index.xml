@@ -10,7 +10,192 @@
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Thu, 25 Jan 2024 23:44:37 GMT</lastBuildDate>
+<lastBuildDate>Fri, 26 Jan 2024 21:59:18 GMT</lastBuildDate>
+<item>
+  <title>Become a Data Scientist in 10 Weeks</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/a-10-week-self-guided-data-science-intro-course.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>How do you get a job in data science if you currently aren’t a data scientist?</p>
+<p>I asked this question while working as an analyst 8 years ago and wanting to break into data science. I wrote about it back then (lost the post), so I’m gonna revisit it now.</p>
+<p>I was asked this question today: “how do I get started and get a job in data science if I don’t have any experience?”</p>
+<p>Simple: get experience. For free. In 10 weeks.</p>
+<p>There are a million ways to do this, and a million blog posts like this one. But here’s my biased opinion, so enjoy!</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-plato-socrates-archimedes-and-r-a-fisher.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Some O.G. Data scientists</figcaption>
+</figure>
+</div>
+<section id="mindset" class="level1">
+<h1>Mindset</h1>
+<p>While doing the following, on weeks 2-10, write one blog post to outline what you learned.</p>
+<ol type="1">
+<li>where did you start? Why was it hard to learn? What did you want to know?</li>
+<li>what concepts were new to you?</li>
+<li>Do something with that knowledge. Search the internet to find data you can write about.</li>
+</ol>
+<p>If you don’t get very far, just move on to the next topic. Breadth is better early on to find out what you enjoy. Don’t get caught up in the details. Skim more. Write more. Worry less. You got this.</p>
+<p>In all things, use ChatGPT to tutor you. Ask it questions. Be relentless. Have it explain things to you like you’re five.</p>
+<p>Balancing learning between real books and ChatGPT is the best combo. ChatGPT is a better teacher, and the books have real info in them you can more fully trust. Using both together will get you there faster.</p>
+</section>
+<section id="week-1-prepare-to-share" class="level1">
+<h1>Week 1: Prepare to Share</h1>
+<blockquote class="blockquote">
+<p>By creating a blog you demonstrate the following: you like to learn, you can communicate, you can do hard things, you’re naturally curious, you’re contributing to the ecosystem. Lots of ways to show those things, but having a blog is at least one way.</p>
+</blockquote>
+<ul>
+<li>Set up a blog.
+<ul>
+<li>Medium.com</li>
+<li>Substack.com</li>
+<li>(Harder) Or use <a href="https://quarto.org/">Quarto</a> and publish on GitHub</li>
+</ul></li>
+<li>Find 5 blogs by top data scientists. Read their posts. See what they write about.</li>
+<li>Your first blog post is about what you like about these 5 blogs.</li>
+<li>Share your blog post on all social media. LinkedIn, Twitter, Facebook.</li>
+</ul>
+</section>
+<section id="week-2-storytelling" class="level1">
+<h1>Week 2: Storytelling</h1>
+<blockquote class="blockquote">
+<p>You can’t get credit for great data science work unless you can tell a story. Now that you have a blog, learn how to write about data.</p>
+</blockquote>
+<ul>
+<li><a href="https://tellingstorieswithdata.com/">Telling Stories with Data</a></li>
+<li>Find three data-focused blogs that use charts and analysis. Economist, FiveThirtyEight, DataIsBeautiful, etc.</li>
+</ul>
+</section>
+<section id="week-3-analytics" class="level1">
+<h1>Week 3: Analytics</h1>
+<blockquote class="blockquote">
+<p>To be able to make predictions about the future, you first need to understand how to understand the past.</p>
+</blockquote>
+<ul>
+<li><a href="https://wesmckinney.com/book/">Python for Data Analysis, 3E</a> - written by the creator of <code>pandas</code></li>
+<li><a href="https://r4ds.hadley.nz/">R for Data Science (2e)</a> - written by the creator of <code>dplyr</code>, the best data manipulation language ever.</li>
+</ul>
+<p>Both these books are great. Read both. It’s good to learn early that there are multiple right ways of doing your analysis the wrong way 😉. Seeing how to think in two languages is actually easier than getting stuck on one.</p>
+</section>
+<section id="week-4-data-visualization" class="level1">
+<h1>Week 4: Data Visualization</h1>
+<blockquote class="blockquote">
+<p>Learning how to make a plot is like learning how to write. Learn how colors work. When to use them. When to use a bar vs.&nbsp;a line chart. How to make ideas shine.</p>
+</blockquote>
+<ul>
+<li><a href="https://jjallaire.github.io/visualization-curriculum/">Visualization Curriculum</a></li>
+<li><a href="https://r-graphics.org/">R Graphics Cookbook, 2nd edition</a></li>
+</ul>
+<p>This is after analytics because analytics is more important (knowing what to look for and how to think about data) than plotting it.</p>
+<p>Plotting is really hard and time consuming. Details can take hours. Focus on the basics at first.</p>
+</section>
+<section id="week-5-intro-to-machine-learning" class="level1">
+<h1>Week 5: Intro to Machine Learning</h1>
+<blockquote class="blockquote">
+<p>This book nails the foundations of machine learning. Doesn’t get too mathy, but teaches you the principles.</p>
+</blockquote>
+<ul>
+<li><a href="https://www.statlearning.com/">An Introduction to Statistical Learning</a></li>
+<li>For reference, a more mathy and dense book that supports the Intro book is <a href="https://hastie.su.domains/Papers/ESLII.pdf">Elements of Statistical Learninf</a></li>
+</ul>
+</section>
+<section id="week-6-regression-analysis" class="level1">
+<h1>Week 6: Regression Analysis</h1>
+<blockquote class="blockquote">
+<p>Regression Is key to getting insights out of data. It’s what sets you apart from a data analyst role.</p>
+</blockquote>
+<ul>
+<li><a href="https://peopleanalytics-regression-book.org/">Welcome | Handbook of Regression Modeling in People Analytics: With Examples in R, Python and Julia</a></li>
+<li><a href="https://avehtari.github.io/ROS-Examples/">Regression and Other Stories</a></li>
+</ul>
+</section>
+<section id="week-7-time-series-data" class="level1">
+<h1>Week 7: Time Series Data</h1>
+<blockquote class="blockquote">
+<p>All modern data is time series data in some way (data collected over time). Even though you may not use forecasting in everything or what not, understanding the nature of that data will set you apart. Focus on principles, not techniques as you may not use these specific techniques.</p>
+</blockquote>
+<ul>
+<li><a href="https://otexts.com/fpp3/">Forecasting: Principles&nbsp;and&nbsp;Practice (3rd&nbsp;ed)</a></li>
+</ul>
+</section>
+<section id="week-8-intro-to-deep-learning" class="level1">
+<h1>Week 8: Intro to Deep Learning</h1>
+<blockquote class="blockquote">
+<p>Deep learning is all the rage, and will change the future for everyone.</p>
+</blockquote>
+<ul>
+<li><a href="https://www.fast.ai/">fast.ai - fast.ai—Making neural nets uncool again</a>
+<ul>
+<li>Great courses that teaches you how to build ChatGPT and Image Generators and understand it.</li>
+</ul></li>
+</ul>
+</section>
+<section id="week-9-10-do-two-projects" class="level1">
+<h1>Week 9-10: Do two projects</h1>
+<p>Now that you’ve studied analytics, data viz, regression, machine learning, and deep learning, create two blog posts or personal projects.</p>
+<ul>
+<li>Build a dashboard using a Jupyter notebook that updates daily. You can host on GitHub using quarto to render the notebook and use GitHub actions to update it every day.</li>
+<li>Create a model to predict who will win the next NBA game</li>
+<li>Analyze any data from data.gov</li>
+</ul>
+</section>
+<section id="prepare-your-resume" class="level1">
+<h1>Prepare your Resume</h1>
+<p>Now you’ve got 10 blog posts, which is 10 more bullet points on your resume than you had before you started. You’ve learned a ton if you only do 10% of all that’s above.</p>
+<p>I’ve loved the advice I found written up here: <a href="../posts/2022-11-18-writing-a-tech-resume/index.html">Writing a Tech Resume</a>.</p>
+<p>Good luck!</p>
+
+
+</section>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>data science</category>
+  <category>featured</category>
+  <category>career</category>
+  <guid>https://www.bryanwhiting.com/posts/a-10-week-self-guided-data-science-intro-course.html</guid>
+  <pubDate>Fri, 26 Jan 2024 21:59:18 GMT</pubDate>
+</item>
+<item>
+  <title>I’m Grateful for Rock Climbing</title>
+  <link>https://www.bryanwhiting.com/gratitude/rock-climbing.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I participated in Boy Scouts growing up, and I got to go to High Adventure. This was a week where we’d go on an adventurous camping trip with a bunch of other teenagers. Things never went according to plan.</p>
+<p>On one experience, I was repelling over a hang. After 30 feet repelling, I was then dangling over nothing. There was a double belay, one above and one below. This meant that either could help save me.</p>
+<p>I was invited to let go of my first belay. Yes. Let go.</p>
+<p>This meant I’d drop 150-200 feet in a free fall. The bottom belay would catch me.</p>
+<p>I held the rope tightly in my hand as I looked off into the Appalachian mountains and the green trees dotting my surroundings. I looked ahead at the rock face, and up at the cliff hang. I held that rope for a second more before…drop.</p>
+<p>And I fell, as planned! It was insane and it took all of half a second.</p>
+<p>But then something unexpected happened: the first belay rope wrapped around my right leg. I turned upside down and instead of the belay stopping me, the burning of rope wrapped around my leg halted my descent. Didn’t feel good.</p>
+<p>I’m grateful I didn’t die that day. That rope could have wrapped my neck. It’s possible I could have not stopped for some reason. It’s possible those guys who were my guides that day didn’t actually know what they were doing and it wasn’t as safe as they said.</p>
+<p>That feeling of dropping was incredible though, as you never feel so heavy as when your hurtling towards the ground at gravitational constant acceleration.</p>
+<p>I had many great experiences since then rock climbing, though I don’t go often. It’s just a cool thing to do. It’s cool people figured out how to do it and how to do it safely. I’m also grateful for high adventure - I learned a lot from those formative experiences.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-rock-climbing-free-fall.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">This cartoon kinda gets it pretty much right. Excited. Let go. Terrified. Caught upside down.</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>gratitude</category>
+  <category>adventure</category>
+  <category>personal stories</category>
+  <guid>https://www.bryanwhiting.com/gratitude/rock-climbing.html</guid>
+  <pubDate>Fri, 26 Jan 2024 20:57:34 GMT</pubDate>
+</item>
 <item>
   <title>1 Nephi 14 - Convincing unto Peace</title>
   <link>https://www.bryanwhiting.com/christianity/1-nephi-14-convincing-unto-peace.html</link>
@@ -675,58 +860,6 @@
   <category>agency</category>
   <guid>https://www.bryanwhiting.com/christianity/choosing-to-press-forward.html</guid>
   <pubDate>Sat, 20 Jan 2024 23:41:36 GMT</pubDate>
-</item>
-<item>
-  <title>I’m Grateful for Social Gatherings</title>
-  <link>https://www.bryanwhiting.com/gratitude/social-gatherings.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>This week I went to a tiny venue concert. The person who invited me said, “Can you believe that just two years ago we were forbidden to gather like this?”</p>
-<p>We were listening to a Honky Tonk/Rockability Banjo jammer who just absolutely slayed the whole night. The energy was off the charts. Everyone was dancing and having a great time.</p>
-<p>I’m glad and grateful we can get together again.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-banjo-at-the-library.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Buckle up</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>gratitude</category>
-  <guid>https://www.bryanwhiting.com/gratitude/social-gatherings.html</guid>
-  <pubDate>Sat, 20 Jan 2024 23:37:25 GMT</pubDate>
-</item>
-<item>
-  <title>How to Win Friends and Influence People</title>
-  <dc:creator>Dale Carnegie</dc:creator>
-  <link>https://www.bryanwhiting.com/book-review/how-to-win-friends-and-influence-people.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>2024-01-22 - father poem. Father forgets. - bate the hook to please the fish - Tell them what they want - And how to get it - Lavish with praise. This is greater incentive than any criticism - What do they want? (Not what do I want?) “smoking will keep you from making the bball team” - Ford: put yourself in their position. Consider it. And consider your own - Consider how they’ll receive your email. They have a ton of problems. They’re overwhelmed. Don’t sell them. Teach them the benefits they’ll get. - Flattery vs appreciation - flattery is lip service. If you’re trying to convince someone to do something and you’re using flattery, then thats manipulation. And you’re prone to get angry if they don’t want to do it (kids). But if you’re sincere, you’ll find a solution - Arouse in others an eager want - Don’t tell someone an idea. Plant the seed and make them think it’s their own.</p>
-<p>2024-01-20 - 85% of success is in non-technical skills. Communication. - We grow far faster by rewarding good behavior than punishing bad behavior - Kids. - Futility of criticism - Ask questions. “Does your hard hat not fit properly? It will save you.” - Don’t kick a beehive if you want honey - “I don’t see how I could have done any better” - Criticism - Abraham Lincoln never sent the letter -</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/book-how-to-win-friends.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">How to win friends and influence people</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book-review</category>
-  <guid>https://www.bryanwhiting.com/book-review/how-to-win-friends-and-influence-people.html</guid>
-  <pubDate>Sat, 20 Jan 2024 13:29:46 GMT</pubDate>
 </item>
 </channel>
 </rss>
