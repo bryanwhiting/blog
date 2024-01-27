@@ -8,7 +8,12 @@ categories:
   - data science
   - featured
   - career
+  - recommendation systems
+  - A/B testing
+  - analytics
+  - beginners
 draft: false
+subtitle: How to break into data science and get a foundation in data that will help you understand how the modern digital economy works
 ---
 How do you get a job in data science if you currently aren't a data scientist?
 
@@ -22,6 +27,15 @@ There are a million ways to do this, and a million blog posts like this one. But
 
 ![Some O.G. Data scientists](../img/dalle-plato-socrates-archimedes-and-r-a-fisher.jpeg){.preview-image}
 
+# No Single Data Science Definition
+
+Look at 10 job postings for data science and you'll see 10 unique definitions for a data scientist. Roughly, I'd categorize them as such:
+
+1. Human decision support: someone who supports others in their decision making. This would be their boss, their team, etc. Decisions are: should we shut this line of business down? Are our customers churning and how do we prevent that?
+2. Machine Decision Support: someone who helps machines make automated decisions, like whether to approve a loan, recommend a YouTube video, etc. 
+3. Product developer: someone who uses data to build a web product or service. This is similar to machine decision support, but the role might be in a SaaS capacity. 
+
+Most of these things below will help with 1-2. Today, AI products are all the rage and I offer one week on deep learning. That being said, all the principles in each one of these sections is important in any field you pursue. 
 # Mindset
 
 While doing the following, on weeks 2-10, write one blog post to outline what you learned. 
@@ -61,6 +75,8 @@ If any of the books below don't vibe for you, there are a million free books out
 
 > To be able to make predictions about the future, you first need to understand how to understand the past.
 
+Analytics is the foundation of data science. It's the process of manipulating data and reshaping it to see it in new ways. 
+
 - [Python for Data Analysis, 3E](https://wesmckinney.com/book/) - written by the creator of `pandas`
 - [R for Data Science (2e)](https://r4ds.hadley.nz/) - written by the creator of `dplyr`, the best data manipulation language ever. 
 
@@ -84,8 +100,25 @@ Second, plot for other people. After you've learned something by sifting out all
 
 Beautiful plotting is really hard and time consuming. Details can take hours. Focus on the basics at first. The simplest plot focuses on "what's the one thing I want someone to take away from this?"
 
+# Week 5: Get Data You Don't Yet Have
 
-# Week 5: Intro to Machine Learning
+> If you work at a company > 50 people, your company's data is probably stored in a database. Learning how to get this data so you can do data analytics and visualization will help you be self sufficient. 
+
+Analytics is more important than this, because someone else may be able to get you the data. Or, once you know analytics then you can use SQL to *do* analytics. 
+
+Three primary ways to get data include the following:
+
+1. SQL (from a database, returns a spreadsheet like table)
+2. API (get data from a website, returns JSON data)
+3. Webscraping (getting it yourself, this is considered "unstructured" data)
+
+Interactive tutorials here are the way to go. Just google around for some good ones.  
+
+- [SQLBolt - Learn SQL - Introduction to SQL](https://sqlbolt.com/)
+- [Python API Tutorial: Getting Started with APIs – Dataquest](https://www.dataquest.io/blog/python-api-tutorial/)
+- [A Practical Introduction to Web Scraping in Python – Real Python](https://realpython.com/python-web-scraping-practical-introduction/)
+
+# Week 6: Intro to Machine Learning
 
 > This book nails the foundations of machine learning. Doesn't get too mathy, but teaches you the principles. 
 
@@ -93,27 +126,55 @@ Beautiful plotting is really hard and time consuming. Details can take hours. Fo
 - [An Introduction to Statistical Learning](https://www.statlearning.com/)
 - For reference, a more mathy and dense book that supports the Intro book is [Elements of Statistical Learninf](https://hastie.su.domains/Papers/ESLII.pdf)
 
-# Week 6: Regression Analysis
+# Week 7: Regression Analysis
 
 > Regression Is key to getting insights out of data. It's what sets you apart from a data analyst role. 
 
 - [Welcome | Handbook of Regression Modeling in People Analytics: With Examples in R, Python and Julia](https://peopleanalytics-regression-book.org/)
 - [Regression and Other Stories](https://avehtari.github.io/ROS-Examples/)
 
-# Week 7: Time Series Data
+# Week 8 Choose your own Adventure
+
+## A/B Testing and KPI Optimization for Online Companies (applies to offline too)
+
+> All big internet companies use A/B testing, or split testing, to make decisions about how to improve their product. If you're interested in software, or understanding how all modern websites and software are improved, you need to understand A/B testing. 
+
+If You've taken stat 101, this is where the "t.test" gets used to literally make Big Tech billions of dollars. I'm not kidding. It's simple, but it's powerful. 
+
+- [It’s All A/Bout Testing: The Netflix Experimentation Platform | by Netflix Technology Blog | Netflix TechBlog](https://netflixtechblog.com/its-all-a-bout-testing-the-netflix-experimentation-platform-4e1ca458c15)
+- A seven part series by Netflix: [Netflix: A Culture of Learning. Martin Tingley with Wenjing Zheng… | by Netflix Technology Blog | Netflix TechBlog](https://netflixtechblog.com/netflix-a-culture-of-learning-394bc7d0f94c) I put here the seventh post because it likes to parts 1-6 in the intro. This part 7 is probably the best to start with because it explains the context behind A/B testing.
+- [Experiment Guide – Accelerate innovation using trustworthy online controlled experiments](https://experimentguide.com/) This book tells you how Microsoft, Amazon, and Google use online experimentation to make billions of dollars. It's written by the people who invented online experimentation and who are top data scientists at those companies. 
+
+#  Time Series Data
 
 > All modern data is time series data in some way (data collected over time). Even though you may not use forecasting in everything or what not, understanding the nature of that data will set you apart. Focus on principles, not techniques as you may not use these specific techniques.
 
 - [Forecasting: Principles and Practice (3rd ed)](https://otexts.com/fpp3/)
 
-# Week 8: Intro to Deep Learning
+# Week 9: Intro to Deep Learning
 
-> Deep learning is all the rage, and will change the future for everyone. 
+> Deep learning is all the rage, and will change the future for everyone. It's vital you know how these systems work because this is the future of society. 
 
 - [fast.ai - fast.ai—Making neural nets uncool again](https://www.fast.ai/)
 	- Great courses that teaches you how to build ChatGPT and Image Generators and understand it. 
 
-# Week 9-10: Do two projects
+This YouTube videos and others by him are great:
+
+{{< video https://www.youtube.com/watch?v=zjkBMFhNj_g >}} 
+
+Also this:
+
+{{< video https://www.youtube.com/watch?v=jkrNMKz9pWU&pp=ygUhbGFyZ2UgbGFuZ3VhZ2UgbW9kZWxzIGZvciBoYWNrZXJz >}}
+
+# Week 10: Recommendation Systems
+
+> If you're making automated decisions with data, you're probably using a recommendation system at some level. Recommendation systems typically focus on "what video does Bryan want given all the data we have on him and people like him?". But the principles also extend to: how do I recommend one course of action to my stakeholder?
+
+I don't have great resources here, but getting the concepts down will help you understand how virtually every social media app or streaming service works. (Netflix, Spotify, Instagram, etc all use recommenders to figure out the content you're interested in. )
+
+- [http://eliassi.org/charu\_recsys\_intro.pdf](http://eliassi.org/charu_recsys_intro.pdf)
+
+# Week 11+: Do Projects
 
 Now that you've studied analytics, data viz, regression, machine learning, and deep learning, create two blog posts or personal projects. 
 
