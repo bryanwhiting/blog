@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/1-nephi-13-publish-peace.md",
+                "file": "gratitude/rock-climbing.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/1-nephi-13-publish-peace.md",
+            "file": "gratitude/rock-climbing.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/1-nephi-13-publish-peace.md"
+            "file": "gratitude/rock-climbing.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/1-nephi-13-publish-peace.md",
+            "file": "gratitude/rock-climbing.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -140,6 +140,10 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-rock-climbing-free-fall.jpeg",
+    "goals/2024-01-26.md",
+    "gratitude/rock-climbing.md",
+    "christianity/1-nephi-13-publish-peace.md",
     "christianity/1-nephi-14-convincing-unto-peace.md",
     "img/dalle-convincing-of-peace-dove-two-guys.jpeg",
     "scriptures/1-nephi-14.7.md",
@@ -152,10 +156,8 @@
     "book-review/greenlights.md",
     "img/book-greenlights.jpeg",
     "img/dalle-defender-football-catch.jpeg",
-    "goals/2024-01-26.md",
     "_templates/day.md",
     "goals/2024-01-24.md",
-    "christianity/1-nephi-13-publish-peace.md",
     "img/dalle-dove-on-a-branch.jpeg",
     "gratitude/challenges.md",
     "img/dalle-pushing-boulder-up-the-hill.jpeg",
@@ -174,7 +176,6 @@
     "scriptures/2-nephi-32.8.md",
     "scriptures/doctrine-and-covenants-58.27.md",
     "scriptures/doctrine-and-covenants-58.28.md",
-    "scriptures/doctrine-and-covenants-6.36.md",
     "docs/creative/poem-lint.html",
     "docs/concepts/sacrament-covenant.html",
     "docs/scriptures/moses-5.58.html",

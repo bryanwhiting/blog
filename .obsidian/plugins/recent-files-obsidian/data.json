@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "rock-climbing",
+      "path": "gratitude/rock-climbing.md"
+    },
+    {
+      "basename": "2024-01-26",
+      "path": "goals/2024-01-26.md"
+    },
+    {
       "basename": "1-nephi-13-publish-peace",
       "path": "christianity/1-nephi-13-publish-peace.md"
     },
@@ -31,10 +39,6 @@
     {
       "basename": "greenlights",
       "path": "book-review/greenlights.md"
-    },
-    {
-      "basename": "2024-01-26",
-      "path": "goals/2024-01-26.md"
     },
     {
       "basename": "day",
@@ -195,10 +199,6 @@
     {
       "basename": "1-nephi-93",
       "path": "scriptures/1-nephi-93.md"
-    },
-    {
-      "basename": "1-nephi-8-what-others-think",
-      "path": "christianity/1-nephi-8-what-others-think.md"
     }
   ],
   "omittedPaths": [],
