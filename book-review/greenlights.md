@@ -13,3 +13,4 @@ date-start: 2021-12-28
 date-finished: 2029-01-05
 pct-complete: "100"
 ---
+![Greenlights](../img/book-greenlights.jpeg){.preview-image}

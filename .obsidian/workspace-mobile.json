@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/a-10-week-self-guided-data-science-intro-course.md",
+                "file": "christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "updated",
+            "query": "tag:#ex/StandingTricepExtension",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/a-10-week-self-guided-data-science-intro-course.md",
+            "file": "christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/a-10-week-self-guided-data-science-intro-course.md"
+            "file": "christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.md"
           }
         }
       },
@@ -120,13 +120,14 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/a-10-week-self-guided-data-science-intro-course.md",
+            "file": "christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
         }
       }
-    ]
+    ],
+    "currentTab": 0
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -140,14 +141,21 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "christianity/1-nephi-14-convincing-unto-peace.md",
+    "book-review/greenlights.md",
+    "scriptures/1-nephi-14.14.md",
+    "christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.md",
+    "christianity/1-nephi-12-broad-roads.md",
+    "christianity/1-nephi-11-seeing-signs-of-christ.md",
+    "gratitude/chirping-birds.md",
+    "img/dalle-birds-chirping-in-a-tree.jpeg",
     "goals/2024-01-27.md",
+    "posts/a-10-week-self-guided-data-science-intro-course.md",
     "goals/2024-01-26.md",
     "goals/2024-01-25.md",
     "christianity/1-nephi-15-hearken-and-hold-fast.md",
     "img/dalle-hold-fast-fiery-darts.jpeg",
     "scriptures/1-nephi-15.24.md",
-    "christianity/1-nephi-14-convincing-unto-peace.md",
-    "posts/a-10-week-self-guided-data-science-intro-course.md",
     "docs/christianity/1-nephi-14-convincing-unto-peace.html",
     "docs/img/dalle-seeing-through-a-glass-darkly-and-then-clearly.jpeg",
     "docs/img/dalle-convincing-of-peace-dove-two-guys.jpeg",
@@ -166,19 +174,13 @@
     "gratitude/new-perspectives.md",
     "posts/the-only-mind-thats-clear-is-the-one-that-sees-no-alternative.md",
     "img/dalle-seeing-through-a-glass-darkly-and-then-clearly.jpeg",
-    "book-review/greenlights.md",
     "img/book-greenlights.jpeg",
     "img/dalle-defender-football-catch.jpeg",
     "_templates/day.md",
     "goals/2024-01-24.md",
-    "img/dalle-dove-on-a-branch.jpeg",
     "gratitude/challenges.md",
-    "christianity/1-nephi-12-broad-roads.md",
     "scriptures/1-nephi-12.17.md",
     "goals/2024-01-23.md",
-    "gratitude/navajo-code-talkers.md",
-    "news/2024-01-23-news-notes.md",
-    "lists/ai.md",
     "docs/creative/poem-lint.html",
     "docs/concepts/sacrament-covenant.html",
     "docs/scriptures/moses-5.58.html",
