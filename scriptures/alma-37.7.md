@@ -1,11 +1,10 @@
 ---
-title: |-
-  Alma 37.7
-description: "Selected quotes."
+title: Alma 37.7
+description: Selected quotes.
 date: 2024-01-10
 created: 2024-01-10
 updated: 
-categories: favorite scriptures
+categories: []
 draft: false
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: How to Win Friends and Influence People
-description: |
-  x
+description: The business and relationship bible. Practical ideas for understanding and adapting to various human needs
 date: 2024-01-20 13:29:46
 created: 2024-01-20 13:29:46
 categories:
@@ -39,7 +38,8 @@ pct-complete:
 - Criticism - Abraham Lincoln never sent the letter 
 - 
 
+![Core ideas](../img/photo-how-to-win-friends-bullet-points.jpeg){.preview-image}
 
 
 
-![How to win friends and influence people](../img/book-how-to-win-friends.jpeg){.preview-image}
+![How to win friends and influence people](../img/book-how-to-win-friends.jpeg)

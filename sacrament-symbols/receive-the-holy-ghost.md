@@ -6,6 +6,7 @@ created: 2024-01-21 10:41:50
 categories:
   - sacrament-symbols
   - christianity
+  - symbol-receive
 draft: false
 ---
 Today at church someone was confirmed a member of the Church after having been baptized yesterday. This taught me something new about the sacrament and the covenant we make with Him every week. 

@@ -1,6 +1,66 @@
 {
   "recentFiles": [
     {
+      "basename": "bread-given-freely-like-his-life",
+      "path": "sacrament-symbols/bread-given-freely-like-his-life.md"
+    },
+    {
+      "basename": "__other-symbols",
+      "path": "sacrament-symbols/__other-symbols.md"
+    },
+    {
+      "basename": "sunday-dress",
+      "path": "sacrament-symbols/sunday-dress.md"
+    },
+    {
+      "basename": "bread-in-the-oven",
+      "path": "sacrament-symbols/bread-in-the-oven.md"
+    },
+    {
+      "basename": "vaulted-ceiling",
+      "path": "sacrament-symbols/vaulted-ceiling.md"
+    },
+    {
+      "basename": "support-beams-represent-the-cross",
+      "path": "sacrament-symbols/support-beams-represent-the-cross.md"
+    },
+    {
+      "basename": "receive-the-holy-ghost",
+      "path": "sacrament-symbols/receive-the-holy-ghost.md"
+    },
+    {
+      "basename": "porous-bread",
+      "path": "sacrament-symbols/porous-bread.md"
+    },
+    {
+      "basename": "broken-bread-but-no-broken-bones",
+      "path": "sacrament-symbols/broken-bread-but-no-broken-bones.md"
+    },
+    {
+      "basename": "new-post",
+      "path": "_templates/new-post.md"
+    },
+    {
+      "basename": "day",
+      "path": "_templates/day.md"
+    },
+    {
+      "basename": "alma-37.7",
+      "path": "scriptures/alma-37.7.md"
+    },
+    {
+      "basename": "imagination",
+      "path": "gratitude/imagination.md"
+    },
+    {
+      "basename": "how-to-win-friends-and-influence-people",
+      "path": "book-review/how-to-win-friends-and-influence-people.md"
+    },
+    {
+      "basename": "Jesus-the-Christ-chapter-35.-death-and-burial",
+      "path": "scriptures/Jesus-the-Christ-chapter-35.-death-and-burial.md"
+    },
+    {
       "basename": "come-follow-me-2024-01-28-jan-28-1-nephi-11-15",
       "path": "christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.md"
     },
@@ -73,10 +133,6 @@
       "path": "posts/the-only-mind-thats-clear-is-the-one-that-sees-no-alternative.md"
     },
     {
-      "basename": "day",
-      "path": "_templates/day.md"
-    },
-    {
       "basename": "2024-01-24",
       "path": "goals/2024-01-24.md"
     },
@@ -113,10 +169,6 @@
       "path": "goals/2024-01-22.md"
     },
     {
-      "basename": "how-to-win-friends-and-influence-people",
-      "path": "book-review/how-to-win-friends-and-influence-people.md"
-    },
-    {
       "basename": "reading-list",
       "path": "lists/reading-list.md"
     },
@@ -141,64 +193,12 @@
       "path": "posts/mark-cuban-mogul-support.md"
     },
     {
-      "basename": "receive-the-holy-ghost",
-      "path": "sacrament-symbols/receive-the-holy-ghost.md"
-    },
-    {
       "basename": "saints-book-1-the-standard-of-truth-1815-1846",
       "path": "book-review/saints-book-1-the-standard-of-truth-1815-1846.md"
     },
     {
       "basename": "poem-lint",
       "path": "creative/poem-lint.md"
-    },
-    {
-      "basename": "vaulted-ceiling",
-      "path": "sacrament-symbols/vaulted-ceiling.md"
-    },
-    {
-      "basename": "support-beams-represent-the-cross",
-      "path": "sacrament-symbols/support-beams-represent-the-cross.md"
-    },
-    {
-      "basename": "book-how-to-win-friends",
-      "path": "img/book-how-to-win-friends.jpeg"
-    },
-    {
-      "basename": "gift-of-the-holy-ghost",
-      "path": "scriptures/gift-of-the-holy-ghost.md"
-    },
-    {
-      "basename": "dalle-receive-the-holy-ghostXimage-the-resurrected-christ-in-white-laying-both-of-his-hands-on-the-heads-of-one-person-water-colors-peaceful--inside-focus-on-the-savior-phase-out-other-things-impressionist",
-      "path": "img/dalle-receive-the-holy-ghostXimage-the-resurrected-christ-in-white-laying-both-of-his-hands-on-the-heads-of-one-person-water-colors-peaceful--inside-focus-on-the-savior-phase-out-other-things-impressionist.jpeg"
-    },
-    {
-      "basename": "sacrament-covenant",
-      "path": "concepts/sacrament-covenant.md"
-    },
-    {
-      "basename": "moroni-5.2",
-      "path": "scriptures/moroni-5.2.md"
-    },
-    {
-      "basename": "matthew-16.15-17",
-      "path": "scriptures/matthew-16.15-17.md"
-    },
-    {
-      "basename": "john-14.25-26",
-      "path": "scriptures/john-14.25-26.md"
-    },
-    {
-      "basename": "2024-01-20",
-      "path": "goals/2024-01-20.md"
-    },
-    {
-      "basename": "choosing-to-press-forward",
-      "path": "christianity/choosing-to-press-forward.md"
-    },
-    {
-      "basename": "stop-trying-to-change-people",
-      "path": "christianity/stop-trying-to-change-people.md"
     }
   ],
   "omittedPaths": [],
