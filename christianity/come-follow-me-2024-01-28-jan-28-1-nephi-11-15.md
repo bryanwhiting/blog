@@ -1,8 +1,7 @@
 ---
 title: 2024-01-28 Come Follow Me CTR 7 Jan 22-28 1 Nephi 11-15
-description: |
-  x
-date: 2024-01-27 23:59:02
+description: Summary and notes for the lesson week
+date: 2024-01-28T23:59:00
 created: 2024-01-27 23:59:02
 categories:
   - christianity

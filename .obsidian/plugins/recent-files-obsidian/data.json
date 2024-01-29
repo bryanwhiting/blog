@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-01-28",
+      "path": "goals/2024-01-28.md"
+    },
+    {
       "basename": "2024-01-29",
       "path": "goals/2024-01-29.md"
     },
     {
-      "basename": "2024-01-27",
-      "path": "goals/2024-01-27.md"
+      "basename": "the-tyranny-of-experts",
+      "path": "book-review/the-tyranny-of-experts.md"
     },
     {
-      "basename": "2024-01-28",
-      "path": "goals/2024-01-28.md"
+      "basename": "wool",
+      "path": "book-review/wool.md"
+    },
+    {
+      "basename": "day",
+      "path": "_templates/day.md"
+    },
+    {
+      "basename": "come-follow-me-2024-01-28-jan-28-1-nephi-11-15",
+      "path": "christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.md"
+    },
+    {
+      "basename": "2024-01-27",
+      "path": "goals/2024-01-27.md"
     },
     {
       "basename": "bread-given-freely-like-his-life",
@@ -53,10 +69,6 @@
       "path": "_templates/new-post.md"
     },
     {
-      "basename": "day",
-      "path": "_templates/day.md"
-    },
-    {
       "basename": "alma-37.7",
       "path": "scriptures/alma-37.7.md"
     },
@@ -71,10 +83,6 @@
     {
       "basename": "Jesus-the-Christ-chapter-35.-death-and-burial",
       "path": "scriptures/Jesus-the-Christ-chapter-35.-death-and-burial.md"
-    },
-    {
-      "basename": "come-follow-me-2024-01-28-jan-28-1-nephi-11-15",
-      "path": "christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.md"
     },
     {
       "basename": "1-nephi-14-convincing-unto-peace",
@@ -123,10 +131,6 @@
     {
       "basename": "1-nephi-13-publish-peace",
       "path": "christianity/1-nephi-13-publish-peace.md"
-    },
-    {
-      "basename": "wool",
-      "path": "book-review/wool.md"
     },
     {
       "basename": "the-coddling-of-the-american-mind",
@@ -195,10 +199,6 @@
     {
       "basename": "come-follow-me-2024-01-21-jan-21",
       "path": "christianity/come-follow-me-2024-01-21-jan-21.md"
-    },
-    {
-      "basename": "mark-cuban-mogul-support",
-      "path": "posts/mark-cuban-mogul-support.md"
     }
   ],
   "omittedPaths": [],

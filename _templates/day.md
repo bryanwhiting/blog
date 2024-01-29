@@ -16,8 +16,8 @@ let right = `[${tom.format(ddmd)} ⏩](${folder}/${tom.format(ymd)})`;
 let header =  `${left} | Let God Prevail | ${right}`;
 
 -%>---
-date: <% tp.date.now() %>
-title: <% tp.date.now() %>
+date: <% tday.format(ymd) %>
+title: <% tday.format(ymd) %>
 description: x
 categories:
   - goals
