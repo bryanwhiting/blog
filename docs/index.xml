@@ -51,25 +51,39 @@
 
 
 <p>How do you get a job in data science if you currently aren’t a data scientist?</p>
+<div class="callout callout-style-simple callout-tip no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>The simplest thing you can do to get experience is do 5 Kaggle competitions and use ChatGPT like crazy to learn how to code, annalyze data, and build models. Use the ChatGPT code interpreter for $20/month and see how it works. Test its limits. If you’re new to data science, you won’t understand where it’s wrong, so just ask it: “how might this answer you gave me be wrong?”</p>
+<p>The rest of this focuses on how to master the fundamentals, which will take you much farther and give you a foundation to build off of. But when in doubt, “doing” data science is much better than “learning” data science from books. Always strike a balance in your efforts: it takes far less time to read and learn principles, but it’s far more valuable to try “doing” a data science project with code.</p>
+</div>
+</div>
+</div>
+<section id="my-path-to-ds" class="level1 page-columns page-full">
+<h1>My path to DS</h1>
 <p>I asked this question while working as an analyst 8 years ago and wanting to break into data science. I wrote about it back then (lost the post), so I’m gonna revisit it now.</p>
-<p>I was asked this question today: “how do I get started and get a job in data science if I don’t have any experience?”</p>
-<p>Simple: get experience. For free. In 10 weeks. Write a good resume. Network like crazy - try to connect with real people (and not just spam).</p>
-<p>There are a million ways to do this, and a million blog posts like this one. But here’s my biased opinion, so enjoy!</p>
+<p>I was asked this question today: “how do I get started and get a job in data science if I don’t have any experience?” You may then wonder “I can’t get experience without a job…this is a chicken-and-egg problem.” False.</p>
+<p>Simple: get experience. For free. In 10 weeks. Write a good resume. Network like crazy: connect with real people (and not just spam). Get rejected probably 20-30 times, learn from each rejection, keep learning and presto, you’ll finally have an offer. It’s honestly just a numbers game. Everyone “ahead” of you is an imposter just like you. Just figure out enough basics and you’ll be ready for your first job.</p>
+<p>There are a million ways to do this, and a million blog posts like this one. But here’s my suggestion. Enjoy!</p>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="https://www.bryanwhiting.com/img/dalle-plato-socrates-archimedes-and-r-a-fisher.jpeg" class="preview-image img-fluid figure-img"></p>
 <figcaption class="margin-caption">Some O.G. Data scientists</figcaption>
 </figure>
 </div>
+</section>
 <section id="no-single-data-science-definition" class="level1">
 <h1>No Single Data Science Definition</h1>
 <p>Look at 10 job postings for data science and you’ll see 10 unique definitions for a data scientist. Roughly, I’d categorize them as such:</p>
 <ol type="1">
 <li>Human decision support: someone who supports others in their decision making. This would be their boss, their team, etc. Decisions are: should we shut this line of business down? Are our customers churning and how do we prevent that?</li>
-<li>Machine Decision Support: someone who helps machines make automated decisions, like whether to approve a loan, recommend a YouTube video, etc.</li>
+<li>Machine Decision Support: someone who helps machines make automated decisions, like whether to approve an online credit card application, recommend a YouTube video, etc.</li>
 <li>Product developer: someone who uses data to build a web product or service. This is similar to machine decision support, but the role might be in a SaaS capacity.</li>
 </ol>
-<p>Most of these things below will help with 1-2. Today, AI products are all the rage and I offer one week on deep learning. That being said, all the principles in each one of these sections is important in any field you pursue. # Mindset</p>
+<p>Most of these things below will help with 1-2. Today, AI products are all the rage and I offer one week on deep learning to get you interested in 3. That being said, all the principles in each one of these sections is important in any field you pursue. # Mindset</p>
 <p>While doing the following, on weeks 2-10, write one blog post to outline what you learned.</p>
 <ol type="1">
 <li>Where did you start? Why was it hard to learn? What did you want to know?</li>
@@ -108,8 +122,8 @@
 <li>Find three data-focused blogs that use charts and analysis. Economist, FiveThirtyEight, DataIsBeautiful, etc.</li>
 </ul>
 </section>
-<section id="week-3-analytics" class="level1">
-<h1>Week 3: Analytics</h1>
+<section id="week-3-analytics-and-data-intuition" class="level1">
+<h1>Week 3: Analytics and Data Intuition</h1>
 <blockquote class="blockquote">
 <p>To be able to make predictions about the future, you first need to understand how to understand the past.</p>
 </blockquote>
@@ -119,6 +133,11 @@
 <li><a href="https://r4ds.hadley.nz/">R for Data Science (2e)</a> - written by the creator of <code>dplyr</code>, the best data manipulation language ever.</li>
 </ul>
 <p>Both these books are great. Read both. It’s good to learn early that there are multiple right ways of doing your analysis the wrong way 😉. Seeing how to think in two languages is actually easier than getting stuck on one.</p>
+<p>Related: understand the bias in your data.</p>
+<ul>
+<li><a href="https://datasciencehorizons.com/thinking-clearly-data-scientist-guide-understanding-cognitive-biases/">Thinking Clearly: A Data Scientist’s Guide to Understanding Cognitive Biases [eBook] – Data Science Horizons</a></li>
+<li><a href="https://www.analyticsinsight.net/top-5-biases-data-science/">Top 5 Biases in Data Science to Know for Model’s Accuracy</a></li>
+</ul>
 </section>
 <section id="week-4-data-visualization" class="level1">
 <h1>Week 4: Data Visualization</h1>
@@ -165,6 +184,8 @@
 <li><a href="https://www.statlearning.com/">An Introduction to Statistical Learning</a></li>
 <li>For reference, a more mathy and dense book that supports the Intro book is <a href="https://hastie.su.domains/Papers/ESLII.pdf">Elements of Statistical Learninf</a></li>
 </ul>
+<p>For content on how to get insights from machine learning models: - <a href="https://christophm.github.io/interpretable-ml-book/">Interpretable Machine Learning</a></p>
+<p>Additional - understand the bias in your models <a href="https://www.tobiasbaer.net/algorithmic-bias">Tobias Baer - Risk Management, Data Science, and Psychology</a> - <a href="https://www.oreilly.com/library/view/machine-learning-for/9781098102425/ch04.html">4. Managing Bias in Machine Learning - Machine Learning for High-Risk Applications</a></p>
 </section>
 <section id="week-7-regression-analysis" class="level1">
 <h1>Week 7: Regression Analysis</h1>
@@ -233,6 +254,7 @@
 <li>Build a dashboard using a Jupyter notebook that updates daily. You can host on GitHub using quarto to render the notebook and use GitHub actions to update it every day.</li>
 <li>Create a model to predict who will win the next NBA game</li>
 <li>Analyze any data from data.gov</li>
+<li>Kaggle competitions!</li>
 </ul>
 </section>
 <section id="prepare-your-resume" class="level1">
