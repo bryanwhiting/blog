@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "day",
+      "path": "_templates/day.md"
+    },
+    {
       "basename": "1-nephi-10",
       "path": "christianity/1-nephi-10.md"
     },
@@ -43,10 +47,6 @@
     {
       "basename": "the-oxford-inklings-lewis-tolkien-and-their-circle",
       "path": "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md"
-    },
-    {
-      "basename": "day",
-      "path": "_templates/day.md"
     }
   ],
   "omittedPaths": [],
