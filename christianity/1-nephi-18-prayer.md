@@ -1,12 +1,13 @@
 ---
-title: 1 Nephi 18
-description: |
-  x
+title: 1 Nephi 18 - The Power of Prayer
+description: The winds in our life can cease when we turn to God.
 date: 2024-01-31 23:24:13
 created: 2024-01-31 23:24:13
 categories:
   - christianity
   - come follow me
+  - prayer
+  - adversity
 draft: false
 ---
 # Scriptures
@@ -23,4 +24,6 @@ When we pray often, we are shown great things. And then after he's tied up and b
 
 # Meaning
 
-Do I turn to the Lord the moment something goes wrong? [Turn to God in All Things, and Not Your Idols](christianity/turn-to-god-not-your-idols.md) The winds in our life can cease when we turn to God. 
+Do I turn to the Lord the moment something goes wrong? [Turn to God in All Things, and Not Your Idols](christianity/turn-to-god-not-your-idols.md) 
+
+The winds in our life can cease when we turn to God. 

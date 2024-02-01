@@ -1,7 +1,7 @@
 ---
 title: 1 Nephi 17 - He will strengthen us
 description: Don't ask for obstacles to be removed. Ask to be strengthened to overcome them
-date: 2024-01-31 18:08:20
+date: 2024-01-30T18:08:00
 created: 2024-01-31 18:08:20
 categories:
   - christianity
