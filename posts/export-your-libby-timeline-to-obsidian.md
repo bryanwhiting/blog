@@ -28,7 +28,8 @@ Here's how you do it using Python:
 4. Or! Just ask ChatGPT to do this for you lol. 
 
 
-```
+```{python}
+# | eval: false
 from datetime import datetime, timedelta
 import pandas as pd
 import os

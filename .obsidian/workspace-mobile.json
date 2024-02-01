@@ -15,7 +15,7 @@
               "state": {
                 "file": "posts/export-your-libby-timeline-to-obsidian.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
