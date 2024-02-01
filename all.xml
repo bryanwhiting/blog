@@ -10,7 +10,114 @@
 <atom:link href="https://www.bryanwhiting.com/all.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Wed, 31 Jan 2024 23:44:35 GMT</lastBuildDate>
+<lastBuildDate>Thu, 01 Feb 2024 14:32:35 GMT</lastBuildDate>
+<item>
+  <title>Export your Libby Timeline to Obsidian</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/export-your-libby-timeline-to-obsidian.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I love reading and I love writing. Both are integral parts of learning. The reading to receive new ideas, the writing to cement those ideas to something.</p>
+<p>As I stood up my blog I wondered how to get past books on here. There’s a way!</p>
+<p>I now use Audible and Spotify audiobooks, but most of my past reads come from Libby.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/photo-libby-icon.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Libby</figcaption>
+</figure>
+</div>
+<p>Here’s how you do it using Python:</p>
+<ol type="1">
+<li>Open Libby app and figure out how to export your timeline. Somewhere in settings. It’ll produce a CSV.</li>
+<li>Go through that CSV and creat a column “read” that identified the ones you actually began (sigh…so many books I placed holds on but never read….)</li>
+<li>Run this python script and it’ll create an obsidian markdown file for each. Tweak it to match your preferences. I personally use <code>quarto</code> to blog so I have a naming convention for the files and metadata.</li>
+<li>Or! Just ask ChatGPT to do this for you lol.</li>
+</ol>
+<pre><code>from datetime import datetime, timedelta
+import pandas as pd
+import os
+import zipfile
+import re
+
+# Load the provided spreadsheet using pandas
+file_path = "~/Downloads/libbytimeline-activities.csv"
+df = pd.read_csv(file_path)
+
+# Parse the timestamp into the format yyyy-mm-dd and rename the column to 'date'
+df["timestamp_raw"] = df["timestamp"]
+df["timestamp"] = pd.to_datetime(df["timestamp"], format="%m/%d/%y %H:%M")
+# create a stringed date
+df["date"] = df["timestamp"].dt.strftime("%Y-%m-%d")
+
+df[["date", "timestamp_raw"]]
+
+# Custom column: Filter rows where read == 1 (went through spreadsheet to filter out those I had borrowed but never read).
+df = df[df["read"] == 1]
+
+# De-duplicate by title, keeping the most recent record (sorted by date)
+df = df.sort_values("timestamp", ascending=False).drop_duplicates("title")
+
+# Create a new column 'created' with today's date in yyyy-mm-dd format
+today = datetime.now().strftime("%Y-%m-%d")
+df["created"] = today
+
+# Create a new column 'date-finished' that's the timestamp's date + 21 days
+df["date-finished"] = (df["timestamp"] + timedelta(days=21)).dt.strftime("%Y-%m-%d")
+
+# Prepare for markdown file creation
+output_directory = os.path.expanduser("~/Desktop/markdown_files")
+os.makedirs(output_directory, exist_ok=True)
+
+# Loop through each item in the dataframe and create a markdown file
+for index, row in df.iterrows():
+    markdown_content = f"""
+---
+title: {row['title']}
+description: _{row['title']}_ by {row['author']}. Published by {row['publisher']}, with ISBN {row['isbn']}. Read on {row['date']}
+date: {row['date']}
+categories: book-review
+created: {row['created']}
+draft: false
+author: {row['author']}
+book-year: 1000
+book-time: 0
+date-start: {row['date']}
+date-finished: {row['date-finished']}
+pct-complete: 0
+---
+
+![]({row['cover']}){{.preview-image}}
+"""
+    filename = re.sub(r"[^\w]", "-", row["title"]).lower()
+    filename = re.sub(r"-+", "-", filename)
+    file_path = os.path.join(output_directory, f"{filename}.md")
+    with open(file_path, "w") as file:
+        file.write(markdown_content.strip())
+    print(f"Created {file_path}")
+
+# Zip the markdown files
+zip_file_path = os.path.expanduser("~/Desktop/markdown_files.zip")
+with zipfile.ZipFile(zip_file_path, "w") as zipf:
+    for root, dirs, files in os.walk(output_directory):
+        for file in files:
+            zipf.write(os.path.join(root, file), file)</code></pre>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>tutorial</category>
+  <category>python</category>
+  <category>libby</category>
+  <category>quarto</category>
+  <category>blogging</category>
+  <guid>https://www.bryanwhiting.com/posts/export-your-libby-timeline-to-obsidian.html</guid>
+  <pubDate>Thu, 01 Feb 2024 14:32:35 GMT</pubDate>
+</item>
 <item>
   <title>I’m Grateful for Basketball</title>
   <link>https://www.bryanwhiting.com/gratitude/basketball.html</link>
@@ -856,37 +963,6 @@ And thus we see that the commandments of God must be fulfilled. And if it so be 
   <category>personal stories</category>
   <guid>https://www.bryanwhiting.com/gratitude/new-perspectives.html</guid>
   <pubDate>Thu, 25 Jan 2024 20:04:40 GMT</pubDate>
-</item>
-<item>
-  <title>1 Nephi 13 - Publish Peace</title>
-  <link>https://www.bryanwhiting.com/christianity/1-nephi-13-publish-peace.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>A lot of us have very little control over the world we’re born into. We can do a lot for our own lives, but very few of us will have the ability to change nations.</p>
-<p>Which is why I love this scripture:</p>
-<blockquote class="blockquote">
-<p>And blessed are they who shall seek to bring forth my Zion at that day, for they shall have the gift and the power of the Holy Ghost; and if they endure unto the end they shall be lifted up at the last day, and shall be saved in the everlasting kingdom of the Lamb; and <strong>whoso shall publish peace, yea, tidings of great joy, how beautiful upon the mountains shall they be.</strong> <a href="../scriptures/1-nephi-13.37">1 Nephi 13.37</a></p>
-</blockquote>
-<p>Regardless of your status, if you publish peace, good awaits you.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-dove-on-a-branch.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Dove on a branch</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>christianity</category>
-  <category>peace</category>
-  <category>come follow me</category>
-  <guid>https://www.bryanwhiting.com/christianity/1-nephi-13-publish-peace.html</guid>
-  <pubDate>Wed, 24 Jan 2024 23:59:45 GMT</pubDate>
 </item>
 </channel>
 </rss>

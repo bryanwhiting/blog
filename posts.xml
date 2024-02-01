@@ -10,7 +10,114 @@
 <atom:link href="https://www.bryanwhiting.com/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Fri, 26 Jan 2024 21:59:18 GMT</lastBuildDate>
+<lastBuildDate>Thu, 01 Feb 2024 14:32:35 GMT</lastBuildDate>
+<item>
+  <title>Export your Libby Timeline to Obsidian</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/export-your-libby-timeline-to-obsidian.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I love reading and I love writing. Both are integral parts of learning. The reading to receive new ideas, the writing to cement those ideas to something.</p>
+<p>As I stood up my blog I wondered how to get past books on here. There’s a way!</p>
+<p>I now use Audible and Spotify audiobooks, but most of my past reads come from Libby.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/photo-libby-icon.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Libby</figcaption>
+</figure>
+</div>
+<p>Here’s how you do it using Python:</p>
+<ol type="1">
+<li>Open Libby app and figure out how to export your timeline. Somewhere in settings. It’ll produce a CSV.</li>
+<li>Go through that CSV and creat a column “read” that identified the ones you actually began (sigh…so many books I placed holds on but never read….)</li>
+<li>Run this python script and it’ll create an obsidian markdown file for each. Tweak it to match your preferences. I personally use <code>quarto</code> to blog so I have a naming convention for the files and metadata.</li>
+<li>Or! Just ask ChatGPT to do this for you lol.</li>
+</ol>
+<pre><code>from datetime import datetime, timedelta
+import pandas as pd
+import os
+import zipfile
+import re
+
+# Load the provided spreadsheet using pandas
+file_path = "~/Downloads/libbytimeline-activities.csv"
+df = pd.read_csv(file_path)
+
+# Parse the timestamp into the format yyyy-mm-dd and rename the column to 'date'
+df["timestamp_raw"] = df["timestamp"]
+df["timestamp"] = pd.to_datetime(df["timestamp"], format="%m/%d/%y %H:%M")
+# create a stringed date
+df["date"] = df["timestamp"].dt.strftime("%Y-%m-%d")
+
+df[["date", "timestamp_raw"]]
+
+# Custom column: Filter rows where read == 1 (went through spreadsheet to filter out those I had borrowed but never read).
+df = df[df["read"] == 1]
+
+# De-duplicate by title, keeping the most recent record (sorted by date)
+df = df.sort_values("timestamp", ascending=False).drop_duplicates("title")
+
+# Create a new column 'created' with today's date in yyyy-mm-dd format
+today = datetime.now().strftime("%Y-%m-%d")
+df["created"] = today
+
+# Create a new column 'date-finished' that's the timestamp's date + 21 days
+df["date-finished"] = (df["timestamp"] + timedelta(days=21)).dt.strftime("%Y-%m-%d")
+
+# Prepare for markdown file creation
+output_directory = os.path.expanduser("~/Desktop/markdown_files")
+os.makedirs(output_directory, exist_ok=True)
+
+# Loop through each item in the dataframe and create a markdown file
+for index, row in df.iterrows():
+    markdown_content = f"""
+---
+title: {row['title']}
+description: _{row['title']}_ by {row['author']}. Published by {row['publisher']}, with ISBN {row['isbn']}. Read on {row['date']}
+date: {row['date']}
+categories: book-review
+created: {row['created']}
+draft: false
+author: {row['author']}
+book-year: 1000
+book-time: 0
+date-start: {row['date']}
+date-finished: {row['date-finished']}
+pct-complete: 0
+---
+
+![]({row['cover']}){{.preview-image}}
+"""
+    filename = re.sub(r"[^\w]", "-", row["title"]).lower()
+    filename = re.sub(r"-+", "-", filename)
+    file_path = os.path.join(output_directory, f"{filename}.md")
+    with open(file_path, "w") as file:
+        file.write(markdown_content.strip())
+    print(f"Created {file_path}")
+
+# Zip the markdown files
+zip_file_path = os.path.expanduser("~/Desktop/markdown_files.zip")
+with zipfile.ZipFile(zip_file_path, "w") as zipf:
+    for root, dirs, files in os.walk(output_directory):
+        for file in files:
+            zipf.write(os.path.join(root, file), file)</code></pre>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>tutorial</category>
+  <category>python</category>
+  <category>libby</category>
+  <category>quarto</category>
+  <category>blogging</category>
+  <guid>https://www.bryanwhiting.com/posts/export-your-libby-timeline-to-obsidian.html</guid>
+  <pubDate>Thu, 01 Feb 2024 14:32:35 GMT</pubDate>
+</item>
 <item>
   <title>Become a Data Scientist in 10 Weeks</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -912,35 +1019,6 @@
   <category>grit</category>
   <guid>https://www.bryanwhiting.com/posts/your-mood-is-contagious.html</guid>
   <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Emotional Recovery</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/emotional-recovery.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Imagine you just ran a red light at 10:15pm. You were driving without music or phone distractions, you just zoned out and coasted through.</p>
-<p>Your emotions run high as you consider what might have happened otherwise. But nothing happened. Something <em>could</em> have happened, but nothing did. In the end, all is well.</p>
-<p>How do you calm yourself down? In <a href="../book-review/dune.html">Dune</a>, someone almost dies because of Paul’s “mistake”. But nobody died.</p>
-<p>Life is full of thousands of these things. Several of them we recognize and brush off “oh that was close.” But how many events go unnoticed because we were unaware we even could have done harm (no red light to be found)?</p>
-<p>How we identify and recover is a skill. How do you process such experiences? How do you get over the person who cuts you off on the highway? How do you get over not realizing you cut someone off?</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-red-light-night.png" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">The red lights of life</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>posts</category>
-  <guid>https://www.bryanwhiting.com/posts/emotional-recovery.html</guid>
-  <pubDate>Sat, 30 Dec 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

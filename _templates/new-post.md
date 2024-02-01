@@ -1,6 +1,6 @@
 <%*
 // Define the list of folders  
-const folders = ["book-review", "christianity", "concepts", "creative", "gratitude", "news", "posts", "sacrament-symbols", "tech"];
+const folders = ["book-review", "christianity", "concepts", "creative", "innovate", "gratitude", "news", "posts", "sacrament-symbols", "tech"];
 
 // Use the suggester to let the 
 // user choose a folder  
@@ -87,6 +87,13 @@ if (folder === "sacrament-symbols"){
 }
 if (folder === "christianity"){
   body += "# Scriptures\n\n# Meaning\n"
+}
+if (folder === "innovate"){
+  body += "# Problem\n\n"
+  body += "# Why? Size?\n\n"
+  body += "# Workarounds\n\n"
+  body += "# Current Solutions\n\n"
+  body += "# Improved Solution\n\n"
 }
 
 
