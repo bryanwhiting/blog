@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "export-your-libby-timeline-to-obsidian",
+      "path": "posts/export-your-libby-timeline-to-obsidian.md"
+    },
+    {
+      "basename": "reading-list",
+      "path": "lists/reading-list.md"
+    },
+    {
+      "basename": "reading-ethos",
+      "path": "lists/reading-ethos.md"
+    },
+    {
+      "basename": "wool",
+      "path": "book-review/wool.md"
+    },
+    {
+      "basename": "new-post",
+      "path": "_templates/new-post.md"
+    },
+    {
+      "basename": "legal-search",
+      "path": "innovate/legal-search.md"
+    },
+    {
+      "basename": "1-nephi-15-hearken-and-hold-fast",
+      "path": "christianity/1-nephi-15-hearken-and-hold-fast.md"
+    },
+    {
       "basename": "1-nephi-18-prayer",
       "path": "christianity/1-nephi-18-prayer.md"
     },
@@ -11,6 +39,42 @@
     {
       "basename": "1-nephi-16-christ-guides-us",
       "path": "christianity/1-nephi-16-christ-guides-us.md"
+    },
+    {
+      "basename": "come-follow-me-2024-01-28-jan-28-1-nephi-11-15",
+      "path": "christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.md"
+    },
+    {
+      "basename": "1-nephi-8-choosing-to-press-forward",
+      "path": "christianity/1-nephi-8-choosing-to-press-forward.md"
+    },
+    {
+      "basename": "1-nephi-8-what-others-think",
+      "path": "christianity/1-nephi-8-what-others-think.md"
+    },
+    {
+      "basename": "1-nephi-9-write-with-a-purpose",
+      "path": "christianity/1-nephi-9-write-with-a-purpose.md"
+    },
+    {
+      "basename": "1-nephi-10-rely-on-the-redeemer",
+      "path": "christianity/1-nephi-10-rely-on-the-redeemer.md"
+    },
+    {
+      "basename": "1-nephi-11-seeing-signs-of-christ",
+      "path": "christianity/1-nephi-11-seeing-signs-of-christ.md"
+    },
+    {
+      "basename": "1-nephi-13-publish-peace",
+      "path": "christianity/1-nephi-13-publish-peace.md"
+    },
+    {
+      "basename": "1-nephi-12-broad-roads",
+      "path": "christianity/1-nephi-12-broad-roads.md"
+    },
+    {
+      "basename": "1-nephi-14-convincing-unto-peace",
+      "path": "christianity/1-nephi-14-convincing-unto-peace.md"
     },
     {
       "basename": "youtube",
@@ -29,10 +93,6 @@
       "path": "img/Dalle-basketball.jpeg"
     },
     {
-      "basename": "new-post",
-      "path": "_templates/new-post.md"
-    },
-    {
       "basename": "the-loop",
       "path": "book-review/the-loop.md"
     },
@@ -43,10 +103,6 @@
     {
       "basename": "influence-the-psychology-of-persuasion",
       "path": "book-review/influence-the-psychology-of-persuasion.md"
-    },
-    {
-      "basename": "wool",
-      "path": "book-review/wool.md"
     },
     {
       "basename": "2024-01-30",
@@ -71,10 +127,6 @@
     {
       "basename": "day",
       "path": "_templates/day.md"
-    },
-    {
-      "basename": "come-follow-me-2024-01-28-jan-28-1-nephi-11-15",
-      "path": "christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.md"
     },
     {
       "basename": "2024-01-27",
@@ -133,20 +185,8 @@
       "path": "scriptures/Jesus-the-Christ-chapter-35.-death-and-burial.md"
     },
     {
-      "basename": "1-nephi-14-convincing-unto-peace",
-      "path": "christianity/1-nephi-14-convincing-unto-peace.md"
-    },
-    {
       "basename": "greenlights",
       "path": "book-review/greenlights.md"
-    },
-    {
-      "basename": "1-nephi-12-broad-roads",
-      "path": "christianity/1-nephi-12-broad-roads.md"
-    },
-    {
-      "basename": "1-nephi-11-seeing-signs-of-christ",
-      "path": "christianity/1-nephi-11-seeing-signs-of-christ.md"
     },
     {
       "basename": "chirping-birds",
@@ -159,42 +199,6 @@
     {
       "basename": "2024-01-26",
       "path": "goals/2024-01-26.md"
-    },
-    {
-      "basename": "2024-01-25",
-      "path": "goals/2024-01-25.md"
-    },
-    {
-      "basename": "1-nephi-15-hearken-and-hold-fast",
-      "path": "christianity/1-nephi-15-hearken-and-hold-fast.md"
-    },
-    {
-      "basename": "index",
-      "path": "posts/2022-11-18-writing-a-tech-resume/index.md"
-    },
-    {
-      "basename": "rock-climbing",
-      "path": "gratitude/rock-climbing.md"
-    },
-    {
-      "basename": "1-nephi-13-publish-peace",
-      "path": "christianity/1-nephi-13-publish-peace.md"
-    },
-    {
-      "basename": "the-coddling-of-the-american-mind",
-      "path": "book-review/the-coddling-of-the-american-mind.md"
-    },
-    {
-      "basename": "new-perspectives",
-      "path": "gratitude/new-perspectives.md"
-    },
-    {
-      "basename": "the-only-mind-thats-clear-is-the-one-that-sees-no-alternative",
-      "path": "posts/the-only-mind-thats-clear-is-the-one-that-sees-no-alternative.md"
-    },
-    {
-      "basename": "2024-01-24",
-      "path": "goals/2024-01-24.md"
     }
   ],
   "omittedPaths": [],
