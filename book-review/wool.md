@@ -1,6 +1,6 @@
 ---
 title: Wool
-description: Living in a ailo
+description: Living in a Silo
 date: 2024-01-24 08:43:51
 created: 2024-01-24 08:43:51
 categories:

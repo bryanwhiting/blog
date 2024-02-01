@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/1-nephi-16-christ-guides-us.md",
+                "file": "book-review/wool.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/1-nephi-16-christ-guides-us.md",
+            "file": "book-review/wool.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/1-nephi-16-christ-guides-us.md"
+            "file": "book-review/wool.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/1-nephi-16-christ-guides-us.md",
+            "file": "book-review/wool.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -139,10 +139,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "be767112276aa446",
+  "active": "78912cccc2282195",
   "lastOpenFiles": [
-    "goals/2024-01-30.md",
     "christianity/1-nephi-16-christ-guides-us.md",
+    "goals/2024-01-30.md",
     "img/dalle-christ-standing-brother-of-jared.jpeg",
     "img/dalle-brother-of-jared-in-cloud-with-lord.jpeg",
     "scriptures/ether-2.6.md",
