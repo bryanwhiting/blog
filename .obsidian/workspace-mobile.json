@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "goals/2024-01-29.md",
+                "file": "christianity/1-nephi-16-christ-guides-us.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "goals/2024-01-29.md",
+            "file": "christianity/1-nephi-16-christ-guides-us.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "goals/2024-01-29.md"
+            "file": "christianity/1-nephi-16-christ-guides-us.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "goals/2024-01-29.md",
+            "file": "christianity/1-nephi-16-christ-guides-us.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,6 +141,19 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "goals/2024-01-30.md",
+    "christianity/1-nephi-16-christ-guides-us.md",
+    "img/dalle-christ-standing-brother-of-jared.jpeg",
+    "img/dalle-brother-of-jared-in-cloud-with-lord.jpeg",
+    "scriptures/ether-2.6.md",
+    "scriptures/ether-2.5.md",
+    "scriptures/ether-2.16.md",
+    "scriptures/ether-2.14.md",
+    "scriptures/1-nephi-16.25.md",
+    "scriptures/1-nephi-16.26.md",
+    "gratitude/rescue-workers.md",
+    "img/dalle-search-and-rescue-forest.jpeg",
+    "goals/2024-01-29.md",
     "goals/2024-01-28.md",
     "docs/gratitude/imagination.html",
     "docs/gratitude/chirping-birds.html",
@@ -152,7 +165,6 @@
     "docs/img/dalle-sunday-best.jpeg",
     "docs/img/book-greenlights.jpeg",
     "docs/img/dalle-imagination-two-panes.jpeg",
-    "docs/img/dalle-bread-about-to-be-torn.jpeg",
     "docs/scriptures/3-nephi-18.22.html",
     "docs/scriptures/luke-7.39.html",
     "docs/scriptures/2-nephi-2.7.html",
@@ -160,16 +172,12 @@
     "docs/scriptures/1-nephi-15.23-25.html",
     "docs/scriptures/john-10.17-18.html",
     "docs/scriptures/matthew-6.8.html",
-    "goals/2024-01-29.md",
     "book-review/the-tyranny-of-experts.md",
     "book-review/wool.md",
-    "img/photo-tyranny-of-experts.jpeg",
-    "goals/2024-01-30.md",
     "_templates/day.md",
     "christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.md",
     "goals/2024-01-27.md",
     "sacrament-symbols/bread-given-freely-like-his-life.md",
-    "img/dalle-full-congregation-at-church.jpeg",
     "sacrament-symbols/__other-symbols.md",
     "sacrament-symbols/sunday-dress.md",
     "sacrament-symbols/bread-in-the-oven.md",
@@ -177,14 +185,6 @@
     "sacrament-symbols/support-beams-represent-the-cross.md",
     "sacrament-symbols/receive-the-holy-ghost.md",
     "sacrament-symbols/porous-bread.md",
-    "sacrament-symbols/broken-bread-but-no-broken-bones.md",
-    "scriptures/2-nephi-2.7.md",
-    "scriptures/luke-7.39.md",
-    "scriptures/luke-7.36-38.md",
-    "scriptures/doctrine-and-covenants-82.10.md",
-    "scriptures/mark-15.46.md",
-    "scriptures/matthew-12.40.md",
-    "_templates/new-post.md",
-    "scriptures/alma-37.7.md"
+    "sacrament-symbols/broken-bread-but-no-broken-bones.md"
   ]
 }
