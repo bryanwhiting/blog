@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-01-31",
+      "path": "goals/2024-01-31.md"
+    },
+    {
+      "basename": "basketball",
+      "path": "gratitude/basketball.md"
+    },
+    {
+      "basename": "Dalle-basketball",
+      "path": "img/Dalle-basketball.jpeg"
+    },
+    {
+      "basename": "1-nephi-18",
+      "path": "1-nephi-18.md"
+    },
+    {
+      "basename": "new-post",
+      "path": "_templates/new-post.md"
+    },
+    {
+      "basename": "the-loop",
+      "path": "book-review/the-loop.md"
+    },
+    {
+      "basename": "never-split-the-difference",
+      "path": "book-review/never-split-the-difference.md"
+    },
+    {
+      "basename": "influence-the-psychology-of-persuasion",
+      "path": "book-review/influence-the-psychology-of-persuasion.md"
+    },
+    {
       "basename": "1-nephi-17-strength",
       "path": "christianity/1-nephi-17-strength.md"
     },
@@ -85,10 +117,6 @@
       "path": "sacrament-symbols/broken-bread-but-no-broken-bones.md"
     },
     {
-      "basename": "new-post",
-      "path": "_templates/new-post.md"
-    },
-    {
       "basename": "alma-37.7",
       "path": "scriptures/alma-37.7.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "challenges",
       "path": "gratitude/challenges.md"
-    },
-    {
-      "basename": "2024-01-23",
-      "path": "goals/2024-01-23.md"
-    },
-    {
-      "basename": "navajo-code-talkers",
-      "path": "gratitude/navajo-code-talkers.md"
-    },
-    {
-      "basename": "2024-01-23-news-notes",
-      "path": "news/2024-01-23-news-notes.md"
-    },
-    {
-      "basename": "ai",
-      "path": "lists/ai.md"
-    },
-    {
-      "basename": "writing-only-makes-sense-to-the-author",
-      "path": "posts/writing-only-makes-sense-to-the-author.md"
-    },
-    {
-      "basename": "turn-to-god-not-your-idols",
-      "path": "christianity/turn-to-god-not-your-idols.md"
-    },
-    {
-      "basename": "2024-01-22",
-      "path": "goals/2024-01-22.md"
     }
   ],
   "omittedPaths": [],

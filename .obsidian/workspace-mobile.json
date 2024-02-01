@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/1-nephi-17-strength.md",
+                "file": "goals/2024-01-31.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/1-nephi-17-strength.md",
+            "file": "goals/2024-01-31.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/1-nephi-17-strength.md"
+            "file": "goals/2024-01-31.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/1-nephi-17-strength.md",
+            "file": "goals/2024-01-31.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,10 +141,23 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "gratitude/basketball.md",
+    "img/Dalle-basketball.jpeg",
+    "1-nephi-18.md",
+    "Untitled 1.md",
+    "scriptures/1-nephi-18.21.md",
+    "scriptures/1-nephi-18.3.md",
+    "_templates/new-post.md",
+    "book-review/the-loop.md",
+    "christianity/1-nephi-18.md",
+    "book-review/never-split-the-difference.md",
+    "img/book-never-split-the-difference.jpeg",
+    "book-review/influence-the-psychology-of-persuasion.md",
+    "christianity/1-nephi-17-strength.md",
+    "img/book-influence-the-psychology-of-persuasion.jpeg",
     "img/dalle-1-nephi-17-journey-in-wilderness.jpeg",
     "scriptures/1-nephi-17.2-3.md",
     "gratitude/youtube.md",
-    "christianity/1-nephi-17-strength.md",
     "img/dalle-youtube-glorified.jpeg",
     "book-review/wool.md",
     "goals/2024-01-31.md",
@@ -161,31 +174,17 @@
     "gratitude/rescue-workers.md",
     "img/dalle-search-and-rescue-forest.jpeg",
     "goals/2024-01-29.md",
-    "goals/2024-01-28.md",
     "docs/gratitude/imagination.html",
     "docs/gratitude/chirping-birds.html",
     "docs/christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.html",
     "docs/img/dalle-bread-in-oven.jpeg",
     "docs/img/photo-how-to-win-friends-bullet-points.jpeg",
-    "docs/img/dalle-birds-chirping-in-a-tree.jpeg",
-    "docs/img/dalle-sourdough-bread-is-porous.jpeg",
-    "docs/img/dalle-sunday-best.jpeg",
-    "docs/img/book-greenlights.jpeg",
     "docs/scriptures/3-nephi-18.22.html",
     "docs/scriptures/luke-7.39.html",
     "docs/scriptures/2-nephi-2.7.html",
     "docs/scriptures/mark-15.46.html",
     "docs/scriptures/1-nephi-15.23-25.html",
     "docs/scriptures/john-10.17-18.html",
-    "docs/scriptures/matthew-6.8.html",
-    "book-review/the-tyranny-of-experts.md",
-    "_templates/day.md",
-    "christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.md",
-    "goals/2024-01-27.md",
-    "sacrament-symbols/bread-given-freely-like-his-life.md",
-    "sacrament-symbols/__other-symbols.md",
-    "sacrament-symbols/sunday-dress.md",
-    "sacrament-symbols/bread-in-the-oven.md",
-    "sacrament-symbols/vaulted-ceiling.md"
+    "docs/scriptures/matthew-6.8.html"
   ]
 }
