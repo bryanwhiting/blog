@@ -10,7 +10,320 @@
 <atom:link href="https://www.bryanwhiting.com/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Tue, 16 Jan 2024 22:19:58 GMT</lastBuildDate>
+<lastBuildDate>Fri, 26 Jan 2024 21:59:18 GMT</lastBuildDate>
+<item>
+  <title>Become a Data Scientist in 10 Weeks</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/a-10-week-self-guided-data-science-intro-course.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>How do you get a job in data science if you currently aren’t a data scientist?</p>
+<div class="callout callout-style-simple callout-tip no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>The simplest thing you can do to get experience is do 5 Kaggle competitions and use ChatGPT like crazy to learn how to code, annalyze data, and build models. Use the ChatGPT code interpreter for $20/month and see how it works. Test its limits. If you’re new to data science, you won’t understand where it’s wrong, so just ask it: “how might this answer you gave me be wrong?”</p>
+<p>The rest of this focuses on how to master the fundamentals, which will take you much farther and give you a foundation to build off of. But when in doubt, “doing” data science is much better than “learning” data science from books. Always strike a balance in your efforts: it takes far less time to read and learn principles, but it’s far more valuable to try “doing” a data science project with code.</p>
+</div>
+</div>
+</div>
+<section id="my-path-to-ds" class="level1 page-columns page-full">
+<h1>My path to DS</h1>
+<p>I asked this question while working as an analyst 8 years ago and wanting to break into data science. I wrote about it back then (lost the post), so I’m gonna revisit it now.</p>
+<p>I was asked this question today: “how do I get started and get a job in data science if I don’t have any experience?” You may then wonder “I can’t get experience without a job…this is a chicken-and-egg problem.” False.</p>
+<p>Simple: get experience. For free. In 10 weeks. Write a good resume. Network like crazy: connect with real people (and not just spam). Get rejected probably 20-30 times, learn from each rejection, keep learning and presto, you’ll finally have an offer. It’s honestly just a numbers game. Everyone “ahead” of you is an imposter just like you. Just figure out enough basics and you’ll be ready for your first job.</p>
+<p>There are a million ways to do this, and a million blog posts like this one. But here’s my suggestion. Enjoy!</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-plato-socrates-archimedes-and-r-a-fisher.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Some O.G. Data scientists</figcaption>
+</figure>
+</div>
+</section>
+<section id="no-single-data-science-definition" class="level1">
+<h1>No Single Data Science Definition</h1>
+<p>Look at 10 job postings for data science and you’ll see 10 unique definitions for a data scientist. Roughly, I’d categorize them as such:</p>
+<ol type="1">
+<li>Human decision support: someone who supports others in their decision making. This would be their boss, their team, etc. Decisions are: should we shut this line of business down? Are our customers churning and how do we prevent that?</li>
+<li>Machine Decision Support: someone who helps machines make automated decisions, like whether to approve an online credit card application, recommend a YouTube video, etc.</li>
+<li>Product developer: someone who uses data to build a web product or service. This is similar to machine decision support, but the role might be in a SaaS capacity.</li>
+</ol>
+<p>Most of these things below will help with 1-2. Today, AI products are all the rage and I offer one week on deep learning to get you interested in 3. That being said, all the principles in each one of these sections is important in any field you pursue. # Mindset</p>
+<p>While doing the following, on weeks 2-10, write one blog post to outline what you learned.</p>
+<ol type="1">
+<li>Where did you start? Why was it hard to learn? What did you want to know?</li>
+<li>What concepts were new to you?</li>
+<li>Do something with that knowledge. Search the internet to find data you can write about.</li>
+</ol>
+<p>If you don’t get very far, just move on to the next topic. Breadth is better early on to find out what you enjoy. Don’t get caught up in the details. Skim more. Write more. Worry less. You got this.</p>
+<p>In all things, use ChatGPT to tutor you. Ask it questions. Be relentless. Have it explain things to you like you’re five.</p>
+<p>Balancing learning between real books and ChatGPT is the best combo. ChatGPT is a better teacher, and the books have real info in them you can more fully trust. Using both together will get you there faster.</p>
+<p>If any of the books below don’t vibe for you, there are a million free books out there. Find a simpler one and the same topic (and post in the comments so I can add it!)</p>
+</section>
+<section id="week-1-prepare-to-share" class="level1">
+<h1>Week 1: Prepare to Share</h1>
+<blockquote class="blockquote">
+<p>By creating a blog you demonstrate the following: you like to learn, you can communicate, you can do hard things, you’re naturally curious, you’re contributing to the ecosystem. Lots of ways to show those things, but having a blog is at least one way.</p>
+</blockquote>
+<ul>
+<li>Set up a blog.
+<ul>
+<li>Medium.com</li>
+<li>Substack.com</li>
+<li>(Harder) Or use <a href="https://quarto.org/">Quarto</a> and publish on GitHub</li>
+</ul></li>
+<li>Find 5 blogs by top data scientists. Read their posts. See what they write about.</li>
+<li>Your first blog post is about what you like about these 5 blogs.</li>
+<li>Share your blog post on all social media. LinkedIn, Twitter, Facebook.</li>
+</ul>
+</section>
+<section id="week-2-storytelling" class="level1">
+<h1>Week 2: Storytelling</h1>
+<blockquote class="blockquote">
+<p>You can’t get credit for great data science work unless you can tell a story. Now that you have a blog, learn how to write about data.</p>
+</blockquote>
+<ul>
+<li><a href="https://tellingstorieswithdata.com/">Telling Stories with Data</a></li>
+<li>Find three data-focused blogs that use charts and analysis. Economist, FiveThirtyEight, DataIsBeautiful, etc.</li>
+</ul>
+</section>
+<section id="week-3-analytics-and-data-intuition" class="level1">
+<h1>Week 3: Analytics and Data Intuition</h1>
+<blockquote class="blockquote">
+<p>To be able to make predictions about the future, you first need to understand how to understand the past.</p>
+</blockquote>
+<p>Analytics is the foundation of data science. It’s the process of manipulating data and reshaping it to see it in new ways.</p>
+<ul>
+<li><a href="https://wesmckinney.com/book/">Python for Data Analysis, 3E</a> - written by the creator of <code>pandas</code></li>
+<li><a href="https://r4ds.hadley.nz/">R for Data Science (2e)</a> - written by the creator of <code>dplyr</code>, the best data manipulation language ever.</li>
+</ul>
+<p>Both these books are great. Read both. It’s good to learn early that there are multiple right ways of doing your analysis the wrong way 😉. Seeing how to think in two languages is actually easier than getting stuck on one.</p>
+<p>Related: understand the bias in your data.</p>
+<ul>
+<li><a href="https://datasciencehorizons.com/thinking-clearly-data-scientist-guide-understanding-cognitive-biases/">Thinking Clearly: A Data Scientist’s Guide to Understanding Cognitive Biases [eBook] – Data Science Horizons</a></li>
+<li><a href="https://www.analyticsinsight.net/top-5-biases-data-science/">Top 5 Biases in Data Science to Know for Model’s Accuracy</a></li>
+</ul>
+</section>
+<section id="week-4-data-visualization" class="level1">
+<h1>Week 4: Data Visualization</h1>
+<blockquote class="blockquote">
+<p>Learning how to make a plot is like learning how to write. Learn how colors work. When to use them. When to use a bar vs.&nbsp;a line chart. How to make ideas shine.</p>
+</blockquote>
+<ul>
+<li><a href="https://jjallaire.github.io/visualization-curriculum/">Visualization Curriculum</a></li>
+<li><a href="https://r-graphics.org/">R Graphics Cookbook, 2nd edition</a></li>
+</ul>
+<p>This is after analytics because analytics is more important (knowing what to look for and how to think about data) than plotting it.</p>
+<p>There are two types of plots: those for you to learn from and those for others to learn from. First, learn what’s in the data. Learn for yourself.</p>
+<blockquote class="blockquote">
+<p>“Look at the plot. Look at the plot. No seriously, look at the plot.” Chris Peterson, Capital One</p>
+</blockquote>
+<p>Second, plot for other people. After you’ve learned something by sifting out all the noise, learn how to communicate that externally.</p>
+<p>Beautiful plotting is really hard and time consuming. Details can take hours. Focus on the basics at first. The simplest plot focuses on “what’s the one thing I want someone to take away from this?”</p>
+</section>
+<section id="week-5-get-data-you-dont-yet-have" class="level1">
+<h1>Week 5: Get Data You Don’t Yet Have</h1>
+<blockquote class="blockquote">
+<p>If you work at a company &gt; 50 people, your company’s data is probably stored in a database. Learning how to get this data so you can do data analytics and visualization will help you be self sufficient.</p>
+</blockquote>
+<p>Analytics is more important than this, because someone else may be able to get you the data. Or, once you know analytics then you can use SQL to <em>do</em> analytics.</p>
+<p>Three primary ways to get data include the following:</p>
+<ol type="1">
+<li>SQL (from a database, returns a spreadsheet like table)</li>
+<li>API (get data from a website, returns JSON data)</li>
+<li>Webscraping (getting it yourself, this is considered “unstructured” data)</li>
+</ol>
+<p>Interactive tutorials here are the way to go. Just google around for some good ones.</p>
+<ul>
+<li><a href="https://sqlbolt.com/">SQLBolt - Learn SQL - Introduction to SQL</a></li>
+<li><a href="https://www.dataquest.io/blog/python-api-tutorial/">Python API Tutorial: Getting Started with APIs – Dataquest</a></li>
+<li><a href="https://realpython.com/python-web-scraping-practical-introduction/">A Practical Introduction to Web Scraping in Python – Real Python</a></li>
+</ul>
+</section>
+<section id="week-6-intro-to-machine-learning" class="level1">
+<h1>Week 6: Intro to Machine Learning</h1>
+<blockquote class="blockquote">
+<p>This book nails the foundations of machine learning. Doesn’t get too mathy, but teaches you the principles.</p>
+</blockquote>
+<ul>
+<li><a href="https://www.statlearning.com/">An Introduction to Statistical Learning</a></li>
+<li>For reference, a more mathy and dense book that supports the Intro book is <a href="https://hastie.su.domains/Papers/ESLII.pdf">Elements of Statistical Learninf</a></li>
+</ul>
+<p>For content on how to get insights from machine learning models: - <a href="https://christophm.github.io/interpretable-ml-book/">Interpretable Machine Learning</a></p>
+<p>Additional - understand the bias in your models <a href="https://www.tobiasbaer.net/algorithmic-bias">Tobias Baer - Risk Management, Data Science, and Psychology</a> - <a href="https://www.oreilly.com/library/view/machine-learning-for/9781098102425/ch04.html">4. Managing Bias in Machine Learning - Machine Learning for High-Risk Applications</a></p>
+</section>
+<section id="week-7-regression-analysis" class="level1">
+<h1>Week 7: Regression Analysis</h1>
+<blockquote class="blockquote">
+<p>Regression Is key to getting insights out of data. It’s what sets you apart from a data analyst role.</p>
+</blockquote>
+<ul>
+<li><a href="https://peopleanalytics-regression-book.org/">Welcome | Handbook of Regression Modeling in People Analytics: With Examples in R, Python and Julia</a></li>
+<li><a href="https://avehtari.github.io/ROS-Examples/">Regression and Other Stories</a></li>
+</ul>
+</section>
+<section id="week-8-choose-your-own-adventure" class="level1">
+<h1>Week 8 Choose your own Adventure</h1>
+<section id="ab-testing-and-kpi-optimization-for-online-companies-applies-to-offline-too" class="level2">
+<h2 class="anchored" data-anchor-id="ab-testing-and-kpi-optimization-for-online-companies-applies-to-offline-too">A/B Testing and KPI Optimization for Online Companies (applies to offline too)</h2>
+<blockquote class="blockquote">
+<p>All big internet companies use A/B testing, or split testing, to make decisions about how to improve their product. If you’re interested in software, or understanding how all modern websites and software are improved, you need to understand A/B testing.</p>
+</blockquote>
+<p>If You’ve taken stat 101, this is where the “t.test” gets used to literally make Big Tech billions of dollars. I’m not kidding. It’s simple, but it’s powerful.</p>
+<ul>
+<li><a href="https://netflixtechblog.com/its-all-a-bout-testing-the-netflix-experimentation-platform-4e1ca458c15">It’s All A/Bout Testing: The Netflix Experimentation Platform | by Netflix Technology Blog | Netflix TechBlog</a></li>
+<li>A seven part series by Netflix: <a href="https://netflixtechblog.com/netflix-a-culture-of-learning-394bc7d0f94c">Netflix: A Culture of Learning. Martin Tingley with Wenjing Zheng… | by Netflix Technology Blog | Netflix TechBlog</a> I put here the seventh post because it likes to parts 1-6 in the intro. This part 7 is probably the best to start with because it explains the context behind A/B testing.</li>
+<li><a href="https://experimentguide.com/">Experiment Guide – Accelerate innovation using trustworthy online controlled experiments</a> This book tells you how Microsoft, Amazon, and Google use online experimentation to make billions of dollars. It’s written by the people who invented online experimentation and who are top data scientists at those companies.</li>
+</ul>
+</section>
+</section>
+<section id="time-series-data" class="level1">
+<h1>Time Series Data</h1>
+<blockquote class="blockquote">
+<p>All modern data is time series data in some way (data collected over time). Even though you may not use forecasting in everything or what not, understanding the nature of that data will set you apart. Focus on principles, not techniques as you may not use these specific techniques.</p>
+</blockquote>
+<ul>
+<li><a href="https://otexts.com/fpp3/">Forecasting: Principles&nbsp;and&nbsp;Practice (3rd&nbsp;ed)</a></li>
+</ul>
+</section>
+<section id="week-9-intro-to-deep-learning" class="level1">
+<h1>Week 9: Intro to Deep Learning</h1>
+<blockquote class="blockquote">
+<p>Deep learning is all the rage, and will change the future for everyone. It’s vital you know how these systems work because this is the future of society.</p>
+</blockquote>
+<ul>
+<li><a href="https://www.fast.ai/">fast.ai - fast.ai—Making neural nets uncool again</a>
+<ul>
+<li>Great courses that teaches you how to build ChatGPT and Image Generators and understand it.</li>
+</ul></li>
+</ul>
+<p>This YouTube videos and others by him are great:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/zjkBMFhNj_g" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>Also this:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/jkrNMKz9pWU" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="week-10-recommendation-systems" class="level1">
+<h1>Week 10: Recommendation Systems</h1>
+<blockquote class="blockquote">
+<p>If you’re making automated decisions with data, you’re probably using a recommendation system at some level. Recommendation systems typically focus on “what video does Bryan want given all the data we have on him and people like him?”. But the principles also extend to: how do I recommend one course of action to my stakeholder?</p>
+</blockquote>
+<p>I don’t have great resources here, but getting the concepts down will help you understand how virtually every social media app or streaming service works. (Netflix, Spotify, Instagram, etc all use recommenders to figure out the content you’re interested in. )</p>
+<ul>
+<li><a href="http://eliassi.org/charu_recsys_intro.pdf">http://eliassi.org/charu_recsys_intro.pdf</a></li>
+</ul>
+</section>
+<section id="week-11-do-projects" class="level1">
+<h1>Week 11+: Do Projects</h1>
+<p>Now that you’ve studied analytics, data viz, regression, machine learning, and deep learning, create two blog posts or personal projects.</p>
+<ul>
+<li>Build a dashboard using a Jupyter notebook that updates daily. You can host on GitHub using quarto to render the notebook and use GitHub actions to update it every day.</li>
+<li>Create a model to predict who will win the next NBA game</li>
+<li>Analyze any data from data.gov</li>
+<li>Kaggle competitions!</li>
+</ul>
+</section>
+<section id="prepare-your-resume" class="level1">
+<h1>Prepare your Resume</h1>
+<p>Now you’ve got 10 blog posts, which is 10 more bullet points on your resume than you had before you started. You’ve learned a ton if you only do 10% of all that’s above.</p>
+<p>I’ve loved the advice I found written up here: <a href="../posts/2022-11-18-writing-a-tech-resume/index.html">Writing a Tech Resume</a>.</p>
+<p>Once you have a good resume, find real people to give it to. Dont apply blindly online. Talk to everyone you know. Find people on LinkedIn and message them directly with a personal message. Use one of your blog posts in your message to tell them why you’re a good fit for their role. Perhaps even write a blog post specific to data from their company!</p>
+<p>Good luck!</p>
+
+
+</section>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>data science</category>
+  <category>featured</category>
+  <category>career</category>
+  <category>recommendation systems</category>
+  <category>A/B testing</category>
+  <category>analytics</category>
+  <category>beginners</category>
+  <guid>https://www.bryanwhiting.com/posts/a-10-week-self-guided-data-science-intro-course.html</guid>
+  <pubDate>Fri, 26 Jan 2024 21:59:18 GMT</pubDate>
+</item>
+<item>
+  <title>The Only Mind that’s Clear Is the One That Sees No Alternative</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/the-only-mind-thats-clear-is-the-one-that-sees-no-alternative.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>The easiest thing one can do is see the world through their own viewpoints. It takes no effort. Takes no work. It’s already done: your viewpoints are there. Either you care about climate change today or you don’t. Either you care about opossums or you don’t. You are who you are, right now.</p>
+<p>The only gap between who you are today and who you are tomorrow is what you learn and experience and how you see the world because of what you learn and experience.</p>
+<p>You learn from others. You learn from your experiences. You learn from other’s experiences.</p>
+<p>The goal isn’t to be right. The goal is to understand.</p>
+<p>And so, I believe in the value of learning from those around me, especially those I disagree with. It’s hard work to grind through walls of disbelief or misunderstanding. But it’s always worth it, even if at the other side you merely understand. That in and of itself is a destination worth pursuing because of the many benefits it yields.</p>
+<p>But beware, with an assumption of understanding comes peril. Therefore, the goal is to constantly seek understanding, because no person is every the same one day to the next.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-seeing-through-a-glass-darkly-and-then-clearly.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Seeing through a glass darkly and then clearly</figcaption>
+</figure>
+</div>
+<p>Sources: - <a href="../book-review/how-to-win-friends-and-influence-people.html">How to Win Friends and Influence People</a> - the constant focus of the book is to put yourself in the other’s shoes. - <a href="../book-review/greenlights.html">Greenlights</a> African tribe: don’t seek to be right. Seek to understand. - <a href="../book-review/the-coddling-of-the-american-mind.html">The Coddling of the American Mind</a> - tribalism is when you don’t see another’s viewpoint and only feel you are right.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>my principles</category>
+  <category>philosophy</category>
+  <guid>https://www.bryanwhiting.com/posts/the-only-mind-thats-clear-is-the-one-that-sees-no-alternative.html</guid>
+  <pubDate>Thu, 25 Jan 2024 20:31:52 GMT</pubDate>
+</item>
+<item>
+  <title>Writing Only Makes Sense to the Author</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/writing-only-makes-sense-to-the-author.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><em>If you’re a bad author</em>, your writing will only make sense to you.</p>
+<p>Problem is, we’re all bad authors.</p>
+<ol type="1">
+<li>My writing makes sense as I put it fown</li>
+<li>It doesn’t always make sense to me 5 minutes later (my future self is practically another person)</li>
+<li>The probability of it being perfectly interpreted by someone who isn’t even me, is likely near zero.</li>
+</ol>
+<p>So when we write, we send out an idea. It then becomes a painting on the wall, up for anyone to interpret how they may.<sup>1</sup> therefore, it’s best to put yourself as much in your audience’s shoes as possible (something discussed often in <a href="../book-review/how-to-win-friends-and-influence-people.html">How to Win Friends and Influence People</a>).</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-image-people-in-an-art-museum-staring-at-a-painting-of-scribbles-on-the-wall.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">“Now what on earth was Bryan trying to say?!?” “I think he was inspired” “nah man, he just wrote scribbles on the wall. That’s not writing!” “Yea, maybe he should slap a banana with duct tape on there. Would have gotten the point across better”</figcaption>
+</figure>
+</div>
+
+
+<aside id="footnotes" class="footnotes footnotes-end-of-document">
+<hr>
+<ol>
+<li id="fn1"><p>Going to an extreme - ever write a kind word that was taken as an insult, or sent something sarcastic and it was interpreted as literal?↩︎</p></li>
+</ol>
+</aside>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>communication</category>
+  <category>writing</category>
+  <category>art</category>
+  <guid>https://www.bryanwhiting.com/posts/writing-only-makes-sense-to-the-author.html</guid>
+  <pubDate>Tue, 23 Jan 2024 12:01:00 GMT</pubDate>
+</item>
 <item>
   <title>The Problem with Public Opinions</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -357,6 +670,39 @@
   <pubDate>Sun, 07 Jan 2024 22:55:24 GMT</pubDate>
 </item>
 <item>
+  <title>Mark Cuban Mogul Support</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/mark-cuban-mogul-support.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Great video, I’ve always loved mark cuban:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/Ko5AJh2J4xU?si=kHeFPMXe5oCAxQXn" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<ul>
+<li>read, be curious, adapt, sell.</li>
+<li>Get a sales job. → if money is coming in, you can do anything. There is no company without sales</li>
+<li>Use the simpler word. No cohort. Just “group”.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/photo-mark-cuban-youtube.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Mark!</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>entrepreneurship</category>
+  <category>YouTube clip</category>
+  <guid>https://www.bryanwhiting.com/posts/mark-cuban-mogul-support.html</guid>
+  <pubDate>Fri, 05 Jan 2024 21:47:00 GMT</pubDate>
+</item>
+<item>
   <title>Write a thousand songs</title>
   <dc:creator>Bryan Whiting</dc:creator>
   <link>https://www.bryanwhiting.com/posts/write-a-thousand-songs.html</link>
@@ -595,229 +941,6 @@
   <category>posts</category>
   <guid>https://www.bryanwhiting.com/posts/emotional-recovery.html</guid>
   <pubDate>Sat, 30 Dec 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Water as a Currency?</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/water-as-a-currency.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>The book <a href="../book-review/dune.html">Dune</a> is amazing in many ways, but the one that piqued my curiosity today was this: what if water was a currency?</p>
-<p>The book gives great reverence to water, specifically talking about the lengths the Fremen go to to preserve their water. They even harvest it the dead, as water is life. They see people around them as water vessels. If you’re 100 kg (220lbs), they say you carry 60 kg of water weight. That’s a 60 liters. If you drink an average of 2 liters per day, that’s enough water to sustain you for 30 days. Fascinating how you would die without drinking water for a week though, right?</p>
-<p>Some on this earth live with such water scarcity. Most in the US don’t. Consider what else we can focus on because we take the most life-giving substance for granted.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/photo-water-is-precious.png" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Water is precious</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>posts</category>
-  <category>water</category>
-  <category>economics</category>
-  <guid>https://www.bryanwhiting.com/posts/water-as-a-currency.html</guid>
-  <pubDate>Sat, 30 Dec 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Blogging with Obsidian and Quarto</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/how-to-blog-with-obsidian-and-quarto.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<div class="callout callout-style-simple callout-tip no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p>First half is my philosophy on the relationship between learning, notetaking, and blogging.</p>
-<ul>
-<li>I love to learn</li>
-<li>Writing helps me learn</li>
-<li>Publicly writing increases my focus</li>
-</ul>
-<p>Second half is how I use Obsidian and Quarto, alternatives I’ve tried, and my actually flow. I detail what tools I use, how I use them.</p>
-<ul>
-<li>set up relative links</li>
-<li>Have one img folder</li>
-<li>Use templater to manage new post templates and relative links</li>
-<li>Use linter</li>
-<li>Use commander for toolbar palette</li>
-<li>dataview to find drafts</li>
-<li>Tags to flag ideas</li>
-</ul>
-</div>
-</div>
-</div>
-<p>I’ve had a blog since 2016. Started with Jekyll. Then blogdown. Tried medium in 2020 because it had a good mobile app and I was able to publish every day. Then I didn’t know how to get my posts out of there so I lost interest. Then I found quarto, which I was excited about because I have always loved Rmarkdown (things like tabs, executable code, etc.). Then I tried Substack, which I did for a few weeks but eventually gave up because 1) no mobile app to write and 2) how do I get my stuff off of there?</p>
-<p>Seth Godin writes every day, and I love his blog and take it as an inspiration. In one post he mentions how “some say do a podcast, others say write on platform x or platform Y”. (Medium, Substack, etc.) He recommends: those tools always serve the 1%. If you’re the 1%, you make money. Otherwise you don’t. So you might as well own your own content.</p>
-<p>I know two Instagram and TikTok influencers with 100k and 300k followers respectively. The 100k made $5k in 2022. The 300k TikToker still makes maybe $100/mo. They each put in 20 hours+ a week.</p>
-<p>So I’m giving up the illusion I’ll ever make money off a blog or my content. I write because I always have. I write publicly now because I found a way to do so online, from my phone.</p>
-<p>This is how I blog daily using quarto (for the website) and Obsidian (for the editor).</p>
-<section id="own-your-platform" class="level1">
-<h1>Own your platform</h1>
-<p>After all the years blogging, giving up, coming back, etc, there are many things that are my personal needs.</p>
-<ul>
-<li>Mobile first. I can’t write at my computer. This isn’t my job.</li>
-<li>Footnotes: many blogging platforms don’t allow for them or handle them well. Footnotes are essential in long content.</li>
-<li>Customizable: I need to be able to add styling how I like it. This is part of the creative process.</li>
-<li>Tags: having and filtering by tags is nice</li>
-<li>Portable: if I stop blogging for 9 months I need to be able to move it to the next shiny object platform. I need to own my content. I also don’t like posting on LinkedIn or Facebook directly because I see my writing as my creative work. Those platforms don’t let you save or share those links later on.<br>
-</li>
-<li>Relative links: I need to be able to link to other posts. This is part of the mental note taking journey.</li>
-<li>Subscribe button. (Substack and Medium are built for this!)</li>
-<li>Comments: 99% of people don’t comment, but when people reach out it feels like I did something for the world. It also makes the blog more approachable, even if nobody every posts.</li>
-<li>Hackable/automatable: I need templates. I need code. I need to be able to automate things. (At one point I figured out how to set up automations to post straight to Instagram from GitHub actions. I’m going to bring that back!)</li>
-</ul>
-<p>Substack does footnotes well, linking to notes poorly, doesn’t have a mobile editor for posts, and isn’t portable. It handles tags, subscribers, and distribution extremely well, and makes it easy to have multiple publications. But it’s got the vendor lock in.</p>
-<p>Medium had an excellent mobile editing experience, but again - vendor lock in. And you’ve gotta kinda buy into the Medium-way-of-doing-posts.</p>
-<p>All platforms have their vibe. If you want to be popular on TikTok, you gotta dance. Although I personally love to dance, I want my site to be creative and my own.</p>
-</section>
-<section id="why-blog-with-obsidianquarto" class="level1">
-<h1>Why blog with obsidian/quarto?</h1>
-<p>Enter Obsidian and Quarto. Obsidian makes managing and editing content a breeze (things like draft management, sorting files, organizing images, etc is all super easy):</p>
-<p>Why obsidian as my editor?</p>
-<ol type="1">
-<li>It makes writing markdown a breeze</li>
-<li>It has tons of extensions, such as managing footnotes, linting files, spell checking, etc.</li>
-<li>It makes it really easy to link to other files (relative links)</li>
-<li>It makes it easy to refactor (move stuff around)</li>
-<li>It works with markdown. The files are just plain text files in my Files app on my iPhone.</li>
-</ol>
-</section>
-<section id="writing-flow" class="level1">
-<h1>Writing flow</h1>
-<p>Every writer has their flow. The tools they use should reflect their mental process of writing, and not the other way around. If you’re trying to get your brain to work like the tool does, rather than using tools that working like your brain, you’re ngmi. If you’re like me, you’ll try it for a while and then give up. (I may give up after this post, but at least this post isn’t saved on Blogger.com!)</p>
-<p>Here’s mine:</p>
-<ol type="1">
-<li>Get an idea</li>
-<li>Categorize it (religious, tech, life, etc)</li>
-<li>Create a file</li>
-<li>Mark as draft</li>
-<li>Write some ideas</li>
-<li>Edit it (if long), reread a few times</li>
-<li>Unmark as draft</li>
-<li>Post to the internet, read a few more times in live version and make edits</li>
-<li>Tag it</li>
-<li>Find old drafts, finish them</li>
-<li>Add an image, either from my phone camera or chatgpt. Save image in the right folder.</li>
-<li>Write alt text to the images.</li>
-<li>Create links to other entries.</li>
-<li>Make some footnotes for content that doesn’t flow</li>
-<li>Cry and debate if I’m a good writer or if anyone is even listening anymore</li>
-<li>Add a subscribe button</li>
-<li>share a good one to social media</li>
-<li>Check my Google analytics to see if I’m popular. Check subscribers to see if I got any. Wonder why I care anyway because I know I won’t make money off this.</li>
-<li>Get an idea for a new post while reading a book and start again</li>
-</ol>
-<p>The process of getting ideas from a source, and writing from those ideas, makes me want to be able to connect the entry to the source (book or podcast). Sure, I don’t have to write. And sometimes writing is wasted time (writing for writing’s sake), but I enjoy it.</p>
-</section>
-<section id="my-writing-flow-with-obsidian-and-quarto" class="level1 page-columns page-full">
-<h1>My writing flow with Obsidian and Quarto</h1>
-<p>At the risk of nobody ever reading this far, I’ll keep this high level, and if someone cares about something ask me in the comments.</p>
-<p>First, see <a href="../posts/quarto-from-phone/index.html">Quarto from Phone</a> to see how I set up Working Copy to sync my Obsidian repo with GitHub.</p>
-<p>Here’s my flow with obsidian:</p>
-<ol type="1">
-<li>Read a book. Create new book note using <a href="../_templates/new-post.md">new-post</a> via the Templater obsidian plugin. This lets me create a new note in a folder of my choice, give a title, make a filename with a good url slug. Adds some categories automatically.</li>
-<li>When idea comes up, take note in book note. When substantial idea comes up, create a quick draft of a new post using Templater. Enable draft: true if i don’t finish.</li>
-<li>Use Obsidian Dataview to create a list of all outstanding drafts. I can come back and finish.</li>
-<li>Use Obsidian Custom Sort to sort the files in my repo how I want. This package helped me to stop time-stamping my URLs (which I thought was good for sorting). Instead, I can sort by modified time (note custom sort isn’t necessary for modified time sorting), but custom sort allows for sorting by yaml front matter.</li>
-<li>When I’m ready to post, create an image using ChatGPT app. Click on the image in the app, share, save to files. It will save to the img/ folder in my root. Next image? Saves here (iPhone remembers).
-<ol type="1">
-<li>At some point I was creating folders for every blog post so I could reference images there. I’m giving this up for two reasons: 1) every file would then need to be named “index.md” and 2) more folders is more noise. So instead, I have one place for all images, which makes it easier to save and I don’t have to click a bunch of subfolders every time I add an image.</li>
-<li>Also, screenshot any photos you may want to add so as to remove the location metadata.</li>
-</ol></li>
-<li>Use Footnote Shortcut plugin to more efficiently write footnotes. Add a hotkey to the mobile obsidian editor toolbar to quickly add footnotes. <sup>1</sup></li>
-<li>Set up an iOS shortcut to do a “git pull”, “git commit”, “git push” on the repo. Put this shortcut on my home page. Since I have a synced folder, this happens very efficiently!<sup>2</sup></li>
-<li>Set up a github actions to build the blog using <code>quarto render</code>. See <a href="../posts/quarto-vs-quartz-for-obsidian.html">Quarto vs.&nbsp;quartz for Obsidian blog</a></li>
-<li>Publish to GitHub pages with the docs/ folder.</li>
-</ol>
-<div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;This footnote is added with the tap of a button. Brilliant!</p></li><li id="fn2"><p><sup>2</sup>&nbsp;You can also set up an automation to sync anytime you leave the app, but I’ve found that gets kind of annoying because sometimes there can be data loss with a git pull that happens without thinking about it.</p></li></div><p>And that’s it. That’s my flow. If you like this, ask me a question.</p>
-
-
-</section>
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>obsidian</category>
-  <category>quarto</category>
-  <category>tutorial</category>
-  <guid>https://www.bryanwhiting.com/posts/how-to-blog-with-obsidian-and-quarto.html</guid>
-  <pubDate>Fri, 29 Dec 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Quarto vs. quartz for Obsidian blog</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/quarto-vs-quartz-for-obsidian.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Things I like/dislike about <code>quarto</code> are listed <a href="../posts/quarto-feature-requests/index.html">here</a>.</p>
-<p>Generally, I love <code>quarto</code> and the main thing I don’t like about quarto is how slow it is, compared to say, <code>hugo</code>.</p>
-<p>I looked heavily into <code>quartz</code>, which is explained <a href="https://brandonkboswell.com/blog/Publishing-your-Obsidian-Vault-Online-with-Quartz/">here</a> as a way to publish your Obsidian vault on GitHub. And <a href="https://www.ssp.sh/brain/">here’s an example</a> of a digital garden someone uses with <code>quartz</code>, it’s pretty slick. Here are the <a href="https://quartz.jzhao.xyz/features">features of quartz</a>.</p>
-<p>Why <code>quarto</code>? I really like the design of a blog, as I tend to think better in “post” form rather than never-ending-garden-of-thoughts. I like reading blogs because I assume the thoughts are complete. Quartz is great if you just want your own wiki. I just don’t really care about the network graphs and all and I don’t think other people reading them care either.</p>
-<p>I want to focus on writing and sometimes long form writing. Quarto enables a lot, is easy to setup and customize, has great search, has a ton of markdown desires (tabs, callouts, asides, footnotes), can render code (Python/R) when I want to be adventurous, and has a blog interface for posts.</p>
-<p>Largely they’re the same, and maybe I’ll use quartz at some point. But I’m happy where I am now.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>quarto</category>
-  <category>obsidian</category>
-  <category>pkm</category>
-  <category>build in public</category>
-  <category>tool</category>
-  <category>tool comparison</category>
-  <guid>https://www.bryanwhiting.com/posts/quarto-vs-quartz-for-obsidian.html</guid>
-  <pubDate>Fri, 29 Dec 2023 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>97 percent chance you’ll fail</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/flip-a-coin-and-not-fail.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>In <a href="../posts/flip-a-coin.html">Flipping the coins of life</a>, I outline how you can succeed 5 times with a success rate of 3%. That also means you have a 97% chance you won’t succeed 5 times in a row.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/flip-five-coins.png" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Flipping five coins will almost certainly yield at least tails</figcaption>
-</figure>
-</div>
-<p>In life, we sometimes overemphasize winning. Even in the tech world of wanting to fail fast, I think most people just really want to win every time. Nobody seeks failure - that’s not the goal. They seek other things (learning, promotions, making more money).</p>
-<p>When making decisions, it’s easy to black-and-white them. If there’s only a 3% change we’ll win 5 times in a row (with a 50% chance of winning every time), there’s a 97% chance you’ll fail at least once every 5 attempts.</p>
-<p>If your probability of success is lower, then the odds of failing at once in five are almost 100%.</p>
-<p>How do you quantify a life decision though? Maybe you only get one big choice a year (job change, like as is discussed in <a href="../book-review/how-to-decide-simple-tools-for-making-better-choices.html">How to Decide: Simple Tools for Making Better Choices</a>). Is there a 50% chance of “success”? If so, every five years you’re highly likely to “fail”.</p>
-<p>Per the book, it’s more likely that one bad thing happens and we hindsight bias our decision and black-and-white it.</p>
-<p>Reality is: getting fired or your startup blowing up might be the best thing that ever happens to you. You just don’t know. Your story isn’t written yet. And actually, it’s not so much about if you made the right choice as if you just make the choice right in some way.</p>
-<p>Choose your love, and then love your choice, as they say.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>success</category>
-  <category>decisions</category>
-  <category>philosophy</category>
-  <guid>https://www.bryanwhiting.com/posts/flip-a-coin-and-not-fail.html</guid>
-  <pubDate>Thu, 28 Dec 2023 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

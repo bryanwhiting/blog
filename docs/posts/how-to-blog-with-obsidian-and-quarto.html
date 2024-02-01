@@ -67,19 +67,14 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-3SX7QFKDL7"></script>
 
 <script type="text/javascript">
 
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-85616639-1', 'auto');
-
-ga('send', {
-  hitType: 'pageview',
-  'anonymizeIp': true,
-});
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
@@ -95,7 +90,7 @@ ga('send', {
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-sidebar docked slimcontent">
+<body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -261,8 +256,11 @@ ga('send', {
   </div>
 </li>
           <li class="sidebar-item">
- <span class="menu-text">goals.qmd</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../goals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Goals</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../lists.html" class="sidebar-item-text sidebar-link">
@@ -295,7 +293,7 @@ ga('send', {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
@@ -389,7 +387,7 @@ ga('send', {
 </ol>
 <p>The process of getting ideas from a source, and writing from those ideas, makes me want to be able to connect the entry to the source (book or podcast). Sure, I don’t have to write. And sometimes writing is wasted time (writing for writing’s sake), but I enjoy it.</p>
 </section>
-<section id="my-writing-flow-with-obsidian-and-quarto" class="level1 page-columns page-full">
+<section id="my-writing-flow-with-obsidian-and-quarto" class="level1">
 <h1>My writing flow with Obsidian and Quarto</h1>
 <p>At the risk of nobody ever reading this far, I’ll keep this high level, and if someone cares about something ask me in the comments.</p>
 <p>First, see <a href="../posts/quarto-from-phone/index.html">Quarto from Phone</a> to see how I set up Working Copy to sync my Obsidian repo with GitHub.</p>
@@ -409,11 +407,17 @@ ga('send', {
 <li>Set up a github actions to build the blog using <code>quarto render</code>. See <a href="../posts/quarto-vs-quartz-for-obsidian.html">Quarto vs.&nbsp;quartz for Obsidian blog</a></li>
 <li>Publish to GitHub pages with the docs/ folder.</li>
 </ol>
-<div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;This footnote is added with the tap of a button. Brilliant!</p></li><li id="fn2"><p><sup>2</sup>&nbsp;You can also set up an automation to sync anytime you leave the app, but I’ve found that gets kind of annoying because sometimes there can be data loss with a git pull that happens without thinking about it.</p></li></div><p>And that’s it. That’s my flow. If you like this, ask me a question.</p>
+<p>And that’s it. That’s my flow. If you like this, ask me a question.</p>
 
 
 </section>
-
+<aside id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>This footnote is added with the tap of a button. Brilliant!<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>You can also set up an automation to sync anytime you leave the app, but I’ve found that gets kind of annoying because sometimes there can be data loss with a git pull that happens without thinking about it.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</aside>
 
 <p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -66,19 +66,14 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-3SX7QFKDL7"></script>
 
 <script type="text/javascript">
 
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-85616639-1', 'auto');
-
-ga('send', {
-  hitType: 'pageview',
-  'anonymizeIp': true,
-});
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
@@ -247,8 +242,11 @@ ga('send', {
   </div>
 </li>
           <li class="sidebar-item">
- <span class="menu-text">goals.qmd</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../goals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Goals</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../lists.html" class="sidebar-item-text sidebar-link">
@@ -291,11 +289,12 @@ ga('send', {
 <section id="business-booksself-help" class="level3">
 <h3 class="anchored" data-anchor-id="business-booksself-help">Business books/Self Help</h3>
 <ul class="task-list">
-<li><label><input type="checkbox">How to win friends and influence people #spotify #libby</label></li>
-<li><label><input type="checkbox">This is Marketing #audible</label></li>
-<li><label><input type="checkbox">Ten Day MBA #audible</label></li>
+<li><label><input type="checkbox" checked="">How to win friends and influence people #spotify #libby<br>
+</label></li>
+<li><label><input type="checkbox">This is Marketing #audible-credit</label></li>
+<li><label><input type="checkbox">Ten Day MBA #audible-credit</label></li>
 <li><label><input type="checkbox">Team of Teams #spotify 12hr.</label></li>
-<li><label><input type="checkbox">Wealth of Nations #youtube https://www.youtube.com/watch?v=PH4B-SGf6-A</label></li>
+<li><label><input type="checkbox">Wealth of Nations #youtube https://www.youtube.com/watch?v=PH4B-SGf6-A #librivox #audible-credit 36hrs</label></li>
 <li><label><input type="checkbox">Competing Against Luck #spotify #audible-credit 7.25hr. $13</label></li>
 </ul>
 </section>
@@ -323,7 +322,7 @@ ga('send', {
 <li><label><input type="checkbox">Sapiens #libby</label></li>
 <li><label><input type="checkbox">Guns germs and steel #libby</label></li>
 <li><label><input type="checkbox">Elon Musk #libby</label></li>
-<li><label><input type="checkbox">The Inklings #spotify 6hr</label></li>
+<li><label><input type="checkbox" checked="">The Oxford Inklings #spotify <a href="../book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.html">The Oxford Inklings: Lewis, Tolkien and Their Circle</a></label></li>
 <li><label><input type="checkbox">The coddling of the American Mind #libby</label></li>
 <li><label><input type="checkbox">The Tyrrany of Experts #libby</label></li>
 <li><label><input type="checkbox">the boys in the boat #libby</label></li>
@@ -335,14 +334,16 @@ ga('send', {
 <li><label><input type="checkbox">Paradise Lost and Paradise Regained #libby</label></li>
 <li><label><input type="checkbox">Mere Christianity #libby</label></li>
 <li><label><input type="checkbox">The Place of the Lion #audible-credit #spotify 7.5</label></li>
-<li><label><input type="checkbox" checked="">The quest for Cosmic Justice - Sowll #audible-free</label></li>
+<li><label><input type="checkbox" checked="">The quest for Cosmic Justice - Sowll #audible-free <a href="../book-review/the-quest-for-cosmic-justice.html">The Quest for Cosmic Justice</a></label></li>
 </ul>
+<hr>
 </section>
 <section id="backlog" class="level1">
 <h1>Backlog</h1>
 <ul class="task-list">
 <li><label><input type="checkbox" checked=""><a href="book-review/killers-of-the-flower-moonyfg if.md">killers-of-the-flower-moonyfg if</a></label></li>
 <li><label><input type="checkbox" checked=""><a href="book-review/how-to-decide-simple-tools-for-making-better-choices.md">how-to-decide-simple-tools-for-making-better-choices</a></label></li>
+<li><label><input type="checkbox">Dale Carnegie Lincoln the Unknown #audible-credit 9.5hr</label></li>
 </ul>
 <p>Libby:</p>
 <ul class="task-list">
@@ -361,6 +362,7 @@ ga('send', {
 <li><label><input type="checkbox">Of mice and men</label></li>
 <li><label><input type="checkbox">Grapes of Wrath</label></li>
 </ul>
+<p>Psychology - [ ] Heal your Nervous System #libby - [ ] The Vagus Nerve Reset #audible-credit</p>
 
 
 </section>

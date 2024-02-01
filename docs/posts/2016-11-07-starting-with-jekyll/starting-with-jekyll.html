@@ -67,19 +67,14 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-3SX7QFKDL7"></script>
 
 <script type="text/javascript">
 
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-85616639-1', 'auto');
-
-ga('send', {
-  hitType: 'pageview',
-  'anonymizeIp': true,
-});
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
@@ -95,7 +90,7 @@ ga('send', {
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-sidebar docked slimcontent">
+<body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -261,8 +256,11 @@ ga('send', {
   </div>
 </li>
           <li class="sidebar-item">
- <span class="menu-text">goals.qmd</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../../goals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Goals</span></a>
+  </div>
+</li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../lists.html" class="sidebar-item-text sidebar-link">
@@ -295,7 +293,7 @@ ga('send', {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
@@ -303,8 +301,8 @@ ga('send', {
 
 <p>Hello world.</p>
 <p>I wanted to start a blog. I wanted to set it up for free, use a custom URL (and not <em>something.bloggingplatform.com</em>), and be able to both blog and create tutorials. I didn’t mind it possibly being technical<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. Enter Jekyll.</p>
-<div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;Specifically, I was interested in being able to use the command line for my posts. Additionally, I didn’t mind seeing or using a little bit of code.</p></li></div><p><em>If you want to get your blog in 10 minutes, skip to below.</em></p>
-<section id="why-blog-with-jekyll" class="level1 page-columns page-full">
+<p><em>If you want to get your blog in 10 minutes, skip to below.</em></p>
+<section id="why-blog-with-jekyll" class="level1">
 <h1>Why Blog with Jekyll?</h1>
 <p>Here’s why you can and should blog with Jekyll (if you’re a data scientist):</p>
 <ol start="2" type="1">
@@ -318,7 +316,7 @@ ga('send', {
 <li>You can manage your blog from your terminal</li>
 <li>You can manage your blog from your phone (if you have a GitHub-editing app)</li>
 </ol>
-<div class="no-row-height column-margin column-container"><li id="fn2"><p><sup>2</sup>&nbsp;Someone has to <a href="https://www.google.com/search?q=what+does+it+mean+to+host+a+website&amp;oq=what+does+it+mean+to+host+&amp;aqs=chrome.0.0j69i57j0l4.2810j0j9&amp;sourceid=chrome&amp;ie=UTF-8">host</a> it (i.e., store and display all the files). I started off trying to set up a WordPress blog, but you have to pay another company to <a href="http://www.webhostingbest10.com/web-hosting-reviews">host</a>. I didn’t want to bother.</p></li><li id="fn3"><p><sup>3</sup>&nbsp;If you try to set it up by following the instructions on <a href="https://jekyllrb.com/">jekyllrb.com</a>, that’s the complicated way. That’s how I originally started, got lost for five hours, and stopped. Six months later, I found a better way.</p></li></div><p>But if you don’t like debugging occasional errors, you probably shouldn’t blog with Jekyll.</p>
+<p>But if you don’t like debugging occasional errors, you probably shouldn’t blog with Jekyll.</p>
 <p>What is Jekyll, you ask? Jekyll is an open-source blogging platform. Anyone can write a template and post it, and anyone else can use that template. Perusing <a href="http://jekyllthemes.org/">Jekyllthemes.org</a>, you can pick out any template you’d like.</p>
 </section>
 <section id="how-did-i-get-started-with-jekyll" class="level1">
@@ -354,7 +352,14 @@ ga('send', {
 
 
 </section>
-
+<aside id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>Specifically, I was interested in being able to use the command line for my posts. Additionally, I didn’t mind seeing or using a little bit of code.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Someone has to <a href="https://www.google.com/search?q=what+does+it+mean+to+host+a+website&amp;oq=what+does+it+mean+to+host+&amp;aqs=chrome.0.0j69i57j0l4.2810j0j9&amp;sourceid=chrome&amp;ie=UTF-8">host</a> it (i.e., store and display all the files). I started off trying to set up a WordPress blog, but you have to pay another company to <a href="http://www.webhostingbest10.com/web-hosting-reviews">host</a>. I didn’t want to bother.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>If you try to set it up by following the instructions on <a href="https://jekyllrb.com/">jekyllrb.com</a>, that’s the complicated way. That’s how I originally started, got lost for five hours, and stopped. Six months later, I found a better way.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</aside>
 
 <p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

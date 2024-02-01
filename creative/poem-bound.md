@@ -27,4 +27,4 @@ A union I won't quit
 
 ![Union](../img/dalle-child-hand-parent-finger-adam-to-god.jpeg){.preview-image}
 
-The baby doesn't let go. Their grip on anything (even [Lint](../christianity/poem-lint.md)) is locked in. Only I can let go, which is a powerful idea. She's bound to me, trustfully so.
+The baby doesn't let go. Their grip on anything (even [Lint](poem-lint.md)) is locked in. Only I can let go, which is a powerful idea. She's bound to me, trustfully so.

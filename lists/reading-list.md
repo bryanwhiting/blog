@@ -7,7 +7,7 @@ categories:
 draft: false
 ---
 ### Business books/Self Help
-- [ ] How to win friends and influence people #spotify #libby 
+- [x] How to win friends and influence people #spotify #libby  
 - [ ] This is Marketing #audible-credit 
 - [ ] Ten Day MBA #audible-credit 
 - [ ] Team of Teams #spotify 12hr.
@@ -44,10 +44,13 @@ To finish
 - [ ] The Place of the Lion #audible-credit #spotify 7.5
 - [x] The quest for Cosmic Justice - Sowll #audible-free [The Quest for Cosmic Justice](../book-review/the-quest-for-cosmic-justice.md)
 
+
+***
 # Backlog
 
 - [x] [killers-of-the-flower-moonyfg if](book-review/killers-of-the-flower-moonyfg%20if.md)
 - [x] [how-to-decide-simple-tools-for-making-better-choices](book-review/how-to-decide-simple-tools-for-making-better-choices.md)
+- [ ] Dale Carnegie Lincoln the Unknown #audible-credit 9.5hr
 
 Libby:
 
@@ -66,3 +69,7 @@ Literature
 - [ ] Catcher in the Rye
 - [ ] Of mice and men
 - [ ] Grapes of Wrath
+
+Psychology 
+- [ ] Heal your Nervous System #libby 
+- [ ] The Vagus Nerve Reset #audible-credit 

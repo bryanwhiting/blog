@@ -15,8 +15,8 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
-      "template": ""
+      "folder": "goals",
+      "template": "_templates/day.md"
     }
   ],
   "syntax_highlighting": true,

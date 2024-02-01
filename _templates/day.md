@@ -12,11 +12,12 @@ const tom = moment(tp.file.title, ymd).add(1, 'days')
 let left = `[⏪ ${yday.format(ddmd)}](${folder}/${yday.format(ymd)})`;
 let middle = moment(tp.file.title,'YYYY-MM-DD').format("dddd, MMMM Do, yyyy");
 let right = `[${tom.format(ddmd)} ⏩](${folder}/${tom.format(ymd)})`;
-let header =  `${left} | **${middle}** | ${right}`;
+
+let header =  `${left} | Let God Prevail | ${right}`;
 
 -%>---
-date: <% tp.date.now() %>
-title: <% tp.date.now() %>
+date: <% tday.format(ymd) %>
+title: <% tday.format(ymd) %>
 description: x
 categories:
   - goals
@@ -43,7 +44,9 @@ hike-dist: 0
 hike-elev: 0
 hike-time: 0
 basketball-time: 0
+draft: false
 ---
+**<% middle %>**
 <%header%>
 
 

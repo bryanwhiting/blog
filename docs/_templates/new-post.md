@@ -12,13 +12,15 @@ let date = tp.date.now("YYYY-MM-DD HH:mm:ss");
 let ymd = tp.date.now();
 
 // Ask for a title  
+let slug
+let title
 
 if (folder === 'news') {  
-	let slug = `${ymd}-news-notes`;
-	let title = `News Notes for ${ymd}`;
+	slug = `${ymd}-news-notes`;
+	title = `News Notes for ${ymd}`;
 } else {
 
-let title = await tp.system.prompt("Post title:");
+title = await tp.system.prompt("Post title:");
 
 // Convert title to a slug  
 let fileNameSlug = title  
@@ -28,7 +30,6 @@ let fileNameSlug = title
 	.replace(/\s+/g, '-'); // Replace spaces with dashes
 
 // Define a file slug
-let slug
 if (folder === 'goals') {  
 	slug = tp.date.now() + "-goals";
 } else {
@@ -55,6 +56,9 @@ draft: false`;
 // Additional properties
 if (folder === 'book-review') {  
 	content += `  
+author: x	
+book-year: 2029
+book-time: 0
 date-start: "${date}"
 date-finished: 2030-01-01
 pct-complete:`;
@@ -77,6 +81,13 @@ observations: ""`;
 content += `
 `;
 
+let body = ""; 
+if (folder === "sacrament-symbols"){
+  body += "# Symbol\n\n# Scriptures\n\n# Meaning\n"
+}
+
+
 const filepath = `${folder}/${slug}`  
 await tp.file.move(filepath)  
 -%>---<% content %>---
+<% body %>

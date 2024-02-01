@@ -10,28 +10,32 @@
     "editor:undo",
     "editor:toggle-bold",
     "templater-obsidian:_templates/link-to-file.md",
-    "templater-obsidian:create-new-note-from-template",
     "app:go-forward",
+    "editor:indent-list",
     "editor:set-heading",
     "editor:toggle-italics",
-    "editor:toggle-strikethrough",
     "url-into-selection:paste-url-into-selection",
     "editor:toggle-bullet-list",
+    "templater-obsidian:create-new-note-from-template",
     "editor:paste",
+    "obsidian-auto-link-title:auto-link-title-paste",
+    "editor:toggle-numbered-list",
     "editor:insert-wikilink",
+    "editor:toggle-strikethrough",
     "editor:insert-tag",
     "editor:toggle-checklist-status",
-    "editor:indent-list",
     "editor:unindent-list",
     "editor:toggle-code",
     "file-explorer:move-file",
     "editor:configure-toolbar",
-    "editor:toggle-numbered-list",
-    "obsidian-linter:lint-file",
-    "obsidian-auto-link-title:auto-link-title-paste"
+    "obsidian-linter:lint-file"
   ],
   "alwaysUpdateLinks": true,
   "promptDelete": false,
   "mobilePullAction": "command-palette:open",
-  "spellcheck": true
+  "spellcheck": true,
+  "userIgnoreFilters": [
+    "renv/",
+    "docs/"
+  ]
 }

@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.515">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Bryan Whiting">
+<meta name="description" content="You only need the desire. The rest is freely accessible. Focus on breadth at first and creating content for your resume (tips included on that too!)">
+
+<title>Bryan Whiting - Become a Data Scientist in 10 Weeks</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-3SX7QFKDL7"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
+</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="../css/styles.css">
+<link rel="stylesheet" href="css/poem.css">
+<meta property="og:title" content="Bryan Whiting - Become a Data Scientist in 10 Weeks">
+<meta property="og:description" content="You only need the desire. The rest is freely accessible. Focus on breadth at first and creating content for your resume (tips included on that too!)">
+<meta property="og:image" content="https://www.bryanwhiting.com/img/dalle-plato-socrates-archimedes-and-r-a-fisher.jpeg">
+<meta property="og:site_name" content="Bryan Whiting">
+<meta name="twitter:title" content="Bryan Whiting - Become a Data Scientist in 10 Weeks">
+<meta name="twitter:description" content="You only need the desire. The rest is freely accessible. Focus on breadth at first and creating content for your resume (tips included on that too!)">
+<meta name="twitter:image" content="https://www.bryanwhiting.com/img/dalle-plato-socrates-archimedes-and-r-a-fisher.jpeg">
+<meta name="twitter:creator" content="@bryanwhiting">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-sidebar docked slimcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      Bryan Whiting
+      </li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Become a Data Scientist in 10 Weeks</h1>
+            <p class="subtitle lead">How to break into data science with an understanding how the modern data economy works</p>
+                  <div>
+        <div class="description">
+          You only need the desire. The rest is freely accessible. Focus on breadth at first and creating content for your resume (tips included on that too!)
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">posts</div>
+                <div class="quarto-category">data science</div>
+                <div class="quarto-category">featured</div>
+                <div class="quarto-category">career</div>
+                <div class="quarto-category">recommendation systems</div>
+                <div class="quarto-category">A/B testing</div>
+                <div class="quarto-category">analytics</div>
+                <div class="quarto-category">beginners</div>
+              </div>
+                  </div>
+  </div>
+    
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Date</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">Friday January 26, 2024</p>
+      </div>
+    </div>
+          <div>
+      <div class="quarto-title-meta-heading">Topics</div>
+      <div class="quarto-title-meta-contents">
+                <div class="badge badge-small badge-grey quarto-category">posts</div>
+                <div class="badge badge-small badge-grey quarto-category">data science</div>
+                <div class="badge badge-small badge-grey quarto-category">featured</div>
+                <div class="badge badge-small badge-grey quarto-category">career</div>
+                <div class="badge badge-small badge-grey quarto-category">recommendation systems</div>
+                <div class="badge badge-small badge-grey quarto-category">A/B testing</div>
+                <div class="badge badge-small badge-grey quarto-category">analytics</div>
+                <div class="badge badge-small badge-grey quarto-category">beginners</div>
+            </div>
+    </div>
+      
+  </div>  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Bryan Whiting</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/bryanwhiting/blog">
+            This blog
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/bryanwhiting">
+            Profile
+            </a>
+          </li>
+      </ul>
+    </div>
+    <a href="https://www.linkedin.com/in/bryan-whiting/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
+    <a href="https://twitter.com/bryanwhiting" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
+    <a href="../index.xml" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-rss"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../about.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Blog</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Writing</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tech.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tech, AI, and Data</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../posts.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Posts</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../books.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Book Reviews</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../christianity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Christianity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../gratitude.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Gratitude</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../creative.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Creative</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Other</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../concepts.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Concepts</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../goals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Goals</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lists.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lists of Things</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../sitemap.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sitemap (All Posts)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#my-path-to-ds" id="toc-my-path-to-ds" class="nav-link active" data-scroll-target="#my-path-to-ds">My path to DS</a></li>
+  <li><a href="#no-single-data-science-definition" id="toc-no-single-data-science-definition" class="nav-link" data-scroll-target="#no-single-data-science-definition">No Single Data Science Definition</a></li>
+  <li><a href="#week-1-prepare-to-share" id="toc-week-1-prepare-to-share" class="nav-link" data-scroll-target="#week-1-prepare-to-share">Week 1: Prepare to Share</a></li>
+  <li><a href="#week-2-storytelling" id="toc-week-2-storytelling" class="nav-link" data-scroll-target="#week-2-storytelling">Week 2: Storytelling</a></li>
+  <li><a href="#week-3-analytics-and-data-intuition" id="toc-week-3-analytics-and-data-intuition" class="nav-link" data-scroll-target="#week-3-analytics-and-data-intuition">Week 3: Analytics and Data Intuition</a></li>
+  <li><a href="#week-4-data-visualization" id="toc-week-4-data-visualization" class="nav-link" data-scroll-target="#week-4-data-visualization">Week 4: Data Visualization</a></li>
+  <li><a href="#week-5-get-data-you-dont-yet-have" id="toc-week-5-get-data-you-dont-yet-have" class="nav-link" data-scroll-target="#week-5-get-data-you-dont-yet-have">Week 5: Get Data You Don’t Yet Have</a></li>
+  <li><a href="#week-6-intro-to-machine-learning" id="toc-week-6-intro-to-machine-learning" class="nav-link" data-scroll-target="#week-6-intro-to-machine-learning">Week 6: Intro to Machine Learning</a></li>
+  <li><a href="#week-7-regression-analysis" id="toc-week-7-regression-analysis" class="nav-link" data-scroll-target="#week-7-regression-analysis">Week 7: Regression Analysis</a></li>
+  <li><a href="#week-8-choose-your-own-adventure" id="toc-week-8-choose-your-own-adventure" class="nav-link" data-scroll-target="#week-8-choose-your-own-adventure">Week 8 Choose your own Adventure</a>
+  <ul class="collapse">
+  <li><a href="#ab-testing-and-kpi-optimization-for-online-companies-applies-to-offline-too" id="toc-ab-testing-and-kpi-optimization-for-online-companies-applies-to-offline-too" class="nav-link" data-scroll-target="#ab-testing-and-kpi-optimization-for-online-companies-applies-to-offline-too">A/B Testing and KPI Optimization for Online Companies (applies to offline too)</a></li>
+  </ul></li>
+  <li><a href="#time-series-data" id="toc-time-series-data" class="nav-link" data-scroll-target="#time-series-data">Time Series Data</a></li>
+  <li><a href="#week-9-intro-to-deep-learning" id="toc-week-9-intro-to-deep-learning" class="nav-link" data-scroll-target="#week-9-intro-to-deep-learning">Week 9: Intro to Deep Learning</a></li>
+  <li><a href="#week-10-recommendation-systems" id="toc-week-10-recommendation-systems" class="nav-link" data-scroll-target="#week-10-recommendation-systems">Week 10: Recommendation Systems</a></li>
+  <li><a href="#week-11-do-projects" id="toc-week-11-do-projects" class="nav-link" data-scroll-target="#week-11-do-projects">Week 11+: Do Projects</a></li>
+  <li><a href="#prepare-your-resume" id="toc-prepare-your-resume" class="nav-link" data-scroll-target="#prepare-your-resume">Prepare your Resume</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
+
+
+
+
+<p>How do you get a job in data science if you currently aren’t a data scientist?</p>
+<div class="callout callout-style-simple callout-tip no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>The simplest thing you can do to get experience is do 5 Kaggle competitions and use ChatGPT like crazy to learn how to code, annalyze data, and build models. Use the ChatGPT code interpreter for $20/month and see how it works. Test its limits. If you’re new to data science, you won’t understand where it’s wrong, so just ask it: “how might this answer you gave me be wrong?”</p>
+<p>The rest of this focuses on how to master the fundamentals, which will take you much farther and give you a foundation to build off of. But when in doubt, “doing” data science is much better than “learning” data science from books. Always strike a balance in your efforts: it takes far less time to read and learn principles, but it’s far more valuable to try “doing” a data science project with code.</p>
+</div>
+</div>
+</div>
+<section id="my-path-to-ds" class="level1 page-columns page-full">
+<h1>My path to DS</h1>
+<p>I asked this question while working as an analyst 8 years ago and wanting to break into data science. I wrote about it back then (lost the post), so I’m gonna revisit it now.</p>
+<p>I was asked this question today: “how do I get started and get a job in data science if I don’t have any experience?” You may then wonder “I can’t get experience without a job…this is a chicken-and-egg problem.” False.</p>
+<p>Simple: get experience. For free. In 10 weeks. Write a good resume. Network like crazy: connect with real people (and not just spam). Get rejected probably 20-30 times, learn from each rejection, keep learning and presto, you’ll finally have an offer. It’s honestly just a numbers game. Everyone “ahead” of you is an imposter just like you. Just figure out enough basics and you’ll be ready for your first job.</p>
+<p>There are a million ways to do this, and a million blog posts like this one. But here’s my suggestion. Enjoy!</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="../img/dalle-plato-socrates-archimedes-and-r-a-fisher.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Some O.G. Data scientists</figcaption>
+</figure>
+</div>
+</section>
+<section id="no-single-data-science-definition" class="level1">
+<h1>No Single Data Science Definition</h1>
+<p>Look at 10 job postings for data science and you’ll see 10 unique definitions for a data scientist. Roughly, I’d categorize them as such:</p>
+<ol type="1">
+<li>Human decision support: someone who supports others in their decision making. This would be their boss, their team, etc. Decisions are: should we shut this line of business down? Are our customers churning and how do we prevent that?</li>
+<li>Machine Decision Support: someone who helps machines make automated decisions, like whether to approve an online credit card application, recommend a YouTube video, etc.</li>
+<li>Product developer: someone who uses data to build a web product or service. This is similar to machine decision support, but the role might be in a SaaS capacity.</li>
+</ol>
+<p>Most of these things below will help with 1-2. Today, AI products are all the rage and I offer one week on deep learning to get you interested in 3. That being said, all the principles in each one of these sections is important in any field you pursue. # Mindset</p>
+<p>While doing the following, on weeks 2-10, write one blog post to outline what you learned.</p>
+<ol type="1">
+<li>Where did you start? Why was it hard to learn? What did you want to know?</li>
+<li>What concepts were new to you?</li>
+<li>Do something with that knowledge. Search the internet to find data you can write about.</li>
+</ol>
+<p>If you don’t get very far, just move on to the next topic. Breadth is better early on to find out what you enjoy. Don’t get caught up in the details. Skim more. Write more. Worry less. You got this.</p>
+<p>In all things, use ChatGPT to tutor you. Ask it questions. Be relentless. Have it explain things to you like you’re five.</p>
+<p>Balancing learning between real books and ChatGPT is the best combo. ChatGPT is a better teacher, and the books have real info in them you can more fully trust. Using both together will get you there faster.</p>
+<p>If any of the books below don’t vibe for you, there are a million free books out there. Find a simpler one and the same topic (and post in the comments so I can add it!)</p>
+</section>
+<section id="week-1-prepare-to-share" class="level1">
+<h1>Week 1: Prepare to Share</h1>
+<blockquote class="blockquote">
+<p>By creating a blog you demonstrate the following: you like to learn, you can communicate, you can do hard things, you’re naturally curious, you’re contributing to the ecosystem. Lots of ways to show those things, but having a blog is at least one way.</p>
+</blockquote>
+<ul>
+<li>Set up a blog.
+<ul>
+<li>Medium.com</li>
+<li>Substack.com</li>
+<li>(Harder) Or use <a href="https://quarto.org/">Quarto</a> and publish on GitHub</li>
+</ul></li>
+<li>Find 5 blogs by top data scientists. Read their posts. See what they write about.</li>
+<li>Your first blog post is about what you like about these 5 blogs.</li>
+<li>Share your blog post on all social media. LinkedIn, Twitter, Facebook.</li>
+</ul>
+</section>
+<section id="week-2-storytelling" class="level1">
+<h1>Week 2: Storytelling</h1>
+<blockquote class="blockquote">
+<p>You can’t get credit for great data science work unless you can tell a story. Now that you have a blog, learn how to write about data.</p>
+</blockquote>
+<ul>
+<li><a href="https://tellingstorieswithdata.com/">Telling Stories with Data</a></li>
+<li>Find three data-focused blogs that use charts and analysis. Economist, FiveThirtyEight, DataIsBeautiful, etc.</li>
+</ul>
+</section>
+<section id="week-3-analytics-and-data-intuition" class="level1">
+<h1>Week 3: Analytics and Data Intuition</h1>
+<blockquote class="blockquote">
+<p>To be able to make predictions about the future, you first need to understand how to understand the past.</p>
+</blockquote>
+<p>Analytics is the foundation of data science. It’s the process of manipulating data and reshaping it to see it in new ways.</p>
+<ul>
+<li><a href="https://wesmckinney.com/book/">Python for Data Analysis, 3E</a> - written by the creator of <code>pandas</code></li>
+<li><a href="https://r4ds.hadley.nz/">R for Data Science (2e)</a> - written by the creator of <code>dplyr</code>, the best data manipulation language ever.</li>
+</ul>
+<p>Both these books are great. Read both. It’s good to learn early that there are multiple right ways of doing your analysis the wrong way 😉. Seeing how to think in two languages is actually easier than getting stuck on one.</p>
+<p>Related: understand the bias in your data.</p>
+<ul>
+<li><a href="https://datasciencehorizons.com/thinking-clearly-data-scientist-guide-understanding-cognitive-biases/">Thinking Clearly: A Data Scientist’s Guide to Understanding Cognitive Biases [eBook] – Data Science Horizons</a></li>
+<li><a href="https://www.analyticsinsight.net/top-5-biases-data-science/">Top 5 Biases in Data Science to Know for Model’s Accuracy</a></li>
+</ul>
+</section>
+<section id="week-4-data-visualization" class="level1">
+<h1>Week 4: Data Visualization</h1>
+<blockquote class="blockquote">
+<p>Learning how to make a plot is like learning how to write. Learn how colors work. When to use them. When to use a bar vs.&nbsp;a line chart. How to make ideas shine.</p>
+</blockquote>
+<ul>
+<li><a href="https://jjallaire.github.io/visualization-curriculum/">Visualization Curriculum</a></li>
+<li><a href="https://r-graphics.org/">R Graphics Cookbook, 2nd edition</a></li>
+</ul>
+<p>This is after analytics because analytics is more important (knowing what to look for and how to think about data) than plotting it.</p>
+<p>There are two types of plots: those for you to learn from and those for others to learn from. First, learn what’s in the data. Learn for yourself.</p>
+<blockquote class="blockquote">
+<p>“Look at the plot. Look at the plot. No seriously, look at the plot.” Chris Peterson, Capital One</p>
+</blockquote>
+<p>Second, plot for other people. After you’ve learned something by sifting out all the noise, learn how to communicate that externally.</p>
+<p>Beautiful plotting is really hard and time consuming. Details can take hours. Focus on the basics at first. The simplest plot focuses on “what’s the one thing I want someone to take away from this?”</p>
+</section>
+<section id="week-5-get-data-you-dont-yet-have" class="level1">
+<h1>Week 5: Get Data You Don’t Yet Have</h1>
+<blockquote class="blockquote">
+<p>If you work at a company &gt; 50 people, your company’s data is probably stored in a database. Learning how to get this data so you can do data analytics and visualization will help you be self sufficient.</p>
+</blockquote>
+<p>Analytics is more important than this, because someone else may be able to get you the data. Or, once you know analytics then you can use SQL to <em>do</em> analytics.</p>
+<p>Three primary ways to get data include the following:</p>
+<ol type="1">
+<li>SQL (from a database, returns a spreadsheet like table)</li>
+<li>API (get data from a website, returns JSON data)</li>
+<li>Webscraping (getting it yourself, this is considered “unstructured” data)</li>
+</ol>
+<p>Interactive tutorials here are the way to go. Just google around for some good ones.</p>
+<ul>
+<li><a href="https://sqlbolt.com/">SQLBolt - Learn SQL - Introduction to SQL</a></li>
+<li><a href="https://www.dataquest.io/blog/python-api-tutorial/">Python API Tutorial: Getting Started with APIs – Dataquest</a></li>
+<li><a href="https://realpython.com/python-web-scraping-practical-introduction/">A Practical Introduction to Web Scraping in Python – Real Python</a></li>
+</ul>
+</section>
+<section id="week-6-intro-to-machine-learning" class="level1">
+<h1>Week 6: Intro to Machine Learning</h1>
+<blockquote class="blockquote">
+<p>This book nails the foundations of machine learning. Doesn’t get too mathy, but teaches you the principles.</p>
+</blockquote>
+<ul>
+<li><a href="https://www.statlearning.com/">An Introduction to Statistical Learning</a></li>
+<li>For reference, a more mathy and dense book that supports the Intro book is <a href="https://hastie.su.domains/Papers/ESLII.pdf">Elements of Statistical Learninf</a></li>
+</ul>
+<p>For content on how to get insights from machine learning models: - <a href="https://christophm.github.io/interpretable-ml-book/">Interpretable Machine Learning</a></p>
+<p>Additional - understand the bias in your models <a href="https://www.tobiasbaer.net/algorithmic-bias">Tobias Baer - Risk Management, Data Science, and Psychology</a> - <a href="https://www.oreilly.com/library/view/machine-learning-for/9781098102425/ch04.html">4. Managing Bias in Machine Learning - Machine Learning for High-Risk Applications</a></p>
+</section>
+<section id="week-7-regression-analysis" class="level1">
+<h1>Week 7: Regression Analysis</h1>
+<blockquote class="blockquote">
+<p>Regression Is key to getting insights out of data. It’s what sets you apart from a data analyst role.</p>
+</blockquote>
+<ul>
+<li><a href="https://peopleanalytics-regression-book.org/">Welcome | Handbook of Regression Modeling in People Analytics: With Examples in R, Python and Julia</a></li>
+<li><a href="https://avehtari.github.io/ROS-Examples/">Regression and Other Stories</a></li>
+</ul>
+</section>
+<section id="week-8-choose-your-own-adventure" class="level1">
+<h1>Week 8 Choose your own Adventure</h1>
+<section id="ab-testing-and-kpi-optimization-for-online-companies-applies-to-offline-too" class="level2">
+<h2 class="anchored" data-anchor-id="ab-testing-and-kpi-optimization-for-online-companies-applies-to-offline-too">A/B Testing and KPI Optimization for Online Companies (applies to offline too)</h2>
+<blockquote class="blockquote">
+<p>All big internet companies use A/B testing, or split testing, to make decisions about how to improve their product. If you’re interested in software, or understanding how all modern websites and software are improved, you need to understand A/B testing.</p>
+</blockquote>
+<p>If You’ve taken stat 101, this is where the “t.test” gets used to literally make Big Tech billions of dollars. I’m not kidding. It’s simple, but it’s powerful.</p>
+<ul>
+<li><a href="https://netflixtechblog.com/its-all-a-bout-testing-the-netflix-experimentation-platform-4e1ca458c15">It’s All A/Bout Testing: The Netflix Experimentation Platform | by Netflix Technology Blog | Netflix TechBlog</a></li>
+<li>A seven part series by Netflix: <a href="https://netflixtechblog.com/netflix-a-culture-of-learning-394bc7d0f94c">Netflix: A Culture of Learning. Martin Tingley with Wenjing Zheng… | by Netflix Technology Blog | Netflix TechBlog</a> I put here the seventh post because it likes to parts 1-6 in the intro. This part 7 is probably the best to start with because it explains the context behind A/B testing.</li>
+<li><a href="https://experimentguide.com/">Experiment Guide – Accelerate innovation using trustworthy online controlled experiments</a> This book tells you how Microsoft, Amazon, and Google use online experimentation to make billions of dollars. It’s written by the people who invented online experimentation and who are top data scientists at those companies.</li>
+</ul>
+</section>
+</section>
+<section id="time-series-data" class="level1">
+<h1>Time Series Data</h1>
+<blockquote class="blockquote">
+<p>All modern data is time series data in some way (data collected over time). Even though you may not use forecasting in everything or what not, understanding the nature of that data will set you apart. Focus on principles, not techniques as you may not use these specific techniques.</p>
+</blockquote>
+<ul>
+<li><a href="https://otexts.com/fpp3/">Forecasting: Principles&nbsp;and&nbsp;Practice (3rd&nbsp;ed)</a></li>
+</ul>
+</section>
+<section id="week-9-intro-to-deep-learning" class="level1">
+<h1>Week 9: Intro to Deep Learning</h1>
+<blockquote class="blockquote">
+<p>Deep learning is all the rage, and will change the future for everyone. It’s vital you know how these systems work because this is the future of society.</p>
+</blockquote>
+<ul>
+<li><a href="https://www.fast.ai/">fast.ai - fast.ai—Making neural nets uncool again</a>
+<ul>
+<li>Great courses that teaches you how to build ChatGPT and Image Generators and understand it.</li>
+</ul></li>
+</ul>
+<p>This YouTube videos and others by him are great:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/zjkBMFhNj_g" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>Also this:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/jkrNMKz9pWU" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="week-10-recommendation-systems" class="level1">
+<h1>Week 10: Recommendation Systems</h1>
+<blockquote class="blockquote">
+<p>If you’re making automated decisions with data, you’re probably using a recommendation system at some level. Recommendation systems typically focus on “what video does Bryan want given all the data we have on him and people like him?”. But the principles also extend to: how do I recommend one course of action to my stakeholder?</p>
+</blockquote>
+<p>I don’t have great resources here, but getting the concepts down will help you understand how virtually every social media app or streaming service works. (Netflix, Spotify, Instagram, etc all use recommenders to figure out the content you’re interested in. )</p>
+<ul>
+<li><a href="http://eliassi.org/charu_recsys_intro.pdf">http://eliassi.org/charu_recsys_intro.pdf</a></li>
+</ul>
+</section>
+<section id="week-11-do-projects" class="level1">
+<h1>Week 11+: Do Projects</h1>
+<p>Now that you’ve studied analytics, data viz, regression, machine learning, and deep learning, create two blog posts or personal projects.</p>
+<ul>
+<li>Build a dashboard using a Jupyter notebook that updates daily. You can host on GitHub using quarto to render the notebook and use GitHub actions to update it every day.</li>
+<li>Create a model to predict who will win the next NBA game</li>
+<li>Analyze any data from data.gov</li>
+<li>Kaggle competitions!</li>
+</ul>
+</section>
+<section id="prepare-your-resume" class="level1">
+<h1>Prepare your Resume</h1>
+<p>Now you’ve got 10 blog posts, which is 10 more bullet points on your resume than you had before you started. You’ve learned a ton if you only do 10% of all that’s above.</p>
+<p>I’ve loved the advice I found written up here: <a href="../posts/2022-11-18-writing-a-tech-resume/index.html">Writing a Tech Resume</a>.</p>
+<p>Once you have a good resume, find real people to give it to. Dont apply blindly online. Talk to everyone you know. Find people on LinkedIn and message them directly with a personal message. Use one of your blog posts in your message to tell them why you’re a good fit for their role. Perhaps even write a blog post specific to data from their company!</p>
+<p>Good luck!</p>
+
+
+</section>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        typesetMath(container);
+        return container.innerHTML
+      } else {
+        typesetMath(note);
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      typesetMath(note);
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<script src="https://giscus.app/client.js" data-repo="bryanwhiting/blog" data-repo-id="R_kgDOHgq18w" data-category="General" data-category-id="DIC_kwDOHgq1884CTE-n" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Copyright 2021-2024, Bryan Whiting</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link active" href="https://github.com/bryanwhiting" aria-current="page">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/bryan-whiting/">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/bryanwhiting">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="../index.xml">
+      <i class="bi bi-rss" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

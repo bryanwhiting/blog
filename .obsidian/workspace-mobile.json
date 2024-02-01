@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/1-nephi-10.md",
+                "file": "goals/2024-01-29.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "updated",
+            "query": "tag:#ex/StandingTricepExtension",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 0
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/1-nephi-10.md",
+            "file": "goals/2024-01-29.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/1-nephi-10.md"
+            "file": "goals/2024-01-29.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/1-nephi-10.md",
+            "file": "goals/2024-01-29.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -139,53 +139,52 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8cc9e0772b97f8cc",
+  "active": "be767112276aa446",
   "lastOpenFiles": [
-    "img/dalle-ascend-the-hill-by-kneeling-in-prayer.jpeg",
-    "scriptures/1-nephi-10.6.md",
-    "goals/2024-01-16.md",
-    "christianity/1-nephi-10.md",
-    "goals/2024-01-17.md",
-    "goals/2024-01-18.md",
-    "goals/2024-01-19.md",
-    "gratitude/baby-formula.md",
-    "goals.qmd",
-    "img/dalle-baby-formula-rainforest.jpeg",
-    "book-review/the-inklings.md",
-    "lists/reading-list.md",
-    "book-review/the-wealth-of-nations.md",
-    "book-review/the-quest-for-cosmic-justice.md",
-    "img/book-wealth-of-nations-book-1.jpeg",
-    "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
-    "LOGGING-NOTE (iPhone).md",
-    "Untitled 2.md",
-    "book-review/huu.md",
+    "goals/2024-01-28.md",
+    "docs/gratitude/imagination.html",
+    "docs/gratitude/chirping-birds.html",
+    "docs/christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.html",
+    "docs/img/dalle-bread-in-oven.jpeg",
+    "docs/img/photo-how-to-win-friends-bullet-points.jpeg",
+    "docs/img/dalle-birds-chirping-in-a-tree.jpeg",
+    "docs/img/dalle-sourdough-bread-is-porous.jpeg",
+    "docs/img/dalle-sunday-best.jpeg",
+    "docs/img/book-greenlights.jpeg",
+    "docs/img/dalle-imagination-two-panes.jpeg",
+    "docs/img/dalle-bread-about-to-be-torn.jpeg",
+    "docs/scriptures/3-nephi-18.22.html",
+    "docs/scriptures/luke-7.39.html",
+    "docs/scriptures/2-nephi-2.7.html",
+    "docs/scriptures/mark-15.46.html",
+    "docs/scriptures/1-nephi-15.23-25.html",
+    "docs/scriptures/john-10.17-18.html",
+    "docs/scriptures/matthew-6.8.html",
+    "goals/2024-01-29.md",
+    "book-review/the-tyranny-of-experts.md",
+    "book-review/wool.md",
+    "img/photo-tyranny-of-experts.jpeg",
+    "goals/2024-01-30.md",
     "_templates/day.md",
-    "docs/tech.xml",
-    "docs/listings.json",
-    "docs/CNAME",
-    "docs/posts.xml",
-    "docs/gratitude/2023-12-26-i'm-grateful-for-blankets/photo.jpeg",
-    "docs/gratitude/2023-12-26-i'm-grateful-for-blankets/index.html",
-    "docs/gratitude/img/little-lamb.png",
-    "docs/gratitude/2023-12-24-light/photo.jpeg",
-    "docs/gratitude/2023-12-24-light/index.html",
-    "docs/gratitude/2023-12-25-grateful-for-doctors/photo.jpeg",
-    "docs/gratitude/2023-12-25-grateful-for-doctors/index.html",
-    "docs/gratitude/beaches.html",
-    "docs/gratitude/eyes.html",
-    "docs/quarto-demo-forbo7-huggingface.png",
-    "docs/img/dalle-half-tree-half-christ-dying.jpeg",
-    "docs/img/dalle-plant-a-seed-and-grow.jpeg",
-    "docs/img/dalle-dreamy-cloud.jpeg",
-    "docs/_templates/new-post.md",
-    "1-nephi-3-write-with-a-purpose.md",
-    "news/2024-01-19-news-notes.md",
+    "christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.md",
+    "goals/2024-01-27.md",
+    "sacrament-symbols/bread-given-freely-like-his-life.md",
+    "img/dalle-full-congregation-at-church.jpeg",
+    "sacrament-symbols/__other-symbols.md",
+    "sacrament-symbols/sunday-dress.md",
+    "sacrament-symbols/bread-in-the-oven.md",
+    "sacrament-symbols/vaulted-ceiling.md",
+    "sacrament-symbols/support-beams-represent-the-cross.md",
+    "sacrament-symbols/receive-the-holy-ghost.md",
+    "sacrament-symbols/porous-bread.md",
+    "sacrament-symbols/broken-bread-but-no-broken-bones.md",
+    "scriptures/2-nephi-2.7.md",
+    "scriptures/luke-7.39.md",
+    "scriptures/luke-7.36-38.md",
+    "scriptures/doctrine-and-covenants-82.10.md",
+    "scriptures/mark-15.46.md",
+    "scriptures/matthew-12.40.md",
     "_templates/new-post.md",
-    "scriptures/1-nephi-9.4.md",
-    "gratitude/healing.md",
-    "christianity/1-nephi-9.md",
-    "gratitude/heaven.md",
-    "gratitude/things-i-dont-understand.md"
+    "scriptures/alma-37.7.md"
   ]
 }

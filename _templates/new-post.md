@@ -81,6 +81,13 @@ observations: ""`;
 content += `
 `;
 
+let body = ""; 
+if (folder === "sacrament-symbols"){
+  body += "# Symbol\n\n# Scriptures\n\n# Meaning\n"
+}
+
+
 const filepath = `${folder}/${slug}`  
 await tp.file.move(filepath)  
 -%>---<% content %>---
+<% body %>
