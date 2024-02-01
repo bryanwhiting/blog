@@ -85,6 +85,9 @@ let body = "";
 if (folder === "sacrament-symbols"){
   body += "# Symbol\n\n# Scriptures\n\n# Meaning\n"
 }
+if (folder === "christianity"){
+  body += "# Scriptures\n\n# Meaning\n"
+}
 
 
 const filepath = `${folder}/${slug}`  
