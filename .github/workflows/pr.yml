@@ -14,6 +14,8 @@ env:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
       # - name: Replace smart quotes in Markdown files
@@ -44,11 +46,21 @@ jobs:
       #     if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
       #     renv::restore()
 
-      - name: Render blog 
-        run: |
-          quarto render
-      
-      - name: Push rendered code
-        uses: EndBug/add-and-commit@v9
+      - name: Render and Publish
+        uses: quarto-dev/quarto-actions/publish@v2
         with:
-          default_author: github_actions
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
+
+      # Works with docs/
+      # - name: Render blog 
+      #   run: |
+      #     quarto render
+      
+      # - name: Push rendered code
+      #   uses: EndBug/add-and-commit@v9
+      #   with:
+      #     default_author: github_actions
