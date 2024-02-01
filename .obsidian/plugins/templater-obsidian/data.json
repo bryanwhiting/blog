@@ -17,6 +17,10 @@
     {
       "folder": "goals",
       "template": "_templates/day.md"
+    },
+    {
+      "folder": "",
+      "template": ""
     }
   ],
   "syntax_highlighting": true,
