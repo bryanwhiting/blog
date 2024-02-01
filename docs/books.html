@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.515">
+<meta name="generator" content="quarto-1.2.269">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
 </style>
@@ -47,13 +47,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
+  "limit": 20,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -63,8 +57,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-submit-button-title": "Submit"
   }
 }</script>
 <script>
@@ -107,16 +100,15 @@ gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="css/poem.css">
-<link rel="alternate" type="application/rss+xml" title="Bryan Whiting" href="books.xml" data-external="1"><meta property="og:title" content="Bryan Whiting - Book Reviews">
-<meta property="og:description" content="">
-<meta property="og:site_name" content="Bryan Whiting">
+<link rel="alternate" type="application/rss+xml" title="Bryan Whiting" href="books.xml"><meta property="og:title" content="Bryan Whiting - Book Reviews">
+<meta property="og:description" content="Goal: To spend less time consuming more, more time consuming intentionally.">
+<meta property="og:site-name" content="Bryan Whiting">
 <meta name="twitter:title" content="Bryan Whiting - Book Reviews">
-<meta name="twitter:description" content="">
+<meta name="twitter:description" content="Goal: To spend less time consuming more, more time consuming intentionally.">
 <meta name="twitter:creator" content="@bryanwhiting">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -125,25 +117,20 @@ gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./tech.html">Writing</a></li><li class="breadcrumb-item"><a href="./books.html">Book Reviews</a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Book Reviews</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
       </button>
     </div>
   </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./tech.html">Writing</a></li><li class="breadcrumb-item"><a href="./books.html">Book Reviews</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Book Reviews</h1>
+      <h1 class="title d-none d-lg-block">Book Reviews</h1>
                       </div>
   </div>
     
@@ -153,129 +140,113 @@ gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
   </div>  
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Bryan Whiting</a> 
         <div class="sidebar-tools-main tools-wide">
-    <div class="dropdown">
-      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
-      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
-          <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/bryanwhiting/blog">
-            This blog
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/bryanwhiting">
-            Profile
-            </a>
-          </li>
-      </ul>
-    </div>
-    <a href="https://www.linkedin.com/in/bryan-whiting/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
-    <a href="https://twitter.com/bryanwhiting" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
-    <a href="./index.xml" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-rss"></i></a>
+    <a href="" title="" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-github"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/bryanwhiting/blog">
+          This blog
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://github.com/bryanwhiting">
+          Profile
+          </a>
+        </li>
+    </ul>
+    <a href="https://www.linkedin.com/in/bryan-whiting/" title="" class="sidebar-tool px-1"><i class="bi bi-linkedin"></i></a>
+    <a href="https://twitter.com/bryanwhiting" title="" class="sidebar-tool px-1"><i class="bi bi-twitter"></i></a>
+    <a href="./index.xml" title="" class="sidebar-tool px-1"><i class="bi bi-rss"></i></a>
 </div>
     </div>
       </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
+      <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-        </div>
+      </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
+  <a href="./about.html" class="sidebar-item-text sidebar-link">About</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Blog</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Blog</a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text">Writing</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Writing</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./tech.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Tech, AI, and Data</span></a>
+  <a href="./tech.html" class="sidebar-item-text sidebar-link">Tech, AI, and Data</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Posts</span></a>
+  <a href="./posts.html" class="sidebar-item-text sidebar-link">Posts</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./books.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Book Reviews</span></a>
+  <a href="./books.html" class="sidebar-item-text sidebar-link active">Book Reviews</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./christianity.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Christianity</span></a>
+  <a href="./christianity.html" class="sidebar-item-text sidebar-link">Christianity</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./gratitude.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Gratitude</span></a>
+  <a href="./gratitude.html" class="sidebar-item-text sidebar-link">Gratitude</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./creative.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Creative</span></a>
+  <a href="./creative.html" class="sidebar-item-text sidebar-link">Creative</a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
- <span class="menu-text">Other</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Other</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./concepts.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Concepts</span></a>
+  <a href="./concepts.html" class="sidebar-item-text sidebar-link">Concepts</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./goals.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Goals</span></a>
+  <a href="./goals.html" class="sidebar-item-text sidebar-link">Goals</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lists.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lists of Things</span></a>
+  <a href="./lists.html" class="sidebar-item-text sidebar-link">Lists of Things</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sitemap.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Sitemap (All Posts)</span></a>
+  <a href="./sitemap.html" class="sidebar-item-text sidebar-link">Sitemap (All Posts)</a>
   </div>
 </li>
       </ul>
@@ -284,13 +255,11 @@ gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
     </div>
     
 </nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="apocalyptic"><span class="quarto-category-count category-cloud-1">apocalyptic</span></div><div class="category" data-category="book-review"><span class="quarto-category-count category-cloud-10">book-review</span></div><div class="category" data-category="decisions"><span class="quarto-category-count category-cloud-1">decisions</span></div><div class="category" data-category="dystopian"><span class="quarto-category-count category-cloud-1">dystopian</span></div><div class="category" data-category="economics"><span class="quarto-category-count category-cloud-2">economics</span></div><div class="category" data-category="education"><span class="quarto-category-count category-cloud-1">education</span></div><div class="category" data-category="fiction"><span class="quarto-category-count category-cloud-1">fiction</span></div><div class="category" data-category="history"><span class="quarto-category-count category-cloud-1">history</span></div><div class="category" data-category="mindfulness"><span class="quarto-category-count category-cloud-1">mindfulness</span></div><div class="category" data-category="murder mystery"><span class="quarto-category-count category-cloud-1">murder mystery</span></div><div class="category" data-category="philosophy"><span class="quarto-category-count category-cloud-2">philosophy</span></div><div class="category" data-category="politics"><span class="quarto-category-count category-cloud-1">politics</span></div><div class="category" data-category="productivity"><span class="quarto-category-count category-cloud-1">productivity</span></div><div class="category" data-category="psychology"><span class="quarto-category-count category-cloud-1">psychology</span></div><div class="category" data-category="sci-fi"><span class="quarto-category-count category-cloud-1">sci-fi</span></div><div class="category" data-category="social justice"><span class="quarto-category-count category-cloud-1">social justice</span></div><div class="category" data-category="storytelling"><span class="quarto-category-count category-cloud-1">storytelling</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
-
 
 
 
@@ -325,10 +294,12 @@ gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="book-review,economics" data-listing-date-sort="1706530374000" data-listing-file-modified-sort="1706567033367" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+<div class="g-col-1" data-index="0" data-categories="book-review,economics" data-listing-date-sort="1706559174000" data-listing-file-modified-sort="1706748420062" data-listing-reading-time-sort="0.02">
 <a href="./book-review/the-tyranny-of-experts.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/photo-tyranny-of-experts.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img src="./img/photo-tyranny-of-experts.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 The Tyranny of Experts
@@ -356,10 +327,12 @@ Monday January 29, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="book-review" data-listing-date-sort="1706214774000" data-listing-file-modified-sort="1706567033363" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="1" data-categories="book-review" data-listing-date-sort="1706243574000" data-listing-file-modified-sort="1706748419767" data-listing-reading-time-sort="0.005">
 <a href="./book-review/greenlights.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/book-greenlights.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img src="./img/book-greenlights.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Greenlights
@@ -384,10 +357,12 @@ Thursday January 25, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="book-review,apocalyptic,fiction,dystopian" data-listing-date-sort="1706085831000" data-listing-file-modified-sort="1706567033367" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
+<div class="g-col-1" data-index="2" data-categories="book-review,apocalyptic,fiction,dystopian" data-listing-date-sort="1706114631000" data-listing-file-modified-sort="1706748420076" data-listing-reading-time-sort="0.05">
 <a href="./book-review/wool.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/book-wool.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img src="./img/book-wool.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Wool
@@ -421,10 +396,12 @@ Wednesday January 24, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="book-review,psychology,politics,education" data-listing-date-sort="1706042445000" data-listing-file-modified-sort="1706567033367" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="267">
+<div class="g-col-1" data-index="3" data-categories="book-review,psychology,politics,education" data-listing-date-sort="1706071245000" data-listing-file-modified-sort="1706748420039" data-listing-reading-time-sort="1.335">
 <a href="./book-review/the-coddling-of-the-american-mind.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/book-the-coddling-of-the-american-mind.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img src="./img/book-the-coddling-of-the-american-mind.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 The Coddling of the American Mind
@@ -458,10 +435,12 @@ Tuesday January 23, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="book-review" data-listing-date-sort="1705868351000" data-listing-file-modified-sort="1706567033367" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="112">
+<div class="g-col-1" data-index="4" data-categories="book-review" data-listing-date-sort="1705897151000" data-listing-file-modified-sort="1706748419793" data-listing-reading-time-sort="0.56">
 <a href="./book-review/saints-book-1-the-standard-of-truth-1815-1846.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/book-saints-volume-1-the-standard-of-truth-18151846.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img src="./img/book-saints-volume-1-the-standard-of-truth-18151846.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Saints Book 1 The Standard of Truth 1815-1846
@@ -486,10 +465,12 @@ Sunday January 21, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="book-review" data-listing-date-sort="1705757386000" data-listing-file-modified-sort="1706567033363" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="225">
+<div class="g-col-1" data-index="5" data-categories="book-review" data-listing-date-sort="1705786186000" data-listing-file-modified-sort="1706748419780" data-listing-reading-time-sort="1.125">
 <a href="./book-review/how-to-win-friends-and-influence-people.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/photo-how-to-win-friends-bullet-points.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img src="./img/photo-how-to-win-friends-bullet-points.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 How to Win Friends and Influence People
@@ -514,10 +495,12 @@ Saturday January 20, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="book-review,economics" data-listing-date-sort="1705700571000" data-listing-file-modified-sort="1706567033367" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
+<div class="g-col-1" data-index="6" data-categories="book-review,economics" data-listing-date-sort="1705729371000" data-listing-file-modified-sort="1706748420071" data-listing-reading-time-sort="0.015">
 <a href="./book-review/the-wealth-of-nations.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/book-wealth-of-nations-book-1.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img src="./img/book-wealth-of-nations-book-1.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 The Wealth of Nations
@@ -545,10 +528,12 @@ Friday January 19, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="book-review" data-listing-date-sort="1705698937000" data-listing-file-modified-sort="1706567033367" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="78">
+<div class="g-col-1" data-index="7" data-categories="book-review" data-listing-date-sort="1705727737000" data-listing-file-modified-sort="1706748420047" data-listing-reading-time-sort="0.39">
 <a href="./book-review/the-inklings.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/book-the-inklings-by-humphrey-carpenter.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img src="./img/book-the-inklings-by-humphrey-carpenter.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 The Inklings
@@ -573,10 +558,12 @@ Friday January 19, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="book-review" data-listing-date-sort="1705438273000" data-listing-file-modified-sort="1706567033367" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="75">
+<div class="g-col-1" data-index="8" data-categories="book-review" data-listing-date-sort="1705467073000" data-listing-file-modified-sort="1706748419791" data-listing-reading-time-sort="0.375">
 <a href="./book-review/paradise-lost-and-paradise-regained.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/book-paradise-lost-and-paradise-regained.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img src="./img/book-paradise-lost-and-paradise-regained.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Paradise Lost and Paradise Regained
@@ -601,10 +588,12 @@ Tuesday January 16, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="book-review,economics,social justice,politics" data-listing-date-sort="1704921711000" data-listing-file-modified-sort="1706567033367" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="186">
+<div class="g-col-1" data-index="9" data-categories="book-review,economics,social justice,politics" data-listing-date-sort="1704950511000" data-listing-file-modified-sort="1706748420057" data-listing-reading-time-sort="0.93">
 <a href="./book-review/the-quest-for-cosmic-justice.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/book-the-quest-for-cosmic-justice.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img src="./img/book-the-quest-for-cosmic-justice.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 The Quest for Cosmic Justice
@@ -638,10 +627,12 @@ Wednesday January 10, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="book-review,history,philosophy" data-listing-date-sort="1704832349000" data-listing-file-modified-sort="1706567033367" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="301">
+<div class="g-col-1" data-index="10" data-categories="book-review,history,philosophy" data-listing-date-sort="1704861149000" data-listing-file-modified-sort="1706748420048" data-listing-reading-time-sort="1.505">
 <a href="./book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/book-the-oxford-inklings.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img src="./img/book-the-oxford-inklings.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 The Oxford Inklings: Lewis, Tolkien and Their Circle
@@ -672,10 +663,12 @@ Tuesday January 9, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="11" data-categories="book-review" data-listing-date-sort="1704751630000" data-listing-file-modified-sort="1706567033363" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="246">
+<div class="g-col-1" data-index="11" data-categories="book-review" data-listing-date-sort="1704780430000" data-listing-file-modified-sort="1706748419756" data-listing-reading-time-sort="1.23">
 <a href="./book-review/dune-messiah.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/book-dune-messiah.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img src="./img/book-dune-messiah.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Dune: Messiah
@@ -700,10 +693,12 @@ Monday January 8, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="12" data-categories="book-review" data-listing-date-sort="1704240000000" data-listing-file-modified-sort="1706567033367" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<div class="g-col-1" data-index="12" data-categories="book-review" data-listing-date-sort="1704268800000" data-listing-file-modified-sort="1706748419790" data-listing-reading-time-sort="0.035">
 <a href="./book-review/leonardo-da-vinci.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-img-bg" style="height: 150px;">
+&nbsp;
+</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Leonardo da Vinci
@@ -728,10 +723,12 @@ Wednesday January 3, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="13" data-categories="book-review" data-listing-date-sort="1704240000000" data-listing-file-modified-sort="1706567033367" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="13" data-categories="book-review" data-listing-date-sort="1704268800000" data-listing-file-modified-sort="1706748420029" data-listing-reading-time-sort="0.005">
 <a href="./book-review/steve-jobs-biography.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-img-bg" style="height: 150px;">
+&nbsp;
+</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Steve Jobs (Biography)
@@ -756,10 +753,12 @@ Wednesday January 3, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="14" data-categories="book-review" data-listing-date-sort="1704153600000" data-listing-file-modified-sort="1706567033367" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="53">
+<div class="g-col-1" data-index="14" data-categories="book-review" data-listing-date-sort="1704182400000" data-listing-file-modified-sort="1706748420027" data-listing-reading-time-sort="0.265">
 <a href="./book-review/socrates-a-life-worth-living.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/book-socrates.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img src="./img/book-socrates.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 “Socrates A Life Worth Living” by Devra Lehman
@@ -770,7 +769,7 @@ book-review
 </div>
 </div>
 <div class="card-text listing-description">
-Notes: - socrates had a voice he felt was from Gods. Daimonion - Memorization. Lots of it. - Humanism - treated sacrifices to the gods as transactional. This meant they…
+<!-- desc(5A0113B34292)[max=175]:book-review/socrates-a-life-worth-living.html -->
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
@@ -784,10 +783,12 @@ Tuesday January 2, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="15" data-categories="book-review" data-listing-date-sort="1704153600000" data-listing-file-modified-sort="1706567033367" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+<div class="g-col-1" data-index="15" data-categories="book-review" data-listing-date-sort="1704182400000" data-listing-file-modified-sort="1706748419781" data-listing-reading-time-sort="0.005">
 <a href="./book-review/innovators-dilemma.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-img-bg" style="height: 150px;">
+&nbsp;
+</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Innovator’s Dilemma
@@ -812,10 +813,12 @@ Tuesday January 2, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="16" data-categories="decisions,philosophy,book-review" data-listing-date-sort="1703773428000" data-listing-file-modified-sort="1706567033363" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="142">
+<div class="g-col-1" data-index="16" data-categories="decisions,philosophy,book-review" data-listing-date-sort="1703802228000" data-listing-file-modified-sort="1706748419771" data-listing-reading-time-sort="0.71">
 <a href="./book-review/how-to-decide-simple-tools-for-making-better-choices.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/book-how-to-decide.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img src="./img/book-how-to-decide.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 How to Decide: Simple Tools for Making Better Choices
@@ -846,10 +849,12 @@ Thursday December 28, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="17" data-categories="book-review,sci-fi" data-listing-date-sort="1703332246000" data-listing-file-modified-sort="1706567033363" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="347">
+<div class="g-col-1" data-index="17" data-categories="book-review,sci-fi" data-listing-date-sort="1703361046000" data-listing-file-modified-sort="1706748419758" data-listing-reading-time-sort="1.735">
 <a href="./book-review/dune.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/book-dune.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img src="./img/book-dune.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Dune
@@ -877,10 +882,12 @@ Saturday December 23, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="18" data-categories="book-review" data-listing-date-sort="1703326317000" data-listing-file-modified-sort="1706567033367" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="82">
+<div class="g-col-1" data-index="18" data-categories="book-review" data-listing-date-sort="1703355117000" data-listing-file-modified-sort="1706748420037" data-listing-reading-time-sort="0.41">
 <a href="./book-review/the-best-of-edgar-allen-poe.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/book-edgar-allen-poe.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img src="./img/book-edgar-allen-poe.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 The Best of Edgar Allen Poe
@@ -905,10 +912,12 @@ Saturday December 23, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="19" data-categories="storytelling,murder mystery,book-review" data-listing-date-sort="1703239917000" data-listing-file-modified-sort="1706567033367" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="286">
+<div class="g-col-1" data-index="19" data-categories="storytelling,murder mystery,book-review" data-listing-date-sort="1703268717000" data-listing-file-modified-sort="1706748419783" data-listing-reading-time-sort="1.43">
 <a href="./book-review/killers-of-the-flower-moon.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/book-killers-flower-moon.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img src="./img/book-killers-flower-moon.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Killers of the Flower Moon: the Osage Murders and the Birth of the FBI
@@ -939,10 +948,12 @@ Friday December 22, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="20" data-categories="book-review" data-listing-date-sort="1703030400000" data-listing-file-modified-sort="1706567033367" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<div class="g-col-1" data-index="20" data-categories="book-review" data-listing-date-sort="1703059200000" data-listing-file-modified-sort="1706748420072" data-listing-reading-time-sort="0.125">
 <a href="./book-review/unbelievable.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-img-bg" style="height: 150px;">
+&nbsp;
+</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Unbelievable
@@ -967,10 +978,12 @@ Wednesday December 20, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="21" data-categories="philosophy,mindfulness,book-review" data-listing-date-sort="1702980717000" data-listing-file-modified-sort="1706567033363" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
+<div class="g-col-1" data-index="21" data-categories="philosophy,mindfulness,book-review" data-listing-date-sort="1703009517000" data-listing-file-modified-sort="1706748419755" data-listing-reading-time-sort="0.97">
 <a href="./book-review/101-essays-to-make-you-think.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/book-101-essays.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img src="./img/book-101-essays.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 101 Essays that will Change the Way You Think, by Brianna Wiest
@@ -1001,10 +1014,12 @@ Tuesday December 19, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="22" data-categories="storytelling,book-review" data-listing-date-sort="1702894317000" data-listing-file-modified-sort="1706567033363" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="203">
+<div class="g-col-1" data-index="22" data-categories="storytelling,book-review" data-listing-date-sort="1702923117000" data-listing-file-modified-sort="1706748419769" data-listing-reading-time-sort="1.015">
 <a href="./book-review/hitchhikers-guide-to-the-galaxy.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/book-hitchhikers-guide.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img src="./img/book-hitchhikers-guide.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Hitchhiker’s Guide to the Galaxy
@@ -1032,10 +1047,12 @@ Monday December 18, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="23" data-categories="book-review" data-listing-date-sort="1702375917000" data-listing-file-modified-sort="1706567033367" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="331">
+<div class="g-col-1" data-index="23" data-categories="book-review" data-listing-date-sort="1702404717000" data-listing-file-modified-sort="1706748419796" data-listing-reading-time-sort="1.655">
 <a href="./book-review/scientific-freedom.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/book-scientific-freedom.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img src="./img/book-scientific-freedom.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Scientific Freedom
@@ -1060,7 +1077,7 @@ Tuesday December 12, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="24" data-categories="productivity,book-review" data-listing-date-sort="1656065517000" data-listing-file-modified-sort="1706567033363" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1042">
+<div class="g-col-1" data-index="24" data-categories="productivity,book-review" data-listing-date-sort="1656090717000" data-listing-file-modified-sort="1706748419764" data-listing-reading-time-sort="5.21">
 <a href="./book-review/getting-things-done.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1093,10 +1110,12 @@ Friday June 24, 2022
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="25" data-categories="book-review" data-listing-date-sort="1620000000000" data-listing-file-modified-sort="1706567033367" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
+<div class="g-col-1" data-index="25" data-categories="book-review" data-listing-date-sort="1620025200000" data-listing-file-modified-sort="1706748420053" data-listing-reading-time-sort="0.015">
 <a href="./book-review/the-power-of-habit.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/book-the-power-of-habit.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top">
+<img src="./img/book-the-power-of-habit.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 The Power of Habit
@@ -1153,23 +1172,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
+    target: function(trigger) {
+      return trigger.previousElementSibling;
     }
   });
   clipboard.on('success', function(e) {
@@ -1205,9 +1210,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+  function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
+      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1217,17 +1223,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start',
+      placement: 'bottom-start'
     };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1242,248 +1239,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
-        }
-        typesetMath(container);
-        return container.innerHTML
-      } else {
-        typesetMath(note);
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      typesetMath(note);
-      return note.innerHTML;
-    }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
-          }
-        } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
-            if (note !== null) {
-              const html = processXRef(id, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -1526,12 +1281,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">
-<p>Copyright 2021-2024, Bryan Whiting</p>
-</div>   
-    <div class="nav-footer-center">
-      &nbsp;
-    </div>
+    <div class="nav-footer-left">Copyright 2021-2024, Bryan Whiting</div>   
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
@@ -1562,7 +1312,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-
 
 
 

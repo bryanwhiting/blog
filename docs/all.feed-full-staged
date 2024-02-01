@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Bryan Whiting</title>
+<link>https://www.bryanwhiting.com/all.html</link>
+<atom:link href="https://www.bryanwhiting.com/all.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<generator>quarto-1.2.269</generator>
+<lastBuildDate>Mon, 29 Jan 2024 20:12:54 GMT</lastBuildDate>
+<item>
+  <title>{B4F502887207:/book-review/the-tyranny-of-experts.html}</title>
+  <dc:creator>William Esterly</dc:creator>
+  <link>https://www.bryanwhiting.com/book-review/the-tyranny-of-experts.html</link>
+  <description>{B4F502887207:/book-review/the-tyranny-of-experts.html}</description>
+  <category>book-review</category>
+  <category>economics</category>
+  <guid>https://www.bryanwhiting.com/book-review/the-tyranny-of-experts.html</guid>
+  <pubDate>Mon, 29 Jan 2024 20:12:54 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/photo-tyranny-of-experts.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.html}</title>
+  <link>https://www.bryanwhiting.com/christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.html</link>
+  <description>{B4F502887207:/christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.html}</description>
+  <category>christianity</category>
+  <category>come follow me</category>
+  <category>come follow me lesson plan</category>
+  <guid>https://www.bryanwhiting.com/christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.html</guid>
+  <pubDate>Mon, 29 Jan 2024 07:59:00 GMT</pubDate>
+</item>
+<item>
+  <title>{B4F502887207:/gratitude/imagination.html}</title>
+  <link>https://www.bryanwhiting.com/gratitude/imagination.html</link>
+  <description>{B4F502887207:/gratitude/imagination.html}</description>
+  <category>gratitude</category>
+  <category>creativity</category>
+  <guid>https://www.bryanwhiting.com/gratitude/imagination.html</guid>
+  <pubDate>Mon, 29 Jan 2024 03:57:10 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-imagination-two-panes.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/gratitude/chirping-birds.html}</title>
+  <link>https://www.bryanwhiting.com/gratitude/chirping-birds.html</link>
+  <description>{B4F502887207:/gratitude/chirping-birds.html}</description>
+  <category>gratitude</category>
+  <category>nature</category>
+  <guid>https://www.bryanwhiting.com/gratitude/chirping-birds.html</guid>
+  <pubDate>Sat, 27 Jan 2024 23:18:54 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-birds-chirping-in-a-tree.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/christianity/1-nephi-15-hearken-and-hold-fast.html}</title>
+  <link>https://www.bryanwhiting.com/christianity/1-nephi-15-hearken-and-hold-fast.html</link>
+  <description>{B4F502887207:/christianity/1-nephi-15-hearken-and-hold-fast.html}</description>
+  <category>christianity</category>
+  <category>come follow me</category>
+  <category>obedience</category>
+  <guid>https://www.bryanwhiting.com/christianity/1-nephi-15-hearken-and-hold-fast.html</guid>
+  <pubDate>Sat, 27 Jan 2024 07:59:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-hold-fast-fiery-darts.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/posts/a-10-week-self-guided-data-science-intro-course.html}</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/a-10-week-self-guided-data-science-intro-course.html</link>
+  <description>{B4F502887207:/posts/a-10-week-self-guided-data-science-intro-course.html}</description>
+  <category>posts</category>
+  <category>data science</category>
+  <category>featured</category>
+  <category>career</category>
+  <category>recommendation systems</category>
+  <category>A/B testing</category>
+  <category>analytics</category>
+  <category>beginners</category>
+  <guid>https://www.bryanwhiting.com/posts/a-10-week-self-guided-data-science-intro-course.html</guid>
+  <pubDate>Sat, 27 Jan 2024 05:59:18 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-plato-socrates-archimedes-and-r-a-fisher.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/gratitude/rock-climbing.html}</title>
+  <link>https://www.bryanwhiting.com/gratitude/rock-climbing.html</link>
+  <description>{B4F502887207:/gratitude/rock-climbing.html}</description>
+  <category>gratitude</category>
+  <category>adventure</category>
+  <category>personal stories</category>
+  <guid>https://www.bryanwhiting.com/gratitude/rock-climbing.html</guid>
+  <pubDate>Sat, 27 Jan 2024 04:57:34 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-rock-climbing-free-fall.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/christianity/1-nephi-14-convincing-unto-peace.html}</title>
+  <link>https://www.bryanwhiting.com/christianity/1-nephi-14-convincing-unto-peace.html</link>
+  <description>{B4F502887207:/christianity/1-nephi-14-convincing-unto-peace.html}</description>
+  <category>christianity</category>
+  <category>peace</category>
+  <category>come follow me</category>
+  <guid>https://www.bryanwhiting.com/christianity/1-nephi-14-convincing-unto-peace.html</guid>
+  <pubDate>Fri, 26 Jan 2024 07:44:37 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-convincing-of-peace-dove-two-guys.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/book-review/greenlights.html}</title>
+  <dc:creator>Matthew McConaughey</dc:creator>
+  <link>https://www.bryanwhiting.com/book-review/greenlights.html</link>
+  <description>{B4F502887207:/book-review/greenlights.html}</description>
+  <category>book-review</category>
+  <guid>https://www.bryanwhiting.com/book-review/greenlights.html</guid>
+  <pubDate>Fri, 26 Jan 2024 04:32:54 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/book-greenlights.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/posts/the-only-mind-thats-clear-is-the-one-that-sees-no-alternative.html}</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/the-only-mind-thats-clear-is-the-one-that-sees-no-alternative.html</link>
+  <description>{B4F502887207:/posts/the-only-mind-thats-clear-is-the-one-that-sees-no-alternative.html}</description>
+  <category>posts</category>
+  <category>my principles</category>
+  <category>philosophy</category>
+  <guid>https://www.bryanwhiting.com/posts/the-only-mind-thats-clear-is-the-one-that-sees-no-alternative.html</guid>
+  <pubDate>Fri, 26 Jan 2024 04:31:52 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-seeing-through-a-glass-darkly-and-then-clearly.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/gratitude/new-perspectives.html}</title>
+  <link>https://www.bryanwhiting.com/gratitude/new-perspectives.html</link>
+  <description>{B4F502887207:/gratitude/new-perspectives.html}</description>
+  <category>gratitude</category>
+  <category>perspective</category>
+  <category>personal stories</category>
+  <guid>https://www.bryanwhiting.com/gratitude/new-perspectives.html</guid>
+  <pubDate>Fri, 26 Jan 2024 04:04:40 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-defender-football-catch.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/christianity/1-nephi-13-publish-peace.html}</title>
+  <link>https://www.bryanwhiting.com/christianity/1-nephi-13-publish-peace.html</link>
+  <description>{B4F502887207:/christianity/1-nephi-13-publish-peace.html}</description>
+  <category>christianity</category>
+  <category>peace</category>
+  <category>come follow me</category>
+  <guid>https://www.bryanwhiting.com/christianity/1-nephi-13-publish-peace.html</guid>
+  <pubDate>Thu, 25 Jan 2024 07:59:45 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-dove-on-a-branch.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/gratitude/challenges.html}</title>
+  <link>https://www.bryanwhiting.com/gratitude/challenges.html</link>
+  <description>{B4F502887207:/gratitude/challenges.html}</description>
+  <category>gratitude</category>
+  <category>challenges</category>
+  <guid>https://www.bryanwhiting.com/gratitude/challenges.html</guid>
+  <pubDate>Thu, 25 Jan 2024 01:05:36 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-pushing-boulder-up-the-hill.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/book-review/wool.html}</title>
+  <dc:creator>Hugh Howey</dc:creator>
+  <link>https://www.bryanwhiting.com/book-review/wool.html</link>
+  <description>{B4F502887207:/book-review/wool.html}</description>
+  <category>book-review</category>
+  <category>apocalyptic</category>
+  <category>fiction</category>
+  <category>dystopian</category>
+  <guid>https://www.bryanwhiting.com/book-review/wool.html</guid>
+  <pubDate>Wed, 24 Jan 2024 16:43:51 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/book-wool.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/christianity/1-nephi-12-broad-roads.html}</title>
+  <link>https://www.bryanwhiting.com/christianity/1-nephi-12-broad-roads.html</link>
+  <description>{B4F502887207:/christianity/1-nephi-12-broad-roads.html}</description>
+  <category>christianity</category>
+  <category>come follow me</category>
+  <guid>https://www.bryanwhiting.com/christianity/1-nephi-12-broad-roads.html</guid>
+  <pubDate>Wed, 24 Jan 2024 07:44:37 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-image-a-hill-with-a-tree-at-the-top-a-lot-of-broad-roads-at-the-base-of-the-hill-heading-down-strange-paths.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/book-review/the-coddling-of-the-american-mind.html}</title>
+  <dc:creator>Greg Lukianoff</dc:creator>
+  <link>https://www.bryanwhiting.com/book-review/the-coddling-of-the-american-mind.html</link>
+  <description>{B4F502887207:/book-review/the-coddling-of-the-american-mind.html}</description>
+  <category>book-review</category>
+  <category>psychology</category>
+  <category>politics</category>
+  <category>education</category>
+  <guid>https://www.bryanwhiting.com/book-review/the-coddling-of-the-american-mind.html</guid>
+  <pubDate>Wed, 24 Jan 2024 04:40:45 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/book-the-coddling-of-the-american-mind.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/gratitude/navajo-code-talkers.html}</title>
+  <link>https://www.bryanwhiting.com/gratitude/navajo-code-talkers.html</link>
+  <description>{B4F502887207:/gratitude/navajo-code-talkers.html}</description>
+  <category>gratitude</category>
+  <guid>https://www.bryanwhiting.com/gratitude/navajo-code-talkers.html</guid>
+  <pubDate>Wed, 24 Jan 2024 03:43:24 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-navajo-code-talker.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/posts/writing-only-makes-sense-to-the-author.html}</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/writing-only-makes-sense-to-the-author.html</link>
+  <description>{B4F502887207:/posts/writing-only-makes-sense-to-the-author.html}</description>
+  <category>posts</category>
+  <category>communication</category>
+  <category>writing</category>
+  <category>art</category>
+  <guid>https://www.bryanwhiting.com/posts/writing-only-makes-sense-to-the-author.html</guid>
+  <pubDate>Tue, 23 Jan 2024 20:01:00 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-image-people-in-an-art-museum-staring-at-a-painting-of-scribbles-on-the-wall.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/christianity/turn-to-god-not-your-idols.html}</title>
+  <link>https://www.bryanwhiting.com/christianity/turn-to-god-not-your-idols.html</link>
+  <description>{B4F502887207:/christianity/turn-to-god-not-your-idols.html}</description>
+  <category>christianity</category>
+  <category>scripture of the day</category>
+  <category>prayer</category>
+  <category>faith</category>
+  <category>consecration</category>
+  <guid>https://www.bryanwhiting.com/christianity/turn-to-god-not-your-idols.html</guid>
+  <pubDate>Tue, 23 Jan 2024 05:43:10 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-angels-in-the-crop-fields.jpeg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>{B4F502887207:/christianity/1-nephi-11-seeing-signs-of-christ.html}</title>
+  <link>https://www.bryanwhiting.com/christianity/1-nephi-11-seeing-signs-of-christ.html</link>
+  <description>{B4F502887207:/christianity/1-nephi-11-seeing-signs-of-christ.html}</description>
+  <category>christianity</category>
+  <category>come follow me</category>
+  <category>faith</category>
+  <guid>https://www.bryanwhiting.com/christianity/1-nephi-11-seeing-signs-of-christ.html</guid>
+  <pubDate>Mon, 22 Jan 2024 17:14:07 GMT</pubDate>
+  <media:content url="https://www.bryanwhiting.com/img/dalle-moses-raising-a-brass-serpent-watercolor-expressionist.jpeg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>
