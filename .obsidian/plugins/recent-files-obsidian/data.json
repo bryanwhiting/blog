@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "beam-ai",
+      "path": "tech/beam-ai.md"
+    },
+    {
+      "basename": "gpt4all",
+      "path": "tech/gpt4all.md"
+    },
+    {
+      "basename": "ai",
+      "path": "lists/ai.md"
+    },
+    {
+      "basename": "private-gpt",
+      "path": "tech/private-gpt.md"
+    },
+    {
+      "basename": "lm-studio",
+      "path": "tech/lm-studio.md"
+    },
+    {
       "basename": "compliments",
       "path": "gratitude/compliments.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "porous-bread",
       "path": "sacrament-symbols/porous-bread.md"
-    },
-    {
-      "basename": "broken-bread-but-no-broken-bones",
-      "path": "sacrament-symbols/broken-bread-but-no-broken-bones.md"
-    },
-    {
-      "basename": "alma-37.7",
-      "path": "scriptures/alma-37.7.md"
-    },
-    {
-      "basename": "imagination",
-      "path": "gratitude/imagination.md"
-    },
-    {
-      "basename": "how-to-win-friends-and-influence-people",
-      "path": "book-review/how-to-win-friends-and-influence-people.md"
-    },
-    {
-      "basename": "Jesus-the-Christ-chapter-35.-death-and-burial",
-      "path": "scriptures/Jesus-the-Christ-chapter-35.-death-and-burial.md"
     }
   ],
   "omittedPaths": [],

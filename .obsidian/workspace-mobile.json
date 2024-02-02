@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/compliments.md",
+                "file": "tech/beam-ai.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "gratitude/compliments.md",
+            "file": "tech/beam-ai.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "gratitude/compliments.md"
+            "file": "tech/beam-ai.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "gratitude/compliments.md",
+            "file": "tech/beam-ai.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,17 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "tech/gpt4all.md",
+    "lists/ai.md",
+    "tech/private-gpt.md",
+    "img/photo-privategpt.jpeg",
+    "tech/lm-studio.md",
+    "img/photo-lm-studio.jpeg",
+    "img/photo-gpt4all.jpeg",
+    "tech/beam-ai.md",
+    "gratitude/compliments.md",
     "img/dalle-compliment-giving.jpeg",
     "goals/2024-02-01.md",
-    "gratitude/compliments.md",
     "christianity/1-nephi-19-yieldeth-himself.md",
     "img/dalle-cattle-ranch-gate.jpeg",
     "scriptures/1-nephi-19.10.md",
@@ -165,19 +173,10 @@
     "christianity/1-nephi-8-choosing-to-press-forward.md",
     "christianity/1-nephi-8-what-others-think.md",
     "christianity/1-nephi-9-write-with-a-purpose.md",
-    "christianity/1-nephi-10-rely-on-the-redeemer.md",
-    "christianity/1-nephi-11-seeing-signs-of-christ.md",
-    "christianity/1-nephi-13-publish-peace.md",
-    "christianity/1-nephi-12-broad-roads.md",
-    "christianity/1-nephi-14-convincing-unto-peace.md",
     "img/Dalle-basketball.jpeg",
     "img/book-never-split-the-difference.jpeg",
     "img/book-influence-the-psychology-of-persuasion.jpeg",
     "img/dalle-1-nephi-17-journey-in-wilderness.jpeg",
-    "img/dalle-youtube-glorified.jpeg",
-    "img/dalle-christ-standing-brother-of-jared.jpeg",
-    "img/dalle-brother-of-jared-in-cloud-with-lord.jpeg",
-    "img/dalle-search-and-rescue-forest.jpeg",
     "docs/gratitude/imagination.html",
     "docs/gratitude/chirping-birds.html",
     "docs/christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.html",
