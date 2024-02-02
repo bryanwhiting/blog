@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "goals/2024-02-02.md",
+                "file": "posts/the-power-of-a-good-book.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "goals/2024-02-02.md",
+            "file": "posts/the-power-of-a-good-book.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "goals/2024-02-02.md"
+            "file": "posts/the-power-of-a-good-book.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "goals/2024-02-02.md",
+            "file": "posts/the-power-of-a-good-book.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,8 +141,16 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "goals/2024-02-01.md",
+    "lists/reading-ethos.md",
+    "posts/the-power-of-a-good-book.md",
+    "img/dalle-old-man-and-the-fish-tacos.jpeg",
+    "book-review/wool.md",
+    "book-review/1984.md",
+    "book-review/the-old-man-and-the-sea.md",
+    "book-review/the-loop.md",
+    "book-review/influence-the-psychology-of-persuasion.md",
     "goals/2024-02-02.md",
+    "goals/2024-02-01.md",
     "tech/beam-ai.md",
     "tech/gpt4all.md",
     "lists/ai.md",
@@ -156,13 +164,9 @@
     "christianity/1-nephi-19-yieldeth-himself.md",
     "img/dalle-cattle-ranch-gate.jpeg",
     "scriptures/1-nephi-19.10.md",
-    "book-review/the-old-man-and-the-sea.md",
-    "book-review/influence-the-psychology-of-persuasion.md",
     "posts/export-your-libby-timeline-to-obsidian.md",
     "img/photo-libby-icon.jpeg",
     "lists/reading-list.md",
-    "lists/reading-ethos.md",
-    "book-review/wool.md",
     "_templates/new-post.md",
     "innovate/legal-search.md",
     "innovate",
@@ -170,14 +174,9 @@
     "christianity/1-nephi-18-prayer.md",
     "christianity/1-nephi-17-strength.md",
     "christianity/1-nephi-16-christ-guides-us.md",
-    "christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.md",
-    "christianity/1-nephi-8-choosing-to-press-forward.md",
-    "christianity/1-nephi-8-what-others-think.md",
-    "christianity/1-nephi-9-write-with-a-purpose.md",
     "img/Dalle-basketball.jpeg",
     "img/book-never-split-the-difference.jpeg",
     "img/book-influence-the-psychology-of-persuasion.jpeg",
-    "img/dalle-1-nephi-17-journey-in-wilderness.jpeg",
     "docs/gratitude/imagination.html",
     "docs/gratitude/chirping-birds.html",
     "docs/christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.html",

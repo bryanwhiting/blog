@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "the-power-of-a-good-book",
+      "path": "posts/the-power-of-a-good-book.md"
+    },
+    {
+      "basename": "reading-ethos",
+      "path": "lists/reading-ethos.md"
+    },
+    {
+      "basename": "wool",
+      "path": "book-review/wool.md"
+    },
+    {
+      "basename": "1984",
+      "path": "book-review/1984.md"
+    },
+    {
+      "basename": "the-old-man-and-the-sea",
+      "path": "book-review/the-old-man-and-the-sea.md"
+    },
+    {
+      "basename": "the-loop",
+      "path": "book-review/the-loop.md"
+    },
+    {
+      "basename": "influence-the-psychology-of-persuasion",
+      "path": "book-review/influence-the-psychology-of-persuasion.md"
+    },
+    {
       "basename": "2024-02-02",
       "path": "goals/2024-02-02.md"
     },
@@ -37,28 +65,12 @@
       "path": "christianity/1-nephi-19-yieldeth-himself.md"
     },
     {
-      "basename": "the-old-man-and-the-sea",
-      "path": "book-review/the-old-man-and-the-sea.md"
-    },
-    {
-      "basename": "influence-the-psychology-of-persuasion",
-      "path": "book-review/influence-the-psychology-of-persuasion.md"
-    },
-    {
       "basename": "export-your-libby-timeline-to-obsidian",
       "path": "posts/export-your-libby-timeline-to-obsidian.md"
     },
     {
       "basename": "reading-list",
       "path": "lists/reading-list.md"
-    },
-    {
-      "basename": "reading-ethos",
-      "path": "lists/reading-ethos.md"
-    },
-    {
-      "basename": "wool",
-      "path": "book-review/wool.md"
     },
     {
       "basename": "new-post",
@@ -137,10 +149,6 @@
       "path": "img/Dalle-basketball.jpeg"
     },
     {
-      "basename": "the-loop",
-      "path": "book-review/the-loop.md"
-    },
-    {
       "basename": "never-split-the-difference",
       "path": "book-review/never-split-the-difference.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "vaulted-ceiling",
       "path": "sacrament-symbols/vaulted-ceiling.md"
-    },
-    {
-      "basename": "support-beams-represent-the-cross",
-      "path": "sacrament-symbols/support-beams-represent-the-cross.md"
-    },
-    {
-      "basename": "receive-the-holy-ghost",
-      "path": "sacrament-symbols/receive-the-holy-ghost.md"
     }
   ],
   "omittedPaths": [],

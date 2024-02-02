@@ -8,6 +8,10 @@ categories:
   - reading
 draft: false
 ---
+2024-02-02
+
+- [The Power of a Good Book](../posts/the-power-of-a-good-book.md) - read a lot find the stuff worth reading.
+
 
 2024-01-09
 

@@ -10,12 +10,6 @@
   "statusBar": [],
   "pageHeader": [
     {
-      "id": "omnisearch:show-modal",
-      "icon": "lucide-search",
-      "name": "Omnisearch: Vault search",
-      "mode": "any"
-    },
-    {
       "id": "command-palette:open",
       "icon": "lucide-terminal-square",
       "name": "Command palette: Open command palette",
@@ -31,6 +25,12 @@
       "id": "recent-files-obsidian:recent-files-open",
       "icon": "rewind",
       "name": "Recent Files: Open",
+      "mode": "any"
+    },
+    {
+      "id": "switcher:open",
+      "icon": "lucide-navigation",
+      "name": "Quick switcher: Open quick switcher",
       "mode": "any"
     },
     {

@@ -1,12 +1,12 @@
 ---
 title: Influence The Psychology of Persuasion
-description: x
+description: Seven realms of influence
 date: 2024-01-31 20:31:02
 created: 2024-01-31 20:31:02
 categories:
   - book-review
 draft: false
-author: x
+author: Robert Cialdini
 book-year: 2021
 book-time: 21
 date-start: 2024-01-30

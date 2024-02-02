@@ -7,7 +7,7 @@ categories:
   - book-review
   - tech
 draft: false
-author: x
+author: Jacob Ward
 book-year: 2022
 book-time: 0
 date-start: 2024-01-31 22:41:22
