@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/beam-ai.md",
+                "file": "goals/2024-02-02.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "tech/beam-ai.md",
+            "file": "goals/2024-02-02.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "tech/beam-ai.md"
+            "file": "goals/2024-02-02.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "tech/beam-ai.md",
+            "file": "goals/2024-02-02.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,6 +141,9 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "goals/2024-02-01.md",
+    "goals/2024-02-02.md",
+    "tech/beam-ai.md",
     "tech/gpt4all.md",
     "lists/ai.md",
     "tech/private-gpt.md",
@@ -148,10 +151,8 @@
     "tech/lm-studio.md",
     "img/photo-lm-studio.jpeg",
     "img/photo-gpt4all.jpeg",
-    "tech/beam-ai.md",
     "gratitude/compliments.md",
     "img/dalle-compliment-giving.jpeg",
-    "goals/2024-02-01.md",
     "christianity/1-nephi-19-yieldeth-himself.md",
     "img/dalle-cattle-ranch-gate.jpeg",
     "scriptures/1-nephi-19.10.md",

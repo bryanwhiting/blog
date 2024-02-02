@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-02-02",
+      "path": "goals/2024-02-02.md"
+    },
+    {
+      "basename": "2024-02-01",
+      "path": "goals/2024-02-01.md"
+    },
+    {
       "basename": "beam-ai",
       "path": "tech/beam-ai.md"
     },
@@ -23,10 +31,6 @@
     {
       "basename": "compliments",
       "path": "gratitude/compliments.md"
-    },
-    {
-      "basename": "2024-02-01",
-      "path": "goals/2024-02-01.md"
     },
     {
       "basename": "1-nephi-19-yieldeth-himself",
@@ -195,10 +199,6 @@
     {
       "basename": "receive-the-holy-ghost",
       "path": "sacrament-symbols/receive-the-holy-ghost.md"
-    },
-    {
-      "basename": "porous-bread",
-      "path": "sacrament-symbols/porous-bread.md"
     }
   ],
   "omittedPaths": [],
