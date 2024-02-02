@@ -10,10 +10,28 @@
 <atom:link href="https://www.bryanwhiting.com/books.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Thu, 01 Feb 2024 21:27:44 GMT</lastBuildDate>
+<lastBuildDate>Fri, 02 Feb 2024 11:27:42 GMT</lastBuildDate>
+<item>
+  <title>1984</title>
+  <dc:creator>x </dc:creator>
+  <link>https://www.bryanwhiting.com/book-review/1984.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book-review</category>
+  <guid>https://www.bryanwhiting.com/book-review/1984.html</guid>
+  <pubDate>Fri, 02 Feb 2024 11:27:42 GMT</pubDate>
+</item>
 <item>
   <title>The Old Man and the Sea</title>
-  <dc:creator>x </dc:creator>
+  <dc:creator>Ernest Hemingway</dc:creator>
   <link>https://www.bryanwhiting.com/book-review/the-old-man-and-the-sea.html</link>
   <description><![CDATA[ 
 
@@ -21,18 +39,21 @@
 
 
 
+<p>Storytelling - I love how he speaks a thought, then follows up with reality. Like “come on, catch the hook” “but the hook did not catch” - Repetitive words used in new ways evoke new meaning - Keep it simple. <a href="../posts/mark-cuban-mogul-support.html">Mark Cuban Mogul Support</a> - don’t use a big word when a simpler one will do. He evokes strong emotion without much fanciful language. - Your mind fills in the blanks. He encodes the intuition of 50 years of fishing in plain words. “I’ve got enough line…” is not a calculation. <a href="../book-review/wool.html">Wool</a> and <a href="../book-review/dune.html">Dune</a> are much more</p>
 <p>2024-02-01 - first you borrow. Then you beg. - “This too was a fiction” - “Relics of his wife” - he waits to reveal his wife. - I was born for this. - He could think of nothing except endure <img src="https://www.bryanwhiting.com/img/book-the-old-man-and-the-sea.jpeg" class="preview-image img-fluid" alt="The Old Man and The Sea"></p>
 
 
 
 <p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
   <category>book-review</category>
+  <category>fiction</category>
+  <category>classics</category>
   <guid>https://www.bryanwhiting.com/book-review/the-old-man-and-the-sea.html</guid>
   <pubDate>Thu, 01 Feb 2024 21:27:44 GMT</pubDate>
 </item>
 <item>
   <title>The Loop</title>
-  <dc:creator>x </dc:creator>
+  <dc:creator>Jacob Ward</dc:creator>
   <link>https://www.bryanwhiting.com/book-review/the-loop.html</link>
   <description><![CDATA[ 
 
@@ -57,7 +78,7 @@
 </item>
 <item>
   <title>Influence The Psychology of Persuasion</title>
-  <dc:creator>x </dc:creator>
+  <dc:creator>Robert Cialdini</dc:creator>
   <link>https://www.bryanwhiting.com/book-review/influence-the-psychology-of-persuasion.html</link>
   <description><![CDATA[ 
 
@@ -139,6 +160,7 @@
 
 
 
+<p>Summmary: - very similar to <a href="../book-review/1984.html">1984</a>. Little communication. Mind control. - His writing style is unique: kill people just after they’re created. And the mindset right before they die is fascinating. “The cool of the grate, slippery” - someone’s last thoughts. - Psychology of leadership.</p>
 <p>2024-01-25 - guess: they poison the people in the suits.</p>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
@@ -154,6 +176,7 @@
   <category>apocalyptic</category>
   <category>fiction</category>
   <category>dystopian</category>
+  <category>sci-fi</category>
   <guid>https://www.bryanwhiting.com/book-review/wool.html</guid>
   <pubDate>Wed, 24 Jan 2024 08:43:51 GMT</pubDate>
 </item>
@@ -589,39 +612,6 @@
   <category>book-review</category>
   <guid>https://www.bryanwhiting.com/book-review/innovators-dilemma.html</guid>
   <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>How to Decide: Simple Tools for Making Better Choices</title>
-  <link>https://www.bryanwhiting.com/book-review/how-to-decide-simple-tools-for-making-better-choices.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/book-how-to-decide.png" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">How to Decide, on Spotify</figcaption>
-</figure>
-</div>
-<p>What is my best decision? Worst?</p>
-<ul>
-<li>resulting: focusing on outcomes, rather than expected values and doing the best</li>
-<li>to improve decision making: focus on what the process was for decision making. Information gathering. Question asking.</li>
-<li>Remember choosing to leave Novi, wondering if someone was going to be a millionaire in my absence. Couldn’t help but feel I was leaving money on the table by leaving. But I decided to leave to pursue what I was passionate about, and regardless that Novi went under I felt that was the right call as I finished my masters.</li>
-</ul>
-<p>Actions: - make a knowledge tracker. Details on decisions. Info known before/after. Make this going forward</p>
-<p>Decision process: - where do you want to go? - What are all the ways to get there? - By taking X choice, what are other ways it could go? What’s the probability?</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>decisions</category>
-  <category>philosophy</category>
-  <category>book-review</category>
-  <guid>https://www.bryanwhiting.com/book-review/how-to-decide-simple-tools-for-making-better-choices.html</guid>
-  <pubDate>Thu, 28 Dec 2023 14:23:48 GMT</pubDate>
 </item>
 </channel>
 </rss>
