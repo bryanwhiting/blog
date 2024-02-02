@@ -11,6 +11,7 @@ draft: false
 2024-02-02
 
 - [The Power of a Good Book](../posts/the-power-of-a-good-book.md) - read a lot find the stuff worth reading.
+- [The Compounding Interest of Reading](../posts/the-compounding-interest-of-reading.md) - read often. Read broadly. 
 
 
 2024-01-09

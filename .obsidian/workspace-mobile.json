@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/the-power-of-a-good-book.md",
+                "file": "lists/reading-ethos.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/the-power-of-a-good-book.md",
+            "file": "lists/reading-ethos.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/the-power-of-a-good-book.md"
+            "file": "lists/reading-ethos.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/the-power-of-a-good-book.md",
+            "file": "lists/reading-ethos.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,8 +141,11 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "lists/reading-ethos.md",
     "posts/the-power-of-a-good-book.md",
+    "lists/reading-ethos.md",
+    "posts/the-compounding-interest-of-reading.md",
+    "img/dalle-image-compound-interest-and-reading-a-book.jpeg",
+    "img/compound-interest-reading-book.webp",
     "img/dalle-old-man-and-the-fish-tacos.jpeg",
     "book-review/wool.md",
     "book-review/1984.md",
@@ -173,10 +176,7 @@
     "christianity/1-nephi-15-hearken-and-hold-fast.md",
     "christianity/1-nephi-18-prayer.md",
     "christianity/1-nephi-17-strength.md",
-    "christianity/1-nephi-16-christ-guides-us.md",
     "img/Dalle-basketball.jpeg",
-    "img/book-never-split-the-difference.jpeg",
-    "img/book-influence-the-psychology-of-persuasion.jpeg",
     "docs/gratitude/imagination.html",
     "docs/gratitude/chirping-birds.html",
     "docs/christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.html",

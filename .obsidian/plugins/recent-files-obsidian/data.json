@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "reading-ethos",
+      "path": "lists/reading-ethos.md"
+    },
+    {
       "basename": "the-power-of-a-good-book",
       "path": "posts/the-power-of-a-good-book.md"
     },
     {
-      "basename": "reading-ethos",
-      "path": "lists/reading-ethos.md"
+      "basename": "the-compounding-interest-of-reading",
+      "path": "posts/the-compounding-interest-of-reading.md"
     },
     {
       "basename": "wool",
@@ -195,10 +199,6 @@
     {
       "basename": "bread-in-the-oven",
       "path": "sacrament-symbols/bread-in-the-oven.md"
-    },
-    {
-      "basename": "vaulted-ceiling",
-      "path": "sacrament-symbols/vaulted-ceiling.md"
     }
   ],
   "omittedPaths": [],
