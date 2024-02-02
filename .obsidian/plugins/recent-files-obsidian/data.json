@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "compliments",
+      "path": "gratitude/compliments.md"
+    },
+    {
+      "basename": "2024-02-01",
+      "path": "goals/2024-02-01.md"
+    },
+    {
+      "basename": "1-nephi-19-yieldeth-himself",
+      "path": "christianity/1-nephi-19-yieldeth-himself.md"
+    },
+    {
+      "basename": "the-old-man-and-the-sea",
+      "path": "book-review/the-old-man-and-the-sea.md"
+    },
+    {
+      "basename": "influence-the-psychology-of-persuasion",
+      "path": "book-review/influence-the-psychology-of-persuasion.md"
+    },
+    {
       "basename": "export-your-libby-timeline-to-obsidian",
       "path": "posts/export-your-libby-timeline-to-obsidian.md"
     },
@@ -101,10 +121,6 @@
       "path": "book-review/never-split-the-difference.md"
     },
     {
-      "basename": "influence-the-psychology-of-persuasion",
-      "path": "book-review/influence-the-psychology-of-persuasion.md"
-    },
-    {
       "basename": "2024-01-30",
       "path": "goals/2024-01-30.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "Jesus-the-Christ-chapter-35.-death-and-burial",
       "path": "scriptures/Jesus-the-Christ-chapter-35.-death-and-burial.md"
-    },
-    {
-      "basename": "greenlights",
-      "path": "book-review/greenlights.md"
-    },
-    {
-      "basename": "chirping-birds",
-      "path": "gratitude/chirping-birds.md"
-    },
-    {
-      "basename": "a-10-week-self-guided-data-science-intro-course",
-      "path": "posts/a-10-week-self-guided-data-science-intro-course.md"
-    },
-    {
-      "basename": "2024-01-26",
-      "path": "goals/2024-01-26.md"
     }
   ],
   "omittedPaths": [],

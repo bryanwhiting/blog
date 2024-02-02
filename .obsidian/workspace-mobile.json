@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/export-your-libby-timeline-to-obsidian.md",
+                "file": "gratitude/compliments.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/export-your-libby-timeline-to-obsidian.md",
+            "file": "gratitude/compliments.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/export-your-libby-timeline-to-obsidian.md"
+            "file": "gratitude/compliments.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/export-your-libby-timeline-to-obsidian.md",
+            "file": "gratitude/compliments.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,17 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-compliment-giving.jpeg",
+    "goals/2024-02-01.md",
+    "gratitude/compliments.md",
+    "christianity/1-nephi-19-yieldeth-himself.md",
+    "img/dalle-cattle-ranch-gate.jpeg",
+    "scriptures/1-nephi-19.10.md",
+    "book-review/the-old-man-and-the-sea.md",
+    "book-review/influence-the-psychology-of-persuasion.md",
+    "posts/export-your-libby-timeline-to-obsidian.md",
     "img/photo-libby-icon.jpeg",
     "lists/reading-list.md",
-    "posts/export-your-libby-timeline-to-obsidian.md",
     "lists/reading-ethos.md",
     "book-review/wool.md",
     "_templates/new-post.md",
@@ -162,13 +170,7 @@
     "christianity/1-nephi-13-publish-peace.md",
     "christianity/1-nephi-12-broad-roads.md",
     "christianity/1-nephi-14-convincing-unto-peace.md",
-    "scriptures/1-nephi-18.3 1.md",
-    "gratitude/youtube.md",
-    "goals/2024-01-31.md",
-    "gratitude/basketball.md",
     "img/Dalle-basketball.jpeg",
-    "Untitled 1.md",
-    "scriptures/1-nephi-18.21.md",
     "img/book-never-split-the-difference.jpeg",
     "img/book-influence-the-psychology-of-persuasion.jpeg",
     "img/dalle-1-nephi-17-journey-in-wilderness.jpeg",
@@ -179,8 +181,6 @@
     "docs/gratitude/imagination.html",
     "docs/gratitude/chirping-birds.html",
     "docs/christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.html",
-    "docs/img/dalle-bread-in-oven.jpeg",
-    "docs/img/photo-how-to-win-friends-bullet-points.jpeg",
     "docs/scriptures/3-nephi-18.22.html",
     "docs/scriptures/luke-7.39.html",
     "docs/scriptures/2-nephi-2.7.html",
