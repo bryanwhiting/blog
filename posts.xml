@@ -10,7 +10,38 @@
 <atom:link href="https://www.bryanwhiting.com/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Fri, 02 Feb 2024 11:48:38 GMT</lastBuildDate>
+<lastBuildDate>Fri, 02 Feb 2024 12:17:17 GMT</lastBuildDate>
+<item>
+  <title>The Compounding Interest of Reading</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/the-compounding-interest-of-reading.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I’m on my way to get 52 books read this year. I think I can do it.</p>
+<p>But it’s not to finish 52 books. It’s to read two hours of fifty two books. Why?</p>
+<p>Because of compounding interest. One book doesn’t level you up. But multiple books over time will affect you for a long while to come.</p>
+<p>If you improve just 1% each day for 365 days, and that improvement compounds, then you’ll have improved 37x over a year. (invest $100 and gain 1% each day and reinvest that money is $137 by the end of the year).</p>
+<p>So don’t worry what any one book gives you. Just keep investing. A few will pay off big, and the many “wasted” will have little downside.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-image-compound-interest-and-reading-a-book.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Image: compound interest and reading a book</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>reading</category>
+  <category>investing</category>
+  <guid>https://www.bryanwhiting.com/posts/the-compounding-interest-of-reading.html</guid>
+  <pubDate>Fri, 02 Feb 2024 12:17:17 GMT</pubDate>
+</item>
 <item>
   <title>The Power of a Good Book</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -987,45 +1018,6 @@ with zipfile.ZipFile(zip_file_path, "w") as zipf:
   <category>posts</category>
   <guid>https://www.bryanwhiting.com/posts/30-seconds-for-payment.html</guid>
   <pubDate>Thu, 04 Jan 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>My Tombstone</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/my-tombstone.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>They call it a death meditation, to look back from the end of your life and reflect as if you had just died (out of body style). Here’s my tombstone:</p>
-<blockquote class="blockquote">
-<p>Here lies Bryan, son of Aragon, data scientist extraordinaire who knew how to use regular expressions and properly test linear regression assumptions</p>
-</blockquote>
-<p>Seem like a good tombstone?</p>
-<p>Why do we measure our lives by something nobody cares about? Consider Steve Jobs, Isaac Newton, or whomever you idolize. What are they known for? Only a few things.</p>
-<p>I read <a href="../book-review/steve-jobs-biography.html">Steve Jobs (Biography)</a> a while back. And I also read <a href="../book-review/leonardo-da-vinci.html">Leonardo da Vinci</a>. First was 25 hours, second was 17 hours. And guess what - that’s less than two days combined. Two “impressive” lives summed up in a few days.</p>
-<p>My grandma’s obituary was brief. Yet her life was filled with millions of unwritten sentences - many written on my life. The in between moments. The laying around moments. The relationship moments. (Maybe it’s called a relation-“ship” because it sails the waters of life continuously, despite the infrequent dock postings.)</p>
-<p>Nobody’s going to remember me, except those who call me dad, husband, brother, son, and friend. And I’m okay with that. I was never that good at data science anyway 😉.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-data-scientist-tombstone-on-beach.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">If I’m going out as a data scientist, at least my resting spot will be cool</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>posts</category>
-  <category>mortality</category>
-  <category>work</category>
-  <category>work life balance</category>
-  <category>perspective</category>
-  <category>meditation</category>
-  <category>priorities</category>
-  <guid>https://www.bryanwhiting.com/posts/my-tombstone.html</guid>
-  <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
