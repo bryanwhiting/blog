@@ -2,6 +2,7 @@
   {
     "listing": "/tech.html",
     "items": [
+      "/tech/demand-forecasting-using-xgboost.html",
       "/tech/private-gpt.html",
       "/tech/lm-studio.html",
       "/tech/gpt4all.html",
@@ -78,6 +79,7 @@
   {
     "listing": "/all.html",
     "items": [
+      "/tech/demand-forecasting-using-xgboost.html",
       "/posts/the-compounding-interest-of-reading.html",
       "/posts/the-power-of-a-good-book.html",
       "/book-review/1984.html",
@@ -421,6 +423,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/tech/demand-forecasting-using-xgboost.html",
       "/posts/the-compounding-interest-of-reading.html",
       "/posts/the-power-of-a-good-book.html",
       "/tech/private-gpt.html",
@@ -719,6 +722,8 @@
   {
     "listing": "/sitemap.html",
     "items": [
+      "/tech/demand-forecasting-using-xgboost.html",
+      "/news/2024-02-02-news-notes.html",
       "/posts/the-compounding-interest-of-reading.html",
       "/posts/the-power-of-a-good-book.html",
       "/book-review/1984.html",

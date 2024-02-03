@@ -10,7 +10,42 @@
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Fri, 02 Feb 2024 12:17:17 GMT</lastBuildDate>
+<lastBuildDate>Fri, 02 Feb 2024 15:59:16 GMT</lastBuildDate>
+<item>
+  <title>Holiday Demand Forecasting using XGBoost</title>
+  <link>https://www.bryanwhiting.com/tech/demand-forecasting-using-xgboost.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><a href="https://doordash.engineering/2023/08/31/how-doordash-improves-holiday-predictions-via-cascade-ml-approach/">How DoorDash Improves Holiday Predictions via Cascade ML Approach - DoorDash Engineering Blog</a></p>
+<ol type="1">
+<li>Transform your raw data, removing spikes</li>
+<li>Fit a trend like to the transformed data</li>
+<li>Predict tomorrow using transformed predicfions</li>
+<li>reverse The transformation to get expected numbers.</li>
+</ol>
+<p>It’s kinda of the principle behind differencing: it’s making more stationary a time series.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/photo-doordash-holiday-xgboost.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Hi</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>data science</category>
+  <category>machine learning</category>
+  <category>time series</category>
+  <category>forecasting</category>
+  <guid>https://www.bryanwhiting.com/tech/demand-forecasting-using-xgboost.html</guid>
+  <pubDate>Fri, 02 Feb 2024 15:59:16 GMT</pubDate>
+</item>
 <item>
   <title>The Compounding Interest of Reading</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -318,7 +353,17 @@
 
 
 
-<p>Storytelling - I love how he speaks a thought, then follows up with reality. Like “come on, catch the hook” “but the hook did not catch” - Repetitive words used in new ways evoke new meaning - Keep it simple. <a href="../posts/mark-cuban-mogul-support.html">Mark Cuban Mogul Support</a> - don’t use a big word when a simpler one will do. He evokes strong emotion without much fanciful language. - Your mind fills in the blanks. He encodes the intuition of 50 years of fishing in plain words. “I’ve got enough line…” is not a calculation. <a href="../book-review/wool.html">Wool</a> and <a href="../book-review/dune.html">Dune</a> are much more</p>
+<p>2024-02-02</p>
+<ul>
+<li>thank goodness they’re not as intelligent as those who kill them, though they’re more noble and able</li>
+</ul>
+<p>Storytelling</p>
+<ul>
+<li>I love how he speaks a thought, then follows up with reality. Like “come on, catch the hook” “but the hook did not catch”</li>
+<li>Repetitive words used in new ways evoke new meaning</li>
+<li>Keep it simple. <a href="../posts/mark-cuban-mogul-support.html">Mark Cuban Mogul Support</a> - don’t use a big word when a simpler one will do. He evokes strong emotion without much fanciful language.</li>
+<li>Your mind fills in the blanks. He encodes the intuition of 50 years of fishing in plain words. “I’ve got enough line…” is not a calculation. <a href="../book-review/wool.html">Wool</a> and <a href="../book-review/dune.html">Dune</a> are much more</li>
+</ul>
 <p>2024-02-01 - first you borrow. Then you beg. - “This too was a fiction” - “Relics of his wife” - he waits to reveal his wife. - I was born for this. - He could think of nothing except endure <img src="https://www.bryanwhiting.com/img/book-the-old-man-and-the-sea.jpeg" class="preview-image img-fluid" alt="The Old Man and The Sea"></p>
 
 
@@ -711,31 +756,6 @@ And thus we see that the commandments of God must be fulfilled. And if it so be 
   <category>gratitude</category>
   <guid>https://www.bryanwhiting.com/gratitude/rescue-workers.html</guid>
   <pubDate>Mon, 29 Jan 2024 19:43:52 GMT</pubDate>
-</item>
-<item>
-  <title>The Tyranny of Experts</title>
-  <dc:creator>William Esterly</dc:creator>
-  <link>https://www.bryanwhiting.com/book-review/the-tyranny-of-experts.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/photo-tyranny-of-experts.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">The Tyranny of Experts</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book-review</category>
-  <category>economics</category>
-  <guid>https://www.bryanwhiting.com/book-review/the-tyranny-of-experts.html</guid>
-  <pubDate>Mon, 29 Jan 2024 12:12:54 GMT</pubDate>
 </item>
 </channel>
 </rss>

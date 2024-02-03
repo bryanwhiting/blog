@@ -10,7 +10,42 @@
 <atom:link href="https://www.bryanwhiting.com/tech.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Fri, 02 Feb 2024 10:02:48 GMT</lastBuildDate>
+<lastBuildDate>Fri, 02 Feb 2024 15:59:16 GMT</lastBuildDate>
+<item>
+  <title>Holiday Demand Forecasting using XGBoost</title>
+  <link>https://www.bryanwhiting.com/tech/demand-forecasting-using-xgboost.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><a href="https://doordash.engineering/2023/08/31/how-doordash-improves-holiday-predictions-via-cascade-ml-approach/">How DoorDash Improves Holiday Predictions via Cascade ML Approach - DoorDash Engineering Blog</a></p>
+<ol type="1">
+<li>Transform your raw data, removing spikes</li>
+<li>Fit a trend like to the transformed data</li>
+<li>Predict tomorrow using transformed predicfions</li>
+<li>reverse The transformation to get expected numbers.</li>
+</ol>
+<p>It’s kinda of the principle behind differencing: it’s making more stationary a time series.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/photo-doordash-holiday-xgboost.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Hi</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>data science</category>
+  <category>machine learning</category>
+  <category>time series</category>
+  <category>forecasting</category>
+  <guid>https://www.bryanwhiting.com/tech/demand-forecasting-using-xgboost.html</guid>
+  <pubDate>Fri, 02 Feb 2024 15:59:16 GMT</pubDate>
+</item>
 <item>
   <title>Private GPT</title>
   <link>https://www.bryanwhiting.com/tech/private-gpt.html</link>
