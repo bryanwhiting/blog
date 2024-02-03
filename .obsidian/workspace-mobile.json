@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/peloton.md",
+                "file": "christianity/1-nephi-20-baptism-in-the-old-testament.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "gratitude/peloton.md",
+            "file": "christianity/1-nephi-20-baptism-in-the-old-testament.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "gratitude/peloton.md"
+            "file": "christianity/1-nephi-20-baptism-in-the-old-testament.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "gratitude/peloton.md",
+            "file": "christianity/1-nephi-20-baptism-in-the-old-testament.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,17 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-river-jordan-baptism.jpeg",
+    "scriptures/galatians-3.27-29.md",
+    "scriptures/moses-6.64-68.md",
+    "scriptures/1-nephi-13.26.md",
+    "scriptures/isaiah-48.1.md",
+    "scriptures/1-kings-7.md",
+    "scriptures/1-nephi-20.1.md",
+    "gratitude/peloton.md",
+    "christianity/1-nephi-20-baptism-in-the-old-testament.md",
     "img/dalle-stationary-bike.jpeg",
     "goals/2024-02-02.md",
-    "gratitude/peloton.md",
     "book-review/the-old-man-and-the-sea.md",
     "book-review/shift.md",
     "tech/demand-forecasting-using-xgboost.md",
@@ -165,18 +173,10 @@
     "lists/ai.md",
     "tech/private-gpt.md",
     "img/photo-privategpt.jpeg",
-    "tech/lm-studio.md",
     "img/photo-lm-studio.jpeg",
     "img/photo-gpt4all.jpeg",
-    "gratitude/compliments.md",
     "img/dalle-compliment-giving.jpeg",
-    "christianity/1-nephi-19-yieldeth-himself.md",
     "img/dalle-cattle-ranch-gate.jpeg",
-    "scriptures/1-nephi-19.10.md",
-    "posts/export-your-libby-timeline-to-obsidian.md",
-    "img/photo-libby-icon.jpeg",
-    "lists/reading-list.md",
-    "_templates/new-post.md",
     "innovate",
     "docs/gratitude/imagination.html",
     "docs/gratitude/chirping-birds.html",

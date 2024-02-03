@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "1-nephi-20-baptism-in-the-old-testament",
+      "path": "christianity/1-nephi-20-baptism-in-the-old-testament.md"
+    },
+    {
       "basename": "peloton",
       "path": "gratitude/peloton.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "day",
       "path": "_templates/day.md"
-    },
-    {
-      "basename": "2024-01-27",
-      "path": "goals/2024-01-27.md"
     }
   ],
   "omittedPaths": [],
