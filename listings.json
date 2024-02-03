@@ -24,7 +24,7 @@
       "/christianity/1-nephi-20-baptism-in-the-old-testament.html",
       "/gratitude/peloton.html",
       "/book-review/shift.html",
-      "/tech/demand-forecasting-using-xgboost.html",
+      "/tech/holiday-demand-forecasting-using-xgboost.html",
       "/news/2024-02-02-news-notes.html",
       "/posts/the-compounding-interest-of-reading.html",
       "/posts/the-power-of-a-good-book.html",
@@ -510,7 +510,7 @@
   {
     "listing": "/index.html",
     "items": [
-      "/tech/demand-forecasting-using-xgboost.html",
+      "/tech/holiday-demand-forecasting-using-xgboost.html",
       "/posts/the-compounding-interest-of-reading.html",
       "/posts/the-power-of-a-good-book.html",
       "/tech/private-gpt.html",
@@ -853,7 +853,7 @@
       "/christianity/1-nephi-20-baptism-in-the-old-testament.html",
       "/gratitude/peloton.html",
       "/book-review/shift.html",
-      "/tech/demand-forecasting-using-xgboost.html",
+      "/tech/holiday-demand-forecasting-using-xgboost.html",
       "/posts/the-compounding-interest-of-reading.html",
       "/posts/the-power-of-a-good-book.html",
       "/book-review/1984.html",
@@ -1128,7 +1128,7 @@
   {
     "listing": "/tech.html",
     "items": [
-      "/tech/demand-forecasting-using-xgboost.html",
+      "/tech/holiday-demand-forecasting-using-xgboost.html",
       "/tech/private-gpt.html",
       "/tech/lm-studio.html",
       "/tech/gpt4all.html",
