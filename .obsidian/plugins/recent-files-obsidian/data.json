@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "holiday-demand-forecasting-using-xgboost",
+      "path": "tech/holiday-demand-forecasting-using-xgboost.md"
+    },
+    {
+      "basename": "how-to-blog-with-obsidian-and-quarto",
+      "path": "posts/how-to-blog-with-obsidian-and-quarto.md"
+    },
+    {
       "basename": "1-nephi-20-baptism-in-the-old-testament",
       "path": "christianity/1-nephi-20-baptism-in-the-old-testament.md"
     },
@@ -19,10 +27,6 @@
     {
       "basename": "shift",
       "path": "book-review/shift.md"
-    },
-    {
-      "basename": "demand-forecasting-using-xgboost",
-      "path": "tech/demand-forecasting-using-xgboost.md"
     },
     {
       "basename": "2024-02-02-news-notes",
@@ -195,10 +199,6 @@
     {
       "basename": "the-tyranny-of-experts",
       "path": "book-review/the-tyranny-of-experts.md"
-    },
-    {
-      "basename": "day",
-      "path": "_templates/day.md"
     }
   ],
   "omittedPaths": [],
