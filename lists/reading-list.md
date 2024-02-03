@@ -13,6 +13,7 @@ draft: false
 - [ ] Team of Teams #spotify 12hr.
 - [ ] Wealth of Nations #youtube https://www.youtube.com/watch?v=PH4B-SGf6-A #librivox #audible-credit 36hrs
 - [ ] Competing Against Luck #spotify #audible-credit 7.25hr. $13
+- [ ] Antifragile
 
 ### Fiction
 - [ ] The Great Gatsby #libby 
@@ -24,6 +25,10 @@ draft: false
 - [ ] To Kill a Mockingbird #libby 
 - [ ] Foundation #libby 
 - [ ] Wool #libby 
+- [ ] The Sun Also Rises #spotify-included 7hr
+- [ ] A farewell to arms #spotify-included  8h
+- [ ] The old man and the Sea #libby 
+- [ ] Of Mice and Men #libby 
 
 To finish
 

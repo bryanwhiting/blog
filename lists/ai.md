@@ -15,6 +15,7 @@ draft: false
 
 
 # 2024-01-23
+
 [Auto Wiki by Mutable.ai](https://wiki.mutable.ai/?utm_source=tldrai) #ai/tool
 - generate docs drom code automatically 
 
@@ -24,7 +25,10 @@ draft: false
 Create a UI for a chatbot convo. Backend supabase. Hosted vercel. McKay Wrigley. 
 
 [GitHub](https://github.com/mckaywrigley/chatbot-ui)
+
+
 # Local GPT brain
+
 2024-01-09
 
 Run GPT locally on your notes. Index it locally for retrieval. 

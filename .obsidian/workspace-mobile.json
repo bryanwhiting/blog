@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/1-nephi-16-christ-guides-us.md",
+                "file": "christianity/1-nephi-20-baptism-in-the-old-testament.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 4
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/1-nephi-16-christ-guides-us.md",
+            "file": "christianity/1-nephi-20-baptism-in-the-old-testament.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/1-nephi-16-christ-guides-us.md"
+            "file": "christianity/1-nephi-20-baptism-in-the-old-testament.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/1-nephi-16-christ-guides-us.md",
+            "file": "christianity/1-nephi-20-baptism-in-the-old-testament.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,50 +141,51 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "goals/2024-01-30.md",
-    "christianity/1-nephi-16-christ-guides-us.md",
-    "img/dalle-christ-standing-brother-of-jared.jpeg",
-    "img/dalle-brother-of-jared-in-cloud-with-lord.jpeg",
-    "scriptures/ether-2.6.md",
-    "scriptures/ether-2.5.md",
-    "scriptures/ether-2.16.md",
-    "scriptures/ether-2.14.md",
-    "scriptures/1-nephi-16.25.md",
-    "scriptures/1-nephi-16.26.md",
-    "gratitude/rescue-workers.md",
-    "img/dalle-search-and-rescue-forest.jpeg",
-    "goals/2024-01-29.md",
-    "goals/2024-01-28.md",
+    "book-review/saints-book-1-the-standard-of-truth-1815-1846.md",
+    "christianity/1-nephi-20-baptism-in-the-old-testament.md",
+    "posts/how-to-blog-with-obsidian-and-quarto.md",
+    "tech/holiday-demand-forecasting-using-xgboost.md",
+    "img/dalle-river-jordan-baptism.jpeg",
+    "scriptures/galatians-3.27-29.md",
+    "scriptures/moses-6.64-68.md",
+    "scriptures/1-nephi-13.26.md",
+    "scriptures/isaiah-48.1.md",
+    "scriptures/1-kings-7.md",
+    "scriptures/1-nephi-20.1.md",
+    "gratitude/peloton.md",
+    "img/dalle-stationary-bike.jpeg",
+    "goals/2024-02-02.md",
+    "book-review/the-old-man-and-the-sea.md",
+    "book-review/shift.md",
+    "img/photo-doordash-holiday-xgboost.jpeg",
+    "news/2024-02-02-news-notes.md",
+    "lists/reading-ethos.md",
+    "posts/the-power-of-a-good-book.md",
+    "posts/the-compounding-interest-of-reading.md",
+    "img/dalle-image-compound-interest-and-reading-a-book.jpeg",
+    "img/compound-interest-reading-book.webp",
+    "img/dalle-old-man-and-the-fish-tacos.jpeg",
+    "book-review/wool.md",
+    "book-review/1984.md",
+    "book-review/the-loop.md",
+    "book-review/influence-the-psychology-of-persuasion.md",
+    "goals/2024-02-01.md",
+    "tech/beam-ai.md",
+    "tech/gpt4all.md",
+    "lists/ai.md",
+    "img/photo-privategpt.jpeg",
+    "img/photo-lm-studio.jpeg",
+    "img/photo-gpt4all.jpeg",
+    "img/dalle-compliment-giving.jpeg",
+    "innovate",
     "docs/gratitude/imagination.html",
     "docs/gratitude/chirping-birds.html",
     "docs/christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.html",
-    "docs/img/dalle-bread-in-oven.jpeg",
-    "docs/img/photo-how-to-win-friends-bullet-points.jpeg",
-    "docs/img/dalle-birds-chirping-in-a-tree.jpeg",
-    "docs/img/dalle-sourdough-bread-is-porous.jpeg",
-    "docs/img/dalle-sunday-best.jpeg",
-    "docs/img/book-greenlights.jpeg",
-    "docs/img/dalle-imagination-two-panes.jpeg",
     "docs/scriptures/3-nephi-18.22.html",
     "docs/scriptures/luke-7.39.html",
     "docs/scriptures/2-nephi-2.7.html",
     "docs/scriptures/mark-15.46.html",
     "docs/scriptures/1-nephi-15.23-25.html",
-    "docs/scriptures/john-10.17-18.html",
-    "docs/scriptures/matthew-6.8.html",
-    "book-review/the-tyranny-of-experts.md",
-    "book-review/wool.md",
-    "_templates/day.md",
-    "christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.md",
-    "goals/2024-01-27.md",
-    "sacrament-symbols/bread-given-freely-like-his-life.md",
-    "sacrament-symbols/__other-symbols.md",
-    "sacrament-symbols/sunday-dress.md",
-    "sacrament-symbols/bread-in-the-oven.md",
-    "sacrament-symbols/vaulted-ceiling.md",
-    "sacrament-symbols/support-beams-represent-the-cross.md",
-    "sacrament-symbols/receive-the-holy-ghost.md",
-    "sacrament-symbols/porous-bread.md",
-    "sacrament-symbols/broken-bread-but-no-broken-bones.md"
+    "docs/scriptures/john-10.17-18.html"
   ]
 }

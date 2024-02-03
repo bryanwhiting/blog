@@ -7,8 +7,9 @@ categories:
   - christianity
   - prayer
   - revelation
-  - guidance
   - hand of the Lord
+  - come follow me
+  - gratitude
 draft: false
 ---
 Lehi had a humbling experience as he was complaining at how hard the journey was:
