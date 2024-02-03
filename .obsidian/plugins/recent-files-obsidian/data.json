@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "holiday-demand-forecasting-using-xgboost",
-      "path": "tech/holiday-demand-forecasting-using-xgboost.md"
+      "basename": "1-nephi-20-baptism-in-the-old-testament",
+      "path": "christianity/1-nephi-20-baptism-in-the-old-testament.md"
+    },
+    {
+      "basename": "saints-book-1-the-standard-of-truth-1815-1846",
+      "path": "book-review/saints-book-1-the-standard-of-truth-1815-1846.md"
     },
     {
       "basename": "how-to-blog-with-obsidian-and-quarto",
       "path": "posts/how-to-blog-with-obsidian-and-quarto.md"
     },
     {
-      "basename": "1-nephi-20-baptism-in-the-old-testament",
-      "path": "christianity/1-nephi-20-baptism-in-the-old-testament.md"
+      "basename": "holiday-demand-forecasting-using-xgboost",
+      "path": "tech/holiday-demand-forecasting-using-xgboost.md"
     },
     {
       "basename": "peloton",
@@ -195,10 +199,6 @@
     {
       "basename": "2024-01-28",
       "path": "goals/2024-01-28.md"
-    },
-    {
-      "basename": "the-tyranny-of-experts",
-      "path": "book-review/the-tyranny-of-experts.md"
     }
   ],
   "omittedPaths": [],

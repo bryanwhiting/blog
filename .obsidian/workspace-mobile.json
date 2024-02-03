@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/holiday-demand-forecasting-using-xgboost.md",
+                "file": "christianity/1-nephi-20-baptism-in-the-old-testament.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "tech/holiday-demand-forecasting-using-xgboost.md",
+            "file": "christianity/1-nephi-20-baptism-in-the-old-testament.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "tech/holiday-demand-forecasting-using-xgboost.md"
+            "file": "christianity/1-nephi-20-baptism-in-the-old-testament.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "tech/holiday-demand-forecasting-using-xgboost.md",
+            "file": "christianity/1-nephi-20-baptism-in-the-old-testament.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,8 +141,10 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "posts/how-to-blog-with-obsidian-and-quarto.md",
+    "book-review/saints-book-1-the-standard-of-truth-1815-1846.md",
     "christianity/1-nephi-20-baptism-in-the-old-testament.md",
+    "posts/how-to-blog-with-obsidian-and-quarto.md",
+    "tech/holiday-demand-forecasting-using-xgboost.md",
     "img/dalle-river-jordan-baptism.jpeg",
     "scriptures/galatians-3.27-29.md",
     "scriptures/moses-6.64-68.md",
@@ -155,7 +157,6 @@
     "goals/2024-02-02.md",
     "book-review/the-old-man-and-the-sea.md",
     "book-review/shift.md",
-    "tech/holiday-demand-forecasting-using-xgboost.md",
     "img/photo-doordash-holiday-xgboost.jpeg",
     "news/2024-02-02-news-notes.md",
     "lists/reading-ethos.md",
@@ -172,7 +173,6 @@
     "tech/beam-ai.md",
     "tech/gpt4all.md",
     "lists/ai.md",
-    "tech/private-gpt.md",
     "img/photo-privategpt.jpeg",
     "img/photo-lm-studio.jpeg",
     "img/photo-gpt4all.jpeg",

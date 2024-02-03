@@ -8,7 +8,8 @@ categories:
   - come follow me
   - book of mormon
   - old testament
-  - Abrahamic Covenanf
+  - Abrahamic Covenant
+  - baptism
 draft: false
 ---
 # Scriptures
@@ -43,6 +44,7 @@ But we know they practiced baptism in the Old Testament because Nephi lived and 
 # Meaning
 
 - It was cool to notice this today, as that verse popped out to me and that word "baptism". It makes me wonder what else was taken from these Isaiah chapters
+- How could Joseph Smith have ideated that baptism was in the Old Testament? All records we have are that Joseph wasn't very literate or well known in the Bible. He didn't even know that Jerusalem had a wall and had to ask Emma ([Saints Book 1 The Standard of Truth 1815-1846](../book-review/saints-book-1-the-standard-of-truth-1815-1846.md)) This strengthens my testimony that he was inspired in translating it
 - It makes sense to me how valuable the Book of Mormon is to answer these longstanding questions. 
 - Those who are of the house of Israel are those who are baptized. The baptized are adopted into the Abrahamic family. This is is consistent with Galatians 3:
 

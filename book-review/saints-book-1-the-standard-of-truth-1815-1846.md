@@ -19,4 +19,5 @@ pct-complete:
 2024-01-21
 - "Attend to it" - Joseph Senior supported Joseph. The Angel wanted Joseph to know this. 
 - David's field being ploughed overnight - a few items were left for David - the Lord did just enough. Also, the Lord honored the man's request and didn't disrespect him. The man got what he wanted, David did some more work, and the unnecessary part was finished by whomever. 
+- Didn't know that Jerusalem had a wall. [1 Nephi 20 - Baptism in the Old Testament](../christianity/1-nephi-20-baptism-in-the-old-testament.md)
 - Joseph's trouble was being heavily persecuted physically. Like the Israelites. Now, physical persecution has mostly stopped and instead it's just verbal assaults at "the church" from press and random voices on social media. The challenge of our day is to remain faithful. 
