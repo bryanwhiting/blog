@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lists/reading-ethos.md",
+                "file": "tech/demand-forecasting-using-xgboost.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "lists/reading-ethos.md",
+            "file": "tech/demand-forecasting-using-xgboost.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "lists/reading-ethos.md"
+            "file": "tech/demand-forecasting-using-xgboost.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "lists/reading-ethos.md",
+            "file": "tech/demand-forecasting-using-xgboost.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,15 +141,18 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "posts/the-power-of-a-good-book.md",
+    "img/photo-doordash-holiday-xgboost.jpeg",
+    "news/2024-02-02-news-notes.md",
+    "tech/demand-forecasting-using-xgboost.md",
+    "book-review/the-old-man-and-the-sea.md",
     "lists/reading-ethos.md",
+    "posts/the-power-of-a-good-book.md",
     "posts/the-compounding-interest-of-reading.md",
     "img/dalle-image-compound-interest-and-reading-a-book.jpeg",
     "img/compound-interest-reading-book.webp",
     "img/dalle-old-man-and-the-fish-tacos.jpeg",
     "book-review/wool.md",
     "book-review/1984.md",
-    "book-review/the-old-man-and-the-sea.md",
     "book-review/the-loop.md",
     "book-review/influence-the-psychology-of-persuasion.md",
     "goals/2024-02-02.md",
@@ -174,8 +177,6 @@
     "innovate/legal-search.md",
     "innovate",
     "christianity/1-nephi-15-hearken-and-hold-fast.md",
-    "christianity/1-nephi-18-prayer.md",
-    "christianity/1-nephi-17-strength.md",
     "img/Dalle-basketball.jpeg",
     "docs/gratitude/imagination.html",
     "docs/gratitude/chirping-birds.html",

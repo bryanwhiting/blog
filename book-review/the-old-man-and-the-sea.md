@@ -16,11 +16,17 @@ date-start: 2024-02-01 21:27:44
 date-finished: 2030-01-01
 pct-complete:
 ---
+2024-02-02
+
+- thank goodness they're not as intelligent as those who kill them, though they're more noble and able
+
 Storytelling
+
 - I love how he speaks a thought, then follows up with reality. Like "come on, catch the hook" "but the hook did not catch"
 - Repetitive words used in new ways evoke new meaning
 - Keep it simple. [Mark Cuban Mogul Support](../posts/mark-cuban-mogul-support.md) - don't use a big word when a simpler one will do. He evokes strong emotion without much fanciful language. 
 - Your mind fills in the blanks. He encodes the intuition of 50 years of fishing in plain words. "I've got enough line..." is not a calculation. [Wool](wool.md) and [Dune](dune.md) are much more 
+
 
 
 2024-02-01

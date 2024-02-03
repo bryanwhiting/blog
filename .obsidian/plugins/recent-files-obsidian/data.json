@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "demand-forecasting-using-xgboost",
+      "path": "tech/demand-forecasting-using-xgboost.md"
+    },
+    {
+      "basename": "2024-02-02-news-notes",
+      "path": "news/2024-02-02-news-notes.md"
+    },
+    {
+      "basename": "the-old-man-and-the-sea",
+      "path": "book-review/the-old-man-and-the-sea.md"
+    },
+    {
       "basename": "reading-ethos",
       "path": "lists/reading-ethos.md"
     },
@@ -19,10 +31,6 @@
     {
       "basename": "1984",
       "path": "book-review/1984.md"
-    },
-    {
-      "basename": "the-old-man-and-the-sea",
-      "path": "book-review/the-old-man-and-the-sea.md"
     },
     {
       "basename": "the-loop",
@@ -191,14 +199,6 @@
     {
       "basename": "__other-symbols",
       "path": "sacrament-symbols/__other-symbols.md"
-    },
-    {
-      "basename": "sunday-dress",
-      "path": "sacrament-symbols/sunday-dress.md"
-    },
-    {
-      "basename": "bread-in-the-oven",
-      "path": "sacrament-symbols/bread-in-the-oven.md"
     }
   ],
   "omittedPaths": [],
