@@ -21,6 +21,7 @@
   {
     "listing": "/gratitude.html",
     "items": [
+      "/gratitude/peloton.html",
       "/gratitude/compliments.html",
       "/gratitude/basketball.html",
       "/gratitude/youtube.html",
@@ -79,6 +80,8 @@
   {
     "listing": "/all.html",
     "items": [
+      "/gratitude/peloton.html",
+      "/book-review/shift.html",
       "/tech/demand-forecasting-using-xgboost.html",
       "/posts/the-compounding-interest-of-reading.html",
       "/posts/the-power-of-a-good-book.html",
@@ -372,6 +375,7 @@
   {
     "listing": "/books.html",
     "items": [
+      "/book-review/shift.html",
       "/book-review/1984.html",
       "/book-review/the-old-man-and-the-sea.html",
       "/book-review/the-loop.html",
@@ -509,6 +513,7 @@
       "/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html",
       "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
       "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html",
+      "/gratitude/peloton.html",
       "/gratitude/compliments.html",
       "/gratitude/basketball.html",
       "/gratitude/youtube.html",
@@ -595,6 +600,7 @@
       "/christianity/the-christ-child.html",
       "/christianity/christmas-celebrates-a-living-christ.html",
       "/christianity/three-little-pigs-christ.html",
+      "/book-review/shift.html",
       "/book-review/1984.html",
       "/book-review/the-old-man-and-the-sea.html",
       "/book-review/the-loop.html",
@@ -722,6 +728,8 @@
   {
     "listing": "/sitemap.html",
     "items": [
+      "/gratitude/peloton.html",
+      "/book-review/shift.html",
       "/tech/demand-forecasting-using-xgboost.html",
       "/news/2024-02-02-news-notes.html",
       "/posts/the-compounding-interest-of-reading.html",
