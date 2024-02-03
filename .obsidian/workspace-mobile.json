@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/demand-forecasting-using-xgboost.md",
+                "file": "gratitude/peloton.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 4
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "tech/demand-forecasting-using-xgboost.md",
+            "file": "gratitude/peloton.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "tech/demand-forecasting-using-xgboost.md"
+            "file": "gratitude/peloton.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "tech/demand-forecasting-using-xgboost.md",
+            "file": "gratitude/peloton.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,10 +141,14 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-stationary-bike.jpeg",
+    "goals/2024-02-02.md",
+    "gratitude/peloton.md",
+    "book-review/the-old-man-and-the-sea.md",
+    "book-review/shift.md",
+    "tech/demand-forecasting-using-xgboost.md",
     "img/photo-doordash-holiday-xgboost.jpeg",
     "news/2024-02-02-news-notes.md",
-    "tech/demand-forecasting-using-xgboost.md",
-    "book-review/the-old-man-and-the-sea.md",
     "lists/reading-ethos.md",
     "posts/the-power-of-a-good-book.md",
     "posts/the-compounding-interest-of-reading.md",
@@ -155,7 +159,6 @@
     "book-review/1984.md",
     "book-review/the-loop.md",
     "book-review/influence-the-psychology-of-persuasion.md",
-    "goals/2024-02-02.md",
     "goals/2024-02-01.md",
     "tech/beam-ai.md",
     "tech/gpt4all.md",
@@ -174,10 +177,7 @@
     "img/photo-libby-icon.jpeg",
     "lists/reading-list.md",
     "_templates/new-post.md",
-    "innovate/legal-search.md",
     "innovate",
-    "christianity/1-nephi-15-hearken-and-hold-fast.md",
-    "img/Dalle-basketball.jpeg",
     "docs/gratitude/imagination.html",
     "docs/gratitude/chirping-birds.html",
     "docs/christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.html",

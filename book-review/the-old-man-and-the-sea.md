@@ -1,7 +1,6 @@
 ---
 title: The Old Man and the Sea
-description: |
-  x
+description: Beautiful
 date: 2024-02-01 21:27:44
 created: 2024-02-01 21:27:44
 categories:
@@ -11,7 +10,7 @@ categories:
 draft: false
 author: Ernest Hemingway
 book-year: 1952
-book-time: 0
+book-time: 2.5
 date-start: 2024-02-01 21:27:44
 date-finished: 2030-01-01
 pct-complete:
@@ -19,6 +18,8 @@ pct-complete:
 2024-02-02
 
 - thank goodness they're not as intelligent as those who kill them, though they're more noble and able
+- Let him believe I am more man than I AM and I will be so
+- "The thousand times he had proved it didn't matter now. He needs to prove it again anew that he's a man"
 
 Storytelling
 

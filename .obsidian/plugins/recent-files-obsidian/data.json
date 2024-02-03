@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "peloton",
+      "path": "gratitude/peloton.md"
+    },
+    {
+      "basename": "2024-02-02",
+      "path": "goals/2024-02-02.md"
+    },
+    {
+      "basename": "the-old-man-and-the-sea",
+      "path": "book-review/the-old-man-and-the-sea.md"
+    },
+    {
+      "basename": "shift",
+      "path": "book-review/shift.md"
+    },
+    {
       "basename": "demand-forecasting-using-xgboost",
       "path": "tech/demand-forecasting-using-xgboost.md"
     },
     {
       "basename": "2024-02-02-news-notes",
       "path": "news/2024-02-02-news-notes.md"
-    },
-    {
-      "basename": "the-old-man-and-the-sea",
-      "path": "book-review/the-old-man-and-the-sea.md"
     },
     {
       "basename": "reading-ethos",
@@ -39,10 +51,6 @@
     {
       "basename": "influence-the-psychology-of-persuasion",
       "path": "book-review/influence-the-psychology-of-persuasion.md"
-    },
-    {
-      "basename": "2024-02-02",
-      "path": "goals/2024-02-02.md"
     },
     {
       "basename": "2024-02-01",
@@ -191,14 +199,6 @@
     {
       "basename": "2024-01-27",
       "path": "goals/2024-01-27.md"
-    },
-    {
-      "basename": "bread-given-freely-like-his-life",
-      "path": "sacrament-symbols/bread-given-freely-like-his-life.md"
-    },
-    {
-      "basename": "__other-symbols",
-      "path": "sacrament-symbols/__other-symbols.md"
     }
   ],
   "omittedPaths": [],
