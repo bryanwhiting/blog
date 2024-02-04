@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "bowling",
+      "path": "gratitude/bowling.md"
+    },
+    {
       "basename": "home-depot-saturday-morning-crafts",
       "path": "gratitude/home-depot-saturday-morning-crafts.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2024-01-31",
       "path": "goals/2024-01-31.md"
-    },
-    {
-      "basename": "basketball",
-      "path": "gratitude/basketball.md"
     }
   ],
   "omittedPaths": [],

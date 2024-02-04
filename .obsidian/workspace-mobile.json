@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/home-depot-saturday-morning-crafts.md",
+                "file": "gratitude/bowling.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "gratitude/home-depot-saturday-morning-crafts.md",
+            "file": "gratitude/bowling.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "gratitude/home-depot-saturday-morning-crafts.md"
+            "file": "gratitude/bowling.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "gratitude/home-depot-saturday-morning-crafts.md",
+            "file": "gratitude/bowling.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,10 +141,12 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-bowling-disco.jpeg",
+    "gratitude/home-depot-saturday-morning-crafts.md",
+    "gratitude/bowling.md",
     "img/dalle-kid-building-a-house.jpeg",
     "christianity/1-nephi-21-he-has-not-forgotten-you.md",
     "img/dalle-graven-thee-on-the-palms.jpeg",
-    "gratitude/home-depot-saturday-morning-crafts.md",
     "book-review/the-old-man-and-the-sea.md",
     "posts/the-iceberg-theory-theory-of-omission.md",
     "img/dalle-old-man-and-marlin.jpeg",
@@ -171,12 +173,10 @@
     "img/photo-doordash-holiday-xgboost.jpeg",
     "news/2024-02-02-news-notes.md",
     "lists/reading-ethos.md",
-    "posts/the-power-of-a-good-book.md",
     "img/dalle-image-compound-interest-and-reading-a-book.jpeg",
     "img/compound-interest-reading-book.webp",
     "img/dalle-old-man-and-the-fish-tacos.jpeg",
     "img/photo-privategpt.jpeg",
-    "img/photo-lm-studio.jpeg",
     "innovate",
     "docs/gratitude/imagination.html",
     "docs/gratitude/chirping-birds.html",
