@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "home-depot-saturday-morning-crafts",
+      "path": "gratitude/home-depot-saturday-morning-crafts.md"
+    },
+    {
+      "basename": "1-nephi-21-he-has-not-forgotten-you",
+      "path": "christianity/1-nephi-21-he-has-not-forgotten-you.md"
+    },
+    {
+      "basename": "the-old-man-and-the-sea",
+      "path": "book-review/the-old-man-and-the-sea.md"
+    },
+    {
+      "basename": "the-iceberg-theory-theory-of-omission",
+      "path": "posts/the-iceberg-theory-theory-of-omission.md"
+    },
+    {
+      "basename": "frank-herbert",
+      "path": "concepts/frank-herbert.md"
+    },
+    {
+      "basename": "how-to-win-friends-and-influence-people",
+      "path": "book-review/how-to-win-friends-and-influence-people.md"
+    },
+    {
+      "basename": "wool",
+      "path": "book-review/wool.md"
+    },
+    {
+      "basename": "2024-02-03",
+      "path": "goals/2024-02-03.md"
+    },
+    {
+      "basename": "1-nephi-19-yieldeth-himself",
+      "path": "christianity/1-nephi-19-yieldeth-himself.md"
+    },
+    {
       "basename": "1-nephi-20-baptism-in-the-old-testament",
       "path": "christianity/1-nephi-20-baptism-in-the-old-testament.md"
     },
@@ -25,10 +61,6 @@
       "path": "goals/2024-02-02.md"
     },
     {
-      "basename": "the-old-man-and-the-sea",
-      "path": "book-review/the-old-man-and-the-sea.md"
-    },
-    {
       "basename": "shift",
       "path": "book-review/shift.md"
     },
@@ -47,10 +79,6 @@
     {
       "basename": "the-compounding-interest-of-reading",
       "path": "posts/the-compounding-interest-of-reading.md"
-    },
-    {
-      "basename": "wool",
-      "path": "book-review/wool.md"
     },
     {
       "basename": "1984",
@@ -91,10 +119,6 @@
     {
       "basename": "compliments",
       "path": "gratitude/compliments.md"
-    },
-    {
-      "basename": "1-nephi-19-yieldeth-himself",
-      "path": "christianity/1-nephi-19-yieldeth-himself.md"
     },
     {
       "basename": "export-your-libby-timeline-to-obsidian",
@@ -175,30 +199,6 @@
     {
       "basename": "basketball",
       "path": "gratitude/basketball.md"
-    },
-    {
-      "basename": "Dalle-basketball",
-      "path": "img/Dalle-basketball.jpeg"
-    },
-    {
-      "basename": "never-split-the-difference",
-      "path": "book-review/never-split-the-difference.md"
-    },
-    {
-      "basename": "2024-01-30",
-      "path": "goals/2024-01-30.md"
-    },
-    {
-      "basename": "rescue-workers",
-      "path": "gratitude/rescue-workers.md"
-    },
-    {
-      "basename": "2024-01-29",
-      "path": "goals/2024-01-29.md"
-    },
-    {
-      "basename": "2024-01-28",
-      "path": "goals/2024-01-28.md"
     }
   ],
   "omittedPaths": [],

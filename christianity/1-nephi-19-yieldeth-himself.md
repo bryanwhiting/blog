@@ -31,6 +31,8 @@ So much doctrine is packed in this one verse:
 - Jesus delivered the Israelites. → the Israelites then delivered him unto the cross. 
 
 ![The Lord is the rancher. He controls the gate. He delivers. We're just wandering without him ](../img/dalle-cattle-ranch-gate.jpeg){.preview-image}
+
+
 # Meaning
 
 Every scripture in the Book of Mormon can contain some or many truths about the Savior. There's always something to learn. 

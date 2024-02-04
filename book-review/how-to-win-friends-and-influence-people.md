@@ -5,14 +5,25 @@ date: 2024-01-20 13:29:46
 created: 2024-01-20 13:29:46
 categories:
   - book-review
+  - influence
+  - leadership
+  - parenting
 draft: false
 author: Dale Carnegie
-book-year: 2029
-book-time: 0
+book-year: 1936
+book-time: 7.25
 date-start: 2024-01-20 13:29:46
 date-finished: 2030-01-01
 pct-complete:
 ---
+
+2024-02-03
+- you'll make more friends being genuinely interested in others than trying to get them genuinely interested in you. 
+- Authors: do they like people?
+- Being interested in others is cornerstone of sales. 
+- Smile on the phone
+- Action and feeling go to gather. Fake it and you'll make it. Smile. 
+- Smiles bring you more richness than anything else. 
 
 2024-01-22
 - father poem. Father forgets. 

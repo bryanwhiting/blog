@@ -15,7 +15,7 @@ book-year: 2011
 book-time: 15
 date-start: 2024-01-24 08:43:51
 date-finished: 2030-01-01
-pct-complete:
+pct-complete: 100
 ---
 Summmary:
 - very similar to [1984](1984.md). Little communication. Mind control. 

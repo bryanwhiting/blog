@@ -33,6 +33,8 @@
     "water": "checkbox",
     "water24oz": "checkbox",
     "basketball-time": "number",
-    "book-year": "number"
+    "book-year": "number",
+    "pelo-pr-attempt": "checkbox",
+    "pct-complete": "number"
   }
 }

@@ -20,6 +20,7 @@ pct-complete:
 - thank goodness they're not as intelligent as those who kill them, though they're more noble and able
 - Let him believe I am more man than I AM and I will be so
 - "The thousand times he had proved it didn't matter now. He needs to prove it again anew that he's a man"
+- Boy: "I have so much to learn from you" - after the boy has just gotten "lucky". 
 
 Storytelling
 
