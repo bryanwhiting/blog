@@ -84,14 +84,16 @@ gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
 <link rel="stylesheet" href="css/poem.css">
 <meta property="og:title" content="Bryan Whiting - Embedding audio in Quarto">
 <meta property="og:description" content="How do I use audio in Quarto? Here are three ways.">
+<meta property="og:image" content="https://www.bryanwhiting.com/img/screenshot-quarto-audio-safari.jpeg">
 <meta property="og:site_name" content="Bryan Whiting">
 <meta name="twitter:title" content="Bryan Whiting - Embedding audio in Quarto">
 <meta name="twitter:description" content="How do I use audio in Quarto? Here are three ways.">
+<meta name="twitter:image" content="https://www.bryanwhiting.com/img/screenshot-quarto-audio-safari.jpeg">
 <meta name="twitter:creator" content="@bryanwhiting">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-sidebar docked">
+<body class="nav-sidebar docked slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -285,14 +287,14 @@ gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
 
 
 
 
 
 <p>I want to embed just a plain audio file in my blog post.</p>
-<p>Check out <a href="../creative/guitar-clouds.html">Guitar: Clouds</a>, where I embed some audio using the quarto video short link: <a href="https://quarto.org/docs/authoring/videos.html">Quarto – Videos</a>.</p>
+<p>Check out the post <a href="../creative/guitar-clouds.html">Guitar: Clouds</a>, where I embed some audio using the quarto video short link: <a href="https://quarto.org/docs/authoring/videos.html">Quarto – Videos</a>.</p>
 <p>My process:</p>
 <ul>
 <li>take a voice recording with my voice notes on iOS.</li>
@@ -303,14 +305,33 @@ gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
 Song snippet today: [2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds.m4a) 3rd capo, G, Em, C, G with some pinky action. 
 
 
-&lt;-- This works on safari, not chrome --&gt; 
+&lt;-- This works on safari, not chrome desktop for some reason --&gt; 
 
 ![2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds.m4a)
 
 
 </code></pre>
 <p>Hope this helps someone!</p>
-<p>Note, the second way (<code>the ![]</code>) approach only works on safari for some reason. The audio link wouldn’t appear on Chrome.</p>
+<p>Note, the second way (<code>the ![]</code>) approach didn’t work on Chrome Desktop, but works on Safari desktop, safari mobile, and chrome mobile:</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="../img/screenshot-quarto-audio-chrome-web.jpeg" class="img-fluid figure-img"></p>
+<figcaption class="margin-caption">Chrome doesn’t pick up the audio player</figcaption>
+</figure>
+</div>
+<p>But the mobile audio player is picked up:</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="../img/screenshot-quarto-audio-safari.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Mobile safari</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="../img/screenshot-chrome-mobile-quarto-audio.jpeg" class="img-fluid figure-img"></p>
+<figcaption class="margin-caption">Mobile chrome</figcaption>
+</figure>
+</div>
 
 
 
