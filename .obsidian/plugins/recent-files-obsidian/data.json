@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "embedding-audio-in-quarto",
+      "path": "tech/embedding-audio-in-quarto.md"
+    },
+    {
       "basename": "guitar-clouds",
       "path": "creative/guitar-clouds.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "export-your-libby-timeline-to-obsidian",
       "path": "posts/export-your-libby-timeline-to-obsidian.md"
-    },
-    {
-      "basename": "reading-list",
-      "path": "lists/reading-list.md"
     }
   ],
   "omittedPaths": [],

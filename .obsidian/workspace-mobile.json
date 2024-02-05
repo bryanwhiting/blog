@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "creative/guitar-clouds.md",
+                "file": "tech/embedding-audio-in-quarto.md",
                 "mode": "source",
                 "source": true
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "creative/guitar-clouds.md",
+            "file": "tech/embedding-audio-in-quarto.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "creative/guitar-clouds.md"
+            "file": "tech/embedding-audio-in-quarto.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "creative/guitar-clouds.md",
+            "file": "tech/embedding-audio-in-quarto.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,6 +141,8 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "creative/guitar-clouds.md",
+    "tech/embedding-audio-in-quarto.md",
     "creative/prose-the-thief-of-time.md",
     "creative/prose-red-eyed.md",
     "creative/ice-baths.md",
@@ -148,7 +150,6 @@
     "creative/poem-cuddles.md",
     "creative/vanished.md",
     "creative/apology.md",
-    "creative/guitar-clouds.md",
     "img/dalle-clouds-over-a-field.jpeg",
     "goals/2024-02-04.md",
     "goals/2024-02-05.md",
@@ -170,7 +171,6 @@
     "book-review/mindset.md",
     "book-review/the-storytelling-animal.md",
     "book-review/the-body.md",
-    "book-review/radical-candor.md",
     "img/dalle-image-divinely-discontent.jpeg",
     "img/photo-screenshot-leaderboard-llm-short.jpeg",
     "img/photo-screenshot-chatbot-arena-leaderboard.jpeg",
