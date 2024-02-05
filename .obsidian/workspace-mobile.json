@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/1-nephi-22-gathered-by-his-covenants.md",
+                "file": "posts/the-iceberg-theory-theory-of-omission.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/1-nephi-22-gathered-by-his-covenants.md",
+            "file": "posts/the-iceberg-theory-theory-of-omission.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/1-nephi-22-gathered-by-his-covenants.md"
+            "file": "posts/the-iceberg-theory-theory-of-omission.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/1-nephi-22-gathered-by-his-covenants.md",
+            "file": "posts/the-iceberg-theory-theory-of-omission.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,10 +141,10 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "christianity/1-nephi-22-gathered-by-his-covenants.md",
     "img/dalle-image-wheat-into-a-silo.jpeg",
     "scriptures/1-nephi-22.9-12.md",
     "book-review/saints-book-1-the-standard-of-truth-1815-1846.md",
-    "christianity/1-nephi-22-gathered-by-his-covenants.md",
     "code/2024-02-02-libby.py",
     "code",
     "book-review/getting-to-yes.md",
@@ -178,7 +178,6 @@
     "img/dalle-kid-building-a-house.jpeg",
     "img/dalle-graven-thee-on-the-palms.jpeg",
     "img/dalle-old-man-and-marlin.jpeg",
-    "img/dalle-river-jordan-baptism.jpeg",
     "innovate",
     "docs/gratitude/imagination.html",
     "docs/gratitude/chirping-birds.html",
