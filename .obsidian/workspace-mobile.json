@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/the-divinely-discontent-chatbot-user.md",
+                "file": "book-review/saints-book-1-the-standard-of-truth-1815-1846.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "tech/the-divinely-discontent-chatbot-user.md",
+            "file": "book-review/saints-book-1-the-standard-of-truth-1815-1846.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "tech/the-divinely-discontent-chatbot-user.md"
+            "file": "book-review/saints-book-1-the-standard-of-truth-1815-1846.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "tech/the-divinely-discontent-chatbot-user.md",
+            "file": "book-review/saints-book-1-the-standard-of-truth-1815-1846.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,10 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "scriptures/11-ye-shall-receive-my-law.md",
+    "tech/the-divinely-discontent-chatbot-user.md",
     "img/dalle-image-divinely-discontent.jpeg",
     "tech/llm-chatbot-arena-leaderboard.md",
-    "tech/the-divinely-discontent-chatbot-user.md",
     "img/photo-screenshot-leaderboard-llm-short.jpeg",
     "img/photo-screenshot-chatbot-arena-leaderboard.jpeg",
     "gratitude/bowling.md",
@@ -174,7 +175,6 @@
     "scriptures/1-kings-7.md",
     "scriptures/1-nephi-20.1.md",
     "gratitude/peloton.md",
-    "img/dalle-stationary-bike.jpeg",
     "goals/2024-02-02.md",
     "book-review/shift.md",
     "innovate",
