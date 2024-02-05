@@ -9,9 +9,10 @@ categories:
   - blogging
 draft: false
 ---
+
 I want to embed just a plain audio file in my blog post. 
 
-Check out [Guitar: Clouds](../creative/guitar-clouds.md), where I embed some audio using the quarto video short link: [Quarto – Videos](https://quarto.org/docs/authoring/videos.html). 
+Check out the post [Guitar: Clouds](../creative/guitar-clouds.md), where I embed some audio using the quarto video short link: [Quarto – Videos](https://quarto.org/docs/authoring/videos.html). 
 
 My process:
 
@@ -24,7 +25,7 @@ My process:
 Song snippet today: [2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds.m4a) 3rd capo, G, Em, C, G with some pinky action. 
 
 
-<-- This works on safari, not chrome --> 
+<-- This works on safari, not chrome desktop for some reason --> 
 
 ![2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds.m4a)
 
@@ -37,10 +38,10 @@ Hope this helps someone!
 
 Note, the second way (`the ![]`) approach didn't work on Chrome Desktop, but works on Safari desktop, safari mobile, and chrome mobile:
 
-![Chrome doesn't pick up the audio player](../img/screenshot-quarto-audio-chrome-web.jpeg){.preview-image}
+![Chrome doesn't pick up the audio player](../img/screenshot-quarto-audio-chrome-web.jpeg)
 
 But the mobile audio player is picked up: 
 
 ![Mobile safari](../img/screenshot-quarto-audio-safari.jpeg){.preview-image}
 
-![Mobile chrome](../img/screenshot-chrome-mobile-quarto-audio.jpeg){.preview-image}
+![Mobile chrome](../img/screenshot-chrome-mobile-quarto-audio.jpeg)

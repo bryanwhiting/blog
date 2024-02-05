@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/embedding-audio-in-quarto.md",
+                "file": "creative/guitar-clouds.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "tech/embedding-audio-in-quarto.md",
+            "file": "creative/guitar-clouds.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "tech/embedding-audio-in-quarto.md"
+            "file": "creative/guitar-clouds.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "tech/embedding-audio-in-quarto.md",
+            "file": "creative/guitar-clouds.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,8 +141,8 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "creative/guitar-clouds.md",
     "tech/embedding-audio-in-quarto.md",
+    "creative/guitar-clouds.md",
     "creative/prose-the-thief-of-time.md",
     "creative/prose-red-eyed.md",
     "creative/ice-baths.md",
