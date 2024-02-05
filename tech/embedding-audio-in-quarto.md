@@ -35,4 +35,12 @@ Song snippet today: [2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds
 Hope this helps someone!
 
 
-Note, the second way (`the ![]`) approach only works on safari for some reason. The audio link wouldn't appear on Chrome. 
+Note, the second way (`the ![]`) approach didn't work on Chrome Desktop, but works on Safari desktop, safari mobile, and chrome mobile:
+
+![Chrome doesn't pick up the audio player](../img/screenshot-quarto-audio-chrome-web.jpeg){.preview-image}
+
+But the mobile audio player is picked up: 
+
+![Mobile safari](../img/screenshot-quarto-audio-safari.jpeg){.preview-image}
+
+![Mobile chrome](../img/screenshot-chrome-mobile-quarto-audio.jpeg){.preview-image}

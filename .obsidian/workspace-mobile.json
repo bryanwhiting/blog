@@ -15,7 +15,7 @@
               "state": {
                 "file": "tech/embedding-audio-in-quarto.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
