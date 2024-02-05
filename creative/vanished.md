@@ -8,7 +8,7 @@ categories:
   - creative
 draft: true
 ---
-Short story about how I hear kids yelling in the other room and I walk there to see they're not fighting but are doing teenager homework 
+To do: a Short story about how I hear kids yelling in the other room and I walk there to see they're not fighting but are doing teenager homework 
 
 Or I turn the corner while they're getting home from school and it's my baby in a cradle 
 

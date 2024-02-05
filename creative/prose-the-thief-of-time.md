@@ -9,6 +9,7 @@ categories:
   - parenting
   - perspective
   - deep thought
+  - prose
 draft: false
 ---
 There are only two robbers of childhood: death and time. 

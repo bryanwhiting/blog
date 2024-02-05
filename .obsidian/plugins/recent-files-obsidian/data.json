@@ -1,12 +1,72 @@
 {
   "recentFiles": [
     {
+      "basename": "guitar-clouds",
+      "path": "creative/guitar-clouds.md"
+    },
+    {
+      "basename": "prose-the-thief-of-time",
+      "path": "creative/prose-the-thief-of-time.md"
+    },
+    {
+      "basename": "prose-red-eyed",
+      "path": "creative/prose-red-eyed.md"
+    },
+    {
+      "basename": "ice-baths",
+      "path": "creative/ice-baths.md"
+    },
+    {
+      "basename": "vacation",
+      "path": "creative/vacation.md"
+    },
+    {
+      "basename": "poem-cuddles",
+      "path": "creative/poem-cuddles.md"
+    },
+    {
+      "basename": "vanished",
+      "path": "creative/vanished.md"
+    },
+    {
+      "basename": "apology",
+      "path": "creative/apology.md"
+    },
+    {
       "basename": "2024-02-04",
       "path": "goals/2024-02-04.md"
     },
     {
       "basename": "2024-02-05",
       "path": "goals/2024-02-05.md"
+    },
+    {
+      "basename": "day",
+      "path": "_templates/day.md"
+    },
+    {
+      "basename": "2024-02-03",
+      "path": "goals/2024-02-03.md"
+    },
+    {
+      "basename": "2024-02-02",
+      "path": "goals/2024-02-02.md"
+    },
+    {
+      "basename": "2024-02-01",
+      "path": "goals/2024-02-01.md"
+    },
+    {
+      "basename": "2024-01-29",
+      "path": "goals/2024-01-29.md"
+    },
+    {
+      "basename": "2024-01-30",
+      "path": "goals/2024-01-30.md"
+    },
+    {
+      "basename": "2024-01-31",
+      "path": "goals/2024-01-31.md"
     },
     {
       "basename": "the-iceberg-theory-theory-of-omission",
@@ -57,10 +117,6 @@
       "path": "book-review/wool.md"
     },
     {
-      "basename": "2024-02-03",
-      "path": "goals/2024-02-03.md"
-    },
-    {
       "basename": "1-nephi-19-yieldeth-himself",
       "path": "christianity/1-nephi-19-yieldeth-himself.md"
     },
@@ -79,10 +135,6 @@
     {
       "basename": "peloton",
       "path": "gratitude/peloton.md"
-    },
-    {
-      "basename": "2024-02-02",
-      "path": "goals/2024-02-02.md"
     },
     {
       "basename": "shift",
@@ -117,10 +169,6 @@
       "path": "book-review/influence-the-psychology-of-persuasion.md"
     },
     {
-      "basename": "2024-02-01",
-      "path": "goals/2024-02-01.md"
-    },
-    {
       "basename": "beam-ai",
       "path": "tech/beam-ai.md"
     },
@@ -151,54 +199,6 @@
     {
       "basename": "reading-list",
       "path": "lists/reading-list.md"
-    },
-    {
-      "basename": "new-post",
-      "path": "_templates/new-post.md"
-    },
-    {
-      "basename": "legal-search",
-      "path": "innovate/legal-search.md"
-    },
-    {
-      "basename": "1-nephi-15-hearken-and-hold-fast",
-      "path": "christianity/1-nephi-15-hearken-and-hold-fast.md"
-    },
-    {
-      "basename": "1-nephi-18-prayer",
-      "path": "christianity/1-nephi-18-prayer.md"
-    },
-    {
-      "basename": "1-nephi-17-strength",
-      "path": "christianity/1-nephi-17-strength.md"
-    },
-    {
-      "basename": "1-nephi-16-christ-guides-us",
-      "path": "christianity/1-nephi-16-christ-guides-us.md"
-    },
-    {
-      "basename": "come-follow-me-2024-01-28-jan-28-1-nephi-11-15",
-      "path": "christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.md"
-    },
-    {
-      "basename": "1-nephi-8-choosing-to-press-forward",
-      "path": "christianity/1-nephi-8-choosing-to-press-forward.md"
-    },
-    {
-      "basename": "1-nephi-8-what-others-think",
-      "path": "christianity/1-nephi-8-what-others-think.md"
-    },
-    {
-      "basename": "1-nephi-9-write-with-a-purpose",
-      "path": "christianity/1-nephi-9-write-with-a-purpose.md"
-    },
-    {
-      "basename": "1-nephi-10-rely-on-the-redeemer",
-      "path": "christianity/1-nephi-10-rely-on-the-redeemer.md"
-    },
-    {
-      "basename": "1-nephi-11-seeing-signs-of-christ",
-      "path": "christianity/1-nephi-11-seeing-signs-of-christ.md"
     }
   ],
   "omittedPaths": [],

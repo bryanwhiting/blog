@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "goals/2024-02-04.md",
+                "file": "creative/guitar-clouds.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 4
+    "currentTab": 0
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "goals/2024-02-04.md",
+            "file": "creative/guitar-clouds.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "goals/2024-02-04.md"
+            "file": "creative/guitar-clouds.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "goals/2024-02-04.md",
+            "file": "creative/guitar-clouds.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -139,10 +139,26 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "be767112276aa446",
+  "active": "78912cccc2282195",
   "lastOpenFiles": [
-    "goals/2024-02-05.md",
+    "creative/prose-the-thief-of-time.md",
+    "creative/prose-red-eyed.md",
+    "creative/ice-baths.md",
+    "creative/vacation.md",
+    "creative/poem-cuddles.md",
+    "creative/vanished.md",
+    "creative/apology.md",
+    "creative/guitar-clouds.md",
+    "img/dalle-clouds-over-a-field.jpeg",
     "goals/2024-02-04.md",
+    "goals/2024-02-05.md",
+    "_templates/day.md",
+    "goals/2024-02-03.md",
+    "goals/2024-02-02.md",
+    "goals/2024-02-01.md",
+    "goals/2024-01-29.md",
+    "goals/2024-01-30.md",
+    "goals/2024-01-31.md",
     "posts/the-iceberg-theory-theory-of-omission.md",
     "christianity/1-nephi-22-gathered-by-his-covenants.md",
     "img/dalle-image-wheat-into-a-silo.jpeg",
@@ -155,21 +171,6 @@
     "book-review/the-storytelling-animal.md",
     "book-review/the-body.md",
     "book-review/radical-candor.md",
-    "book-review/why-we-sleep.md",
-    "book-review/think-again.md",
-    "book-review/four-thousand-weeks.md",
-    "book-review/when-breath-becomes-air.md",
-    "book-review/every-city-is-every-other-city.md",
-    "book-review/deep-work.md",
-    "book-review/willpower.md",
-    "book-review/sapiens.md",
-    "book-review/give-and-take.md",
-    "book-review/steve-jobs.md",
-    "book-review/the-giver.md",
-    "book-review/zero-to-one.md",
-    "book-review/the-power-of-regret.md",
-    "book-review/the-willpower-instinct.md",
-    "book-review/the-richest-man-in-babylon.md",
     "img/dalle-image-divinely-discontent.jpeg",
     "img/photo-screenshot-leaderboard-llm-short.jpeg",
     "img/photo-screenshot-chatbot-arena-leaderboard.jpeg",
@@ -178,7 +179,6 @@
     "img/dalle-bowling-disco.jpeg",
     "img/dalle-kid-building-a-house.jpeg",
     "img/dalle-graven-thee-on-the-palms.jpeg",
-    "img/dalle-old-man-and-marlin.jpeg",
     "innovate",
     "docs/gratitude/imagination.html",
     "docs/gratitude/chirping-birds.html",

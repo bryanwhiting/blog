@@ -10,6 +10,7 @@ categories:
   - perspective
   - hypothetical
   - angle of vision
+  - prose
 draft: false
 ---
 How would you like to sleep next to a stranger?
@@ -20,7 +21,7 @@ And sometimes you cuddle! But you can't pick the strangers.
 
 Oh! And all three of you are sleeping in chairs!
 
-Does that sound like something you'd like? No!?
+Does that sound like something you'd like? No? Hmm...
 
 But what if you got a midnight snack, would that make it better?
 

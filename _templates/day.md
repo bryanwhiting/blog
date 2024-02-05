@@ -26,6 +26,7 @@ water24oz: false
 pray: false
 meditate: false
 sss: false
+asleepby1030: false
 workout-time: 0
 muscle-groups:
   - x

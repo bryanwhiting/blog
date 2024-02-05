@@ -35,6 +35,8 @@
     "basketball-time": "number",
     "book-year": "number",
     "pelo-pr-attempt": "checkbox",
-    "pct-complete": "number"
+    "pct-complete": "number",
+    "FHE": "checkbox",
+    "date-night": "checkbox"
   }
 }
