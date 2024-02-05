@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/saints-book-1-the-standard-of-truth-1815-1846.md",
+                "file": "christianity/1-nephi-22-gathered-by-his-covenants.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "book-review/saints-book-1-the-standard-of-truth-1815-1846.md",
+            "file": "christianity/1-nephi-22-gathered-by-his-covenants.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "book-review/saints-book-1-the-standard-of-truth-1815-1846.md"
+            "file": "christianity/1-nephi-22-gathered-by-his-covenants.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "book-review/saints-book-1-the-standard-of-truth-1815-1846.md",
+            "file": "christianity/1-nephi-22-gathered-by-his-covenants.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,42 +141,44 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "scriptures/11-ye-shall-receive-my-law.md",
-    "tech/the-divinely-discontent-chatbot-user.md",
+    "img/dalle-image-wheat-into-a-silo.jpeg",
+    "scriptures/1-nephi-22.9-12.md",
+    "book-review/saints-book-1-the-standard-of-truth-1815-1846.md",
+    "christianity/1-nephi-22-gathered-by-his-covenants.md",
+    "code/2024-02-02-libby.py",
+    "code",
+    "book-review/getting-to-yes.md",
+    "book-review/mindset.md",
+    "book-review/the-storytelling-animal.md",
+    "book-review/the-body.md",
+    "book-review/radical-candor.md",
+    "book-review/why-we-sleep.md",
+    "book-review/think-again.md",
+    "book-review/four-thousand-weeks.md",
+    "book-review/when-breath-becomes-air.md",
+    "book-review/every-city-is-every-other-city.md",
+    "book-review/deep-work.md",
+    "book-review/willpower.md",
+    "book-review/sapiens.md",
+    "book-review/give-and-take.md",
+    "book-review/steve-jobs.md",
+    "book-review/the-giver.md",
+    "book-review/zero-to-one.md",
+    "book-review/the-power-of-regret.md",
+    "book-review/the-willpower-instinct.md",
+    "book-review/the-richest-man-in-babylon.md",
+    "book-review/good-to-great.md",
+    "book-review/start-with-why.md",
     "img/dalle-image-divinely-discontent.jpeg",
-    "tech/llm-chatbot-arena-leaderboard.md",
     "img/photo-screenshot-leaderboard-llm-short.jpeg",
     "img/photo-screenshot-chatbot-arena-leaderboard.jpeg",
-    "gratitude/bowling.md",
     "img/photo-llm-chat-arena-prompt.jpeg",
     "img/photo-llm-chat-arena-choose.jpeg",
     "img/dalle-bowling-disco.jpeg",
-    "gratitude/home-depot-saturday-morning-crafts.md",
     "img/dalle-kid-building-a-house.jpeg",
-    "christianity/1-nephi-21-he-has-not-forgotten-you.md",
     "img/dalle-graven-thee-on-the-palms.jpeg",
-    "book-review/the-old-man-and-the-sea.md",
-    "posts/the-iceberg-theory-theory-of-omission.md",
     "img/dalle-old-man-and-marlin.jpeg",
-    "concepts/frank-herbert.md",
-    "book-review/how-to-win-friends-and-influence-people.md",
-    "book-review/wool.md",
-    "goals/2024-02-03.md",
-    "christianity/1-nephi-19-yieldeth-himself.md",
-    "christianity/1-nephi-20-baptism-in-the-old-testament.md",
-    "book-review/saints-book-1-the-standard-of-truth-1815-1846.md",
-    "posts/how-to-blog-with-obsidian-and-quarto.md",
-    "tech/holiday-demand-forecasting-using-xgboost.md",
     "img/dalle-river-jordan-baptism.jpeg",
-    "scriptures/galatians-3.27-29.md",
-    "scriptures/moses-6.64-68.md",
-    "scriptures/1-nephi-13.26.md",
-    "scriptures/isaiah-48.1.md",
-    "scriptures/1-kings-7.md",
-    "scriptures/1-nephi-20.1.md",
-    "gratitude/peloton.md",
-    "goals/2024-02-02.md",
-    "book-review/shift.md",
     "innovate",
     "docs/gratitude/imagination.html",
     "docs/gratitude/chirping-birds.html",
@@ -184,8 +186,6 @@
     "docs/scriptures/3-nephi-18.22.html",
     "docs/scriptures/luke-7.39.html",
     "docs/scriptures/2-nephi-2.7.html",
-    "docs/scriptures/mark-15.46.html",
-    "docs/scriptures/1-nephi-15.23-25.html",
-    "docs/scriptures/john-10.17-18.html"
+    "docs/scriptures/mark-15.46.html"
   ]
 }
