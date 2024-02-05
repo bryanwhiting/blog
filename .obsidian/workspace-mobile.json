@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/bowling.md",
+                "file": "tech/the-divinely-discontent-chatbot-user.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "gratitude/bowling.md",
+            "file": "tech/the-divinely-discontent-chatbot-user.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "gratitude/bowling.md"
+            "file": "tech/the-divinely-discontent-chatbot-user.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "gratitude/bowling.md",
+            "file": "tech/the-divinely-discontent-chatbot-user.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,16 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-image-divinely-discontent.jpeg",
+    "tech/llm-chatbot-arena-leaderboard.md",
+    "tech/the-divinely-discontent-chatbot-user.md",
+    "img/photo-screenshot-leaderboard-llm-short.jpeg",
+    "img/photo-screenshot-chatbot-arena-leaderboard.jpeg",
+    "gratitude/bowling.md",
+    "img/photo-llm-chat-arena-prompt.jpeg",
+    "img/photo-llm-chat-arena-choose.jpeg",
     "img/dalle-bowling-disco.jpeg",
     "gratitude/home-depot-saturday-morning-crafts.md",
-    "gratitude/bowling.md",
     "img/dalle-kid-building-a-house.jpeg",
     "christianity/1-nephi-21-he-has-not-forgotten-you.md",
     "img/dalle-graven-thee-on-the-palms.jpeg",
@@ -170,13 +177,6 @@
     "img/dalle-stationary-bike.jpeg",
     "goals/2024-02-02.md",
     "book-review/shift.md",
-    "img/photo-doordash-holiday-xgboost.jpeg",
-    "news/2024-02-02-news-notes.md",
-    "lists/reading-ethos.md",
-    "img/dalle-image-compound-interest-and-reading-a-book.jpeg",
-    "img/compound-interest-reading-book.webp",
-    "img/dalle-old-man-and-the-fish-tacos.jpeg",
-    "img/photo-privategpt.jpeg",
     "innovate",
     "docs/gratitude/imagination.html",
     "docs/gratitude/chirping-birds.html",

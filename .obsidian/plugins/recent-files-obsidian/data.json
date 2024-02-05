@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "the-divinely-discontent-chatbot-user",
+      "path": "tech/the-divinely-discontent-chatbot-user.md"
+    },
+    {
+      "basename": "llm-chatbot-arena-leaderboard",
+      "path": "tech/llm-chatbot-arena-leaderboard.md"
+    },
+    {
       "basename": "bowling",
       "path": "gratitude/bowling.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "1-nephi-14-convincing-unto-peace",
       "path": "christianity/1-nephi-14-convincing-unto-peace.md"
-    },
-    {
-      "basename": "youtube",
-      "path": "gratitude/youtube.md"
-    },
-    {
-      "basename": "2024-01-31",
-      "path": "goals/2024-01-31.md"
     }
   ],
   "omittedPaths": [],
