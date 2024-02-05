@@ -13,4 +13,4 @@ Where else can you learn how to cook, listen to a book or podcast, watch a docum
 
 YouTube is an amazing platform that offers so much to the world for free. 
 
-![YouTube glorifidd](../img/dalle-youtube-glorified.jpeg){.preview-image}
+![YouTube glorified](../img/dalle-youtube-glorified.jpeg){.preview-image}

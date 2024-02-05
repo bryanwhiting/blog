@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: Blog
 comments: false
 fields: [image, title, date]
 listing:
@@ -55,6 +55,7 @@ title-block-banner: false
 Musings on [tech](tech.qmd), [faith](christianity.qmd), [gratitude](gratitude.qmd), [books I'm reading](books.qmd) and [anything else](posts.qmd). 
 
 ## Recent Thoughts
+
 Posts on [tech](tech.qmd) and spurious [thoughts](posts.qmd).
 
 :::{#landing-posts}
