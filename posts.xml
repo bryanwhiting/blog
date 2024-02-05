@@ -10,7 +10,39 @@
 <atom:link href="https://www.bryanwhiting.com/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Fri, 02 Feb 2024 12:17:17 GMT</lastBuildDate>
+<lastBuildDate>Sat, 03 Feb 2024 12:44:41 GMT</lastBuildDate>
+<item>
+  <title>The Iceberg Theory - Theory of Omission</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/the-iceberg-theory-theory-of-omission.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Hemingway introduced through his writing style the <a href="https://www.ijfmr.com/papers/2023/1/1646.pdf">Iceberg Theory</a>. It was something I noticed while reading <a href="../book-review/the-old-man-and-the-sea.html">The Old Man and the Sea</a>. You feel the depth of emotion from the “actions and dialogue”, rather than explicit descriptions.</p>
+<p>It’s fun to contrast that with <a href="../concepts/frank-herbert.html">Frank Herbert</a>’s style which is “lay out the environment, have dialogue, then draw conclusions in the mind”.</p>
+<p>Both styles speak to the thought that the writing is more interesting the less you write about. The Old Man and the Sea can be summarized in one sentence: an old guy catches the biggest of his life and it gets eaten before he makes it home.</p>
+<p>But I haven’t told you anything about the incredibly boring (on the surface) story. You just <em>feel</em> so much while reading it. You feel for the old man through the young boy. You feel for him as he teeters between passing out and existing. You remember the breaking points in your own life and want the man desperately to succeed. Luck, however, was not on his side.</p>
+<p>“Talk less. Smile more.” - Hamilton</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-old-man-and-marlin.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Let their mind wander</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>storytelling</category>
+  <category>writing</category>
+  <category>creativity</category>
+  <guid>https://www.bryanwhiting.com/posts/the-iceberg-theory-theory-of-omission.html</guid>
+  <pubDate>Sat, 03 Feb 2024 12:44:41 GMT</pubDate>
+</item>
 <item>
   <title>The Compounding Interest of Reading</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -978,46 +1010,6 @@ with zipfile.ZipFile(zip_file_path, "w") as zipf:
   <category>decisions</category>
   <guid>https://www.bryanwhiting.com/posts/the-multiverse-of-careers.html</guid>
   <pubDate>Thu, 04 Jan 2024 13:00:31 GMT</pubDate>
-</item>
-<item>
-  <title>30 Seconds is All You Get</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/30-seconds-for-payment.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Apple iTunes changed the music industry forever with one simple decision: the preview of a song should be 30 seconds long.</p>
-<p>This little change dramatically altered how music sounds today. I’ve recently listened to some bangers that were only 90 seconds long. They left me hanging.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-listening-to-music-colorful.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Enjoy the music while it lasts</figcaption>
-</figure>
-</div>
-<p>Why was my song so short? Because nobody gets paid after 30 seconds.</p>
-<ol type="1">
-<li>Apple’s decision made artists want to have more interesting 30 seconds in the iTunes Store</li>
-<li>That evolved into: an artist doesn’t get paid if you don’t listen at least 30 seconds. And they don’t get paid any more if you listen 31 or 900 seconds. In fact, they get paid more if you listen to two songs, 30s a piece.</li>
-</ol>
-<p>Spotify, Amazon, YouTube, Apple, etc all pay based on views. They each define views their own way, but they need to negotiate with the labels who already decided to agree to Apple’s 30s schemes in the early 2000’s. They may have different payment schemes, but some have a scheme of “take all revenue, distribute it according to the artist’s share of views.” So if I pay $10/mo for Spotify and don’t use it, my money goes to someone I didn’t listen to.</p>
-<p>So how do small artists compete? They’ve got to build their following. Proportionally, the major artists (rather, their labels) soak up all the streaming royalties.</p>
-<p>What would be more fair is if my $10 went to the artists I actually listened to, as if I bought their music.</p>
-<p>Why does any of this matter? Algorithms. Optimization. Monetization.</p>
-<p>Incentives drive outcomes. How we designed our music payment incentives altered music forever (try to be super catchy for 30s). Now, with AI, music can be created much faster which will dilute the pool.</p>
-<p>In the end, one simple decision changed billions of lives. 30s? That’s all you need to get paid.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>music</category>
-  <category>economics</category>
-  <category>incentives</category>
-  <category>posts</category>
-  <guid>https://www.bryanwhiting.com/posts/30-seconds-for-payment.html</guid>
-  <pubDate>Thu, 04 Jan 2024 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

@@ -10,7 +10,242 @@
 <atom:link href="https://www.bryanwhiting.com/all.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Fri, 02 Feb 2024 23:59:00 GMT</lastBuildDate>
+<lastBuildDate>Sun, 04 Feb 2024 21:17:43 GMT</lastBuildDate>
+<item>
+  <title>The Divinely Discontent Chatbot User</title>
+  <link>https://www.bryanwhiting.com/tech/the-divinely-discontent-chatbot-user.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="there-is-divine-discontent-in-the-consumer-appetite" class="level1 page-columns page-full">
+<h1>There is Divine Discontent in the Consumer Appetite</h1>
+<p>Jeff Bezos alluded to the “divinely discontent” customer in a 2017 shareholder letter (<a href="https://aws.amazon.com/executive-insights/content/how-amazon-defines-and-operationalizes-a-day-1-culture/">Elements of Amazon’s Day 1 Culture | AWS Executive Insights</a>).</p>
+<blockquote class="blockquote">
+<p>One thing I love about customers is that they are divinely discontent. Their expectations are never static – they go up. It’s human nature. We didn’t ascend from our hunter-gatherer days by being satisfied. People have a voracious appetite for a better way, and yesterday’s ‘wow’ quickly becomes today’s ‘ordinary’. I see that cycle of improvement happening at a faster rate than ever before <a href="https://s2.q4cdn.com/299287126/files/doc_financials/annual/Amazon_Shareholder_Letter.pdf">2017 Amazon_Shareholder_Letter.pdf</a></p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-image-divinely-discontent.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Image: Divine Discontent</figcaption>
+</figure>
+</div>
+<p>More googling shows the phrase was also used by Neal A Maxwell in 1976 (<a href="https://www.churchofjesuschrist.org/study/general-conference/1976/10/notwithstanding-my-weakness?lang=eng">Notwithstanding My Weakness</a>):</p>
+<blockquote class="blockquote">
+<p>What can we do to manage these vexing feelings of inadequacy? Here are but a few suggestions: (1) We can distinguish more clearly between <strong>divine discontent</strong> and the devil’s dissonance, between dissatisfaction with self and disdain for self. We need the first and must shun the second, remembering that when conscience calls to us from the next ridge, it is not solely to scold but also to beckon.</p>
+</blockquote>
+<p>(Just dropping that in case Bezos gets all the credit for the term 😉.)</p>
+</section>
+<section id="llm-discontent" class="level1">
+<h1>LLM Discontent</h1>
+<p>People grappling with building LLMs are facing this discontent at an alarming rate. The <a href="../tech/llm-chatbot-arena-leaderboard.html">LLM Chatbot Arena Leaderboard</a> is a testament to how quickly appetites will change. Many AI tool providers refrain from vendor lock in and try to build LLM agnostic tooling.</p>
+<p>How do you compete? Well, most of us aren’t building these foundational models. How do they compete with each other? None of us care. We just want a good one.</p>
+<p>But ask yourself, would you rather have Bard from today or nothing from 2022?</p>
+<p>These leaderboards are fascinating because in 14 months since ChatGPT emerged we’ve become so reliant on these tools but yet they’re not even old enough to walk or talk by human standards. Yet we now have Bard, ChatGPT, LLaMA, Mistral, Claude, and whatever’s cooking at Amazon/Apple/Microsoft (behind the scenes as a contingency plan I’m sure) and the Chinese/Indian companies that don’t want to rely on the U.S.</p>
+<p>It’s the early days of search: Yahoo, AOL, Ask Jeeves, etc. One will emerge as your favorite perhaps, like how we all use Google even though Bing probably isn’t that bad anymore (I wouldn’t know…).<sup>1</sup></p>
+<p>Point is: it’s a race to the bottom, the customer is fickle. They know this, which is why they keep releasing new stuff every 6 months.</p>
+<p>Point is: as you build your LLM application, your customer will be divinely discontent with <em>you</em>. This is nothing knew, it’s just the age of software development.</p>
+<p>Expectations of what software can do are rising. Those expectations are becoming indiscernible from the magic that software is becoming.</p>
+
+
+</section>
+<aside id="footnotes" class="footnotes footnotes-end-of-document">
+<hr>
+<ol>
+<li id="fn1"><p>Edge is better than Chrome for now in LLM usage!↩︎</p></li>
+</ol>
+</aside>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>software</category>
+  <category>saas</category>
+  <category>llm</category>
+  <category>ai</category>
+  <category>ai strategy</category>
+  <guid>https://www.bryanwhiting.com/tech/the-divinely-discontent-chatbot-user.html</guid>
+  <pubDate>Sun, 04 Feb 2024 21:17:43 GMT</pubDate>
+</item>
+<item>
+  <title>LLM Chatbot Arena Leaderboard</title>
+  <link>https://www.bryanwhiting.com/tech/llm-chatbot-arena-leaderboard.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I just came across the <a href="https://chat.lmsys.org/">Chatbot Arena</a>, a place where you can put up a prompt and vote on which LLM has the best output. The leaderboard is here: <a href="https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard">LMSys Chatbot Arena Leaderboard - a Hugging Face Space by lmsys</a></p>
+<section id="chatbot-arena" class="level1 page-columns page-full">
+<h1>Chatbot Arena</h1>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/photo-llm-chat-arena-prompt.jpeg" class="img-fluid figure-img"></p>
+<figcaption class="margin-caption">Prompt</figcaption>
+</figure>
+</div>
+<p>And after you enter a prompt you can choose, but they don’t tell you the name until you vote.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/photo-llm-chat-arena-choose.jpeg" class="img-fluid figure-img"></p>
+<figcaption class="margin-caption">Choose</figcaption>
+</figure>
+</div>
+</section>
+<section id="leaderboard" class="level1 page-columns page-full">
+<h1>Leaderboard</h1>
+<p>And the output looks like this:</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/photo-screenshot-leaderboard-llm-short.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Leaderboard</figcaption>
+</figure>
+</div>
+<p>Full page:</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/photo-screenshot-chatbot-arena-leaderboard.jpeg" class="img-fluid figure-img"></p>
+<figcaption class="margin-caption">Leaderboard</figcaption>
+</figure>
+</div>
+
+
+</section>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>llm benchmarks</category>
+  <category>ai</category>
+  <category>ai tools</category>
+  <category>ai benchmarks</category>
+  <guid>https://www.bryanwhiting.com/tech/llm-chatbot-arena-leaderboard.html</guid>
+  <pubDate>Sun, 04 Feb 2024 21:08:22 GMT</pubDate>
+</item>
+<item>
+  <title>I’m Grateful for bowling</title>
+  <link>https://www.bryanwhiting.com/gratitude/bowling.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>The car is put into park in the dark parking lot of the bowling alley. Rain descends, prompting hurried feet. The building door opens and we walk inside. <em>It’s bowling time.</em></p>
+<p>Friends congregate, treats are consumed, and heavyweight spheroids enjoy the frictionless motion governed by Newtonian laws. The gutters are greedier than the pins, but regardless of where the ball ends up the hurler offers up a dance to the bowling gods, a laugh of disappointment, or a thrill of surprise. This has been the states of bowling regardless of the bowler’s age, across all known ages of my life.</p>
+<p>The conversations, the dancing, the music, the flashing lights, the cheap food, the magic of self-returning balls - it is its own realm of simple enjoyment. Bowling won’t sell out stadiums, it’s rather boring compared to action sports. But that doesn’t stop anyone from enjoying it, and that’s why it’s a gift to humanity.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-bowling-disco.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Bowl like there’s no tomorrow</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>gratitude</category>
+  <category>sports</category>
+  <guid>https://www.bryanwhiting.com/gratitude/bowling.html</guid>
+  <pubDate>Sun, 04 Feb 2024 13:18:49 GMT</pubDate>
+</item>
+<item>
+  <title>I’m Grateful for Home Depot Saturday Morning Crafts</title>
+  <link>https://www.bryanwhiting.com/gratitude/home-depot-saturday-morning-crafts.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Home Depot gives out little assembly kits for kids on the first Saturday of every month. A few screws. A few pieces of wood. A simple design.</p>
+<p>The chatter between children increases the closer they get to the supplier: a Home Depot working handing out presents to eager children.</p>
+<p>Impatience grows the closer to the bag’s opening they become. They see other kids nearly finished around them. They can’t wait.</p>
+<p>And so repeat the experience every first Saturday of every new month.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-kid-building-a-house.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Dream big, little one</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>gratitude</category>
+  <guid>https://www.bryanwhiting.com/gratitude/home-depot-saturday-morning-crafts.html</guid>
+  <pubDate>Sat, 03 Feb 2024 13:01:10 GMT</pubDate>
+</item>
+<item>
+  <title>The Iceberg Theory - Theory of Omission</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/the-iceberg-theory-theory-of-omission.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Hemingway introduced through his writing style the <a href="https://www.ijfmr.com/papers/2023/1/1646.pdf">Iceberg Theory</a>. It was something I noticed while reading <a href="../book-review/the-old-man-and-the-sea.html">The Old Man and the Sea</a>. You feel the depth of emotion from the “actions and dialogue”, rather than explicit descriptions.</p>
+<p>It’s fun to contrast that with <a href="../concepts/frank-herbert.html">Frank Herbert</a>’s style which is “lay out the environment, have dialogue, then draw conclusions in the mind”.</p>
+<p>Both styles speak to the thought that the writing is more interesting the less you write about. The Old Man and the Sea can be summarized in one sentence: an old guy catches the biggest of his life and it gets eaten before he makes it home.</p>
+<p>But I haven’t told you anything about the incredibly boring (on the surface) story. You just <em>feel</em> so much while reading it. You feel for the old man through the young boy. You feel for him as he teeters between passing out and existing. You remember the breaking points in your own life and want the man desperately to succeed. Luck, however, was not on his side.</p>
+<p>“Talk less. Smile more.” - Hamilton</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-old-man-and-marlin.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Let their mind wander</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>storytelling</category>
+  <category>writing</category>
+  <category>creativity</category>
+  <guid>https://www.bryanwhiting.com/posts/the-iceberg-theory-theory-of-omission.html</guid>
+  <pubDate>Sat, 03 Feb 2024 12:44:41 GMT</pubDate>
+</item>
+<item>
+  <title>1 Nephi 21 - I Have Graven Thee</title>
+  <link>https://www.bryanwhiting.com/christianity/1-nephi-21-he-has-not-forgotten-you.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="scriptures" class="level1 page-columns page-full">
+<h1>Scriptures</h1>
+<p>The Lord reminds us he had not forgotten us:</p>
+<blockquote class="blockquote">
+<p>But, behold, Zion hath said: The Lord hath forsaken me, and my Lord hath forgotten me—but he will show that he hath not. 15 For can a woman forget her sucking child, that she should not have compassion on the son of her womb? Yea, they may forget, yet will I not forget thee, O house of Israel. 16 Behold, I <strong>have graven thee upon the palms of my hands</strong>; thy walls are continually before me. <a href="../scriptures/1-nephi-21.14-16">1 Nephi 21.14–16</a></p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-graven-thee-on-the-palms.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Graven thee</figcaption>
+</figure>
+</div>
+</section>
+<section id="meaning" class="level1">
+<h1>Meaning</h1>
+<ul>
+<li>In hard moments it’s important to remember He is the way. He is in charge. He has not forgotten us.</li>
+</ul>
+
+
+</section>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>christianity</category>
+  <category>come follow me</category>
+  <guid>https://www.bryanwhiting.com/christianity/1-nephi-21-he-has-not-forgotten-you.html</guid>
+  <pubDate>Sat, 03 Feb 2024 00:38:00 GMT</pubDate>
+</item>
 <item>
   <title>1 Nephi 20 - Baptism in the Old Testament</title>
   <link>https://www.bryanwhiting.com/christianity/1-nephi-20-baptism-in-the-old-testament.html</link>
@@ -401,7 +636,7 @@
 
 
 
-<section id="scriptures" class="level1">
+<section id="scriptures" class="level1 page-columns page-full">
 <h1>Scriptures</h1>
 <p>On Sunday I was thinking about <a href="../sacrament-symbols/bread-given-freely-like-his-life.html">Bread given freely, like His life</a>. It’s powerful to read this verse today:</p>
 <blockquote class="blockquote">
@@ -420,7 +655,15 @@
 <li>There are prophets who have testified of the Lord whom we don’t have records from.</li>
 <li>Jesus delivered the Israelites. → the Israelites then delivered him unto the cross.</li>
 </ul>
-<p><img src="https://www.bryanwhiting.com/img/dalle-cattle-ranch-gate.jpeg" class="preview-image img-fluid" alt="The Lord is the rancher. He controls the gate. He delivers. We’re just wandering without him"> # Meaning</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-cattle-ranch-gate.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">The Lord is the rancher. He controls the gate. He delivers. We’re just wandering without him</figcaption>
+</figure>
+</div>
+</section>
+<section id="meaning" class="level1">
+<h1>Meaning</h1>
 <p>Every scripture in the Book of Mormon can contain some or many truths about the Savior. There’s always something to learn.</p>
 <p>Humility is the process of putting the Lord’s wishes above my own, as He put the Father’s wishes above perhaps his own (yet they are one).</p>
 
@@ -448,6 +691,7 @@
 <li>thank goodness they’re not as intelligent as those who kill them, though they’re more noble and able</li>
 <li>Let him believe I am more man than I AM and I will be so</li>
 <li>“The thousand times he had proved it didn’t matter now. He needs to prove it again anew that he’s a man”</li>
+<li>Boy: “I have so much to learn from you” - after the boy has just gotten “lucky”.</li>
 </ul>
 <p>Storytelling</p>
 <ul>
@@ -573,175 +817,6 @@ with zipfile.ZipFile(zip_file_path, "w") as zipf:
   <category>blogging</category>
   <guid>https://www.bryanwhiting.com/posts/export-your-libby-timeline-to-obsidian.html</guid>
   <pubDate>Thu, 01 Feb 2024 14:32:35 GMT</pubDate>
-</item>
-<item>
-  <title>I’m Grateful for Basketball</title>
-  <link>https://www.bryanwhiting.com/gratitude/basketball.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Just played some ball tonight. Not sure who invented this game, but it’s really come a long way.</p>
-<p>The cool thing is that you can be horrible at shooting and still find a way to contribute. There are a lot of skills and abilities that make a good team.</p>
-<p>I play with the same 20 guys, and it’s amazing how different combinations of 5 people play so differently. The flow, the passing, the defense - it all varies with who’ve you got on the court. And that’s what makes it fun. Sometimes you contribute more. Sometimes less.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/Dalle-basketball.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Basketball</figcaption>
-</figure>
-</div>
-<p>I’ve played it my whole life, though never well. I played in rec leagues in college. In rec leagues in high school. And now with a bunch of folks who just love the game. And that’s why it’s fun: it brings people together.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>gratitude</category>
-  <guid>https://www.bryanwhiting.com/gratitude/basketball.html</guid>
-  <pubDate>Wed, 31 Jan 2024 23:44:35 GMT</pubDate>
-</item>
-<item>
-  <title>1 Nephi 18 - The Power of Prayer</title>
-  <link>https://www.bryanwhiting.com/christianity/1-nephi-18-prayer.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="scriptures" class="level1">
-<h1>Scriptures</h1>
-<p>Nephi has two powerful verses about prayer:</p>
-<blockquote class="blockquote">
-<p>And I, Nephi, did go into the mount oft, and I did pray oft unto the Lord; wherefore the Lord showed unto me great things. <a href="../scriptures/1-nephi-18.3">1 Nephi 18.3</a></p>
-</blockquote>
-<p>When we pray often, we are shown great things. And then after he’s tied up and being beaten by his brothers. According to what he wrote, this is the first thing he did when he was released:</p>
-<blockquote class="blockquote">
-<p>And it came to pass that I prayed unto the Lord; and after I had prayed the winds did cease, and the storm did cease, and there was a great calm. <a href="../scriptures/1-nephi-18.21">1 Nephi 18.21</a></p>
-</blockquote>
-</section>
-<section id="meaning" class="level1">
-<h1>Meaning</h1>
-<p>Do I turn to the Lord the moment something goes wrong? <a href="christianity/turn-to-god-not-your-idols.md">Turn to God in All Things, and Not Your Idols</a></p>
-<p>The winds in our life can cease when we turn to God.</p>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>christianity</category>
-  <category>come follow me</category>
-  <category>prayer</category>
-  <category>adversity</category>
-  <guid>https://www.bryanwhiting.com/christianity/1-nephi-18-prayer.html</guid>
-  <pubDate>Wed, 31 Jan 2024 23:24:13 GMT</pubDate>
-</item>
-<item>
-  <title>The Loop</title>
-  <dc:creator>Jacob Ward</dc:creator>
-  <link>https://www.bryanwhiting.com/book-review/the-loop.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/book-the-loop.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">The Loop</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book-review</category>
-  <category>tech</category>
-  <guid>https://www.bryanwhiting.com/book-review/the-loop.html</guid>
-  <pubDate>Wed, 31 Jan 2024 22:41:22 GMT</pubDate>
-</item>
-<item>
-  <title>Influence The Psychology of Persuasion</title>
-  <dc:creator>Robert Cialdini</dc:creator>
-  <link>https://www.bryanwhiting.com/book-review/influence-the-psychology-of-persuasion.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>2024-01-30 - Ackerman method from <a href="../book-review/never-split-the-difference.html">Never Split the Difference</a> applies to the concept of anchoring. Better to anchor at $2 then tell them $200 off than play a joke at $10000 but only offer $200. - Reciprocity - the small things compound over time. Give more than you expect to get. - “Because”. Giving reasons is persuasive, that word is a trigger.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/book-influence-the-psychology-of-persuasion.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Influence</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book-review</category>
-  <guid>https://www.bryanwhiting.com/book-review/influence-the-psychology-of-persuasion.html</guid>
-  <pubDate>Wed, 31 Jan 2024 20:31:02 GMT</pubDate>
-</item>
-<item>
-  <title>1 Nephi 17 - He will strengthen us</title>
-  <link>https://www.bryanwhiting.com/christianity/1-nephi-17-strength.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="scriptures" class="level1">
-<h1>Scriptures</h1>
-<p>Consider how the Lord provided for Nephi and his people</p>
-<blockquote class="blockquote">
-<p>And so great were the blessings of the Lord upon us, that while we did live upon raw meat in the wilderness, our women did give plenty of suck for their children, and were strong, yea, even like unto the men; and they began to bear their journeyings without murmurings.<br>
-And thus we see that the commandments of God must be fulfilled. And if it so be that the children of men keep the commandments of God he <strong>doth nourish them, and strengthen them</strong>, and provide means whereby they can accomplish the thing which he has commanded them; wherefore, he did provide means for us while we did sojourn in the wilderness. <a href="../scriptures/1-nephi-17.2-3">1 Nephi 17.2–3</a></p>
-</blockquote>
-<p><img src="https://www.bryanwhiting.com/img/dalle-1-nephi-17-journey-in-wilderness.jpeg" class="preview-image img-fluid" alt="Journeying"> # Meaning</p>
-<p>The Lord intends to strengthen me to overcome the trials ahead, not to take them away. The purpose of the life is to be strengthen. Whenever we feel overwhelmed, we can take those things to the Lord.</p>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>christianity</category>
-  <category>come follow me</category>
-  <category>strength</category>
-  <category>trust in the Lord</category>
-  <guid>https://www.bryanwhiting.com/christianity/1-nephi-17-strength.html</guid>
-  <pubDate>Tue, 30 Jan 2024 18:08:00 GMT</pubDate>
-</item>
-<item>
-  <title>I’m Grateful for YouTube</title>
-  <link>https://www.bryanwhiting.com/gratitude/youtube.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Where else can you learn how to cook, listen to a book or podcast, watch a documentary, listen to music and so much more?</p>
-<p>YouTube is an amazing platform that offers so much to the world for free.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-youtube-glorified.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">YouTube glorified</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>gratitude</category>
-  <category>tech</category>
-  <guid>https://www.bryanwhiting.com/gratitude/youtube.html</guid>
-  <pubDate>Tue, 30 Jan 2024 17:57:18 GMT</pubDate>
 </item>
 </channel>
 </rss>
