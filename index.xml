@@ -10,7 +10,46 @@
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Sun, 04 Feb 2024 23:28:38 GMT</lastBuildDate>
+<lastBuildDate>Mon, 05 Feb 2024 12:31:54 GMT</lastBuildDate>
+<item>
+  <title>Embedding audio in Quarto</title>
+  <link>https://www.bryanwhiting.com/tech/embedding-audio-in-quarto.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I want to embed just a plain audio file in my blog post.</p>
+<p>Check out <a href="../creative/guitar-clouds.html">Guitar: Clouds</a>, where I embed some audio using the quarto video short link: <a href="https://quarto.org/docs/authoring/videos.html">Quarto – Videos</a>.</p>
+<p>My process:</p>
+<ul>
+<li>take a voice recording with my voice notes on iOS.</li>
+<li>Save to files, I did audio/ folder (<a href="../posts/quarto-from-phone/index.html">How to blog from your phone using quarto (or hugo/jekyll/etc) using Working Copy and Obsidian</a>)</li>
+<li>Then if I link using a standard markdown link it’ll create an audio recording in a new browser. If I use the video shortcode then quarto will embed it as a video right in the post (doesn’t open a new browser). You can adjust the height so it’s not a massive black screen.</li>
+</ul>
+<pre><code>
+Song snippet today: [2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds.m4a) 3rd capo, G, Em, C, G with some pinky action. 
+
+
+&lt;-- This works on safari, not chrome --&gt; 
+
+![2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds.m4a)
+
+
+</code></pre>
+<p>Hope this helps someone!</p>
+<p>Note, the second way (<code>the ![]</code>) approach only works on safari for some reason. The audio link wouldn’t appear on Chrome.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>quarto</category>
+  <category>blogging</category>
+  <guid>https://www.bryanwhiting.com/tech/embedding-audio-in-quarto.html</guid>
+  <pubDate>Mon, 05 Feb 2024 12:31:54 GMT</pubDate>
+</item>
 <item>
   <title>1 Nephi 22 - His Covenants will be the key of the Gathering of Israel</title>
   <link>https://www.bryanwhiting.com/christianity/1-nephi-22-gathered-by-his-covenants.html</link>
@@ -717,41 +756,6 @@
   <category>come follow me</category>
   <guid>https://www.bryanwhiting.com/christianity/1-nephi-19-yieldeth-himself.html</guid>
   <pubDate>Thu, 01 Feb 2024 23:19:39 GMT</pubDate>
-</item>
-<item>
-  <title>The Old Man and the Sea</title>
-  <dc:creator>Ernest Hemingway</dc:creator>
-  <link>https://www.bryanwhiting.com/book-review/the-old-man-and-the-sea.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>2024-02-02</p>
-<ul>
-<li>thank goodness they’re not as intelligent as those who kill them, though they’re more noble and able</li>
-<li>Let him believe I am more man than I AM and I will be so</li>
-<li>“The thousand times he had proved it didn’t matter now. He needs to prove it again anew that he’s a man”</li>
-<li>Boy: “I have so much to learn from you” - after the boy has just gotten “lucky”.</li>
-</ul>
-<p>Storytelling</p>
-<ul>
-<li>I love how he speaks a thought, then follows up with reality. Like “come on, catch the hook” “but the hook did not catch”</li>
-<li>Repetitive words used in new ways evoke new meaning</li>
-<li>Keep it simple. <a href="../posts/mark-cuban-mogul-support.html">Mark Cuban Mogul Support</a> - don’t use a big word when a simpler one will do. He evokes strong emotion without much fanciful language.</li>
-<li>Your mind fills in the blanks. He encodes the intuition of 50 years of fishing in plain words. “I’ve got enough line…” is not a calculation. <a href="../book-review/wool.html">Wool</a> and <a href="../book-review/dune.html">Dune</a> are much more</li>
-</ul>
-<p>2024-02-01 - first you borrow. Then you beg. - “This too was a fiction” - “Relics of his wife” - he waits to reveal his wife. - I was born for this. - He could think of nothing except endure <img src="https://www.bryanwhiting.com/img/book-the-old-man-and-the-sea.jpeg" class="preview-image img-fluid" alt="The Old Man and The Sea"></p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book-review</category>
-  <category>fiction</category>
-  <category>classics</category>
-  <guid>https://www.bryanwhiting.com/book-review/the-old-man-and-the-sea.html</guid>
-  <pubDate>Thu, 01 Feb 2024 21:27:44 GMT</pubDate>
 </item>
 </channel>
 </rss>

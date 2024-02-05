@@ -10,7 +10,46 @@
 <atom:link href="https://www.bryanwhiting.com/tech.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Sun, 04 Feb 2024 21:17:43 GMT</lastBuildDate>
+<lastBuildDate>Mon, 05 Feb 2024 12:31:54 GMT</lastBuildDate>
+<item>
+  <title>Embedding audio in Quarto</title>
+  <link>https://www.bryanwhiting.com/tech/embedding-audio-in-quarto.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I want to embed just a plain audio file in my blog post.</p>
+<p>Check out <a href="../creative/guitar-clouds.html">Guitar: Clouds</a>, where I embed some audio using the quarto video short link: <a href="https://quarto.org/docs/authoring/videos.html">Quarto – Videos</a>.</p>
+<p>My process:</p>
+<ul>
+<li>take a voice recording with my voice notes on iOS.</li>
+<li>Save to files, I did audio/ folder (<a href="../posts/quarto-from-phone/index.html">How to blog from your phone using quarto (or hugo/jekyll/etc) using Working Copy and Obsidian</a>)</li>
+<li>Then if I link using a standard markdown link it’ll create an audio recording in a new browser. If I use the video shortcode then quarto will embed it as a video right in the post (doesn’t open a new browser). You can adjust the height so it’s not a massive black screen.</li>
+</ul>
+<pre><code>
+Song snippet today: [2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds.m4a) 3rd capo, G, Em, C, G with some pinky action. 
+
+
+&lt;-- This works on safari, not chrome --&gt; 
+
+![2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds.m4a)
+
+
+</code></pre>
+<p>Hope this helps someone!</p>
+<p>Note, the second way (<code>the ![]</code>) approach only works on safari for some reason. The audio link wouldn’t appear on Chrome.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>quarto</category>
+  <category>blogging</category>
+  <guid>https://www.bryanwhiting.com/tech/embedding-audio-in-quarto.html</guid>
+  <pubDate>Mon, 05 Feb 2024 12:31:54 GMT</pubDate>
+</item>
 <item>
   <title>The Divinely Discontent Chatbot User</title>
   <link>https://www.bryanwhiting.com/tech/the-divinely-discontent-chatbot-user.html</link>
