@@ -5,6 +5,14 @@
       "path": "creative/guitar-clouds.md"
     },
     {
+      "basename": "avocados",
+      "path": "gratitude/avocados.md"
+    },
+    {
+      "basename": "Honduras",
+      "path": "concepts/Honduras.md"
+    },
+    {
       "basename": "embedding-audio-in-quarto",
       "path": "tech/embedding-audio-in-quarto.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "lm-studio",
       "path": "tech/lm-studio.md"
-    },
-    {
-      "basename": "compliments",
-      "path": "gratitude/compliments.md"
-    },
-    {
-      "basename": "export-your-libby-timeline-to-obsidian",
-      "path": "posts/export-your-libby-timeline-to-obsidian.md"
     }
   ],
   "omittedPaths": [],
