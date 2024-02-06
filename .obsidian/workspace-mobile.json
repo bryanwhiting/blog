@@ -15,7 +15,7 @@
               "state": {
                 "file": "creative/guitar-clouds.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 4
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -141,11 +141,13 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "tech/embedding-audio-in-quarto.md",
+    "creative/guitar-clouds.md",
+    "img/screenshot-audio-quarto-not-rendered.jpeg",
+    "img/screenshot-audio-obsidian-rendered.jpeg",
     "gratitude/avocados.md",
     "img/dalle-avocado-in-plenty.jpeg",
     "concepts/Honduras.md",
-    "creative/guitar-clouds.md",
-    "tech/embedding-audio-in-quarto.md",
     "creative/prose-the-thief-of-time.md",
     "creative/prose-red-eyed.md",
     "creative/ice-baths.md",
@@ -176,8 +178,6 @@
     "img/photo-screenshot-chatbot-arena-leaderboard.jpeg",
     "img/photo-llm-chat-arena-prompt.jpeg",
     "img/photo-llm-chat-arena-choose.jpeg",
-    "img/dalle-bowling-disco.jpeg",
-    "img/dalle-kid-building-a-house.jpeg",
     "innovate",
     "docs/gratitude/imagination.html",
     "docs/gratitude/chirping-birds.html",

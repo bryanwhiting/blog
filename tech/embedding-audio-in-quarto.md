@@ -45,3 +45,12 @@ But the mobile audio player is picked up:
 ![Mobile safari](../img/screenshot-quarto-audio-safari.jpeg){.preview-image}
 
 ![Mobile chrome](../img/screenshot-chrome-mobile-quarto-audio.jpeg)
+
+# Obsidian
+
+I like using this markdown syntax in Obsidian because that's where I write my notes. 
+
+![The markdown syntax](../img/screenshot-audio-quarto-not-rendered.jpeg)
+
+Because it appears like an audio player in app. The `{{< video xxxxxx >}}` syntax is a `quarto` thing and renders nicely. The `<audio>` tag is supposed to work but doesn't in my vault. 
+
