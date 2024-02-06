@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "worlds-longest-drive",
+      "path": "posts/worlds-longest-drive.md"
+    },
+    {
       "basename": "guitar-clouds",
       "path": "creative/guitar-clouds.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "private-gpt",
       "path": "tech/private-gpt.md"
-    },
-    {
-      "basename": "lm-studio",
-      "path": "tech/lm-studio.md"
     }
   ],
   "omittedPaths": [],

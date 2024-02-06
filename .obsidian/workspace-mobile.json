@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "creative/guitar-clouds.md",
+                "file": "posts/worlds-longest-drive.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "creative/guitar-clouds.md",
+            "file": "posts/worlds-longest-drive.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "creative/guitar-clouds.md"
+            "file": "posts/worlds-longest-drive.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "creative/guitar-clouds.md",
+            "file": "posts/worlds-longest-drive.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,11 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/screenshot-world-longest-drive.jpeg",
+    "creative/guitar-clouds.md",
+    "posts/worlds-longest-drive.md",
     "tech/embedding-audio-in-quarto.md",
     "img/screenshot-audio-tag-breaks-the-file.jpeg",
-    "creative/guitar-clouds.md",
     "img/screenshot-audio-quarto-not-rendered.jpeg",
     "img/screenshot-audio-obsidian-rendered.jpeg",
     "gratitude/avocados.md",
@@ -173,7 +175,6 @@
     "book-review/saints-book-1-the-standard-of-truth-1815-1846.md",
     "code/2024-02-02-libby.py",
     "code",
-    "book-review/getting-to-yes.md",
     "img/dalle-image-divinely-discontent.jpeg",
     "img/photo-screenshot-leaderboard-llm-short.jpeg",
     "img/photo-screenshot-chatbot-arena-leaderboard.jpeg",
