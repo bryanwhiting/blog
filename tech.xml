@@ -20,7 +20,7 @@
 
 
 
-<p>Let’s assume you have a raw HTML file on GitHub, such as a Jupyter notebook you rendered to HTML or a Quarto doc you rendered via <code>quarto render</code>.</p>
+<p>Let’s assume you have a raw HTML file on GitHub, such as a <a href="https://mljar.com/blog/jupyter-notebook-html/">Jupyter notebook you rendered to HTML</a> or a <a href="https://quarto.org/docs/output-formats/html-basics.html">Quarto</a> doc you rendered via <code>quarto render</code>.</p>
 <p>If you try to share the link from GitHub directly, GitHub will just show the raw HTML file.</p>
 <p>Use this link to convert it to your dashboard:</p>
 <p><a href="https://htmlpreview.github.io/">GitHub &amp; BitBucket HTML Preview</a></p>
@@ -33,10 +33,10 @@
 </figure>
 </div>
 <p>Preview using that link: https://htmlpreview.github.io/?https://github.com/bryanwhiting/blog/blob/gh-pages/index.html</p>
-<p>Notice the URL at the bottom</p>
+<p>Notice the URL at the bottom is not my site or my GitHub path.</p>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/screenshot-html-file-on-github-rendered.jpeg" class="preview-image img-fluid figure-img"></p>
+<p><img src="https://www.bryanwhiting.com/img/screenshot-html-file-on-github-rendered.jpeg" class="img-fluid figure-img"></p>
 <figcaption class="margin-caption">Render HTML</figcaption>
 </figure>
 </div>

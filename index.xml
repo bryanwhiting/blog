@@ -10,7 +10,41 @@
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Tue, 06 Feb 2024 09:44:38 GMT</lastBuildDate>
+<lastBuildDate>Tue, 06 Feb 2024 10:05:27 GMT</lastBuildDate>
+<item>
+  <title>I’m Grateful for Kindness</title>
+  <link>https://www.bryanwhiting.com/gratitude/kindness.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I’ve been the recipient of a lot of kindness in my life. I know anyone reading this has too. Kindness is a wonderful gift to give someone. It doesn’t cost anything to be kind.</p>
+<p>Ways people have been kind to me:</p>
+<ul>
+<li>Someone called me when they knew I was making a big decision to listen to me.</li>
+<li>Parents who showed me how to be kind to each other.</li>
+<li>A friend who complemented me.</li>
+<li>My wife who goes on dates with me and hangs out with me.</li>
+<li>A child who wants to give dad a hug.</li>
+</ul>
+<p>Kindness does need to be <em>received</em>, I’ve learned. Kindness can be received when things are going well, as well as when life is tricky, though kindness is probably most poignantly felt and appreciated during hard times. I think that’s a gift: to receive kindness. It’s also a gift to give. Who do you know that could use some kindness today?</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-image-kindness-watercolors-expressionist.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">“Kindness. Watercolors. Expressionist.” Seems like kindness takes the form of an angel per Dalle. I think that’s appropriate.</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>gratitude</category>
+  <category>parenting</category>
+  <guid>https://www.bryanwhiting.com/gratitude/kindness.html</guid>
+  <pubDate>Tue, 06 Feb 2024 10:05:27 GMT</pubDate>
+</item>
 <item>
   <title>How to share an HTML file (like a quarto output in GitHub)</title>
   <link>https://www.bryanwhiting.com/tech/how-to-share-an-html-file-like-a-quarto-output-in-github.html</link>
@@ -20,7 +54,7 @@
 
 
 
-<p>Let’s assume you have a raw HTML file on GitHub, such as a Jupyter notebook you rendered to HTML or a Quarto doc you rendered via <code>quarto render</code>.</p>
+<p>Let’s assume you have a raw HTML file on GitHub, such as a <a href="https://mljar.com/blog/jupyter-notebook-html/">Jupyter notebook you rendered to HTML</a> or a <a href="https://quarto.org/docs/output-formats/html-basics.html">Quarto</a> doc you rendered via <code>quarto render</code>.</p>
 <p>If you try to share the link from GitHub directly, GitHub will just show the raw HTML file.</p>
 <p>Use this link to convert it to your dashboard:</p>
 <p><a href="https://htmlpreview.github.io/">GitHub &amp; BitBucket HTML Preview</a></p>
@@ -33,10 +67,10 @@
 </figure>
 </div>
 <p>Preview using that link: https://htmlpreview.github.io/?https://github.com/bryanwhiting/blog/blob/gh-pages/index.html</p>
-<p>Notice the URL at the bottom</p>
+<p>Notice the URL at the bottom is not my site or my GitHub path.</p>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/screenshot-html-file-on-github-rendered.jpeg" class="preview-image img-fluid figure-img"></p>
+<p><img src="https://www.bryanwhiting.com/img/screenshot-html-file-on-github-rendered.jpeg" class="img-fluid figure-img"></p>
 <figcaption class="margin-caption">Render HTML</figcaption>
 </figure>
 </div>
@@ -773,34 +807,6 @@ Song snippet today: [2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds
   <category>open source</category>
   <guid>https://www.bryanwhiting.com/tech/private-gpt.html</guid>
   <pubDate>Fri, 02 Feb 2024 10:02:48 GMT</pubDate>
-</item>
-<item>
-  <title>LM Studio</title>
-  <link>https://www.bryanwhiting.com/tech/lm-studio.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="description" class="level1 page-columns page-full">
-<h1>description</h1>
-<p><a href="https://lmstudio.ai/">LM Studio - Discover, download, and run local LLMs</a></p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/photo-lm-studio.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">LM Studio</figcaption>
-</figure>
-</div>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>tech</category>
-  <category>ai tools</category>
-  <guid>https://www.bryanwhiting.com/tech/lm-studio.html</guid>
-  <pubDate>Fri, 02 Feb 2024 09:54:19 GMT</pubDate>
 </item>
 </channel>
 </rss>
