@@ -74,6 +74,7 @@ Song snippet today: [2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds
 <figcaption class="margin-caption">Chrome doesn’t pick up the audio player</figcaption>
 </figure>
 </div>
+<p>If I inspect the HTML I can see the audio tag is created in Chrome, it’s just not showing a player or anything.</p>
 <p>But the mobile audio player is picked up:</p>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
@@ -96,7 +97,25 @@ Song snippet today: [2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds
 <figcaption class="margin-caption">The markdown syntax</figcaption>
 </figure>
 </div>
-<p>Because it appears like an audio player in app. The <code></code> syntax is a <code>quarto</code> thing and renders nicely. The <code>&lt;audio&gt;</code> tag is supposed to work but doesn’t in my vault.</p>
+<p>Because it appears like an audio player in app. The <code></code> syntax is a <code>quarto</code> thing and renders nicely. The <code>&lt;audio&gt;</code> tag is supposed to work but doesn’t in my vault. In my app it looks like this;</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-audio-obsidian-rendered.jpeg" class="img-fluid figure-img"></p>
+<figcaption class="margin-caption">Rendered in quarto</figcaption>
+</figure>
+</div>
+<p>So yes, the markdown link is the most usable, works on most browsers, and works in Obsidian. Just doesn’t work on Chrome Web…(at least not on my version).</p>
+<p>Seems also that using the <code>&lt;audio&gt;</code> tag breaks my quarto:</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-audio-tag-breaks-the-file.jpeg" class="img-fluid figure-img"></p>
+<figcaption class="margin-caption">Broken file</figcaption>
+</figure>
+</div>
+</section>
+<section id="in-summary" class="level1">
+<h1>In Summary</h1>
+<p>I’ve found two ways of showing audio in quarto. 1) using the image syntax in markdown and 2) using a video shortcode. The markdown syntax works great locally on my iPhone and on most browsers, but the video shortcode seems to work on all browsers.</p>
 
 
 </section>
@@ -106,6 +125,7 @@ Song snippet today: [2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds
   <category>quarto</category>
   <category>blogging</category>
   <category>tutorial</category>
+  <category>obsidian</category>
   <guid>https://www.bryanwhiting.com/tech/embedding-audio-in-quarto.html</guid>
   <pubDate>Mon, 05 Feb 2024 12:31:54 GMT</pubDate>
 </item>
