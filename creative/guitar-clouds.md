@@ -14,9 +14,7 @@ Song snippet today: [2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds
 
 ![2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds.m4a)
 
-{{< video  ../audio/2024-02-05-guitar-clouds.m4a height="70" width="350" title="Clouds">}}
-
-{{< audio  ../audio/2024-02-05-guitar-clouds.m4a >}}
+{{< video  ../audio/2024-02-05-guitar-clouds.m4a height="70" width="350" title="Clouds" >}}
 
 
 Kids are like clouds. Soft and fluffy. Rain storms. Etc. as parents, we need the rain as much as we need the beautiful shapes. 
