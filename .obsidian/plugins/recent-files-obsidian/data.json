@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "2-nephi-1",
-      "path": "christianity/2-nephi-1.md"
+      "basename": "how-to-share-an-html-file-like-a-quarto-output-in-github",
+      "path": "tech/how-to-share-an-html-file-like-a-quarto-output-in-github.md"
     },
     {
       "basename": "2024-02-05",
       "path": "goals/2024-02-05.md"
+    },
+    {
+      "basename": "2024-02-06",
+      "path": "goals/2024-02-06.md"
+    },
+    {
+      "basename": "a-knife-to-a-gun-fight",
+      "path": "tech/a-knife-to-a-gun-fight.md"
+    },
+    {
+      "basename": "2-nephi-1",
+      "path": "christianity/2-nephi-1.md"
     },
     {
       "basename": "how-to-win-friends-and-influence-people",
@@ -187,18 +199,6 @@
     {
       "basename": "influence-the-psychology-of-persuasion",
       "path": "book-review/influence-the-psychology-of-persuasion.md"
-    },
-    {
-      "basename": "beam-ai",
-      "path": "tech/beam-ai.md"
-    },
-    {
-      "basename": "gpt4all",
-      "path": "tech/gpt4all.md"
-    },
-    {
-      "basename": "ai",
-      "path": "lists/ai.md"
     }
   ],
   "omittedPaths": [],

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/2-nephi-1.md",
+                "file": "tech/how-to-share-an-html-file-like-a-quarto-output-in-github.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/2-nephi-1.md",
+            "file": "tech/how-to-share-an-html-file-like-a-quarto-output-in-github.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/2-nephi-1.md"
+            "file": "tech/how-to-share-an-html-file-like-a-quarto-output-in-github.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/2-nephi-1.md",
+            "file": "tech/how-to-share-an-html-file-like-a-quarto-output-in-github.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,10 +141,15 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/screenshot-html-file-on-github-rendered.jpeg",
+    "img/screenshot-raw-html-on-github.jpeg",
+    "goals/2024-02-05.md",
+    "tech/how-to-share-an-html-file-like-a-quarto-output-in-github.md",
+    "goals/2024-02-06.md",
+    "tech/a-knife-to-a-gun-fight.md",
+    "christianity/2-nephi-1.md",
     "img/dalle-paradise-vs-destruction.jpeg",
     "scriptures/2-nephi-1.4.md",
-    "goals/2024-02-05.md",
-    "christianity/2-nephi-1.md",
     "book-review/how-to-win-friends-and-influence-people.md",
     "creative/guitar-clouds.md",
     "tech/embedding-audio-in-quarto.md",
@@ -170,15 +175,10 @@
     "goals/2024-02-02.md",
     "goals/2024-02-01.md",
     "goals/2024-01-29.md",
-    "goals/2024-01-30.md",
-    "goals/2024-01-31.md",
-    "posts/the-iceberg-theory-theory-of-omission.md",
     "img/dalle-image-wheat-into-a-silo.jpeg",
     "code/2024-02-02-libby.py",
     "code",
     "img/dalle-image-divinely-discontent.jpeg",
-    "img/photo-screenshot-leaderboard-llm-short.jpeg",
-    "img/photo-screenshot-chatbot-arena-leaderboard.jpeg",
     "innovate",
     "docs/gratitude/imagination.html",
     "docs/gratitude/chirping-birds.html",

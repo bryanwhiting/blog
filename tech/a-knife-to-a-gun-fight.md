@@ -20,13 +20,13 @@ draft: false
 updated: 2024-01-09T23:49:13
 ---
 
-Tim Ferris describes why he doesn't have social media on his phone:
+Tim Ferris describes [why he doesn't have](https://youtu.be/_Fn-giKevmo?si=f1Lz9H2U08BQhKwv) social media on his phone:
 
-{{< video <https://youtu.be/_Fn-giKevmo?si=f1Lz9H2U08BQhKwv> >}}
+{{< video https://youtu.be/_Fn-giKevmo?si=f1Lz9H2U08BQhKwv >}}
 
-I recently deleted social media from my phone 14 days ago. I had been using Instagram until April when I quit and Twitter all year. I realized within days how much better I felt without social media. Happier. Legitimately happier.
+I recently deleted social media from my phone 14 days ago. I had been using Instagram until April when I quit and migrated to Twitter the rest of the year. I recently realized within days how much better I felt without social media. Happier. Legitimately happier.
 
-And why? What do I get out of it? I'm not growing closer to friends. That's what texting and calling and spending time in person does. But I'd argue even texting doesn't really strengthen a relationship because it's so hard to properly interpret emotions and cues via text: you interpret them how you read those texts. You interpret it according to your emotional state, not the sender's.
+And why? What did I get out of it? I wasn't growing closer to friends. That's what texting and calling and spending time in person does. But I'd argue even texting doesn't really strengthen a relationship because it's so hard to properly interpret emotions and cues via text: you interpret them how you read those texts. You interpret it according to your emotional state, not the sender's.
 
 Phone provides vocal emotional cues. Body language another set of emotional cues. I can get probably 70% of this out from FaceTime or [Zoom](../gratitude/zoom.md). But being in person is what we're meant for.
 
@@ -34,7 +34,9 @@ This is why we strengthen relationships locally, and fail to continue ones from 
 
 So what was I doing on social media? Watching clips of either strangers I don't care about or college associates I friended (once lived locally with) that I no longer talk to.
 
-So what's the knife you're bringing to the gun fight? When at YouTube I heard the CEO praise a team for increasing "seconds watched" by 15% by reducing the lag of the swipes between YouTube shorts (TikTok clone). The lag reduction was in the milliseconds. Your attention is being bought and manipulated by the shareholders of these companies.
+So what's the knife you're bringing to the gun fight? When at YouTube I heard the CEO praise a team for increasing "seconds watched" by 15% by reducing the lag of the swipes between YouTube shorts (TikTok clone). The lag reduction was in the milliseconds. Meaning: they made the slot machine more addictive.
+
+Your attention is being bought and manipulated by the shareholders of these companies.
 
 ![Yes, they're targeting specifically you. You don't stand a chance. And you have a pocket knife, and you're 50 feet away. Who's gonna win?](../img/dalle-knife-gun-fight.jpeg){.preview-image}
 
@@ -50,4 +52,4 @@ I *do* miss laughing about some random Reel. There's nothing that can get you la
 
 Since being off social media I feel like my senses have grown. I now find my kids a lot funnier, my wife funnier, and I'm able to make heavy situations lighter much easier.
 
-There's a quote in [Dune](../book-review/dune.md) that's something like "If you rely only on your eyes, your other senses weaken". I'd argue my other relationships weakened too. Time to leave the fight. I was losing.
+There's a quote in [Dune](../book-review/dune.md) that's something like "If you rely only on your eyes, your other senses weaken". I'd argue my other relationships had weakened too. Time to leave the fight. I was losing.
