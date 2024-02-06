@@ -17,7 +17,16 @@ date-finished: 2030-01-01
 pct-complete:
 ---
 
+# 2024-02-05
+
+- People want a feeling of self importance. It motivates their actions. Most people want to be important and try to find their way
+- To be interesting be interested
+- Always make the other person feel important. 
+- "Every man I meet is my superior in some way" - Emerson
+
+
 2024-02-03
+
 - you'll make more friends being genuinely interested in others than trying to get them genuinely interested in you. 
 - Authors: do they like people?
 - Being interested in others is cornerstone of sales. 

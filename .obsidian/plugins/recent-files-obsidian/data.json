@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "2-nephi-1",
+      "path": "christianity/2-nephi-1.md"
+    },
+    {
+      "basename": "2024-02-05",
+      "path": "goals/2024-02-05.md"
+    },
+    {
+      "basename": "how-to-win-friends-and-influence-people",
+      "path": "book-review/how-to-win-friends-and-influence-people.md"
+    },
+    {
       "basename": "guitar-clouds",
       "path": "creative/guitar-clouds.md"
     },
@@ -51,10 +63,6 @@
     {
       "basename": "2024-02-04",
       "path": "goals/2024-02-04.md"
-    },
-    {
-      "basename": "2024-02-05",
-      "path": "goals/2024-02-05.md"
     },
     {
       "basename": "day",
@@ -125,10 +133,6 @@
       "path": "concepts/frank-herbert.md"
     },
     {
-      "basename": "how-to-win-friends-and-influence-people",
-      "path": "book-review/how-to-win-friends-and-influence-people.md"
-    },
-    {
       "basename": "wool",
       "path": "book-review/wool.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "ai",
       "path": "lists/ai.md"
-    },
-    {
-      "basename": "private-gpt",
-      "path": "tech/private-gpt.md"
     }
   ],
   "omittedPaths": [],

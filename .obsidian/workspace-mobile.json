@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "creative/guitar-clouds.md",
+                "file": "christianity/2-nephi-1.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "creative/guitar-clouds.md",
+            "file": "christianity/2-nephi-1.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "creative/guitar-clouds.md"
+            "file": "christianity/2-nephi-1.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "creative/guitar-clouds.md",
+            "file": "christianity/2-nephi-1.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,10 +141,15 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-paradise-vs-destruction.jpeg",
+    "scriptures/2-nephi-1.4.md",
+    "goals/2024-02-05.md",
+    "christianity/2-nephi-1.md",
+    "book-review/how-to-win-friends-and-influence-people.md",
+    "creative/guitar-clouds.md",
     "tech/embedding-audio-in-quarto.md",
     "posts/worlds-longest-drive.md",
     "img/screenshot-world-longest-drive.jpeg",
-    "creative/guitar-clouds.md",
     "img/screenshot-audio-tag-breaks-the-file.jpeg",
     "img/screenshot-audio-quarto-not-rendered.jpeg",
     "img/screenshot-audio-obsidian-rendered.jpeg",
@@ -160,7 +165,6 @@
     "creative/apology.md",
     "img/dalle-clouds-over-a-field.jpeg",
     "goals/2024-02-04.md",
-    "goals/2024-02-05.md",
     "_templates/day.md",
     "goals/2024-02-03.md",
     "goals/2024-02-02.md",
@@ -169,10 +173,7 @@
     "goals/2024-01-30.md",
     "goals/2024-01-31.md",
     "posts/the-iceberg-theory-theory-of-omission.md",
-    "christianity/1-nephi-22-gathered-by-his-covenants.md",
     "img/dalle-image-wheat-into-a-silo.jpeg",
-    "scriptures/1-nephi-22.9-12.md",
-    "book-review/saints-book-1-the-standard-of-truth-1815-1846.md",
     "code/2024-02-02-libby.py",
     "code",
     "img/dalle-image-divinely-discontent.jpeg",
