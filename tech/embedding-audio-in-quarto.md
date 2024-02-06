@@ -7,9 +7,9 @@ categories:
   - tech
   - quarto
   - blogging
+  - tutorial
 draft: false
 ---
-
 I want to embed just a plain audio file in my blog post. 
 
 Check out the post [Guitar: Clouds](../creative/guitar-clouds.md), where I embed some audio using the quarto video short link: [Quarto – Videos](https://quarto.org/docs/authoring/videos.html). 
