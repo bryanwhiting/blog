@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "kindness",
+      "path": "gratitude/kindness.md"
+    },
+    {
       "basename": "how-to-share-an-html-file-like-a-quarto-output-in-github",
       "path": "tech/how-to-share-an-html-file-like-a-quarto-output-in-github.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "the-loop",
       "path": "book-review/the-loop.md"
-    },
-    {
-      "basename": "influence-the-psychology-of-persuasion",
-      "path": "book-review/influence-the-psychology-of-persuasion.md"
     }
   ],
   "omittedPaths": [],

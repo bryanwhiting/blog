@@ -11,7 +11,7 @@ categories:
   - html
 draft: false
 ---
-Let's assume you have a raw HTML file on GitHub, such as a Jupyter notebook you rendered to HTML or a Quarto doc you rendered via `quarto render`.
+Let's assume you have a raw HTML file on GitHub, such as a [Jupyter notebook you rendered to HTML](https://mljar.com/blog/jupyter-notebook-html/) or a [Quarto](https://quarto.org/docs/output-formats/html-basics.html) doc you rendered via `quarto render`.
 
 If you try to share the link from GitHub directly, GitHub will just show the raw HTML file. 
 
@@ -27,6 +27,6 @@ GitHub File: https://github.com/bryanwhiting/blog/blob/gh-pages/index.html
 
 Preview using that link: https://htmlpreview.github.io/?https://github.com/bryanwhiting/blog/blob/gh-pages/index.html
 
-Notice the URL at the bottom
+Notice the URL at the bottom is not my site or my GitHub path. 
 
-![Render HTML](../img/screenshot-html-file-on-github-rendered.jpeg){.preview-image}
+![Render HTML](../img/screenshot-html-file-on-github-rendered.jpeg)
