@@ -8,6 +8,7 @@ categories:
   - quarto
   - blogging
   - tutorial
+  - obsidian
 draft: false
 ---
 I want to embed just a plain audio file in my blog post. 
@@ -40,6 +41,8 @@ Note, the second way (`the ![]`) approach didn't work on Chrome Desktop, but wor
 
 ![Chrome doesn't pick up the audio player](../img/screenshot-quarto-audio-chrome-web.jpeg)
 
+If I inspect the HTML I can see the audio tag is created in Chrome, it's just not showing a player or anything. 
+
 But the mobile audio player is picked up: 
 
 ![Mobile safari](../img/screenshot-quarto-audio-safari.jpeg){.preview-image}
@@ -52,5 +55,16 @@ I like using this markdown syntax in Obsidian because that's where I write my no
 
 ![The markdown syntax](../img/screenshot-audio-quarto-not-rendered.jpeg)
 
-Because it appears like an audio player in app. The `{{< video xxxxxx >}}` syntax is a `quarto` thing and renders nicely. The `<audio>` tag is supposed to work but doesn't in my vault. 
+Because it appears like an audio player in app. The `{{< video xxxxxx >}}` syntax is a `quarto` thing and renders nicely. The `<audio>` tag is supposed to work but doesn't in my vault. In my app it looks like this;
 
+![Rendered in quarto](../img/screenshot-audio-obsidian-rendered.jpeg)
+
+So yes, the markdown link is the most usable, works on most browsers, and works in Obsidian. Just doesn't work on Chrome Web...(at least not on my version).
+
+Seems also that using the `<audio>` tag breaks my quarto:
+
+![Broken file](../img/screenshot-audio-tag-breaks-the-file.jpeg)
+
+# In Summary
+
+I've found two ways of showing audio in quarto. 1) using the image syntax in markdown and 2) using a video shortcode. The markdown syntax works great locally on my iPhone and on most browsers, but the video shortcode seems to work on all browsers. 
