@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/worlds-longest-drive.md",
+                "file": "creative/guitar-clouds.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/worlds-longest-drive.md",
+            "file": "creative/guitar-clouds.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/worlds-longest-drive.md"
+            "file": "creative/guitar-clouds.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/worlds-longest-drive.md",
+            "file": "creative/guitar-clouds.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,10 +141,10 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "tech/embedding-audio-in-quarto.md",
+    "posts/worlds-longest-drive.md",
     "img/screenshot-world-longest-drive.jpeg",
     "creative/guitar-clouds.md",
-    "posts/worlds-longest-drive.md",
-    "tech/embedding-audio-in-quarto.md",
     "img/screenshot-audio-tag-breaks-the-file.jpeg",
     "img/screenshot-audio-quarto-not-rendered.jpeg",
     "img/screenshot-audio-obsidian-rendered.jpeg",
@@ -178,7 +178,6 @@
     "img/dalle-image-divinely-discontent.jpeg",
     "img/photo-screenshot-leaderboard-llm-short.jpeg",
     "img/photo-screenshot-chatbot-arena-leaderboard.jpeg",
-    "img/photo-llm-chat-arena-prompt.jpeg",
     "innovate",
     "docs/gratitude/imagination.html",
     "docs/gratitude/chirping-birds.html",
