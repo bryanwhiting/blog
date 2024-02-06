@@ -2,6 +2,7 @@
   {
     "listing": "/tech.html",
     "items": [
+      "/tech/how-to-share-an-html-file-like-a-quarto-output-in-github.html",
       "/tech/embedding-audio-in-quarto.html",
       "/tech/the-divinely-discontent-chatbot-user.html",
       "/tech/llm-chatbot-arena-leaderboard.html",
@@ -88,6 +89,7 @@
   {
     "listing": "/all.html",
     "items": [
+      "/tech/how-to-share-an-html-file-like-a-quarto-output-in-github.html",
       "/christianity/2-nephi-1.html",
       "/posts/worlds-longest-drive.html",
       "/gratitude/avocados.html",
@@ -383,6 +385,7 @@
   {
     "listing": "/goals.html",
     "items": [
+      "/goals/2024-02-06.html",
       "/goals/2024-02-05.html",
       "/goals/2024-02-04.html",
       "/goals/2024-02-03.html",
@@ -481,6 +484,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/tech/how-to-share-an-html-file-like-a-quarto-output-in-github.html",
       "/posts/worlds-longest-drive.html",
       "/tech/embedding-audio-in-quarto.html",
       "/tech/the-divinely-discontent-chatbot-user.html",
@@ -965,6 +969,8 @@
   {
     "listing": "/sitemap.html",
     "items": [
+      "/tech/how-to-share-an-html-file-like-a-quarto-output-in-github.html",
+      "/goals/2024-02-06.html",
       "/christianity/2-nephi-1.html",
       "/posts/worlds-longest-drive.html",
       "/concepts/Honduras.html",

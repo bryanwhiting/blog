@@ -10,7 +10,48 @@
 <atom:link href="https://www.bryanwhiting.com/tech.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Mon, 05 Feb 2024 12:31:54 GMT</lastBuildDate>
+<lastBuildDate>Tue, 06 Feb 2024 09:44:38 GMT</lastBuildDate>
+<item>
+  <title>How to share an HTML file (like a quarto output in GitHub)</title>
+  <link>https://www.bryanwhiting.com/tech/how-to-share-an-html-file-like-a-quarto-output-in-github.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Let’s assume you have a raw HTML file on GitHub, such as a Jupyter notebook you rendered to HTML or a Quarto doc you rendered via <code>quarto render</code>.</p>
+<p>If you try to share the link from GitHub directly, GitHub will just show the raw HTML file.</p>
+<p>Use this link to convert it to your dashboard:</p>
+<p><a href="https://htmlpreview.github.io/">GitHub &amp; BitBucket HTML Preview</a></p>
+<p>Example:</p>
+<p>GitHub File: https://github.com/bryanwhiting/blog/blob/gh-pages/index.html</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-raw-html-on-github.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Preview in GitHub</figcaption>
+</figure>
+</div>
+<p>Preview using that link: https://htmlpreview.github.io/?https://github.com/bryanwhiting/blog/blob/gh-pages/index.html</p>
+<p>Notice the URL at the bottom</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-html-file-on-github-rendered.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Render HTML</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>quarto</category>
+  <category>github</category>
+  <category>data science</category>
+  <category>html</category>
+  <guid>https://www.bryanwhiting.com/tech/how-to-share-an-html-file-like-a-quarto-output-in-github.html</guid>
+  <pubDate>Tue, 06 Feb 2024 09:44:38 GMT</pubDate>
+</item>
 <item>
   <title>Embedding audio in Quarto</title>
   <link>https://www.bryanwhiting.com/tech/embedding-audio-in-quarto.html</link>
@@ -458,14 +499,15 @@ Song snippet today: [2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds
 
 
 
-<p>Tim Ferris describes why he doesn’t have social media on his phone:</p>
-<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="<https://youtu.be/_Fn-giKevmo?si=f1Lz9H2U08BQhKwv>"></video></div>
-<p>I recently deleted social media from my phone 14 days ago. I had been using Instagram until April when I quit and Twitter all year. I realized within days how much better I felt without social media. Happier. Legitimately happier.</p>
-<p>And why? What do I get out of it? I’m not growing closer to friends. That’s what texting and calling and spending time in person does. But I’d argue even texting doesn’t really strengthen a relationship because it’s so hard to properly interpret emotions and cues via text: you interpret them how you read those texts. You interpret it according to your emotional state, not the sender’s.</p>
+<p>Tim Ferris describes <a href="https://youtu.be/_Fn-giKevmo?si=f1Lz9H2U08BQhKwv">why he doesn’t have</a> social media on his phone:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/_Fn-giKevmo?si=f1Lz9H2U08BQhKwv" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>I recently deleted social media from my phone 14 days ago. I had been using Instagram until April when I quit and migrated to Twitter the rest of the year. I recently realized within days how much better I felt without social media. Happier. Legitimately happier.</p>
+<p>And why? What did I get out of it? I wasn’t growing closer to friends. That’s what texting and calling and spending time in person does. But I’d argue even texting doesn’t really strengthen a relationship because it’s so hard to properly interpret emotions and cues via text: you interpret them how you read those texts. You interpret it according to your emotional state, not the sender’s.</p>
 <p>Phone provides vocal emotional cues. Body language another set of emotional cues. I can get probably 70% of this out from FaceTime or <a href="../gratitude/zoom.html">Zoom</a>. But being in person is what we’re meant for.</p>
 <p>This is why we strengthen relationships locally, and fail to continue ones from high school or our previous job.</p>
 <p>So what was I doing on social media? Watching clips of either strangers I don’t care about or college associates I friended (once lived locally with) that I no longer talk to.</p>
-<p>So what’s the knife you’re bringing to the gun fight? When at YouTube I heard the CEO praise a team for increasing “seconds watched” by 15% by reducing the lag of the swipes between YouTube shorts (TikTok clone). The lag reduction was in the milliseconds. Your attention is being bought and manipulated by the shareholders of these companies.</p>
+<p>So what’s the knife you’re bringing to the gun fight? When at YouTube I heard the CEO praise a team for increasing “seconds watched” by 15% by reducing the lag of the swipes between YouTube shorts (TikTok clone). The lag reduction was in the milliseconds. Meaning: they made the slot machine more addictive.</p>
+<p>Your attention is being bought and manipulated by the shareholders of these companies.</p>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="https://www.bryanwhiting.com/img/dalle-knife-gun-fight.jpeg" class="preview-image img-fluid figure-img"></p>
@@ -478,7 +520,7 @@ Song snippet today: [2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds
 <p>But the costs for me have outweighed the value.</p>
 <p>I <em>do</em> miss laughing about some random Reel. There’s nothing that can get you laughing faster than a 10 second clip paired with the right cuts and music and everything. The right meme just nails it in a way nothing else can. I miss seeing memes from my friends. But when all I do is send memes to these friends, is that a friendship?</p>
 <p>Since being off social media I feel like my senses have grown. I now find my kids a lot funnier, my wife funnier, and I’m able to make heavy situations lighter much easier.</p>
-<p>There’s a quote in <a href="../book-review/dune.html">Dune</a> that’s something like “If you rely only on your eyes, your other senses weaken”. I’d argue my other relationships weakened too. Time to leave the fight. I was losing.</p>
+<p>There’s a quote in <a href="../book-review/dune.html">Dune</a> that’s something like “If you rely only on your eyes, your other senses weaken”. I’d argue my other relationships had weakened too. Time to leave the fight. I was losing.</p>
 
 
 

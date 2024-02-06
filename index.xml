@@ -10,7 +10,48 @@
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Mon, 05 Feb 2024 22:24:18 GMT</lastBuildDate>
+<lastBuildDate>Tue, 06 Feb 2024 09:44:38 GMT</lastBuildDate>
+<item>
+  <title>How to share an HTML file (like a quarto output in GitHub)</title>
+  <link>https://www.bryanwhiting.com/tech/how-to-share-an-html-file-like-a-quarto-output-in-github.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Let’s assume you have a raw HTML file on GitHub, such as a Jupyter notebook you rendered to HTML or a Quarto doc you rendered via <code>quarto render</code>.</p>
+<p>If you try to share the link from GitHub directly, GitHub will just show the raw HTML file.</p>
+<p>Use this link to convert it to your dashboard:</p>
+<p><a href="https://htmlpreview.github.io/">GitHub &amp; BitBucket HTML Preview</a></p>
+<p>Example:</p>
+<p>GitHub File: https://github.com/bryanwhiting/blog/blob/gh-pages/index.html</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-raw-html-on-github.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Preview in GitHub</figcaption>
+</figure>
+</div>
+<p>Preview using that link: https://htmlpreview.github.io/?https://github.com/bryanwhiting/blog/blob/gh-pages/index.html</p>
+<p>Notice the URL at the bottom</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-html-file-on-github-rendered.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Render HTML</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>quarto</category>
+  <category>github</category>
+  <category>data science</category>
+  <category>html</category>
+  <guid>https://www.bryanwhiting.com/tech/how-to-share-an-html-file-like-a-quarto-output-in-github.html</guid>
+  <pubDate>Tue, 06 Feb 2024 09:44:38 GMT</pubDate>
+</item>
 <item>
   <title>2 Nephi 1 - Alternative Endings</title>
   <link>https://www.bryanwhiting.com/christianity/2-nephi-1.html</link>
@@ -760,44 +801,6 @@ Song snippet today: [2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds
   <category>ai tools</category>
   <guid>https://www.bryanwhiting.com/tech/lm-studio.html</guid>
   <pubDate>Fri, 02 Feb 2024 09:54:19 GMT</pubDate>
-</item>
-<item>
-  <title>GPT4All</title>
-  <link>https://www.bryanwhiting.com/tech/gpt4all.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="description" class="level1 page-columns page-full">
-<h1>description</h1>
-<p><a href="https://gpt4all.io/index.html">GPT4All</a> train and deploy customized LLMs.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/photo-gpt4all.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Gpt4all screenshot</figcaption>
-</figure>
-</div>
-</section>
-<section id="similar-tools" class="level1">
-<h1>similar tools</h1>
-<p>Seems like a different use case than <a href="../tech/lm-studio.html">LM Studio</a>, but hard to say. <a href="../tech/lm-studio.html">LM Studio</a> is likely focused on people wanting to download and use the open source models, where this is to help you train and fine tune locally.</p>
-<p>Use it to connect with your notes:</p>
-<p><a href="https://medium.com/@vikastiwari708409/how-to-use-gpt4all-llms-with-langchain-to-work-with-pdf-files-f0f0becadcb6">How to Use GPT4All with Langchain to Chat with Your Documents | by Vikas Tiwari | Medium</a></p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/X8QbEENUZIo" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>tech</category>
-  <category>ai tools</category>
-  <category>edge device</category>
-  <category>privacy</category>
-  <category>open source</category>
-  <guid>https://www.bryanwhiting.com/tech/gpt4all.html</guid>
-  <pubDate>Fri, 02 Feb 2024 09:49:48 GMT</pubDate>
 </item>
 </channel>
 </rss>
