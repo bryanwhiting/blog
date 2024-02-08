@@ -247,6 +247,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/tech/handling-outliers-in-linear-regression.html",
       "/tech/galileo-ai.html",
       "/tech/how-to-share-an-html-file-like-a-quarto-output-in-github.html",
       "/posts/worlds-longest-drive.html",
@@ -538,32 +539,9 @@
     ]
   },
   {
-    "listing": "/tech.html",
-    "items": [
-      "/tech/galileo-ai.html",
-      "/tech/how-to-share-an-html-file-like-a-quarto-output-in-github.html",
-      "/tech/embedding-audio-in-quarto.html",
-      "/tech/the-divinely-discontent-chatbot-user.html",
-      "/tech/llm-chatbot-arena-leaderboard.html",
-      "/tech/holiday-demand-forecasting-using-xgboost.html",
-      "/tech/private-gpt.html",
-      "/tech/lm-studio.html",
-      "/tech/gpt4all.html",
-      "/tech/beam-ai.html",
-      "/tech/this-drug-is-habit-forming.html",
-      "/tech/the-matrix.html",
-      "/tech/a-knife-to-a-gun-fight.html",
-      "/tech/ai-will-not-replace-human-creativity.html",
-      "/tech/what-startups-and-musicians-have-in-common.html",
-      "/tech/the-future-wave-of-ai-hype.html",
-      "/tech/dreaming-software.html",
-      "/tech/why-we-want-new-software.html",
-      "/tech/swapping-out-human-labor-for-ai.html"
-    ]
-  },
-  {
     "listing": "/sitemap.html",
     "items": [
+      "/tech/handling-outliers-in-linear-regression.html",
       "/christianity/2-nephi-1-shake-off-the-chains.html",
       "/gratitude/new-york.html",
       "/goals/2024-02-07.html",
@@ -1062,6 +1040,31 @@
     ]
   },
   {
+    "listing": "/tech.html",
+    "items": [
+      "/tech/handling-outliers-in-linear-regression.html",
+      "/tech/galileo-ai.html",
+      "/tech/how-to-share-an-html-file-like-a-quarto-output-in-github.html",
+      "/tech/embedding-audio-in-quarto.html",
+      "/tech/the-divinely-discontent-chatbot-user.html",
+      "/tech/llm-chatbot-arena-leaderboard.html",
+      "/tech/holiday-demand-forecasting-using-xgboost.html",
+      "/tech/private-gpt.html",
+      "/tech/lm-studio.html",
+      "/tech/gpt4all.html",
+      "/tech/beam-ai.html",
+      "/tech/this-drug-is-habit-forming.html",
+      "/tech/the-matrix.html",
+      "/tech/a-knife-to-a-gun-fight.html",
+      "/tech/ai-will-not-replace-human-creativity.html",
+      "/tech/what-startups-and-musicians-have-in-common.html",
+      "/tech/the-future-wave-of-ai-hype.html",
+      "/tech/dreaming-software.html",
+      "/tech/why-we-want-new-software.html",
+      "/tech/swapping-out-human-labor-for-ai.html"
+    ]
+  },
+  {
     "listing": "/books.html",
     "items": [
       "/book-review/shift.html",
@@ -1182,6 +1185,7 @@
   {
     "listing": "/all.html",
     "items": [
+      "/tech/handling-outliers-in-linear-regression.html",
       "/christianity/2-nephi-1-shake-off-the-chains.html",
       "/gratitude/new-york.html",
       "/tech/galileo-ai.html",

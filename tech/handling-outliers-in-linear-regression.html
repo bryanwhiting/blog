@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Feature engineering goes a long way!">
 
-<title>Bryan Whiting - Concepts</title>
+<title>Bryan Whiting - Handling Outliers in Linear Regression</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +24,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -67,35 +66,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-3SX7QFKDL7"></script>
 
 <script type="text/javascript">
@@ -107,21 +77,21 @@ gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="../css/styles.css">
 <link rel="stylesheet" href="css/poem.css">
-<link rel="alternate" type="application/rss+xml" title="Bryan Whiting" href="concepts.xml" data-external="1"><meta property="og:title" content="Bryan Whiting - Concepts">
-<meta property="og:description" content="">
+<meta property="og:title" content="Bryan Whiting - Handling Outliers in Linear Regression">
+<meta property="og:description" content="Feature engineering goes a long way!">
+<meta property="og:image" content="https://www.bryanwhiting.com/img/screenshot-chart-outlier-sales-only.jpeg">
 <meta property="og:site_name" content="Bryan Whiting">
-<meta name="twitter:title" content="Bryan Whiting - Concepts">
-<meta name="twitter:description" content="">
+<meta name="twitter:title" content="Bryan Whiting - Handling Outliers in Linear Regression">
+<meta name="twitter:description" content="Feature engineering goes a long way!">
+<meta name="twitter:image" content="https://www.bryanwhiting.com/img/screenshot-chart-outlier-sales-only.jpeg">
 <meta name="twitter:creator" content="@bryanwhiting">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-sidebar docked">
+<body class="nav-sidebar docked slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -130,7 +100,9 @@ gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./concepts.html">Other</a></li><li class="breadcrumb-item"><a href="./concepts.html">Concepts</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      Bryan Whiting
+      </li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -140,15 +112,61 @@ gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
   </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./concepts.html">Other</a></li><li class="breadcrumb-item"><a href="./concepts.html">Concepts</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Concepts</h1>
-                      </div>
+      <h1 class="title">Handling Outliers in Linear Regression</h1>
+                  <div>
+        <div class="description">
+          Feature engineering goes a long way!
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">tech</div>
+                <div class="quarto-category">data science</div>
+                <div class="quarto-category">machine learning</div>
+                <div class="quarto-category">ml tips and tricks</div>
+                <div class="quarto-category">regression</div>
+                <div class="quarto-category">analytics</div>
+                <div class="quarto-category">tutorial</div>
+                <div class="quarto-category">coding</div>
+                <div class="quarto-category">pair programming</div>
+                <div class="quarto-category">forecasting</div>
+                <div class="quarto-category">outliers</div>
+                <div class="quarto-category">ask gpt</div>
+                <div class="quarto-category">principles of data science</div>
+                <div class="quarto-category">time series</div>
+              </div>
+                  </div>
   </div>
     
   <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Date</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">Thursday February 8, 2024</p>
+      </div>
+    </div>
+          <div>
+      <div class="quarto-title-meta-heading">Topics</div>
+      <div class="quarto-title-meta-contents">
+                <div class="badge badge-small badge-grey quarto-category">tech</div>
+                <div class="badge badge-small badge-grey quarto-category">data science</div>
+                <div class="badge badge-small badge-grey quarto-category">machine learning</div>
+                <div class="badge badge-small badge-grey quarto-category">ml tips and tricks</div>
+                <div class="badge badge-small badge-grey quarto-category">regression</div>
+                <div class="badge badge-small badge-grey quarto-category">analytics</div>
+                <div class="badge badge-small badge-grey quarto-category">tutorial</div>
+                <div class="badge badge-small badge-grey quarto-category">coding</div>
+                <div class="badge badge-small badge-grey quarto-category">pair programming</div>
+                <div class="badge badge-small badge-grey quarto-category">forecasting</div>
+                <div class="badge badge-small badge-grey quarto-category">outliers</div>
+                <div class="badge badge-small badge-grey quarto-category">ask gpt</div>
+                <div class="badge badge-small badge-grey quarto-category">principles of data science</div>
+                <div class="badge badge-small badge-grey quarto-category">time series</div>
+            </div>
+    </div>
       
   </div>  
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
@@ -156,7 +174,7 @@ gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Bryan Whiting</a> 
+      <a href="../">Bryan Whiting</a> 
         <div class="sidebar-tools-main tools-wide">
     <div class="dropdown">
       <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
@@ -175,7 +193,7 @@ gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
     </div>
     <a href="https://www.linkedin.com/in/bryan-whiting/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
     <a href="https://twitter.com/bryanwhiting" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
-    <a href="./index.xml" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-rss"></i></a>
+    <a href="../index.xml" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-rss"></i></a>
 </div>
     </div>
       </div>
@@ -188,13 +206,13 @@ gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link">
+  <a href="../about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Blog</span></a>
   </div>
 </li>
@@ -209,37 +227,37 @@ gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./tech.html" class="sidebar-item-text sidebar-link">
+  <a href="../tech.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tech, AI, and Data</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Posts</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./books.html" class="sidebar-item-text sidebar-link">
+  <a href="../books.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Book Reviews</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./christianity.html" class="sidebar-item-text sidebar-link">
+  <a href="../christianity.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Christianity</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./gratitude.html" class="sidebar-item-text sidebar-link">
+  <a href="../gratitude.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Gratitude</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./creative.html" class="sidebar-item-text sidebar-link">
+  <a href="../creative.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Creative</span></a>
   </div>
 </li>
@@ -256,25 +274,25 @@ gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./concepts.html" class="sidebar-item-text sidebar-link active">
+  <a href="../concepts.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Concepts</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./goals.html" class="sidebar-item-text sidebar-link">
+  <a href="../goals.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Goals</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lists.html" class="sidebar-item-text sidebar-link">
+  <a href="../lists.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lists of Things</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sitemap.html" class="sidebar-item-text sidebar-link">
+  <a href="../sitemap.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Sitemap (All Posts)</span></a>
   </div>
 </li>
@@ -282,178 +300,182 @@ gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
   </li>
     </ul>
     </div>
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#see-also" id="toc-see-also" class="nav-link active" data-scroll-target="#see-also">See also</a></li>
+  <li><a href="#appendix-code" id="toc-appendix-code" class="nav-link" data-scroll-target="#appendix-code">Appendix (Code)</a></li>
+  </ul>
+</nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="christianity"><span class="quarto-category-count category-cloud-2">christianity</span></div><div class="category" data-category="concept"><span class="quarto-category-count category-cloud-1">concept</span></div><div class="category" data-category="concepts"><span class="quarto-category-count category-cloud-7">concepts</span></div><div class="category" data-category="posts"><span class="quarto-category-count category-cloud-1">posts</span></div></div></div>
-<!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
-
-
-
-
-
-<p>These posts are ideas linked to in other entries. They’re concepts or terms.</p>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          Title
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
     </div>
+<!-- main -->
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
+
+
+
+
+<p>So you have an outlier in your data. How do you handle it?</p>
+<p>Well, you can either include it or drop it from your data. If you include it, it may bias your regression coefficient.</p>
+<p>Let’s assume you have some data where you have X = Emails Sent and Y = Sales. You want to know the effect of email on sales.</p>
+<p>You have three options:</p>
+<ul>
+<li>A: fit the model on 100% if data, and don’t account for the outlier.</li>
+<li>B: Create a dummy variable that’s 1 for outlier and 0 otherwise.</li>
+<li>C: drop the outlier from your data and fit without a special feature.</li>
+</ul>
+<p>It turns out that options B and C are identical in their predictions for non-outlier time periods. Effectively, you isolate the effect of those outliers when you create a dummy variable for them. Let’s take a look.</p>
+<p>Here we have some sales data over time:</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="../img/screenshot-chart-outlier-sales-only.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Sales</figcaption>
+</figure>
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-<th>
-Author
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-date-sort="1707163654000" data-listing-file-modified-sort="1707428852913" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7" data-listing-title-sort="Honduras" data-listing-filename-sort="Honduras.md">
-<td>
-<span class="listing-date">Monday February 5, 2024</span>
-</td>
-<td>
-<a href="./concepts/Honduras.html" class="title listing-title">Honduras</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="concepts" data-listing-date-sort="1706964570000" data-listing-file-modified-sort="1707428852913" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6" data-listing-title-sort="Frank Herbert" data-listing-filename-sort="frank-herbert.md">
-<td>
-<span class="listing-date">Saturday February 3, 2024</span>
-</td>
-<td>
-<a href="./concepts/frank-herbert.html" class="title listing-title">Frank Herbert</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="2" data-categories="concepts,christianity" data-listing-date-sort="1705845413000" data-listing-file-modified-sort="1707428852913" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6" data-listing-title-sort="Sacramental Covenant" data-listing-filename-sort="sacrament-covenant.md">
-<td>
-<span class="listing-date">Sunday January 21, 2024</span>
-</td>
-<td>
-<a href="./concepts/sacrament-covenant.html" class="title listing-title">Sacramental Covenant</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="3" data-categories="concepts" data-listing-date-sort="1705271156000" data-listing-file-modified-sort="1707428852913" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2" data-listing-title-sort="President Russel M. Nelson" data-listing-filename-sort="president-russel-m-nelson.md">
-<td>
-<span class="listing-date">Sunday January 14, 2024</span>
-</td>
-<td>
-<a href="./concepts/president-russel-m-nelson.html" class="title listing-title">President Russel M. Nelson</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="4" data-categories="concepts" data-listing-date-sort="1704969431000" data-listing-file-modified-sort="1707428852913" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="78" data-listing-title-sort="Christian" data-listing-filename-sort="christian.md">
-<td>
-<span class="listing-date">Thursday January 11, 2024</span>
-</td>
-<td>
-<a href="./concepts/christian.html" class="title listing-title">Christian</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="5" data-categories="concepts" data-listing-date-sort="1704877641000" data-listing-file-modified-sort="1707428852913" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17" data-listing-title-sort="Gratus sum, ergo habeo" data-listing-filename-sort="gratus-sum-ergo-habeo.md">
-<td>
-<span class="listing-date">Wednesday January 10, 2024</span>
-</td>
-<td>
-<a href="./concepts/gratus-sum-ergo-habeo.html" class="title listing-title">Gratus sum, ergo habeo</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="6" data-categories="concepts" data-listing-date-sort="1704877042000" data-listing-file-modified-sort="1707428852913" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15" data-listing-title-sort="The Book of Mormon: Another Testament of Jesus Christ" data-listing-filename-sort="the-book-of-mormon-another-testament-of-jesus-christ.md">
-<td>
-<span class="listing-date">Wednesday January 10, 2024</span>
-</td>
-<td>
-<a href="./concepts/the-book-of-mormon-another-testament-of-jesus-christ.html" class="title listing-title">The Book of Mormon: Another Testament of Jesus Christ</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="7" data-categories="concepts" data-listing-date-sort="1704876895000" data-listing-file-modified-sort="1707428852913" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="89" data-listing-title-sort="The Church of Jesus Christ of Latter-day Saints" data-listing-filename-sort="the-church-of-jesus-christ-of-latter-day-saints.md">
-<td>
-<span class="listing-date">Wednesday January 10, 2024</span>
-</td>
-<td>
-<a href="./concepts/the-church-of-jesus-christ-of-latter-day-saints.html" class="title listing-title">The Church of Jesus Christ of Latter-day Saints</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="8" data-categories="posts" data-listing-date-sort="1704876864000" data-listing-file-modified-sort="1707428852913" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="60" data-listing-title-sort="my mission" data-listing-filename-sort="my-mission.md">
-<td>
-<span class="listing-date">Wednesday January 10, 2024</span>
-</td>
-<td>
-<a href="./concepts/my-mission.html" class="title listing-title">my mission</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="9" data-categories="christianity,concept" data-listing-date-sort="1704639779000" data-listing-file-modified-sort="1707428852913" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Hand of God" data-listing-filename-sort="hand-of-god.md">
-<td>
-<span class="listing-date">Sunday January 7, 2024</span>
-</td>
-<td>
-<a href="./concepts/hand-of-god.html" class="title listing-title">Hand of God</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
+<p>Now I’m going to fit a model as above and get the “fitted values”, or in-sample predictions. We can see from this that the A model (no outlier treatment) has a higher line. This is the effect of the outlier on the slope. But the B model fits the data near perfectly. You’ll notice the C model and the B model are perfectly overlapping except for the gap on C (remember we dropped rows, so we didn’t have in-sample fitted values there!)</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="../img/screenshot-chart-sales-in-sample.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">In sample predictions</figcaption>
+</figure>
 </div>
-</div><p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p></main> <!-- /main -->
+<p>Now, the model B is Y = intercept + email + is_holiday Boolean. If you make a prediction assuming is_holiday = 0 then you get the green line. This is the effect of making a prediction of what your sales would have been if it wasn’t a holiday. This is one way to get a “baseline”. Then the blue line is the predicted value with holiday = 1. The gap between blue and green is the effect of your holiday (I could show the model coefficients but I’m lazy!)</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="../img/screenshot-chart-sales-fitted-and-non-fitted.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Fitted and non-fitted B values</figcaption>
+</figure>
+</div>
+<p>Okay, last interesting bit: what would the prediction of the model C be during this holiday period? Remember, we don’t have in-sample predictions (fitted values) because we dropped those rows. So technically, this middle spot is “out of sample” for model C.</p>
+<p>What do we see? Well since the slope for “email” is the same for model C and B, the predictions are near identical. Let’s add in the model C non-fitted line:</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="../img/screenshot-chart-sales-model-c-out-of-sample.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Predicting model C out of sample</figcaption>
+</figure>
+</div>
+<p>What do we see? We see that model C (purple line) overlaps the green line perfectly.</p>
+<p>So per this simple example, there are two ways of handling an outlier:</p>
+<ol type="1">
+<li>Drop it from your data (not ideal)</li>
+<li>Use feature engineering to handle it (ideal)</li>
+</ol>
+<p>In a more complicated setting, there are tons of real world interactions in your data that make this even more complicated. But with good feature engineering you can isolate the effect of those outliers or subgroups.</p>
+<p>I hope this helps. As always, always test the principle on your own data before fully trusting this principle. There may be something specific about your data or your model where this may not apply exactly (such as using decision trees or a GLM or GAM).</p>
+<p>Lastly, it’s a beautiful world. You can ask ChatGPT to code up these analyses really quickly. Do you have a debate at work? Ask ChatGPT to run a simulation.</p>
+<section id="see-also" class="level1">
+<h1>See also</h1>
+<p>In this DoorDash blog, they provide a unique solution for XGBoost, mostly because XGBoost has a hard time extrapolating. But there are other ways to handle your data.</p>
+<p><a href="../tech/holiday-demand-forecasting-using-xgboost.html">Holiday Demand Forecasting using XGBoost</a></p>
+</section>
+<section id="appendix-code" class="level1">
+<h1>Appendix (Code)</h1>
+<p>Here’s the code to reproduce the above, thanks to help with ChatGPT:</p>
+<pre><code>import pandas as pd
+import numpy as np
+import statsmodels.api as sm
+
+# Setting a random seed for reproducibility
+np.random.seed(42)
+
+# Generating a time series dataset
+n = 100  # number of days
+emails_sent = np.random.poisson(lam=50, size=n)  # average 50 emails sent per day
+sales = 20 + 1.5 * emails_sent + np.random.normal(0, 10, n)  # base sales equation
+is_holiday = np.zeros(n)
+
+# Introducing an outlier (e.g., holiday sales)
+indexes = [50, 51, 52, 53, 54, 55, 56, 57, 58, 59]
+for ix in indexes:
+    sales[ix] += 300 + np.random.normal(0, 10, 1)  # significant spike in sales
+    is_holiday[ix] = 1  # flagging the outlier
+
+# Preparing datasets for the three options
+df = pd.DataFrame({'emails_sent': emails_sent, 'sales': sales, 'is_holiday': is_holiday})
+
+# Option A: Including the outlier
+X_A = sm.add_constant(df['emails_sent'])
+y_A = df['sales']
+
+# Option B: Including the outlier and a dummy variable
+X_B = sm.add_constant(df[['emails_sent', 'is_holiday']])
+y_B = df['sales']
+
+# Option C: Excluding the outlier
+df_C = df[df['is_holiday'] == 0]
+X_C = sm.add_constant(df_C['emails_sent'])
+y_C = df_C['sales']
+
+# Fitting the models
+model_A = sm.OLS(y_A, X_A).fit()
+model_B = sm.OLS(y_B, X_B).fit()
+model_C = sm.OLS(y_C, X_C).fit()
+
+
+# Adding labels and legend
+plt.xlabel('Emails Sent')
+plt.ylabel('Sales')
+plt.title('Sales vs Emails Sent with Model Slopes')
+plt.legend()
+
+# Display the plot
+plt.show()
+
+
+# Extracting the coefficients for the 'emails_sent' predictor
+coef_A = model_A.params['emails_sent']
+coef_B = model_B.params['emails_sent']
+coef_C = model_C.params['emails_sent']
+
+model_A.summary()
+model_B.summary()
+model_C.summary()
+
+(coef_A, coef_B, coef_C)
+
+
+
+# Create a dataframe with the raw data
+prediction_data = df[['emails_sent', 'sales']].copy()
+
+# Add predictions from each model to the dataframe
+prediction_data['prediction_A'] = coef_A * prediction_data['emails_sent'] + model_A.params['const']
+prediction_data['prediction_B'] = coef_B * prediction_data['emails_sent'] + model_B.params['const']
+prediction_data['prediction_C'] = coef_C * prediction_data['emails_sent'] + model_C.params['const']
+
+prediction_data['prediction_A_fitted'] = model_A.fittedvalues
+prediction_data['prediction_B_fitted'] = model_B.fittedvalues
+prediction_data['prediction_C_fitted'] = model_C.fittedvalues
+
+df_plt = prediction_data.drop('emails_sent', axis=1).reset_index().melt(id_vars=['index'])
+import plotly.express as px
+
+# Create a scatter plot of the raw data
+df_fitted = df_plt[df_plt['variable'].str.endswith('fitted')]
+fig = px.line(df_fitted, x='index', y='value', color='variable', title='Predidcted vs. actuals')
+fig.update_layout(template='plotly_white')
+fig.show()
+
+
+df_remove_outlier = df_plt[~df_plt['variable'].str.endswith('fitted')]
+fig = px.line(df_remove_outlier, x='index', y='value', color='variable', title='Predidcted vs. actuals')
+fig.update_layout(template='plotly_white')
+fig.show()
+
+fig = px.line(df_plt, x='index', y='value', color='variable', title='Predidcted vs. actuals')
+fig.update_layout(template='plotly_white')
+fig.show()
+</code></pre>
+
+
+</section>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -851,6 +873,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<script src="https://giscus.app/client.js" data-repo="bryanwhiting/blog" data-repo-id="R_kgDOHgq18w" data-category="General" data-category-id="DIC_kwDOHgq1884CTE-n" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -881,7 +907,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="./index.xml">
+    <a class="nav-link" href="../index.xml">
       <i class="bi bi-rss" role="img">
 </i> 
     </a>
@@ -894,5 +920,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
