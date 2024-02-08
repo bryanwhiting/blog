@@ -17,6 +17,10 @@ date-finished: 2030-01-01
 pct-complete:
 ---
 
+# 2024-02-06
+
+- A man convinced against his will of the same opinion remains still
+- You can't win an argument
 # 2024-02-05
 
 - People want a feeling of self importance. It motivates their actions. Most people want to be important and try to find their way

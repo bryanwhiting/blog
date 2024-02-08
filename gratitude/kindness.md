@@ -6,6 +6,8 @@ created: 2024-02-06 10:05:27
 categories:
   - gratitude
   - parenting
+  - charity
+  - christianity
 draft: false
 ---
 I've been the recipient of a lot of kindness in my life. I know anyone reading this has too. Kindness is a wonderful gift to give someone. It doesn't cost anything to be kind. 
