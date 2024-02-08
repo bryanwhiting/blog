@@ -10,7 +10,35 @@
 <atom:link href="https://www.bryanwhiting.com/tech.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Tue, 06 Feb 2024 09:44:38 GMT</lastBuildDate>
+<lastBuildDate>Tue, 06 Feb 2024 23:25:17 GMT</lastBuildDate>
+<item>
+  <title>Galileo AI</title>
+  <link>https://www.bryanwhiting.com/tech/galileo-ai.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I came across <a href="https://www.usegalileo.ai/">Galileo AI</a>. It lets you mock up UI interfaces. Great story in their blog: <a href="https://www.usegalileo.ai/blog/seed">Galileo AI - Feb 6 Launch Announcement</a></p>
+<p>It doesn’t export the code itself, but for a fee it’ll export to Figma for you. The cool thing is they trained or fine tuned an LLM specifically on design components. This is a cool use case of how people with specialized skill sets will create custom LLMs to compete in areas ChatGPT won’t be able to.</p>
+<p>This is also showing the emergence in new software: don’t build a rules engine, train an LLM to solve the problem.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-galileo-ai.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Galileo UI</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>ai tools</category>
+  <category>ui generators</category>
+  <guid>https://www.bryanwhiting.com/tech/galileo-ai.html</guid>
+  <pubDate>Tue, 06 Feb 2024 23:25:17 GMT</pubDate>
+</item>
 <item>
   <title>How to share an HTML file (like a quarto output in GitHub)</title>
   <link>https://www.bryanwhiting.com/tech/how-to-share-an-html-file-like-a-quarto-output-in-github.html</link>
