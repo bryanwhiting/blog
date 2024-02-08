@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "handling-outliers-in-linear-regression",
+      "path": "tech/handling-outliers-in-linear-regression.md"
+    },
+    {
       "basename": "2-nephi-1-shake-off-the-chains",
       "path": "christianity/2-nephi-1-shake-off-the-chains.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "how-to-blog-with-obsidian-and-quarto",
       "path": "posts/how-to-blog-with-obsidian-and-quarto.md"
-    },
-    {
-      "basename": "holiday-demand-forecasting-using-xgboost",
-      "path": "tech/holiday-demand-forecasting-using-xgboost.md"
     }
   ],
   "omittedPaths": [],

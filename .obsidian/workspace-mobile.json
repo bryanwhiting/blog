@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/2-nephi-1-shake-off-the-chains.md",
+                "file": "tech/handling-outliers-in-linear-regression.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/2-nephi-1-shake-off-the-chains.md",
+            "file": "tech/handling-outliers-in-linear-regression.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/2-nephi-1-shake-off-the-chains.md"
+            "file": "tech/handling-outliers-in-linear-regression.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/2-nephi-1-shake-off-the-chains.md",
+            "file": "tech/handling-outliers-in-linear-regression.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,11 +141,16 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/screenshot-chart-sales-model-c-out-of-sample.jpeg",
+    "img/screenshot-chart-sales-fitted-and-non-fitted.jpeg",
+    "img/screenshot-chart-sales-in-sample.jpeg",
+    "img/screenshot-chart-outlier-sales-only.jpeg",
+    "christianity/2-nephi-1-shake-off-the-chains.md",
+    "tech/handling-outliers-in-linear-regression.md",
     "img/dalle-breaking-free-from-the-chains.jpeg",
     "scriptures/2-nephi-1.23.md",
     "scriptures/2-nephi-1.20.md",
     "gratitude/new-york.md",
-    "christianity/2-nephi-1-shake-off-the-chains.md",
     "img/dalle-new-york-skyline.jpeg",
     "goals/2024-02-07.md",
     "goals/2024-02-06.md",
@@ -166,17 +171,12 @@
     "img/screenshot-raw-html-on-github.jpeg",
     "goals/2024-02-05.md",
     "tech/a-knife-to-a-gun-fight.md",
-    "img/dalle-paradise-vs-destruction.jpeg",
     "scriptures/2-nephi-1.4.md",
     "creative/guitar-clouds.md",
     "tech/embedding-audio-in-quarto.md",
     "posts/worlds-longest-drive.md",
-    "img/screenshot-world-longest-drive.jpeg",
-    "img/screenshot-audio-tag-breaks-the-file.jpeg",
-    "img/screenshot-audio-quarto-not-rendered.jpeg",
     "gratitude/avocados.md",
     "concepts/Honduras.md",
-    "creative/prose-the-thief-of-time.md",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",
