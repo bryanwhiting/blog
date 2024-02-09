@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/pkl-for-configuration-management.md",
+                "file": "tech/protobufs-everything-i-dont-know.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "tech/pkl-for-configuration-management.md",
+            "file": "tech/protobufs-everything-i-dont-know.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "tech/pkl-for-configuration-management.md"
+            "file": "tech/protobufs-everything-i-dont-know.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "tech/pkl-for-configuration-management.md",
+            "file": "tech/protobufs-everything-i-dont-know.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,10 +141,13 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/screenshot-protobufs-python-class.jpeg",
+    "img/screenshot-proto-file-raw.jpeg",
+    "tech/pkl-for-configuration-management.md",
+    "tech/protobufs-everything-i-dont-know.md",
     "img/screenshot-pkl-render.jpeg",
     "img/screenshot-pkl-configs.jpeg",
     "tech/handling-outliers-in-linear-regression.md",
-    "tech/pkl-for-configuration-management.md",
     "img/screenshot-chart-sales-massive-spike-3-compare-close-up.jpeg",
     "img/screenshot-chart-sales-3-massive-spike.jpeg",
     "img/screenshot-charts-sales-scenario-2.jpeg",
@@ -153,11 +156,9 @@
     "img/screenshot-chart-sales-in-sample.jpeg",
     "img/screenshot-chart-outlier-sales-only.jpeg",
     "christianity/2-nephi-1-shake-off-the-chains.md",
-    "img/dalle-breaking-free-from-the-chains.jpeg",
     "scriptures/2-nephi-1.23.md",
     "scriptures/2-nephi-1.20.md",
     "gratitude/new-york.md",
-    "img/dalle-new-york-skyline.jpeg",
     "goals/2024-02-07.md",
     "goals/2024-02-06.md",
     "christianity/2-nephi-1-alternative-endings.md",
@@ -176,7 +177,6 @@
     "creative/guitar-clouds.md",
     "tech/embedding-audio-in-quarto.md",
     "posts/worlds-longest-drive.md",
-    "gratitude/avocados.md",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",

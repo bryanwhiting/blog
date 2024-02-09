@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "protobufs-everything-i-dont-know",
+      "path": "tech/protobufs-everything-i-dont-know.md"
+    },
+    {
       "basename": "pkl-for-configuration-management",
       "path": "tech/pkl-for-configuration-management.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "1-nephi-19-yieldeth-himself",
       "path": "christianity/1-nephi-19-yieldeth-himself.md"
-    },
-    {
-      "basename": "1-nephi-20-baptism-in-the-old-testament",
-      "path": "christianity/1-nephi-20-baptism-in-the-old-testament.md"
     }
   ],
   "omittedPaths": [],
