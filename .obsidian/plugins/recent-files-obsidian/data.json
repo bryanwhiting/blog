@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "pkl-for-configuration-management",
+      "path": "tech/pkl-for-configuration-management.md"
+    },
+    {
       "basename": "handling-outliers-in-linear-regression",
       "path": "tech/handling-outliers-in-linear-regression.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "1-nephi-20-baptism-in-the-old-testament",
       "path": "christianity/1-nephi-20-baptism-in-the-old-testament.md"
-    },
-    {
-      "basename": "how-to-blog-with-obsidian-and-quarto",
-      "path": "posts/how-to-blog-with-obsidian-and-quarto.md"
     }
   ],
   "omittedPaths": [],

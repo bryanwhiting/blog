@@ -100,6 +100,13 @@ To avoid overfitting philosophically, you should think about what generalizes. I
 But if you believe that holiday period will happen in the future, you're assuming it'll behave like the prior holiday periods. 
 
 Other ideas you could try: one-hot encode the days before/after a holiday to capture ramp-up or ramp-down. Or scale your data by percentages so you're making a prediction relative to the annual baseline or something (see the "other ways" below for a roughly similar idea).
+
+Here's are the principles: 
+
+- For every one-hot encoding you do, you assume that the average effect of that period across all data points is the same, plus some random error. 
+- If that average effect isn't the same, use multiple dummy features. 
+- Only use one hot encoding where you think it'll generalize to the future. Otherwise you're overfitting or hindsight biasing your model.
+- Don't treat big holiday periods (Christmas) the same as little periods. Give them each their own feature.
 # In Conclusion
 
 Feature engineering has a huge impact on your model's ability to make good predictions. Also, it affects the interpretability of your model coefficients, which may be valuable in gaining insights from your data (such as what is the causal effect of email on revenue).
