@@ -18,7 +18,7 @@ categories:
   - ask gpt
   - principles of data science
   - time series
-draft: false
+draft: true
 ---
 So you have an outlier in your data. How do you handle it?
 
@@ -69,15 +69,8 @@ I hope this helps. As always, always test the principle on your own data before 
 
 Lastly, it's a beautiful world. You can ask ChatGPT to code up these analyses really quickly. Do you have a debate at work? Ask ChatGPT to run a simulation. 
 
-# Scenario 2: Variable impact outlier
 
-In this scenario, we assume that the outliers are unpredictably spikey. Some days are more spikey than others. This might be representative of a holiday period where a few days are on the weekend. 
-
-We see again that our principle holds: the regression coefficient is largely the same. 
-
-![When you have non-stationary outliers](../img/screenshot-charts-sales-scenario-2.jpeg){.preview-image}
-
-# Scenario 3: Massively Spiky outliers 
+# Scenario 2: Non constant outliers
 
 Now what if you have a holiday period AND a massive one-day spike (Black Friday)?
 
@@ -91,11 +84,27 @@ And this is where we start to see the Model C predictions (drop outliers) differ
 The predictions can differ by 10% or more. This means the coefficients can be wildly different, and that's what we see. Model B's email coefficient was 2.0 compared to just 1.1 for C. (Remember the model is `y ~ emails (+ holiday)`).
 
 How do we solve this problem? Back to Scenario 1 - more feature engineering and interactions. 
+
+The solution (and exercise left for the reader) is to fit a new one-hot encoded feature for those separately spikey indexes. 
+
+Interpretation: if you believe there is a constant effect for your holiday period, you only need one holiday feature to not bias your emails coefficient. 
+
+If you see three distinct spiky periods, you need three holiday indicators: one either for the whole time period or just the middle 10 days and a second for the last 3 days (last spike) and third for the first two days (big spikes).
+
+Basically, the more one-hot encoding you're doing, the more you're overfitting your model. If you identified every spike with a feature, it's as if you've dropped them from the model *if* they have those spikes same average effect. 
+
+But if that average effect changes over time, you need to be smarter about your feature engineering. 
+
+To avoid overfitting philosophically, you should think about what generalizes. It doesn't make sense to one-hot-encode every spike. Or maybe you had a freak event that causes a huge spike one day (a viral video). If that's the case, you just have to accept the noise.
+
+But if you believe that holiday period will happen in the future, you're assuming it'll behave like the prior holiday periods. 
+
+Other ideas you could try: one-hot encode the days before/after a holiday to capture ramp-up or ramp-down. Or scale your data by percentages so you're making a prediction relative to the annual baseline or something (see the "other ways" below for a roughly similar idea).
 # In Conclusion
 
-Feature engineering has a huge impact on your model's ability to make good predictions. Also, it affects the interpret ability of your model coefficients, which may be valuable in gaining insights from your data (such as what is the causal effect of email on revenue).
+Feature engineering has a huge impact on your model's ability to make good predictions. Also, it affects the interpretability of your model coefficients, which may be valuable in gaining insights from your data (such as what is the causal effect of email on revenue).
 
-When you drop a row of data, you're essentially creating a new model. And you're implicitly targeting that row. You're doing a type of feature engineering. 
+When you drop a row of data, you're essentially creating a new model. You're doing a type of feature engineering. 
 
 The better thing to do is to actually just do the feature engineering, because you'll be able to generalize to similar data points like that in the future. 
 # Other Ways to Handle Outliers
