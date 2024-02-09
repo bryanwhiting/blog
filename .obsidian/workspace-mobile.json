@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/protobufs-everything-i-dont-know.md",
+                "file": "christianity/2-nephi-1-shake-off-the-chains.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "tech/protobufs-everything-i-dont-know.md",
+            "file": "christianity/2-nephi-1-shake-off-the-chains.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "tech/protobufs-everything-i-dont-know.md"
+            "file": "christianity/2-nephi-1-shake-off-the-chains.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "tech/protobufs-everything-i-dont-know.md",
+            "file": "christianity/2-nephi-1-shake-off-the-chains.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,10 +141,19 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "img/screenshot-protobufs-python-class.jpeg",
-    "img/screenshot-proto-file-raw.jpeg",
+    "goals/2024-02-08.md",
+    "goals/2024-02-09.md",
+    "christianity/2-nephi-2-consecration.md",
+    "img/dalle-consecration-gift-to-cloud.jpeg",
+    "scriptures/2-nephi-32.9.md",
+    "scriptures/2-nephi-32.8.md",
+    "scriptures/2-nephi-2.2.md",
+    "gratitude/long-runs.md",
+    "img/dalle-long-runs-wilderness.jpeg",
     "tech/pkl-for-configuration-management.md",
     "tech/protobufs-everything-i-dont-know.md",
+    "img/screenshot-protobufs-python-class.jpeg",
+    "img/screenshot-proto-file-raw.jpeg",
     "img/screenshot-pkl-render.jpeg",
     "img/screenshot-pkl-configs.jpeg",
     "tech/handling-outliers-in-linear-regression.md",
@@ -152,9 +161,6 @@
     "img/screenshot-chart-sales-3-massive-spike.jpeg",
     "img/screenshot-charts-sales-scenario-2.jpeg",
     "img/screenshot-chart-sales-model-c-out-of-sample.jpeg",
-    "img/screenshot-chart-sales-fitted-and-non-fitted.jpeg",
-    "img/screenshot-chart-sales-in-sample.jpeg",
-    "img/screenshot-chart-outlier-sales-only.jpeg",
     "christianity/2-nephi-1-shake-off-the-chains.md",
     "scriptures/2-nephi-1.23.md",
     "scriptures/2-nephi-1.20.md",
@@ -171,12 +177,6 @@
     "book-review/how-to-win-friends-and-influence-people.md",
     "gratitude/kindness.md",
     "tech/how-to-share-an-html-file-like-a-quarto-output-in-github.md",
-    "goals/2024-02-05.md",
-    "tech/a-knife-to-a-gun-fight.md",
-    "scriptures/2-nephi-1.4.md",
-    "creative/guitar-clouds.md",
-    "tech/embedding-audio-in-quarto.md",
-    "posts/worlds-longest-drive.md",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",

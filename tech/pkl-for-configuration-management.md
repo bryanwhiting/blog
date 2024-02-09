@@ -40,7 +40,7 @@ I'm not 100% sure that this is any easier for a Python developer than just using
 
 Anything's better than Python's ConfigParser...yuck. 
 
-Reminds me of [Protocol Buffers Documentation](https://protobuf.dev/) but honestly I don't know much about this stuff. 
+Reminds me of [Protocol Buffers Documentation](https://protobuf.dev/) but honestly I don't know much about this stuff. See [Protobufs - Everything I don't know](protobufs-everything-i-dont-know.md)
 
 But it's nice to see people are thinking about configs...
 

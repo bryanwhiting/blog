@@ -1,11 +1,11 @@
 ---
 title: 2 Nephi 1 - Shake off the Chains
-description: |
-  x
+description: What holds you back?
 date: 2024-02-07 23:47:32
 created: 2024-02-07 23:47:32
 categories:
   - christianity
+  - come follow me
 draft: false
 ---
 # Scriptures

@@ -11,8 +11,7 @@ draft: false
 ---
 If you want a guide on Protobufs this isn't it. These are my notes. Just stumbled on this tonight after having seen these all over the place at Google and I wanted to learn something. 
 
-See [Protocol Buffers Documentation](https://protobuf.dev/) and ChatGPT. 
-
+See [Protocol Buffers Documentation](https://protobuf.dev/) and ChatGPT. [Pkl for Configuration Management](pkl-for-configuration-management.md) made me think of this. 
 # The point of a Protobuf
 
 - write one file

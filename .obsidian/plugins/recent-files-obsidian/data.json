@@ -1,20 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "protobufs-everything-i-dont-know",
-      "path": "tech/protobufs-everything-i-dont-know.md"
+      "basename": "2-nephi-1-shake-off-the-chains",
+      "path": "christianity/2-nephi-1-shake-off-the-chains.md"
+    },
+    {
+      "basename": "2024-02-08",
+      "path": "goals/2024-02-08.md"
+    },
+    {
+      "basename": "2024-02-09",
+      "path": "goals/2024-02-09.md"
+    },
+    {
+      "basename": "2-nephi-2-consecration",
+      "path": "christianity/2-nephi-2-consecration.md"
+    },
+    {
+      "basename": "2-nephi-32.9",
+      "path": "scriptures/2-nephi-32.9.md"
+    },
+    {
+      "basename": "2-nephi-32.8",
+      "path": "scriptures/2-nephi-32.8.md"
+    },
+    {
+      "basename": "long-runs",
+      "path": "gratitude/long-runs.md"
     },
     {
       "basename": "pkl-for-configuration-management",
       "path": "tech/pkl-for-configuration-management.md"
     },
     {
-      "basename": "handling-outliers-in-linear-regression",
-      "path": "tech/handling-outliers-in-linear-regression.md"
+      "basename": "protobufs-everything-i-dont-know",
+      "path": "tech/protobufs-everything-i-dont-know.md"
     },
     {
-      "basename": "2-nephi-1-shake-off-the-chains",
-      "path": "christianity/2-nephi-1-shake-off-the-chains.md"
+      "basename": "handling-outliers-in-linear-regression",
+      "path": "tech/handling-outliers-in-linear-regression.md"
     },
     {
       "basename": "new-york",
@@ -175,30 +199,6 @@
     {
       "basename": "bowling",
       "path": "gratitude/bowling.md"
-    },
-    {
-      "basename": "home-depot-saturday-morning-crafts",
-      "path": "gratitude/home-depot-saturday-morning-crafts.md"
-    },
-    {
-      "basename": "1-nephi-21-he-has-not-forgotten-you",
-      "path": "christianity/1-nephi-21-he-has-not-forgotten-you.md"
-    },
-    {
-      "basename": "the-old-man-and-the-sea",
-      "path": "book-review/the-old-man-and-the-sea.md"
-    },
-    {
-      "basename": "frank-herbert",
-      "path": "concepts/frank-herbert.md"
-    },
-    {
-      "basename": "wool",
-      "path": "book-review/wool.md"
-    },
-    {
-      "basename": "1-nephi-19-yieldeth-himself",
-      "path": "christianity/1-nephi-19-yieldeth-himself.md"
     }
   ],
   "omittedPaths": [],
