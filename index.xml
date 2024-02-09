@@ -10,7 +10,56 @@
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Thu, 08 Feb 2024 19:56:26 GMT</lastBuildDate>
+<lastBuildDate>Thu, 08 Feb 2024 20:14:47 GMT</lastBuildDate>
+<item>
+  <title>Protobufs - Everything I don’t know</title>
+  <link>https://www.bryanwhiting.com/tech/protobufs-everything-i-dont-know.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>If you want a guide on Protobufs this isn’t it. These are my notes. Just stumbled on this tonight after having seen these all over the place at Google and I wanted to learn something.</p>
+<p>See <a href="https://protobuf.dev/">Protocol Buffers Documentation</a> and ChatGPT.</p>
+<section id="the-point-of-a-protobuf" class="level1 page-columns page-full">
+<h1>The point of a Protobuf</h1>
+<ul>
+<li>write one file</li>
+<li>This file defines data structure, but not the data itself</li>
+<li>Compile it to different languages (like Python)</li>
+<li>A file in Python will be have a class defined with the properties in it</li>
+<li>When you serialize data (send via JSON or something over an API) the other service knows how to read that data file immediately (if you built it and gave it the proto)
+<ul>
+<li>This makes sense to me why Google used this everywhere. They have one service in Python and another in Java and another in Go. To get them talking to each other they need a common data structure to read from.</li>
+<li>The setters and getters help with the parsing a JSON blob for example.</li>
+</ul></li>
+</ul>
+<p>Like first you define the protobuf</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-proto-file-raw.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Raw proto fike</figcaption>
+</figure>
+</div>
+<p>And then you compile it via a bash command and it turns to this:</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-protobufs-python-class.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Compiled</figcaption>
+</figure>
+</div>
+
+
+</section>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>raw notes</category>
+  <category>data engineering</category>
+  <guid>https://www.bryanwhiting.com/tech/protobufs-everything-i-dont-know.html</guid>
+  <pubDate>Thu, 08 Feb 2024 20:14:47 GMT</pubDate>
+</item>
 <item>
   <title>Pkl for Configuration Management</title>
   <link>https://www.bryanwhiting.com/tech/pkl-for-configuration-management.html</link>
@@ -802,32 +851,6 @@ Song snippet today: [2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds
   <category>baptism</category>
   <guid>https://www.bryanwhiting.com/christianity/1-nephi-20-baptism-in-the-old-testament.html</guid>
   <pubDate>Fri, 02 Feb 2024 23:59:00 GMT</pubDate>
-</item>
-<item>
-  <title>I’m Grateful for Peloton</title>
-  <link>https://www.bryanwhiting.com/gratitude/peloton.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>I grew up with exercise equipment in my house, and like most equipment for most people, I didn’t use it. Part of the reason was it was hard to get going.</p>
-<p>There’s nothing easier than hopping on an exercise bike. Having been a runner most of my life, when I first got the Peloton I realized how nice it was to get a solid workout in 20 minutes. It’s just so easy with the little kilojoule calculator there.</p>
-<p>And it could be any exercise bike, really, but I’m grateful for the one I have.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-stationary-bike.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Maybe I’ll get a real bike someday</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>gratitude</category>
-  <guid>https://www.bryanwhiting.com/gratitude/peloton.html</guid>
-  <pubDate>Fri, 02 Feb 2024 22:56:23 GMT</pubDate>
 </item>
 </channel>
 </rss>
