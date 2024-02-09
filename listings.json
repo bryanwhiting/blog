@@ -247,7 +247,6 @@
   {
     "listing": "/index.html",
     "items": [
-      "/tech/handling-outliers-in-linear-regression.html",
       "/tech/galileo-ai.html",
       "/tech/how-to-share-an-html-file-like-a-quarto-output-in-github.html",
       "/posts/worlds-longest-drive.html",
@@ -541,7 +540,6 @@
   {
     "listing": "/sitemap.html",
     "items": [
-      "/tech/handling-outliers-in-linear-regression.html",
       "/christianity/2-nephi-1-shake-off-the-chains.html",
       "/gratitude/new-york.html",
       "/goals/2024-02-07.html",
@@ -1042,7 +1040,6 @@
   {
     "listing": "/tech.html",
     "items": [
-      "/tech/handling-outliers-in-linear-regression.html",
       "/tech/galileo-ai.html",
       "/tech/how-to-share-an-html-file-like-a-quarto-output-in-github.html",
       "/tech/embedding-audio-in-quarto.html",
@@ -1185,7 +1182,6 @@
   {
     "listing": "/all.html",
     "items": [
-      "/tech/handling-outliers-in-linear-regression.html",
       "/christianity/2-nephi-1-shake-off-the-chains.html",
       "/gratitude/new-york.html",
       "/tech/galileo-ai.html",

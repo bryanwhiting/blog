@@ -306,8 +306,7 @@ gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
   <ul>
   <li><a href="#three-ways-to-handle-an-outlier" id="toc-three-ways-to-handle-an-outlier" class="nav-link active" data-scroll-target="#three-ways-to-handle-an-outlier">Three Ways to Handle an Outlier</a></li>
   <li><a href="#scenario-1-outlier-with-constant-effect" id="toc-scenario-1-outlier-with-constant-effect" class="nav-link" data-scroll-target="#scenario-1-outlier-with-constant-effect">Scenario 1: Outlier with constant effect</a></li>
-  <li><a href="#scenario-2-variable-impact-outlier" id="toc-scenario-2-variable-impact-outlier" class="nav-link" data-scroll-target="#scenario-2-variable-impact-outlier">Scenario 2: Variable impact outlier</a></li>
-  <li><a href="#scenario-3-massively-spiky-outliers" id="toc-scenario-3-massively-spiky-outliers" class="nav-link" data-scroll-target="#scenario-3-massively-spiky-outliers">Scenario 3: Massively Spiky outliers</a></li>
+  <li><a href="#scenario-2-non-constant-outliers" id="toc-scenario-2-non-constant-outliers" class="nav-link" data-scroll-target="#scenario-2-non-constant-outliers">Scenario 2: Non constant outliers</a></li>
   <li><a href="#appendix-code" id="toc-appendix-code" class="nav-link" data-scroll-target="#appendix-code">Appendix (Code)</a></li>
   </ul>
 </nav>
@@ -377,19 +376,8 @@ gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
 <p>I hope this helps. As always, always test the principle on your own data before fully trusting this principle. There may be something specific about your data or your model where this may not apply exactly (such as using decision trees or a GLM or GAM).</p>
 <p>Lastly, it’s a beautiful world. You can ask ChatGPT to code up these analyses really quickly. Do you have a debate at work? Ask ChatGPT to run a simulation.</p>
 </section>
-<section id="scenario-2-variable-impact-outlier" class="level1 page-columns page-full">
-<h1>Scenario 2: Variable impact outlier</h1>
-<p>In this scenario, we assume that the outliers are unpredictably spikey. Some days are more spikey than others. This might be representative of a holiday period where a few days are on the weekend.</p>
-<p>We see again that our principle holds: the regression coefficient is largely the same.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="../img/screenshot-charts-sales-scenario-2.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">When you have non-stationary outliers</figcaption>
-</figure>
-</div>
-</section>
-<section id="scenario-3-massively-spiky-outliers" class="level1 page-columns page-full">
-<h1>Scenario 3: Massively Spiky outliers</h1>
+<section id="scenario-2-non-constant-outliers" class="level1 page-columns page-full">
+<h1>Scenario 2: Non constant outliers</h1>
 <p>Now what if you have a holiday period AND a massive one-day spike (Black Friday)?</p>
 <p>Here’s what the model predictions look like in green. <img src="../img/screenshot-chart-sales-3-massive-spike.jpeg" class="preview-image img-fluid" alt="Massive spike"></p>
 <p>And this is where we start to see the Model C predictions (drop outliers) differ from model B:</p>
@@ -400,9 +388,17 @@ gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
 </figure>
 </div>
 <p>The predictions can differ by 10% or more. This means the coefficients can be wildly different, and that’s what we see. Model B’s email coefficient was 2.0 compared to just 1.1 for C. (Remember the model is <code>y ~ emails (+ holiday)</code>).</p>
-<p>How do we solve this problem? Back to Scenario 1 - more feature engineering and interactions. # In Conclusion</p>
-<p>Feature engineering has a huge impact on your model’s ability to make good predictions. Also, it affects the interpret ability of your model coefficients, which may be valuable in gaining insights from your data (such as what is the causal effect of email on revenue).</p>
-<p>When you drop a row of data, you’re essentially creating a new model. And you’re implicitly targeting that row. You’re doing a type of feature engineering.</p>
+<p>How do we solve this problem? Back to Scenario 1 - more feature engineering and interactions.</p>
+<p>The solution (and exercise left for the reader) is to fit a new one-hot encoded feature for those separately spikey indexes.</p>
+<p>Interpretation: if you believe there is a constant effect for your holiday period, you only need one holiday feature to not bias your emails coefficient.</p>
+<p>If you see three distinct spiky periods, you need three holiday indicators: one either for the whole time period or just the middle 10 days and a second for the last 3 days (last spike) and third for the first two days (big spikes).</p>
+<p>Basically, the more one-hot encoding you’re doing, the more you’re overfitting your model. If you identified every spike with a feature, it’s as if you’ve dropped them from the model <em>if</em> they have those spikes same average effect.</p>
+<p>But if that average effect changes over time, you need to be smarter about your feature engineering.</p>
+<p>To avoid overfitting philosophically, you should think about what generalizes. It doesn’t make sense to one-hot-encode every spike. Or maybe you had a freak event that causes a huge spike one day (a viral video). If that’s the case, you just have to accept the noise.</p>
+<p>But if you believe that holiday period will happen in the future, you’re assuming it’ll behave like the prior holiday periods.</p>
+<p>Other ideas you could try: one-hot encode the days before/after a holiday to capture ramp-up or ramp-down. Or scale your data by percentages so you’re making a prediction relative to the annual baseline or something (see the “other ways” below for a roughly similar idea). # In Conclusion</p>
+<p>Feature engineering has a huge impact on your model’s ability to make good predictions. Also, it affects the interpretability of your model coefficients, which may be valuable in gaining insights from your data (such as what is the causal effect of email on revenue).</p>
+<p>When you drop a row of data, you’re essentially creating a new model. You’re doing a type of feature engineering.</p>
 <p>The better thing to do is to actually just do the feature engineering, because you’ll be able to generalize to similar data points like that in the future. # Other Ways to Handle Outliers</p>
 <p>In this DoorDash blog, they provide a unique solution for XGBoost, mostly because XGBoost has a hard time extrapolating. But there are other ways to handle your data.</p>
 <p><a href="../tech/holiday-demand-forecasting-using-xgboost.html">Holiday Demand Forecasting using XGBoost</a></p>
