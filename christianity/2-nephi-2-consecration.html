@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="What they’re potentially used for">
+<meta name="description" content="It’s a state of mind.">
 
-<title>Bryan Whiting - Protobufs - Everything I don’t know</title>
+<title>Bryan Whiting - 2 Nephi 2 - Consecration</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -80,18 +80,18 @@ gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
 
 <link rel="stylesheet" href="../css/styles.css">
 <link rel="stylesheet" href="css/poem.css">
-<meta property="og:title" content="Bryan Whiting - Protobufs - Everything I don’t know">
-<meta property="og:description" content="What they’re potentially used for">
-<meta property="og:image" content="https://www.bryanwhiting.com/img/screenshot-proto-file-raw.jpeg">
+<meta property="og:title" content="Bryan Whiting - 2 Nephi 2 - Consecration">
+<meta property="og:description" content="It’s a state of mind.">
+<meta property="og:image" content="https://www.bryanwhiting.com/img/dalle-consecration-gift-to-cloud.jpeg">
 <meta property="og:site_name" content="Bryan Whiting">
-<meta name="twitter:title" content="Bryan Whiting - Protobufs - Everything I don’t know">
-<meta name="twitter:description" content="What they’re potentially used for">
-<meta name="twitter:image" content="https://www.bryanwhiting.com/img/screenshot-proto-file-raw.jpeg">
+<meta name="twitter:title" content="Bryan Whiting - 2 Nephi 2 - Consecration">
+<meta name="twitter:description" content="It’s a state of mind.">
+<meta name="twitter:image" content="https://www.bryanwhiting.com/img/dalle-consecration-gift-to-cloud.jpeg">
 <meta name="twitter:creator" content="@bryanwhiting">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-sidebar docked slimcontent">
+<body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -115,16 +115,17 @@ gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
 <header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Protobufs - Everything I don’t know</h1>
+      <h1 class="title">2 Nephi 2 - Consecration</h1>
                   <div>
         <div class="description">
-          What they’re potentially used for
+          It’s a state of mind.
         </div>
       </div>
                           <div class="quarto-categories">
-                <div class="quarto-category">tech</div>
-                <div class="quarto-category">raw notes</div>
-                <div class="quarto-category">data engineering</div>
+                <div class="quarto-category">christianity</div>
+                <div class="quarto-category">come follow me</div>
+                <div class="quarto-category">consecration</div>
+                <div class="quarto-category">adversity</div>
               </div>
                   </div>
   </div>
@@ -140,9 +141,10 @@ gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
           <div>
       <div class="quarto-title-meta-heading">Topics</div>
       <div class="quarto-title-meta-contents">
-                <div class="badge badge-small badge-grey quarto-category">tech</div>
-                <div class="badge badge-small badge-grey quarto-category">raw notes</div>
-                <div class="badge badge-small badge-grey quarto-category">data engineering</div>
+                <div class="badge badge-small badge-grey quarto-category">christianity</div>
+                <div class="badge badge-small badge-grey quarto-category">come follow me</div>
+                <div class="badge badge-small badge-grey quarto-category">consecration</div>
+                <div class="badge badge-small badge-grey quarto-category">adversity</div>
             </div>
     </div>
       
@@ -278,48 +280,44 @@ gtag('config', 'G-3SX7QFKDL7', { 'anonymize_ip': true});
   </li>
     </ul>
     </div>
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#scriptures" id="toc-scriptures" class="nav-link active" data-scroll-target="#scriptures">Scriptures</a></li>
+  </ul>
+</nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-<p>If you want a guide on Protobufs this isn’t it. These are my notes. Just stumbled on this tonight after having seen these all over the place at Google and I wanted to learn something.</p>
-<p>See <a href="https://protobuf.dev/">Protocol Buffers Documentation</a> and ChatGPT. <a href="../tech/pkl-for-configuration-management.html">Pkl for Configuration Management</a> made me think of this. # The point of a Protobuf</p>
-<ul>
-<li>write one file</li>
-<li>This file defines data structure, but not the data itself</li>
-<li>Compile it to different languages (like Python)</li>
-<li>A file in Python will be have a class defined with the properties in it</li>
-<li>When you serialize data (send via JSON or something over an API) the other service knows how to read that data file immediately (if you built it and gave it the proto)
-<ul>
-<li>This makes sense to me why Google used this everywhere. They have one service in Python and another in Java and another in Go. To get them talking to each other they need a common data structure to read from.</li>
-<li>The setters and getters help with the parsing a JSON blob for example.</li>
-</ul></li>
-</ul>
-<p>Like first you define the protobuf</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="../img/screenshot-proto-file-raw.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Raw proto fike</figcaption>
-</figure>
-</div>
-<p>And then you compile it via a bash command and it turns to this:</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="../img/screenshot-protobufs-python-class.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Compiled</figcaption>
-</figure>
-</div>
+<section id="scriptures" class="level1">
+<h1>Scriptures</h1>
+<p>Lehi, now in America after a long journey, sits his son, Jacob, down for a chat. He told him all his hard times would be rewarded:</p>
+<blockquote class="blockquote">
+<p>Nevertheless, Jacob, my firstborn in the wilderness, thou knowest the greatness of God; and he shall <strong>consecrate</strong> thine afflictions for thy gain. <a href="../scriptures/2-nephi-2.2">2 Nephi 2.2</a></p>
+</blockquote>
+<p>This reminds me of:</p>
+<blockquote class="blockquote">
+<p>I say unto you that ye must pray always, and not faint; that ye must not perform any thing unto the Lord save in the first place ye shall pray unto the Father in the name of Christ, that he will <strong>consecrate</strong> thy performance unto thee, that thy performance may be for the welfare of thy soul. <a href="../scriptures/2-nephi-32.9.html">2-nephi-32.9</a></p>
+</blockquote>
+<p>To consecrate is to “make or declare something sacred” (Oxford), or “to devote or dedicate exclusively to a purpose”.</p>
+<p>From this lens, Jacob’s trials (like all his brothers and sisters) could be declared sacred (for the purposes of the Lord) and dedicated to the Lord’s purposes and cause.</p>
+<p>Likewise, through prayer we can consecrate all of our acts. We can make them sacred devotions. What would your life be like if every day you dedicated it to the Lord? Where you did everything with a sacred purpose and cause?</p>
+<p>And what if He made all those things consecrated for your spiritual gain?</p>
+<p><img src="../img/dalle-consecration-gift-to-cloud.jpeg" class="preview-image img-fluid" alt="Consecration feels fuzzy, but it’s just giving yourself to something greater. It’s a mindset"> # Meaning</p>
+<p>I can find more ways to consecrate my day and actions. To give myself with greater purpose.</p>
 
 
+</section>
 
 <p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

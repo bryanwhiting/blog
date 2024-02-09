@@ -15,6 +15,7 @@
   {
     "listing": "/christianity.html",
     "items": [
+      "/christianity/2-nephi-2-consecration.html",
       "/christianity/2-nephi-1-shake-off-the-chains.html",
       "/christianity/2-nephi-1-land-of-promise.html",
       "/christianity/2-nephi-1-alternative-endings.html",
@@ -159,6 +160,8 @@
   {
     "listing": "/goals.html",
     "items": [
+      "/goals/2024-02-09.html",
+      "/goals/2024-02-08.html",
       "/goals/2024-02-07.html",
       "/goals/2024-02-06.html",
       "/goals/2024-02-05.html",
@@ -196,6 +199,7 @@
   {
     "listing": "/gratitude.html",
     "items": [
+      "/gratitude/long-runs.html",
       "/gratitude/new-york.html",
       "/gratitude/kindness.html",
       "/gratitude/avocados.html",
@@ -342,6 +346,7 @@
       "/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html",
       "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
       "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html",
+      "/gratitude/long-runs.html",
       "/gratitude/new-york.html",
       "/gratitude/kindness.html",
       "/gratitude/avocados.html",
@@ -388,6 +393,7 @@
       "/gratitude/2023-12-26-i'm-grateful-for-blankets/index.html",
       "/gratitude/2023-12-25-grateful-for-doctors/index.html",
       "/gratitude/2023-12-24-light/index.html",
+      "/christianity/2-nephi-2-consecration.html",
       "/christianity/2-nephi-1-shake-off-the-chains.html",
       "/christianity/2-nephi-1-land-of-promise.html",
       "/christianity/2-nephi-1-alternative-endings.html",
@@ -540,10 +546,41 @@
     ]
   },
   {
-    "listing": "/sitemap.html",
+    "listing": "/tech.html",
     "items": [
       "/tech/protobufs-everything-i-dont-know.html",
       "/tech/pkl-for-configuration-management.html",
+      "/tech/galileo-ai.html",
+      "/tech/how-to-share-an-html-file-like-a-quarto-output-in-github.html",
+      "/tech/embedding-audio-in-quarto.html",
+      "/tech/the-divinely-discontent-chatbot-user.html",
+      "/tech/llm-chatbot-arena-leaderboard.html",
+      "/tech/holiday-demand-forecasting-using-xgboost.html",
+      "/tech/private-gpt.html",
+      "/tech/lm-studio.html",
+      "/tech/gpt4all.html",
+      "/tech/beam-ai.html",
+      "/tech/this-drug-is-habit-forming.html",
+      "/tech/the-matrix.html",
+      "/tech/a-knife-to-a-gun-fight.html",
+      "/tech/ai-will-not-replace-human-creativity.html",
+      "/tech/what-startups-and-musicians-have-in-common.html",
+      "/tech/the-future-wave-of-ai-hype.html",
+      "/tech/dreaming-software.html",
+      "/tech/why-we-want-new-software.html",
+      "/tech/swapping-out-human-labor-for-ai.html"
+    ]
+  },
+  {
+    "listing": "/sitemap.html",
+    "items": [
+      "/goals/2024-02-09.html",
+      "/christianity/2-nephi-2-consecration.html",
+      "/gratitude/long-runs.html",
+      "/tech/protobufs-everything-i-dont-know.html",
+      "/tech/pkl-for-configuration-management.html",
+      "/goals/2024-02-08.html",
+      "/scriptures/2-nephi-2.2.html",
       "/christianity/2-nephi-1-shake-off-the-chains.html",
       "/gratitude/new-york.html",
       "/goals/2024-02-07.html",
@@ -1042,32 +1079,6 @@
     ]
   },
   {
-    "listing": "/tech.html",
-    "items": [
-      "/tech/protobufs-everything-i-dont-know.html",
-      "/tech/pkl-for-configuration-management.html",
-      "/tech/galileo-ai.html",
-      "/tech/how-to-share-an-html-file-like-a-quarto-output-in-github.html",
-      "/tech/embedding-audio-in-quarto.html",
-      "/tech/the-divinely-discontent-chatbot-user.html",
-      "/tech/llm-chatbot-arena-leaderboard.html",
-      "/tech/holiday-demand-forecasting-using-xgboost.html",
-      "/tech/private-gpt.html",
-      "/tech/lm-studio.html",
-      "/tech/gpt4all.html",
-      "/tech/beam-ai.html",
-      "/tech/this-drug-is-habit-forming.html",
-      "/tech/the-matrix.html",
-      "/tech/a-knife-to-a-gun-fight.html",
-      "/tech/ai-will-not-replace-human-creativity.html",
-      "/tech/what-startups-and-musicians-have-in-common.html",
-      "/tech/the-future-wave-of-ai-hype.html",
-      "/tech/dreaming-software.html",
-      "/tech/why-we-want-new-software.html",
-      "/tech/swapping-out-human-labor-for-ai.html"
-    ]
-  },
-  {
     "listing": "/books.html",
     "items": [
       "/book-review/shift.html",
@@ -1188,6 +1199,8 @@
   {
     "listing": "/all.html",
     "items": [
+      "/christianity/2-nephi-2-consecration.html",
+      "/gratitude/long-runs.html",
       "/tech/protobufs-everything-i-dont-know.html",
       "/tech/pkl-for-configuration-management.html",
       "/christianity/2-nephi-1-shake-off-the-chains.html",
