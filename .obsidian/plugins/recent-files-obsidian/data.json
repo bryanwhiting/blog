@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2-nephi-2-redemption",
+      "path": "christianity/2-nephi-2-redemption.md"
+    },
+    {
       "basename": "skimboarding",
       "path": "gratitude/skimboarding.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "saints-book-1-the-standard-of-truth-1815-1846",
       "path": "book-review/saints-book-1-the-standard-of-truth-1815-1846.md"
-    },
-    {
-      "basename": "the-divinely-discontent-chatbot-user",
-      "path": "tech/the-divinely-discontent-chatbot-user.md"
     }
   ],
   "omittedPaths": [],

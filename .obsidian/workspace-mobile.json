@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/skimboarding.md",
+                "file": "christianity/2-nephi-2-redemption.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "gratitude/skimboarding.md",
+            "file": "christianity/2-nephi-2-redemption.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "gratitude/skimboarding.md"
+            "file": "christianity/2-nephi-2-redemption.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "gratitude/skimboarding.md",
+            "file": "christianity/2-nephi-2-redemption.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,11 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-risen-christ-by-the-tomb-redemption.jpeg",
+    "gratitude/skimboarding.md",
+    "christianity/2-nephi-2-redemption.md",
     "img/dalle-snowboarding-at-dusk.jpeg",
     "lists/reading-list.md",
-    "gratitude/skimboarding.md",
     "christianity/2-nephi-1-shake-off-the-chains.md",
     "goals/2024-02-08.md",
     "goals/2024-02-09.md",
@@ -164,7 +166,6 @@
     "img/screenshot-chart-sales-massive-spike-3-compare-close-up.jpeg",
     "img/screenshot-chart-sales-3-massive-spike.jpeg",
     "img/screenshot-charts-sales-scenario-2.jpeg",
-    "img/screenshot-chart-sales-model-c-out-of-sample.jpeg",
     "scriptures/2-nephi-1.23.md",
     "scriptures/2-nephi-1.20.md",
     "gratitude/new-york.md",
@@ -176,7 +177,6 @@
     "christianity/1-nephi-5-trusting-a-promise.md",
     "christianity/1-nephi-2-receiving-a-promised-land.md",
     "tech/galileo-ai.md",
-    "scriptures/2-nephi-1.5.md",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",
