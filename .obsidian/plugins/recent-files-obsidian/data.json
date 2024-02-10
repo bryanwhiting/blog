@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "skimboarding",
+      "path": "gratitude/skimboarding.md"
+    },
+    {
+      "basename": "reading-list",
+      "path": "lists/reading-list.md"
+    },
+    {
       "basename": "2-nephi-1-shake-off-the-chains",
       "path": "christianity/2-nephi-1-shake-off-the-chains.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "the-divinely-discontent-chatbot-user",
       "path": "tech/the-divinely-discontent-chatbot-user.md"
-    },
-    {
-      "basename": "llm-chatbot-arena-leaderboard",
-      "path": "tech/llm-chatbot-arena-leaderboard.md"
-    },
-    {
-      "basename": "bowling",
-      "path": "gratitude/bowling.md"
     }
   ],
   "omittedPaths": [],

@@ -39,9 +39,13 @@ To finish
 - [ ] Guns germs and steel #libby 
 - [ ] Elon Musk #libby 
 - [x] The Oxford Inklings #spotify [The Oxford Inklings: Lewis, Tolkien and Their Circle](../book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md)
-- [ ] The coddling of the American Mind #libby 
+- [x] The coddling of the American Mind #libby 
 - [ ] The Tyrrany of Experts #libby 
 - [ ] the boys in the boat #libby 
+- [ ] Against the Gods
+- [ ] The Bomber Mafia
+- [ ] Band of Brothers (February rec)
+- [ ] The lessons of history (February Rec)
 
 ### Religion and Philosophy
 - [ ] Paradise Lost and Paradise Regained #libby 

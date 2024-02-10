@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/2-nephi-1-shake-off-the-chains.md",
+                "file": "gratitude/skimboarding.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/2-nephi-1-shake-off-the-chains.md",
+            "file": "gratitude/skimboarding.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/2-nephi-1-shake-off-the-chains.md"
+            "file": "gratitude/skimboarding.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/2-nephi-1-shake-off-the-chains.md",
+            "file": "gratitude/skimboarding.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,6 +141,10 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-snowboarding-at-dusk.jpeg",
+    "lists/reading-list.md",
+    "gratitude/skimboarding.md",
+    "christianity/2-nephi-1-shake-off-the-chains.md",
     "goals/2024-02-08.md",
     "goals/2024-02-09.md",
     "christianity/2-nephi-2-consecration.md",
@@ -161,7 +165,6 @@
     "img/screenshot-chart-sales-3-massive-spike.jpeg",
     "img/screenshot-charts-sales-scenario-2.jpeg",
     "img/screenshot-chart-sales-model-c-out-of-sample.jpeg",
-    "christianity/2-nephi-1-shake-off-the-chains.md",
     "scriptures/2-nephi-1.23.md",
     "scriptures/2-nephi-1.20.md",
     "gratitude/new-york.md",
@@ -174,9 +177,6 @@
     "christianity/1-nephi-2-receiving-a-promised-land.md",
     "tech/galileo-ai.md",
     "scriptures/2-nephi-1.5.md",
-    "book-review/how-to-win-friends-and-influence-people.md",
-    "gratitude/kindness.md",
-    "tech/how-to-share-an-html-file-like-a-quarto-output-in-github.md",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",
