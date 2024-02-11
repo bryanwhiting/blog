@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "old-movies",
+      "path": "gratitude/old-movies.md"
+    },
+    {
+      "basename": "ai",
+      "path": "lists/ai.md"
+    },
+    {
       "basename": "create-ai-images-with-googles-gemini-model",
       "path": "tech/create-ai-images-with-googles-gemini-model.md"
+    },
+    {
+      "basename": "Pasted image 20240210200221",
+      "path": "img/Pasted image 20240210200221.png"
+    },
+    {
+      "basename": "Pasted image 20240210194755",
+      "path": "img/Pasted image 20240210194755.png"
     },
     {
       "basename": "google Vs chatgpt",
@@ -183,22 +199,6 @@
     {
       "basename": "2024-02-02",
       "path": "goals/2024-02-02.md"
-    },
-    {
-      "basename": "2024-02-01",
-      "path": "goals/2024-02-01.md"
-    },
-    {
-      "basename": "2024-01-29",
-      "path": "goals/2024-01-29.md"
-    },
-    {
-      "basename": "2024-01-30",
-      "path": "goals/2024-01-30.md"
-    },
-    {
-      "basename": "2024-01-31",
-      "path": "goals/2024-01-31.md"
     }
   ],
   "omittedPaths": [],

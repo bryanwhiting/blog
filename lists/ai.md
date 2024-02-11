@@ -14,9 +14,17 @@ draft: false
 :::
 
 
+2024-02-10
+
+Legal tech:
+
+- [Relativity: eDiscovery & Legal Search Software Solutions](https://www.relativity.com/)
+- Harvey
+
 # 2024-01-23
 
 [Auto Wiki by Mutable.ai](https://wiki.mutable.ai/?utm_source=tldrai) #ai/tool
+
 - generate docs drom code automatically 
 
 # 2024-01-11
