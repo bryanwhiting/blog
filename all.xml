@@ -10,7 +10,45 @@
 <atom:link href="https://www.bryanwhiting.com/all.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Fri, 09 Feb 2024 23:51:37 GMT</lastBuildDate>
+<lastBuildDate>Sat, 10 Feb 2024 19:20:31 GMT</lastBuildDate>
+<item>
+  <title>Create AI images with Google’s Gemini model</title>
+  <link>https://www.bryanwhiting.com/tech/create-ai-images-with-googles-gemini-model.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><a href="https://www.linkedin.com/posts/emollick_i-think-that-google-may-have-come-out-of-ugcPost-7162219043054170112-73pn?utm_source=share&amp;utm_medium=member_ios">Ethan Mollick on LinkedIn: I think that Google may have come out of nowhere to have the best LLM… | 19 comments</a></p>
+<p><a href="https://aitestkitchen.withgoogle.com/tools/image-fx#">ImageFX</a> Is the tool to generate images with Google’s Gemini. I’ve been a huge fan of using ChatGPT on iOS to get images for this blog. You can decide for yourself which ones are actually good or not. But it’s helped me associate a post with an idea (image), which I think is incredibly helpful for memory retention. So my theory has been: some content is better than no content. The other thought is: better learn now what these tools are and how to use them because you never know where you’re going to be able to take them. They’re like learning how to drive a car: if you can drive, you can go places.</p>
+<p>So how does ImageFX compare? Here’s the prompt:</p>
+<blockquote class="blockquote">
+<p>a battle of chatgpt vs Google Gemini photo generators. Psychedelic. Parasitic. Enlightened. Groovy. Ethereal. Down to earth.</p>
+</blockquote>
+<p>Google:</p>
+<p><img src="https://www.bryanwhiting.com/img/google Vs chatgpt.png" class="img-fluid"></p>
+<p>And ChatGPT:</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-battle-chatgpt-vs-gemini.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">ChatGPt wins</figcaption>
+</figure>
+</div>
+<p>This is but one test, and clearly chatGPT wins.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>ai tools</category>
+  <category>Gemini</category>
+  <category>chatgpt</category>
+  <category>llm wars</category>
+  <category>ai</category>
+  <guid>https://www.bryanwhiting.com/tech/create-ai-images-with-googles-gemini-model.html</guid>
+  <pubDate>Sat, 10 Feb 2024 19:20:31 GMT</pubDate>
+</item>
 <item>
   <title>2 Nephi 2 - Redemption</title>
   <link>https://www.bryanwhiting.com/christianity/2-nephi-2-redemption.html</link>
@@ -788,33 +826,6 @@ Song snippet today: [2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds
   <category>ai benchmarks</category>
   <guid>https://www.bryanwhiting.com/tech/llm-chatbot-arena-leaderboard.html</guid>
   <pubDate>Sun, 04 Feb 2024 21:08:22 GMT</pubDate>
-</item>
-<item>
-  <title>I’m Grateful for bowling</title>
-  <link>https://www.bryanwhiting.com/gratitude/bowling.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>The car is put into park in the dark parking lot of the bowling alley. Rain descends, prompting hurried feet. The building door opens and we walk inside. <em>It’s bowling time.</em></p>
-<p>Friends congregate, treats are consumed, and heavyweight spheroids enjoy the frictionless motion governed by Newtonian laws. The gutters are greedier than the pins, but regardless of where the ball ends up the hurler offers up a dance to the bowling gods, a laugh of disappointment, or a thrill of surprise. This has been the states of bowling regardless of the bowler’s age, across all known ages of my life.</p>
-<p>The conversations, the dancing, the music, the flashing lights, the cheap food, the magic of self-returning balls - it is its own realm of simple enjoyment. Bowling won’t sell out stadiums, it’s rather boring compared to action sports. But that doesn’t stop anyone from enjoying it, and that’s why it’s a gift to humanity.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-bowling-disco.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Bowl like there’s no tomorrow</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>gratitude</category>
-  <category>sports</category>
-  <guid>https://www.bryanwhiting.com/gratitude/bowling.html</guid>
-  <pubDate>Sun, 04 Feb 2024 13:18:49 GMT</pubDate>
 </item>
 </channel>
 </rss>

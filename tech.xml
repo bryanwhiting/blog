@@ -10,7 +10,45 @@
 <atom:link href="https://www.bryanwhiting.com/tech.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Thu, 08 Feb 2024 20:14:47 GMT</lastBuildDate>
+<lastBuildDate>Sat, 10 Feb 2024 19:20:31 GMT</lastBuildDate>
+<item>
+  <title>Create AI images with Google’s Gemini model</title>
+  <link>https://www.bryanwhiting.com/tech/create-ai-images-with-googles-gemini-model.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><a href="https://www.linkedin.com/posts/emollick_i-think-that-google-may-have-come-out-of-ugcPost-7162219043054170112-73pn?utm_source=share&amp;utm_medium=member_ios">Ethan Mollick on LinkedIn: I think that Google may have come out of nowhere to have the best LLM… | 19 comments</a></p>
+<p><a href="https://aitestkitchen.withgoogle.com/tools/image-fx#">ImageFX</a> Is the tool to generate images with Google’s Gemini. I’ve been a huge fan of using ChatGPT on iOS to get images for this blog. You can decide for yourself which ones are actually good or not. But it’s helped me associate a post with an idea (image), which I think is incredibly helpful for memory retention. So my theory has been: some content is better than no content. The other thought is: better learn now what these tools are and how to use them because you never know where you’re going to be able to take them. They’re like learning how to drive a car: if you can drive, you can go places.</p>
+<p>So how does ImageFX compare? Here’s the prompt:</p>
+<blockquote class="blockquote">
+<p>a battle of chatgpt vs Google Gemini photo generators. Psychedelic. Parasitic. Enlightened. Groovy. Ethereal. Down to earth.</p>
+</blockquote>
+<p>Google:</p>
+<p><img src="https://www.bryanwhiting.com/img/google Vs chatgpt.png" class="img-fluid"></p>
+<p>And ChatGPT:</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-battle-chatgpt-vs-gemini.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">ChatGPt wins</figcaption>
+</figure>
+</div>
+<p>This is but one test, and clearly chatGPT wins.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>ai tools</category>
+  <category>Gemini</category>
+  <category>chatgpt</category>
+  <category>llm wars</category>
+  <category>ai</category>
+  <guid>https://www.bryanwhiting.com/tech/create-ai-images-with-googles-gemini-model.html</guid>
+  <pubDate>Sat, 10 Feb 2024 19:20:31 GMT</pubDate>
+</item>
 <item>
   <title>Protobufs - Everything I don’t know</title>
   <link>https://www.bryanwhiting.com/tech/protobufs-everything-i-dont-know.html</link>
@@ -812,38 +850,6 @@ Song snippet today: [2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds
   <category>futurism</category>
   <guid>https://www.bryanwhiting.com/tech/dreaming-software.html</guid>
   <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>The Psychology of New Software Releases and its Parallels with Fashion</title>
-  <link>https://www.bryanwhiting.com/tech/why-we-want-new-software.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>What is it about a new release that gets people excited? Would you buy software that never changes? How about a hammer?</p>
-<p>Why are we okay with buying a hammer, but not stagnant software? Our culture is addicted to new widgets. A/B testing.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-ship-fashion-software.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Shipping software like fashion, every season</figcaption>
-</figure>
-</div>
-<p>Software releases are free, but development is not. Therefore, research and development is constant, whereas the Hammer company hasn’t needed to update its product in a couple…millennia. That’s why they call it software. It’s not hard to make.</p>
-<p>Is there a way to sell software like you sell a hammer?</p>
-<p>No.&nbsp;Because per <a href="../book-review/innovators-dilemma.html">Innovator’s Dilemma</a>, those who can out-do you will. And software is easy to alter and improve. I’m not convinced all “updates” done in the software industry are actually improvements, but people like change. Ever see a fashion line repeat itself?</p>
-<p>Software is like fashion.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>business strategy</category>
-  <category>saas</category>
-  <category>sales</category>
-  <category>tech</category>
-  <guid>https://www.bryanwhiting.com/tech/why-we-want-new-software.html</guid>
-  <pubDate>Tue, 02 Jan 2024 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>

@@ -253,6 +253,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/tech/create-ai-images-with-googles-gemini-model.html",
       "/tech/protobufs-everything-i-dont-know.html",
       "/tech/pkl-for-configuration-management.html",
       "/tech/galileo-ai.html",
@@ -550,8 +551,36 @@
     ]
   },
   {
+    "listing": "/tech.html",
+    "items": [
+      "/tech/create-ai-images-with-googles-gemini-model.html",
+      "/tech/protobufs-everything-i-dont-know.html",
+      "/tech/pkl-for-configuration-management.html",
+      "/tech/galileo-ai.html",
+      "/tech/how-to-share-an-html-file-like-a-quarto-output-in-github.html",
+      "/tech/embedding-audio-in-quarto.html",
+      "/tech/the-divinely-discontent-chatbot-user.html",
+      "/tech/llm-chatbot-arena-leaderboard.html",
+      "/tech/holiday-demand-forecasting-using-xgboost.html",
+      "/tech/private-gpt.html",
+      "/tech/lm-studio.html",
+      "/tech/gpt4all.html",
+      "/tech/beam-ai.html",
+      "/tech/this-drug-is-habit-forming.html",
+      "/tech/the-matrix.html",
+      "/tech/a-knife-to-a-gun-fight.html",
+      "/tech/ai-will-not-replace-human-creativity.html",
+      "/tech/what-startups-and-musicians-have-in-common.html",
+      "/tech/the-future-wave-of-ai-hype.html",
+      "/tech/dreaming-software.html",
+      "/tech/why-we-want-new-software.html",
+      "/tech/swapping-out-human-labor-for-ai.html"
+    ]
+  },
+  {
     "listing": "/sitemap.html",
     "items": [
+      "/tech/create-ai-images-with-googles-gemini-model.html",
       "/christianity/2-nephi-2-redemption.html",
       "/gratitude/skimboarding.html",
       "/goals/2024-02-09.html",
@@ -1060,32 +1089,6 @@
     ]
   },
   {
-    "listing": "/tech.html",
-    "items": [
-      "/tech/protobufs-everything-i-dont-know.html",
-      "/tech/pkl-for-configuration-management.html",
-      "/tech/galileo-ai.html",
-      "/tech/how-to-share-an-html-file-like-a-quarto-output-in-github.html",
-      "/tech/embedding-audio-in-quarto.html",
-      "/tech/the-divinely-discontent-chatbot-user.html",
-      "/tech/llm-chatbot-arena-leaderboard.html",
-      "/tech/holiday-demand-forecasting-using-xgboost.html",
-      "/tech/private-gpt.html",
-      "/tech/lm-studio.html",
-      "/tech/gpt4all.html",
-      "/tech/beam-ai.html",
-      "/tech/this-drug-is-habit-forming.html",
-      "/tech/the-matrix.html",
-      "/tech/a-knife-to-a-gun-fight.html",
-      "/tech/ai-will-not-replace-human-creativity.html",
-      "/tech/what-startups-and-musicians-have-in-common.html",
-      "/tech/the-future-wave-of-ai-hype.html",
-      "/tech/dreaming-software.html",
-      "/tech/why-we-want-new-software.html",
-      "/tech/swapping-out-human-labor-for-ai.html"
-    ]
-  },
-  {
     "listing": "/books.html",
     "items": [
       "/book-review/shift.html",
@@ -1206,6 +1209,7 @@
   {
     "listing": "/all.html",
     "items": [
+      "/tech/create-ai-images-with-googles-gemini-model.html",
       "/christianity/2-nephi-2-redemption.html",
       "/gratitude/skimboarding.html",
       "/christianity/2-nephi-2-consecration.html",
