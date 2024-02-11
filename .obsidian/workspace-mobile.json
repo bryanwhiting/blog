@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/2-nephi-2-redemption.md",
+                "file": "tech/create-ai-images-with-googles-gemini-model.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/2-nephi-2-redemption.md",
+            "file": "tech/create-ai-images-with-googles-gemini-model.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/2-nephi-2-redemption.md"
+            "file": "tech/create-ai-images-with-googles-gemini-model.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/2-nephi-2-redemption.md",
+            "file": "tech/create-ai-images-with-googles-gemini-model.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,13 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/google Vs chatgpt.png",
+    "img/dalle-battle-chatgpt-vs-gemini.jpeg",
+    "tech/create-ai-images-with-googles-gemini-model.md",
+    "book-review/influence-the-psychology-of-persuasion.md",
+    "christianity/2-nephi-2-redemption.md",
     "img/dalle-risen-christ-by-the-tomb-redemption.jpeg",
     "gratitude/skimboarding.md",
-    "christianity/2-nephi-2-redemption.md",
     "img/dalle-snowboarding-at-dusk.jpeg",
     "lists/reading-list.md",
     "christianity/2-nephi-1-shake-off-the-chains.md",
@@ -164,8 +168,6 @@
     "img/screenshot-pkl-configs.jpeg",
     "tech/handling-outliers-in-linear-regression.md",
     "img/screenshot-chart-sales-massive-spike-3-compare-close-up.jpeg",
-    "img/screenshot-chart-sales-3-massive-spike.jpeg",
-    "img/screenshot-charts-sales-scenario-2.jpeg",
     "scriptures/2-nephi-1.23.md",
     "scriptures/2-nephi-1.20.md",
     "gratitude/new-york.md",
@@ -175,8 +177,6 @@
     "christianity/2-nephi-1-land-of-promise.md",
     "scriptures/1-nephi-5.5.md",
     "christianity/1-nephi-5-trusting-a-promise.md",
-    "christianity/1-nephi-2-receiving-a-promised-land.md",
-    "tech/galileo-ai.md",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",
