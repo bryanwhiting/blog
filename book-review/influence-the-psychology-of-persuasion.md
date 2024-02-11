@@ -13,12 +13,29 @@ date-start: 2024-01-30
 date-finished: 2030-01-01
 pct-complete:
 ---
+Notes:
+
+- complements go a long way. Spread good rumors. 
+- Find similarities. 
+- You gain back more than what you give. So give more. 
+
+
+
 
 2024-02-10
 
 - Rejection and retreat principle. Larger than smaller offers. 
 - Contrast principle. 
 - Reciprocity - people give more than they get out of a sense of burden. 
+- Reciprocity - your good works are not lost if they're felt sincere. 
+
+Liking:
+
+- "it's impossible to change someone's belief with reasoning when they didn't use reasoning and logic to come to that belief in the first place"
+- "You cannot reason a person out a position he did not reason himself into in the first place" - Jonathan Swift #quotes
+- Liking: finding genuine similarities between you and the other. 
+- In group vs out group
+- Assigning labels, such as mascots or alter names
 
 
 2024-01-30

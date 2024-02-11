@@ -37,6 +37,7 @@
     "pelo-pr-attempt": "checkbox",
     "pct-complete": "number",
     "FHE": "checkbox",
-    "date-night": "checkbox"
+    "date-night": "checkbox",
+    "categories": "multitext"
   }
 }

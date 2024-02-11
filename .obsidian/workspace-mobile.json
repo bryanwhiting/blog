@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/old-movies.md",
+                "file": "2-nephi-2-he-carries-our-burdens.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "gratitude/old-movies.md",
+            "file": "2-nephi-2-he-carries-our-burdens.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "gratitude/old-movies.md"
+            "file": "2-nephi-2-he-carries-our-burdens.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "gratitude/old-movies.md",
+            "file": "2-nephi-2-he-carries-our-burdens.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,11 +141,18 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/google-yoked-oxen.png",
+    "2-nephi-2-he-carries-our-burdens.md",
+    "tech/create-ai-images-with-googles-gemini-model.md",
+    "news/2024-02-10-news-notes.md",
+    "goals/2024-02-09.md",
+    "goals/2024-02-10.md",
+    "scriptures/matthew-11.29.md",
+    "book-review/influence-the-psychology-of-persuasion.md",
+    "christianity/2-nephi-2-his-capacity-to-carry-our-burdens.md",
+    "gratitude/old-movies.md",
     "img/dalle-heres-looking-at-you-kid.jpeg",
     "lists/ai.md",
-    "gratitude/old-movies.md",
-    "Untitled 2.md",
-    "tech/create-ai-images-with-googles-gemini-model.md",
     "img/dalle-sf-sunset.jpeg",
     "img/screenshot-get-your-guide-real-photo.jpeg",
     "img/Pasted image 20240210200221.png",
@@ -154,15 +161,11 @@
     "img/screenshot-gemini-editor.jpeg",
     "img/Pasted image 20240210194755.png",
     "img/dalle-sports-car.jpeg",
-    "img/google Vs chatgpt.png",
-    "img/dalle-battle-chatgpt-vs-gemini.jpeg",
-    "book-review/influence-the-psychology-of-persuasion.md",
     "christianity/2-nephi-2-redemption.md",
     "gratitude/skimboarding.md",
     "lists/reading-list.md",
     "christianity/2-nephi-1-shake-off-the-chains.md",
     "goals/2024-02-08.md",
-    "goals/2024-02-09.md",
     "christianity/2-nephi-2-consecration.md",
     "scriptures/2-nephi-32.9.md",
     "scriptures/2-nephi-32.8.md",
@@ -173,10 +176,6 @@
     "tech/handling-outliers-in-linear-regression.md",
     "scriptures/2-nephi-1.23.md",
     "scriptures/2-nephi-1.20.md",
-    "gratitude/new-york.md",
-    "goals/2024-02-07.md",
-    "goals/2024-02-06.md",
-    "christianity/2-nephi-1-alternative-endings.md",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",
