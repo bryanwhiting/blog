@@ -10,7 +10,39 @@
 <atom:link href="https://www.bryanwhiting.com/tech.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Sat, 10 Feb 2024 19:20:31 GMT</lastBuildDate>
+<lastBuildDate>Mon, 12 Feb 2024 11:52:37 GMT</lastBuildDate>
+<item>
+  <title>War Tech</title>
+  <link>https://www.bryanwhiting.com/tech/war-tech.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><a href="https://time.com/6691662/ai-ukraine-war-palantir/">Tech Companies Turned Ukraine Into an AI War Lab | TIME</a> details the fight in Ukraine and how Palantir specifically has used it as a ground bed for war.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-time-ukraine-war.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Time vs tech</figcaption>
+</figure>
+</div>
+<p>Obviously war profits defense contractors. This isn’t anything new.</p>
+<p>And putting aside beliefs about the war itself, I see the angle here as someone inauthentic. It assumes tech is somehow awful.</p>
+<p>Arms dealers will always be in the race for selling more arms, whether in peace or in war. But providing services at a discounted rate to defend an invaded ally seems reasonable.</p>
+<p>My point: I wish we had more positive tech news. Tech is how we won WWII and almost how we lost it. That same awful tech is how we now power homes with cleaner energy across the world. Some argue it’s how we’ve avoided a WWIII so far because it’s an unwinnable war.</p>
+<p>Tech cannot control the hearts of the men and women who wield it. It can only enable them. May we all strive for wars of words and code not of people or weapons, and I actually think tech is closer to that. And hopefully, we can use tech to facilitate misunderstandings and bring people to better diplomacy (translation services, positive AI news). But that’s up to the leaders.</p>
+<p>As for the main stream media, I’d hope for more nuanced discussions around the uses of tech. Perhaps that’s what it’s alluding to - that war mongers are being fueled by this war.</p>
+<p>But then let’s get more diplomatic leaders into office that can manage peace talks. It’s a people problem. Our government shouldn’t be run by the war machine, but by the people. And tech will always enable the people to do what they do best: be human.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>ai</category>
+  <guid>https://www.bryanwhiting.com/tech/war-tech.html</guid>
+  <pubDate>Mon, 12 Feb 2024 11:52:37 GMT</pubDate>
+</item>
 <item>
   <title>Create AI images with Google’s Gemini model</title>
   <link>https://www.bryanwhiting.com/tech/create-ai-images-with-googles-gemini-model.html</link>
@@ -902,38 +934,6 @@ Song snippet today: [2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds
   <category>chart critique</category>
   <guid>https://www.bryanwhiting.com/tech/the-future-wave-of-ai-hype.html</guid>
   <pubDate>Thu, 04 Jan 2024 20:32:46 GMT</pubDate>
-</item>
-<item>
-  <title>The Dream State of Software</title>
-  <link>https://www.bryanwhiting.com/tech/dreaming-software.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-dreaming-software.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Dreaming code working is ever coders dream</figcaption>
-</figure>
-</div>
-<p>I returned from vacation yesterday and tried running my code. It didn’t work. I looked at code I had written, it had my imports correctly and all - why wasn’t it running?</p>
-<p>The file it was importing didn’t exist.</p>
-<p>I thought I created that. I swear I made it. My coworker remarked, “oh so you set up all the scafffolding but didn’t write the actual code?” I was in disbelief. maybe it was deleted by accident or stashed on another branch. But the <code>git log</code> shows all: the imported file never existed.</p>
-<p>In <a href="../book-review/dune.html">Dune</a>, Paul Atriedes has many visions and the author uses this feature to skip the book ahead three years. Paul wakes up one morning and doesn’t know what’s past or future. It’s all one in his mind.</p>
-<p>So it is with software. It gets created in the mind near instantly. Coding is a burden, the journey of many failures and design choices to enable the simple vision of the mind.</p>
-<p>Perhaps Gen AI can help us dream software faster. I look forward to when my dreams are realities, and not the rude awakening I still have coding to do.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>tech</category>
-  <category>design</category>
-  <category>ai</category>
-  <category>futurism</category>
-  <guid>https://www.bryanwhiting.com/tech/dreaming-software.html</guid>
-  <pubDate>Wed, 03 Jan 2024 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
