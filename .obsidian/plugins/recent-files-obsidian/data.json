@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "gatherings-for-the-super-bowl",
+      "path": "gratitude/gatherings-for-the-super-bowl.md"
+    },
+    {
       "basename": "gathered-as-one",
       "path": "sacrament-symbols/gathered-as-one.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "poem-cuddles",
       "path": "creative/poem-cuddles.md"
-    },
-    {
-      "basename": "vanished",
-      "path": "creative/vanished.md"
     }
   ],
   "omittedPaths": [],
