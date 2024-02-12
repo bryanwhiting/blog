@@ -10,7 +10,67 @@
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Sat, 10 Feb 2024 20:39:31 GMT</lastBuildDate>
+<lastBuildDate>Sun, 11 Feb 2024 23:01:41 GMT</lastBuildDate>
+<item>
+  <title>2 Nephi 2 - Enticement is Agency</title>
+  <link>https://www.bryanwhiting.com/christianity/2-nephi-2-enticing-decisions.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="scriptures" class="level1">
+<h1>Scriptures</h1>
+<p>What’s enticing you right now?</p>
+<blockquote class="blockquote">
+<p>Wherefore, the Lord God gave unto man that he should act for himself. Wherefore, man could not act for himself save it should be that he was enticed by the one or the other. <a href="../scriptures/2-nephi-2.16">2 Nephi 2.16</a></p>
+</blockquote>
+<p>Can you make a decision without being presented at least two options?</p>
+<p>If you feel like you made a decision on something, what did you decide and what was the alternative option?</p>
+<p>If you’re torn about a decision, why? What’s on the other side?</p>
+<p><img src="https://www.bryanwhiting.com/img/dalle-enticing-apple.jpeg" class="preview-image img-fluid" alt="Why that apple, of all the apples?"> # Meaning</p>
+<p>Life is full of enticing things. Sometimes, self defeating thoughts can be enticing. We have a bias towards negativity as humans. But thankfully we always have a choice.</p>
+<p>Recognize the behavior. And then find the perhaps less <em>enticing</em> but far more healthy thought pattern.</p>
+
+
+</section>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>christianity</category>
+  <category>decisions</category>
+  <category>mental health</category>
+  <guid>https://www.bryanwhiting.com/christianity/2-nephi-2-enticing-decisions.html</guid>
+  <pubDate>Sun, 11 Feb 2024 23:01:41 GMT</pubDate>
+</item>
+<item>
+  <title>I’m Grateful for Gatherings for the Super Bowl</title>
+  <link>https://www.bryanwhiting.com/gratitude/gatherings-for-the-super-bowl.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I remember a few fun memories of gathering with friends and family for the Super Bowl while growing up. Often there might be a contest, with random questions like “how long is the opening anthem going to be sung for: longer or shorter than 60s?” Fill out a page of such questions and the person with the most correct answers wins.</p>
+<p>Football is a fun sport. I grew up playing it for nearly 12 years - from 2nd grade through senior year. There’s something about playing a sport for that long that you grow an experiential appreciation for what these guys can do.</p>
+<p>I don’t follow football much, or any sport for that matter. I don’t have the patience for tracking who goes where. But I love playing it and, when the Super Bowl is on, watching it.</p>
+<p>That’s the cool thing - even people who don’t care much for football enjoy watching the game.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-super-bowl.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Da bears</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>gratitude</category>
+  <category>sports</category>
+  <guid>https://www.bryanwhiting.com/gratitude/gatherings-for-the-super-bowl.html</guid>
+  <pubDate>Sun, 11 Feb 2024 21:21:15 GMT</pubDate>
+</item>
 <item>
   <title>I’m Grateful for Old Movies</title>
   <link>https://www.bryanwhiting.com/gratitude/old-movies.html</link>
@@ -714,137 +774,6 @@
   <category>food</category>
   <guid>https://www.bryanwhiting.com/gratitude/avocados.html</guid>
   <pubDate>Mon, 05 Feb 2024 20:03:39 GMT</pubDate>
-</item>
-<item>
-  <title>Embedding audio in Quarto</title>
-  <link>https://www.bryanwhiting.com/tech/embedding-audio-in-quarto.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>I want to embed just a plain audio file in my blog post.</p>
-<p>Check out the post <a href="../creative/guitar-clouds.html">Guitar: Clouds</a>, where I embed some audio using the quarto video short link: <a href="https://quarto.org/docs/authoring/videos.html">Quarto – Videos</a>.</p>
-<p>My process:</p>
-<ul>
-<li>take a voice recording with my voice notes on iOS.</li>
-<li>Save to files, I did audio/ folder (<a href="../posts/quarto-from-phone/index.html">How to blog from your phone using quarto (or hugo/jekyll/etc) using Working Copy and Obsidian</a>)</li>
-<li>Then if I link using a standard markdown link it’ll create an audio recording in a new browser. If I use the video shortcode then quarto will embed it as a video right in the post (doesn’t open a new browser). You can adjust the height so it’s not a massive black screen.</li>
-</ul>
-<pre><code>
-Song snippet today: [2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds.m4a) 3rd capo, G, Em, C, G with some pinky action. 
-
-
-&lt;-- This works on safari, not chrome desktop for some reason --&gt; 
-
-![2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds.m4a)
-
-
-</code></pre>
-<p>Hope this helps someone!</p>
-<p>Note, the second way (<code>the ![]</code>) approach didn’t work on Chrome Desktop, but works on Safari desktop, safari mobile, and chrome mobile:</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/screenshot-quarto-audio-chrome-web.jpeg" class="img-fluid figure-img"></p>
-<figcaption class="margin-caption">Chrome doesn’t pick up the audio player</figcaption>
-</figure>
-</div>
-<p>If I inspect the HTML I can see the audio tag is created in Chrome, it’s just not showing a player or anything.</p>
-<p>But the mobile audio player is picked up:</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/screenshot-quarto-audio-safari.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Mobile safari</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/screenshot-chrome-mobile-quarto-audio.jpeg" class="img-fluid figure-img"></p>
-<figcaption class="margin-caption">Mobile chrome</figcaption>
-</figure>
-</div>
-<section id="obsidian" class="level1 page-columns page-full">
-<h1>Obsidian</h1>
-<p>I like using this markdown syntax in Obsidian because that’s where I write my notes.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/screenshot-audio-quarto-not-rendered.jpeg" class="img-fluid figure-img"></p>
-<figcaption class="margin-caption">The markdown syntax</figcaption>
-</figure>
-</div>
-<p>Because it appears like an audio player in app. The <code></code> syntax is a <code>quarto</code> thing and renders nicely. The <code>&lt;audio&gt;</code> tag is supposed to work but doesn’t in my vault. In my app it looks like this;</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/screenshot-audio-obsidian-rendered.jpeg" class="img-fluid figure-img"></p>
-<figcaption class="margin-caption">Rendered in quarto</figcaption>
-</figure>
-</div>
-<p>So yes, the markdown link is the most usable, works on most browsers, and works in Obsidian. Just doesn’t work on Chrome Web…(at least not on my version).</p>
-<p>Seems also that using the <code>&lt;audio&gt;</code> tag breaks my quarto:</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/screenshot-audio-tag-breaks-the-file.jpeg" class="img-fluid figure-img"></p>
-<figcaption class="margin-caption">Broken file</figcaption>
-</figure>
-</div>
-</section>
-<section id="in-summary" class="level1">
-<h1>In Summary</h1>
-<p>I’ve found two ways of showing audio in quarto. 1) using the image syntax in markdown and 2) using a video shortcode. The markdown syntax works great locally on my iPhone and on most browsers, but the video shortcode seems to work on all browsers.</p>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>tech</category>
-  <category>quarto</category>
-  <category>blogging</category>
-  <category>tutorial</category>
-  <category>obsidian</category>
-  <guid>https://www.bryanwhiting.com/tech/embedding-audio-in-quarto.html</guid>
-  <pubDate>Mon, 05 Feb 2024 12:31:54 GMT</pubDate>
-</item>
-<item>
-  <title>1 Nephi 22 - His Covenants will be the key of the Gathering of Israel</title>
-  <link>https://www.bryanwhiting.com/christianity/1-nephi-22-gathered-by-his-covenants.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="scriptures" class="level1 page-columns page-full">
-<h1>Scriptures</h1>
-<p>There is so much doctrine packed in here. Nephi is talking about the Lord doing a “marvelous work”</p>
-<blockquote class="blockquote">
-<p>And it [the marvelous work] shall also be of worth unto the Gentiles; and not only unto the Gentiles but unto all the house of Israel, <strong>unto the making known of the covenants of the Father of heaven unto Abraham</strong>, saying: In thy seed shall all the kindreds of the earth be blessed. And I would, my brethren, that ye should know that all the kindreds of the earth cannot be blessed unless he shall make bare his arm in the eyes of the nations. Wherefore, the Lord God will proceed to make bare his arm in the eyes of all the nations, <strong>in bringing about his covenants and his gospel unto those who are of the house of Israel</strong>. Wherefore, he will bring them again out of captivity, and they shall be gathered together to the lands of their inheritance; and they shall be brought out of obscurity and out of darkness; and they <strong>shall know that the Lord is their Savior and their Redeemer, the Mighty One of Israel.</strong> <a href="../scriptures/1-nephi-22.9-12">1 Nephi 22.9–12</a></p>
-</blockquote>
-<p>The Lord will restore His covenants. It doesn’t explicitly say “baptism, the sacrament, the oath and covenant of the priesthood, the endowment, and the sealing ordinance”, but that’s what Nephi is referring to.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-image-wheat-into-a-silo.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">The Lord will gather us into His silo. This is His work, not ours.</figcaption>
-</figure>
-</div>
-<p>Why doesn’t the Book of Mormon mention the sealing ordinance? The Melchizedek priesthood (the name of it)? The endowment? I’m not sure. But it’s fascinating how Joseph Smith translated this book but also received revelations to help finalize the structure of the church. # Meaning</p>
-<p>This teaches me that…</p>
-<ul>
-<li>The Lord cares about people who reject him. He will do His work among them. He won’t leave me even if I leave Him. That’s a powerful concept.</li>
-<li>The covenants are the most important thing to focus on in the scriptures. Everything else is just context about how to best live them.</li>
-<li>I am gathered when I keep my covenants. They are the thing that help me understand and connect with the Lord.</li>
-</ul>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>christianity</category>
-  <category>come follow me</category>
-  <category>gathering of israel</category>
-  <category>Abrahamic Covenant</category>
-  <guid>https://www.bryanwhiting.com/christianity/1-nephi-22-gathered-by-his-covenants.html</guid>
-  <pubDate>Sun, 04 Feb 2024 23:28:38 GMT</pubDate>
 </item>
 </channel>
 </rss>
