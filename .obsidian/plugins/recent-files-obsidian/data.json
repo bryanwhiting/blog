@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "gathered-as-one",
+      "path": "sacrament-symbols/gathered-as-one.md"
+    },
+    {
       "basename": "2-nephi-2-he-carries-our-burdens",
       "path": "2-nephi-2-he-carries-our-burdens.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "vanished",
       "path": "creative/vanished.md"
-    },
-    {
-      "basename": "apology",
-      "path": "creative/apology.md"
     }
   ],
   "omittedPaths": [],

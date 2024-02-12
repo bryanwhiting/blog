@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2-nephi-2-he-carries-our-burdens.md",
+                "file": "sacrament-symbols/gathered-as-one.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "2-nephi-2-he-carries-our-burdens.md",
+            "file": "sacrament-symbols/gathered-as-one.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "2-nephi-2-he-carries-our-burdens.md"
+            "file": "sacrament-symbols/gathered-as-one.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "2-nephi-2-he-carries-our-burdens.md",
+            "file": "sacrament-symbols/gathered-as-one.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,8 +141,13 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "img/google-yoked-oxen.png",
+    "img/dalle-one-congregation-feasting.jpeg",
+    "scriptures/matthew-26.27.md",
+    "scriptures/matthew-26.26-27.md",
+    "scriptures/ephesians-4.1-7.md",
     "2-nephi-2-he-carries-our-burdens.md",
+    "sacrament-symbols/gathered-as-one.md",
+    "img/google-yoked-oxen.png",
     "tech/create-ai-images-with-googles-gemini-model.md",
     "news/2024-02-10-news-notes.md",
     "goals/2024-02-09.md",
@@ -172,10 +177,6 @@
     "scriptures/2-nephi-2.2.md",
     "gratitude/long-runs.md",
     "tech/pkl-for-configuration-management.md",
-    "tech/protobufs-everything-i-dont-know.md",
-    "tech/handling-outliers-in-linear-regression.md",
-    "scriptures/2-nephi-1.23.md",
-    "scriptures/2-nephi-1.20.md",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",
