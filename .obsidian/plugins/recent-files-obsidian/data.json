@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "war-tech",
+      "path": "tech/war-tech.md"
+    },
+    {
+      "basename": "ai",
+      "path": "lists/ai.md"
+    },
+    {
       "basename": "2-nephi-2-enticing-decisions",
       "path": "christianity/2-nephi-2-enticing-decisions.md"
     },
@@ -43,10 +51,6 @@
     {
       "basename": "old-movies",
       "path": "gratitude/old-movies.md"
-    },
-    {
-      "basename": "ai",
-      "path": "lists/ai.md"
     },
     {
       "basename": "Pasted image 20240210200221",
@@ -195,10 +199,6 @@
     {
       "basename": "ice-baths",
       "path": "creative/ice-baths.md"
-    },
-    {
-      "basename": "vacation",
-      "path": "creative/vacation.md"
     }
   ],
   "omittedPaths": [],

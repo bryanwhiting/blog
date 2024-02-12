@@ -90,3 +90,53 @@ Added 2023-12-15
 
 https://cursor.sh/
  
+
+
+# appendix
+
+Aggregators I like:
+https://lastweekin.ai/
+
+
+https://a16z.com/emerging-architectures-for-llm-applications/
+
+
+cursor.so
+http://makedraw.tldraw.com
+
+LM Studio
+
+How to build a Q&A with instruction tuning
+RAGs using streamlit
+
+Sites
+http://perplexity.ai
+http://bard.google.com
+http://claude.ai
+http://chat.openai.com
+grok
+Packages
+LLamaIndex
+LangChain
+
+
+Bayes Free Books:
+https://dataorigami.net/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers/
+stan: https://mc-stan.org/docs/stan-users-guide/index.html
+Think Bayes: https://allendowney.github.io/ThinkBayes2/
+
+
+Hierarchical
+PyMC primer: https://www.pymc.io/projects/examples/en/latest/generalized_linear_models/multilevel_modeling.html
+Allen Downey Slides: https://github.com/AllenDowney/BayesianInferencePyMC
+https://bambinos.github.io/bambi/notebooks/sleepstudy.html
+
+
+Bayes Books
+https://xcelab.net/rm/statistical-rethinking/
+Free Lectures: https://www.youtube.com/playlist?list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus
+
+
+Fred data
+IMF.org
+Visualcapitalist
