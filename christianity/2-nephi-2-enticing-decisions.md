@@ -7,6 +7,7 @@ categories:
   - christianity
   - decisions
   - mental health
+  - come follow me
 draft: false
 ---
 # Scriptures

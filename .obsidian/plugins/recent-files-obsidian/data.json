@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "revelation-first-then-agency",
+      "path": "christianity/revelation-first-then-agency.md"
+    },
+    {
+      "basename": "2-nephi-2-he-carries-our-burdens",
+      "path": "2-nephi-2-he-carries-our-burdens.md"
+    },
+    {
+      "basename": "2-nephi-2-enticing-decisions",
+      "path": "christianity/2-nephi-2-enticing-decisions.md"
+    },
+    {
+      "basename": "2-nephi-4-ask",
+      "path": "christianity/2-nephi-4-ask.md"
+    },
+    {
+      "basename": "2024-02-12",
+      "path": "goals/2024-02-12.md"
+    },
+    {
+      "basename": "poem-breath-of-life",
+      "path": "creative/poem-breath-of-life.md"
+    },
+    {
+      "basename": "matthew-6.8",
+      "path": "scriptures/matthew-6.8.md"
+    },
+    {
+      "basename": "alma-37.7",
+      "path": "scriptures/alma-37.7.md"
+    },
+    {
+      "basename": "chicken-sliders",
+      "path": "gratitude/chicken-sliders.md"
+    },
+    {
       "basename": "war-tech",
       "path": "tech/war-tech.md"
     },
@@ -9,20 +45,12 @@
       "path": "lists/ai.md"
     },
     {
-      "basename": "2-nephi-2-enticing-decisions",
-      "path": "christianity/2-nephi-2-enticing-decisions.md"
-    },
-    {
       "basename": "gatherings-for-the-super-bowl",
       "path": "gratitude/gatherings-for-the-super-bowl.md"
     },
     {
       "basename": "gathered-as-one",
       "path": "sacrament-symbols/gathered-as-one.md"
-    },
-    {
-      "basename": "2-nephi-2-he-carries-our-burdens",
-      "path": "2-nephi-2-he-carries-our-burdens.md"
     },
     {
       "basename": "google-yoked-oxen",
@@ -171,34 +199,6 @@
     {
       "basename": "guitar-clouds",
       "path": "creative/guitar-clouds.md"
-    },
-    {
-      "basename": "embedding-audio-in-quarto",
-      "path": "tech/embedding-audio-in-quarto.md"
-    },
-    {
-      "basename": "worlds-longest-drive",
-      "path": "posts/worlds-longest-drive.md"
-    },
-    {
-      "basename": "avocados",
-      "path": "gratitude/avocados.md"
-    },
-    {
-      "basename": "Honduras",
-      "path": "concepts/Honduras.md"
-    },
-    {
-      "basename": "prose-the-thief-of-time",
-      "path": "creative/prose-the-thief-of-time.md"
-    },
-    {
-      "basename": "prose-red-eyed",
-      "path": "creative/prose-red-eyed.md"
-    },
-    {
-      "basename": "ice-baths",
-      "path": "creative/ice-baths.md"
     }
   ],
   "omittedPaths": [],
