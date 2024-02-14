@@ -10,28 +10,194 @@
 <atom:link href="https://www.bryanwhiting.com/all.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Tue, 13 Feb 2024 09:47:06 GMT</lastBuildDate>
+<lastBuildDate>Tue, 13 Feb 2024 23:58:23 GMT</lastBuildDate>
 <item>
-  <title>Revelation first, then Agency</title>
-  <link>https://www.bryanwhiting.com/christianity/revelation-first-then-agency.html</link>
+  <title>2 Nephi 3 - Two Scriptures</title>
+  <link>https://www.bryanwhiting.com/christianity/2-nephi-3-two-scriptures.html</link>
   <description><![CDATA[ 
 
 
 
 
 
-<section id="scriptures" class="level1">
+<section id="scriptures" class="level1 page-columns page-full">
 <h1>Scriptures</h1>
+<blockquote class="blockquote">
+<p>Wherefore, the fruit of thy loins shall write; and the fruit of the loins of Judah shall write; and that which shall be written by the fruit of thy loins, and also that which shall be written by the fruit of the loins of Judah, <strong>shall grow together</strong>, unto the confounding of false doctrines and laying down of contentions, and establishing peace among the fruit of thy loins, and bringing them to the knowledge of their fathers in the latter days, and also to the knowledge of my covenants, saith the Lord. <a href="../scriptures/2-nephi-3.12">2 Nephi 3.12</a></p>
+</blockquote>
+<p>The scriptures will grow together over time.</p>
+<ul>
+<li>Do we use the scriptures, both the Book of Mormon and the Bible, to lay down false doctrines and contentions?</li>
+<li>Do we seek these books to understand true doctrine?</li>
+</ul>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-two-books.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Two books</figcaption>
+</figure>
+</div>
 </section>
 <section id="meaning" class="level1">
 <h1>Meaning</h1>
+<p>I can apply this in my own life by seeking to use the scriptures to address false beliefs in my life. To challenge the thoughts of the day.</p>
 
 
 </section>
 
 <p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
   <category>christianity</category>
-  <guid>https://www.bryanwhiting.com/christianity/revelation-first-then-agency.html</guid>
+  <category>come follow me</category>
+  <guid>https://www.bryanwhiting.com/christianity/2-nephi-3-two-scriptures.html</guid>
+  <pubDate>Tue, 13 Feb 2024 23:58:23 GMT</pubDate>
+</item>
+<item>
+  <title>I’m Grateful for Foam Mattresses</title>
+  <link>https://www.bryanwhiting.com/gratitude/foam-mattresses.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Bed in a box. It’s all the rage.</p>
+<p>It shows up on your porch. You lug it upstairs, cut it open, unravel it and poof: you have a bed.</p>
+<p>The first time we got a foam mattress was in 2017. It changed our life.</p>
+<p>Anytime I travel I always wish I was home. Nothing like a long nights sleep in a reasonably priced, highly comfortable, never sagging, bed in a box mattress.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-bed-in-a-box.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Foam mattress</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>gratitude</category>
+  <category>home</category>
+  <guid>https://www.bryanwhiting.com/gratitude/foam-mattresses.html</guid>
+  <pubDate>Tue, 13 Feb 2024 23:42:27 GMT</pubDate>
+</item>
+<item>
+  <title>A/B Testing Resources</title>
+  <link>https://www.bryanwhiting.com/tech/ab-testing-resources.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>First mentioned in <a href="../posts/a-10-week-self-guided-data-science-intro-course.html">Become a Data Scientist in 10 Weeks</a>.</p>
+<p>If You’ve taken stat 101, this is where the “t.test” gets used to literally make Big Tech billions of dollars. I’m not kidding. It’s simple, but it’s powerful.</p>
+<ul>
+<li><a href="https://netflixtechblog.com/its-all-a-bout-testing-the-netflix-experimentation-platform-4e1ca458c15">It’s All A/Bout Testing: The Netflix Experimentation Platform | by Netflix Technology Blog | Netflix TechBlog</a></li>
+<li>A seven part series by Netflix: <a href="https://netflixtechblog.com/netflix-a-culture-of-learning-394bc7d0f94c">Netflix: A Culture of Learning. Martin Tingley with Wenjing Zheng… | by Netflix Technology Blog | Netflix TechBlog</a> I put here the seventh post because it likes to parts 1-6 in the intro. This part 7 is probably the best to start with because it explains the context behind A/B testing.</li>
+<li><a href="https://experimentguide.com/">Experiment Guide – Accelerate innovation using trustworthy online controlled experiments</a> This book tells you how Microsoft, Amazon, and Google use online experimentation to make billions of dollars. It’s written by the people who invented online experimentation and who are top data scientists at those companies.</li>
+<li><a href="https://netflixtechblog.com/sequential-a-b-testing-keeps-the-world-streaming-netflix-part-1-continuous-data-cba6c7ed49df">Sequential A/B Testing Keeps the World Streaming NetflixPart 1: Continuous Data | by Netflix Technology Blog | Feb, 2024 | Netflix TechBlog</a></li>
+</ul>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>A/B testing</category>
+  <category>statistics</category>
+  <guid>https://www.bryanwhiting.com/tech/ab-testing-resources.html</guid>
+  <pubDate>Tue, 13 Feb 2024 17:16:15 GMT</pubDate>
+</item>
+<item>
+  <title>TimeGPT and Lag-Llama: Two foundation models for time series forecasting</title>
+  <link>https://www.bryanwhiting.com/tech/timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Time series analysis is now open sourced by discerning patterns in billions of univariate time series.</p>
+<p>Time GPT:</p>
+<ul>
+<li><a href="https://nixtlaverse.nixtla.io/nixtla/index.html">TimeGPT - Nixtla</a></li>
+</ul>
+<p>Lag Llama resources:</p>
+<ul>
+<li><a href="https://towardsdatascience.com/lag-llama-open-source-foundation-model-for-time-series-forecasting-9afdfaf2bd7c">Lag-Llama: Open-Source Foundation Model for Time Series Forecasting | by Marco Peixeiro | Feb, 2024 | Towards Data Science</a></li>
+<li><a href="https://github.com/time-series-foundation-models/lag-llama">GitHub - time-series-foundation-models/lag-llama</a></li>
+</ul>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>machine learning</category>
+  <category>ml-tools</category>
+  <guid>https://www.bryanwhiting.com/tech/timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting.html</guid>
+  <pubDate>Tue, 13 Feb 2024 17:10:43 GMT</pubDate>
+</item>
+<item>
+  <title>Team Misfits</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/team-misfits.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I once played a game of pickup basketball with my football captain. He was a linebacker. All state. And got drafted to play in college. He was an incredible athlete.</p>
+<p>But he moved like a clunky robot while playing basketball and couldn’t make a layup for his life.</p>
+<p>Sometimes that’s how we are. As leaders, we should aim to help find where the misfits thrive.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-football-player-in-a-basketball-game.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Out of place</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>life lessons</category>
+  <category>leadership</category>
+  <guid>https://www.bryanwhiting.com/posts/team-misfits.html</guid>
+  <pubDate>Tue, 13 Feb 2024 10:06:35 GMT</pubDate>
+</item>
+<item>
+  <title>Coalesce - Revelation first, then Agency</title>
+  <link>https://www.bryanwhiting.com/christianity/coalesce-revelation-first-then-agency.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Some believe in pre-destiny. That their life is predetermined.</p>
+<p>Some believe there is no God and they have to do the best they can with what they’ve got, because that’s all they’ve got.</p>
+<p>The truth lies somewhere in between. There <em>is</em> a God, <em>and</em> He wants us to be agents (<a href="../scriptures/doctrine-and-covenants-58.28.html">Doctrine and Covenants 58.28</a>).</p>
+<p><img src="https://www.bryanwhiting.com/img/dalle-plan-a-and-b.jpeg" class="preview-image img-fluid" alt="Life is filled with choices and many actions to perform"> In data science, there’s a concept called “coalesce”. In English it means to come together and make one whole. In software, it means to fill in missing data with a default value.</p>
+<p>Forgive the nerd talk, but bear with me here: So if you have an empty spreadsheet, and you do the operation <code>coalesce(spreadsheet, 5)</code> it would return the spreadsheet’s value if you had data in the spreadsheet but the number 5 if you had a missing cell. So if you have 10 rows of data in Excel but 3 missing rows, the output would be the 7 original values with 3 cells now with 5 in them. It’s a way of handling missing data, because missing data creates problems.</p>
+<p>What is the missing data in our personal lives? It’s “what do we do?” What do we do today? Tomorrow? Next year? What do we do today and tomorrow to prepare for the thing we may want to do next year?</p>
+<p>I’ve realized the healthy way to have a relationship with personal revelation is to operate under the constraints of a coalesce. To be whole and one with the Lord, our goal should be to coalesce.</p>
+<p>Some rely too much on the spirit. Hoping God will make a choice for us. But he gave us agency. He lost 1/3 of his children because he didn’t want to give up agency. And, by that right, he’s willing to lose you and me too if we’re not willing to exercise our agency. We just choose. This is life. And we must choose Him.</p>
+<p>In many things, there is a commandment we can rely on. Don’t kill. Don’t steal. Be honest. Pay tithing.</p>
+<p>That’s the priority.</p>
+<p>Then there’s the gray area stuff: love our neighbor.</p>
+<p>That’s the agency.</p>
+<p>Then there’s the really gray area: have joy. Among this is “provide for a family” and “raise them the best way you can”.</p>
+<p>So, use a coalesce. Your default value is what <em>you</em> want to do. That’s what you fill in.</p>
+<p>Our life should be <code>coalesce(personal revelation, our agency)</code>.</p>
+<p>Where there’s a commandment or personal revelation from the Lord, do it. Don’t wait. Do it. Follow the prompting. Otherwise, if you have no prompting or commandment to follow, make a choice! Learn. Experience. Enjoy.</p>
+<p>I believe the Lord will support us when we follow a pattern of putting Him first, and then defaulting to doing many good things of our own free will and choice when He hasn’t given us instruction.</p>
+<p>That doesn’t mean he doesn’t care what we do. He cares deeply. It’s just more like <a href="../scriptures/ether-2.23.html">Ether 2.23</a> where he wants us to come up with some good ideas.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>christianity</category>
+  <category>decisions</category>
+  <category>revelation</category>
+  <guid>https://www.bryanwhiting.com/christianity/coalesce-revelation-first-then-agency.html</guid>
   <pubDate>Tue, 13 Feb 2024 09:47:06 GMT</pubDate>
 </item>
 <item>
@@ -604,172 +770,6 @@
   <category>configuration</category>
   <guid>https://www.bryanwhiting.com/tech/pkl-for-configuration-management.html</guid>
   <pubDate>Thu, 08 Feb 2024 19:56:26 GMT</pubDate>
-</item>
-<item>
-  <title>2 Nephi 1 - Shake off the Chains</title>
-  <link>https://www.bryanwhiting.com/christianity/2-nephi-1-shake-off-the-chains.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="scriptures" class="level1">
-<h1>Scriptures</h1>
-<p>Keeping the commandments brings blessings:</p>
-<blockquote class="blockquote">
-<p>And he hath said that: Inasmuch as ye shall keep my commandments ye shall prosper in the land; but inasmuch as ye will not keep my commandments ye shall be cut off from my presence. <a href="../scriptures/2-nephi-1.20">2 Nephi 1.20</a></p>
-</blockquote>
-<p>Think about it. Keeping the commandments means being honest, being kind, being respectful, finding a way to help others. Not being lazy. Being productive.</p>
-<p>Literally, nobody can prosper without keeping some commandment. Without finding a way to meet someone’s need.</p>
-<p>I also like this verse:</p>
-<blockquote class="blockquote">
-<p>Awake, my sons; put on the armor of righteousness. Shake off the chains with which ye are bound, and come forth out of obscurity, and arise from the dust. <a href="../scriptures/2-nephi-1.23">2 Nephi 1.23</a></p>
-</blockquote>
-<p>It’s a rallying cry we can all relate to. We are all bound with chains in life. But we don’t have to be. The call to “rise up” is a call to shake the chains to hold you bound. Arise from the dust!</p>
-<p><img src="https://www.bryanwhiting.com/img/dalle-breaking-free-from-the-chains.jpeg" class="preview-image img-fluid" alt="Break free from the chains"> # Meaning</p>
-<p>It makes me wonder: what are the chains that hold me bound? Perhaps there are limiting beliefs.</p>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>christianity</category>
-  <category>come follow me</category>
-  <guid>https://www.bryanwhiting.com/christianity/2-nephi-1-shake-off-the-chains.html</guid>
-  <pubDate>Wed, 07 Feb 2024 23:47:32 GMT</pubDate>
-</item>
-<item>
-  <title>I’m Grateful for New York</title>
-  <link>https://www.bryanwhiting.com/gratitude/new-york.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Since I was a kid, going to the city was a quarterly event. Whether going to the Bronx Zoo or the Met for a class field trip or a Yankees game, the city was always an adventure. As I grew up, it’d be the place to go to shows and concerts and visit family members who lived there.</p>
-<p>Then when I was 22, I spent a summer as an intern there. Living in the city taught me what it means to be in the city.</p>
-<p>From a guy who’d come up to help me with something on the Subway, to the lady who gave me some of her loose change to take the cross town bus, I was humbled by how people there look after each other. It’s hard to notice when the people are tough on the surface. But deep down they care for each other.</p>
-<p>I’ve been to LA, and lived near SF, and DC and nothing compares to “city”.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-new-york-skyline.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">New York skyline</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>gratitude</category>
-  <guid>https://www.bryanwhiting.com/gratitude/new-york.html</guid>
-  <pubDate>Wed, 07 Feb 2024 23:38:58 GMT</pubDate>
-</item>
-<item>
-  <title>Galileo AI</title>
-  <link>https://www.bryanwhiting.com/tech/galileo-ai.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>I came across <a href="https://www.usegalileo.ai/">Galileo AI</a>. It lets you mock up UI interfaces. Great story in their blog: <a href="https://www.usegalileo.ai/blog/seed">Galileo AI - Feb 6 Launch Announcement</a></p>
-<p>It doesn’t export the code itself, but for a fee it’ll export to Figma for you. The cool thing is they trained or fine tuned an LLM specifically on design components. This is a cool use case of how people with specialized skill sets will create custom LLMs to compete in areas ChatGPT won’t be able to.</p>
-<p>This is also showing the emergence in new software: don’t build a rules engine, train an LLM to solve the problem.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/screenshot-galileo-ai.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Galileo UI</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>tech</category>
-  <category>ai tools</category>
-  <category>ui generators</category>
-  <guid>https://www.bryanwhiting.com/tech/galileo-ai.html</guid>
-  <pubDate>Tue, 06 Feb 2024 23:25:17 GMT</pubDate>
-</item>
-<item>
-  <title>2 Nephi 1 - Obtaining a Promised Land</title>
-  <link>https://www.bryanwhiting.com/christianity/2-nephi-1-land-of-promise.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="scriptures-a-land-of-promise" class="level1 page-columns page-full">
-<h1>Scriptures: A Land of Promise</h1>
-<p>I thought about the phrase “land of promise” in <a href="../christianity/1-nephi-2-receiving-a-promised-land.html">1 Nephi 2 - Receiving a promised land</a> and there’s the verse in <a href="../scriptures/1-nephi-5.5.html">1 Nephi 5.5</a> where Lehi says “I have obtained a land of promise”. He says that years before arriving in the promised land.</p>
-<p>But now, years later, he testifies:</p>
-<blockquote class="blockquote">
-<p>notwithstanding our afflictions, <strong>we have obtained a land of promise, a land which is choice above all other lands</strong>; a land which the Lord God hath covenanted with me should be a land for the inheritance of my seed. Yea, the Lord hath covenanted this land unto me, and to my children forever, and also all those who should be led out of other countries by the hand of the Lord. <a href="../scriptures/2-nephi-1.5">2 Nephi 1.5</a></p>
-</blockquote>
-<p>How long did it take for them to receive that land? Many years. And many hardships. Lehi complained and was chastised at some point (1 Nephi 16). So the journey isn’t without its struggles.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-land-of-promise.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Land of promise</figcaption>
-</figure>
-</div>
-</section>
-<section id="meaning" class="level1">
-<h1>Meaning</h1>
-<p>The Lord is with us. Even if we complain and struggle, He wants to help us get to a better place, our promised lands.</p>
-<p>We can be like Lehi and seek to obtain that personal vision. And receive a personal covenant of how the Lord wants to bless us in our lives.</p>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>christianity</category>
-  <category>individual covenant</category>
-  <category>covenant</category>
-  <category>land of promise</category>
-  <category>come follow me</category>
-  <guid>https://www.bryanwhiting.com/christianity/2-nephi-1-land-of-promise.html</guid>
-  <pubDate>Tue, 06 Feb 2024 19:56:03 GMT</pubDate>
-</item>
-<item>
-  <title>I’m Grateful for Kindness</title>
-  <link>https://www.bryanwhiting.com/gratitude/kindness.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>I’ve been the recipient of a lot of kindness in my life. I know anyone reading this has too. Kindness is a wonderful gift to give someone. It doesn’t cost anything to be kind.</p>
-<p>Ways people have been kind to me:</p>
-<ul>
-<li>Someone called me when they knew I was making a big decision to listen to me.</li>
-<li>Parents who showed me how to be kind to each other.</li>
-<li>A friend who complemented me.</li>
-<li>My wife who goes on dates with me and hangs out with me.</li>
-<li>A child who wants to give dad a hug.</li>
-</ul>
-<p>Kindness does need to be <em>received</em>, I’ve learned. Kindness can be received when things are going well, as well as when life is tricky, though kindness is probably most poignantly felt and appreciated during hard times. I think that’s a gift: to receive kindness. It’s also a gift to give. Who do you know that could use some kindness today?</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-image-kindness-watercolors-expressionist.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">“Kindness. Watercolors. Expressionist.” Seems like kindness takes the form of an angel per Dalle. I think that’s appropriate.</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>gratitude</category>
-  <category>parenting</category>
-  <category>charity</category>
-  <category>christianity</category>
-  <guid>https://www.bryanwhiting.com/gratitude/kindness.html</guid>
-  <pubDate>Tue, 06 Feb 2024 10:05:27 GMT</pubDate>
 </item>
 </channel>
 </rss>

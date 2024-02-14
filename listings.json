@@ -13,9 +13,25 @@
     ]
   },
   {
+    "listing": "/concepts.html",
+    "items": [
+      "/concepts/Honduras.html",
+      "/concepts/frank-herbert.html",
+      "/concepts/sacrament-covenant.html",
+      "/concepts/president-russel-m-nelson.html",
+      "/concepts/christian.html",
+      "/concepts/gratus-sum-ergo-habeo.html",
+      "/concepts/the-book-of-mormon-another-testament-of-jesus-christ.html",
+      "/concepts/the-church-of-jesus-christ-of-latter-day-saints.html",
+      "/concepts/my-mission.html",
+      "/concepts/hand-of-god.html"
+    ]
+  },
+  {
     "listing": "/christianity.html",
     "items": [
-      "/christianity/revelation-first-then-agency.html",
+      "/christianity/2-nephi-3-two-scriptures.html",
+      "/christianity/coalesce-revelation-first-then-agency.html",
       "/christianity/2-nephi-4-ask.html",
       "/christianity/2-nephi-2-enticing-decisions.html",
       "/sacrament-symbols/gathered-as-one.html",
@@ -87,7 +103,12 @@
   {
     "listing": "/index.html",
     "items": [
+      "/news/2024-02-14-news-notes.html",
+      "/tech/ab-testing-resources.html",
+      "/tech/timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting.html",
+      "/posts/team-misfits.html",
       "/tech/war-tech.html",
+      "/news/2024-02-10-news-notes.html",
       "/tech/create-ai-images-with-googles-gemini-model.html",
       "/tech/protobufs-everything-i-dont-know.html",
       "/tech/pkl-for-configuration-management.html",
@@ -99,6 +120,7 @@
       "/tech/llm-chatbot-arena-leaderboard.html",
       "/posts/the-iceberg-theory-theory-of-omission.html",
       "/tech/holiday-demand-forecasting-using-xgboost.html",
+      "/news/2024-02-02-news-notes.html",
       "/posts/the-compounding-interest-of-reading.html",
       "/posts/the-power-of-a-good-book.html",
       "/tech/private-gpt.html",
@@ -108,11 +130,15 @@
       "/posts/export-your-libby-timeline-to-obsidian.html",
       "/posts/a-10-week-self-guided-data-science-intro-course.html",
       "/posts/the-only-mind-thats-clear-is-the-one-that-sees-no-alternative.html",
+      "/news/2024-01-23-news-notes.html",
       "/posts/writing-only-makes-sense-to-the-author.html",
+      "/news/2024-01-19-news-notes.html",
+      "/news/ai-news-01.html",
       "/posts/the-problem-with-public-opinions.html",
       "/posts/you-can-plan-your-life-in-5-minutes.html",
       "/posts/junk-attracts-junk.html",
       "/posts/bidens-debt-relief-wont-relieve-what-he-thinks-it-will.html",
+      "/news/ai-and-the-future-of-saas.html",
       "/posts/cool-quarto-site.html",
       "/posts/the-six-hour-sandwich.html",
       "/tech/this-drug-is-habit-forming.html",
@@ -184,6 +210,7 @@
       "/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html",
       "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
       "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html",
+      "/gratitude/foam-mattresses.html",
       "/gratitude/chicken-sliders.html",
       "/gratitude/gatherings-for-the-super-bowl.html",
       "/gratitude/old-movies.html",
@@ -235,7 +262,8 @@
       "/gratitude/2023-12-26-i'm-grateful-for-blankets/index.html",
       "/gratitude/2023-12-25-grateful-for-doctors/index.html",
       "/gratitude/2023-12-24-light/index.html",
-      "/christianity/revelation-first-then-agency.html",
+      "/christianity/2-nephi-3-two-scriptures.html",
+      "/christianity/coalesce-revelation-first-then-agency.html",
       "/christianity/2-nephi-4-ask.html",
       "/christianity/2-nephi-2-enticing-decisions.html",
       "/christianity/2-nephi-2-his-capacity-to-carry-our-burdens.html",
@@ -395,6 +423,7 @@
   {
     "listing": "/gratitude.html",
     "items": [
+      "/gratitude/foam-mattresses.html",
       "/gratitude/chicken-sliders.html",
       "/gratitude/gatherings-for-the-super-bowl.html",
       "/gratitude/old-movies.html",
@@ -451,7 +480,12 @@
   {
     "listing": "/all.html",
     "items": [
-      "/christianity/revelation-first-then-agency.html",
+      "/christianity/2-nephi-3-two-scriptures.html",
+      "/gratitude/foam-mattresses.html",
+      "/tech/ab-testing-resources.html",
+      "/tech/timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting.html",
+      "/posts/team-misfits.html",
+      "/christianity/coalesce-revelation-first-then-agency.html",
       "/christianity/2-nephi-4-ask.html",
       "/gratitude/chicken-sliders.html",
       "/tech/war-tech.html",
@@ -784,7 +818,11 @@
   {
     "listing": "/tech.html",
     "items": [
+      "/news/2024-02-14-news-notes.html",
+      "/tech/ab-testing-resources.html",
+      "/tech/timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting.html",
       "/tech/war-tech.html",
+      "/news/2024-02-10-news-notes.html",
       "/tech/create-ai-images-with-googles-gemini-model.html",
       "/tech/protobufs-everything-i-dont-know.html",
       "/tech/pkl-for-configuration-management.html",
@@ -794,10 +832,15 @@
       "/tech/the-divinely-discontent-chatbot-user.html",
       "/tech/llm-chatbot-arena-leaderboard.html",
       "/tech/holiday-demand-forecasting-using-xgboost.html",
+      "/news/2024-02-02-news-notes.html",
       "/tech/private-gpt.html",
       "/tech/lm-studio.html",
       "/tech/gpt4all.html",
       "/tech/beam-ai.html",
+      "/news/2024-01-23-news-notes.html",
+      "/news/2024-01-19-news-notes.html",
+      "/news/ai-news-01.html",
+      "/news/ai-and-the-future-of-saas.html",
       "/tech/this-drug-is-habit-forming.html",
       "/tech/the-matrix.html",
       "/tech/a-knife-to-a-gun-fight.html",
@@ -914,6 +957,7 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/team-misfits.html",
       "/posts/worlds-longest-drive.html",
       "/posts/the-iceberg-theory-theory-of-omission.html",
       "/posts/the-compounding-interest-of-reading.html",
@@ -991,23 +1035,10 @@
     ]
   },
   {
-    "listing": "/concepts.html",
-    "items": [
-      "/concepts/Honduras.html",
-      "/concepts/frank-herbert.html",
-      "/concepts/sacrament-covenant.html",
-      "/concepts/president-russel-m-nelson.html",
-      "/concepts/christian.html",
-      "/concepts/gratus-sum-ergo-habeo.html",
-      "/concepts/the-book-of-mormon-another-testament-of-jesus-christ.html",
-      "/concepts/the-church-of-jesus-christ-of-latter-day-saints.html",
-      "/concepts/my-mission.html",
-      "/concepts/hand-of-god.html"
-    ]
-  },
-  {
     "listing": "/goals.html",
     "items": [
+      "/goals/2024-02-14.html",
+      "/goals/2024-02-13.html",
       "/goals/2024-02-12.html",
       "/goals/2024-02-10.html",
       "/goals/2024-02-09.html",
@@ -1049,7 +1080,16 @@
   {
     "listing": "/sitemap.html",
     "items": [
-      "/christianity/revelation-first-then-agency.html",
+      "/news/2024-02-14-news-notes.html",
+      "/goals/2024-02-14.html",
+      "/christianity/2-nephi-3-two-scriptures.html",
+      "/gratitude/foam-mattresses.html",
+      "/tech/ab-testing-resources.html",
+      "/tech/timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting.html",
+      "/posts/team-misfits.html",
+      "/christianity/coalesce-revelation-first-then-agency.html",
+      "/goals/2024-02-13.html",
+      "/scriptures/2-nephi-3.12.html",
       "/creative/poem-breath-of-life.html",
       "/christianity/2-nephi-4-ask.html",
       "/gratitude/chicken-sliders.html",

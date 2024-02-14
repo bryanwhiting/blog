@@ -10,7 +10,36 @@
 <atom:link href="https://www.bryanwhiting.com/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Mon, 05 Feb 2024 20:40:56 GMT</lastBuildDate>
+<lastBuildDate>Tue, 13 Feb 2024 10:06:35 GMT</lastBuildDate>
+<item>
+  <title>Team Misfits</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/team-misfits.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I once played a game of pickup basketball with my football captain. He was a linebacker. All state. And got drafted to play in college. He was an incredible athlete.</p>
+<p>But he moved like a clunky robot while playing basketball and couldn’t make a layup for his life.</p>
+<p>Sometimes that’s how we are. As leaders, we should aim to help find where the misfits thrive.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-football-player-in-a-basketball-game.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Out of place</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>life lessons</category>
+  <category>leadership</category>
+  <guid>https://www.bryanwhiting.com/posts/team-misfits.html</guid>
+  <pubDate>Tue, 13 Feb 2024 10:06:35 GMT</pubDate>
+</item>
 <item>
   <title>World’s Longest Drive</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -430,6 +459,7 @@ with zipfile.ZipFile(zip_file_path, "w") as zipf:
 <li><a href="https://netflixtechblog.com/its-all-a-bout-testing-the-netflix-experimentation-platform-4e1ca458c15">It’s All A/Bout Testing: The Netflix Experimentation Platform | by Netflix Technology Blog | Netflix TechBlog</a></li>
 <li>A seven part series by Netflix: <a href="https://netflixtechblog.com/netflix-a-culture-of-learning-394bc7d0f94c">Netflix: A Culture of Learning. Martin Tingley with Wenjing Zheng… | by Netflix Technology Blog | Netflix TechBlog</a> I put here the seventh post because it likes to parts 1-6 in the intro. This part 7 is probably the best to start with because it explains the context behind A/B testing.</li>
 <li><a href="https://experimentguide.com/">Experiment Guide – Accelerate innovation using trustworthy online controlled experiments</a> This book tells you how Microsoft, Amazon, and Google use online experimentation to make billions of dollars. It’s written by the people who invented online experimentation and who are top data scientists at those companies.</li>
+<li><a href="https://netflixtechblog.com/sequential-a-b-testing-keeps-the-world-streaming-netflix-part-1-continuous-data-cba6c7ed49df">Sequential A/B Testing Keeps the World Streaming NetflixPart 1: Continuous Data | by Netflix Technology Blog | Feb, 2024 | Netflix TechBlog</a></li>
 </ul>
 </section>
 </section>
@@ -984,34 +1014,6 @@ with zipfile.ZipFile(zip_file_path, "w") as zipf:
   <category>writing</category>
   <guid>https://www.bryanwhiting.com/posts/write-a-thousand-songs.html</guid>
   <pubDate>Thu, 04 Jan 2024 15:10:01 GMT</pubDate>
-</item>
-<item>
-  <title>When Leaders Lose their People</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/losing-to-yesmen.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>In a scene in <a href="../book-review/dune.html">Dune</a>, Paul notices that his warrior turns into his worshipper. He laments the loss, wondering if his non-religious warrior will be lost too.</p>
-<p>Being a worshipped means you’re worshipped. Unchallenged. Can do no wrong. As such, you’re left with the intellect of one.</p>
-<p>As a leader, you need to avoid worshippers. People who fail to challenge you out of fear or an abundance of praise. This all has to do in the decisions you make as a leader. The culture you decide to build. Is every voice heard, or does one voice rule them all?</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-king-one-voice-to-rule.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">One voice to rule them all</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>posts</category>
-  <category>leadership</category>
-  <guid>https://www.bryanwhiting.com/posts/losing-to-yesmen.html</guid>
-  <pubDate>Thu, 04 Jan 2024 14:31:39 GMT</pubDate>
 </item>
 </channel>
 </rss>
