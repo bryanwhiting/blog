@@ -20,7 +20,9 @@ Notes:
 - You gain back more than what you give. So give more. 
 
 
+2024-02-13
 
+- people are more likely to be influenced by and ad when they don't think it's an ad
 
 2024-02-10
 

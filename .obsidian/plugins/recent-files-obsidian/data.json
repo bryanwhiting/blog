@@ -1,8 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "revelation-first-then-agency",
-      "path": "christianity/revelation-first-then-agency.md"
+      "basename": "2024-02-14-news-notes",
+      "path": "news/2024-02-14-news-notes.md"
+    },
+    {
+      "basename": "2024-02-12",
+      "path": "goals/2024-02-12.md"
+    },
+    {
+      "basename": "2024-02-13",
+      "path": "goals/2024-02-13.md"
+    },
+    {
+      "basename": "2024-02-14",
+      "path": "goals/2024-02-14.md"
+    },
+    {
+      "basename": "2-nephi-3-two-scriptures",
+      "path": "christianity/2-nephi-3-two-scriptures.md"
+    },
+    {
+      "basename": "foam-mattresses",
+      "path": "gratitude/foam-mattresses.md"
+    },
+    {
+      "basename": "influence-the-psychology-of-persuasion",
+      "path": "book-review/influence-the-psychology-of-persuasion.md"
+    },
+    {
+      "basename": "ab-testing-resources",
+      "path": "tech/ab-testing-resources.md"
+    },
+    {
+      "basename": "a-10-week-self-guided-data-science-intro-course",
+      "path": "posts/a-10-week-self-guided-data-science-intro-course.md"
+    },
+    {
+      "basename": "timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting",
+      "path": "tech/timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting.md"
+    },
+    {
+      "basename": "team-misfits",
+      "path": "posts/team-misfits.md"
+    },
+    {
+      "basename": "coalesce-revelation-first-then-agency",
+      "path": "christianity/coalesce-revelation-first-then-agency.md"
+    },
+    {
+      "basename": "doctrine-and-covenants-58.28",
+      "path": "scriptures/doctrine-and-covenants-58.28.md"
     },
     {
       "basename": "2-nephi-2-he-carries-our-burdens",
@@ -15,10 +63,6 @@
     {
       "basename": "2-nephi-4-ask",
       "path": "christianity/2-nephi-4-ask.md"
-    },
-    {
-      "basename": "2024-02-12",
-      "path": "goals/2024-02-12.md"
     },
     {
       "basename": "poem-breath-of-life",
@@ -71,10 +115,6 @@
     {
       "basename": "2024-02-10",
       "path": "goals/2024-02-10.md"
-    },
-    {
-      "basename": "influence-the-psychology-of-persuasion",
-      "path": "book-review/influence-the-psychology-of-persuasion.md"
     },
     {
       "basename": "old-movies",
@@ -159,46 +199,6 @@
     {
       "basename": "2-nephi-1-land-of-promise",
       "path": "christianity/2-nephi-1-land-of-promise.md"
-    },
-    {
-      "basename": "1-nephi-5.5",
-      "path": "scriptures/1-nephi-5.5.md"
-    },
-    {
-      "basename": "1-nephi-5-trusting-a-promise",
-      "path": "christianity/1-nephi-5-trusting-a-promise.md"
-    },
-    {
-      "basename": "1-nephi-2-receiving-a-promised-land",
-      "path": "christianity/1-nephi-2-receiving-a-promised-land.md"
-    },
-    {
-      "basename": "galileo-ai",
-      "path": "tech/galileo-ai.md"
-    },
-    {
-      "basename": "how-to-win-friends-and-influence-people",
-      "path": "book-review/how-to-win-friends-and-influence-people.md"
-    },
-    {
-      "basename": "kindness",
-      "path": "gratitude/kindness.md"
-    },
-    {
-      "basename": "how-to-share-an-html-file-like-a-quarto-output-in-github",
-      "path": "tech/how-to-share-an-html-file-like-a-quarto-output-in-github.md"
-    },
-    {
-      "basename": "2024-02-05",
-      "path": "goals/2024-02-05.md"
-    },
-    {
-      "basename": "a-knife-to-a-gun-fight",
-      "path": "tech/a-knife-to-a-gun-fight.md"
-    },
-    {
-      "basename": "guitar-clouds",
-      "path": "creative/guitar-clouds.md"
     }
   ],
   "omittedPaths": [],

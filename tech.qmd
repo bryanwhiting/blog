@@ -4,6 +4,7 @@ comments: false
 listing:
   contents: 
     - tech
+    - news
   type: grid
   sort: 
     - "date desc"

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/revelation-first-then-agency.md",
+                "file": "news/2024-02-14-news-notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "tag:#ex/StandingTricepExtension",
+            "query": "Netflix",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/revelation-first-then-agency.md",
+            "file": "news/2024-02-14-news-notes.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/revelation-first-then-agency.md"
+            "file": "news/2024-02-14-news-notes.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/revelation-first-then-agency.md",
+            "file": "news/2024-02-14-news-notes.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,11 +141,30 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/screenshot-gemini-access.jpeg",
+    "img/screenshot-gemini-makes-photos.jpeg",
+    "img/screenshot-gemini-cant-make-photos.jpeg",
+    "goals/2024-02-12.md",
+    "news/2024-02-14-news-notes.md",
+    "goals/2024-02-13.md",
+    "goals/2024-02-14.md",
+    "christianity/2-nephi-3-two-scriptures.md",
+    "img/dalle-two-books.jpeg",
+    "gratitude/foam-mattresses.md",
+    "scriptures/2-nephi-3.12.md",
+    "img/dalle-bed-in-a-box.jpeg",
+    "book-review/influence-the-psychology-of-persuasion.md",
+    "tech/ab-testing-resources.md",
+    "posts/a-10-week-self-guided-data-science-intro-course.md",
+    "tech/timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting.md",
+    "posts/team-misfits.md",
+    "img/dalle-football-player-in-a-basketball-game.jpeg",
+    "christianity/coalesce-revelation-first-then-agency.md",
+    "img/dalle-plan-a-and-b.jpeg",
+    "scriptures/doctrine-and-covenants-58.28.md",
     "2-nephi-2-he-carries-our-burdens.md",
     "christianity/2-nephi-2-enticing-decisions.md",
     "christianity/2-nephi-4-ask.md",
-    "goals/2024-02-12.md",
-    "christianity/revelation-first-then-agency.md",
     "creative/poem-breath-of-life.md",
     "img/dalle-baby-on-dad.jpeg",
     "scriptures/ether-2.23.md",
@@ -158,25 +177,6 @@
     "img/screenshot-crispy-chicken-sliders.jpeg",
     "tech/war-tech.md",
     "img/screenshot-time-ukraine-war.jpeg",
-    "lists/ai.md",
-    "img/dalle-enticing-apple.jpeg",
-    "scriptures/2-nephi-2.16.md",
-    "gratitude/gatherings-for-the-super-bowl.md",
-    "img/dalle-super-bowl.jpeg",
-    "sacrament-symbols/gathered-as-one.md",
-    "Untitled 2.md",
-    "img/dalle-one-congregation-feasting.jpeg",
-    "scriptures/matthew-26.27.md",
-    "scriptures/matthew-26.26-27.md",
-    "scriptures/ephesians-4.1-7.md",
-    "img/google-yoked-oxen.png",
-    "tech/create-ai-images-with-googles-gemini-model.md",
-    "news/2024-02-10-news-notes.md",
-    "goals/2024-02-09.md",
-    "goals/2024-02-10.md",
-    "scriptures/matthew-11.29.md",
-    "img/dalle-heres-looking-at-you-kid.jpeg",
-    "img/dalle-sf-sunset.jpeg",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",
