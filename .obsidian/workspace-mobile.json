@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "news/2024-02-14-news-notes.md",
+                "file": "posts/trajectory-and-mindset.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "news/2024-02-14-news-notes.md",
+            "file": "posts/trajectory-and-mindset.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "news/2024-02-14-news-notes.md"
+            "file": "posts/trajectory-and-mindset.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "news/2024-02-14-news-notes.md",
+            "file": "posts/trajectory-and-mindset.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,11 +141,12 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "news/2024-02-14-news-notes.md",
+    "posts/trajectory-and-mindset.md",
     "img/screenshot-gemini-access.jpeg",
     "img/screenshot-gemini-makes-photos.jpeg",
     "img/screenshot-gemini-cant-make-photos.jpeg",
     "goals/2024-02-12.md",
-    "news/2024-02-14-news-notes.md",
     "goals/2024-02-13.md",
     "goals/2024-02-14.md",
     "christianity/2-nephi-3-two-scriptures.md",
@@ -176,7 +177,6 @@
     "gratitude/chicken-sliders.md",
     "img/screenshot-crispy-chicken-sliders.jpeg",
     "tech/war-tech.md",
-    "img/screenshot-time-ukraine-war.jpeg",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",
