@@ -10,7 +10,62 @@
 <atom:link href="https://www.bryanwhiting.com/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Tue, 13 Feb 2024 10:06:35 GMT</lastBuildDate>
+<lastBuildDate>Wed, 14 Feb 2024 13:31:55 GMT</lastBuildDate>
+<item>
+  <title>Trajectory and Mindset</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/trajectory-and-mindset.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Tony Robbins has said:</p>
+<blockquote class="blockquote">
+<p>What we can or cannot do, what we consider possible or impossible, is rarely a function of our true capability. It is more likely a function of our beliefs about who we are. <a href="https://www.tonyrobbins.com/tony-robbins-quotes/">Tony Robbins Quotes, Read These Famous Quotes from Tony Robbins</a></p>
+</blockquote>
+<p>The book <a href="../book-review/mindset.html">Mindset</a> talks about “fixed” vs “growth” mindsets. My post <a href="../posts/decisions-are-rivers.html">Decisions are Like Hopping on a River Raft</a> - decisions take you down to known endpoints.</p>
+<p>Bring those two concepts together and on one hand there’s a trajectory - where you’re capable of going given your decisions (and mindset) and your mindset - how you perceive your circumstances.</p>
+<p>Someone recently told me, “It’s not what you go through but how you perceive what you’re going through that matters.”</p>
+<p>I believe perception is powerful. Any negative situation can be reframed for a positive. This is mindset.</p>
+<p>But the other component is also important: where your circumstances will take you if pursued every day for the next 30 years.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-mountain-in-a-mountain-range.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Are you aimed toward the valley or the mountain? Neither is better, but one is probably better to you</figcaption>
+</figure>
+</div>
+<p>If you’re an extremely happy person but you don’t take action to get out of a minimum wage job, such as spend time on self improvement, you’re going to stay in your minimum wage job (nothing wrong with that, just trying to illustrate a point).</p>
+<p>And so, to get what you want out of life you can’t just assume things will get better without any change on your part. You can 1) change your mindset or 2) change your trajectory.</p>
+<p>I’ve wondered whether at times in my career I was complacent or not, or whether I was growing doing what I was doing. That’s not a helpful question. Because if you’re too myopic you can miss that you doing your multiplication tables isn’t going to change anyone’s life, but if you can’t do multiplication you can’t be a machine learning engineer.</p>
+<p>Most days in our work are steps. Steps towards something.</p>
+<p>A spaceman can’t land on the moon unless they build a rocket. They won’t make a rocket unless they choose to land on the moon. And by choosing the moon they’re choosing to <em>not</em> open a Chinese restaurant.<sup>1</sup></p>
+<p>Some roles have upper bounds. Staying at that upper bound isn’t a bad thing. It’s just a thing. Other roles open up different opportunities the longer you stick around, opportunities you won’t get else where perhaps.</p>
+<p>So if you’re feeling stuck, ask:</p>
+<ul>
+<li>Where will I be if I stay with this for the next two years?</li>
+<li>Is that directionally where I want now to head?</li>
+<li>Is there something about my mindset I can change today to help me reframe so that I don’t miss the opportunities already around me?</li>
+</ul>
+<p>HTH.</p>
+
+
+<aside id="footnotes" class="footnotes footnotes-end-of-document">
+<hr>
+<ol>
+<li id="fn1"><p>Who has more impact? Well as cool as it is to land on the moon, it doesn’t actually do anything practically useful. A restaurant prevents millions of people from starving throughout its existence.↩︎</p></li>
+</ol>
+</aside>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>career</category>
+  <category>career advice</category>
+  <category>decisions</category>
+  <guid>https://www.bryanwhiting.com/posts/trajectory-and-mindset.html</guid>
+  <pubDate>Wed, 14 Feb 2024 13:31:55 GMT</pubDate>
+</item>
 <item>
   <title>Team Misfits</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -981,39 +1036,6 @@ with zipfile.ZipFile(zip_file_path, "w") as zipf:
   <category>YouTube clip</category>
   <guid>https://www.bryanwhiting.com/posts/mark-cuban-mogul-support.html</guid>
   <pubDate>Fri, 05 Jan 2024 21:47:00 GMT</pubDate>
-</item>
-<item>
-  <title>Write a thousand songs</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/write-a-thousand-songs.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>I listened to an interview with Imagine Dragons. The lead singer talked about how he writes several songs per day.</p>
-<p>No wonder he’s so successful. Repetitions breeds opportunity.</p>
-<p>This has two affects on the brain. 1) lowers the pressure of individual songs. Don’t need to knock it of the park. 2) you get better at writing that much faster.</p>
-<p>I heard once about a photography that let one half of the students only take 5 photos in a semester. The other half had to take 100. Which group had the better photos?</p>
-<blockquote class="blockquote">
-<p>You miss 100% of the shots you don’t take. <del>Wayne Gretzky</del> Michael Scott</p>
-</blockquote>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-hockey-shots-surreal-impressionist-water.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">More shots is more opportunities for a goal. Worry about good shots later.</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>posts</category>
-  <category>creativity</category>
-  <category>writing</category>
-  <guid>https://www.bryanwhiting.com/posts/write-a-thousand-songs.html</guid>
-  <pubDate>Thu, 04 Jan 2024 15:10:01 GMT</pubDate>
 </item>
 </channel>
 </rss>
