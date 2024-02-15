@@ -10,7 +10,128 @@
 <atom:link href="https://www.bryanwhiting.com/all.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Wed, 14 Feb 2024 23:00:48 GMT</lastBuildDate>
+<lastBuildDate>Thu, 15 Feb 2024 13:39:24 GMT</lastBuildDate>
+<item>
+  <title>Observable Framework 1.0 vs Quarto</title>
+  <link>https://www.bryanwhiting.com/tech/observable-framework-vs-quarto.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><a href="https://observablehq.com/framework/">Observable Framework</a> seems like a nice competitor to Quarto. It seems like it has far fewer features, but some other more specialized features.</p>
+<p>Things they can both do:</p>
+<ul>
+<li>use markdown to build websites and apps</li>
+<li>Use Observable for plots and reactivity</li>
+<li>Load data from any format, using any language</li>
+</ul>
+<p>Things Quarto excels at:</p>
+<ul>
+<li>more full featured - can be a blog, a site, etc.</li>
+<li>can execute raw R or Python code.</li>
+</ul>
+<p>Things Observable seems better at (based on glancing the docs only):</p>
+<ul>
+<li>More beautiful</li>
+<li>More powerful reactivity</li>
+</ul>
+<p>Seems like observable is good for people who prefer JavaScript for plotting.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-observable-quote.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Landing</figcaption>
+</figure>
+</div>
+<p>[Getting started | Observable Framework](https://observablehq.com/framework/getting-started</p>
+<p>Loading data using Python (though there are default CSV and Apache parquet/arrow loaders too)</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-observable-data-loader.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Python</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>observable</category>
+  <category>quarto</category>
+  <category>tool comparison</category>
+  <guid>https://www.bryanwhiting.com/tech/observable-framework-vs-quarto.html</guid>
+  <pubDate>Thu, 15 Feb 2024 13:39:24 GMT</pubDate>
+</item>
+<item>
+  <title>Package Installer: “uv”</title>
+  <link>https://www.bryanwhiting.com/tech/package-installer-uv.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><a href="https://astral.sh/blog/uv">uv: Python packaging in Rust</a></p>
+<ul>
+<li>replaces <code>pip</code></li>
+<li>Does what <code>poetry</code> does</li>
+</ul>
+<p>Sad that Python developers think Python can’t even maintain itself…it has to be written in Rust.</p>
+<blockquote class="twitter-tweet blockquote">
+<p lang="en" dir="ltr">
+Announcing uv: an extremely fast Python package installer and resolver, written in Rust.<br><br>uv is designed as a drop-in alternative to pip, pip-tools, and virtualenv.<br><br>With a warm cache, uv installs are near-instant. Here, it's &gt; 75x faster than pip and pip-tools. <a href="https://t.co/wrvaudUn6i">pic.twitter.com/wrvaudUn6i</a>
+</p>
+— Charlie Marsh (<span class="citation" data-cites="charliermarsh">@charliermarsh</span>) <a href="https://twitter.com/charliermarsh/status/1758216803275149389?ref_src=twsrc%5Etfw">February 15, 2024</a>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-astral-uv.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">UV</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>python</category>
+  <category>software engineering</category>
+  <category>dev ops</category>
+  <category>dev tools</category>
+  <guid>https://www.bryanwhiting.com/tech/package-installer-uv.html</guid>
+  <pubDate>Thu, 15 Feb 2024 13:22:18 GMT</pubDate>
+</item>
+<item>
+  <title>2 Nephi 4 - A Prophecy of Another Branch</title>
+  <link>https://www.bryanwhiting.com/christianity/2-nephi-4-prophecy-of-another-branch.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="scriptures" class="level1">
+<h1>Scriptures</h1>
+<blockquote class="blockquote">
+<p>For behold, he truly prophesied concerning all his seed. And the prophecies which he wrote, there are not many greater. And he prophesied concerning us, and our future generations; and they are written upon the plates of brass. <a href="../scriptures/2-nephi-4.2">2 Nephi 4.2</a></p>
+</blockquote>
+<p>This is another powerful reminder of things lost from the Bible, similar to <a href="../christianity/1-nephi-20-baptism-in-the-old-testament.html">1 Nephi 20 - Baptism in the Old Testament</a>. As we look at 2 Nephi 3:5, we see a link to the Joseph Smith Translation of Genesis.</p>
+<blockquote class="blockquote">
+<p>24 And Joseph said unto his brethren, I die, and go unto my fathers; and I go down to my grave with joy. The God of my father Jacob be with you, to deliver you out of affliction in the days of your bondage; for the Lord hath visited me, and I have obtained a promise of the Lord, <strong>that out of the fruit of my loins, the Lord God will raise up a righteous branch out of my loins</strong>; and unto thee, whom my father Jacob hath named Israel, a prophet; (not the Messiah who is called Shilo;) and this prophet shall deliver my people out of Egypt in the days of thy bondage. <a href="../scriptures/jst,-genesis-50.24">JST, Genesis 50.24</a></p>
+</blockquote>
+<p>Imagine if for 2000 years the entire world knew about this prophecy and the other things in 50:24-38 # Meaning</p>
+
+
+</section>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>christianity</category>
+  <category>come follow me</category>
+  <guid>https://www.bryanwhiting.com/christianity/2-nephi-4-prophecy-of-another-branch.html</guid>
+  <pubDate>Wed, 14 Feb 2024 23:07:52 GMT</pubDate>
+</item>
 <item>
   <title>I’m Grateful for Explorers</title>
   <link>https://www.bryanwhiting.com/gratitude/explorers.html</link>
@@ -666,104 +787,6 @@
   <category>favorite scriptures</category>
   <guid>https://www.bryanwhiting.com/christianity/2-nephi-2-his-capacity-to-carry-our-burdens.html</guid>
   <pubDate>Sat, 10 Feb 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>2 Nephi 2 - Redemption</title>
-  <link>https://www.bryanwhiting.com/christianity/2-nephi-2-redemption.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="scriptures" class="level1">
-<h1>Scriptures</h1>
-<p>Notice the words “in” and “through”:</p>
-<blockquote class="blockquote">
-<p>Wherefore, redemption cometh in and through the Holy Messiah; for he is full of grace and truth. <a href="../scriptures/2-nephi-2.6">2 Nephi 2.6</a></p>
-</blockquote>
-<p>This provides some meaningful words. Rambling a bit here:</p>
-<ul>
-<li>in: because of?</li>
-<li>through: by means of</li>
-</ul>
-<p>How are these two words different? One, Christ is a Being. He’s not an “amorphous entity”. By means of what He did for us, we can be redeemed. But it’s also because of who He is (presently as the Living Christ) in granting us forgiveness.</p>
-<p><img src="https://www.bryanwhiting.com/img/dalle-risen-christ-by-the-tomb-redemption.jpeg" class="preview-image img-fluid" alt="Risen Christ"> # Meaning</p>
-<p>Christ’s atonement is infinite. It’s empowering to know that he’s already suffered for my sins of today and yesterday as well as tomorrow and beyond. Meaning, he already knows the mistakes I’m going to choose to make, which is kind of trippy in a way, but also comforting thinking about how He still loves me and knows how I’ll falter. That brings me peace knowing He knows me, who I am today, who I’ll develop into tomorrow.</p>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>christianity</category>
-  <category>redemption</category>
-  <category>atonement</category>
-  <category>come follow me</category>
-  <guid>https://www.bryanwhiting.com/christianity/2-nephi-2-redemption.html</guid>
-  <pubDate>Fri, 09 Feb 2024 23:51:37 GMT</pubDate>
-</item>
-<item>
-  <title>I’m Grateful for Skimboarding</title>
-  <link>https://www.bryanwhiting.com/gratitude/skimboarding.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Skimboarding is one of those oddly satisfying sports that isn’t exactly thrilling but just delightful enough that you can’t get enough. It’s like popcorn. Always delicious, but you want just one more.</p>
-<p>The perfect setting is a beach with a long shore, so the tide comes in and slowly ripples out. This is when you can really glide.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-snowboarding-at-dusk.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Skim</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>gratitude</category>
-  <category>sports</category>
-  <guid>https://www.bryanwhiting.com/gratitude/skimboarding.html</guid>
-  <pubDate>Fri, 09 Feb 2024 11:43:20 GMT</pubDate>
-</item>
-<item>
-  <title>2 Nephi 2 - Consecration</title>
-  <link>https://www.bryanwhiting.com/christianity/2-nephi-2-consecration.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="scriptures" class="level1">
-<h1>Scriptures</h1>
-<p>Lehi, now in America after a long journey, sits his son, Jacob, down for a chat. He told him all his hard times would be rewarded:</p>
-<blockquote class="blockquote">
-<p>Nevertheless, Jacob, my firstborn in the wilderness, thou knowest the greatness of God; and he shall <strong>consecrate</strong> thine afflictions for thy gain. <a href="../scriptures/2-nephi-2.2">2 Nephi 2.2</a></p>
-</blockquote>
-<p>This reminds me of:</p>
-<blockquote class="blockquote">
-<p>I say unto you that ye must pray always, and not faint; that ye must not perform any thing unto the Lord save in the first place ye shall pray unto the Father in the name of Christ, that he will <strong>consecrate</strong> thy performance unto thee, that thy performance may be for the welfare of thy soul. <a href="../scriptures/2-nephi-32.9.html">2-nephi-32.9</a></p>
-</blockquote>
-<p>To consecrate is to “make or declare something sacred” (Oxford), or “to devote or dedicate exclusively to a purpose”.</p>
-<p>From this lens, Jacob’s trials (like all his brothers and sisters) could be declared sacred (for the purposes of the Lord) and dedicated to the Lord’s purposes and cause.</p>
-<p>Likewise, through prayer we can consecrate all of our acts. We can make them sacred devotions. What would your life be like if every day you dedicated it to the Lord? Where you did everything with a sacred purpose and cause?</p>
-<p>And what if He made all those things consecrated for your spiritual gain?</p>
-<p><img src="https://www.bryanwhiting.com/img/dalle-consecration-gift-to-cloud.jpeg" class="preview-image img-fluid" alt="Consecration feels fuzzy, but it’s just giving yourself to something greater. It’s a mindset"> # Meaning</p>
-<p>I can find more ways to consecrate my day and actions. To give myself with greater purpose.</p>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>christianity</category>
-  <category>come follow me</category>
-  <category>consecration</category>
-  <category>adversity</category>
-  <guid>https://www.bryanwhiting.com/christianity/2-nephi-2-consecration.html</guid>
-  <pubDate>Thu, 08 Feb 2024 23:52:02 GMT</pubDate>
 </item>
 </channel>
 </rss>

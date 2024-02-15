@@ -10,7 +10,99 @@
 <atom:link href="https://www.bryanwhiting.com/tech.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Wed, 14 Feb 2024 11:08:43 GMT</lastBuildDate>
+<lastBuildDate>Thu, 15 Feb 2024 13:39:24 GMT</lastBuildDate>
+<item>
+  <title>Observable Framework 1.0 vs Quarto</title>
+  <link>https://www.bryanwhiting.com/tech/observable-framework-vs-quarto.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><a href="https://observablehq.com/framework/">Observable Framework</a> seems like a nice competitor to Quarto. It seems like it has far fewer features, but some other more specialized features.</p>
+<p>Things they can both do:</p>
+<ul>
+<li>use markdown to build websites and apps</li>
+<li>Use Observable for plots and reactivity</li>
+<li>Load data from any format, using any language</li>
+</ul>
+<p>Things Quarto excels at:</p>
+<ul>
+<li>more full featured - can be a blog, a site, etc.</li>
+<li>can execute raw R or Python code.</li>
+</ul>
+<p>Things Observable seems better at (based on glancing the docs only):</p>
+<ul>
+<li>More beautiful</li>
+<li>More powerful reactivity</li>
+</ul>
+<p>Seems like observable is good for people who prefer JavaScript for plotting.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-observable-quote.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Landing</figcaption>
+</figure>
+</div>
+<p>[Getting started | Observable Framework](https://observablehq.com/framework/getting-started</p>
+<p>Loading data using Python (though there are default CSV and Apache parquet/arrow loaders too)</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-observable-data-loader.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Python</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>observable</category>
+  <category>quarto</category>
+  <category>tool comparison</category>
+  <guid>https://www.bryanwhiting.com/tech/observable-framework-vs-quarto.html</guid>
+  <pubDate>Thu, 15 Feb 2024 13:39:24 GMT</pubDate>
+</item>
+<item>
+  <title>Package Installer: “uv”</title>
+  <link>https://www.bryanwhiting.com/tech/package-installer-uv.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><a href="https://astral.sh/blog/uv">uv: Python packaging in Rust</a></p>
+<ul>
+<li>replaces <code>pip</code></li>
+<li>Does what <code>poetry</code> does</li>
+</ul>
+<p>Sad that Python developers think Python can’t even maintain itself…it has to be written in Rust.</p>
+<blockquote class="twitter-tweet blockquote">
+<p lang="en" dir="ltr">
+Announcing uv: an extremely fast Python package installer and resolver, written in Rust.<br><br>uv is designed as a drop-in alternative to pip, pip-tools, and virtualenv.<br><br>With a warm cache, uv installs are near-instant. Here, it's &gt; 75x faster than pip and pip-tools. <a href="https://t.co/wrvaudUn6i">pic.twitter.com/wrvaudUn6i</a>
+</p>
+— Charlie Marsh (<span class="citation" data-cites="charliermarsh">@charliermarsh</span>) <a href="https://twitter.com/charliermarsh/status/1758216803275149389?ref_src=twsrc%5Etfw">February 15, 2024</a>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-astral-uv.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">UV</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>python</category>
+  <category>software engineering</category>
+  <category>dev ops</category>
+  <category>dev tools</category>
+  <guid>https://www.bryanwhiting.com/tech/package-installer-uv.html</guid>
+  <pubDate>Thu, 15 Feb 2024 13:22:18 GMT</pubDate>
+</item>
 <item>
   <title>Gemini in the iOS Google app, TikTok advancements, and ChatGPT memory</title>
   <link>https://www.bryanwhiting.com/news/2024-02-14-news-notes.html</link>
@@ -407,7 +499,7 @@ TikTok presents Boximator!<br><br>This method can generate rich and controllable
 </item>
 <item>
   <title>Galileo AI</title>
-  <link>https://www.bryanwhiting.com/tech/galileo-ai.html</link>
+  <link>https://www.bryanwhiting.com/tech/galileo-ai-ui-generator.html</link>
   <description><![CDATA[ 
 
 
@@ -430,7 +522,8 @@ TikTok presents Boximator!<br><br>This method can generate rich and controllable
   <category>tech</category>
   <category>ai tools</category>
   <category>ui generators</category>
-  <guid>https://www.bryanwhiting.com/tech/galileo-ai.html</guid>
+  <category>design</category>
+  <guid>https://www.bryanwhiting.com/tech/galileo-ai-ui-generator.html</guid>
   <pubDate>Tue, 06 Feb 2024 23:25:17 GMT</pubDate>
 </item>
 <item>
@@ -836,74 +929,6 @@ Song snippet today: [2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds
   <category>open source</category>
   <guid>https://www.bryanwhiting.com/tech/gpt4all.html</guid>
   <pubDate>Fri, 02 Feb 2024 09:49:48 GMT</pubDate>
-</item>
-<item>
-  <title>Beam AI</title>
-  <link>https://www.bryanwhiting.com/tech/beam-ai.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="description" class="level1 page-columns page-full">
-<h1>description</h1>
-<p>Runs GPT locally, has tons of templates, can interact with your screen. Run ChatGPT plus locally.</p>
-<p>I have not used it. Just thought it’s cool. # commentary I don’t see why Open AI can’t build something like this, but they’re focused on much higher value problems such as solving enterprise hunger.</p>
-<p>So we’ll see niche tools like this that pop up and solve the needs of a few - satisfying the developer costs of some indie programmers. thinking of Innovators Dilemma, there’s just not enough juice in this lemon for Open AI to squeeze, but plenty for a small fish.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/photo-get-beam-ai.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Beam AI</figcaption>
-</figure>
-</div>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>tech</category>
-  <category>ai tools</category>
-  <category>ai</category>
-  <category>local ai</category>
-  <category>privacy</category>
-  <category>edge device</category>
-  <category>closed source</category>
-  <guid>https://www.bryanwhiting.com/tech/beam-ai.html</guid>
-  <pubDate>Fri, 02 Feb 2024 09:44:08 GMT</pubDate>
-</item>
-<item>
-  <title>News Notes for 2024-01-23</title>
-  <link>https://www.bryanwhiting.com/news/2024-01-23-news-notes.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="ai" class="level1">
-<h1>AI</h1>
-<p><a href="https://electrek.co/2024/01/22/tesla-releases-fsd-v12-last-hope-self-driving/">Tesla finally releases FSD v12, its last hope for self-driving | Electrek</a> - 300k rules based system down to a model - you’ll need both: a model and overrides. - Or, you train the model by learning from the scenarios encoded in your 300k rules engine (like DeepMind’s AlphaGo)</p>
-<p><a href="https://info.gretel.ai/rag-model-workshop">Fast Tracking RAG Model Evaluation with Synthetic Data</a> - synthetic data to evaluate RAG responses? - A response is non-deterministic, random - Perhaps do a Levenshtein distance of sorts to evaluate of response is as good as you want? - But isn’t this the same as question-answer pairs and instruction tuning?</p>
-<p><a href="https://wiki.mutable.ai/?utm_source=tldrai">Auto Wiki by Mutable.ai</a> - this proves how powerful AI is. Just add data and watch it churn. - An example of an AI product.</p>
-</section>
-<section id="coding" class="level1">
-<h1>Coding</h1>
-<p><a href="https://www.blog.dailydoseofds.com/p/python-does-not-fully-deliver-oop?publication_id=1119889&amp;utm_medium=email&amp;utm_campaign=email-share&amp;triggerShare=true&amp;r=2ri91a">Python Does Not Fully Deliver OOP Encapsulation Functionalities</a> - I learned how attributes are names in a Python class. As an R programmer, most of these things were never taught to me in school, and I’ve never <em>really</em> needed to know them (until working with software engineers)</p>
-</section>
-<section id="product" class="level1">
-<h1>Product</h1>
-<p><a href="https://open.substack.com/pub/lenny/p/how-gong-builds-product?r=2ri91a&amp;utm_campaign=post&amp;utm_medium=email">How Gong builds product - by Lenny Rachitsky</a> - the planning!! &gt; We do not plan monthly or biweekly. Both the engineering leader and I dislike the Scrum methodology. We feel it’s trying to drive urgency via artificial deadlines versus via value to the customer. And by forcing “commitment” to deliverables within a time window, it essentially inhibits on-the-fly trade-offs between content, quality, and timelines. Yet we have internal reviews with the different groups on a monthly basis.</p>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>news</category>
-  <category>ai</category>
-  <category>tech</category>
-  <guid>https://www.bryanwhiting.com/news/2024-01-23-news-notes.html</guid>
-  <pubDate>Tue, 23 Jan 2024 14:54:35 GMT</pubDate>
 </item>
 </channel>
 </rss>
