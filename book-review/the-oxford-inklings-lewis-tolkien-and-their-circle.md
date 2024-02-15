@@ -9,12 +9,20 @@ categories:
   - philosophy
 draft: false
 date-start: 2024-01-09 20:32:29
-date-finished: 
-pct-complete: 
+date-finished: 2024-02-14
+pct-complete: 100
 book-time: 6.5
 book-year: "2014"
 ---
 ![The Oxford inklings](../img/book-the-oxford-inklings.jpeg){.preview-image}
+
+2024-02-14
+
+- summary: writers influence each other over time. Meeting at pubs weekly to review writing. 
+- The theory of myth. The purpose of myth. Myth isn't just story. It's the discovery of a truth, a world that exists. I don't know if Tolkien felt he created middle earth or he discovered it. 
+- Surprised by joy. → to read. 
+- Good friends don't like everything their other friends do. But do what you feel anyway. 
+- Works received in America - perhaps this is like Jimmer getting some success in China. 
 
 2024-01-16
 - critique. Harsh critique. Safe space. 

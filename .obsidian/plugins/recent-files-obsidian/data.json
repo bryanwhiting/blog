@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "reading-list",
+      "path": "lists/reading-list.md"
+    },
+    {
+      "basename": "the-oxford-inklings-lewis-tolkien-and-their-circle",
+      "path": "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md"
+    },
+    {
       "basename": "trajectory-and-mindset",
       "path": "posts/trajectory-and-mindset.md"
     },
@@ -145,10 +153,6 @@
       "path": "gratitude/skimboarding.md"
     },
     {
-      "basename": "reading-list",
-      "path": "lists/reading-list.md"
-    },
-    {
       "basename": "2-nephi-1-shake-off-the-chains",
       "path": "christianity/2-nephi-1-shake-off-the-chains.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2024-02-06",
       "path": "goals/2024-02-06.md"
-    },
-    {
-      "basename": "2-nephi-1-alternative-endings",
-      "path": "christianity/2-nephi-1-alternative-endings.md"
     }
   ],
   "omittedPaths": [],

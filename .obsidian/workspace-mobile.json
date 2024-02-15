@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/trajectory-and-mindset.md",
+                "file": "lists/reading-list.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/trajectory-and-mindset.md",
+            "file": "lists/reading-list.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/trajectory-and-mindset.md"
+            "file": "lists/reading-list.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/trajectory-and-mindset.md",
+            "file": "lists/reading-list.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,8 +141,9 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "news/2024-02-14-news-notes.md",
+    "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
     "posts/trajectory-and-mindset.md",
+    "news/2024-02-14-news-notes.md",
     "img/screenshot-gemini-access.jpeg",
     "img/screenshot-gemini-makes-photos.jpeg",
     "img/screenshot-gemini-cant-make-photos.jpeg",
@@ -176,7 +177,6 @@
     "img/dalle-praying-in-a-jungle-2000-years-ago.jpeg",
     "gratitude/chicken-sliders.md",
     "img/screenshot-crispy-chicken-sliders.jpeg",
-    "tech/war-tech.md",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",

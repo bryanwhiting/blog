@@ -7,6 +7,7 @@ categories:
 draft: false
 ---
 ### Business books/Self Help
+
 - [x] How to win friends and influence people #spotify #libby  
 - [ ] This is Marketing #audible-credit 
 - [ ] Ten Day MBA #audible-credit 
@@ -16,6 +17,7 @@ draft: false
 - [ ] Antifragile
 
 ### Fiction
+
 - [ ] The Great Gatsby #libby 
 - [ ] brave new world #libby
 - [ ] Count of Monte Cristo #libby
@@ -24,10 +26,10 @@ draft: false
 - [ ] Les Mis #libby 
 - [ ] To Kill a Mockingbird #libby 
 - [ ] Foundation #libby 
-- [ ] Wool #libby 
+- [x] Wool #libby 
 - [ ] The Sun Also Rises #spotify-included 7hr
 - [ ] A farewell to arms #spotify-included  8h
-- [ ] The old man and the Sea #libby 
+- [x] The old man and the Sea #libby 
 - [ ] Of Mice and Men #libby 
 
 To finish
@@ -35,6 +37,7 @@ To finish
 - [ ] 1984 #youtube
 
 ### Biography/History/Anthropology
+
 - [ ] Sapiens #libby
 - [ ] Guns germs and steel #libby 
 - [ ] Elon Musk #libby 
@@ -52,6 +55,18 @@ To finish
 - [ ] Mere Christianity #libby 
 - [ ] The Place of the Lion #audible-credit #spotify 7.5
 - [x] The quest for Cosmic Justice - Sowll #audible-free [The Quest for Cosmic Justice](../book-review/the-quest-for-cosmic-justice.md)
+
+
+***
+# February 2024
+
+- Oxford inklinfs
+- Coddling
+- influence 
+- How to win friends
+- The Wager
+- Old man and the sea
+- Storybrand
 
 
 ***
