@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lists/reading-list.md",
+                "file": "gratitude/explorers.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "lists/reading-list.md",
+            "file": "gratitude/explorers.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "lists/reading-list.md"
+            "file": "gratitude/explorers.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "lists/reading-list.md",
+            "file": "gratitude/explorers.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,6 +141,12 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "Untitled 3.md",
+    "img/gemini-1700s-ship-cape-horn.jpeg",
+    "book-review/the-wager.md",
+    "gratitude/explorers.md",
+    "img/book-the-wager.jpeg",
+    "lists/reading-list.md",
     "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
     "posts/trajectory-and-mindset.md",
     "news/2024-02-14-news-notes.md",
@@ -171,12 +177,6 @@
     "img/dalle-baby-on-dad.jpeg",
     "scriptures/ether-2.23.md",
     "scriptures/matthew-6.8.md",
-    "scriptures/alma-37.7.md",
-    "scriptures/malachi-3.10.md",
-    "scriptures/1-corinthians-10.13.md",
-    "img/dalle-praying-in-a-jungle-2000-years-ago.jpeg",
-    "gratitude/chicken-sliders.md",
-    "img/screenshot-crispy-chicken-sliders.jpeg",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",

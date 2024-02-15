@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "explorers",
+      "path": "gratitude/explorers.md"
+    },
+    {
+      "basename": "the-wager",
+      "path": "book-review/the-wager.md"
+    },
+    {
       "basename": "reading-list",
       "path": "lists/reading-list.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "new-york",
       "path": "gratitude/new-york.md"
-    },
-    {
-      "basename": "2024-02-07",
-      "path": "goals/2024-02-07.md"
-    },
-    {
-      "basename": "2024-02-06",
-      "path": "goals/2024-02-06.md"
     }
   ],
   "omittedPaths": [],
