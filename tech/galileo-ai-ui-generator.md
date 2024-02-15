@@ -7,6 +7,7 @@ categories:
   - tech
   - ai tools
   - ui generators
+  - design
 draft: false
 ---
 I came across [Galileo AI](https://www.usegalileo.ai/). It lets you mock up UI interfaces. Great story in their blog: [Galileo AI - Feb 6 Launch Announcement](https://www.usegalileo.ai/blog/seed)

@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "observable-framework-vs-quarto",
+      "path": "tech/observable-framework-vs-quarto.md"
+    },
+    {
+      "basename": "package-installer-uv",
+      "path": "tech/package-installer-uv.md"
+    },
+    {
+      "basename": "galileo-ai-ui-generator",
+      "path": "tech/galileo-ai-ui-generator.md"
+    },
+    {
+      "basename": "beam-ai",
+      "path": "tech/beam-ai.md"
+    },
+    {
+      "basename": "2-nephi-4-prophecy-of-another-branch",
+      "path": "christianity/2-nephi-4-prophecy-of-another-branch.md"
+    },
+    {
+      "basename": "truths-lost-in-the-bible",
+      "path": "concepts/truths-lost-in-the-bible.md"
+    },
+    {
+      "basename": "2024-02-14",
+      "path": "goals/2024-02-14.md"
+    },
+    {
       "basename": "explorers",
       "path": "gratitude/explorers.md"
     },
@@ -31,10 +59,6 @@
     {
       "basename": "2024-02-13",
       "path": "goals/2024-02-13.md"
-    },
-    {
-      "basename": "2024-02-14",
-      "path": "goals/2024-02-14.md"
     },
     {
       "basename": "2-nephi-3-two-scriptures",
@@ -175,30 +199,6 @@
     {
       "basename": "2-nephi-32.9",
       "path": "scriptures/2-nephi-32.9.md"
-    },
-    {
-      "basename": "2-nephi-32.8",
-      "path": "scriptures/2-nephi-32.8.md"
-    },
-    {
-      "basename": "long-runs",
-      "path": "gratitude/long-runs.md"
-    },
-    {
-      "basename": "pkl-for-configuration-management",
-      "path": "tech/pkl-for-configuration-management.md"
-    },
-    {
-      "basename": "protobufs-everything-i-dont-know",
-      "path": "tech/protobufs-everything-i-dont-know.md"
-    },
-    {
-      "basename": "handling-outliers-in-linear-regression",
-      "path": "tech/handling-outliers-in-linear-regression.md"
-    },
-    {
-      "basename": "new-york",
-      "path": "gratitude/new-york.md"
     }
   ],
   "omittedPaths": [],

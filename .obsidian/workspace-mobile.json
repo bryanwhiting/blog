@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/explorers.md",
+                "file": "tech/observable-framework-vs-quarto.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,10 +44,10 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Netflix",
+            "query": "Galileo",
             "matchingCase": false,
             "explainSearch": false,
-            "collapseAll": false,
+            "collapseAll": true,
             "extraContext": false,
             "sortOrder": "alphabetical"
           }
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 4
+    "currentTab": 1
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "gratitude/explorers.md",
+            "file": "tech/observable-framework-vs-quarto.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "gratitude/explorers.md"
+            "file": "tech/observable-framework-vs-quarto.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "gratitude/explorers.md",
+            "file": "tech/observable-framework-vs-quarto.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,10 +141,21 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "Untitled 3.md",
+    "img/screenshot-observable-quote.jpeg",
+    "img/screenshot-observable-data-loader.jpeg",
+    "tech/package-installer-uv.md",
+    "tech/observable-framework-vs-quarto.md",
+    "img/screenshot-astral-uv.jpeg",
+    "tech/galileo-ai-ui-generator.md",
+    "tech/beam-ai.md",
+    "christianity/2-nephi-4-prophecy-of-another-branch.md",
+    "concepts/truths-lost-in-the-bible.md",
+    "scriptures/jst,-genesis-50.24.md",
+    "scriptures/2-nephi-4.2.md",
+    "goals/2024-02-14.md",
+    "gratitude/explorers.md",
     "img/gemini-1700s-ship-cape-horn.jpeg",
     "book-review/the-wager.md",
-    "gratitude/explorers.md",
     "img/book-the-wager.jpeg",
     "lists/reading-list.md",
     "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
@@ -155,7 +166,6 @@
     "img/screenshot-gemini-cant-make-photos.jpeg",
     "goals/2024-02-12.md",
     "goals/2024-02-13.md",
-    "goals/2024-02-14.md",
     "christianity/2-nephi-3-two-scriptures.md",
     "img/dalle-two-books.jpeg",
     "gratitude/foam-mattresses.md",
@@ -167,16 +177,6 @@
     "tech/timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting.md",
     "posts/team-misfits.md",
     "img/dalle-football-player-in-a-basketball-game.jpeg",
-    "christianity/coalesce-revelation-first-then-agency.md",
-    "img/dalle-plan-a-and-b.jpeg",
-    "scriptures/doctrine-and-covenants-58.28.md",
-    "2-nephi-2-he-carries-our-burdens.md",
-    "christianity/2-nephi-2-enticing-decisions.md",
-    "christianity/2-nephi-4-ask.md",
-    "creative/poem-breath-of-life.md",
-    "img/dalle-baby-on-dad.jpeg",
-    "scriptures/ether-2.23.md",
-    "scriptures/matthew-6.8.md",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",
