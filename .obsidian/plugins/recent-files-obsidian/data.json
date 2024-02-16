@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "spellbook-ai-reviews",
+      "path": "tech/spellbook-ai-reviews.md"
+    },
+    {
+      "basename": "the-oxford-inklings-lewis-tolkien-and-their-circle",
+      "path": "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md"
+    },
+    {
+      "basename": "2-nephi-4-love-and-despair",
+      "path": "christianity/2-nephi-4-love-and-despair.md"
+    },
+    {
+      "basename": "book-club",
+      "path": "gratitude/book-club.md"
+    },
+    {
+      "basename": "2-nephi-2-he-carries-our-burdens",
+      "path": "christianity/2-nephi-2-he-carries-our-burdens.md"
+    },
+    {
+      "basename": "isaiah-53.4",
+      "path": "christianity/isaiah-53.4.md"
+    },
+    {
+      "basename": "isaiah-48.1",
+      "path": "scriptures/isaiah-48.1.md"
+    },
+    {
+      "basename": "2-nephi-2-enticing-decisions",
+      "path": "christianity/2-nephi-2-enticing-decisions.md"
+    },
+    {
+      "basename": "2-nephi-2-redemption",
+      "path": "christianity/2-nephi-2-redemption.md"
+    },
+    {
+      "basename": "2-nephi-2-consecration",
+      "path": "christianity/2-nephi-2-consecration.md"
+    },
+    {
       "basename": "observable-framework-vs-quarto",
       "path": "tech/observable-framework-vs-quarto.md"
     },
@@ -39,10 +79,6 @@
     {
       "basename": "reading-list",
       "path": "lists/reading-list.md"
-    },
-    {
-      "basename": "the-oxford-inklings-lewis-tolkien-and-their-circle",
-      "path": "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md"
     },
     {
       "basename": "trajectory-and-mindset",
@@ -95,14 +131,6 @@
     {
       "basename": "doctrine-and-covenants-58.28",
       "path": "scriptures/doctrine-and-covenants-58.28.md"
-    },
-    {
-      "basename": "2-nephi-2-he-carries-our-burdens",
-      "path": "2-nephi-2-he-carries-our-burdens.md"
-    },
-    {
-      "basename": "2-nephi-2-enticing-decisions",
-      "path": "christianity/2-nephi-2-enticing-decisions.md"
     },
     {
       "basename": "2-nephi-4-ask",
@@ -171,34 +199,6 @@
     {
       "basename": "Pasted image 20240210194755",
       "path": "img/Pasted image 20240210194755.png"
-    },
-    {
-      "basename": "google Vs chatgpt",
-      "path": "img/google Vs chatgpt.png"
-    },
-    {
-      "basename": "2-nephi-2-redemption",
-      "path": "christianity/2-nephi-2-redemption.md"
-    },
-    {
-      "basename": "skimboarding",
-      "path": "gratitude/skimboarding.md"
-    },
-    {
-      "basename": "2-nephi-1-shake-off-the-chains",
-      "path": "christianity/2-nephi-1-shake-off-the-chains.md"
-    },
-    {
-      "basename": "2024-02-08",
-      "path": "goals/2024-02-08.md"
-    },
-    {
-      "basename": "2-nephi-2-consecration",
-      "path": "christianity/2-nephi-2-consecration.md"
-    },
-    {
-      "basename": "2-nephi-32.9",
-      "path": "scriptures/2-nephi-32.9.md"
     }
   ],
   "omittedPaths": [],

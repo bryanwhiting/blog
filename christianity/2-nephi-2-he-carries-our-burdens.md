@@ -21,7 +21,7 @@ The Savior is known to have offered himself as a sacrifice for our sins:
 But that's not all He sacrificed himself for:
 
 > Surely he hath borne our griefs, and carried our sorrows: yet we did esteem him stricken, smitten of God, and afflicted.
-> [Isaiah 53.4](../scriptures/isaiah-53.4)
+> [Isaiah 53.4](../scriptures/isaiah-53.4) 
 
 Did He specify which griefs? Which sorrows?
 

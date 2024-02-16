@@ -1,11 +1,11 @@
 ---
-title: |-
-  Isaiah 53.4
-description: "Selected quotes."
+title: Isaiah 53.4
+description: Selected quotes.
 date: 2024-02-10
 created: 2024-02-10
 updated: 
-categories: favorite scriptures
+categories:
+  - favorite scriptures
 draft: false
 ---
 

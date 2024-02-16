@@ -26,10 +26,10 @@ I came across this site: <https://forbo7.github.io/>. I enjoyed seeing how they 
 
 They use an embedded google form for subscriptions:
 
-![](../screenshot-quarto-demo-forbo7-subscribe.png)
+![](../img/screenshot-quarto-demo-forbo7-subscribe.png)
 
 And they have an[ iframe on a Huggingface](https://forbo7.github.io/web_apps/apps/flood_detector.html) app to show something cool:
 
-![](../quarto-demo-forbo7-huggingface.png)
+![](../img/quarto-demo-forbo7-huggingface.png)
 
 That's all.

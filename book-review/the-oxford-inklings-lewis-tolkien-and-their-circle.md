@@ -16,6 +16,13 @@ book-year: "2014"
 ---
 ![The Oxford inklings](../img/book-the-oxford-inklings.jpeg){.preview-image}
 
+2024-02-15
+
+- Tolkien invented a common language to form the derivative languages. 
+- Myth is a discovery of truth. 
+- Tolkien felt like he was discovering the worlds, rather than creating them. 
+
+
 2024-02-14
 
 - summary: writers influence each other over time. Meeting at pubs weekly to review writing. 
