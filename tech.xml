@@ -10,7 +10,44 @@
 <atom:link href="https://www.bryanwhiting.com/tech.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Thu, 15 Feb 2024 13:39:24 GMT</lastBuildDate>
+<lastBuildDate>Fri, 16 Feb 2024 11:51:02 GMT</lastBuildDate>
+<item>
+  <title>Spellbook AI Reviews</title>
+  <link>https://www.bryanwhiting.com/tech/spellbook-ai-reviews.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><a href="https://www.spellbook.legal/gpt-4-for-lawyers">GPT-4 for Lawyers is now available | Spellbook</a></p>
+<p>The AI world heats up with another legal tech offering.</p>
+<ul>
+<li>Works in word</li>
+<li>Suggests edits automatically to achieve your goals</li>
+</ul>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-spellbook-landing.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Spellbook</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-spellbook-example.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Auto-review</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>legal-ai</category>
+  <category>ai tools</category>
+  <guid>https://www.bryanwhiting.com/tech/spellbook-ai-reviews.html</guid>
+  <pubDate>Fri, 16 Feb 2024 11:51:02 GMT</pubDate>
+</item>
 <item>
   <title>Observable Framework 1.0 vs Quarto</title>
   <link>https://www.bryanwhiting.com/tech/observable-framework-vs-quarto.html</link>
@@ -891,44 +928,6 @@ Song snippet today: [2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds
   <category>ai tools</category>
   <guid>https://www.bryanwhiting.com/tech/lm-studio.html</guid>
   <pubDate>Fri, 02 Feb 2024 09:54:19 GMT</pubDate>
-</item>
-<item>
-  <title>GPT4All</title>
-  <link>https://www.bryanwhiting.com/tech/gpt4all.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="description" class="level1 page-columns page-full">
-<h1>description</h1>
-<p><a href="https://gpt4all.io/index.html">GPT4All</a> train and deploy customized LLMs.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/photo-gpt4all.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Gpt4all screenshot</figcaption>
-</figure>
-</div>
-</section>
-<section id="similar-tools" class="level1">
-<h1>similar tools</h1>
-<p>Seems like a different use case than <a href="../tech/lm-studio.html">LM Studio</a>, but hard to say. <a href="../tech/lm-studio.html">LM Studio</a> is likely focused on people wanting to download and use the open source models, where this is to help you train and fine tune locally.</p>
-<p>Use it to connect with your notes:</p>
-<p><a href="https://medium.com/@vikastiwari708409/how-to-use-gpt4all-llms-with-langchain-to-work-with-pdf-files-f0f0becadcb6">How to Use GPT4All with Langchain to Chat with Your Documents | by Vikas Tiwari | Medium</a></p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/X8QbEENUZIo" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>tech</category>
-  <category>ai tools</category>
-  <category>edge device</category>
-  <category>privacy</category>
-  <category>open source</category>
-  <guid>https://www.bryanwhiting.com/tech/gpt4all.html</guid>
-  <pubDate>Fri, 02 Feb 2024 09:49:48 GMT</pubDate>
 </item>
 </channel>
 </rss>
