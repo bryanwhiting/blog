@@ -10,7 +10,43 @@
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Fri, 16 Feb 2024 11:51:02 GMT</lastBuildDate>
+<lastBuildDate>Fri, 16 Feb 2024 17:32:54 GMT</lastBuildDate>
+<item>
+  <title>Unreal AI: Meet Sora</title>
+  <link>https://www.bryanwhiting.com/tech/unreal-ai.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Years ago Deepmind proved they can solve StarCraft: <a href="https://www.youtube.com/live/cUTMhmVh1qs?si=BXO9WJ-2WV1jgf0f">YouTube</a></p>
+<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="https://www.youtube.com/live/cUTMhmVh1qs?si=BXO9WJ-2WV1jgf0f"></video></div>
+Now OpenAI is probably using reinforcement learning using physics engines. Meet Sora: <a href="https://openai.com/sora">Sora</a>.
+<blockquote class="twitter-tweet blockquote">
+<p lang="en" dir="ltr">
+If you think OpenAI Sora is a creative toy like DALLE, … think again. Sora is a data-driven physics engine. It is a simulation of many worlds, real or fantastical. The simulator learns intricate rendering, "intuitive" physics, long-horizon reasoning, and semantic grounding, all… <a href="https://t.co/pRuiXhUqYR">pic.twitter.com/pRuiXhUqYR</a>
+</p>
+— Jim Fan (<span class="citation" data-cites="DrJimFan">@DrJimFan</span>) <a href="https://twitter.com/DrJimFan/status/1758210245799920123?ref_src=twsrc%5Etfw">February 15, 2024</a>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Think that robots won’t be 100% smarter than us being able to do anything we can think of?</p>
+<p>The video games, movies, simulators, etc of next year are gonna be lit.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-unreal-sora.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Unreal sora</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>ai</category>
+  <guid>https://www.bryanwhiting.com/tech/unreal-ai.html</guid>
+  <pubDate>Fri, 16 Feb 2024 17:32:54 GMT</pubDate>
+</item>
 <item>
   <title>Spellbook AI Reviews</title>
   <link>https://www.bryanwhiting.com/tech/spellbook-ai-reviews.html</link>
@@ -716,39 +752,6 @@ TikTok presents Boximator!<br><br>This method can generate rich and controllable
   <category>ai</category>
   <guid>https://www.bryanwhiting.com/tech/war-tech.html</guid>
   <pubDate>Mon, 12 Feb 2024 11:52:37 GMT</pubDate>
-</item>
-<item>
-  <title>2 Nephi 2 - Enticement is Agency</title>
-  <link>https://www.bryanwhiting.com/christianity/2-nephi-2-enticing-decisions.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="scriptures" class="level1">
-<h1>Scriptures</h1>
-<p>What’s enticing you right now?</p>
-<blockquote class="blockquote">
-<p>Wherefore, the Lord God gave unto man that he should act for himself. Wherefore, man could not act for himself save it should be that he was enticed by the one or the other. <a href="../scriptures/2-nephi-2.16">2 Nephi 2.16</a></p>
-</blockquote>
-<p>Can you make a decision without being presented at least two options?</p>
-<p>If you feel like you made a decision on something, what did you decide and what was the alternative option?</p>
-<p>If you’re torn about a decision, why? What’s on the other side?</p>
-<p><img src="https://www.bryanwhiting.com/img/dalle-enticing-apple.jpeg" class="preview-image img-fluid" alt="Why that apple, of all the apples?"> # Meaning</p>
-<p>Life is full of enticing things. Sometimes, self defeating thoughts can be enticing. We have a bias towards negativity as humans. But thankfully we always have a choice.</p>
-<p>Recognize the behavior. And then find the perhaps less <em>enticing</em> but far more healthy thought pattern.</p>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>christianity</category>
-  <category>decisions</category>
-  <category>mental health</category>
-  <category>come follow me</category>
-  <guid>https://www.bryanwhiting.com/christianity/2-nephi-2-enticing-decisions.html</guid>
-  <pubDate>Sun, 11 Feb 2024 23:01:41 GMT</pubDate>
 </item>
 </channel>
 </rss>

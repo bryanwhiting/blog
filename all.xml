@@ -10,7 +10,43 @@
 <atom:link href="https://www.bryanwhiting.com/all.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Fri, 16 Feb 2024 11:51:02 GMT</lastBuildDate>
+<lastBuildDate>Fri, 16 Feb 2024 17:32:54 GMT</lastBuildDate>
+<item>
+  <title>Unreal AI: Meet Sora</title>
+  <link>https://www.bryanwhiting.com/tech/unreal-ai.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Years ago Deepmind proved they can solve StarCraft: <a href="https://www.youtube.com/live/cUTMhmVh1qs?si=BXO9WJ-2WV1jgf0f">YouTube</a></p>
+<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="https://www.youtube.com/live/cUTMhmVh1qs?si=BXO9WJ-2WV1jgf0f"></video></div>
+Now OpenAI is probably using reinforcement learning using physics engines. Meet Sora: <a href="https://openai.com/sora">Sora</a>.
+<blockquote class="twitter-tweet blockquote">
+<p lang="en" dir="ltr">
+If you think OpenAI Sora is a creative toy like DALLE, … think again. Sora is a data-driven physics engine. It is a simulation of many worlds, real or fantastical. The simulator learns intricate rendering, "intuitive" physics, long-horizon reasoning, and semantic grounding, all… <a href="https://t.co/pRuiXhUqYR">pic.twitter.com/pRuiXhUqYR</a>
+</p>
+— Jim Fan (<span class="citation" data-cites="DrJimFan">@DrJimFan</span>) <a href="https://twitter.com/DrJimFan/status/1758210245799920123?ref_src=twsrc%5Etfw">February 15, 2024</a>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>Think that robots won’t be 100% smarter than us being able to do anything we can think of?</p>
+<p>The video games, movies, simulators, etc of next year are gonna be lit.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-unreal-sora.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Unreal sora</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>ai</category>
+  <guid>https://www.bryanwhiting.com/tech/unreal-ai.html</guid>
+  <pubDate>Fri, 16 Feb 2024 17:32:54 GMT</pubDate>
+</item>
 <item>
   <title>Spellbook AI Reviews</title>
   <link>https://www.bryanwhiting.com/tech/spellbook-ai-reviews.html</link>
@@ -687,34 +723,6 @@ Announcing uv: an extremely fast Python package installer and resolver, written 
   <category>come follow me</category>
   <guid>https://www.bryanwhiting.com/christianity/2-nephi-2-enticing-decisions.html</guid>
   <pubDate>Sun, 11 Feb 2024 23:01:41 GMT</pubDate>
-</item>
-<item>
-  <title>I’m Grateful for Gatherings for the Super Bowl</title>
-  <link>https://www.bryanwhiting.com/gratitude/gatherings-for-the-super-bowl.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>I remember a few fun memories of gathering with friends and family for the Super Bowl while growing up. Often there might be a contest, with random questions like “how long is the opening anthem going to be sung for: longer or shorter than 60s?” Fill out a page of such questions and the person with the most correct answers wins.</p>
-<p>Football is a fun sport. I grew up playing it for nearly 12 years - from 2nd grade through senior year. There’s something about playing a sport for that long that you grow an experiential appreciation for what these guys can do.</p>
-<p>I don’t follow football much, or any sport for that matter. I don’t have the patience for tracking who goes where. But I love playing it and, when the Super Bowl is on, watching it.</p>
-<p>That’s the cool thing - even people who don’t care much for football enjoy watching the game.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-super-bowl.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Da bears</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>gratitude</category>
-  <category>sports</category>
-  <guid>https://www.bryanwhiting.com/gratitude/gatherings-for-the-super-bowl.html</guid>
-  <pubDate>Sun, 11 Feb 2024 21:21:15 GMT</pubDate>
 </item>
 </channel>
 </rss>
