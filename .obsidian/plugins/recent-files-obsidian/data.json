@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "unreal-ai",
+      "path": "tech/unreal-ai.md"
+    },
+    {
       "basename": "spellbook-ai-reviews",
       "path": "tech/spellbook-ai-reviews.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20240210200221",
       "path": "img/Pasted image 20240210200221.png"
-    },
-    {
-      "basename": "Pasted image 20240210194755",
-      "path": "img/Pasted image 20240210194755.png"
     }
   ],
   "omittedPaths": [],

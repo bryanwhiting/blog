@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/spellbook-ai-reviews.md",
+                "file": "tech/unreal-ai.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "tech/spellbook-ai-reviews.md",
+            "file": "tech/unreal-ai.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "tech/spellbook-ai-reviews.md"
+            "file": "tech/unreal-ai.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "tech/spellbook-ai-reviews.md",
+            "file": "tech/unreal-ai.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,11 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/screenshot-unreal-sora.jpeg",
+    "tech/spellbook-ai-reviews.md",
+    "tech/unreal-ai.md",
     "img/screenshot-spellbook-landing.jpeg",
     "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
-    "tech/spellbook-ai-reviews.md",
     "img/screenshot-spellbook-example.jpeg",
     "christianity/2-nephi-4-love-and-despair.md",
     "img/dalle-peace-vs-despair.jpeg",
@@ -173,10 +175,8 @@
     "book-review/the-wager.md",
     "img/book-the-wager.jpeg",
     "lists/reading-list.md",
-    "posts/trajectory-and-mindset.md",
     "img/screenshot-gemini-access.jpeg",
     "img/screenshot-gemini-makes-photos.jpeg",
-    "img/screenshot-gemini-cant-make-photos.jpeg",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",
