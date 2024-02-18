@@ -10,7 +10,250 @@
 <atom:link href="https://www.bryanwhiting.com/all.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Fri, 16 Feb 2024 17:32:54 GMT</lastBuildDate>
+<lastBuildDate>Sun, 18 Feb 2024 09:21:10 GMT</lastBuildDate>
+<item>
+  <title>Air Canada’s failed AI/-generated Refund Policy</title>
+  <link>https://www.bryanwhiting.com/tech/air-canadas-failed-ai-generated-refund-policy.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>In recent news, <a href="https://arstechnica.com/tech-policy/2024/02/air-canada-must-honor-refund-policy-invented-by-airlines-chatbot/">Air Canada must honor refund policy invented by airline’s chatbot | Ars Technica</a>.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-guardrails-on-ai.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">We can’t even contain today’s AI. How will we contain tomorrow’s?</figcaption>
+</figure>
+</div>
+<p>Previously, trollers were able to convince the chatbot to agree to selling them a car for $1. <a href="https://the-decoder.com/people-buy-brand-new-chevrolets-for-1-from-a-chatgpt-chatbot/">People buy brand-new Chevrolets for $1 from a ChatGPT chatbot</a>. It’s possible some of these things may have actually been legally binding if someone wanted to sue for it.</p>
+<p>Be careful - AI is incredibly hard to control. Open tools exist to attempt impose guardrails, but they’re not perfect: <a href="https://arxiv.org/html/2402.01822v1">Building Guardrails for Large Language Models</a>.</p>
+<p>If we can’t contain today’s AI, can we contain tomorrow’s? This isn’t to be an alarmist, but a pragmatist. Machine learning was used in a lot of wrong ways before it was able to be harnessed for good. The same will likely be true for AI.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>ai mishaps</category>
+  <category>ai</category>
+  <category>ai guardrails</category>
+  <guid>https://www.bryanwhiting.com/tech/air-canadas-failed-ai-generated-refund-policy.html</guid>
+  <pubDate>Sun, 18 Feb 2024 09:21:10 GMT</pubDate>
+</item>
+<item>
+  <title>I’m Grateful for brownies</title>
+  <link>https://www.bryanwhiting.com/gratitude/brownies.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I walk downstairs, the kitchen is clean. It’s 7:47 and I know at 8 it’s too late. Now is the time.</p>
+<p>My wife opens the pantry, pulls out the bowls, mixes some ingredients, and I power wash some dishes. “Will you put this in the oven when it’s ready?” I wait for the beep. It beeps. I plop in the tray, it’s 8:01.</p>
+<p>45 minutes later the tray emerges, having fulfilled its purpose. With a clatter on the table, warmth released from the oven and into the kitchen as the pan rested on the stove. Vanilla ice cream emerged from the freezer. Smiles ensued.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-costco-brownies.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">It’s not a brownie if it’s not from Costco</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>gratitude</category>
+  <category>food</category>
+  <guid>https://www.bryanwhiting.com/gratitude/brownies.html</guid>
+  <pubDate>Sat, 17 Feb 2024 22:49:47 GMT</pubDate>
+</item>
+<item>
+  <title>Building a Story Brand</title>
+  <dc:creator>Donald Miller</dc:creator>
+  <link>https://www.bryanwhiting.com/book-review/building-a-story-brand.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>2024-02-17</p>
+<ul>
+<li>customers don’t care about your brand. They’re the hero. Similar to <a href="../book-review/how-to-win-friends-and-influence-people.html">How to Win Friends and Influence People</a> - “you?!? what about <em>me</em> you inconsiderate donkey”</li>
+<li>Clarity. We crave clarity.</li>
+<li>Audience needs to know:
+<ul>
+<li>Who is the hero</li>
+<li>what the hero wants</li>
+<li>who/What the hero has to defeat to get what they want</li>
+<li>What horrible thing will happen if they don’t win, and what wonderful thing will happen if they do win.</li>
+</ul></li>
+<li>Marketing
+<ul>
+<li>What does our customer want?</li>
+<li>What problem we’re helping them solve</li>
+<li>What life will look like after they engage our product and services</li>
+</ul></li>
+<li>If you confuse, you lose. J</li>
+<li>7 points
+<ul>
+<li>A character who wants something</li>
+<li>encounters a problem before they can get it</li>
+<li>At the peak of their despair,</li>
+<li>a guide enters their life and gives them a plan and</li>
+<li>calls them to action</li>
+<li>That action helps them avoid failure and end in success</li>
+</ul></li>
+<li>Survival need
+<ul>
+<li>Create a story gap</li>
+<li>Where will this brand take you</li>
+</ul></li>
+<li>The villain - dastardly
+<ul>
+<li>villain is a root source. Not a feeling. The thing that caused the villain.</li>
+<li>Villain is relatable</li>
+<li>Singular. One villain is enough.</li>
+<li>Villain is real.</li>
+<li>What product does your defeat?</li>
+</ul></li>
+<li>External problem
+<ul>
+<li>The frustrations in their life. What external problem do you solve that resolves a</li>
+<li>Apple: we solve customer frustration and intimidation</li>
+<li>External: we paint your home.</li>
+<li>Internal: I have an ugly home</li>
+</ul></li>
+<li>External, internal, and philosophical problem
+<ul>
+<li>Luke needs to blow up Death Star (external) because he doesn’t feel like he’s good enough (internal) and he needs to defeat the evil empire (philosophical)</li>
+</ul></li>
+<li>Process plan: how they use your product</li>
+<li>Agreement plan.</li>
+<li>Call to action: ask them.
+<ul>
+<li>Buy now.</li>
+<li>Chat with Bryan</li>
+<li>Do you believe in your product? Brands need to offer solutions, not charity.</li>
+</ul></li>
+</ul>
+<p>Silvermine AI:</p>
+<ul>
+<li>Thrive with AI</li>
+<li>“I was confused about AI… until I wasn’t”</li>
+<li>confusion seeks for clarity. Get clarity.</li>
+<li>villain: your competitor getting ahead because you don’t use AI.
+<ul>
+<li>Your wasted time.</li>
+</ul></li>
+<li>External problem: they don’t use AI</li>
+<li>Internal problem: they feel stupid and don’t know how to use it right</li>
+<li>Philosophical: they want to have the best company</li>
+</ul>
+<section id="ai-is-your-headache" class="level4">
+<h4 class="anchored" data-anchor-id="ai-is-your-headache">AI is your headache</h4>
+<p>AI is (or will shortly be) causing problems for you “Hey, do you guys use AI?” No…why would we? → wrong answer. Quickest way to become a fossil.</p>
+<ul>
+<li>How do I use it? Which tool?</li>
+<li>What’s it doing? Risks?</li>
+<li>your customers are asking if you use it, and you don’t have an answer</li>
+</ul>
+<p>until it’s your salve</p>
+</section>
+<section id="leave-your-industry-in-the-dust." class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="leave-your-industry-in-the-dust.">Leave your industry in the dust.</h2>
+<p>Humans helping humans with their AI issues.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/book-building-a-story-brand.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Storybrand</figcaption>
+</figure>
+</div>
+
+
+</section>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book-review</category>
+  <guid>https://www.bryanwhiting.com/book-review/building-a-story-brand.html</guid>
+  <pubDate>Sat, 17 Feb 2024 10:36:35 GMT</pubDate>
+</item>
+<item>
+  <title>2 Nephi 5.14</title>
+  <link>https://www.bryanwhiting.com/christianity/2-nephi-5-emergency-preparedness.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<blockquote class="blockquote">
+<p>And I, Nephi, did take the sword of Laban, and after the manner of it did make many swords, lest by any means the people who were now called Lamanites should come upon us and destroy us; for I knew their hatred towards me and my children and those who were called my people.</p>
+</blockquote>
+<p>See <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/5?id=p14&amp;lang=eng#p14">2 Nephi 5.14</a></p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>favorite scriptures</category>
+  <guid>https://www.bryanwhiting.com/christianity/2-nephi-5-emergency-preparedness.html</guid>
+  <pubDate>Sat, 17 Feb 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>2 Nephi 4 - Heaven and Hell in One</title>
+  <link>https://www.bryanwhiting.com/christianity/2-nephi-4-heaven-and-hell.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="scriptures" class="level1">
+<h1>Scriptures</h1>
+<p>This quote focuses on the dichotomy people feel as they draw closer to Christ. First, they have the desire. Second, they have positive experiences. Third, they doubt their worthiness. Or they wish that all the good things could prevent them from sinning again:</p>
+<blockquote class="blockquote">
+<p>O then, if I have seen so great things, if the Lord in his condescension unto the children of men hath visited men in so much mercy, why should my heart weep and my soul linger in the valley of sorrow, and my flesh waste away, and my strength slacken, because of mine afflictions? 27 And why should I yield to sin, because of my flesh? Yea, why should I give way to temptations, that the evil one have place in my heart to destroy my peace and afflict my soul? Why am I angry because of mine enemy? <a href="../scriptures/2-nephi-4.26-27">2 Nephi 4.26–27</a></p>
+</blockquote>
+<p><img src="https://www.bryanwhiting.com/img/dalle-heaven-and-hell.jpeg" class="preview-image img-fluid" alt="Heaven and Hell"> # Meaning</p>
+<p>The Lord wants us to grow. Sometimes that involves choosing to see the good in an experience.</p>
+
+
+</section>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>christianity</category>
+  <category>come follow me</category>
+  <guid>https://www.bryanwhiting.com/christianity/2-nephi-4-heaven-and-hell.html</guid>
+  <pubDate>Fri, 16 Feb 2024 23:55:23 GMT</pubDate>
+</item>
+<item>
+  <title>I’m Grateful for Board Games</title>
+  <link>https://www.bryanwhiting.com/gratitude/board-games.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Have you ever pulled out a board game when you’re in a rush?</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-board-games.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Can’t be bored playing a board game</figcaption>
+</figure>
+</div>
+<p>No! You pull it out when times are good. When you’ve got time to play. Time to relax. Time to spend with loved ones.</p>
+<p>I have memories playing Monopoly with my siblings, or Settlers with my high school friends, or Ticket to Ride more recently.</p>
+<p>Games bring people together. I’m grateful for the people who make the games, for the people who create a market for them, and for the friends I can play with.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>gratitude</category>
+  <guid>https://www.bryanwhiting.com/gratitude/board-games.html</guid>
+  <pubDate>Fri, 16 Feb 2024 19:38:29 GMT</pubDate>
+</item>
 <item>
   <title>Unreal AI: Meet Sora</title>
   <link>https://www.bryanwhiting.com/tech/unreal-ai.html</link>
@@ -505,224 +748,6 @@ Announcing uv: an extremely fast Python package installer and resolver, written 
   <category>ml-tools</category>
   <guid>https://www.bryanwhiting.com/tech/timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting.html</guid>
   <pubDate>Tue, 13 Feb 2024 17:10:43 GMT</pubDate>
-</item>
-<item>
-  <title>Team Misfits</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/team-misfits.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>I once played a game of pickup basketball with my football captain. He was a linebacker. All state. And got drafted to play in college. He was an incredible athlete.</p>
-<p>But he moved like a clunky robot while playing basketball and couldn’t make a layup for his life.</p>
-<p>Sometimes that’s how we are. As leaders, we should aim to help find where the misfits thrive.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-football-player-in-a-basketball-game.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Out of place</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>posts</category>
-  <category>life lessons</category>
-  <category>leadership</category>
-  <guid>https://www.bryanwhiting.com/posts/team-misfits.html</guid>
-  <pubDate>Tue, 13 Feb 2024 10:06:35 GMT</pubDate>
-</item>
-<item>
-  <title>Coalesce - Revelation first, then Agency</title>
-  <link>https://www.bryanwhiting.com/christianity/coalesce-revelation-first-then-agency.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Some believe in pre-destiny. That their life is predetermined.</p>
-<p>Some believe there is no God and they have to do the best they can with what they’ve got, because that’s all they’ve got.</p>
-<p>The truth lies somewhere in between. There <em>is</em> a God, <em>and</em> He wants us to be agents (<a href="../scriptures/doctrine-and-covenants-58.28.html">Doctrine and Covenants 58.28</a>).</p>
-<p><img src="https://www.bryanwhiting.com/img/dalle-plan-a-and-b.jpeg" class="preview-image img-fluid" alt="Life is filled with choices and many actions to perform"> In data science, there’s a concept called “coalesce”. In English it means to come together and make one whole. In software, it means to fill in missing data with a default value.</p>
-<p>Forgive the nerd talk, but bear with me here: So if you have an empty spreadsheet, and you do the operation <code>coalesce(spreadsheet, 5)</code> it would return the spreadsheet’s value if you had data in the spreadsheet but the number 5 if you had a missing cell. So if you have 10 rows of data in Excel but 3 missing rows, the output would be the 7 original values with 3 cells now with 5 in them. It’s a way of handling missing data, because missing data creates problems.</p>
-<p>What is the missing data in our personal lives? It’s “what do we do?” What do we do today? Tomorrow? Next year? What do we do today and tomorrow to prepare for the thing we may want to do next year?</p>
-<p>I’ve realized the healthy way to have a relationship with personal revelation is to operate under the constraints of a coalesce. To be whole and one with the Lord, our goal should be to coalesce.</p>
-<p>Some rely too much on the spirit. Hoping God will make a choice for us. But he gave us agency. He lost 1/3 of his children because he didn’t want to give up agency. And, by that right, he’s willing to lose you and me too if we’re not willing to exercise our agency. We just choose. This is life. And we must choose Him.</p>
-<p>In many things, there is a commandment we can rely on. Don’t kill. Don’t steal. Be honest. Pay tithing.</p>
-<p>That’s the priority.</p>
-<p>Then there’s the gray area stuff: love our neighbor.</p>
-<p>That’s the agency.</p>
-<p>Then there’s the really gray area: have joy. Among this is “provide for a family” and “raise them the best way you can”.</p>
-<p>So, use a coalesce. Your default value is what <em>you</em> want to do. That’s what you fill in.</p>
-<p>Our life should be <code>coalesce(personal revelation, our agency)</code>.</p>
-<p>Where there’s a commandment or personal revelation from the Lord, do it. Don’t wait. Do it. Follow the prompting. Otherwise, if you have no prompting or commandment to follow, make a choice! Learn. Experience. Enjoy.</p>
-<p>I believe the Lord will support us when we follow a pattern of putting Him first, and then defaulting to doing many good things of our own free will and choice when He hasn’t given us instruction.</p>
-<p>That doesn’t mean he doesn’t care what we do. He cares deeply. It’s just more like <a href="../scriptures/ether-2.23.html">Ether 2.23</a> where he wants us to come up with some good ideas.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>christianity</category>
-  <category>decisions</category>
-  <category>revelation</category>
-  <guid>https://www.bryanwhiting.com/christianity/coalesce-revelation-first-then-agency.html</guid>
-  <pubDate>Tue, 13 Feb 2024 09:47:06 GMT</pubDate>
-</item>
-<item>
-  <title>2 Nephi 4 Ask</title>
-  <link>https://www.bryanwhiting.com/christianity/2-nephi-4-ask.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="scriptures" class="level1 page-columns page-full">
-<h1>Scriptures</h1>
-<p>Do you believe in what Nephi came to know?</p>
-<blockquote class="blockquote">
-<p>Yea, I know that God will give liberally to him that asketh. Yea, my God will give me, if I ask not amiss; therefore I will lift up my voice unto thee; yea, I will cry unto thee, my God, the rock of my righteousness. Behold, my voice shall forever ascend up unto thee, my rock and mine everlasting God. Amen. <a href="../scriptures/2-nephi-4.35">2 Nephi 4.35</a></p>
-</blockquote>
-<p>What are the limitations we can put on the Lord? Here are a few that get me:</p>
-<ul>
-<li>The Lord wants me to struggle on this one</li>
-<li>I don’t want to ask too much</li>
-<li>This isn’t that big of a deal. I should pray about more important things instead.</li>
-</ul>
-<p>All three of these are easily contradicted by scriptures. He <em>does</em> want us to struggle but struggle <em>with</em> him and overcome (<a href="../scriptures/1-corinthians-10.13">1 Corinthians 10.13</a>). The Lord wants us to ask for all the blessings He’s capable of giving us (<a href="../scriptures/malachi-3.10">Malachi 3.10</a>), and pour out endless blessings.<sup>1</sup> And lastly, the Lord works by small and simple means (<a href="../scriptures/alma-37.7.html">Alma 37.7</a>).</p>
-<p>Perhaps instead those three things should be exactly what we pray for:</p>
-<ul>
-<li>What can we struggle on together? (<a href="../scriptures/matthew-11.28-30.html">Matthew 11.28–30</a>)</li>
-<li>What’s the gift that thou art willing to bless me with? (<a href="../scriptures/matthew-6.8.html">Matthew 6.8</a> )</li>
-<li>What’s the smallest piece of help I could possibly ask for? (<a href="../scriptures/ether-2.23">Ether 2.23</a>)</li>
-</ul>
-<p>The phrase “ask not amiss” isn’t some indication that a secret code needs to be enacted. That to unlock the heavens, the prayer needs to be offered in the right way at the right time by the right person.</p>
-<p>How can you ask amiss? The scriptures teach us. If we’re selfish, seek our own, are puffed up, are easily provoked, want revenge, are greedy, etc. then we’re asking amiss.</p>
-<p>But if we’re trying to do our best to be good people and dealing with the challenging responsibilities of being a father, son, brother, uncle, cousin, friend, neighbor, coworker, manager, etc. then we’re just dealing with life.</p>
-<p>What is life without these titles? Who doesn’t work? Who doesn’t have someone to care for?</p>
-<p>It’s precisely <em>these</em> things that are worthy of our prayers and divine supplication.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-praying-in-a-jungle-2000-years-ago.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Pray</figcaption>
-</figure>
-</div>
-</section>
-<section id="meaning" class="level1">
-<h1>Meaning</h1>
-<p><a href="../christianity/the-power-of-habitual-prayer.html">The Power of Habitual Prayer</a> is a theme I’ve tried this year. I’ve grown deeply in finding healing by making sure I can have a private place to pray.</p>
-<p>I’ve also seen how prayers have been answered in ways I didn’t expect. That something comes unexpectedly and it turns out to be really good. But it wasn’t in the plans.</p>
-<p>This is kind of like a personal manna. God delivers. Not expected. But welcomed.</p>
-
-
-</section>
-<aside id="footnotes" class="footnotes footnotes-end-of-document">
-<hr>
-<ol>
-<li id="fn1"><p>Is eternal life not the greatest gift we could ask for? If we’re willing to ask for that, then why not for help in our temporal life circumstances?↩︎</p></li>
-</ol>
-</aside>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>christianity</category>
-  <category>come follow me</category>
-  <guid>https://www.bryanwhiting.com/christianity/2-nephi-4-ask.html</guid>
-  <pubDate>Mon, 12 Feb 2024 23:06:15 GMT</pubDate>
-</item>
-<item>
-  <title>I’m Grateful for Chicken Sliders</title>
-  <link>https://www.bryanwhiting.com/gratitude/chicken-sliders.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>I sit down for lunch with a friend. The seat is leather. The booth is warm. The table is glossy with that restaurant-style gloss. And the paper in front of me invites me into a world of tasteful possibilities. The most appealing one is that of the chicken biscuit slider.</p>
-<p>Moments later a plate of sliders appears next to a side of truffle fries. The aioli sauce invites a potato’s partnership. The crispy crunch of the fried chicken echos within the cavern of my bite. Eyes close. Satisfaction is earned.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/screenshot-crispy-chicken-sliders.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Crispy chicken sliders</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>gratitude</category>
-  <category>food</category>
-  <guid>https://www.bryanwhiting.com/gratitude/chicken-sliders.html</guid>
-  <pubDate>Mon, 12 Feb 2024 20:07:46 GMT</pubDate>
-</item>
-<item>
-  <title>War Tech</title>
-  <link>https://www.bryanwhiting.com/tech/war-tech.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p><a href="https://time.com/6691662/ai-ukraine-war-palantir/">Tech Companies Turned Ukraine Into an AI War Lab | TIME</a> details the fight in Ukraine and how Palantir specifically has used it as a testing ground for its digital surveillance and weaponry .</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/screenshot-time-ukraine-war.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Time vs tech</figcaption>
-</figure>
-</div>
-<p>Obviously war profits defense contractors. This isn’t anything new.</p>
-<p>And putting aside beliefs about the war itself, I see the angle here as somewhat inauthentic. It assumes tech is somehow awful.</p>
-<p>Arms dealers will always be in the race for selling more arms, whether in peace or in war. But providing services at a discounted rate to defend an invaded ally seems reasonable.</p>
-<p>My point: I wish we had more positive tech news. Tech is how we won WWII and almost how we lost it. That same awful WWII tech is how we now power homes with cleaner energy across the world. Some argue it’s how we’ve avoided a WWIII so far because it’s a nuclear war is an unwinnable war.</p>
-<p>Tech cannot control the hearts of the men and women who wield it. It can only enable them. May we all strive for wars of words and code not wars of people or weapons, and I actually think tech helps enable that. And hopefully, we can use tech to facilitate misunderstandings and bring people to better diplomacy, ending the need for war. But that’s up to the leaders. Desires for war rage within hearts long before those desires rage within bullets.</p>
-<p>As for the main stream media, I’d hope for more nuanced discussions around the uses of tech. Perhaps that’s what it’s alluding to - that war mongers are being fueled by this war.</p>
-<p>But then let’s get more diplomatic leaders into office that can manage peace talks. It’s a people problem. Our government shouldn’t be run by the war machine, but by the people. And tech will always enable the people to do what they do best: be human.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>tech</category>
-  <category>ai</category>
-  <guid>https://www.bryanwhiting.com/tech/war-tech.html</guid>
-  <pubDate>Mon, 12 Feb 2024 11:52:37 GMT</pubDate>
-</item>
-<item>
-  <title>2 Nephi 2 - Enticement is Agency</title>
-  <link>https://www.bryanwhiting.com/christianity/2-nephi-2-enticing-decisions.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="scriptures" class="level1">
-<h1>Scriptures</h1>
-<p>What’s enticing you right now?</p>
-<blockquote class="blockquote">
-<p>Wherefore, the Lord God gave unto man that he should act for himself. Wherefore, man could not act for himself save it should be that he was enticed by the one or the other. <a href="../scriptures/2-nephi-2.16">2 Nephi 2.16</a></p>
-</blockquote>
-<p>Can you make a decision without being presented at least two options?</p>
-<p>If you feel like you made a decision on something, what did you decide and what was the alternative option?</p>
-<p>If you’re torn about a decision, why? What’s on the other side?</p>
-<p><img src="https://www.bryanwhiting.com/img/dalle-enticing-apple.jpeg" class="preview-image img-fluid" alt="Why that apple, of all the apples?"> # Meaning</p>
-<p>Life is full of enticing things. Sometimes, self defeating thoughts can be enticing. We have a bias towards negativity as humans. But thankfully we always have a choice.</p>
-<p>Recognize the behavior. And then find the perhaps less <em>enticing</em> but far more healthy thought pattern.</p>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>christianity</category>
-  <category>decisions</category>
-  <category>mental health</category>
-  <category>come follow me</category>
-  <guid>https://www.bryanwhiting.com/christianity/2-nephi-2-enticing-decisions.html</guid>
-  <pubDate>Sun, 11 Feb 2024 23:01:41 GMT</pubDate>
 </item>
 </channel>
 </rss>
