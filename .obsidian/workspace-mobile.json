@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/unreal-ai.md",
+                "file": "tech/air-canadas-failed-ai-generated-refund-policy.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Galileo",
+            "query": "reason",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": true,
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "tech/unreal-ai.md",
+            "file": "tech/air-canadas-failed-ai-generated-refund-policy.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "tech/unreal-ai.md"
+            "file": "tech/air-canadas-failed-ai-generated-refund-policy.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "tech/unreal-ai.md",
+            "file": "tech/air-canadas-failed-ai-generated-refund-policy.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,24 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-guardrails-on-ai.jpeg",
+    "Untitled.md",
+    "tech/air-canadas-failed-ai-generated-refund-policy.md",
+    "gratitude/brownies.md",
+    "christianity/2-nephi-5-emergency-preparedness.md",
+    "img/dalle-costco-brownies.jpeg",
+    "book-review/building-a-story-brand.md",
+    "news/2024-02-17-news-notes.md",
+    "img/book-building-a-story-brand.jpeg",
+    "book-review/influence-the-psychology-of-persuasion.md",
+    "christianity/2-nephi-4-heaven-and-hell.md",
+    "img/dalle-heaven-and-hell.jpeg",
+    "scriptures/2-nephi-4.26-27.md",
+    "gratitude/board-games.md",
+    "img/dalle-board-games.jpeg",
+    "tech/unreal-ai.md",
     "img/screenshot-unreal-sora.jpeg",
     "tech/spellbook-ai-reviews.md",
-    "tech/unreal-ai.md",
     "img/screenshot-spellbook-landing.jpeg",
     "book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md",
     "img/screenshot-spellbook-example.jpeg",
@@ -151,7 +166,6 @@
     "img/dalle-peace-vs-despair.jpeg",
     "gratitude/book-club.md",
     "Untitled 2.md",
-    "Untitled 1.md",
     "christianity/2-nephi-2-he-carries-our-burdens.md",
     "christianity/isaiah-53.4.md",
     "scriptures/isaiah-48.1.md",
@@ -162,21 +176,7 @@
     "img/screenshot-observable-quote.jpeg",
     "img/screenshot-observable-data-loader.jpeg",
     "tech/package-installer-uv.md",
-    "img/screenshot-astral-uv.jpeg",
     "tech/galileo-ai-ui-generator.md",
-    "tech/beam-ai.md",
-    "christianity/2-nephi-4-prophecy-of-another-branch.md",
-    "concepts/truths-lost-in-the-bible.md",
-    "scriptures/jst,-genesis-50.24.md",
-    "scriptures/2-nephi-4.2.md",
-    "goals/2024-02-14.md",
-    "gratitude/explorers.md",
-    "img/gemini-1700s-ship-cape-horn.jpeg",
-    "book-review/the-wager.md",
-    "img/book-the-wager.jpeg",
-    "lists/reading-list.md",
-    "img/screenshot-gemini-access.jpeg",
-    "img/screenshot-gemini-makes-photos.jpeg",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",
