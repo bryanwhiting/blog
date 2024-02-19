@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/air-canadas-failed-ai-generated-refund-policy.md",
+                "file": "book-review/building-a-story-brand.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "tech/air-canadas-failed-ai-generated-refund-policy.md",
+            "file": "book-review/building-a-story-brand.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "tech/air-canadas-failed-ai-generated-refund-policy.md"
+            "file": "book-review/building-a-story-brand.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "tech/air-canadas-failed-ai-generated-refund-policy.md",
+            "file": "book-review/building-a-story-brand.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,19 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "sacrament-symbols/ye-are-my-hands.md",
+    "sacrament-symbols/pour-you-out-a-blessing.md",
+    "scriptures/luke-15.5-7.md",
+    "scriptures/john-15.10-11.md",
+    "scriptures/mosiah-18.13.md",
+    "scriptures/mosiah-18.12.md",
+    "scriptures/mosiah-18.10.md",
+    "scriptures/doctrine-and-covenants-110.9-10.md",
+    "scriptures/isaiah-44.3.md",
+    "scriptures/malachi-3.10-11.md",
+    "tech/air-canadas-failed-ai-generated-refund-policy.md",
     "img/dalle-guardrails-on-ai.jpeg",
     "Untitled.md",
-    "tech/air-canadas-failed-ai-generated-refund-policy.md",
     "gratitude/brownies.md",
     "christianity/2-nephi-5-emergency-preparedness.md",
     "img/dalle-costco-brownies.jpeg",
@@ -166,17 +176,7 @@
     "img/dalle-peace-vs-despair.jpeg",
     "gratitude/book-club.md",
     "Untitled 2.md",
-    "christianity/2-nephi-2-he-carries-our-burdens.md",
-    "christianity/isaiah-53.4.md",
-    "scriptures/isaiah-48.1.md",
-    "christianity/2-nephi-2-enticing-decisions.md",
-    "christianity/2-nephi-2-redemption.md",
-    "christianity/2-nephi-2-consecration.md",
-    "tech/observable-framework-vs-quarto.md",
     "img/screenshot-observable-quote.jpeg",
-    "img/screenshot-observable-data-loader.jpeg",
-    "tech/package-installer-uv.md",
-    "tech/galileo-ai-ui-generator.md",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",

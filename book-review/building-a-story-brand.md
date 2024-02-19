@@ -14,6 +14,22 @@ date-start: 2024-02-17 10:36:35
 date-finished: 2030-01-01
 pct-complete:
 ---
+
+2024-02-18
+
+- what's at stake
+	- Loss aversion. 
+	- Create vulnerability
+	- Specific call to action to resolve the risk.
+- Transitional call to action: give something away for free. → establish yourself as a leader. Reciprocity. Give more away for free. They'll want to buy your workshop. [Influence The Psychology of Persuasion](influence-the-psychology-of-persuasion.md)
+- Three story endings
+	- Win power or possession
+	- Be unified with someone or something that makes them whole
+	- experience Some self realization that makes them whole
+- give them an **aspirational identity** and help them step into it. Identity transformation. 
+	- The guide helps them identify their transformation. Help them set themselves apart. 
+	- Identity transformation: from X to Y. 
+
 2024-02-17
 
 - customers don't care about your brand. They're the hero. Similar to [How to Win Friends and Influence People](how-to-win-friends-and-influence-people.md) - "you?!? what about *me* you inconsiderate donkey"
@@ -69,6 +85,7 @@ Silvermine AI:
 - External problem: they don't use AI
 - Internal problem: they feel stupid and don't know how to use it right
 - Philosophical: they want to have the best company
+- Transformation: hapless → empowered with AI 
 
 
 #### AI is your headache

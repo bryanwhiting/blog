@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "building-a-story-brand",
+      "path": "book-review/building-a-story-brand.md"
+    },
+    {
+      "basename": "ye-are-my-hands",
+      "path": "sacrament-symbols/ye-are-my-hands.md"
+    },
+    {
+      "basename": "pour-you-out-a-blessing",
+      "path": "sacrament-symbols/pour-you-out-a-blessing.md"
+    },
+    {
       "basename": "air-canadas-failed-ai-generated-refund-policy",
       "path": "tech/air-canadas-failed-ai-generated-refund-policy.md"
     },
@@ -11,10 +23,6 @@
     {
       "basename": "brownies",
       "path": "gratitude/brownies.md"
-    },
-    {
-      "basename": "building-a-story-brand",
-      "path": "book-review/building-a-story-brand.md"
     },
     {
       "basename": "2024-02-17-news-notes",
@@ -191,14 +199,6 @@
     {
       "basename": "ai",
       "path": "lists/ai.md"
-    },
-    {
-      "basename": "gatherings-for-the-super-bowl",
-      "path": "gratitude/gatherings-for-the-super-bowl.md"
-    },
-    {
-      "basename": "gathered-as-one",
-      "path": "sacrament-symbols/gathered-as-one.md"
     }
   ],
   "omittedPaths": [],
