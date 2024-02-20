@@ -10,6 +10,7 @@ let folder = await tp.system.suggester(folders, folders);
 // Get current date  
 let date = tp.date.now("YYYY-MM-DD HH:mm:ss");
 let ymd = tp.date.now();
+const yday = moment().add(-1, 'days')
 
 // Ask for a title  
 let slug
@@ -60,7 +61,7 @@ author: x
 book-year: 2029
 book-time: 0
 date-start: "${date}"
-date-finished: 2030-01-01
+date-finished: "${yday}"
 pct-complete:`;
 } 
 

@@ -1,8 +1,84 @@
 {
   "recentFiles": [
     {
+      "basename": "2-nephi-6-wait-on-the-lord",
+      "path": "christianity/2-nephi-6-wait-on-the-lord.md"
+    },
+    {
+      "basename": "green-hills",
+      "path": "gratitude/green-hills.md"
+    },
+    {
+      "basename": "2024-02-19",
+      "path": "goals/2024-02-19.md"
+    },
+    {
+      "basename": "new-post",
+      "path": "_templates/new-post.md"
+    },
+    {
+      "basename": "day",
+      "path": "_templates/day.md"
+    },
+    {
       "basename": "building-a-story-brand",
       "path": "book-review/building-a-story-brand.md"
+    },
+    {
+      "basename": "overcoming-the-five-dysfunctions-of-a-team",
+      "path": "book-review/overcoming-the-five-dysfunctions-of-a-team.md"
+    },
+    {
+      "basename": "daring-greatly",
+      "path": "book-review/daring-greatly.md"
+    },
+    {
+      "basename": "dare-to-lead",
+      "path": "book-review/dare-to-lead.md"
+    },
+    {
+      "basename": "2-nephi-5-sometimes-theres-war",
+      "path": "christianity/2-nephi-5-sometimes-theres-war.md"
+    },
+    {
+      "basename": "2-nephi-5-emergency-preparedness",
+      "path": "2-nephi-5-emergency-preparedness.md"
+    },
+    {
+      "basename": "2024-02-14",
+      "path": "goals/2024-02-14.md"
+    },
+    {
+      "basename": "2024-02-15",
+      "path": "goals/2024-02-15.md"
+    },
+    {
+      "basename": "2024-02-16",
+      "path": "goals/2024-02-16.md"
+    },
+    {
+      "basename": "2024-02-17",
+      "path": "goals/2024-02-17.md"
+    },
+    {
+      "basename": "2024-02-18",
+      "path": "goals/2024-02-18.md"
+    },
+    {
+      "basename": "the-coach",
+      "path": "gratitude/the-coach.md"
+    },
+    {
+      "basename": "ai",
+      "path": "lists/ai.md"
+    },
+    {
+      "basename": "good-ai-news-aggregators",
+      "path": "lists/good-ai-news-aggregators.md"
+    },
+    {
+      "basename": "2024-02-18-news-notes",
+      "path": "news/2024-02-18-news-notes.md"
     },
     {
       "basename": "ye-are-my-hands",
@@ -15,10 +91,6 @@
     {
       "basename": "air-canadas-failed-ai-generated-refund-policy",
       "path": "tech/air-canadas-failed-ai-generated-refund-policy.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "Untitled.md"
     },
     {
       "basename": "brownies",
@@ -109,10 +181,6 @@
       "path": "concepts/truths-lost-in-the-bible.md"
     },
     {
-      "basename": "2024-02-14",
-      "path": "goals/2024-02-14.md"
-    },
-    {
       "basename": "explorers",
       "path": "gratitude/explorers.md"
     },
@@ -131,74 +199,6 @@
     {
       "basename": "2024-02-14-news-notes",
       "path": "news/2024-02-14-news-notes.md"
-    },
-    {
-      "basename": "2024-02-12",
-      "path": "goals/2024-02-12.md"
-    },
-    {
-      "basename": "2024-02-13",
-      "path": "goals/2024-02-13.md"
-    },
-    {
-      "basename": "2-nephi-3-two-scriptures",
-      "path": "christianity/2-nephi-3-two-scriptures.md"
-    },
-    {
-      "basename": "foam-mattresses",
-      "path": "gratitude/foam-mattresses.md"
-    },
-    {
-      "basename": "ab-testing-resources",
-      "path": "tech/ab-testing-resources.md"
-    },
-    {
-      "basename": "a-10-week-self-guided-data-science-intro-course",
-      "path": "posts/a-10-week-self-guided-data-science-intro-course.md"
-    },
-    {
-      "basename": "timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting",
-      "path": "tech/timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting.md"
-    },
-    {
-      "basename": "team-misfits",
-      "path": "posts/team-misfits.md"
-    },
-    {
-      "basename": "coalesce-revelation-first-then-agency",
-      "path": "christianity/coalesce-revelation-first-then-agency.md"
-    },
-    {
-      "basename": "doctrine-and-covenants-58.28",
-      "path": "scriptures/doctrine-and-covenants-58.28.md"
-    },
-    {
-      "basename": "2-nephi-4-ask",
-      "path": "christianity/2-nephi-4-ask.md"
-    },
-    {
-      "basename": "poem-breath-of-life",
-      "path": "creative/poem-breath-of-life.md"
-    },
-    {
-      "basename": "matthew-6.8",
-      "path": "scriptures/matthew-6.8.md"
-    },
-    {
-      "basename": "alma-37.7",
-      "path": "scriptures/alma-37.7.md"
-    },
-    {
-      "basename": "chicken-sliders",
-      "path": "gratitude/chicken-sliders.md"
-    },
-    {
-      "basename": "war-tech",
-      "path": "tech/war-tech.md"
-    },
-    {
-      "basename": "ai",
-      "path": "lists/ai.md"
     }
   ],
   "omittedPaths": [],

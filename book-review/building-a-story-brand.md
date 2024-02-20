@@ -1,19 +1,31 @@
 ---
 title: Building a Story Brand
-description: |
-  x
+description: Eye opening, simple, to the point on marketing.
 date: 2024-02-17 10:36:35
 created: 2024-02-17 10:36:35
 categories:
   - book-review
+  - business
+  - marketing
+  - sales
+  - storytelling
 draft: false
 author: Donald Miller
 book-year: 2017
 book-time: 5
 date-start: 2024-02-17 10:36:35
-date-finished: 2030-01-01
-pct-complete:
+date-finished: 2024-02-19
+pct-complete: 100
 ---
+Reminds me of [Atomic Habits](atomic-habits.md) in its clarity and power.
+
+2024-02-19
+
+One-liner:
+
+- character. Problem. The plan. The solution 
+	- We help small business leaders navigate the uncertainties in today's economy by delivering and implementing customized AI strategies that modernize their business. 
+
 
 2024-02-18
 
@@ -29,6 +41,15 @@ pct-complete:
 - give them an **aspirational identity** and help them step into it. Identity transformation. 
 	- The guide helps them identify their transformation. Help them set themselves apart. 
 	- Identity transformation: from X to Y. 
+- The only point of the site is to convert. 
+- In machine learning, who is the hero? Is it the model? Who is the guide? Me? My boss is the hero. The model is the guide?
+	- I think the model is the hero. I'm the guide to help it achieve its potential. Aspirational identity. 
+- 5 marketing
+	- Create a one line
+	- Create a lead generator. Collect emails. Free pdf. Big. Video series. 
+	- automated email drip campaign
+	- Collect and tell stories about transformation 
+	- Create a system to generate referrals
 
 2024-02-17
 
