@@ -2,6 +2,11 @@
   {
     "listing": "/goals.html",
     "items": [
+      "/goals/2024-02-19.html",
+      "/goals/2024-02-18.html",
+      "/goals/2024-02-17.html",
+      "/goals/2024-02-16.html",
+      "/goals/2024-02-15.html",
       "/goals/2024-02-14.html",
       "/goals/2024-02-13.html",
       "/goals/2024-02-12.html",
@@ -45,6 +50,8 @@
   {
     "listing": "/books.html",
     "items": [
+      "/book-review/daring-greatly.html",
+      "/book-review/overcoming-the-five-dysfunctions-of-a-team.html",
       "/book-review/building-a-story-brand.html",
       "/book-review/the-wager.html",
       "/book-review/shift.html",
@@ -149,6 +156,7 @@
   {
     "listing": "/tech.html",
     "items": [
+      "/news/2024-02-18-news-notes.html",
       "/tech/air-canadas-failed-ai-generated-refund-policy.html",
       "/news/2024-02-17-news-notes.html",
       "/tech/unreal-ai.html",
@@ -209,6 +217,13 @@
   {
     "listing": "/all.html",
     "items": [
+      "/christianity/2-nephi-6-wait-on-the-lord.html",
+      "/gratitude/green-hills.html",
+      "/book-review/daring-greatly.html",
+      "/book-review/overcoming-the-five-dysfunctions-of-a-team.html",
+      "/christianity/2-nephi-5-sometimes-theres-war.html",
+      "/gratitude/the-coach.html",
+      "/lists/good-ai-news-aggregators.html",
       "/tech/air-canadas-failed-ai-generated-refund-policy.html",
       "/gratitude/brownies.html",
       "/book-review/building-a-story-brand.html",
@@ -547,6 +562,8 @@
   {
     "listing": "/gratitude.html",
     "items": [
+      "/gratitude/green-hills.html",
+      "/gratitude/the-coach.html",
       "/gratitude/brownies.html",
       "/gratitude/board-games.html",
       "/gratitude/book-club.html",
@@ -608,6 +625,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/news/2024-02-18-news-notes.html",
       "/tech/air-canadas-failed-ai-generated-refund-policy.html",
       "/news/2024-02-17-news-notes.html",
       "/tech/unreal-ai.html",
@@ -722,6 +740,8 @@
       "/posts/2017-10-18-used-cars-scrape/used-cars-scrape.html",
       "/posts/2017-02-10-ggplot-plotly/ggplot-plotly.html",
       "/posts/2016-11-07-starting-with-jekyll/starting-with-jekyll.html",
+      "/gratitude/green-hills.html",
+      "/gratitude/the-coach.html",
       "/gratitude/brownies.html",
       "/gratitude/board-games.html",
       "/gratitude/book-club.html",
@@ -778,6 +798,8 @@
       "/gratitude/2023-12-26-i'm-grateful-for-blankets/index.html",
       "/gratitude/2023-12-25-grateful-for-doctors/index.html",
       "/gratitude/2023-12-24-light/index.html",
+      "/christianity/2-nephi-6-wait-on-the-lord.html",
+      "/christianity/2-nephi-5-sometimes-theres-war.html",
       "/christianity/2-nephi-5-emergency-preparedness.html",
       "/christianity/2-nephi-4-heaven-and-hell.html",
       "/christianity/2-nephi-4-love-and-despair.html",
@@ -842,6 +864,8 @@
       "/christianity/the-christ-child.html",
       "/christianity/christmas-celebrates-a-living-christ.html",
       "/christianity/three-little-pigs-christ.html",
+      "/book-review/daring-greatly.html",
+      "/book-review/overcoming-the-five-dysfunctions-of-a-team.html",
       "/book-review/building-a-story-brand.html",
       "/book-review/the-wager.html",
       "/book-review/shift.html",
@@ -946,6 +970,8 @@
   {
     "listing": "/christianity.html",
     "items": [
+      "/christianity/2-nephi-6-wait-on-the-lord.html",
+      "/christianity/2-nephi-5-sometimes-theres-war.html",
       "/sacrament-symbols/ye-are-my-hands.html",
       "/sacrament-symbols/pour-you-out-a-blessing.html",
       "/christianity/2-nephi-5-emergency-preparedness.html",
@@ -1124,6 +1150,7 @@
     "listing": "/lists.html",
     "items": [
       "/lists/ai.html",
+      "/lists/good-ai-news-aggregators.html",
       "/lists/legal-ai.html",
       "/lists/scripture-study-list.html",
       "/lists/news.html",
@@ -1136,9 +1163,22 @@
   {
     "listing": "/sitemap.html",
     "items": [
+      "/christianity/2-nephi-6-wait-on-the-lord.html",
+      "/gratitude/green-hills.html",
+      "/book-review/daring-greatly.html",
+      "/book-review/overcoming-the-five-dysfunctions-of-a-team.html",
+      "/goals/2024-02-19.html",
+      "/scriptures/2-nephi-6.17.html",
+      "/scriptures/2-nephi-6.7.html",
+      "/christianity/2-nephi-5-sometimes-theres-war.html",
+      "/gratitude/the-coach.html",
+      "/news/2024-02-18-news-notes.html",
+      "/lists/good-ai-news-aggregators.html",
       "/sacrament-symbols/ye-are-my-hands.html",
       "/sacrament-symbols/pour-you-out-a-blessing.html",
       "/tech/air-canadas-failed-ai-generated-refund-policy.html",
+      "/goals/2024-02-18.html",
+      "/scriptures/2-nephi-5.34.html",
       "/scriptures/doctrine-and-covenants-110.9-10.html",
       "/scriptures/isaiah-44.3.html",
       "/scriptures/john-15.10-11.html",
@@ -1151,15 +1191,18 @@
       "/book-review/building-a-story-brand.html",
       "/news/2024-02-17-news-notes.html",
       "/christianity/2-nephi-5-emergency-preparedness.html",
+      "/goals/2024-02-17.html",
       "/scriptures/2-nephi-4.26-27.html",
       "/christianity/2-nephi-4-heaven-and-hell.html",
       "/gratitude/board-games.html",
       "/tech/unreal-ai.html",
       "/tech/spellbook-ai-reviews.html",
+      "/goals/2024-02-16.html",
       "/christianity/2-nephi-4-love-and-despair.html",
       "/gratitude/book-club.html",
       "/tech/observable-framework-vs-quarto.html",
       "/tech/package-installer-uv.html",
+      "/goals/2024-02-15.html",
       "/concepts/truths-lost-in-the-bible.html",
       "/christianity/2-nephi-4-prophecy-of-another-branch.html",
       "/gratitude/explorers.html",
