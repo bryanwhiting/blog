@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "spellbook-ai-reviews-redlining",
+      "path": "tech/spellbook-ai-reviews-redlining.md"
+    },
+    {
+      "basename": "5-questions-you-should-ask-before-adopting-ai",
+      "path": "tech/5-questions-you-should-ask-before-adopting-ai.md"
+    },
+    {
+      "basename": "unreal-ai-sora",
+      "path": "tech/unreal-ai-sora.md"
+    },
+    {
+      "basename": "three-ai-failures-needing-guardrails",
+      "path": "tech/three-ai-failures-needing-guardrails.md"
+    },
+    {
+      "basename": "overcoming-the-five-dysfunctions-of-a-team",
+      "path": "book-review/overcoming-the-five-dysfunctions-of-a-team.md"
+    },
+    {
       "basename": "2-nephi-6-wait-on-the-lord",
       "path": "christianity/2-nephi-6-wait-on-the-lord.md"
     },
@@ -23,10 +43,6 @@
     {
       "basename": "building-a-story-brand",
       "path": "book-review/building-a-story-brand.md"
-    },
-    {
-      "basename": "overcoming-the-five-dysfunctions-of-a-team",
-      "path": "book-review/overcoming-the-five-dysfunctions-of-a-team.md"
     },
     {
       "basename": "daring-greatly",
@@ -89,10 +105,6 @@
       "path": "sacrament-symbols/pour-you-out-a-blessing.md"
     },
     {
-      "basename": "air-canadas-failed-ai-generated-refund-policy",
-      "path": "tech/air-canadas-failed-ai-generated-refund-policy.md"
-    },
-    {
       "basename": "brownies",
       "path": "gratitude/brownies.md"
     },
@@ -111,14 +123,6 @@
     {
       "basename": "board-games",
       "path": "gratitude/board-games.md"
-    },
-    {
-      "basename": "unreal-ai",
-      "path": "tech/unreal-ai.md"
-    },
-    {
-      "basename": "spellbook-ai-reviews",
-      "path": "tech/spellbook-ai-reviews.md"
     },
     {
       "basename": "the-oxford-inklings-lewis-tolkien-and-their-circle",
@@ -195,10 +199,6 @@
     {
       "basename": "trajectory-and-mindset",
       "path": "posts/trajectory-and-mindset.md"
-    },
-    {
-      "basename": "2024-02-14-news-notes",
-      "path": "news/2024-02-14-news-notes.md"
     }
   ],
   "omittedPaths": [],

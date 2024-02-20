@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/2-nephi-6-wait-on-the-lord.md",
+                "file": "tech/spellbook-ai-reviews-redlining.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -44,7 +44,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Bren",
+            "query": "Spell",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": true,
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/2-nephi-6-wait-on-the-lord.md",
+            "file": "tech/spellbook-ai-reviews-redlining.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/2-nephi-6-wait-on-the-lord.md"
+            "file": "tech/spellbook-ai-reviews-redlining.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/2-nephi-6-wait-on-the-lord.md",
+            "file": "tech/spellbook-ai-reviews-redlining.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,16 +141,20 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "tech/5-questions-you-should-ask-before-adopting-ai.md",
+    "img/dalle-ai-apple-picker.jpeg",
+    "tech/unreal-ai-sora.md",
+    "tech/three-ai-failures-needing-guardrails.md",
+    "book-review/overcoming-the-five-dysfunctions-of-a-team.md",
+    "christianity/2-nephi-6-wait-on-the-lord.md",
     "scriptures/2-nephi-6.7.md",
     "scriptures/2-nephi-6.17.md",
     "gratitude/green-hills.md",
-    "christianity/2-nephi-6-wait-on-the-lord.md",
     "goals/2024-02-19.md",
     "img/photo-cow-pond.jpeg",
     "_templates/new-post.md",
     "_templates/day.md",
     "book-review/building-a-story-brand.md",
-    "book-review/overcoming-the-five-dysfunctions-of-a-team.md",
     "book-review/daring-greatly.md",
     "book-review/dare-to-lead.md",
     "img/dalle-making-a-shield.jpeg",
@@ -168,15 +172,10 @@
     "img/dalle-life-coach.jpeg",
     "lists/ai.md",
     "lists/good-ai-news-aggregators.md",
-    "news/2024-02-18-news-notes.md",
-    "sacrament-symbols/ye-are-my-hands.md",
-    "sacrament-symbols/pour-you-out-a-blessing.md",
-    "scriptures/luke-15.5-7.md",
     "img/dalle-guardrails-on-ai.jpeg",
     "img/dalle-costco-brownies.jpeg",
     "img/book-building-a-story-brand.jpeg",
     "img/dalle-heaven-and-hell.jpeg",
-    "img/dalle-board-games.jpeg",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",

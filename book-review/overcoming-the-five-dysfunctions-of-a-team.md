@@ -18,6 +18,13 @@ date-finished: 2030-01-01
 pct-complete:
 ---
 
+2024-02-20
+
+- commitment clarity 
+	- 
+- Cascading communication
+	- Communicate within 24 hours
+
 
 2024-02-19
 
