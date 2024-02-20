@@ -10,7 +10,54 @@
 <atom:link href="https://www.bryanwhiting.com/all.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Mon, 19 Feb 2024 22:40:06 GMT</lastBuildDate>
+<lastBuildDate>Tue, 20 Feb 2024 09:07:57 GMT</lastBuildDate>
+<item>
+  <title>5 Questions You Should Ask Before Adopting AI</title>
+  <link>https://www.bryanwhiting.com/tech/5-questions-you-should-ask-before-adopting-ai.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I see a lot of executives dive into AI with a fury of excitement - the possibilities are endless. As it results, chatbots offering used cars for $1, refund policies you don’t want to stand behind and having the system generate fake legal briefs (<a href="../tech/three-ai-failures-needing-guardrails.html">Air Canada’s failed AI-generated Refund Policy and other AI mishaps: When you need guardrails on your AI</a>).</p>
+<p>I see this with experienced executives saying “I want to just infuse my product with AI.” For example, “I’ve got 100 PDFs and a wealth of knowledge that I want to integrate into my app”.</p>
+<p>Imagine you’re an unknown artist. What’s more likely for success: pain something you want, or paint something by commission?</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-ai-apple-picker.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">How much time will it take to build an AI apple picker vs just hiring someone?</figcaption>
+</figure>
+</div>
+<p>Software fails when software developers build something because it sounds like a good idea. Essentially, they build a solution looking for a problem. Or they believe “if I build this my customers will love it.”</p>
+<p>The same goes for AI. We’re at a new wave where anything is possible. Perhaps you’re so entrenched in a problem you intuitively know the solution, build something, and your customers (or coworkers) love what you’ve made.</p>
+<p>Far more likely is you end up believing AI isn’t working.</p>
+<p>Here are the five questions you should ask before adopting AI:</p>
+<ol type="1">
+<li>Whats the job my customer will hire my AI to do? (<a href="https://hbr.org/2016/09/know-your-customers-jobs-to-be-done">Know Your Customers’ “Jobs to Be Done”</a>)</li>
+<li>Why will they hire my AI?</li>
+<li>How much is not having my AI costing them?</li>
+<li>If my AI didn’t exists, whats the stupidest way my customers could get an 80% solution?</li>
+<li>If my AI does exist in all its glory, why will it fail miserably to do the job its hired to do?</li>
+</ol>
+<p>Too many dive straight to a solution.</p>
+<p>Yes, AI is and will revolutionize jobs. The first ones it’ll revolutionize are the obvious ones: the boring or time intensive tasks that you’re already doing. For Hollywood, AI will replace the laborious task of generating storyboards and such (<a href="../tech/unreal-ai-sora.html">Unreal AI: Meet Sora</a>). They’re not trying to solve world hunger (first) at open AI. They’re trying to replace jons that are already being hired for. They want to replace truck drivers with AI drivers, warriors with AI drones, and creatives (artistic, musical, and software) with AI. They invented a whole new way of doing…the thing that needed to be done anyway.</p>
+<p>Don’t solve a problem that nobody cares about. Because at this point in the economy your customer already has Google, competitors they can go to, and half baked solutions they can already muster on their own. What they need from you is a solution to their biggest problem, now.</p>
+<p>Maybe AI will solve that. Maybe some basic software will instead. Ask yourself these three questions:</p>
+<ol type="1">
+<li>Will this save time?</li>
+<li>Save energy?</li>
+<li>Save money?</li>
+</ol>
+<p>If not, it’s not worth your time, energy, or money to develop.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <guid>https://www.bryanwhiting.com/tech/5-questions-you-should-ask-before-adopting-ai.html</guid>
+  <pubDate>Tue, 20 Feb 2024 09:07:57 GMT</pubDate>
+</item>
 <item>
   <title>2 Nephi 6 - Waiting on the Lord</title>
   <link>https://www.bryanwhiting.com/christianity/2-nephi-6-wait-on-the-lord.html</link>
@@ -100,6 +147,17 @@
 
 
 
+<p>2024-02-20</p>
+<ul>
+<li>commitment clarity
+<ul>
+<li></li>
+</ul></li>
+<li>Cascading communication
+<ul>
+<li>Communicate within 24 hours</li>
+</ul></li>
+</ul>
 <p>2024-02-19</p>
 <ol type="1">
 <li>Absence of trust</li>
@@ -209,8 +267,8 @@
   <pubDate>Sun, 18 Feb 2024 21:01:57 GMT</pubDate>
 </item>
 <item>
-  <title>Air Canada’s failed AI/-generated Refund Policy</title>
-  <link>https://www.bryanwhiting.com/tech/air-canadas-failed-ai-generated-refund-policy.html</link>
+  <title>Air Canada’s failed AI-generated Refund Policy and other AI mishaps: When you need guardrails on your AI</title>
+  <link>https://www.bryanwhiting.com/tech/three-ai-failures-needing-guardrails.html</link>
   <description><![CDATA[ 
 
 
@@ -225,6 +283,7 @@
 </figure>
 </div>
 <p>Previously, trollers were able to convince the chatbot to agree to selling them a car for $1. <a href="https://the-decoder.com/people-buy-brand-new-chevrolets-for-1-from-a-chatgpt-chatbot/">People buy brand-new Chevrolets for $1 from a ChatGPT chatbot</a>. It’s possible some of these things may have actually been legally binding if someone wanted to sue for it.</p>
+<p>And don’t forget the lawywrs being sanctioned for not reviewing their AI: <a href="https://www.reuters.com/legal/new-york-lawyers-sanctioned-using-fake-chatgpt-cases-legal-brief-2023-06-22/">New York lawyers sanctioned for using fake ChatGPT cases in legal brief | Reuters</a>.</p>
 <p>Be careful - AI is incredibly hard to control. Open tools exist to attempt impose guardrails, but they’re not perfect: <a href="https://arxiv.org/html/2402.01822v1">Building Guardrails for Large Language Models</a>.</p>
 <p>If we can’t contain today’s AI, can we contain tomorrow’s? This isn’t to be an alarmist, but a pragmatist. Machine learning was used in a lot of wrong ways before it was able to be harnessed for good. The same will likely be true for AI.</p>
 
@@ -235,7 +294,7 @@
   <category>ai mishaps</category>
   <category>ai</category>
   <category>ai guardrails</category>
-  <guid>https://www.bryanwhiting.com/tech/air-canadas-failed-ai-generated-refund-policy.html</guid>
+  <guid>https://www.bryanwhiting.com/tech/three-ai-failures-needing-guardrails.html</guid>
   <pubDate>Sun, 18 Feb 2024 09:21:10 GMT</pubDate>
 </item>
 <item>
@@ -501,7 +560,7 @@
 </item>
 <item>
   <title>Unreal AI: Meet Sora</title>
-  <link>https://www.bryanwhiting.com/tech/unreal-ai.html</link>
+  <link>https://www.bryanwhiting.com/tech/unreal-ai-sora.html</link>
   <description><![CDATA[ 
 
 
@@ -532,23 +591,23 @@ If you think OpenAI Sora is a creative toy like DALLE, … think again. Sora is 
 <p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
   <category>tech</category>
   <category>ai</category>
-  <guid>https://www.bryanwhiting.com/tech/unreal-ai.html</guid>
+  <guid>https://www.bryanwhiting.com/tech/unreal-ai-sora.html</guid>
   <pubDate>Fri, 16 Feb 2024 17:32:54 GMT</pubDate>
 </item>
 <item>
   <title>Spellbook AI Reviews</title>
-  <link>https://www.bryanwhiting.com/tech/spellbook-ai-reviews.html</link>
+  <link>https://www.bryanwhiting.com/tech/spellbook-ai-reviews-redlining.html</link>
   <description><![CDATA[ 
 
 
 
 
 
-<p><a href="https://www.spellbook.legal/gpt-4-for-lawyers">GPT-4 for Lawyers is now available | Spellbook</a></p>
 <p>The AI world heats up with another legal tech offering.</p>
+<p><a href="https://www.spellbook.legal/gpt-4-for-lawyers">GPT-4 for Lawyers is now available | Spellbook</a></p>
 <ul>
 <li>Works in word</li>
-<li>Suggests edits automatically to achieve your goals</li>
+<li>Suggests edits (redlines) automatically to achieve your goals</li>
 </ul>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
@@ -569,7 +628,7 @@ If you think OpenAI Sora is a creative toy like DALLE, … think again. Sora is 
   <category>tech</category>
   <category>legal-ai</category>
   <category>ai tools</category>
-  <guid>https://www.bryanwhiting.com/tech/spellbook-ai-reviews.html</guid>
+  <guid>https://www.bryanwhiting.com/tech/spellbook-ai-reviews-redlining.html</guid>
   <pubDate>Fri, 16 Feb 2024 11:51:02 GMT</pubDate>
 </item>
 <item>
@@ -723,35 +782,6 @@ Announcing uv: an extremely fast Python package installer and resolver, written 
   <category>dev tools</category>
   <guid>https://www.bryanwhiting.com/tech/package-installer-uv.html</guid>
   <pubDate>Thu, 15 Feb 2024 13:22:18 GMT</pubDate>
-</item>
-<item>
-  <title>2 Nephi 4 - A Prophecy of Another Branch</title>
-  <link>https://www.bryanwhiting.com/christianity/2-nephi-4-prophecy-of-another-branch.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="scriptures" class="level1">
-<h1>Scriptures</h1>
-<blockquote class="blockquote">
-<p>For behold, he truly prophesied concerning all his seed. And the prophecies which he wrote, there are not many greater. And he prophesied concerning us, and our future generations; and they are written upon the plates of brass. <a href="../scriptures/2-nephi-4.2">2 Nephi 4.2</a></p>
-</blockquote>
-<p>This is another powerful reminder of things lost from the Bible, similar to <a href="../christianity/1-nephi-20-baptism-in-the-old-testament.html">1 Nephi 20 - Baptism in the Old Testament</a>. As we look at 2 Nephi 3:5, we see a link to the Joseph Smith Translation of Genesis.</p>
-<blockquote class="blockquote">
-<p>24 And Joseph said unto his brethren, I die, and go unto my fathers; and I go down to my grave with joy. The God of my father Jacob be with you, to deliver you out of affliction in the days of your bondage; for the Lord hath visited me, and I have obtained a promise of the Lord, <strong>that out of the fruit of my loins, the Lord God will raise up a righteous branch out of my loins</strong>; and unto thee, whom my father Jacob hath named Israel, a prophet; (not the Messiah who is called Shilo;) and this prophet shall deliver my people out of Egypt in the days of thy bondage. <a href="../scriptures/jst,-genesis-50.24">JST, Genesis 50.24</a></p>
-</blockquote>
-<p>Imagine if for 2000 years the entire world knew about this prophecy and the other things in 50:24-38 # Meaning</p>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>christianity</category>
-  <category>come follow me</category>
-  <guid>https://www.bryanwhiting.com/christianity/2-nephi-4-prophecy-of-another-branch.html</guid>
-  <pubDate>Wed, 14 Feb 2024 23:07:52 GMT</pubDate>
 </item>
 </channel>
 </rss>
