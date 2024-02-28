@@ -10,6 +10,7 @@ categories:
 draft: false
 date-start: 2023-12-22
 date-finished: 2023-12-28
+author: David Grann
 ---
 
 ![](../img/book-killers-flower-moon.jpeg){.preview-image}

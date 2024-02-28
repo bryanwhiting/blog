@@ -1,19 +1,28 @@
 ---
 title: The Wager
 description: |
-  x
+  Crazy story in so many dimensions. Very well written. 
 date: 2024-02-14 21:16:23
 created: 2024-02-14 21:16:23
 categories:
   - book-review
+  - historical
+  - non-fiction
+  - survival
 draft: false
-author: x
-book-year: 2029
+author: David Grann
+book-year: 2023
 book-time: 0
 date-start: 2024-02-08
-date-finished: 2030-01-01
-pct-complete:
+date-finished: 2024-02-26
+pct-complete: 100
 ---
+
+2024-02-26
+
+- ended how it should have. Total absolution. What a story. 
+- Things I liked: the warring perspectives of how to survive, the question of what is law and order when nothing is going on, the dangers men will go to, the antics nations will rage for a fraction of the return on investment (ansombs' bounty was a fraction of what was paid for the voyage.). The kweskar are incredible. The four different return voyages home. 
+
 2024-02-14
 
 - Cape horn! Crazy. 

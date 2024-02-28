@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/spellbook-ai-reviews-redlining.md",
+                "file": "christianity/2-nephi-11-seeing-my-redeemer.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -44,7 +44,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Spell",
+            "query": "Decisions",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": true,
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 4
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "tech/spellbook-ai-reviews-redlining.md",
+            "file": "christianity/2-nephi-11-seeing-my-redeemer.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "tech/spellbook-ai-reviews-redlining.md"
+            "file": "christianity/2-nephi-11-seeing-my-redeemer.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "tech/spellbook-ai-reviews-redlining.md",
+            "file": "christianity/2-nephi-11-seeing-my-redeemer.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,41 +141,42 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "tech/5-questions-you-should-ask-before-adopting-ai.md",
-    "img/dalle-ai-apple-picker.jpeg",
-    "tech/unreal-ai-sora.md",
-    "tech/three-ai-failures-needing-guardrails.md",
-    "book-review/overcoming-the-five-dysfunctions-of-a-team.md",
-    "christianity/2-nephi-6-wait-on-the-lord.md",
-    "scriptures/2-nephi-6.7.md",
-    "scriptures/2-nephi-6.17.md",
-    "gratitude/green-hills.md",
+    "img/dalle-jesus-at-the-temple-newborn.jpeg",
+    "scriptures/matthew-16.15-17.md",
+    "christianity/2-nephi-11-seeing-my-redeemer.md",
+    "scriptures/alma-19.13.md",
+    "scriptures/mormon-1.15.md",
+    "scriptures/2-nephi-11.2-3.md",
+    "gratitude/laundry-machine.md",
+    "img/dalle-laundry-machine.jpeg",
+    "book-review/the-sun-also-rises.md",
+    "book-review/the-wager.md",
+    "book-review/killers-of-the-flower-moon.md",
+    "creative/prose-nuzzle.md",
+    "img/dalle-nuzzle.jpeg",
+    "gratitude/waterfalls.md",
+    "gratitude/choice.md",
+    "img/photo-downstream-yosemite.jpeg",
+    "img/book-the-sun-also-rises.jpeg",
+    "christianity/2-nephi-9-familial-covenants.md",
+    "scriptures/2-nephi-9.53.md",
+    "goals/2024-02-25.md",
     "goals/2024-02-19.md",
-    "img/photo-cow-pond.jpeg",
-    "_templates/new-post.md",
-    "_templates/day.md",
-    "book-review/building-a-story-brand.md",
-    "book-review/daring-greatly.md",
-    "book-review/dare-to-lead.md",
-    "img/dalle-making-a-shield.jpeg",
-    "img/book-5-dysfunctions.jpeg",
-    "christianity/2-nephi-5-sometimes-theres-war.md",
-    "2-nephi-5-emergency-preparedness.md",
-    "img/dalle-making-a-sword.jpeg",
-    "goals/2024-02-14.md",
-    "scriptures/2-nephi-5.34.md",
-    "goals/2024-02-15.md",
-    "goals/2024-02-16.md",
-    "goals/2024-02-17.md",
-    "goals/2024-02-18.md",
-    "gratitude/the-coach.md",
-    "img/dalle-life-coach.jpeg",
-    "lists/ai.md",
-    "lists/good-ai-news-aggregators.md",
-    "img/dalle-guardrails-on-ai.jpeg",
-    "img/dalle-costco-brownies.jpeg",
-    "img/book-building-a-story-brand.jpeg",
-    "img/dalle-heaven-and-hell.jpeg",
+    "goals/2024-02-20.md",
+    "goals/2024-02-21.md",
+    "goals/2024-02-22.md",
+    "goals/2024-02-23.md",
+    "goals/2024-02-24.md",
+    "christianity/2-nephi-10.md",
+    "scriptures/2-nephi-10.23.md",
+    "gratitude/basketball-games.md",
+    "img/dalle-sunk-the-ball.jpeg",
+    "christianity/2-nephi-9-infinite-atonement.md",
+    "img/dalle-blueprint-of-olive-tree.jpeg",
+    "img/gemini-guitar.jpeg",
+    "img/photo-mountain-clouds.jpeg",
+    "img/gemini-blade-of-grass.jpeg",
+    "img/dalle-marriage-on-the-beach.jpeg",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",

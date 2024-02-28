@@ -1,7 +1,6 @@
 ---
 title: Overcoming the Five Dysfunctions of a Team
-description: |
-  x
+description: Motivates the reader to want to have an excellent, high performing team by addressing concerns
 date: 2024-02-19 21:35:15
 created: 2024-02-19 21:35:15
 categories:
@@ -9,14 +8,27 @@ categories:
   - business
   - leadership
   - team building
+  - emotional intelligence
 draft: false
 author: Patrick Lencioni
 book-year: 2005
 book-time: 0
 date-start: 2024-02-19 21:35:15
-date-finished: 2030-01-01
+date-finished: 2024-02-20
 pct-complete:
 ---
+What did I take away from this?
+
+- No all groups are teams
+- Teams are 5-12
+- Too many means advocacy overrules inquiry in decision making
+- Leaders want to rule their tribes, but they need to recognize they're part of the leadership team. 
+- Teams have an objective. 
+- Sometimes cutting one person out can immediately improve the team, but often most people need to be challenged or coached. Most will rise to the occasion. This is a long-held personal principle: don't fire. Focus on where that person can thrive. Try three places. Then if it's not working out or they're resisting, then fire. 
+- Be vulnerable, not too much
+- Team bonding isn't socializing. Team cohesion is doing the hardest work possible: grappling with honesty, candidness, and coming out on top. 
+
+
 
 2024-02-20
 
@@ -24,6 +36,8 @@ pct-complete:
 	- 
 - Cascading communication
 	- Communicate within 24 hours
+- Advocacy vs inquiry. 
+- 
 
 
 2024-02-19
