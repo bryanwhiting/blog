@@ -78,7 +78,7 @@ To finish
 
 Libby:
 
-- [x] [Dune](dune.md)
+- [x] [Dune](../book-review/dune.md)
 
 - [ ] The Quest for ...
 

@@ -1,6 +1,38 @@
 {
   "recentFiles": [
     {
+      "basename": "nothing-to-lose",
+      "path": "posts/nothing-to-lose.md"
+    },
+    {
+      "basename": "2-nephi-13-enduring-beauty",
+      "path": "christianity/2-nephi-13-enduring-beauty.md"
+    },
+    {
+      "basename": "dune",
+      "path": "gratitude/dune.md"
+    },
+    {
+      "basename": "the-great-gatsby",
+      "path": "book-review/the-great-gatsby.md"
+    },
+    {
+      "basename": "the-sun-also-rises",
+      "path": "book-review/the-sun-also-rises.md"
+    },
+    {
+      "basename": "charlie-the-barber",
+      "path": "gratitude/charlie-the-barber.md"
+    },
+    {
+      "basename": "2024-02-28",
+      "path": "goals/2024-02-28.md"
+    },
+    {
+      "basename": "2024-02-27",
+      "path": "goals/2024-02-27.md"
+    },
+    {
       "basename": "2-nephi-11-seeing-my-redeemer",
       "path": "christianity/2-nephi-11-seeing-my-redeemer.md"
     },
@@ -11,10 +43,6 @@
     {
       "basename": "laundry-machine",
       "path": "gratitude/laundry-machine.md"
-    },
-    {
-      "basename": "the-sun-also-rises",
-      "path": "book-review/the-sun-also-rises.md"
     },
     {
       "basename": "the-wager",
@@ -171,34 +199,6 @@
     {
       "basename": "2024-02-14",
       "path": "goals/2024-02-14.md"
-    },
-    {
-      "basename": "2024-02-15",
-      "path": "goals/2024-02-15.md"
-    },
-    {
-      "basename": "2024-02-16",
-      "path": "goals/2024-02-16.md"
-    },
-    {
-      "basename": "2024-02-17",
-      "path": "goals/2024-02-17.md"
-    },
-    {
-      "basename": "2024-02-18",
-      "path": "goals/2024-02-18.md"
-    },
-    {
-      "basename": "the-coach",
-      "path": "gratitude/the-coach.md"
-    },
-    {
-      "basename": "ai",
-      "path": "lists/ai.md"
-    },
-    {
-      "basename": "good-ai-news-aggregators",
-      "path": "lists/good-ai-news-aggregators.md"
     }
   ],
   "omittedPaths": [],

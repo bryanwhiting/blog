@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/2-nephi-11-seeing-my-redeemer.md",
+                "file": "posts/nothing-to-lose.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/2-nephi-11-seeing-my-redeemer.md",
+            "file": "posts/nothing-to-lose.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/2-nephi-11-seeing-my-redeemer.md"
+            "file": "posts/nothing-to-lose.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/2-nephi-11-seeing-my-redeemer.md",
+            "file": "posts/nothing-to-lose.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,15 +141,29 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "christianity/2-nephi-13-enduring-beauty.md",
+    "posts/nothing-to-lose.md",
+    "scriptures/mosiah-15.15-18.md",
+    "scriptures/2-nephi-13.18-25.md",
+    "christianity/2-nephi-12.md",
+    "gratitude/dune.md",
+    "img/dalle-dune-two-people.jpeg",
+    "book-review/the-great-gatsby.md",
+    "LOGGING-NOTE (iPhone).md",
+    "book-review/the-sun-also-rises.md",
+    "book-review/x.md",
+    "gratitude/charlie-the-barber.md",
+    "img/dalle-happy-barber.jpeg",
+    "goals/2024-02-28.md",
+    "goals/2024-02-27.md",
+    "christianity/2-nephi-11-seeing-my-redeemer.md",
     "img/dalle-jesus-at-the-temple-newborn.jpeg",
     "scriptures/matthew-16.15-17.md",
-    "christianity/2-nephi-11-seeing-my-redeemer.md",
     "scriptures/alma-19.13.md",
     "scriptures/mormon-1.15.md",
     "scriptures/2-nephi-11.2-3.md",
     "gratitude/laundry-machine.md",
     "img/dalle-laundry-machine.jpeg",
-    "book-review/the-sun-also-rises.md",
     "book-review/the-wager.md",
     "book-review/killers-of-the-flower-moon.md",
     "creative/prose-nuzzle.md",
@@ -160,23 +174,9 @@
     "img/book-the-sun-also-rises.jpeg",
     "christianity/2-nephi-9-familial-covenants.md",
     "scriptures/2-nephi-9.53.md",
-    "goals/2024-02-25.md",
-    "goals/2024-02-19.md",
-    "goals/2024-02-20.md",
-    "goals/2024-02-21.md",
-    "goals/2024-02-22.md",
-    "goals/2024-02-23.md",
-    "goals/2024-02-24.md",
-    "christianity/2-nephi-10.md",
-    "scriptures/2-nephi-10.23.md",
-    "gratitude/basketball-games.md",
     "img/dalle-sunk-the-ball.jpeg",
-    "christianity/2-nephi-9-infinite-atonement.md",
     "img/dalle-blueprint-of-olive-tree.jpeg",
     "img/gemini-guitar.jpeg",
-    "img/photo-mountain-clouds.jpeg",
-    "img/gemini-blade-of-grass.jpeg",
-    "img/dalle-marriage-on-the-beach.jpeg",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",
