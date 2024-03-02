@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "implementing-culture",
+      "path": "posts/implementing-culture.md"
+    },
+    {
+      "basename": "band-of-brothers",
+      "path": "book-review/band-of-brothers.md"
+    },
+    {
       "basename": "reading-list",
       "path": "lists/reading-list.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "new-post",
       "path": "_templates/new-post.md"
-    },
-    {
-      "basename": "day",
-      "path": "_templates/day.md"
-    },
-    {
-      "basename": "building-a-story-brand",
-      "path": "book-review/building-a-story-brand.md"
     }
   ],
   "omittedPaths": [],

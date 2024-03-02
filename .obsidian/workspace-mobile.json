@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lists/reading-list.md",
+                "file": "posts/implementing-culture.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "lists/reading-list.md",
+            "file": "posts/implementing-culture.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "lists/reading-list.md"
+            "file": "posts/implementing-culture.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "lists/reading-list.md",
+            "file": "posts/implementing-culture.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,8 +141,11 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "book-review/how-to-win-friends-and-influence-people.md",
+    "img/dalle-large-boat-small-rudder.jpeg",
+    "book-review/band-of-brothers.md",
+    "posts/implementing-culture.md",
     "lists/reading-list.md",
+    "book-review/how-to-win-friends-and-influence-people.md",
     "christianity/2-nephi-14-personalized-guidance.md",
     "scriptures/2-nephi-14.5.md",
     "goals/2024-03-01.md",
@@ -167,10 +170,7 @@
     "scriptures/matthew-16.15-17.md",
     "scriptures/alma-19.13.md",
     "scriptures/mormon-1.15.md",
-    "scriptures/2-nephi-11.2-3.md",
-    "gratitude/laundry-machine.md",
     "img/dalle-laundry-machine.jpeg",
-    "book-review/the-wager.md",
     "img/dalle-nuzzle.jpeg",
     "img/photo-downstream-yosemite.jpeg",
     "img/book-the-sun-also-rises.jpeg",

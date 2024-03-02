@@ -27,7 +27,7 @@ draft: false
 - [ ] To Kill a Mockingbird #libby 
 - [ ] Foundation #libby 
 - [x] Wool #libby 
-- [ ] The Sun Also Rises #spotify-included 7hr
+- [x] The Sun Also Rises #spotify-included 7hr
 - [ ] A farewell to arms #spotify-included  8h
 - [x] The old man and the Sea #libby 
 - [ ] Of Mice and Men #libby 
@@ -64,6 +64,15 @@ To finish
 # Plans
 
 ## March 2024
+- [x] [The Great Gatsby](../book-review/the-great-gatsby.md)
+- [ ] Six types (6hr)
+- [ ] Band of brothers (Spotify)
+- [ ] Beyond band of Brothers
+- [ ] It doesn't have to be crazy at work (Spotify)
+- [ ] Mere Christianity
+- [ ] Neuromancer
+- [ ] Musk
+- [ ] Brave new World
 
 ## February 2024
 
@@ -75,7 +84,7 @@ To finish
 - [x] [The Wager](../book-review/the-wager.md)
 - [x] [The Old Man and the Sea](../book-review/the-old-man-and-the-sea.md)
 - [x] [Building a Story Brand](../book-review/building-a-story-brand.md)
-- [x] [The Great Gatsby](../book-review/the-great-gatsby.md)
+- [x] [The Sun Also Rises](../book-review/the-sun-also-rises.md)
 - [x] [Overcoming the Five Dysfunctions of a Team](../book-review/overcoming-the-five-dysfunctions-of-a-team.md)
 
 
