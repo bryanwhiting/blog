@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "reading-list",
+      "path": "lists/reading-list.md"
+    },
+    {
+      "basename": "how-to-win-friends-and-influence-people",
+      "path": "book-review/how-to-win-friends-and-influence-people.md"
+    },
+    {
+      "basename": "2-nephi-14-personalized-guidance",
+      "path": "christianity/2-nephi-14-personalized-guidance.md"
+    },
+    {
+      "basename": "2024-03-01",
+      "path": "goals/2024-03-01.md"
+    },
+    {
+      "basename": "2024-03-02",
+      "path": "goals/2024-03-02.md"
+    },
+    {
+      "basename": "the-great-gatsby",
+      "path": "book-review/the-great-gatsby.md"
+    },
+    {
       "basename": "nothing-to-lose",
       "path": "posts/nothing-to-lose.md"
     },
@@ -11,10 +35,6 @@
     {
       "basename": "dune",
       "path": "gratitude/dune.md"
-    },
-    {
-      "basename": "the-great-gatsby",
-      "path": "book-review/the-great-gatsby.md"
     },
     {
       "basename": "the-sun-also-rises",
@@ -179,26 +199,6 @@
     {
       "basename": "building-a-story-brand",
       "path": "book-review/building-a-story-brand.md"
-    },
-    {
-      "basename": "daring-greatly",
-      "path": "book-review/daring-greatly.md"
-    },
-    {
-      "basename": "dare-to-lead",
-      "path": "book-review/dare-to-lead.md"
-    },
-    {
-      "basename": "2-nephi-5-sometimes-theres-war",
-      "path": "christianity/2-nephi-5-sometimes-theres-war.md"
-    },
-    {
-      "basename": "2-nephi-5-emergency-preparedness",
-      "path": "2-nephi-5-emergency-preparedness.md"
-    },
-    {
-      "basename": "2024-02-14",
-      "path": "goals/2024-02-14.md"
     }
   ],
   "omittedPaths": [],

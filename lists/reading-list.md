@@ -18,7 +18,7 @@ draft: false
 
 ### Fiction
 
-- [ ] The Great Gatsby #libby 
+- [x] The Great Gatsby #libby 
 - [ ] brave new world #libby
 - [ ] Count of Monte Cristo #libby
 - [ ] Neuromancer #libby 
@@ -57,16 +57,26 @@ To finish
 - [x] The quest for Cosmic Justice - Sowll #audible-free [The Quest for Cosmic Justice](../book-review/the-quest-for-cosmic-justice.md)
 
 
-***
-# February 2024
 
-- Oxford inklinfs
+
+
+***
+# Plans
+
+## March 2024
+
+## February 2024
+
+- [x] [The Oxford Inklings: Lewis, Tolkien and Their Circle](../book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md)
 - Coddling
 - influence 
-- How to win friends
-- The Wager
-- Old man and the sea
-- Storybrand
+- [x] [How to Win Friends and Influence People](../book-review/how-to-win-friends-and-influence-people.md) 
+- [x] [How to Decide: Simple Tools for Making Better Choices](../book-review/how-to-decide-simple-tools-for-making-better-choices.md)
+- [x] [The Wager](../book-review/the-wager.md)
+- [x] [The Old Man and the Sea](../book-review/the-old-man-and-the-sea.md)
+- [x] [Building a Story Brand](../book-review/building-a-story-brand.md)
+- [x] [The Great Gatsby](../book-review/the-great-gatsby.md)
+- [x] [Overcoming the Five Dysfunctions of a Team](../book-review/overcoming-the-five-dysfunctions-of-a-team.md)
 
 
 ***

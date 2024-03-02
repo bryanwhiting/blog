@@ -1,10 +1,11 @@
 ---
-title: "Nothing to Lose"
-description: |
-  x
-date: "2024-03-01 11:53:31"  
-created: "2024-03-01 11:53:31"
-categories: posts  
+title: Nothing to Lose
+description: Perspective is everything.
+date: 2024-03-01 11:53:31
+created: 2024-03-01 11:53:31
+categories:
+  - posts
+  - memories
 draft: false
 ---
 There was a moment when I had everything to lose. When I was junior in high school, I was scared I'd be cut from the lacrosse team. There was only one coach and he didn't have space for everybody. Coach held try outs. 

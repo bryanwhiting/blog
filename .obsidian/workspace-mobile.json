@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/nothing-to-lose.md",
+                "file": "lists/reading-list.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 4
+    "currentTab": 0
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/nothing-to-lose.md",
+            "file": "lists/reading-list.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/nothing-to-lose.md"
+            "file": "lists/reading-list.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/nothing-to-lose.md",
+            "file": "lists/reading-list.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,14 +141,20 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "christianity/2-nephi-13-enduring-beauty.md",
+    "book-review/how-to-win-friends-and-influence-people.md",
+    "lists/reading-list.md",
+    "christianity/2-nephi-14-personalized-guidance.md",
+    "scriptures/2-nephi-14.5.md",
+    "goals/2024-03-01.md",
+    "goals/2024-03-02.md",
+    "book-review/the-great-gatsby.md",
     "posts/nothing-to-lose.md",
+    "christianity/2-nephi-13-enduring-beauty.md",
     "scriptures/mosiah-15.15-18.md",
     "scriptures/2-nephi-13.18-25.md",
     "christianity/2-nephi-12.md",
     "gratitude/dune.md",
     "img/dalle-dune-two-people.jpeg",
-    "book-review/the-great-gatsby.md",
     "LOGGING-NOTE (iPhone).md",
     "book-review/the-sun-also-rises.md",
     "book-review/x.md",
@@ -165,15 +171,9 @@
     "gratitude/laundry-machine.md",
     "img/dalle-laundry-machine.jpeg",
     "book-review/the-wager.md",
-    "book-review/killers-of-the-flower-moon.md",
-    "creative/prose-nuzzle.md",
     "img/dalle-nuzzle.jpeg",
-    "gratitude/waterfalls.md",
-    "gratitude/choice.md",
     "img/photo-downstream-yosemite.jpeg",
     "img/book-the-sun-also-rises.jpeg",
-    "christianity/2-nephi-9-familial-covenants.md",
-    "scriptures/2-nephi-9.53.md",
     "img/dalle-sunk-the-ball.jpeg",
     "img/dalle-blueprint-of-olive-tree.jpeg",
     "img/gemini-guitar.jpeg",

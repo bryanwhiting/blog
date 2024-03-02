@@ -11,10 +11,12 @@ author: F. Scott Fitzgerald
 book-year: 1925
 book-time: 5
 date-start: 2024-02-29
-date-finished: 2024-01-29
+date-finished: 2024-03-01
 pct-complete: 0
 ---
-2024-02-29
+- nobody showed up to his funeral. It was all a mirage - the whole life. 
+- [The Sun Also Rises](the-sun-also-rises.md) paints an image of people living aimlessly. Lost in their own world, not knowing what will bring them happiness. 
+- Gatsby is focused in riotous living. 
 
 
 
