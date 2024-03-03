@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "my-testimony",
+      "path": "christianity/my-testimony.md"
+    },
+    {
       "basename": "chewing-the-bread-reminds-me-of-his-slow-agonizing-death",
       "path": "sacrament-symbols/chewing-the-bread-reminds-me-of-his-slow-agonizing-death.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2-nephi-6-wait-on-the-lord",
       "path": "christianity/2-nephi-6-wait-on-the-lord.md"
-    },
-    {
-      "basename": "green-hills",
-      "path": "gratitude/green-hills.md"
     }
   ],
   "omittedPaths": [],
