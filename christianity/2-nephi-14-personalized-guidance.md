@@ -5,6 +5,7 @@ date: 2024-03-01T00:16:00
 created: 2024-03-02 00:16:21
 categories:
   - christianity
+  - come follow me
 draft: false
 ---
 # Scriptures

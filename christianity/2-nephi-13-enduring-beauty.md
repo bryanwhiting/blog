@@ -1,10 +1,11 @@
 ---
 title: 2 Nephi 13 - Enduring Beauty
-description: 
+description: True beauty
 date: 2024-02-29T00:57:00
 created: 2024-03-01 00:57:18
 categories:
   - christianity
+  - come follow me
 draft: false
 ---
 # Scriptures

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/implementing-culture.md",
+                "file": "christianity/2-nephi-11-seeing-my-redeemer.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 4
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/implementing-culture.md",
+            "file": "christianity/2-nephi-11-seeing-my-redeemer.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/implementing-culture.md"
+            "file": "christianity/2-nephi-11-seeing-my-redeemer.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/implementing-culture.md",
+            "file": "christianity/2-nephi-11-seeing-my-redeemer.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,18 +141,18 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "christianity/2-nephi-14-personalized-guidance.md",
+    "christianity/2-nephi-13-enduring-beauty.md",
+    "posts/implementing-culture.md",
     "img/dalle-large-boat-small-rudder.jpeg",
     "book-review/band-of-brothers.md",
-    "posts/implementing-culture.md",
     "lists/reading-list.md",
     "book-review/how-to-win-friends-and-influence-people.md",
-    "christianity/2-nephi-14-personalized-guidance.md",
     "scriptures/2-nephi-14.5.md",
     "goals/2024-03-01.md",
     "goals/2024-03-02.md",
     "book-review/the-great-gatsby.md",
     "posts/nothing-to-lose.md",
-    "christianity/2-nephi-13-enduring-beauty.md",
     "scriptures/mosiah-15.15-18.md",
     "scriptures/2-nephi-13.18-25.md",
     "christianity/2-nephi-12.md",
@@ -176,7 +176,6 @@
     "img/book-the-sun-also-rises.jpeg",
     "img/dalle-sunk-the-ball.jpeg",
     "img/dalle-blueprint-of-olive-tree.jpeg",
-    "img/gemini-guitar.jpeg",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",
