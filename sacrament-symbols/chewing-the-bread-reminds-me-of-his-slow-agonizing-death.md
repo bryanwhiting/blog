@@ -1,5 +1,5 @@
 ---
-title: Chewing the Bread Reminds me of His Slow, Agonizing Death
+title: Chewing the Bread Reminds me of He Gave Everything
 description: The bread is broken by those who hold the priesthood. So His body was broken, by unworthy enemies.
 date: 2024-03-03 10:27:54
 created: 2024-03-03 10:27:54
@@ -26,7 +26,7 @@ Christ's final moments:
 7. Whips. 
 8. Mockery. 
 9. Heavy burden of carrying his cross. 
-10. The nails
+10. The nails...
 
 # Meaning
 
