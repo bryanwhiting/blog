@@ -10,7 +10,31 @@
 <atom:link href="https://www.bryanwhiting.com/tech.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Tue, 20 Feb 2024 09:07:57 GMT</lastBuildDate>
+<lastBuildDate>Sun, 03 Mar 2024 21:24:29 GMT</lastBuildDate>
+<item>
+  <title>The Baby</title>
+  <link>https://www.bryanwhiting.com/tech/the-baby.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Working for a startup is like being a nanny. You can love it all you want, but it’s not yours.</p>
+<p>In the words of Michael Jackson:</p>
+<blockquote class="blockquote">
+<p>Billie Jean is not my lover She’s just a girl who claims that I am the one But the kid is not my son She says I am the one, but the kid is not my son</p>
+</blockquote>
+<p>Always remember: unless you own it, the kid is not your son.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>startups</category>
+  <guid>https://www.bryanwhiting.com/tech/the-baby.html</guid>
+  <pubDate>Sun, 03 Mar 2024 21:24:29 GMT</pubDate>
+</item>
 <item>
   <title>5 Questions You Should Ask Before Adopting AI</title>
   <link>https://www.bryanwhiting.com/tech/5-questions-you-should-ask-before-adopting-ai.html</link>
@@ -853,63 +877,6 @@ Song snippet today: [2024-02-05-guitar-clouds](../audio/2024-02-05-guitar-clouds
   <category>obsidian</category>
   <guid>https://www.bryanwhiting.com/tech/embedding-audio-in-quarto.html</guid>
   <pubDate>Mon, 05 Feb 2024 12:31:54 GMT</pubDate>
-</item>
-<item>
-  <title>The Divinely Discontent Chatbot User</title>
-  <link>https://www.bryanwhiting.com/tech/the-divinely-discontent-chatbot-user.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="there-is-divine-discontent-in-the-consumer-appetite" class="level1 page-columns page-full">
-<h1>There is Divine Discontent in the Consumer Appetite</h1>
-<p>Jeff Bezos alluded to the “divinely discontent” customer in a 2017 shareholder letter (<a href="https://aws.amazon.com/executive-insights/content/how-amazon-defines-and-operationalizes-a-day-1-culture/">Elements of Amazon’s Day 1 Culture | AWS Executive Insights</a>).</p>
-<blockquote class="blockquote">
-<p>One thing I love about customers is that they are divinely discontent. Their expectations are never static – they go up. It’s human nature. We didn’t ascend from our hunter-gatherer days by being satisfied. People have a voracious appetite for a better way, and yesterday’s ‘wow’ quickly becomes today’s ‘ordinary’. I see that cycle of improvement happening at a faster rate than ever before <a href="https://s2.q4cdn.com/299287126/files/doc_financials/annual/Amazon_Shareholder_Letter.pdf">2017 Amazon_Shareholder_Letter.pdf</a></p>
-</blockquote>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-image-divinely-discontent.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Image: Divine Discontent</figcaption>
-</figure>
-</div>
-<p>More googling shows the phrase was also used by Neal A Maxwell in 1976 (<a href="https://www.churchofjesuschrist.org/study/general-conference/1976/10/notwithstanding-my-weakness?lang=eng">Notwithstanding My Weakness</a>):</p>
-<blockquote class="blockquote">
-<p>What can we do to manage these vexing feelings of inadequacy? Here are but a few suggestions: (1) We can distinguish more clearly between <strong>divine discontent</strong> and the devil’s dissonance, between dissatisfaction with self and disdain for self. We need the first and must shun the second, remembering that when conscience calls to us from the next ridge, it is not solely to scold but also to beckon.</p>
-</blockquote>
-<p>(Just dropping that in case Bezos gets all the credit for the term 😉.)</p>
-</section>
-<section id="llm-discontent" class="level1">
-<h1>LLM Discontent</h1>
-<p>People grappling with building LLMs are facing this discontent at an alarming rate. The <a href="../tech/llm-chatbot-arena-leaderboard.html">LLM Chatbot Arena Leaderboard</a> is a testament to how quickly appetites will change. Many AI tool providers refrain from vendor lock in and try to build LLM agnostic tooling.</p>
-<p>How do you compete? Well, most of us aren’t building these foundational models. How do they compete with each other? None of us care. We just want a good one.</p>
-<p>But ask yourself, would you rather have Bard from today or nothing from 2022?</p>
-<p>These leaderboards are fascinating because in 14 months since ChatGPT emerged we’ve become so reliant on these tools but yet they’re not even old enough to walk or talk by human standards. Yet we now have Bard, ChatGPT, LLaMA, Mistral, Claude, and whatever’s cooking at Amazon/Apple/Microsoft (behind the scenes as a contingency plan I’m sure) and the Chinese/Indian companies that don’t want to rely on the U.S.</p>
-<p>It’s the early days of search: Yahoo, AOL, Ask Jeeves, etc. One will emerge as your favorite perhaps, like how we all use Google even though Bing probably isn’t that bad anymore (I wouldn’t know…).<sup>1</sup></p>
-<p>Point is: it’s a race to the bottom, the customer is fickle. They know this, which is why they keep releasing new stuff every 6 months.</p>
-<p>Point is: as you build your LLM application, your customer will be divinely discontent with <em>you</em>. This is nothing knew, it’s just the age of software development.</p>
-<p>Expectations of what software can do are rising. Those expectations are becoming indiscernible from the magic that software is becoming.</p>
-
-
-</section>
-<aside id="footnotes" class="footnotes footnotes-end-of-document">
-<hr>
-<ol>
-<li id="fn1"><p>Edge is better than Chrome for now in LLM usage!↩︎</p></li>
-</ol>
-</aside>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>tech</category>
-  <category>software</category>
-  <category>saas</category>
-  <category>llm</category>
-  <category>ai</category>
-  <category>ai strategy</category>
-  <guid>https://www.bryanwhiting.com/tech/the-divinely-discontent-chatbot-user.html</guid>
-  <pubDate>Sun, 04 Feb 2024 21:17:43 GMT</pubDate>
 </item>
 </channel>
 </rss>

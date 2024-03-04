@@ -10,7 +10,31 @@
 <atom:link href="https://www.bryanwhiting.com/all.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Sun, 03 Mar 2024 13:18:54 GMT</lastBuildDate>
+<lastBuildDate>Sun, 03 Mar 2024 21:24:29 GMT</lastBuildDate>
+<item>
+  <title>The Baby</title>
+  <link>https://www.bryanwhiting.com/tech/the-baby.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Working for a startup is like being a nanny. You can love it all you want, but it’s not yours.</p>
+<p>In the words of Michael Jackson:</p>
+<blockquote class="blockquote">
+<p>Billie Jean is not my lover She’s just a girl who claims that I am the one But the kid is not my son She says I am the one, but the kid is not my son</p>
+</blockquote>
+<p>Always remember: unless you own it, the kid is not your son.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>startups</category>
+  <guid>https://www.bryanwhiting.com/tech/the-baby.html</guid>
+  <pubDate>Sun, 03 Mar 2024 21:24:29 GMT</pubDate>
+</item>
 <item>
   <title>My Testimony</title>
   <link>https://www.bryanwhiting.com/christianity/my-testimony.html</link>
@@ -643,33 +667,6 @@
   <category>music</category>
   <guid>https://www.bryanwhiting.com/gratitude/guitars.html</guid>
   <pubDate>Fri, 23 Feb 2024 23:22:58 GMT</pubDate>
-</item>
-<item>
-  <title>I’m Grateful for Fog</title>
-  <link>https://www.bryanwhiting.com/gratitude/fog.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Fog is poetic. You can be stuck in it. Or you can rise above it.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/photo-mountain-clouds.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Fog on a hike</figcaption>
-</figure>
-</div>
-<p>Once you get above the fog, it ceases to blind you and instead becomes something quite beautiful to behold.</p>
-<p>That’s kind of like life. Problems can overwhelm and blind us, but looking back we’re glad at the beauty they’ve created in our life.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>gratitude</category>
-  <category>nature</category>
-  <guid>https://www.bryanwhiting.com/gratitude/fog.html</guid>
-  <pubDate>Thu, 22 Feb 2024 22:50:07 GMT</pubDate>
 </item>
 </channel>
 </rss>
