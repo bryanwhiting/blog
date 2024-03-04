@@ -12,6 +12,7 @@ draft: false
 When I take the bread, I eat. Eating takes something whole and makes it smaller. Each bite can remind me of a whip. Of a crown. Of a nail. Of a drop of blood. 
 
 ![Broken bread](../img/dalle-broken-bread.jpeg){.preview-image}
+
 # Scriptures
 
 Christ's final moments:
