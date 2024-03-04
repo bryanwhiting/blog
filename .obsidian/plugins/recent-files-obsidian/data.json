@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "chewing-the-bread-reminds-me-of-his-slow-agonizing-death",
-      "path": "sacrament-symbols/chewing-the-bread-reminds-me-of-his-slow-agonizing-death.md"
+      "basename": "chewing-the-bread-reminds-me-that-he-gave-everything",
+      "path": "sacrament-symbols/chewing-the-bread-reminds-me-that-he-gave-everything.md"
+    },
+    {
+      "basename": "the-baby",
+      "path": "tech/the-baby.md"
     },
     {
       "basename": "my-testimony",
@@ -195,10 +199,6 @@
     {
       "basename": "unreal-ai-sora",
       "path": "tech/unreal-ai-sora.md"
-    },
-    {
-      "basename": "three-ai-failures-needing-guardrails",
-      "path": "tech/three-ai-failures-needing-guardrails.md"
     }
   ],
   "omittedPaths": [],

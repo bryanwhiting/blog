@@ -1,10 +1,12 @@
 ---
-title: Chewing the Bread Reminds me of He Gave Everything
+title: Chewing the Bread Reminds me that He Gave Everything
 description: The bread is broken by those who hold the priesthood. So His body was broken, by unworthy enemies.
 date: 2024-03-03 10:27:54
 created: 2024-03-03 10:27:54
 categories:
   - sacrament-symbols
+  - atonement
+  - symbol-bread
 draft: false
 ---
 # Symbol
