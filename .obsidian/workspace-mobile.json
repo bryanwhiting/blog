@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/my-testimony.md",
+                "file": "sacrament-symbols/chewing-the-bread-reminds-me-of-his-slow-agonizing-death.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/my-testimony.md",
+            "file": "sacrament-symbols/chewing-the-bread-reminds-me-of-his-slow-agonizing-death.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/my-testimony.md"
+            "file": "sacrament-symbols/chewing-the-bread-reminds-me-of-his-slow-agonizing-death.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/my-testimony.md",
+            "file": "sacrament-symbols/chewing-the-bread-reminds-me-of-his-slow-agonizing-death.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,10 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "christianity/my-testimony.md",
+    "concepts/confirmation-bias.md",
     "img/dalle-the-myth-of-christ.jpeg",
     "sacrament-symbols/chewing-the-bread-reminds-me-of-his-slow-agonizing-death.md",
-    "christianity/my-testimony.md",
     "img/dalle-broken-bread.jpeg",
     "christianity/2-nephi-11-seeing-my-redeemer.md",
     "christianity/2-nephi-14-personalized-guidance.md",
@@ -176,7 +177,6 @@
     "img/dalle-nuzzle.jpeg",
     "img/photo-downstream-yosemite.jpeg",
     "img/book-the-sun-also-rises.jpeg",
-    "img/dalle-sunk-the-ball.jpeg",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",
