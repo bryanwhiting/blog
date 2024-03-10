@@ -57,17 +57,21 @@ To finish
 - [x] The quest for Cosmic Justice - Sowll #audible-free [The Quest for Cosmic Justice](../book-review/the-quest-for-cosmic-justice.md)
 
 
+Other thoughs
 
+- General patten 
+- Angels book (historical fiction)
 
 
 ***
 # Plans
 
 ## March 2024
-- [x] [The Great Gatsby](../book-review/the-great-gatsby.md)
+
+- [x] [The Great Gatsby](../book-review/the-great-gatsby.md) 
 - [ ] Six types (6hr)
-- [ ] Band of brothers (Spotify)
-- [ ] Beyond band of Brothers
+- [x] Band of brothers (Spotify) [Band of Brothers](../book-review/band-of-brothers.md)
+- [x] Beyond band of Brothers. [Beyond Band of Brothers: The War Memoirs of Major Dick Winters](../book-review/beyond-band-of-brothers.md)
 - [ ] It doesn't have to be crazy at work (Spotify)
 - [ ] Mere Christianity
 - [ ] Neuromancer

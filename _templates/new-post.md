@@ -61,7 +61,7 @@ author: x
 book-year: 2029
 book-time: 0
 date-start: "${date}"
-date-finished: "${yday}"
+date-finished: ""
 pct-complete:`;
 } 
 

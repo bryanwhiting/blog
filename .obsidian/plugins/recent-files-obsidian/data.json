@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "2-nephi-20-25-lesson-plan",
+      "path": "christianity/2-nephi-20-25-lesson-plan.md"
+    },
+    {
+      "basename": "beyond-band-of-brothers",
+      "path": "book-review/beyond-band-of-brothers.md"
+    },
+    {
+      "basename": "book-summaries",
+      "path": "posts/book-summaries.md"
+    },
+    {
+      "basename": "reading-list",
+      "path": "lists/reading-list.md"
+    },
+    {
+      "basename": "band-of-brothers",
+      "path": "book-review/band-of-brothers.md"
+    },
+    {
+      "basename": "new-post",
+      "path": "_templates/new-post.md"
+    },
+    {
       "basename": "i-wrote-this-on-march-9th-to-hold-myself-accountable",
       "path": "quotes/i-wrote-this-on-march-9th-to-hold-myself-accountable.md"
     },
@@ -73,10 +97,6 @@
       "path": "2-nephi-22-my-god-is-my-strength.md"
     },
     {
-      "basename": "band-of-brothers",
-      "path": "book-review/band-of-brothers.md"
-    },
-    {
       "basename": "artillery-takes-the-joy-out-of-life",
       "path": "quotes/artillery-takes-the-joy-out-of-life.md"
     },
@@ -123,10 +143,6 @@
     {
       "basename": "a-costly-mistake",
       "path": "posts/a-costly-mistake.md"
-    },
-    {
-      "basename": "new-post",
-      "path": "_templates/new-post.md"
     },
     {
       "basename": "the-problem-with-all-the-advice-in-all-those-books-is-that-none-of-it-was-written-for-you",
@@ -181,24 +197,8 @@
       "path": "posts/implementing-culture.md"
     },
     {
-      "basename": "reading-list",
-      "path": "lists/reading-list.md"
-    },
-    {
       "basename": "how-to-win-friends-and-influence-people",
       "path": "book-review/how-to-win-friends-and-influence-people.md"
-    },
-    {
-      "basename": "2024-03-01",
-      "path": "goals/2024-03-01.md"
-    },
-    {
-      "basename": "2024-03-02",
-      "path": "goals/2024-03-02.md"
-    },
-    {
-      "basename": "the-great-gatsby",
-      "path": "book-review/the-great-gatsby.md"
     }
   ],
   "omittedPaths": [],

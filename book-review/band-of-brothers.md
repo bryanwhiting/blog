@@ -10,9 +10,22 @@ author: Stephen E. Ambrose
 book-year: 1992
 book-time: 12.75
 date-start: 2024-03-02 10:36:41
-date-finished: Fri Mar 01 2024 10:36:41 GMT-0800
+date-finished: 2024-03-09
 pct-complete:
 ---
+
+
+2024-03-09
+
+Interesting stories: 
+
+- noticing the new tree 
+- Webster's commentaries 
+- The personalities
+- The mental fortitude and collapse
+- How 101 went to the fight while other people retreated. 
+
+
 
 2024-03-06
 
