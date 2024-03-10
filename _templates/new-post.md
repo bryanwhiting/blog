@@ -1,6 +1,6 @@
 <%*
 // Define the list of folders  
-const folders = ["book-review", "christianity", "concepts", "creative", "innovate", "gratitude", "news", "posts", "sacrament-symbols", "tech"];
+const folders = ["book-review", "christianity", "concepts", "creative", "innovate", "gratitude", "news", "posts", "quotes", "sacrament-symbols", "tech"];
 
 // Use the suggester to let the 
 // user choose a folder  
@@ -96,7 +96,9 @@ if (folder === "innovate"){
   body += "# Current Solutions\n\n"
   body += "# Improved Solution\n\n"
 }
-
+if (folder === "quotes"){
+  body += `${title}`
+}
 
 const filepath = `${folder}/${slug}`  
 await tp.file.move(filepath)  
