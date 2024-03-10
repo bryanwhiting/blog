@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "reading-list",
+      "path": "lists/reading-list.md"
+    },
+    {
       "basename": "2-nephi-20-25-lesson-plan",
       "path": "christianity/2-nephi-20-25-lesson-plan.md"
+    },
+    {
+      "basename": "im-going-to-let-you-down",
+      "path": "quotes/im-going-to-let-you-down.md"
+    },
+    {
+      "basename": "setting-up-a-new-mac",
+      "path": "tech/setting-up-a-new-mac.md"
+    },
+    {
+      "basename": "if-your-kids-wont-remember-this-time-who-will",
+      "path": "quotes/if-your-kids-wont-remember-this-time-who-will.md"
     },
     {
       "basename": "beyond-band-of-brothers",
@@ -11,10 +27,6 @@
     {
       "basename": "book-summaries",
       "path": "posts/book-summaries.md"
-    },
-    {
-      "basename": "reading-list",
-      "path": "lists/reading-list.md"
     },
     {
       "basename": "band-of-brothers",
@@ -49,10 +61,6 @@
       "path": "quotes/bad-teams-bad-leaders.md"
     },
     {
-      "basename": "im-going-to-let-you-down",
-      "path": "quotes/im-going-to-let-you-down.md"
-    },
-    {
       "basename": "please-unfollow-me",
       "path": "quotes/please-unfollow-me.md"
     },
@@ -75,10 +83,6 @@
     {
       "basename": "dune",
       "path": "book-review/dune.md"
-    },
-    {
-      "basename": "setting-up-a-new-mac",
-      "path": "tech/setting-up-a-new-mac.md"
     },
     {
       "basename": "dune-messiah",
@@ -107,10 +111,6 @@
     {
       "basename": "Untitled 1",
       "path": "Untitled 1.md"
-    },
-    {
-      "basename": "if-your-kids-wont-remember-this-time-who-will",
-      "path": "quotes/if-your-kids-wont-remember-this-time-who-will.md"
     },
     {
       "basename": "time-value-of-memories",

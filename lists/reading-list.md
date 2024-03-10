@@ -47,7 +47,7 @@ To finish
 - [ ] the boys in the boat #libby 
 - [ ] Against the Gods
 - [ ] The Bomber Mafia
-- [ ] Band of Brothers (February rec)
+- [x] Band of Brothers (February rec)
 - [ ] The lessons of history (February Rec)
 
 ### Religion and Philosophy

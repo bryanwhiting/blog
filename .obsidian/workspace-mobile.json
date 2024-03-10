@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/2-nephi-20-25-lesson-plan.md",
+                "file": "lists/reading-list.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/2-nephi-20-25-lesson-plan.md",
+            "file": "lists/reading-list.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/2-nephi-20-25-lesson-plan.md"
+            "file": "lists/reading-list.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/2-nephi-20-25-lesson-plan.md",
+            "file": "lists/reading-list.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,12 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "christianity/2-nephi-20-25-lesson-plan.md",
+    "quotes/im-going-to-let-you-down.md",
+    "tech/setting-up-a-new-mac.md",
+    "quotes/if-your-kids-wont-remember-this-time-who-will.md",
     "scriptures/2-nephi-25.24-27.md",
     "book-review/beyond-band-of-brothers.md",
-    "christianity/2-nephi-20-25-lesson-plan.md",
     "posts/book-summaries.md",
     "lists/reading-list.md",
     "book-review/band-of-brothers.md",
@@ -154,7 +157,6 @@
     "quotes/the-ten-thousand-hour-rule-doesnt-make-any-sense.md",
     "quotes/it-all-depends-on-me.md",
     "quotes/bad-teams-bad-leaders.md",
-    "quotes/im-going-to-let-you-down.md",
     "quotes/please-unfollow-me.md",
     "quotes/look-at-the-plot.md",
     "quotes/a-leader.md",
@@ -163,10 +165,8 @@
     "scriptures/2-nephi-25.25-26.md",
     "gratitude/sun-on-turf.md",
     "book-review/dune.md",
-    "tech/setting-up-a-new-mac.md",
     "book-review/dune-messiah.md",
     "tech/hendrix-a-machine-learning-platform-by-spotify.md",
-    "tech/interviewing-as-an-ml-engineer.md",
     "quotes",
     "img/dalle-nap-on-a-sectional.jpeg",
     "img/book-mere-christianity.jpeg",
