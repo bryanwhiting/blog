@@ -15,6 +15,17 @@ date-finished: 2024-03-01
 pct-complete:
 ---
 
+
+- Cs Lewis didn't listen to his friends
+
+
+2024-03-10
+
+- Good people know about good and evil, the way a sober person clearly understands a drunk. 
+- Giving charitably. Give more than you can, sacrificing some things for it. 
+- I love the theology he thinks through, such as repentance and such. But he also delves specifically into doctrines like saying whether sexual perversion is worse or better than being a nice person to someone else. Perhaps this is the content Tolkien wished he had left to clergy people. [The Inklings](the-inklings.md)
+
+
 2024-03-03
 
 - I wrote [My Testimony](../christianity/2024-03-03-my-testimony.md) today without having read this book - cool to see we both had the same logic on "math" and "law of nature". 

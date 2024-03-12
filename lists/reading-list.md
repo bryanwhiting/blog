@@ -57,6 +57,12 @@ To finish
 - [x] The quest for Cosmic Justice - Sowll #audible-free [The Quest for Cosmic Justice](../book-review/the-quest-for-cosmic-justice.md)
 
 
+
+Tech and Profesh development 
+
+- Accelerate: the science of lean software and devops. #audible-credit 
+
+
 Other thoughs
 
 - General patten 

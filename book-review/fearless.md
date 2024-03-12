@@ -1,8 +1,9 @@
 ---
-title: Fearless
+title: "Fearless: The Undaunted Courage and Ultimate Sacrifice of Navy Team Six Seal Operator Adam Brown"
 description: _Fearless_ by Eric Blehm. Published by christianaudio.com, with ISBN 9781610454827.0. Read on 2021-03-12
 date: 2021-03-12
-categories: book-review
+categories:
+  - book-review
 created: 2024-02-03
 draft: false
 author: Eric Blehm
