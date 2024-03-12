@@ -10,7 +10,145 @@
 <atom:link href="https://www.bryanwhiting.com/books.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Sun, 03 Mar 2024 21:45:36 GMT</lastBuildDate>
+<lastBuildDate>Mon, 11 Mar 2024 20:57:45 GMT</lastBuildDate>
+<item>
+  <title>The 6 Types of Working Genius</title>
+  <dc:creator>Patrick Lencioni</dc:creator>
+  <link>https://www.bryanwhiting.com/book-review/the-6-types-of-working-genius.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Summary:</p>
+<ul>
+<li>about 70% of an instructive story and 30% the true content. The story is really cringe/cheesy but helps introduce the ideas.</li>
+<li>Back 30% presents the concrete definitions. It lays out how a team can truly work together as a team to complement each other’s strengths.</li>
+</ul>
+<p>2024-03-11</p>
+<p><a href="https://www.shortform.com/blog/the-6-types-of-working-genius/">The 6 Types of Working Genius: Book Overview | Shortform Books</a></p>
+<p>We all have things that either energize or drain us. If we’re aware, we can complement each other.</p>
+<p>Three phases of work/a task: ideation, activation, and implementation. Each task requires two types of genius.</p>
+<ul>
+<li>Ideation
+<ul>
+<li>Wonder: Ask why? Ask “is there a better way?”</li>
+<li>Innovation: figure out solutions.</li>
+</ul></li>
+<li>Activation
+<ul>
+<li>Discernment: use intuition and judgment in figuring out good/bad ideas</li>
+<li>Galvanize/rally people/buy-in</li>
+</ul></li>
+<li>implementation
+<ul>
+<li>Enable: volunteer. Help people. Empower.</li>
+<li>Tenacity: cross the finish line. Execute. Pound obstacles.</li>
+</ul></li>
+</ul>
+<p>Six type of genius more concretely defined:</p>
+<ul>
+<li>Wonder: Involved the ability to ponder, speculate, and question the state of things. Asking the questions that provoke answer and action. People with this genius are naturally inclined to do these things, to lose themselves in observing the world around them and wondering if things shouldn’t be different or untapped potential that should be tapped.</li>
+<li>Innovation: come up with new ideas or solutions. They’re drawn to origination, creativity and ingenuity, even with little context or directions. Though every type is a genius, these are the people who are most often referred to as geniuses because many of their ideas seem to come out of thin air.</li>
+<li>Discernment: related to sanctity, intuition, and uncanny judgment. People with this genius have the natural ability to assess an idea or situation even without a lot of data or expertises. Using pattern recognition and gut feel they’re able to provide valuable advice and feedback around most subjects in a way that transcends their levels of specific knowledge or information.</li>
+<li>Galvanizing: is about rallying, motivating, or provoking people to take action around an idea or an initiative. People with this genius are naturally inclined to inspire or enlist people to get involved in an endeavor. They don’t mind persuading people to rethink or change their plans to embark on something worthwhile.</li>
+<li>Enabling: providing people with support and assistance in a way that it is needed. People with this genius are adept at responding to the needs of others without conditions or restrictions. They’re naturally inclined to help others accomplish their goals and can often anticipate what people might need before they ask. Individuals with this genius are frequently unaware that this is a genius at all.</li>
+<li>Tenacity: is about the satisfaction of pushing things across the finish line to completion. They’re not only capable of and naturally inclined to finish projects to ensure they’re completed to specification. They gain energy by pushing through obstacles and seeing the impact of their work and they find joy from crossing tasks off their list and getting closure.</li>
+</ul>
+<p>Categories of genius - each person has two geniuses, two competencies, and two frustrations. (Per their research)</p>
+<ul>
+<li>Genius: it energizes you. Joy, energy, and passion.</li>
+<li>Competency: it neither energizes nor drains you. Can do fairly well. But we will eventually grow weary if we can do our geniuses.</li>
+<li>Frustration: it drains you. Struggle. Hate it. You can spent a ton of time here without getting to burnout, or failure.</li>
+</ul>
+<p>Genius activation modes: you’ll probably have two responsive and two disruptive geniuses.</p>
+<ul>
+<li>Responsive: respond to an external stimulus to be put into action. Need to be activated by an event.</li>
+<li>Disruptive: initiate or provoke change when they see a need for it. More proactive.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/book-the-6-types-of-working-genius.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Book cover</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book-review</category>
+  <category>productivity</category>
+  <category>personality</category>
+  <category>culture</category>
+  <category>team building</category>
+  <category>teamwork</category>
+  <guid>https://www.bryanwhiting.com/book-review/the-6-types-of-working-genius.html</guid>
+  <pubDate>Mon, 11 Mar 2024 20:57:45 GMT</pubDate>
+</item>
+<item>
+  <title>Light GBM Documentation</title>
+  <dc:creator>x </dc:creator>
+  <link>https://www.bryanwhiting.com/book-review/light-gbm-documentation.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I’ve been a long-time XGBoost user, so I want to upskill.</p>
+<p><a href="https://lightgbm.readthedocs.io/en/stable/">Welcome to LightGBM’s documentation! — LightGBM 4.0.0 documentation</a></p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/book-light-gbm-documentation.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Light GBM</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book-review</category>
+  <category>upskilling</category>
+  <category>tech</category>
+  <category>data science</category>
+  <guid>https://www.bryanwhiting.com/book-review/light-gbm-documentation.html</guid>
+  <pubDate>Mon, 11 Mar 2024 16:19:29 GMT</pubDate>
+</item>
+<item>
+  <title>Forecasting: Principles and Practice</title>
+  <dc:creator>Rob Hyndman</dc:creator>
+  <link>https://www.bryanwhiting.com/book-review/forecasting-principles-and-practice.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>#Forecasting #timeseries #datascience #machinelearning #ForecastingPrinciplesAndPractice</p>
+<p><a href="https://otexts.com/fpp3/intro.html">Chapter 1 Getting started | Forecasting: Principles&nbsp;and&nbsp;Practice (3rd&nbsp;ed)</a> 2024-03-11</p>
+<ul>
+<li>People have always wanted to forecast, such as ancients using the shape of sheep liver to predict the future. Tarot cards, prophets, etc have been religious and spiritual forecasters.</li>
+<li>Forecasting has always been a guessing game.</li>
+<li>Sometimes you can use algorithms to mine historical data for forecasting, but that assumes the future will be like the past.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/book-forecasting-principles-and-practice.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Forecasting</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book-review</category>
+  <category>data science</category>
+  <category>tech</category>
+  <category>upskilling</category>
+  <guid>https://www.bryanwhiting.com/book-review/forecasting-principles-and-practice.html</guid>
+  <pubDate>Mon, 11 Mar 2024 10:38:10 GMT</pubDate>
+</item>
 <item>
   <title>Mere Christianity</title>
   <dc:creator>C.S. Lewis</dc:creator>
@@ -21,6 +159,15 @@
 
 
 
+<ul>
+<li>Cs Lewis didn’t listen to his friends</li>
+</ul>
+<p>2024-03-10</p>
+<ul>
+<li>Good people know about good and evil, the way a sober person clearly understands a drunk.</li>
+<li>Giving charitably. Give more than you can, sacrificing some things for it.</li>
+<li>I love the theology he thinks through, such as repentance and such. But he also delves specifically into doctrines like saying whether sexual perversion is worse or better than being a nice person to someone else. Perhaps this is the content Tolkien wished he had left to clergy people. <a href="../book-review/the-inklings.html">The Inklings</a></li>
+</ul>
 <p>2024-03-03</p>
 <ul>
 <li>I wrote <a href="../christianity/2024-03-03-my-testimony.html">My Testimony</a> today without having read this book - cool to see we both had the same logic on “math” and “law of nature”.</li>
@@ -810,114 +957,6 @@
   <category>book-review</category>
   <guid>https://www.bryanwhiting.com/book-review/saints-book-1-the-standard-of-truth-1815-1846.html</guid>
   <pubDate>Sun, 21 Jan 2024 20:19:11 GMT</pubDate>
-</item>
-<item>
-  <title>How to Win Friends and Influence People</title>
-  <dc:creator>Dale Carnegie</dc:creator>
-  <link>https://www.bryanwhiting.com/book-review/how-to-win-friends-and-influence-people.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="section" class="level1 page-columns page-full">
-<h1>2024-02-06</h1>
-<ul>
-<li><p>A man convinced against his will of the same opinion remains still</p></li>
-<li><p>You can’t win an argument # 2024-02-05</p></li>
-<li><p>People want a feeling of self importance. It motivates their actions. Most people want to be important and try to find their way</p></li>
-<li><p>To be interesting be interested</p></li>
-<li><p>Always make the other person feel important.</p></li>
-<li><p>“Every man I meet is my superior in some way” - Emerson</p></li>
-</ul>
-<p>2024-02-03</p>
-<ul>
-<li>you’ll make more friends being genuinely interested in others than trying to get them genuinely interested in you.</li>
-<li>Authors: do they like people?</li>
-<li>Being interested in others is cornerstone of sales.</li>
-<li>Smile on the phone</li>
-<li>Action and feeling go to gather. Fake it and you’ll make it. Smile.</li>
-<li>Smiles bring you more richness than anything else.</li>
-</ul>
-<p>2024-01-22 - father poem. Father forgets. - bate the hook to please the fish - Tell them what they want - And how to get it - Lavish with praise. This is greater incentive than any criticism - What do they want? (Not what do I want?) “smoking will keep you from making the bball team” - Ford: put yourself in their position. Consider it. And consider your own - Consider how they’ll receive your email. They have a ton of problems. They’re overwhelmed. Don’t sell them. Teach them the benefits they’ll get. - Flattery vs appreciation - flattery is lip service. If you’re trying to convince someone to do something and you’re using flattery, then thats manipulation. And you’re prone to get angry if they don’t want to do it (kids). But if you’re sincere, you’ll find a solution - Arouse in others an eager want - Don’t tell someone an idea. Plant the seed and make them think it’s their own.</p>
-<p>2024-01-20 - 85% of success is in non-technical skills. Communication. - We grow far faster by rewarding good behavior than punishing bad behavior - Kids. - Futility of criticism - Ask questions. “Does your hard hat not fit properly? It will save you.” - Don’t kick a beehive if you want honey - “I don’t see how I could have done any better” - Criticism - Abraham Lincoln never sent the letter -</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/photo-how-to-win-friends-bullet-points.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Core ideas</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/book-how-to-win-friends.jpeg" class="img-fluid figure-img"></p>
-<figcaption class="margin-caption">How to win friends and influence people</figcaption>
-</figure>
-</div>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book-review</category>
-  <category>influence</category>
-  <category>leadership</category>
-  <category>parenting</category>
-  <guid>https://www.bryanwhiting.com/book-review/how-to-win-friends-and-influence-people.html</guid>
-  <pubDate>Sat, 20 Jan 2024 13:29:46 GMT</pubDate>
-</item>
-<item>
-  <title>The Wealth of Nations</title>
-  <dc:creator>Adam Smith</dc:creator>
-  <link>https://www.bryanwhiting.com/book-review/the-wealth-of-nations.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/book-wealth-of-nations-book-1.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Wealth of Nations</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book-review</category>
-  <category>economics</category>
-  <guid>https://www.bryanwhiting.com/book-review/the-wealth-of-nations.html</guid>
-  <pubDate>Fri, 19 Jan 2024 21:42:51 GMT</pubDate>
-</item>
-<item>
-  <title>The Inklings</title>
-  <dc:creator>Humphrey Carpenter</dc:creator>
-  <link>https://www.bryanwhiting.com/book-review/the-inklings.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/book-the-inklings-by-humphrey-carpenter.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">The Inklings</figcaption>
-</figure>
-</div>
-<p>I was reading the wrong book. I read <a href="../book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.html">The Oxford Inklings: Lewis, Tolkien and Their Circle</a> when my friends recommended <em>this</em> one instead.</p>
-<p>I already like this one better. It lays things out better i feel. More chronological. But perhaps it’s because he has more time to write it.</p>
-<p><a href="https://archive.org/details/dymer_2206_librivox">Dymer : C. S. Lewis : Free Download, Borrow, and Streaming : Internet Archive</a></p>
-<p>Knowing CS was in the war and had some relationship with Moore is fascinating.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book-review</category>
-  <guid>https://www.bryanwhiting.com/book-review/the-inklings.html</guid>
-  <pubDate>Fri, 19 Jan 2024 21:15:37 GMT</pubDate>
 </item>
 </channel>
 </rss>

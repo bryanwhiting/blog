@@ -10,7 +10,30 @@
 <atom:link href="https://www.bryanwhiting.com/tech.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Fri, 08 Mar 2024 12:36:15 GMT</lastBuildDate>
+<lastBuildDate>Mon, 11 Mar 2024 19:30:57 GMT</lastBuildDate>
+<item>
+  <title>News Notes for 2024-03-11</title>
+  <link>https://www.bryanwhiting.com/news/2024-03-11-news-notes.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><a href="https://simonwillison.net/2024/Mar/8/gpt-4-barrier/">The GPT-4 barrier has finally been broken</a></p>
+<ul>
+<li>this doesn’t even mention Llama or apple’s Ferret <a href="https://github.com/apple/ml-ferret">ferret</a></li>
+<li><a href="https://generativeai.pub/hushed-arrival-of-apples-open-source-multimodal-llm-called-ferret-a-commitment-to-open-and-239a0285a866">Hushed Arrival of Apple’s Open Source Multimodal LLM called Ferret: A Commitment to Open and Responsible AI or Strategic Power Play? | by Miz Causevic | Generative AI</a></li>
+</ul>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>news</category>
+  <category>ai</category>
+  <guid>https://www.bryanwhiting.com/news/2024-03-11-news-notes.html</guid>
+  <pubDate>Mon, 11 Mar 2024 19:30:57 GMT</pubDate>
+</item>
 <item>
   <title>Setting up a New Mac</title>
   <link>https://www.bryanwhiting.com/tech/setting-up-a-new-mac.html</link>
@@ -737,56 +760,6 @@ TikTok presents Boximator!<br><br>This method can generate rich and controllable
   <category>data engineering</category>
   <guid>https://www.bryanwhiting.com/tech/protobufs-everything-i-dont-know.html</guid>
   <pubDate>Thu, 08 Feb 2024 20:14:47 GMT</pubDate>
-</item>
-<item>
-  <title>Pkl for Configuration Management</title>
-  <link>https://www.bryanwhiting.com/tech/pkl-for-configuration-management.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p><a href="https://pkl-lang.org/blog/introducing-pkl.html">Pkl</a> is the new kid on the block.</p>
-<p>Have you ever built a config for a modeling pipeline? Surely, if you’ve built a pipeline to do experiments you’ve wondered how you can quickly iterate through a bunch of different settings to see which model is the best for your use case.</p>
-<p>Maybe you want to generate a list of hypothesis to test, and then compare and contrast them.</p>
-<p>Like any good data scientist you’ve created a system to loop over some settings.</p>
-<p>It’s the big challenge of data science: how do I configure something? Should I build this function to do one thing or should I build a development environment where I can explore a thousand things? If I build a development environment how do I know if all the things I’ve configured aren’t going to be moot in a few weeks or months?</p>
-<p>I don’t have the answer to those questions. But perhaps how we design our configs can affect those design decisions.</p>
-<p>Pkl is cool because it lets you do a for loop to output configs.</p>
-<p>Here’s a basic config file per their docs:</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/screenshot-pkl-configs.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Config</figcaption>
-</figure>
-</div>
-<p>And here’s that config looped and rendered:</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/screenshot-pkl-render.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Rendered</figcaption>
-</figure>
-</div>
-<section id="application-to-ds" class="level1">
-<h1>Application to DS</h1>
-<p>I’m not 100% sure that this is any easier for a Python developer than just using ChatGPT to loop some parameters and spit out a bunch of yaml files. Because YAML does have some validation to it. And YAML has been around a long time.</p>
-<p>Anything’s better than Python’s ConfigParser…yuck.</p>
-<p>Reminds me of <a href="https://protobuf.dev/">Protocol Buffers Documentation</a> but honestly I don’t know much about this stuff. See <a href="../tech/protobufs-everything-i-dont-know.html">Protobufs - Everything I don’t know</a></p>
-<p>But it’s nice to see people are thinking about configs…</p>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>tech</category>
-  <category>coding</category>
-  <category>data engineering</category>
-  <category>data science</category>
-  <category>data pipeline</category>
-  <category>configuration</category>
-  <guid>https://www.bryanwhiting.com/tech/pkl-for-configuration-management.html</guid>
-  <pubDate>Thu, 08 Feb 2024 19:56:26 GMT</pubDate>
 </item>
 </channel>
 </rss>

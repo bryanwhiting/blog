@@ -10,7 +10,184 @@
 <atom:link href="https://www.bryanwhiting.com/all.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Sat, 09 Mar 2024 23:58:03 GMT</lastBuildDate>
+<lastBuildDate>Mon, 11 Mar 2024 20:57:45 GMT</lastBuildDate>
+<item>
+  <title>The 6 Types of Working Genius</title>
+  <dc:creator>Patrick Lencioni</dc:creator>
+  <link>https://www.bryanwhiting.com/book-review/the-6-types-of-working-genius.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Summary:</p>
+<ul>
+<li>about 70% of an instructive story and 30% the true content. The story is really cringe/cheesy but helps introduce the ideas.</li>
+<li>Back 30% presents the concrete definitions. It lays out how a team can truly work together as a team to complement each other’s strengths.</li>
+</ul>
+<p>2024-03-11</p>
+<p><a href="https://www.shortform.com/blog/the-6-types-of-working-genius/">The 6 Types of Working Genius: Book Overview | Shortform Books</a></p>
+<p>We all have things that either energize or drain us. If we’re aware, we can complement each other.</p>
+<p>Three phases of work/a task: ideation, activation, and implementation. Each task requires two types of genius.</p>
+<ul>
+<li>Ideation
+<ul>
+<li>Wonder: Ask why? Ask “is there a better way?”</li>
+<li>Innovation: figure out solutions.</li>
+</ul></li>
+<li>Activation
+<ul>
+<li>Discernment: use intuition and judgment in figuring out good/bad ideas</li>
+<li>Galvanize/rally people/buy-in</li>
+</ul></li>
+<li>implementation
+<ul>
+<li>Enable: volunteer. Help people. Empower.</li>
+<li>Tenacity: cross the finish line. Execute. Pound obstacles.</li>
+</ul></li>
+</ul>
+<p>Six type of genius more concretely defined:</p>
+<ul>
+<li>Wonder: Involved the ability to ponder, speculate, and question the state of things. Asking the questions that provoke answer and action. People with this genius are naturally inclined to do these things, to lose themselves in observing the world around them and wondering if things shouldn’t be different or untapped potential that should be tapped.</li>
+<li>Innovation: come up with new ideas or solutions. They’re drawn to origination, creativity and ingenuity, even with little context or directions. Though every type is a genius, these are the people who are most often referred to as geniuses because many of their ideas seem to come out of thin air.</li>
+<li>Discernment: related to sanctity, intuition, and uncanny judgment. People with this genius have the natural ability to assess an idea or situation even without a lot of data or expertises. Using pattern recognition and gut feel they’re able to provide valuable advice and feedback around most subjects in a way that transcends their levels of specific knowledge or information.</li>
+<li>Galvanizing: is about rallying, motivating, or provoking people to take action around an idea or an initiative. People with this genius are naturally inclined to inspire or enlist people to get involved in an endeavor. They don’t mind persuading people to rethink or change their plans to embark on something worthwhile.</li>
+<li>Enabling: providing people with support and assistance in a way that it is needed. People with this genius are adept at responding to the needs of others without conditions or restrictions. They’re naturally inclined to help others accomplish their goals and can often anticipate what people might need before they ask. Individuals with this genius are frequently unaware that this is a genius at all.</li>
+<li>Tenacity: is about the satisfaction of pushing things across the finish line to completion. They’re not only capable of and naturally inclined to finish projects to ensure they’re completed to specification. They gain energy by pushing through obstacles and seeing the impact of their work and they find joy from crossing tasks off their list and getting closure.</li>
+</ul>
+<p>Categories of genius - each person has two geniuses, two competencies, and two frustrations. (Per their research)</p>
+<ul>
+<li>Genius: it energizes you. Joy, energy, and passion.</li>
+<li>Competency: it neither energizes nor drains you. Can do fairly well. But we will eventually grow weary if we can do our geniuses.</li>
+<li>Frustration: it drains you. Struggle. Hate it. You can spent a ton of time here without getting to burnout, or failure.</li>
+</ul>
+<p>Genius activation modes: you’ll probably have two responsive and two disruptive geniuses.</p>
+<ul>
+<li>Responsive: respond to an external stimulus to be put into action. Need to be activated by an event.</li>
+<li>Disruptive: initiate or provoke change when they see a need for it. More proactive.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/book-the-6-types-of-working-genius.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Book cover</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book-review</category>
+  <category>productivity</category>
+  <category>personality</category>
+  <category>culture</category>
+  <category>team building</category>
+  <category>teamwork</category>
+  <guid>https://www.bryanwhiting.com/book-review/the-6-types-of-working-genius.html</guid>
+  <pubDate>Mon, 11 Mar 2024 20:57:45 GMT</pubDate>
+</item>
+<item>
+  <title>Light GBM Documentation</title>
+  <dc:creator>x </dc:creator>
+  <link>https://www.bryanwhiting.com/book-review/light-gbm-documentation.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I’ve been a long-time XGBoost user, so I want to upskill.</p>
+<p><a href="https://lightgbm.readthedocs.io/en/stable/">Welcome to LightGBM’s documentation! — LightGBM 4.0.0 documentation</a></p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/book-light-gbm-documentation.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Light GBM</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book-review</category>
+  <category>upskilling</category>
+  <category>tech</category>
+  <category>data science</category>
+  <guid>https://www.bryanwhiting.com/book-review/light-gbm-documentation.html</guid>
+  <pubDate>Mon, 11 Mar 2024 16:19:29 GMT</pubDate>
+</item>
+<item>
+  <title>Forecasting: Principles and Practice</title>
+  <dc:creator>Rob Hyndman</dc:creator>
+  <link>https://www.bryanwhiting.com/book-review/forecasting-principles-and-practice.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>#Forecasting #timeseries #datascience #machinelearning #ForecastingPrinciplesAndPractice</p>
+<p><a href="https://otexts.com/fpp3/intro.html">Chapter 1 Getting started | Forecasting: Principles&nbsp;and&nbsp;Practice (3rd&nbsp;ed)</a> 2024-03-11</p>
+<ul>
+<li>People have always wanted to forecast, such as ancients using the shape of sheep liver to predict the future. Tarot cards, prophets, etc have been religious and spiritual forecasters.</li>
+<li>Forecasting has always been a guessing game.</li>
+<li>Sometimes you can use algorithms to mine historical data for forecasting, but that assumes the future will be like the past.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/book-forecasting-principles-and-practice.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Forecasting</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book-review</category>
+  <category>data science</category>
+  <category>tech</category>
+  <category>upskilling</category>
+  <guid>https://www.bryanwhiting.com/book-review/forecasting-principles-and-practice.html</guid>
+  <pubDate>Mon, 11 Mar 2024 10:38:10 GMT</pubDate>
+</item>
+<item>
+  <title>I’m Grateful for I’m grateful for logicians</title>
+  <link>https://www.bryanwhiting.com/gratitude/im-grateful-for-logicians.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>It’s great fun reading <a href="../book-review/mere-christianity.html">Mere Christianity</a> because I’ve thought about several of these things before and am now just seeing him write about it much more effectively. I’m grateful for people who are good writers.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>gratitude</category>
+  <guid>https://www.bryanwhiting.com/gratitude/im-grateful-for-logicians.html</guid>
+  <pubDate>Sun, 10 Mar 2024 23:48:46 GMT</pubDate>
+</item>
+<item>
+  <title>2 Nephi 21.6</title>
+  <link>https://www.bryanwhiting.com/christianity/2-nephi-21-the-wolf-and-the-lamb.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<blockquote class="blockquote">
+<p>The wolf also shall dwell with the lamb, and the leopard shall lie down with the kid, and the calf and the young lion and fatling together; and a little child shall lead them.</p>
+</blockquote>
+<p>See <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/21?id=p6&amp;lang=eng#p6">2 Nephi 21.6</a></p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>favorite scriptures</category>
+  <guid>https://www.bryanwhiting.com/christianity/2-nephi-21-the-wolf-and-the-lamb.html</guid>
+  <pubDate>Sun, 10 Mar 2024 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>2 Nephi 20-25 Lesson Plan</title>
   <link>https://www.bryanwhiting.com/christianity/2-nephi-20-25-lesson-plan.html</link>
@@ -332,6 +509,15 @@
 
 
 
+<ul>
+<li>Cs Lewis didn’t listen to his friends</li>
+</ul>
+<p>2024-03-10</p>
+<ul>
+<li>Good people know about good and evil, the way a sober person clearly understands a drunk.</li>
+<li>Giving charitably. Give more than you can, sacrificing some things for it.</li>
+<li>I love the theology he thinks through, such as repentance and such. But he also delves specifically into doctrines like saying whether sexual perversion is worse or better than being a nice person to someone else. Perhaps this is the content Tolkien wished he had left to clergy people. <a href="../book-review/the-inklings.html">The Inklings</a></li>
+</ul>
 <p>2024-03-03</p>
 <ul>
 <li>I wrote <a href="../christianity/2024-03-03-my-testimony.html">My Testimony</a> today without having read this book - cool to see we both had the same logic on “math” and “law of nature”.</li>
@@ -463,178 +649,6 @@
   <category>epistemology</category>
   <guid>https://www.bryanwhiting.com/christianity/2024-03-03-my-testimony.html</guid>
   <pubDate>Sun, 03 Mar 2024 13:18:54 GMT</pubDate>
-</item>
-<item>
-  <title>2 Nephi 18.19</title>
-  <link>https://www.bryanwhiting.com/christianity/2-nephi-18.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<blockquote class="blockquote">
-<p>And when they shall say unto you: Seek unto them that have familiar spirits, and unto wizards that peep and mutter—should not a people seek unto their God for the living to hear from the dead?</p>
-</blockquote>
-<p>See <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/18?id=p19&amp;lang=eng#p19">2 Nephi 18.19</a></p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>favorite scriptures</category>
-  <guid>https://www.bryanwhiting.com/christianity/2-nephi-18.html</guid>
-  <pubDate>Sun, 03 Mar 2024 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Implementing Culture</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/implementing-culture.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>One of the most important asset a company wields is its culture.</p>
-<p>A culture is hard to define, but you know it when you see it. It’s the collective personality and written and unwritten rules of engagement. Since corporate employment is a social contract of two at-will parties, the culture emerges from the rules of conduct in which the employer is satisfied with continuing employment of the employee.</p>
-<p>Values are lip service without implementation. Assume your company has the value “be kind”. Everyone has a different interpretation of what that means to them.</p>
-<p>How do you know what a good culture is? People know the values of the culture and can highlight practices examples of it. The culture should live naturally, but also mechanically. Meaning, an employee will be kind while holding the door open for someone (be kind), but also provide explicit growth-oriented feedback.</p>
-<p>Signs of a bad culture are therefore evident in the opposite of my definition. Like Lord of the Flies, employees are fending for survival and constantly exploring the boundaries because there are now rules of government. Employees that can’t recount what the values are or demonstrate how the company mechanically employs them are hoping for natural demonstration but get confused when they get mixed signals.</p>
-<p>Toxic cultures can achieve financial success. “Toxic” has no concrete definition, but probably reveals people trying to survive on the island rather than thrive in a civilization. It stands, therefore, that a great culture will endure the battles of business, and come out tighter. At some point it won’t matter how bright your people are, how clever your IP is, or how many customers you have: culture is the rudder.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-large-boat-small-rudder.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">A small boat with a large rudder will get where it needs to go. But a large boat with a small rudder is doomed</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>posts</category>
-  <category>interviewing</category>
-  <category>culture</category>
-  <category>business</category>
-  <guid>https://www.bryanwhiting.com/posts/implementing-culture.html</guid>
-  <pubDate>Sat, 02 Mar 2024 13:58:42 GMT</pubDate>
-</item>
-<item>
-  <title>Band of Brothers</title>
-  <dc:creator>Stephen E. Ambrose</dc:creator>
-  <link>https://www.bryanwhiting.com/book-review/band-of-brothers.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>2024-03-09</p>
-<p>Interesting stories:</p>
-<ul>
-<li>noticing the new tree</li>
-<li>Webster’s commentaries</li>
-<li>The personalities</li>
-<li>The mental fortitude and collapse</li>
-<li>How 101 went to the fight while other people retreated.</li>
-</ul>
-<p>2024-03-06</p>
-<ul>
-<li>the book is a review of battles in incredible detail. Lots of details on maneuvers. But also shows the desperation. Of the situation.</li>
-<li>things that impacted me:
-<ul>
-<li>The way they react to bullets and artillery. Sometimes laughing. Then crying.</li>
-<li>The war breaks some people. They go crazy.</li>
-<li>Some shot their own hands to avoid the war</li>
-<li>Million dollar</li>
-<li>Cover fire.</li>
-<li>Looting. Lent up energy. 60+ days no showering. Digging own fox holes deep. Friendly fire and shooting or bayoneting own people. Miracle of a stray bullet not killing you.</li>
-<li>Polish with guns behind their back (from Germany) so they’d fight.</li>
-</ul></li>
-</ul>
-<p><a href="https://www.youtube.com/watch?v=-CQatuQdQv4">YouTube video on the war</a></p>
-<p><a href="https://youtu.be/SOiiSgDLkn4?si=gOmnG9mEBzy22h6Y">YouTube - battle of the bulge google maps</a></p>
-<p><a href="https://www.youtube.com/watch?v=c91v7jLDnAg">YouTube battle of dunkirk 1940</a></p>
-<p>2024-03-02</p>
-<ul>
-<li>they want to be with the best rather than the common infantry unit. Their chances of survival are higher.</li>
-</ul>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/book-band-of-brothers.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Band of Brothers</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book-review</category>
-  <guid>https://www.bryanwhiting.com/book-review/band-of-brothers.html</guid>
-  <pubDate>Sat, 02 Mar 2024 10:36:41 GMT</pubDate>
-</item>
-<item>
-  <title>Nothing to Lose</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/nothing-to-lose.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>There was a moment when I had everything to lose. When I was junior in high school, I was scared I’d be cut from the lacrosse team. There was only one coach and he didn’t have space for everybody. Coach held try outs.</p>
-<p>My dad was traveling the week of try outs. I gave him a call. “What if I don’t make the team?”</p>
-<p>He waits till I finish. And in a way characteristic of my Dad, he re-emphasizes the question. “<em>What</em> if? You go out there, you play your hardest, you give it your all. The rest is out of your hands. If you get cut, you get cut.”</p>
-<p>He didn’t give me false praise or reassurance. He gave me perspective on life. He gave me “nothing to lose.”</p>
-<p>I never worked harder in my athletics than that week. I just didn’t want to get cut.</p>
-<p>Well, I passed try outs. So did everyone else because it was just a coaching trick to motivate us…but that’s beside the point. But my dad’s advice was never lost on me.</p>
-<p>I had low confidence the whole season. Yet my coach took a surprising interest in me. I got playing time as a junior. I was a part time defender.</p>
-<p>Little did I know, nor could I ever have imagined as a defender who could barely pass or catch, that in my coach’s last game, I would be sitting on the wrong side of the field. I would be standing, as a defender, right in front of the opposing team’s goalie crease. I’m not quite sure how I got there as the whole season I always sprinted off the field whenever we transitioned from defense to offense.</p>
-<p>My coach always yelled at me. “Stay on the field!! It’s a fast break!” But I was always terrified of dropping the ball. I was great at defense. Great at scooping the ball. Great at passing it to an offender. This was my safe place.</p>
-<p>Yet here I was, in the final minutes of the game. We had three, they had five. And I’m on the crease. What was I doing here?</p>
-<p>My eyes and voice called to my teammate who saw me. My teammate who knew full well I had no intention of actually catching the ball. My teammate who would love to pass it to me if he had any assurance I’d actually catch it. I could see his eyes lock with mine and it only takes 8 years playing a sport to recognize that split-second glance, “Are you going to actually catch this?” My eyes asserted in that moment with my stick extended and ready “I really don’t know. But I’m wide open and I’m on the crease. And you have the defender and not me. So make a call.”</p>
-<p>To my surprise he actually passed it. It didn’t have to be a just perfunctory vanity motion to please the coach. Because I’ve called for the ball many times in that wrote script, “oh please pass it I swear it’s worth all our time okay I did my thing now you guys go score because I’m outta here!”</p>
-<p>I catch. I turn. I dunk. 4-5.</p>
-<p>What just happened?</p>
-<p>I asked Teddy later why he actually passed it to me. “I figured, what the heck? Maybe he’ll catch it!!” We both laughed. He had nothing to lose.</p>
-<p>I didn’t know it then, but it was the last goal anybody would score for my coach. It was the last game of the season. The last game of his 35 year career at our school. I was wholly undeserving.</p>
-<p>And that’s when you stand most to gain.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>posts</category>
-  <category>memories</category>
-  <guid>https://www.bryanwhiting.com/posts/nothing-to-lose.html</guid>
-  <pubDate>Fri, 01 Mar 2024 11:53:31 GMT</pubDate>
-</item>
-<item>
-  <title>2 Nephi 14 - Personalized Guidance</title>
-  <link>https://www.bryanwhiting.com/christianity/2-nephi-14-personalized-guidance.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="scriptures" class="level1">
-<h1>Scriptures</h1>
-<blockquote class="blockquote">
-<p>And the Lord will create upon every dwelling-place of mount Zion, and upon her assemblies, a cloud and smoke by day and the shining of a flaming fire by night; for upon all the glory of Zion shall be a defence. <a href="../scriptures/2-nephi-14.5">2 Nephi 14.5</a></p>
-</blockquote>
-</section>
-<section id="meaning" class="level1">
-<h1>Meaning</h1>
-<p>The Lord seeks to offer individualized guidance, the way that He provides guidance for the group. Fire to light the way, smoke to shield you from the past.</p>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>christianity</category>
-  <category>come follow me</category>
-  <guid>https://www.bryanwhiting.com/christianity/2-nephi-14-personalized-guidance.html</guid>
-  <pubDate>Fri, 01 Mar 2024 00:16:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
