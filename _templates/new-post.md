@@ -48,7 +48,7 @@ if (folder === 'gratitude') {
 let content = `
 title: "${title}"
 description: |
-  x
+  _
 date: "${date}"  
 created: "${date}"
 categories: ${folder}  
