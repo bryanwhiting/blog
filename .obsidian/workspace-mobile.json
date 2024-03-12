@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/the-6-types-of-working-genius.md",
+                "file": "christianity/2-nephi-26.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "book-review/the-6-types-of-working-genius.md",
+            "file": "christianity/2-nephi-26.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "book-review/the-6-types-of-working-genius.md"
+            "file": "christianity/2-nephi-26.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "book-review/the-6-types-of-working-genius.md",
+            "file": "christianity/2-nephi-26.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,13 +141,16 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "news/2024-03-11-news-notes.md",
+    "scriptures/2-nephi-26.9.md",
+    "gratitude/a-sleeping-baby.md",
+    "christianity/2-nephi-26.md",
+    "_templates/new-post.md",
     "book-review/the-6-types-of-working-genius.md",
+    "news/2024-03-11-news-notes.md",
     "book-review/light-gbm-documentation.md",
     "lists/reading-list.md",
     "book-review/forecasting-principles-and-practice.md",
     "img/book-forecasting-principles-and-practice.jpeg",
-    "_templates/new-post.md",
     "img/book-light-gbm-documentation.jpeg",
     "2-nephi-21-wolf-and-lamb.md",
     "gratitude/im-grateful-for-logicians.md",
@@ -167,9 +170,6 @@
     "quotes/im-going-to-let-you-down.md",
     "tech/setting-up-a-new-mac.md",
     "quotes/if-your-kids-wont-remember-this-time-who-will.md",
-    "scriptures/2-nephi-25.24-27.md",
-    "book-review/beyond-band-of-brothers.md",
-    "posts/book-summaries.md",
     "quotes",
     "img/dalle-nap-on-a-sectional.jpeg",
     "img/book-mere-christianity.jpeg",
