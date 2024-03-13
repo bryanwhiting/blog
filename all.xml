@@ -147,6 +147,13 @@
 
 <p>I’ve been a long-time XGBoost user, so I want to upskill.</p>
 <p><a href="https://lightgbm.readthedocs.io/en/stable/">Welcome to LightGBM’s documentation! — LightGBM 4.0.0 documentation</a></p>
+<p>Differences:</p>
+<ul>
+<li>Grow’s leaf wise, not level wise.</li>
+<li>Memory management</li>
+<li>uses histograms rather than exact splits.</li>
+<li>Better default category management.</li>
+</ul>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="https://www.bryanwhiting.com/img/book-light-gbm-documentation.jpeg" class="preview-image img-fluid figure-img"></p>

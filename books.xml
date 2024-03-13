@@ -98,6 +98,13 @@
 
 <p>I’ve been a long-time XGBoost user, so I want to upskill.</p>
 <p><a href="https://lightgbm.readthedocs.io/en/stable/">Welcome to LightGBM’s documentation! — LightGBM 4.0.0 documentation</a></p>
+<p>Differences:</p>
+<ul>
+<li>Grow’s leaf wise, not level wise.</li>
+<li>Memory management</li>
+<li>uses histograms rather than exact splits.</li>
+<li>Better default category management.</li>
+</ul>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="https://www.bryanwhiting.com/img/book-light-gbm-documentation.jpeg" class="preview-image img-fluid figure-img"></p>
@@ -861,6 +868,33 @@
 
 
 
+<p><a href="https://www.thecoddling.com/">The Coddling of the American Mind</a></p>
+<p>2024-03-12</p>
+<ul>
+<li>I feel this could have been written today.</li>
+<li>Safetyism. Words are harmful.</li>
+<li>Screens &gt; 2 hours a day increase risk of suicide.</li>
+<li>Kids are being coddled. Over worked. Over engineered for top tier schools. But who says those schools produce successful people? What’s the goal of getting into a top tier university? Will you really be better off in life? Most of the kids aren’t able to handle life and enjoy it.</li>
+<li>College has become a country club. Pay $100k/year.</li>
+<li>Kids</li>
+<li>Essentially, his theory is that universities are getting more fragile kids who are playing less, on social media more. They pursue safetyism. They give up liberties such as</li>
+<li>Let your kid walk where is safe for them to do so. Avoid overprotection.
+<ul>
+<li>Prepare kids.</li>
+<li>Free from adult guidance.</li>
+<li>Productive disagreement. Teach kids to argue productively.</li>
+</ul></li>
+<li>“Talk with strangers, just never go off with them”</li>
+</ul>
+<p>Adam grant on good conflict:</p>
+<ul>
+<li>Frame it as a debate rather than a conflict</li>
+<li>Argue as if you’re right but listen as if you’re wrong and be willing to change your mind</li>
+<li>Give the most respectful interpretation of the other person’s perspective</li>
+<li>Acknowledge where you agree with your critics and what you’ve learned from them.</li>
+</ul>
+<p>Your own thoughts unguarded.</p>
+<p><a href="https://www.wsj.com/articles/lsus-lazy-river-and-the-student-fee-sham-1513381917">wSJ on lazy river</a> - 207k/4 years. Insane. - 58k/year at Stanford.</p>
 <section id="section" class="level1">
 <h1>2024-01-25</h1>
 <ul>
