@@ -16,6 +16,36 @@ date-start: 2024-01-23 20:40:45
 date-finished: 2030-01-01
 pct-complete:
 ---
+[The Coddling of the American Mind](https://www.thecoddling.com/)
+
+
+2024-03-12
+
+- I feel this could have been written today. 
+- Safetyism. Words are harmful. 
+- Screens > 2 hours a day increase risk of suicide. 
+- Kids are being coddled. Over worked. Over engineered for top tier schools. But who says those schools produce successful people? What's the goal of getting into a top tier university? Will you really be better off in life? Most of the kids aren't able to handle life and enjoy it. 
+- College has become a country club. Pay $100k/year. 
+- Kids 
+- Essentially, his theory is that universities are getting more fragile kids who are playing less, on social media more. They pursue safetyism. They give up liberties such as 
+- Let your kid walk where is safe for them to do so. Avoid overprotection. 
+	- Prepare kids. 
+	- Free from adult guidance. 
+	- Productive disagreement. Teach kids to argue productively. 
+- "Talk with strangers, just never go off with them"
+
+Adam grant on good conflict:
+
+- Frame it as a debate rather than a conflict
+- Argue as if you're right but listen as if you're wrong and be willing to change your mind 
+- Give the most respectful interpretation of the other person's perspective
+- Acknowledge where you agree with your critics and what you've learned from them. 
+
+Your own thoughts unguarded. 
+
+[wSJ on lazy river](https://www.wsj.com/articles/lsus-lazy-river-and-the-student-fee-sham-1513381917)
+- 207k/4 years. Insane. 
+- 58k/year at Stanford. 
 
 # 2024-01-25
 - us vs them thinking 

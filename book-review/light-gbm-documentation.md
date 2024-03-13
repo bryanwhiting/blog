@@ -22,7 +22,12 @@ I've been a long-time XGBoost user, so I want to upskill.
 [Welcome to LightGBM’s documentation! — LightGBM 4.0.0 documentation](https://lightgbm.readthedocs.io/en/stable/)
 
 
+Differences:
 
+- Grow's leaf wise, not level wise. 
+- Memory management
+- uses histograms rather than exact splits. 
+- Better default category management. 
 
 
 ![Light GBM](../img/book-light-gbm-documentation.jpeg){.preview-image}
