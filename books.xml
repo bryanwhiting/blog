@@ -10,7 +10,55 @@
 <atom:link href="https://www.bryanwhiting.com/books.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Mon, 11 Mar 2024 20:57:45 GMT</lastBuildDate>
+<lastBuildDate>Thu, 14 Mar 2024 15:56:22 GMT</lastBuildDate>
+<item>
+  <title>The Happiest Man on Earth</title>
+  <dc:creator>Eddie Jaku</dc:creator>
+  <link>https://www.bryanwhiting.com/book-review/the-happiest-man-on-earth.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>2024-03-14</p>
+<ul>
+<li>Germans made a religion of logic, and it turned them cruel</li>
+<li>The dichotomy that you could be fined 200 franks for littering a cigarette butt and yet they threw children into the river,</li>
+<li>Crystallnacht. Broken glass.</li>
+<li>What would have happened had he not returned home that night?</li>
+<li>“I made the worst decision”. It’s what you say, but the decision itself to visit family was perhaps a good one. Resulting.</li>
+<li>“Are you hungry?” → the French did the most to help Jews.</li>
+<li>1936 for Spanish people leaving the Spanish civil war.</li>
+<li>15,000 prison</li>
+<li>Trains filled with fumes</li>
+<li>Doctor who used a razor to suicide over a latrine</li>
+<li>2.5 months to walk through France, to get caught while using the toilet. Parachuter.</li>
+<li>Escape bottom of train. Week hopping on and off trains.</li>
+<li>Train car with 44 liters of water for the whole train. His dad rationed 155 cups.</li>
+<li>“go tell your mother how much you love her. Do it for your new friend, Eddie, who cannot”. Sent to gas chambers.</li>
+<li>How could Hitler make enemies of friends, then civilized men into inhuman zombies. How could Hitler create such hate?</li>
+<li>Go to sleep naked. Wake up with naked</li>
+<li>Rags were more precious than gold.</li>
+<li>Germans were detailed and record keepers, which made them killers.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/book-the-happiest-man-on-earth.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">The Happiest Man on Earth</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book-review</category>
+  <category>ww2</category>
+  <category>philosophy</category>
+  <category>biography</category>
+  <guid>https://www.bryanwhiting.com/book-review/the-happiest-man-on-earth.html</guid>
+  <pubDate>Thu, 14 Mar 2024 15:56:22 GMT</pubDate>
+</item>
 <item>
   <title>The 6 Types of Working Genius</title>
   <dc:creator>Patrick Lencioni</dc:creator>
@@ -98,6 +146,10 @@
 
 <p>I’ve been a long-time XGBoost user, so I want to upskill.</p>
 <p><a href="https://lightgbm.readthedocs.io/en/stable/">Welcome to LightGBM’s documentation! — LightGBM 4.0.0 documentation</a></p>
+<p>2024-03-14</p>
+<section id="experiments" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="experiments">Experiments:</h2>
+<p>Features:</p>
 <p>Differences:</p>
 <ul>
 <li>Grow’s leaf wise, not level wise.</li>
@@ -113,6 +165,7 @@
 </div>
 
 
+</section>
 
 <p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
   <category>book-review</category>
@@ -133,7 +186,17 @@
 
 
 <p>#Forecasting #timeseries #datascience #machinelearning #ForecastingPrinciplesAndPractice</p>
-<p><a href="https://otexts.com/fpp3/intro.html">Chapter 1 Getting started | Forecasting: Principles&nbsp;and&nbsp;Practice (3rd&nbsp;ed)</a> 2024-03-11</p>
+<p><a href="https://otexts.com/fpp3/intro.html">Chapter 1 Getting started | Forecasting: Principles&nbsp;and&nbsp;Practice (3rd&nbsp;ed)</a></p>
+<p>2024-03-15</p>
+<p><a href="https://otexts.com/fpp3/data-methods.html">1.4 Forecasting data and methods | Forecasting: Principles&nbsp;and&nbsp;Practice (3rd&nbsp;ed)</a></p>
+<ul>
+<li>Two types of models: incorporate external data or is only based on time events.</li>
+<li>Judgmental forecasts vs qualitative forecasts. (Superforecasters )</li>
+</ul>
+<blockquote class="blockquote">
+<p>Occasionally, old data will be less useful due to structural changes in the system being forecast; then we may choose to use only the most recent data</p>
+</blockquote>
+<p>2024-03-11</p>
 <ul>
 <li>People have always wanted to forecast, such as ancients using the shape of sheep liver to predict the future. Tarot cards, prophets, etc have been religious and spiritual forecasters.</li>
 <li>Forecasting has always been a guessing game.</li>
@@ -869,6 +932,45 @@
 
 
 <p><a href="https://www.thecoddling.com/">The Coddling of the American Mind</a></p>
+<p>2024-03-13</p>
+<p>How to practice CBT</p>
+<ul>
+<li>read “feeling good” by David burns</li>
+</ul>
+<p><a href="https://www.thecoddling.com/how-to-do-cbt">Appendix 1: How to Do CBT | coddling</a></p>
+<ol type="1">
+<li>Take a moment to write down what you are feeling if you’re anxious, depressed, or upset</li>
+<li>Write down your level of distress (1-100)</li>
+<li>Write down what happened and what your automatic thoughts were when you felt the pang of anxie th or despair</li>
+<li>Consider the categories of distortions and write them down. “This is catastrophizing”</li>
+<li>Look for evidence for and against your thought</li>
+<li>Ask yourself what someone might say if they disagree with you. Is there any merit in that argument?</li>
+<li>Consider again what happens and reevaluate without the cognitive distortions.</li>
+<li>Write down your new feelings.</li>
+<li>Write again the weight of your thoughts.</li>
+</ol>
+<p>All 17 distortions from <a href="https://www.thecoddling.com/how-to-do-cbt">Appendix 1: How to Do CBT | coddling</a></p>
+<p>Categories of Distorted Automatic Thoughts</p>
+<ol type="1">
+<li><p>MIND READING: You assume that you know what people think without having sufficient evidence of their thoughts. “He thinksI’m a loser.”</p></li>
+<li><p>FORTUNE- TELLING: You predict the future negatively: Things will get worse, or there is danger ahead. “I’ll fail that exam,” or “I won’t get the job.”</p></li>
+<li><p>CATASTROPHIZING: You believe that what has happened or will happen will be so awful and unbearable that you won’t be able to stand it. “It would be terrible if I failed.”</p></li>
+<li><p>LABELING: You assign global negative traits to yourself and others.“I’m undesirable,” or “He’s a rotten person.”</p></li>
+<li><p>DISCOUNTING POSITIVES: You claim that the positive things you or others do are trivial. “That’s what wives are supposed to do— so it doesn’t count when she’s nice to me,” or “Those successes were easy, so they don’t matter.”</p></li>
+<li><p>NEGATIVE FILTERING: You focus almost exclusively on the negatives and seldom notice the positives. “Look at all of the people who don’t like me.”</p></li>
+<li><p>OVERGENERALIZING: You perceive a global pattern of negatives on the basis of a single incident. “This generally happens to me. I seem to fail at a lot of things.”</p></li>
+<li><p>DICHOTOMOUS THINKING: You view events or people in all‑or ‑ ‑nothing terms. “I get rejected by everyone,” or “It was a complete waste of time.”</p></li>
+<li><p>SHOULDS: You interpret events in terms of how things should be, rather than simply focusing on what is. “I should do well. If I don’t, then I’m a failure.”</p></li>
+<li><p>PERSONALIZING: You attribute a disproportionate amount of the blame to yourself for negative events, and you fail to see that certain events are also caused by others. “The marriage ended because I failed.”&nbsp;</p></li>
+<li><p>BLAMING: You focus on the other person as the source of your negative feelings, and you refuse to take responsibility for changing yourself. “She’s to blame for the way I feel now,” or “My parents caused all my problems.”</p></li>
+<li><p>UNFAIR COMPARISONS: You interpret events in terms of standards that are unrealistic— for example, you focus primarily on others who do better than you and find yourself inferior in the comparison. “She’s more successful than I am,” or “Others did better than Idid on the test.”</p></li>
+<li><p>REGRET ORIENTATION: You focus on the idea that you could have done better in the past, rather than on what you can do better now.“I could have had a better job if I had tried,” or “I shouldn’t have said that.”</p></li>
+<li><p>WHAT IF?: You keep asking a series of questions about “what if”something happens, and you fail to be satisfied with any of the answers. “Yeah, but what if I get anxious?” or “What if I can’t catch my breath?”</p></li>
+<li><p>EMOTIONAL REASONING: You let your feelings guide your interpretation of reality. “I feel depressed; therefore, my marriage is not working out.”</p></li>
+<li><p>INABILITY TO DISCONFIRM: You reject any evidence or arguments that might contradict your negative thoughts. For example, when you have the thought “I’m unlovable,” you reject as irrelevant any evidence that people like you. Consequently, your thought cannot be refuted. “That’s not the real issue. There are deeper problems.There are other factors.”</p></li>
+<li><p>JUDGMENT FOCUS: You view yourself, others, and events in terms of evaluations as good– bad or superior– inferior, rather than simply describing, accepting, or understanding. You are continually measuring yourself and others according to arbitrary standards, and finding that you and others fall short. You are focused on the judgments of others as well as your own judgments of yourself. “I didn’t perform well in college,” or “If I take up tennis, I won’t do well,” or“Look how successful she is. I’m not successful.”</p></li>
+</ol>
+<p>​</p>
 <p>2024-03-12</p>
 <ul>
 <li>I feel this could have been written today.</li>
@@ -885,6 +987,8 @@
 <li>Productive disagreement. Teach kids to argue productively.</li>
 </ul></li>
 <li>“Talk with strangers, just never go off with them”</li>
+<li>Kids today at 18 have the maturity of 15 year olds 20 years ago. Too much time on phones. Too much time afraid, even though substantively less crime.</li>
+<li>Mindfulness:</li>
 </ul>
 <p>Adam grant on good conflict:</p>
 <ul>
@@ -949,48 +1053,6 @@
   <category>education</category>
   <guid>https://www.bryanwhiting.com/book-review/the-coddling-of-the-american-mind.html</guid>
   <pubDate>Tue, 23 Jan 2024 20:40:45 GMT</pubDate>
-</item>
-<item>
-  <title>Saints Book 1 The Standard of Truth 1815-1846</title>
-  <dc:creator>The Church of Jesus Christ of Latter-Day Saints</dc:creator>
-  <link>https://www.bryanwhiting.com/book-review/saints-book-1-the-standard-of-truth-1815-1846.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/book-saints-volume-1-the-standard-of-truth-18151846.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Saints Book 1</figcaption>
-</figure>
-</div>
-<p>2024-02-04</p>
-<ul>
-<li>Joseph was only one to receive revelation. → if you interpret this scripture out of context, you might think no other prophet is worthy to lead the church. But that was a point in time revelation. → like the book of revelation: don’t add to this.</li>
-<li>Don’t covet thy own property → the Lord gives. He may recall for His purposes.</li>
-<li>Land of promise to the saints → riches. Seek with all heart. many lands of promise. Missouri? Utah?</li>
-<li>Prepare to receive the word of the Lord, for it is coming. → why didn’t the Lord send the word immediately? He wanted to prepare people. He’s a fisher of men. A farmer of men. A lord of the vineyard.</li>
-</ul>
-<blockquote class="blockquote">
-<p>“Where is your faith? Where is your confidence in God?” she demanded. “If you will all of you raise your desires to heaven, that the ice may be broken up and we be set at liberty, as sure as the Lord lives, it will be done.” <a href="../scriptures/11-ye-shall-receive-my-law">11 Ye Shall Receive My Law</a></p>
-</blockquote>
-<p>→ this gathering is stil</p>
-<p>2024-01-21</p>
-<ul>
-<li>“Attend to it” - Joseph Senior supported Joseph. The Angel wanted Joseph to know this.</li>
-<li>David’s field being ploughed overnight - a few items were left for David - the Lord did just enough. Also, the Lord honored the man’s request and didn’t disrespect him. The man got what he wanted, David did some more work, and the unnecessary part was finished by whomever.</li>
-<li>Didn’t know that Jerusalem had a wall. <a href="../christianity/1-nephi-20-baptism-in-the-old-testament.html">1 Nephi 20 - Baptism in the Old Testament</a></li>
-<li>Joseph’s trouble was being heavily persecuted physically. Like the Israelites. Now, physical persecution has mostly stopped and instead it’s just verbal assaults at “the church” from press and random voices on social media. The challenge of our day is to remain faithful.</li>
-</ul>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book-review</category>
-  <guid>https://www.bryanwhiting.com/book-review/saints-book-1-the-standard-of-truth-1815-1846.html</guid>
-  <pubDate>Sun, 21 Jan 2024 20:19:11 GMT</pubDate>
 </item>
 </channel>
 </rss>
