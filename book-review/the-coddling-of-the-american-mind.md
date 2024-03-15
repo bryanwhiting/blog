@@ -10,13 +10,73 @@ categories:
   - education
 draft: false
 author: Greg Lukianoff
-book-year: 2029
+book-year: 2018
 book-time: 10
 date-start: 2024-01-23 20:40:45
-date-finished: 2030-01-01
+date-finished: 2024-03-13
 pct-complete:
 ---
 [The Coddling of the American Mind](https://www.thecoddling.com/)
+
+
+2024-03-13
+
+How to practice CBT
+
+- read "feeling good" by David burns
+
+
+[Appendix 1: How to Do CBT | coddling](https://www.thecoddling.com/how-to-do-cbt)
+
+1. Take a moment to write down what you are feeling if you're anxious, depressed, or upset 
+2. Write down your level of distress (1-100)
+3. Write down what happened and what your automatic thoughts were when you felt the pang of anxie th or despair 
+4. Consider the categories of distortions and write them down. "This is catastrophizing"
+5. Look for evidence for and against your thought 
+6. Ask yourself what someone might say if they disagree with you. Is there any merit in that argument?
+7. Consider again what happens and reevaluate without the cognitive distortions. 
+8. Write down your new feelings. 
+9. Write again the weight of your thoughts. 
+
+All 17 distortions from [Appendix 1: How to Do CBT | coddling](https://www.thecoddling.com/how-to-do-cbt)
+
+Categories of Distorted Automatic Thoughts
+
+1. MIND READING: You assume that you know what people think without having sufficient evidence of their thoughts. “He thinksI’m a loser.”
+
+2. FORTUNE- TELLING: You predict the future negatively: Things will get worse, or there is danger ahead. “I’ll fail that exam,” or “I won’t get the job.”
+
+3. CATASTROPHIZING: You believe that what has happened or will happen will be so awful and unbearable that you won’t be able to stand it. “It would be terrible if I failed.”
+
+4. LABELING: You assign global negative traits to yourself and others.“I’m undesirable,” or “He’s a rotten person.”
+
+5. DISCOUNTING POSITIVES: You claim that the positive things you or others do are trivial. “That’s what wives are supposed to do— so it doesn’t count when she’s nice to me,” or “Those successes were easy, so they don’t matter.”
+
+6. NEGATIVE FILTERING: You focus almost exclusively on the negatives and seldom notice the positives. “Look at all of the people who don’t like me.”
+
+7. OVERGENERALIZING: You perceive a global pattern of negatives on the basis of a single incident. “This generally happens to me. I seem to fail at a lot of things.”
+
+8. DICHOTOMOUS THINKING: You view events or people in all‑or ‑ ‑nothing terms. “I get rejected by everyone,” or “It was a complete waste of time.”
+
+9. SHOULDS: You interpret events in terms of how things should be, rather than simply focusing on what is. “I should do well. If I don’t, then I’m a failure.”
+
+10. PERSONALIZING: You attribute a disproportionate amount of the blame to yourself for negative events, and you fail to see that certain events are also caused by others. “The marriage ended because I failed.” 
+
+11. BLAMING: You focus on the other person as the source of your negative feelings, and you refuse to take responsibility for changing yourself. “She’s to blame for the way I feel now,” or “My parents caused all my problems.”
+
+12. UNFAIR COMPARISONS: You interpret events in terms of standards that are unrealistic— for example, you focus primarily on others who do better than you and find yourself inferior in the comparison. “She’s more successful than I am,” or “Others did better than Idid on the test.”
+
+13. REGRET ORIENTATION: You focus on the idea that you could have done better in the past, rather than on what you can do better now.“I could have had a better job if I had tried,” or “I shouldn’t have said that.”
+
+14. WHAT IF?: You keep asking a series of questions about “what if”something happens, and you fail to be satisfied with any of the answers. “Yeah, but what if I get anxious?” or “What if I can’t catch my breath?”
+
+15. EMOTIONAL REASONING: You let your feelings guide your interpretation of reality. “I feel depressed; therefore, my marriage is not working out.”
+
+16. INABILITY TO DISCONFIRM: You reject any evidence or arguments that might contradict your negative thoughts. For example, when you have the thought “I’m unlovable,” you reject as irrelevant any evidence that people like you. Consequently, your thought cannot be refuted. “That’s not the real issue. There are deeper problems.There are other factors.”
+
+17. JUDGMENT FOCUS: You view yourself, others, and events in terms of evaluations as good– bad or superior– inferior, rather than simply describing, accepting, or understanding. You are continually measuring yourself and others according to arbitrary standards, and finding that you and others fall short. You are focused on the judgments of others as well as your own judgments of yourself. “I didn’t perform well in college,” or “If I take up tennis, I won’t do well,” or“Look how successful she is. I’m not successful.”
+
+​
 
 
 2024-03-12
@@ -33,6 +93,8 @@ pct-complete:
 	- Free from adult guidance. 
 	- Productive disagreement. Teach kids to argue productively. 
 - "Talk with strangers, just never go off with them"
+- Kids today at 18 have the maturity of 15 year olds 20 years ago. Too much time on phones. Too much time afraid, even though substantively less crime. 
+- Mindfulness: 
 
 Adam grant on good conflict:
 
@@ -42,6 +104,7 @@ Adam grant on good conflict:
 - Acknowledge where you agree with your critics and what you've learned from them. 
 
 Your own thoughts unguarded. 
+
 
 [wSJ on lazy river](https://www.wsj.com/articles/lsus-lazy-river-and-the-student-fee-sham-1513381917)
 - 207k/4 years. Insane. 

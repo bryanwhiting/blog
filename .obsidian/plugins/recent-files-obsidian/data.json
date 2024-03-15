@@ -1,16 +1,100 @@
 {
   "recentFiles": [
     {
-      "basename": "the-coddling-of-the-american-mind",
-      "path": "book-review/the-coddling-of-the-american-mind.md"
+      "basename": "forecasting-principles-and-practice",
+      "path": "book-review/forecasting-principles-and-practice.md"
     },
     {
-      "basename": "whats-all-this-obsession-over-impact",
-      "path": "quotes/whats-all-this-obsession-over-impact.md"
+      "basename": "reading-list",
+      "path": "lists/reading-list.md"
+    },
+    {
+      "basename": "the-organized-mind",
+      "path": "book-review/the-organized-mind.md"
+    },
+    {
+      "basename": "2-nephi-27-the-purpose-of-the-book-of-mormon",
+      "path": "christianity/2-nephi-27-the-purpose-of-the-book-of-mormon.md"
+    },
+    {
+      "basename": "new-post",
+      "path": "_templates/new-post.md"
+    },
+    {
+      "basename": "freedom-of-religion",
+      "path": "gratitude/freedom-of-religion.md"
+    },
+    {
+      "basename": "the-happiest-man-on-earth",
+      "path": "book-review/the-happiest-man-on-earth.md"
+    },
+    {
+      "basename": "how-i-learn",
+      "path": "tech/how-i-learn.md"
+    },
+    {
+      "basename": "a-knife-to-a-gun-fight",
+      "path": "tech/a-knife-to-a-gun-fight.md"
+    },
+    {
+      "basename": "the-matrix",
+      "path": "tech/the-matrix.md"
+    },
+    {
+      "basename": "attention-is-increased-capacity-to-handle-multiple-ideas-increases-without-social-media",
+      "path": "posts/attention-is-increased-capacity-to-handle-multiple-ideas-increases-without-social-media.md"
     },
     {
       "basename": "light-gbm-documentation",
       "path": "book-review/light-gbm-documentation.md"
+    },
+    {
+      "basename": "why-data-science-takes-so-long",
+      "path": "quotes/why-data-science-takes-so-long.md"
+    },
+    {
+      "basename": "kids-jumping-on-me",
+      "path": "gratitude/kids-jumping-on-me.md"
+    },
+    {
+      "basename": "2-nephi-26-pride",
+      "path": "christianity/2-nephi-26-pride.md"
+    },
+    {
+      "basename": "the-coddling-of-the-american-mind",
+      "path": "book-review/the-coddling-of-the-american-mind.md"
+    },
+    {
+      "basename": "how-ebay-empowers-their-developers-with-ai",
+      "path": "quotes/how-ebay-empowers-their-developers-with-ai.md"
+    },
+    {
+      "basename": "devin-the-ai-coder",
+      "path": "tech/devin-the-ai-coder.md"
+    },
+    {
+      "basename": "discounting-positives",
+      "path": "quotes/discounting-positives.md"
+    },
+    {
+      "basename": "how-to-argue",
+      "path": "quotes/how-to-argue.md"
+    },
+    {
+      "basename": "if-this-was-written-by-adam-grant-would-it-get-10000-likes",
+      "path": "quotes/if-this-was-written-by-adam-grant-would-it-get-10000-likes.md"
+    },
+    {
+      "basename": "theres-something-really-boring-about-data-science",
+      "path": "quotes/theres-something-really-boring-about-data-science.md"
+    },
+    {
+      "basename": "bad-teams-bad-leaders",
+      "path": "quotes/bad-teams-bad-leaders.md"
+    },
+    {
+      "basename": "whats-all-this-obsession-over-impact",
+      "path": "quotes/whats-all-this-obsession-over-impact.md"
     },
     {
       "basename": "2-nephi-26",
@@ -21,24 +105,12 @@
       "path": "gratitude/a-sleeping-baby.md"
     },
     {
-      "basename": "new-post",
-      "path": "_templates/new-post.md"
-    },
-    {
       "basename": "the-6-types-of-working-genius",
       "path": "book-review/the-6-types-of-working-genius.md"
     },
     {
       "basename": "2024-03-11-news-notes",
       "path": "news/2024-03-11-news-notes.md"
-    },
-    {
-      "basename": "reading-list",
-      "path": "lists/reading-list.md"
-    },
-    {
-      "basename": "forecasting-principles-and-practice",
-      "path": "book-review/forecasting-principles-and-practice.md"
     },
     {
       "basename": "2-nephi-21-wolf-and-lamb",
@@ -127,78 +199,6 @@
     {
       "basename": "the-ten-thousand-hour-rule-doesnt-make-any-sense",
       "path": "quotes/the-ten-thousand-hour-rule-doesnt-make-any-sense.md"
-    },
-    {
-      "basename": "it-all-depends-on-me",
-      "path": "quotes/it-all-depends-on-me.md"
-    },
-    {
-      "basename": "bad-teams-bad-leaders",
-      "path": "quotes/bad-teams-bad-leaders.md"
-    },
-    {
-      "basename": "please-unfollow-me",
-      "path": "quotes/please-unfollow-me.md"
-    },
-    {
-      "basename": "look-at-the-plot",
-      "path": "quotes/look-at-the-plot.md"
-    },
-    {
-      "basename": "a-leader",
-      "path": "quotes/a-leader.md"
-    },
-    {
-      "basename": "2-nephi-25-talk-of-christ",
-      "path": "christianity/2-nephi-25-talk-of-christ.md"
-    },
-    {
-      "basename": "sun-on-turf",
-      "path": "gratitude/sun-on-turf.md"
-    },
-    {
-      "basename": "dune",
-      "path": "book-review/dune.md"
-    },
-    {
-      "basename": "dune-messiah",
-      "path": "book-review/dune-messiah.md"
-    },
-    {
-      "basename": "hendrix-a-machine-learning-platform-by-spotify",
-      "path": "tech/hendrix-a-machine-learning-platform-by-spotify.md"
-    },
-    {
-      "basename": "interviewing-as-an-ml-engineer",
-      "path": "tech/interviewing-as-an-ml-engineer.md"
-    },
-    {
-      "basename": "2-nephi-22-my-god-is-my-strength",
-      "path": "2-nephi-22-my-god-is-my-strength.md"
-    },
-    {
-      "basename": "artillery-takes-the-joy-out-of-life",
-      "path": "quotes/artillery-takes-the-joy-out-of-life.md"
-    },
-    {
-      "basename": "create-positivity",
-      "path": "quotes/create-positivity.md"
-    },
-    {
-      "basename": "Untitled 1",
-      "path": "Untitled 1.md"
-    },
-    {
-      "basename": "time-value-of-memories",
-      "path": "quotes/time-value-of-memories.md"
-    },
-    {
-      "basename": "2-nephi-20-true-mercy",
-      "path": "2-nephi-20-true-mercy.md"
-    },
-    {
-      "basename": "new-job",
-      "path": "gratitude/new-job.md"
     }
   ],
   "omittedPaths": [],

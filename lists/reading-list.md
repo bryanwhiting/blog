@@ -15,6 +15,8 @@ draft: false
 - [ ] Wealth of Nations #youtube https://www.youtube.com/watch?v=PH4B-SGf6-A #librivox #audible-credit 36hrs
 - [ ] Competing Against Luck #spotify #audible-credit 7.25hr. $13
 - [ ] Antifragile
+- [ ] Thinking in Bets, Annie Duke (coddling) #libby 7hr
+- [ ] Thinking fast and Slow 
 
 ### Fiction
 
@@ -55,12 +57,15 @@ To finish
 - [ ] Mere Christianity #libby 
 - [ ] The Place of the Lion #audible-credit #spotify 7.5
 - [x] The quest for Cosmic Justice - Sowll #audible-free [The Quest for Cosmic Justice](../book-review/the-quest-for-cosmic-justice.md)
+- [ ] On Liberty, John Stuart Mills #spotify-included #libby (coddling)
+- [ ] Feeling Good #spotify-included 13.5
 
 
 
 Tech and Profesh development 
 
 - Accelerate: the science of lean software and devops. #audible-credit 
+- Superforecasting #audible-credit 
 
 
 Other thoughs
@@ -101,6 +106,9 @@ Other thoughs
 ***
 # Backlog
 
+
+the worry cure: 3.5hrs #spotify-included 
+- Freeing your Child from Anxiety: 8hrs #spotify-included
 - [x] [killers-of-the-flower-moonyfg if](book-review/killers-of-the-flower-moonyfg%20if.md)
 - [x] [how-to-decide-simple-tools-for-making-better-choices](book-review/how-to-decide-simple-tools-for-making-better-choices.md)
 - [ ] Dale Carnegie Lincoln the Unknown #audible-credit 9.5hr

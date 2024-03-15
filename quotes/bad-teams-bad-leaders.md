@@ -1,10 +1,11 @@
 ---
-title: "Bad teams bad leaders"
+title: Bad teams bad leaders
 description: |
   x
-date: "2024-03-09 10:06:43"  
-created: "2024-03-09 10:06:43"
-categories: quotes  
+date: 2024-03-21T10:06:00
+created: 2024-03-09 10:06:43
+categories:
+  - quotes
 draft: false
 ---
 I knew the moment I joined this team I made a mistake. 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/the-coddling-of-the-american-mind.md",
+                "file": "book-review/forecasting-principles-and-practice.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "fearless",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": true,
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 4
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "book-review/the-coddling-of-the-american-mind.md",
+            "file": "book-review/forecasting-principles-and-practice.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "book-review/the-coddling-of-the-american-mind.md"
+            "file": "book-review/forecasting-principles-and-practice.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "book-review/the-coddling-of-the-american-mind.md",
+            "file": "book-review/forecasting-principles-and-practice.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,35 +141,36 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "quotes/whats-all-this-obsession-over-impact.md",
-    "book-review/the-coddling-of-the-american-mind.md",
-    "book-review/light-gbm-documentation.md",
-    "christianity/2-nephi-26.md",
-    "scriptures/2-nephi-26.9.md",
-    "gratitude/a-sleeping-baby.md",
-    "_templates/new-post.md",
-    "book-review/the-6-types-of-working-genius.md",
-    "news/2024-03-11-news-notes.md",
     "lists/reading-list.md",
+    "book-review/the-organized-mind.md",
     "book-review/forecasting-principles-and-practice.md",
+    "christianity/2-nephi-27-the-purpose-of-the-book-of-mormon.md",
+    "_templates/new-post.md",
+    "scriptures/2-nephi-27.26.md",
+    "scriptures/2-nephi-27.11.md",
+    "scriptures/2-nephi-27.20.md",
+    "scriptures/2-nephi-27.7.md",
+    "scriptures/2-nephi-27.3.md",
+    "gratitude/freedom-of-religion.md",
+    "book-review/the-happiest-man-on-earth.md",
+    "tech/how-i-learn.md",
+    "tech/a-knife-to-a-gun-fight.md",
+    "tech/the-matrix.md",
+    "posts/attention-is-increased-capacity-to-handle-multiple-ideas-increases-without-social-media.md",
+    "book-review/light-gbm-documentation.md",
+    "quotes/why-data-science-takes-so-long.md",
+    "gratitude/kids-jumping-on-me.md",
+    "christianity/2-nephi-26-pride.md",
+    "book-review/the-coddling-of-the-american-mind.md",
+    "quotes/how-ebay-empowers-their-developers-with-ai.md",
+    "tech/devin-the-ai-coder.md",
+    "quotes/discounting-positives.md",
+    "quotes/how-to-argue.md",
+    "quotes/if-this-was-written-by-adam-grant-would-it-get-10000-likes.md",
+    "img/screenshot-discounting-positives.jpeg",
     "img/book-forecasting-principles-and-practice.jpeg",
     "img/book-light-gbm-documentation.jpeg",
-    "2-nephi-21-wolf-and-lamb.md",
-    "gratitude/im-grateful-for-logicians.md",
-    "christianity/2-nephi-21-the-wolf-and-the-lamb.md",
-    "quotes/i-wont-get-it-right-but-i-will-get-right-getting-it-right.md",
-    "book-review/guide-to-decision-making.md",
-    "book-review/mere-christianity.md",
-    "quotes/so-what-happens-after-you-finally-become-a-millionaire.md",
-    "book-review/fearless.md",
-    "quotes/i-walked-into-my-fathers-office-for-the-first-time.md",
-    "quotes/i-wasnt-much-of-a-founder-until-i-found-her.md",
     "img/screenshot-measure-your-life.jpeg",
-    "quotes/two-types-of-smart-people.md",
-    "scriptures/alma-62.41.md",
-    "sacrament-symbols/walking-into-the-church-reminds-me-of-disciples-running-to-the-tomb.md",
-    "christianity/2-nephi-20-25-lesson-plan.md",
-    "quotes/im-going-to-let-you-down.md",
     "quotes",
     "img/dalle-nap-on-a-sectional.jpeg",
     "img/book-mere-christianity.jpeg",
@@ -177,7 +178,6 @@
     "img/dalle-broken-bread.jpeg",
     "img/dalle-large-boat-small-rudder.jpeg",
     "img/dalle-dune-two-people.jpeg",
-    "img/dalle-happy-barber.jpeg",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",
