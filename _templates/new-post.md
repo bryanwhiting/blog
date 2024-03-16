@@ -47,8 +47,6 @@ if (folder === 'gratitude') {
 // YAML front matter  
 let content = `
 title: "${title}"
-description: |
-  _
 date: "${date}"  
 created: "${date}"
 categories: ${folder}  
