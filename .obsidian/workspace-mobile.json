@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/forecasting-principles-and-practice.md",
+                "file": "gratitude/the-success-of-a-friend.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "book-review/forecasting-principles-and-practice.md",
+            "file": "gratitude/the-success-of-a-friend.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "book-review/forecasting-principles-and-practice.md"
+            "file": "gratitude/the-success-of-a-friend.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "book-review/forecasting-principles-and-practice.md",
+            "file": "gratitude/the-success-of-a-friend.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,18 +141,19 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "_templates/new-post.md",
+    "gratitude/the-success-of-a-friend.md",
+    "book-review/the-happiest-man-on-earth.md",
+    "book-review/forecasting-principles-and-practice.md",
     "lists/reading-list.md",
     "book-review/the-organized-mind.md",
-    "book-review/forecasting-principles-and-practice.md",
     "christianity/2-nephi-27-the-purpose-of-the-book-of-mormon.md",
-    "_templates/new-post.md",
     "scriptures/2-nephi-27.26.md",
     "scriptures/2-nephi-27.11.md",
     "scriptures/2-nephi-27.20.md",
     "scriptures/2-nephi-27.7.md",
     "scriptures/2-nephi-27.3.md",
     "gratitude/freedom-of-religion.md",
-    "book-review/the-happiest-man-on-earth.md",
     "tech/how-i-learn.md",
     "tech/a-knife-to-a-gun-fight.md",
     "tech/the-matrix.md",
@@ -166,7 +167,6 @@
     "tech/devin-the-ai-coder.md",
     "quotes/discounting-positives.md",
     "quotes/how-to-argue.md",
-    "quotes/if-this-was-written-by-adam-grant-would-it-get-10000-likes.md",
     "img/screenshot-discounting-positives.jpeg",
     "img/book-forecasting-principles-and-practice.jpeg",
     "img/book-light-gbm-documentation.jpeg",
