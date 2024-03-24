@@ -16,6 +16,18 @@ date-start: 2024-03-14 15:56:22
 date-finished: 2024-03-14 15:56:22
 pct-complete:
 ---
+- [ ] Watch his Ted talk
+
+Phrases 
+
+- fascism turns everyone into a slave. The slaves first. Then the captors who have no choice but to be a captor
+- Couldn't even escape because he'd be shot at by other people who were afraid. 
+- Why would you argue with a loved one? Argue instead with the person who litters. There's no time for arguing with a loved one. 
+- I chose to be the happiest man on earth. There could not be a sweeter revenge against people who wanted to take away everything
+- I don't believe the world is only full of hate. I don't blame any survivor who has that opinion. The are many who struggle like that. They were liberated from physical captivity but their hearts were broken. 
+- just do good work. Take pride in doing meaningful work in your life. 
+
+
 2024-03-15
 
 - he escaped and was shot at and returned 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/the-success-of-a-friend.md",
+                "file": "christianity/2-nephi-31-.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "gratitude/the-success-of-a-friend.md",
+            "file": "christianity/2-nephi-31-.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "gratitude/the-success-of-a-friend.md"
+            "file": "christianity/2-nephi-31-.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "gratitude/the-success-of-a-friend.md",
+            "file": "christianity/2-nephi-31-.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,32 +141,34 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "_templates/new-post.md",
-    "gratitude/the-success-of-a-friend.md",
+    "quotes/relationships-are-about-knowing-when-to-make-the-big-things-little-and-the-little-things-big.md",
+    "christianity/2-nephi-31-.md",
+    "Untitled 2.md",
+    "gratitude/better-health.md",
+    "book-review/of-mice-and-men.md",
+    "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
+    "book-review/elon-musk.md",
+    "img/book-elon-musk.jpeg",
+    "book-review/the-count-of-monte-cristo.md",
+    "img/book-count-of-monte-cristo.jpeg",
+    "book-review/the-prophet.md",
+    "book-review/the-worry-cure.md",
+    "gratitude/cs-lewis.md",
+    "2-nephi-31-plain.md",
+    "book-review/mere-christianity.md",
+    "christianity/2-nephi-31-plain.md",
+    "news/2024-03-18-news-notes.md",
+    "christianity/2-nephi-26-30-apostasy.md",
+    "christianity/is-it-the-holy-ghost-or-is-it-just-my-own-thought.md",
+    "sacrament-symbols/infinite-suffering-of-everyone.md",
+    "goals/2024-03-15.md",
     "book-review/the-happiest-man-on-earth.md",
-    "book-review/forecasting-principles-and-practice.md",
-    "lists/reading-list.md",
-    "book-review/the-organized-mind.md",
-    "christianity/2-nephi-27-the-purpose-of-the-book-of-mormon.md",
-    "scriptures/2-nephi-27.26.md",
-    "scriptures/2-nephi-27.11.md",
-    "scriptures/2-nephi-27.20.md",
-    "scriptures/2-nephi-27.7.md",
-    "scriptures/2-nephi-27.3.md",
-    "gratitude/freedom-of-religion.md",
-    "tech/how-i-learn.md",
-    "tech/a-knife-to-a-gun-fight.md",
-    "tech/the-matrix.md",
-    "posts/attention-is-increased-capacity-to-handle-multiple-ideas-increases-without-social-media.md",
-    "book-review/light-gbm-documentation.md",
-    "quotes/why-data-science-takes-so-long.md",
-    "gratitude/kids-jumping-on-me.md",
-    "christianity/2-nephi-26-pride.md",
-    "book-review/the-coddling-of-the-american-mind.md",
-    "quotes/how-ebay-empowers-their-developers-with-ai.md",
-    "tech/devin-the-ai-coder.md",
-    "quotes/discounting-positives.md",
-    "quotes/how-to-argue.md",
+    "creative/prayer-of-perspective.md",
+    "goals/2024-03-16.md",
+    "gratitude/the-feeling-of-skimboarding.md",
+    "quotes/jim-fan-on-apples-mm1-multimodal-llm-paper.md",
+    "scriptures/2-nephi-27.23.md",
+    "gratitude/the-success-of-a-friend.md",
     "img/screenshot-discounting-positives.jpeg",
     "img/book-forecasting-principles-and-practice.jpeg",
     "img/book-light-gbm-documentation.jpeg",
@@ -176,8 +178,6 @@
     "img/book-mere-christianity.jpeg",
     "img/dalle-the-myth-of-christ.jpeg",
     "img/dalle-broken-bread.jpeg",
-    "img/dalle-large-boat-small-rudder.jpeg",
-    "img/dalle-dune-two-people.jpeg",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",

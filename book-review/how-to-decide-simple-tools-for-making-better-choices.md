@@ -36,7 +36,7 @@ Identify your goal. Where are you hoping a decision will take you?
 	1. What's the range? (I could be somewhat happy or happy, but not elated)
 3. Likelihood of each outcome unfolding. Use terms like "not likely, very likely"
 4. Assess the relative likelihood of outcomes you like and dislike for the option under consideration. 
-5. Repeate 1-4 for all options. 
+5. Repeat 1-4 for all options. 
 6. Compare options.  
 
 "If I were wrong, why might that be?" #IntrospectiveQuestion 

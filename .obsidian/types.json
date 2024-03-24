@@ -38,6 +38,7 @@
     "pct-complete": "number",
     "FHE": "checkbox",
     "date-night": "checkbox",
-    "categories": "multitext"
+    "categories": "multitext",
+    "beach": "checkbox"
   }
 }
