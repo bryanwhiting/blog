@@ -7,15 +7,36 @@ categories:
   - therapy
   - psychology
   - mindfulness
+  - self-help
 draft: false
-author: x
-book-year: 2029
-book-time: 0
+author: Robert Leahy
+book-year: 2004
+book-time: 3.5
 date-start: 2024-03-18 20:52:48
-date-finished: 2024-03-18 20:52:48
-pct-complete:
+date-finished: 2024-03-27
+pct-complete: 100
 ---
 
+
+1. When you feel worry, what actions can you take? If no actions, it's unproductive worry
+2. Accept reality. 
+3. Recognize you're 
+4. Core issues. Core beliefs. 
+5. Possible failures are temporary events. What do my emotions tell me?
+7. Climb a ladder to higher meaning
+8. Is there some future you hope for? What actions can you take today? What's realistic. 
+
+2024-03-26
+
+- rumination: what is the action you'd take? If there's no action, you're just worrying 
+- Rejecting a perfect solution
+
+Mindfulness
+- monitor your thoughts: gaining distance. 
+- Describe what's in front of you. 
+- Judgment. How are you judging your thought?
+- Take yourself out of it: don't be in the center of your thoughts. 
+- Disappear to see reality: imagine you do not exist. What do you see?
 
 2024-03-18
 

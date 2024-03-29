@@ -7,6 +7,8 @@ categories:
   - tech
   - machine learning
   - ml-tools
+  - time series
+  - foundation models
 draft: false
 ---
 Time series analysis is now open sourced by discerning patterns in billions of univariate time series. 

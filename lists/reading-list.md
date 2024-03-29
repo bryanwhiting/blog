@@ -32,7 +32,8 @@ draft: false
 - [x] The Sun Also Rises #spotify-included 7hr
 - [ ] A farewell to arms #spotify-included  8h
 - [x] The old man and the Sea #libby 
-- [ ] Of Mice and Men #libby 
+- [x] Of Mice and Men #libby 
+- [ ] Kite Runner 
 
 To finish
 
@@ -51,6 +52,7 @@ To finish
 - [ ] The Bomber Mafia
 - [x] Band of Brothers (February rec)
 - [ ] The lessons of history (February Rec)
+- [ ] Valley of Genius: The Uncensored History of Silicon Valey
 
 ### Religion and Philosophy
 - [ ] Paradise Lost and Paradise Regained #libby 

@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "bodyfulness",
+      "path": "gratitude/bodyfulness.md"
+    },
+    {
+      "basename": "heal-your-nervous-system",
+      "path": "book-review/heal-your-nervous-system.md"
+    },
+    {
+      "basename": "easter-seek-miracles",
+      "path": "christianity/easter-seek-miracles.md"
+    },
+    {
+      "basename": "fairy-houses",
+      "path": "gratitude/fairy-houses.md"
+    },
+    {
+      "basename": "forecasting-principles-and-practice",
+      "path": "book-review/forecasting-principles-and-practice.md"
+    },
+    {
+      "basename": "the-worry-cure",
+      "path": "book-review/the-worry-cure.md"
+    },
+    {
+      "basename": "package-installer-uv-vs-poetry",
+      "path": "tech/package-installer-uv-vs-poetry.md"
+    },
+    {
+      "basename": "on-file-formats-parquet-vs-csv",
+      "path": "tech/on-file-formats-parquet-vs-csv.md"
+    },
+    {
+      "basename": "chronos-time-series-foundation-model-by-amazon",
+      "path": "tech/chronos-time-series-foundation-model-by-amazon.md"
+    },
+    {
+      "basename": "timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting",
+      "path": "tech/timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting.md"
+    },
+    {
+      "basename": "ever-shifting-tides",
+      "path": "gratitude/ever-shifting-tides.md"
+    },
+    {
+      "basename": "reading-list",
+      "path": "lists/reading-list.md"
+    },
+    {
       "basename": "2-nephi-31-",
       "path": "christianity/2-nephi-31-.md"
     },
@@ -31,10 +79,6 @@
     {
       "basename": "the-prophet",
       "path": "book-review/the-prophet.md"
-    },
-    {
-      "basename": "the-worry-cure",
-      "path": "book-review/the-worry-cure.md"
     },
     {
       "basename": "cs-lewis",
@@ -97,14 +141,6 @@
       "path": "_templates/new-post.md"
     },
     {
-      "basename": "forecasting-principles-and-practice",
-      "path": "book-review/forecasting-principles-and-practice.md"
-    },
-    {
-      "basename": "reading-list",
-      "path": "lists/reading-list.md"
-    },
-    {
       "basename": "the-organized-mind",
       "path": "book-review/the-organized-mind.md"
     },
@@ -163,42 +199,6 @@
     {
       "basename": "discounting-positives",
       "path": "quotes/discounting-positives.md"
-    },
-    {
-      "basename": "how-to-argue",
-      "path": "quotes/how-to-argue.md"
-    },
-    {
-      "basename": "if-this-was-written-by-adam-grant-would-it-get-10000-likes",
-      "path": "quotes/if-this-was-written-by-adam-grant-would-it-get-10000-likes.md"
-    },
-    {
-      "basename": "theres-something-really-boring-about-data-science",
-      "path": "quotes/theres-something-really-boring-about-data-science.md"
-    },
-    {
-      "basename": "bad-teams-bad-leaders",
-      "path": "quotes/bad-teams-bad-leaders.md"
-    },
-    {
-      "basename": "whats-all-this-obsession-over-impact",
-      "path": "quotes/whats-all-this-obsession-over-impact.md"
-    },
-    {
-      "basename": "2-nephi-26",
-      "path": "christianity/2-nephi-26.md"
-    },
-    {
-      "basename": "a-sleeping-baby",
-      "path": "gratitude/a-sleeping-baby.md"
-    },
-    {
-      "basename": "the-6-types-of-working-genius",
-      "path": "book-review/the-6-types-of-working-genius.md"
-    },
-    {
-      "basename": "2024-03-11-news-notes",
-      "path": "news/2024-03-11-news-notes.md"
     }
   ],
   "omittedPaths": [],

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "christianity/2-nephi-31-.md",
+                "file": "gratitude/bodyfulness.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "christianity/2-nephi-31-.md",
+            "file": "gratitude/bodyfulness.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "christianity/2-nephi-31-.md"
+            "file": "gratitude/bodyfulness.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "christianity/2-nephi-31-.md",
+            "file": "gratitude/bodyfulness.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,8 +141,25 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "quotes/relationships-are-about-knowing-when-to-make-the-big-things-little-and-the-little-things-big.md",
+    "img/dalle-meditating-bodyfulness.jpeg",
+    "book-review/heal-your-nervous-system.md",
+    "gratitude/bodyfulness.md",
+    "christianity/easter-seek-miracles.md",
+    "scriptures/russell-m-nelson-the-power-of-spiritual-momentum.md",
+    "gratitude/fairy-houses.md",
+    "book-review/forecasting-principles-and-practice.md",
+    "img/photo-fairy-house.jpeg",
+    "img/screenshot-seasonal-year-metric.jpeg",
+    "book-review/the-worry-cure.md",
+    "tech/package-installer-uv-vs-poetry.md",
+    "tech/on-file-formats-parquet-vs-csv.md",
+    "tech/chronos-time-series-foundation-model-by-amazon.md",
+    "img/screenshot-chronos-time-series.jpeg",
+    "tech/timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting.md",
+    "gratitude/ever-shifting-tides.md",
+    "lists/reading-list.md",
     "christianity/2-nephi-31-.md",
+    "quotes/relationships-are-about-knowing-when-to-make-the-big-things-little-and-the-little-things-big.md",
     "Untitled 2.md",
     "gratitude/better-health.md",
     "book-review/of-mice-and-men.md",
@@ -152,32 +169,15 @@
     "book-review/the-count-of-monte-cristo.md",
     "img/book-count-of-monte-cristo.jpeg",
     "book-review/the-prophet.md",
-    "book-review/the-worry-cure.md",
     "gratitude/cs-lewis.md",
     "2-nephi-31-plain.md",
     "book-review/mere-christianity.md",
-    "christianity/2-nephi-31-plain.md",
-    "news/2024-03-18-news-notes.md",
-    "christianity/2-nephi-26-30-apostasy.md",
-    "christianity/is-it-the-holy-ghost-or-is-it-just-my-own-thought.md",
-    "sacrament-symbols/infinite-suffering-of-everyone.md",
-    "goals/2024-03-15.md",
-    "book-review/the-happiest-man-on-earth.md",
-    "creative/prayer-of-perspective.md",
-    "goals/2024-03-16.md",
-    "gratitude/the-feeling-of-skimboarding.md",
-    "quotes/jim-fan-on-apples-mm1-multimodal-llm-paper.md",
-    "scriptures/2-nephi-27.23.md",
-    "gratitude/the-success-of-a-friend.md",
     "img/screenshot-discounting-positives.jpeg",
     "img/book-forecasting-principles-and-practice.jpeg",
     "img/book-light-gbm-documentation.jpeg",
     "img/screenshot-measure-your-life.jpeg",
     "quotes",
     "img/dalle-nap-on-a-sectional.jpeg",
-    "img/book-mere-christianity.jpeg",
-    "img/dalle-the-myth-of-christ.jpeg",
-    "img/dalle-broken-bread.jpeg",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",
