@@ -14,6 +14,75 @@ pct-complete: 20
 ---
 [Find out your sensitivity profile | Heal Your Nervous System](https://healyournervoussystem.com/sensitivity-profile-hsp-orchid-tulip-dandelion/)
 
+2024-03-29
+
+Boundaries 
+- Don't explain or defend them. Don't share them. 
+- Set boundaries. If you're going to talk for 5 min then only talk for 5 min. 
+- Parenting techniques 
+	- Placating parent. 
+	- Conflict avoiding parent. 
+
+Three streps for challenges 
+
+- analyze current circumstances. 95% focus on problem. Perceptions vs interpretations of perceptions. Accuracy of interpretation 
+- expand list of coping strategies. Brainstorm a list of coping strategies. 
+	- Types of coping strategies 
+		- Seeking social support
+		- Problem solving 
+		- Avoidanve
+		- positive thinking 
+	- No bad coping strategies. Just less helpful 
+
+Book: attachment disturbances in adults. 
+
+Five core needs of attachment(like a house) 
+1. foundation. Safety and protection. 
+2. Walls. Attunement. Attune to the feelings. Identify the feelings, provide safety for them. Create a supporting environment, attune to their needs. 
+3. Roof: sooltjing and comfort. Shelter and security. Reassurance and support. Touch. 
+4. Windows: expressed delight. Regularly express it. 
+5. Garden: support self development. Aim for good enough. Support them in new ways. 
+
+Secure attachment
+Dismissive attachment
+- Solves problems by avoidance or workaholic 
+Preoccupied attachment 
+- abandonemwnt, extra reassurance 
+- Expressed delight was missing 
+- Seek approval or reassurance. 
+- Highly sensitive to rejection
+- Overshare personal details 
+- Anxiety
+Disorganized or fearful attachment. 
+
+Imagine having your attachment needs met. IPF therapy. IPF protocol. Don't just think about. Imagine. Feel everything of having met. 
+- Deep breaths 
+- Identify what you need: feeling supported. 
+- Reflect
+- Imagine ideal parenting. 
+- Create image of what ideal parent figures would look like. 
+- Imagine those ideal parents interacting with your. Imagine them interacting with you in a nice scene. 
+- Visualize and journal about ideal parent figures. 
+
+Track or be aware of your heart rate. Interoception: awareness of what things contribute to your stress. 
+
+Heartbeat awareness or breathing awareness. 
+- Locate pulse
+- 30 seconds light. 
+- Locate pulse
+- 1 minute of mild. 
+- 30 seconds of locate pulse. 
+- 2 minutes of intense
+
+Interoceptive awareness. Body scan. 
+Exteroceptive awareness: your surroundings. 
+
+Elevator alertness map: put coping strategies into the map. 
+
+[Nervous System Regulation: How to Start Regulating Your Nervous System](https://healyournervoussystem.com/nervous-system-regulation-how-to-start-regulating-your-nervous-system/amp/)
+
+![](https://healyournervoussystem-com.cdn.ampproject.org/i/s/healyournervoussystem.com/wp-content/uploads/2022/06/Nervous-System-Regulation-Cycle-Diagram-Chart-1.png)
+
 2024-03-28
 
 - dog mind vs lion mind. 

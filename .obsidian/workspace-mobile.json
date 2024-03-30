@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/bodyfulness.md",
+                "file": "book-review/heal-your-nervous-system.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "gratitude/bodyfulness.md",
+            "file": "book-review/heal-your-nervous-system.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "gratitude/bodyfulness.md"
+            "file": "book-review/heal-your-nervous-system.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "gratitude/bodyfulness.md",
+            "file": "book-review/heal-your-nervous-system.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,9 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "gratitude/bodyfulness.md",
     "img/dalle-meditating-bodyfulness.jpeg",
     "book-review/heal-your-nervous-system.md",
-    "gratitude/bodyfulness.md",
     "christianity/easter-seek-miracles.md",
     "scriptures/russell-m-nelson-the-power-of-spiritual-momentum.md",
     "gratitude/fairy-houses.md",
@@ -177,7 +177,6 @@
     "img/book-light-gbm-documentation.jpeg",
     "img/screenshot-measure-your-life.jpeg",
     "quotes",
-    "img/dalle-nap-on-a-sectional.jpeg",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",
