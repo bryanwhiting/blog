@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Rob Hyndman">
-<meta name="description" content="x">
+<meta name="description" content="A book on time series modeling">
 
 <title>Bryan Whiting - Forecasting: Principles and Practice</title>
 <style>
@@ -82,12 +82,12 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
 <link rel="stylesheet" href="../css/styles.css">
 <link rel="stylesheet" href="css/poem.css">
 <meta property="og:title" content="Bryan Whiting - Forecasting: Principles and Practice">
-<meta property="og:description" content="x">
-<meta property="og:image" content="https://www.bryanwhiting.com/img/book-forecasting-principles-and-practice.jpeg">
+<meta property="og:description" content="A book on time series modeling">
+<meta property="og:image" content="https://www.bryanwhiting.com/img/screenshot-seasonal-year-metric.jpeg">
 <meta property="og:site_name" content="Bryan Whiting">
 <meta name="twitter:title" content="Bryan Whiting - Forecasting: Principles and Practice">
-<meta name="twitter:description" content="x">
-<meta name="twitter:image" content="https://www.bryanwhiting.com/img/book-forecasting-principles-and-practice.jpeg">
+<meta name="twitter:description" content="A book on time series modeling">
+<meta name="twitter:image" content="https://www.bryanwhiting.com/img/screenshot-seasonal-year-metric.jpeg">
 <meta name="twitter:creator" content="@bryanwhiting">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -119,7 +119,7 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
       <h1 class="title">Forecasting: Principles and Practice</h1>
                   <div>
         <div class="description">
-          <p>x</p>
+          A book on time series modeling
         </div>
       </div>
                           <div class="quarto-categories">
@@ -127,6 +127,9 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
                 <div class="quarto-category">data science</div>
                 <div class="quarto-category">tech</div>
                 <div class="quarto-category">upskilling</div>
+                <div class="quarto-category">time series</div>
+                <div class="quarto-category">A/B testing</div>
+                <div class="quarto-category">machine learning</div>
               </div>
                   </div>
   </div>
@@ -146,6 +149,9 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
                 <div class="badge badge-small badge-grey quarto-category">data science</div>
                 <div class="badge badge-small badge-grey quarto-category">tech</div>
                 <div class="badge badge-small badge-grey quarto-category">upskilling</div>
+                <div class="badge badge-small badge-grey quarto-category">time series</div>
+                <div class="badge badge-small badge-grey quarto-category">A/B testing</div>
+                <div class="badge badge-small badge-grey quarto-category">machine learning</div>
             </div>
     </div>
       
@@ -295,8 +301,14 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
 
 
 <p>#Forecasting #timeseries #datascience #machinelearning #ForecastingPrinciplesAndPractice</p>
-<p><a href="https://otexts.com/fpp3/intro.html">Chapter 1 Getting started | Forecasting: Principles&nbsp;and&nbsp;Practice (3rd&nbsp;ed)</a></p>
+<p>2024-03-27 chapter 2</p>
+<ul>
+<li><a href="https://otexts.com/fpp3/seasonal-plots.html">2.4 Seasonal plots | Forecasting: Principles&nbsp;and&nbsp;Practice (3rd&nbsp;ed)</a></li>
+<li>Different metrics may have seasonality at different times. (Different SOs)</li>
+</ul>
+<p>Application ideas: - to diagnose a time series, make a plot of metric over time colored by year. - Helps pick up how to do feature engineering. - Plot each day, over time of day. - Plot each day over day of week - Facet by month, plot revenue over year. - Plot Y ~ X’s. - Plot Y ~ lag (Y) to identify seasonality. - Plot autocorr(Y) using Statsmodels. Group by day. <img src="../img/screenshot-seasonal-year-metric.jpeg" class="preview-image img-fluid" alt="Seasonal year metric plot"></p>
 <p>2024-03-15</p>
+<p><a href="https://otexts.com/fpp3/intro.html">Chapter 1 Getting started | Forecasting: Principles&nbsp;and&nbsp;Practice (3rd&nbsp;ed)</a></p>
 <p><a href="https://otexts.com/fpp3/data-methods.html">1.4 Forecasting data and methods | Forecasting: Principles&nbsp;and&nbsp;Practice (3rd&nbsp;ed)</a></p>
 <ul>
 <li>Two types of models: incorporate external data or is only based on time events.</li>
