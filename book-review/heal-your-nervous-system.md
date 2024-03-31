@@ -9,10 +9,27 @@ author: Linnea Passaler
 book-year: 2024
 book-time: 13.8
 date-start: 2024-03-27 20:32:54
-date-finished: 2024-03-27 20:32:54
-pct-complete: 20
+date-finished: 2024-03-30
+pct-complete: 100
 ---
 [Find out your sensitivity profile | Heal Your Nervous System](https://healyournervoussystem.com/sensitivity-profile-hsp-orchid-tulip-dandelion/)
+
+2024-03-30 summary and takeaways 
+
+- dog mind vs lion mind 
+- Sensitivity is good. 
+- Nervous system health vs just mindfulness. 
+- Bodyfulness. Engage the whole body. 
+- connection to ancestors: we inherit generational issues. 
+- nervous systems can heal. The whole nervous aystem responds to issues. 
+- [The Worry Cure](the-worry-cure.md): anxious mind causes anxious feelings and vice versa. Same with nervous system. Chicken and egg. 
+- Resiliency of a fern. 
+- Nature is healing. Connect with it. Connect with self. 
+- Music and creative expression for 45 min a week. Healing. 
+- physiologic sigh. Two in, one long out mouth. Practice. 
+- Healing takes practice. It's not fast. The quick fix mindset is the problem. Need to approach it as a whole body solution that takes time. 
+- Rewire the embedded alarms via cognitive processing therapy. One at a time. Practice small. Get into a good state first, then practice. Over time the stimulation will reduce and you'll have new pathways. 
+- Imagine the perfect childhood. Perfect boss. Perfect situation. How would someone treat you in that situation? Connect with this. Become it. Self compassion. 
 
 2024-03-29
 

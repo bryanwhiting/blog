@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "green-oasis",
+      "path": "gratitude/green-oasis.md"
+    },
+    {
+      "basename": "2024-03-30",
+      "path": "goals/2024-03-30.md"
+    },
+    {
+      "basename": "adult-children-of-emotional-immature-parents",
+      "path": "book-review/adult-children-of-emotional-immature-parents.md"
+    },
+    {
       "basename": "heal-your-nervous-system",
       "path": "book-review/heal-your-nervous-system.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "the-coddling-of-the-american-mind",
       "path": "book-review/the-coddling-of-the-american-mind.md"
-    },
-    {
-      "basename": "how-ebay-empowers-their-developers-with-ai",
-      "path": "quotes/how-ebay-empowers-their-developers-with-ai.md"
-    },
-    {
-      "basename": "devin-the-ai-coder",
-      "path": "tech/devin-the-ai-coder.md"
-    },
-    {
-      "basename": "discounting-positives",
-      "path": "quotes/discounting-positives.md"
     }
   ],
   "omittedPaths": [],
