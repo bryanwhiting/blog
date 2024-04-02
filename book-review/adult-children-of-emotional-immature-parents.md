@@ -13,6 +13,19 @@ date-finished: 2024-03-30 13:44:39
 pct-complete:
 ---
 
+
+2024-04-01
+
+- emotional work is hard work. Emotionally immature people feel like they don't need 
+- Roles are sacred to emotional immature people: role of parent. 
+- Kids feel like they have to help solve their parents emotional problems but they can't. 
+- They seek enmeshment, not intimacy 
+- emotional parents
+- Driven parents
+- passive parwnts
+- healing dreams. Creates roles. Role-self vs true self. "If only I..." is a coping mechanism
+
+
 2024-03-30
 
 - Don't see their role in your problems. 

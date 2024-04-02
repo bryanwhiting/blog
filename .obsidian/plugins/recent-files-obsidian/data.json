@@ -1,16 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "brave-new-world",
+      "path": "book-review/brave-new-world.md"
+    },
+    {
+      "basename": "adult-children-of-emotional-immature-parents",
+      "path": "book-review/adult-children-of-emotional-immature-parents.md"
+    },
+    {
+      "basename": "ibis-dataframes-for-python-vs-pandas",
+      "path": "tech/ibis-dataframes-for-python-vs-pandas.md"
+    },
+    {
+      "basename": "easter",
+      "path": "gratitude/easter.md"
+    },
+    {
+      "basename": "saints-book-1-the-standard-of-truth-1815-1846",
+      "path": "book-review/saints-book-1-the-standard-of-truth-1815-1846.md"
+    },
+    {
+      "basename": "wearing-a-tie-reminds-me-of-the-noose-around-his-neck",
+      "path": "sacrament-symbols/wearing-a-tie-reminds-me-of-the-noose-around-his-neck.md"
+    },
+    {
+      "basename": "the-messages-remind-me-of-his-message-after-his-resurrection",
+      "path": "sacrament-symbols/the-messages-remind-me-of-his-message-after-his-resurrection.md"
+    },
+    {
+      "basename": "easter-the-most-important-holiday",
+      "path": "christianity/easter-the-most-important-holiday.md"
+    },
+    {
       "basename": "green-oasis",
       "path": "gratitude/green-oasis.md"
     },
     {
       "basename": "2024-03-30",
       "path": "goals/2024-03-30.md"
-    },
-    {
-      "basename": "adult-children-of-emotional-immature-parents",
-      "path": "book-review/adult-children-of-emotional-immature-parents.md"
     },
     {
       "basename": "heal-your-nervous-system",
@@ -171,34 +199,6 @@
     {
       "basename": "a-knife-to-a-gun-fight",
       "path": "tech/a-knife-to-a-gun-fight.md"
-    },
-    {
-      "basename": "the-matrix",
-      "path": "tech/the-matrix.md"
-    },
-    {
-      "basename": "attention-is-increased-capacity-to-handle-multiple-ideas-increases-without-social-media",
-      "path": "posts/attention-is-increased-capacity-to-handle-multiple-ideas-increases-without-social-media.md"
-    },
-    {
-      "basename": "light-gbm-documentation",
-      "path": "book-review/light-gbm-documentation.md"
-    },
-    {
-      "basename": "why-data-science-takes-so-long",
-      "path": "quotes/why-data-science-takes-so-long.md"
-    },
-    {
-      "basename": "kids-jumping-on-me",
-      "path": "gratitude/kids-jumping-on-me.md"
-    },
-    {
-      "basename": "2-nephi-26-pride",
-      "path": "christianity/2-nephi-26-pride.md"
-    },
-    {
-      "basename": "the-coddling-of-the-american-mind",
-      "path": "book-review/the-coddling-of-the-american-mind.md"
     }
   ],
   "omittedPaths": [],

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/green-oasis.md",
+                "file": "book-review/brave-new-world.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "gratitude/green-oasis.md",
+            "file": "book-review/brave-new-world.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "gratitude/green-oasis.md"
+            "file": "book-review/brave-new-world.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "gratitude/green-oasis.md",
+            "file": "book-review/brave-new-world.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,10 +141,21 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "book-review/adult-children-of-emotional-immature-parents.md",
+    "book-review/brave-new-world.md",
+    "tech/ibis-dataframes-for-python-vs-pandas.md",
+    "gratitude/easter.md",
+    "book-review/easter.md",
+    "img/dalle-he-is-risen.jpeg",
+    "img/screenshot-ibis-data.jpeg",
+    "book-review/saints-book-1-the-standard-of-truth-1815-1846.md",
+    "sacrament-symbols/wearing-a-tie-reminds-me-of-the-noose-around-his-neck.md",
+    "scriptures/the-purifying-power-of-gethsemane.md",
+    "sacrament-symbols/the-messages-remind-me-of-his-message-after-his-resurrection.md",
+    "christianity/easter-the-most-important-holiday.md",
+    "gratitude/green-oasis.md",
     "img/photo-nearby-green-hills.jpeg",
     "goals/2024-03-30.md",
-    "gratitude/green-oasis.md",
-    "book-review/adult-children-of-emotional-immature-parents.md",
     "book-review/heal-your-nervous-system.md",
     "gratitude/bodyfulness.md",
     "img/dalle-meditating-bodyfulness.jpeg",
@@ -163,20 +174,9 @@
     "gratitude/ever-shifting-tides.md",
     "lists/reading-list.md",
     "christianity/2-nephi-31-.md",
-    "quotes/relationships-are-about-knowing-when-to-make-the-big-things-little-and-the-little-things-big.md",
-    "Untitled 2.md",
-    "gratitude/better-health.md",
-    "book-review/of-mice-and-men.md",
-    "book-review/how-to-decide-simple-tools-for-making-better-choices.md",
-    "book-review/elon-musk.md",
     "img/book-elon-musk.jpeg",
-    "book-review/the-count-of-monte-cristo.md",
     "img/book-count-of-monte-cristo.jpeg",
-    "book-review/the-prophet.md",
     "img/screenshot-discounting-positives.jpeg",
-    "img/book-forecasting-principles-and-practice.jpeg",
-    "img/book-light-gbm-documentation.jpeg",
-    "img/screenshot-measure-your-life.jpeg",
     "quotes",
     "code/2024-02-02-libby.py",
     "code",

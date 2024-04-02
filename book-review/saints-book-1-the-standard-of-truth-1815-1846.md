@@ -16,6 +16,10 @@ pct-complete:
 ---
 ![Saints Book 1](../img/book-saints-volume-1-the-standard-of-truth-18151846.jpeg){.preview-image}
 
+2024-03-31
+
+- Elijah Abel - a black man ordained to the priesthood in 1836. 
+
 2024-02-04
 
 - Joseph was only one to receive revelation. → if you interpret this scripture out of context, you might think no other prophet is worthy to lead the church. But that was a point in time revelation. → like the book of revelation: don't add to this. 
