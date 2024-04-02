@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Bryan Whiting - Concepts</title>
+<title>Bryan Whiting - Ibis DataFrames for Python, why I hate Pandas, and what I miss about dplyr</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -67,35 +65,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-361602039"></script>
 
 <script type="text/javascript">
@@ -107,16 +76,16 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="../css/styles.css">
 <link rel="stylesheet" href="css/poem.css">
-<link rel="alternate" type="application/rss+xml" title="Bryan Whiting" href="concepts.xml" data-external="1"><meta property="og:title" content="Bryan Whiting - Concepts">
+<meta property="og:title" content="Bryan Whiting - Ibis DataFrames for Python, why I hate Pandas, and what I miss about dplyr">
 <meta property="og:description" content="">
+<meta property="og:image" content="https://www.bryanwhiting.com/img/screenshot-ibis-data.jpeg">
 <meta property="og:site_name" content="Bryan Whiting">
-<meta name="twitter:title" content="Bryan Whiting - Concepts">
+<meta name="twitter:title" content="Bryan Whiting - Ibis DataFrames for Python, why I hate Pandas, and what I miss about dplyr">
 <meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://www.bryanwhiting.com/img/screenshot-ibis-data.jpeg">
 <meta name="twitter:creator" content="@bryanwhiting">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -130,7 +99,9 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./concepts.html">Other</a></li><li class="breadcrumb-item"><a href="./concepts.html">Concepts</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      Bryan Whiting
+      </li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -140,15 +111,44 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
   </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./concepts.html">Other</a></li><li class="breadcrumb-item"><a href="./concepts.html">Concepts</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Concepts</h1>
-                      </div>
+      <h1 class="title">Ibis DataFrames for Python, why I hate Pandas, and what I miss about dplyr</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">tech</div>
+                <div class="quarto-category">python</div>
+                <div class="quarto-category">data science</div>
+                <div class="quarto-category">data manipulation</div>
+                <div class="quarto-category">pandas</div>
+                <div class="quarto-category">ibis</div>
+                <div class="quarto-category">data engineering</div>
+                <div class="quarto-category">analytics</div>
+              </div>
+                  </div>
   </div>
     
   <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Date</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">Sunday March 31, 2024</p>
+      </div>
+    </div>
+          <div>
+      <div class="quarto-title-meta-heading">Topics</div>
+      <div class="quarto-title-meta-contents">
+                <div class="badge badge-small badge-grey quarto-category">tech</div>
+                <div class="badge badge-small badge-grey quarto-category">python</div>
+                <div class="badge badge-small badge-grey quarto-category">data science</div>
+                <div class="badge badge-small badge-grey quarto-category">data manipulation</div>
+                <div class="badge badge-small badge-grey quarto-category">pandas</div>
+                <div class="badge badge-small badge-grey quarto-category">ibis</div>
+                <div class="badge badge-small badge-grey quarto-category">data engineering</div>
+                <div class="badge badge-small badge-grey quarto-category">analytics</div>
+            </div>
+    </div>
       
   </div>  
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
@@ -156,7 +156,7 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Bryan Whiting</a> 
+      <a href="../">Bryan Whiting</a> 
         <div class="sidebar-tools-main tools-wide">
     <div class="dropdown">
       <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
@@ -175,7 +175,7 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
     </div>
     <a href="https://www.linkedin.com/in/bryan-whiting/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
     <a href="https://twitter.com/bryanwhiting" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
-    <a href="./index.xml" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-rss"></i></a>
+    <a href="../index.xml" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-rss"></i></a>
 </div>
     </div>
       </div>
@@ -188,13 +188,13 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link">
+  <a href="../about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Blog</span></a>
   </div>
 </li>
@@ -209,37 +209,37 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./tech.html" class="sidebar-item-text sidebar-link">
+  <a href="../tech.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tech, AI, and Data</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Posts</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./books.html" class="sidebar-item-text sidebar-link">
+  <a href="../books.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Book Reviews</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./christianity.html" class="sidebar-item-text sidebar-link">
+  <a href="../christianity.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Christianity</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./gratitude.html" class="sidebar-item-text sidebar-link">
+  <a href="../gratitude.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Gratitude</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./creative.html" class="sidebar-item-text sidebar-link">
+  <a href="../creative.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Creative</span></a>
   </div>
 </li>
@@ -256,25 +256,25 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./concepts.html" class="sidebar-item-text sidebar-link active">
+  <a href="../concepts.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Concepts</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./goals.html" class="sidebar-item-text sidebar-link">
+  <a href="../goals.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Goals</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lists.html" class="sidebar-item-text sidebar-link">
+  <a href="../lists.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lists of Things</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sitemap.html" class="sidebar-item-text sidebar-link">
+  <a href="../sitemap.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Sitemap (All Posts)</span></a>
   </div>
 </li>
@@ -282,12 +282,19 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
   </li>
     </ul>
     </div>
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#data-manipulation-in-python" id="toc-data-manipulation-in-python" class="nav-link active" data-scroll-target="#data-manipulation-in-python">Data Manipulation in Python</a></li>
+  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix">Appendix</a></li>
+  </ul>
+</nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="christianity"><span class="quarto-category-count category-cloud-2">christianity</span></div><div class="category" data-category="concept"><span class="quarto-category-count category-cloud-1">concept</span></div><div class="category" data-category="concepts"><span class="quarto-category-count category-cloud-8">concepts</span></div><div class="category" data-category="posts"><span class="quarto-category-count category-cloud-1">posts</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -295,187 +302,205 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
 
 
 
-<p>These posts are ideas linked to in other entries. They’re concepts or terms.</p>
+<blockquote class="blockquote">
+<p>I haven’t used <code>ibis</code> as of writing this. Just reviewed the docs.</p>
+</blockquote>
+<section id="data-manipulation-in-python" class="level1">
+<h1>Data Manipulation in Python</h1>
+<p>I’ve been a Python data scientist for 5-6 years. I’ve never liked pandas. Ever.</p>
+<p>It’s because I started as a <code>tidyverse</code> data scientist in R. One of the things I’ve missed about using Python is <code>dplyr</code>, an R package for data manipulation. And when I started with Python it was in PySpark - it felt very similar to <code>dplyr</code>, except for the annoying JVM.</p>
+<p>It’s amazing because everything is done by chaining, and it’s able to manipulate in memory or translate to a spark or SQL backend for execution. (It’s very easy to use base <code>dplyr</code> and then just run the same query in memory on a small dataframe or against <code>BigQuery</code> or something.)</p>
+<p>This chaining also avoids the common readability problem with pandas wherein often you see df[x] = df[y] / df[b] on one line and that’s repeated for multiple lines if you want to create multiple new variables.</p>
+<p>While <code>pandas</code> has the .pipe and .assign operators for chaining, they still require lambda functions, which get annoying. This Reddit thread explores the opinion I share: the api is inconsistent. <a href="https://www.reddit.com/r/dataengineering/comments/146rj9m/does_anyone_else_hate_pandas/">Reddit - Does anyone else hate pandas?</a>.</p>
+<p><code>Polars</code> makes this much cleaner with the with_columns operator, for example, which is also very similar to <code>PySpark</code>. But <code>polars</code> is Rust backend, not Java. Game, Set, Match <code>polars</code>.</p>
+<p>I’m not the only one who loves <code>dplyr</code> . There have been several Python attempts to build <code>dplyr</code> in the Python ecosystem. There were great packages like <a href="https://github.com/coursera/pandas-ply">GitHub - coursera/pandas-ply: functional data manipulation for pandas</a> (9 years since last commit), and <a href="https://github.com/dodger487/dplython">GitHub - dodger487/dplython: dplyr for python</a>, not updated in 7 years. Then there’s the <code>dfply</code> <a href="https://github.com/kieferk/dfply">package</a> that hasn’t been maintained in 5 years (see <a href="https://towardsdatascience.com/dplyr-style-data-manipulation-with-pipes-in-python-380dcb137000">tutorial</a>).</p>
+<p>The <code>siuba</code> package is the latest Python <code>dplyr</code> incantation that is actively maintained: <a href="https://github.com/machow/siuba">GitHub - machow/siuba: Python library for using dplyr like syntax with pandas and SQL</a> and can also execute against a SQL backend, but it can’t execute a polars backend. # Ibis to solve my problems?</p>
+<p>I just came across <code>ibis</code> however, and it seems really promising. Turns out it was <a href="https://ibis-project.org/concepts/who">created</a> in 2015 by Wes McKinney to solve the <a href="https://wesmckinney.com/blog/apache-arrow-pandas-internals/">“10 Things I Hate About pandas”</a>.</p>
+<ul>
+<li><a href="https://ibis-project.org/">Ibis</a></li>
+<li><a href="https://ibis-project.org/tutorials/getting_started">Ibis – getting_started</a></li>
+<li><a href="https://ibis-project.org/posts/wow-analysis/">Ibis – Analysis of World of Warcraft data</a></li>
+</ul>
+<p><img src="../img/screenshot-ibis-data.jpeg" class="preview-image img-fluid"></p>
+<p>It looks like <code>dplyr</code> (for example it even copies some syntax like mutate() for adding new columns and select for picking columns). But, the benefit is it has <code>polars</code> and <code>pandas</code> as backends, but also offers <code>PySpark</code> (should someon need to use databricks as a backend compute engine). And it can also translate into SQL. Sure, polars can do this too: <a href="https://docs.pola.rs/user-guide/io/database/">Databases - Polars user guide</a>. But <code>ibis</code> seems more extensive.</p>
+<p>This means I could have one programming language to execute either <code>polars</code>, SQL, or PySpark, rather than have both <code>polars</code> and SQL or <code>pandas</code> in my pipeline in different places. (Side note: why would I use <code>pandas</code> as a backend though when <code>polars</code> is so fast?)</p>
+<p>I just discovered this over the weekend. Would love your thoughts! I’m sure there are limitations vs raw polars/pandas that are hidden from my quick overview.</p>
+</section>
+<section id="appendix" class="level1">
+<h1>Appendix</h1>
+<p>The most annoying thing about <code>pandas</code> is the <code>.transform()</code> operator. I hate it. Just hate it. It never makes sense and I always have to look it up. This essentially just does a window operation.</p>
+<p>You don’t need this until you need to do some type of aggregation within a group. Let’s assume you want to calculate the fraction of sales attributed to a city within a state. (What fraction of sales in California come from San Francisco, for example.)</p>
+<p>Read the following and consider for yourself what’s simplest:</p>
+<pre><code>import pandas as pd
+
+# Sample data
+data = {
+    'State': ['CA', 'CA', 'CA', 'NY', 'NY', 'NY'],
+    'City': ['SF', 'LA', 'SF', 'NYC', 'Buffalo', 'NYC'],
+    'Sales': [100, 200, 150, 300, 100, 200]
+}
+
+df = pd.DataFrame(data)
+
+# Calculate fraction of sales by city within state
+df['Fraction'] = df.groupby('State')['Sales'].apply(lambda x: x / x.sum())
+
+print(df)</code></pre>
+<p>Polars:</p>
+<pre><code>import polars as pl
+
+df = pl.DataFrame(data)
+
+# Calculate fraction of sales by city within state
+df = df.with_column(
+  pl.col('Sales') / df.groupby('State').agg(pl.sum('Sales'))['sum'])
+
+print(df)</code></pre>
+<p>Dplyr:</p>
+<pre><code>library(dplyr)
+
+# Calculate fraction of sales by city within state
+df &lt;- data %&gt;%
+  group_by(State) %&gt;%
+  mutate(Fraction = Sales / sum(Sales))</code></pre>
+<p>Ibis:</p>
+<pre><code>import ibis
+
+# Calculate fraction of sales by city within state
+expr = sales.mutate(Fraction=sales['Sales'] / sales.groupby('State').Sales.sum())
+
+result = expr.execute()
+print(result)</code></pre>
+<p>It may not look all that different, but pandas has this weird syntax where you group by (something) but then select a column with brackets. But sometimes you can use periods to select the column.</p>
+<p>The polars and ibis implementations seem simple, but overly verbose.</p>
+<p>Then there’s the <code>dplyr</code>. So elegant and simple. The <code>sum()</code> operator is summing within the group, and the <code>sales/sum(sales)</code> is very easy to read.</p>
+<p>In pandas I’m left wondering what is <code>x/x.sum()</code> and why this <code>lambda</code> thing?</p>
+<p>This is a very simple example, but the more you get into the weeds the more my point becomes obvious.</p>
+<p>The benefits of <code>dplyr</code> come from when you want to do 10 mutates in one go. It’s so simple. In pandas that’s 10 lambda functions with a .assign operator.</p>
+<p>Like, look at <code>pandas</code> trying to do this:</p>
+<pre><code>import pandas as pd
+
+# Sample data
+data = {
+    'A': list(range(1, 11)),
+    'B': list(range(11, 21)),
+    'C': list(range(21, 31))
+}
+
+df = pd.DataFrame(data)
+
+# Using assign to create 10 new columns
+df = df.assign(
+    # New columns with various transformations
+    A_Squared=lambda x: x['A']**2,
+    B_Squared=lambda x: x['B']**2,
+    C_Squared=lambda x: x['C']**2,
+    A_Cubed=lambda x: x['A']**3,
+    B_Cubed=lambda x: x['B']**3,
+    C_Cubed=lambda x: x['C']**3,
+    A_Log=lambda x: np.log(x['A']),
+    B_Log=lambda x: np.log(x['B']),
+    C_Log=lambda x: np.log(x['C']),
+    A_B=lambda x: x['A'] * x['B']
+)
+
+print(df)</code></pre>
+<p>Now look at <code>dplyr</code>:</p>
+<pre><code>library(dplyr)
+
+# Sample data
+data &lt;- data.frame(
+  A = 1:10,
+  B = 11:20,
+  C = 21:30
+)
+
+# Using mutate to create 10 new columns
+df &lt;- data %&gt;%
+  mutate(
+    # New columns with various transformations
+    A_Squared = A^2,
+    B_Squared = B^2,
+    C_Squared = C^2,
+    A_Cubed = A^3,
+    B_Cubed = B^3,
+    C_Cubed = C^3,
+    A_Log = log(A),
+    B_Log = log(B),
+    C_Log = log(C),
+    A_B = A * B
+  )
+
+print(df)</code></pre>
+<p>Now let’s complicate it, where each manipulation takes in a previous column:</p>
+<pre><code>import pandas as pd
+
+# Create a DataFrame
+df = pd.DataFrame({'A': [10, 20, 30, 40, 50]})
+
+# Mutate operations
+df['B'] = df['A'] ** 2
+df['C'] = df['A'] + df['B'] * 2
+df['D'] = df['B'] / 2
+df['E'] = df['C'] - df['A']
+df['F'] = df['A'] * 5
+df['G'] = df['D'] - df['E']
+df['H'] = df['F'] + df['G']
+df['I'] = df['D'] ** 2
+df['J'] = df['H'] / df['I']
+df['K'] = df['I'] - df['J']
+
+print(df)</code></pre>
+<p>This is how most people write pandas. They write <code>df</code> 26 times.</p>
+<p>Let’s look at pandas using the <code>assign</code> operator:</p>
+<pre><code>import pandas as pd
+
+# Create a DataFrame
+df = pd.DataFrame({'A': [10, 20, 30, 40, 50]})
+
+# Mutate operations with assign and lambda functions
+df = df.assign(
+    B=lambda x: x['A'] ** 2,
+    C=lambda x: x['A'] + x['B'] * 2,
+    D=lambda x: x['B'] / 2,
+    E=lambda x: x['C'] - x['A'],
+    F=lambda x: x['A'] * 5,
+    G=lambda x: x['D'] - x['E'],
+    H=lambda x: x['F'] + x['G'],
+    I=lambda x: x['D'] ** 2,
+    J=lambda x: x['H'] / x['I'],
+    K=lambda x: x['I'] - x['J']
+)
+
+print(df)</code></pre>
+<p>Slightly better but still an eyesore. 10 lambda statements and still 26 <code>x</code> calls.</p>
+<p>And in R:</p>
+<pre><code>library(dplyr)
+
+# Create a tibble
+df &lt;- tibble(A = c(10, 20, 30, 40, 50))
+
+# Mutate operations
+df &lt;- df %&gt;%
+  mutate(B = A ^ 2,
+         C = A + B * 2,
+         D = B / 2,
+         E = C - A,
+         F = A * 5,
+         G = D - E,
+         H = F + G,
+         I = D ^ 2,
+         J = H / I,
+         K = I - J)
+
+print(df)</code></pre>
+<p>It’s just so simple. So elegant. So beautiful. No wasted text. Very easy to read.</p>
+<p>Ibis seems similar to dplyr but requires the <code>D = _.["B"]/2</code> operation. <a href="https://ibis-project.org/tutorials/cloud-data-platforms/starburst-galaxy/1_basics.html#mutating-columns">Ibis – basics - mutating columns</a></p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          Title
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-<th>
-Author
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="concepts" data-listing-date-sort="1709498329000" data-listing-file-modified-sort="1712069610838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9" data-listing-title-sort="confirmation bias" data-listing-filename-sort="confirmation-bias.md">
-<td>
-<span class="listing-date">Sunday March 3, 2024</span>
-</td>
-<td>
-<a href="./concepts/confirmation-bias.html" class="title listing-title">confirmation bias</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="concepts" data-listing-date-sort="1707952703000" data-listing-file-modified-sort="1712069610838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="truths lost in the Bible" data-listing-filename-sort="truths-lost-in-the-bible.md">
-<td>
-<span class="listing-date">Wednesday February 14, 2024</span>
-</td>
-<td>
-<a href="./concepts/truths-lost-in-the-bible.html" class="title listing-title">truths lost in the Bible</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="2" data-listing-date-sort="1707163654000" data-listing-file-modified-sort="1712069610838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7" data-listing-title-sort="Honduras" data-listing-filename-sort="Honduras.md">
-<td>
-<span class="listing-date">Monday February 5, 2024</span>
-</td>
-<td>
-<a href="./concepts/Honduras.html" class="title listing-title">Honduras</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="3" data-categories="concepts" data-listing-date-sort="1706964570000" data-listing-file-modified-sort="1712069610838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6" data-listing-title-sort="Frank Herbert" data-listing-filename-sort="frank-herbert.md">
-<td>
-<span class="listing-date">Saturday February 3, 2024</span>
-</td>
-<td>
-<a href="./concepts/frank-herbert.html" class="title listing-title">Frank Herbert</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="4" data-categories="concepts,christianity" data-listing-date-sort="1705845413000" data-listing-file-modified-sort="1712069610838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6" data-listing-title-sort="Sacramental Covenant" data-listing-filename-sort="sacrament-covenant.md">
-<td>
-<span class="listing-date">Sunday January 21, 2024</span>
-</td>
-<td>
-<a href="./concepts/sacrament-covenant.html" class="title listing-title">Sacramental Covenant</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="5" data-categories="concepts" data-listing-date-sort="1705271156000" data-listing-file-modified-sort="1712069610838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2" data-listing-title-sort="President Russel M. Nelson" data-listing-filename-sort="president-russel-m-nelson.md">
-<td>
-<span class="listing-date">Sunday January 14, 2024</span>
-</td>
-<td>
-<a href="./concepts/president-russel-m-nelson.html" class="title listing-title">President Russel M. Nelson</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="6" data-categories="concepts" data-listing-date-sort="1704969431000" data-listing-file-modified-sort="1712069610838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="78" data-listing-title-sort="Christian" data-listing-filename-sort="christian.md">
-<td>
-<span class="listing-date">Thursday January 11, 2024</span>
-</td>
-<td>
-<a href="./concepts/christian.html" class="title listing-title">Christian</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="7" data-categories="concepts" data-listing-date-sort="1704877641000" data-listing-file-modified-sort="1712069610838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17" data-listing-title-sort="Gratus sum, ergo habeo" data-listing-filename-sort="gratus-sum-ergo-habeo.md">
-<td>
-<span class="listing-date">Wednesday January 10, 2024</span>
-</td>
-<td>
-<a href="./concepts/gratus-sum-ergo-habeo.html" class="title listing-title">Gratus sum, ergo habeo</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="8" data-categories="concepts" data-listing-date-sort="1704877042000" data-listing-file-modified-sort="1712069610838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15" data-listing-title-sort="The Book of Mormon: Another Testament of Jesus Christ" data-listing-filename-sort="the-book-of-mormon-another-testament-of-jesus-christ.md">
-<td>
-<span class="listing-date">Wednesday January 10, 2024</span>
-</td>
-<td>
-<a href="./concepts/the-book-of-mormon-another-testament-of-jesus-christ.html" class="title listing-title">The Book of Mormon: Another Testament of Jesus Christ</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="9" data-categories="concepts" data-listing-date-sort="1704876895000" data-listing-file-modified-sort="1712069610838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="89" data-listing-title-sort="The Church of Jesus Christ of Latter-day Saints" data-listing-filename-sort="the-church-of-jesus-christ-of-latter-day-saints.md">
-<td>
-<span class="listing-date">Wednesday January 10, 2024</span>
-</td>
-<td>
-<a href="./concepts/the-church-of-jesus-christ-of-latter-day-saints.html" class="title listing-title">The Church of Jesus Christ of Latter-day Saints</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="10" data-categories="posts" data-listing-date-sort="1704876864000" data-listing-file-modified-sort="1712069610838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="60" data-listing-title-sort="my mission" data-listing-filename-sort="my-mission.md">
-<td>
-<span class="listing-date">Wednesday January 10, 2024</span>
-</td>
-<td>
-<a href="./concepts/my-mission.html" class="title listing-title">my mission</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-</tr>
-<tr data-index="11" data-categories="christianity,concept" data-listing-date-sort="1704639779000" data-listing-file-modified-sort="1712069610838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Hand of God" data-listing-filename-sort="hand-of-god.md">
-<td>
-<span class="listing-date">Sunday January 7, 2024</span>
-</td>
-<td>
-<a href="./concepts/hand-of-god.html" class="title listing-title">Hand of God</a>
-</td>
-<td>
-<span class="listing-author">&nbsp;</span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div><p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p></main> <!-- /main -->
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -873,6 +898,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<script src="https://giscus.app/client.js" data-repo="bryanwhiting/blog" data-repo-id="R_kgDOHgq18w" data-category="General" data-category-id="DIC_kwDOHgq1884CTE-n" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -903,7 +932,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="./index.xml">
+    <a class="nav-link" href="../index.xml">
       <i class="bi bi-rss" role="img">
 </i> 
     </a>
@@ -916,5 +945,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

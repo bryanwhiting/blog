@@ -10,7 +10,226 @@
 <atom:link href="https://www.bryanwhiting.com/tech.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Tue, 26 Mar 2024 22:39:56 GMT</lastBuildDate>
+<lastBuildDate>Sun, 31 Mar 2024 21:24:06 GMT</lastBuildDate>
+<item>
+  <title>Ibis DataFrames for Python, why I hate Pandas, and what I miss about dplyr</title>
+  <link>https://www.bryanwhiting.com/tech/ibis-dataframes-for-python-vs-pandas.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<blockquote class="blockquote">
+<p>I haven’t used <code>ibis</code> as of writing this. Just reviewed the docs.</p>
+</blockquote>
+<section id="data-manipulation-in-python" class="level1">
+<h1>Data Manipulation in Python</h1>
+<p>I’ve been a Python data scientist for 5-6 years. I’ve never liked pandas. Ever.</p>
+<p>It’s because I started as a <code>tidyverse</code> data scientist in R. One of the things I’ve missed about using Python is <code>dplyr</code>, an R package for data manipulation. And when I started with Python it was in PySpark - it felt very similar to <code>dplyr</code>, except for the annoying JVM.</p>
+<p>It’s amazing because everything is done by chaining, and it’s able to manipulate in memory or translate to a spark or SQL backend for execution. (It’s very easy to use base <code>dplyr</code> and then just run the same query in memory on a small dataframe or against <code>BigQuery</code> or something.)</p>
+<p>This chaining also avoids the common readability problem with pandas wherein often you see df[x] = df[y] / df[b] on one line and that’s repeated for multiple lines if you want to create multiple new variables.</p>
+<p>While <code>pandas</code> has the .pipe and .assign operators for chaining, they still require lambda functions, which get annoying. This Reddit thread explores the opinion I share: the api is inconsistent. <a href="https://www.reddit.com/r/dataengineering/comments/146rj9m/does_anyone_else_hate_pandas/">Reddit - Does anyone else hate pandas?</a>.</p>
+<p><code>Polars</code> makes this much cleaner with the with_columns operator, for example, which is also very similar to <code>PySpark</code>. But <code>polars</code> is Rust backend, not Java. Game, Set, Match <code>polars</code>.</p>
+<p>I’m not the only one who loves <code>dplyr</code> . There have been several Python attempts to build <code>dplyr</code> in the Python ecosystem. There were great packages like <a href="https://github.com/coursera/pandas-ply">GitHub - coursera/pandas-ply: functional data manipulation for pandas</a> (9 years since last commit), and <a href="https://github.com/dodger487/dplython">GitHub - dodger487/dplython: dplyr for python</a>, not updated in 7 years. Then there’s the <code>dfply</code> <a href="https://github.com/kieferk/dfply">package</a> that hasn’t been maintained in 5 years (see <a href="https://towardsdatascience.com/dplyr-style-data-manipulation-with-pipes-in-python-380dcb137000">tutorial</a>).</p>
+<p>The <code>siuba</code> package is the latest Python <code>dplyr</code> incantation that is actively maintained: <a href="https://github.com/machow/siuba">GitHub - machow/siuba: Python library for using dplyr like syntax with pandas and SQL</a> and can also execute against a SQL backend, but it can’t execute a polars backend. # Ibis to solve my problems?</p>
+<p>I just came across <code>ibis</code> however, and it seems really promising. Turns out it was <a href="https://ibis-project.org/concepts/who">created</a> in 2015 by Wes McKinney to solve the <a href="https://wesmckinney.com/blog/apache-arrow-pandas-internals/">“10 Things I Hate About pandas”</a>.</p>
+<ul>
+<li><a href="https://ibis-project.org/">Ibis</a></li>
+<li><a href="https://ibis-project.org/tutorials/getting_started">Ibis – getting_started</a></li>
+<li><a href="https://ibis-project.org/posts/wow-analysis/">Ibis – Analysis of World of Warcraft data</a></li>
+</ul>
+<p><img src="https://www.bryanwhiting.com/img/screenshot-ibis-data.jpeg" class="preview-image img-fluid"></p>
+<p>It looks like <code>dplyr</code> (for example it even copies some syntax like mutate() for adding new columns and select for picking columns). But, the benefit is it has <code>polars</code> and <code>pandas</code> as backends, but also offers <code>PySpark</code> (should someon need to use databricks as a backend compute engine). And it can also translate into SQL. Sure, polars can do this too: <a href="https://docs.pola.rs/user-guide/io/database/">Databases - Polars user guide</a>. But <code>ibis</code> seems more extensive.</p>
+<p>This means I could have one programming language to execute either <code>polars</code>, SQL, or PySpark, rather than have both <code>polars</code> and SQL or <code>pandas</code> in my pipeline in different places. (Side note: why would I use <code>pandas</code> as a backend though when <code>polars</code> is so fast?)</p>
+<p>I just discovered this over the weekend. Would love your thoughts! I’m sure there are limitations vs raw polars/pandas that are hidden from my quick overview.</p>
+</section>
+<section id="appendix" class="level1">
+<h1>Appendix</h1>
+<p>The most annoying thing about <code>pandas</code> is the <code>.transform()</code> operator. I hate it. Just hate it. It never makes sense and I always have to look it up. This essentially just does a window operation.</p>
+<p>You don’t need this until you need to do some type of aggregation within a group. Let’s assume you want to calculate the fraction of sales attributed to a city within a state. (What fraction of sales in California come from San Francisco, for example.)</p>
+<p>Read the following and consider for yourself what’s simplest:</p>
+<pre><code>import pandas as pd
+
+# Sample data
+data = {
+    'State': ['CA', 'CA', 'CA', 'NY', 'NY', 'NY'],
+    'City': ['SF', 'LA', 'SF', 'NYC', 'Buffalo', 'NYC'],
+    'Sales': [100, 200, 150, 300, 100, 200]
+}
+
+df = pd.DataFrame(data)
+
+# Calculate fraction of sales by city within state
+df['Fraction'] = df.groupby('State')['Sales'].apply(lambda x: x / x.sum())
+
+print(df)</code></pre>
+<p>Polars:</p>
+<pre><code>import polars as pl
+
+df = pl.DataFrame(data)
+
+# Calculate fraction of sales by city within state
+df = df.with_column(
+  pl.col('Sales') / df.groupby('State').agg(pl.sum('Sales'))['sum'])
+
+print(df)</code></pre>
+<p>Dplyr:</p>
+<pre><code>library(dplyr)
+
+# Calculate fraction of sales by city within state
+df &lt;- data %&gt;%
+  group_by(State) %&gt;%
+  mutate(Fraction = Sales / sum(Sales))</code></pre>
+<p>Ibis:</p>
+<pre><code>import ibis
+
+# Calculate fraction of sales by city within state
+expr = sales.mutate(Fraction=sales['Sales'] / sales.groupby('State').Sales.sum())
+
+result = expr.execute()
+print(result)</code></pre>
+<p>It may not look all that different, but pandas has this weird syntax where you group by (something) but then select a column with brackets. But sometimes you can use periods to select the column.</p>
+<p>The polars and ibis implementations seem simple, but overly verbose.</p>
+<p>Then there’s the <code>dplyr</code>. So elegant and simple. The <code>sum()</code> operator is summing within the group, and the <code>sales/sum(sales)</code> is very easy to read.</p>
+<p>In pandas I’m left wondering what is <code>x/x.sum()</code> and why this <code>lambda</code> thing?</p>
+<p>This is a very simple example, but the more you get into the weeds the more my point becomes obvious.</p>
+<p>The benefits of <code>dplyr</code> come from when you want to do 10 mutates in one go. It’s so simple. In pandas that’s 10 lambda functions with a .assign operator.</p>
+<p>Like, look at <code>pandas</code> trying to do this:</p>
+<pre><code>import pandas as pd
+
+# Sample data
+data = {
+    'A': list(range(1, 11)),
+    'B': list(range(11, 21)),
+    'C': list(range(21, 31))
+}
+
+df = pd.DataFrame(data)
+
+# Using assign to create 10 new columns
+df = df.assign(
+    # New columns with various transformations
+    A_Squared=lambda x: x['A']**2,
+    B_Squared=lambda x: x['B']**2,
+    C_Squared=lambda x: x['C']**2,
+    A_Cubed=lambda x: x['A']**3,
+    B_Cubed=lambda x: x['B']**3,
+    C_Cubed=lambda x: x['C']**3,
+    A_Log=lambda x: np.log(x['A']),
+    B_Log=lambda x: np.log(x['B']),
+    C_Log=lambda x: np.log(x['C']),
+    A_B=lambda x: x['A'] * x['B']
+)
+
+print(df)</code></pre>
+<p>Now look at <code>dplyr</code>:</p>
+<pre><code>library(dplyr)
+
+# Sample data
+data &lt;- data.frame(
+  A = 1:10,
+  B = 11:20,
+  C = 21:30
+)
+
+# Using mutate to create 10 new columns
+df &lt;- data %&gt;%
+  mutate(
+    # New columns with various transformations
+    A_Squared = A^2,
+    B_Squared = B^2,
+    C_Squared = C^2,
+    A_Cubed = A^3,
+    B_Cubed = B^3,
+    C_Cubed = C^3,
+    A_Log = log(A),
+    B_Log = log(B),
+    C_Log = log(C),
+    A_B = A * B
+  )
+
+print(df)</code></pre>
+<p>Now let’s complicate it, where each manipulation takes in a previous column:</p>
+<pre><code>import pandas as pd
+
+# Create a DataFrame
+df = pd.DataFrame({'A': [10, 20, 30, 40, 50]})
+
+# Mutate operations
+df['B'] = df['A'] ** 2
+df['C'] = df['A'] + df['B'] * 2
+df['D'] = df['B'] / 2
+df['E'] = df['C'] - df['A']
+df['F'] = df['A'] * 5
+df['G'] = df['D'] - df['E']
+df['H'] = df['F'] + df['G']
+df['I'] = df['D'] ** 2
+df['J'] = df['H'] / df['I']
+df['K'] = df['I'] - df['J']
+
+print(df)</code></pre>
+<p>This is how most people write pandas. They write <code>df</code> 26 times.</p>
+<p>Let’s look at pandas using the <code>assign</code> operator:</p>
+<pre><code>import pandas as pd
+
+# Create a DataFrame
+df = pd.DataFrame({'A': [10, 20, 30, 40, 50]})
+
+# Mutate operations with assign and lambda functions
+df = df.assign(
+    B=lambda x: x['A'] ** 2,
+    C=lambda x: x['A'] + x['B'] * 2,
+    D=lambda x: x['B'] / 2,
+    E=lambda x: x['C'] - x['A'],
+    F=lambda x: x['A'] * 5,
+    G=lambda x: x['D'] - x['E'],
+    H=lambda x: x['F'] + x['G'],
+    I=lambda x: x['D'] ** 2,
+    J=lambda x: x['H'] / x['I'],
+    K=lambda x: x['I'] - x['J']
+)
+
+print(df)</code></pre>
+<p>Slightly better but still an eyesore. 10 lambda statements and still 26 <code>x</code> calls.</p>
+<p>And in R:</p>
+<pre><code>library(dplyr)
+
+# Create a tibble
+df &lt;- tibble(A = c(10, 20, 30, 40, 50))
+
+# Mutate operations
+df &lt;- df %&gt;%
+  mutate(B = A ^ 2,
+         C = A + B * 2,
+         D = B / 2,
+         E = C - A,
+         F = A * 5,
+         G = D - E,
+         H = F + G,
+         I = D ^ 2,
+         J = H / I,
+         K = I - J)
+
+print(df)</code></pre>
+<p>It’s just so simple. So elegant. So beautiful. No wasted text. Very easy to read.</p>
+<p>Ibis seems similar to dplyr but requires the <code>D = _.["B"]/2</code> operation. <a href="https://ibis-project.org/tutorials/cloud-data-platforms/starburst-galaxy/1_basics.html#mutating-columns">Ibis – basics - mutating columns</a></p>
+
+
+</section>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>python</category>
+  <category>data science</category>
+  <category>data manipulation</category>
+  <category>pandas</category>
+  <category>ibis</category>
+  <category>data engineering</category>
+  <category>analytics</category>
+  <guid>https://www.bryanwhiting.com/tech/ibis-dataframes-for-python-vs-pandas.html</guid>
+  <pubDate>Sun, 31 Mar 2024 21:24:06 GMT</pubDate>
+</item>
 <item>
   <title>On file formats: parquet vs csv</title>
   <link>https://www.bryanwhiting.com/tech/on-file-formats-parquet-vs-csv.html</link>
@@ -613,33 +832,6 @@ TikTok presents Boximator!<br><br>This method can generate rich and controllable
   <category>ai</category>
   <guid>https://www.bryanwhiting.com/news/2024-02-14-news-notes.html</guid>
   <pubDate>Wed, 14 Feb 2024 11:08:43 GMT</pubDate>
-</item>
-<item>
-  <title>A/B Testing Resources</title>
-  <link>https://www.bryanwhiting.com/tech/ab-testing-resources.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>First mentioned in <a href="../posts/a-10-week-self-guided-data-science-intro-course.html">Become a Data Scientist in 10 Weeks</a>.</p>
-<p>If You’ve taken stat 101, this is where the “t.test” gets used to literally make Big Tech billions of dollars. I’m not kidding. It’s simple, but it’s powerful.</p>
-<ul>
-<li><a href="https://netflixtechblog.com/its-all-a-bout-testing-the-netflix-experimentation-platform-4e1ca458c15">It’s All A/Bout Testing: The Netflix Experimentation Platform | by Netflix Technology Blog | Netflix TechBlog</a></li>
-<li>A seven part series by Netflix: <a href="https://netflixtechblog.com/netflix-a-culture-of-learning-394bc7d0f94c">Netflix: A Culture of Learning. Martin Tingley with Wenjing Zheng… | by Netflix Technology Blog | Netflix TechBlog</a> I put here the seventh post because it likes to parts 1-6 in the intro. This part 7 is probably the best to start with because it explains the context behind A/B testing.</li>
-<li><a href="https://experimentguide.com/">Experiment Guide – Accelerate innovation using trustworthy online controlled experiments</a> This book tells you how Microsoft, Amazon, and Google use online experimentation to make billions of dollars. It’s written by the people who invented online experimentation and who are top data scientists at those companies.</li>
-<li><a href="https://netflixtechblog.com/sequential-a-b-testing-keeps-the-world-streaming-netflix-part-1-continuous-data-cba6c7ed49df">Sequential A/B Testing Keeps the World Streaming NetflixPart 1: Continuous Data | by Netflix Technology Blog | Feb, 2024 | Netflix TechBlog</a></li>
-</ul>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>tech</category>
-  <category>A/B testing</category>
-  <category>statistics</category>
-  <guid>https://www.bryanwhiting.com/tech/ab-testing-resources.html</guid>
-  <pubDate>Tue, 13 Feb 2024 17:16:15 GMT</pubDate>
 </item>
 </channel>
 </rss>
