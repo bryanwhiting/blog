@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "configurations-for-ml-pipelines",
+      "path": "tech/configurations-for-ml-pipelines.md"
+    },
+    {
+      "basename": "why-you-should-log-with-aimstack",
+      "path": "tech/why-you-should-log-with-aimstack.md"
+    },
+    {
+      "basename": "ibis-dataframes-for-python-vs-pandas",
+      "path": "tech/ibis-dataframes-for-python-vs-pandas.md"
+    },
+    {
       "basename": "brave-new-world",
       "path": "book-review/brave-new-world.md"
     },
     {
       "basename": "adult-children-of-emotional-immature-parents",
       "path": "book-review/adult-children-of-emotional-immature-parents.md"
-    },
-    {
-      "basename": "ibis-dataframes-for-python-vs-pandas",
-      "path": "tech/ibis-dataframes-for-python-vs-pandas.md"
     },
     {
       "basename": "easter",
@@ -191,14 +199,6 @@
     {
       "basename": "freedom-of-religion",
       "path": "gratitude/freedom-of-religion.md"
-    },
-    {
-      "basename": "how-i-learn",
-      "path": "tech/how-i-learn.md"
-    },
-    {
-      "basename": "a-knife-to-a-gun-fight",
-      "path": "tech/a-knife-to-a-gun-fight.md"
     }
   ],
   "omittedPaths": [],

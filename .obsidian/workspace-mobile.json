@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/brave-new-world.md",
+                "file": "tech/configurations-for-ml-pipelines.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "book-review/brave-new-world.md",
+            "file": "tech/configurations-for-ml-pipelines.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "book-review/brave-new-world.md"
+            "file": "tech/configurations-for-ml-pipelines.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "book-review/brave-new-world.md",
+            "file": "tech/configurations-for-ml-pipelines.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,13 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "book-review/adult-children-of-emotional-immature-parents.md",
-    "book-review/brave-new-world.md",
+    "img/screenshot-hydra-configs.jpeg",
+    "tech/why-you-should-log-with-aimstack.md",
+    "tech/configurations-for-ml-pipelines.md",
+    "img/screenshot-aimstack.jpeg",
     "tech/ibis-dataframes-for-python-vs-pandas.md",
+    "book-review/brave-new-world.md",
+    "book-review/adult-children-of-emotional-immature-parents.md",
     "gratitude/easter.md",
     "book-review/easter.md",
     "img/dalle-he-is-risen.jpeg",
@@ -171,12 +175,8 @@
     "tech/chronos-time-series-foundation-model-by-amazon.md",
     "img/screenshot-chronos-time-series.jpeg",
     "tech/timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting.md",
-    "gratitude/ever-shifting-tides.md",
-    "lists/reading-list.md",
-    "christianity/2-nephi-31-.md",
     "img/book-elon-musk.jpeg",
     "img/book-count-of-monte-cristo.jpeg",
-    "img/screenshot-discounting-positives.jpeg",
     "quotes",
     "code/2024-02-02-libby.py",
     "code",

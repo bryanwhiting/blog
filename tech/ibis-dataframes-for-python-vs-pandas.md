@@ -35,7 +35,7 @@ There were great packages like [GitHub - coursera/pandas-ply: functional data ma
 The `siuba` package is the latest Python `dplyr` incantation that is actively maintained: [GitHub - machow/siuba: Python library for using dplyr like syntax with pandas and SQL](https://github.com/machow/siuba) and can also execute against a SQL backend, but it can't execute a polars backend. 
 # Ibis to solve my problems?
 
-I just came across `ibis` however, and it seems really promising. Turns out it was [created](https://ibis-project.org/concepts/who) in 2015 by Wes McKinney to solve the [ “10 Things I Hate About pandas”](https://wesmckinney.com/blog/apache-arrow-pandas-internals/). 
+I just came across `ibis` however, and it seems really promising. Turns out it was [created](https://ibis-project.org/concepts/who) in 2015 by Wes McKinney, who created the pandas pyarrow backend to solve the [ “10 Things I Hate About pandas”](https://wesmckinney.com/blog/apache-arrow-pandas-internals/). More on the 
 
 - [Ibis](https://ibis-project.org/)
 - [Ibis – getting\_started](https://ibis-project.org/tutorials/getting_started)
