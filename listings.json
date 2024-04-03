@@ -2,6 +2,8 @@
   {
     "listing": "/tech.html",
     "items": [
+      "/tech/why-you-should-log-with-aimstack.html",
+      "/tech/configurations-for-ml-pipelines.html",
       "/tech/ibis-dataframes-for-python-vs-pandas.html",
       "/tech/on-file-formats-parquet-vs-csv.html",
       "/tech/chronos-time-series-foundation-model-by-amazon.html",
@@ -327,6 +329,8 @@
   {
     "listing": "/all.html",
     "items": [
+      "/tech/why-you-should-log-with-aimstack.html",
+      "/tech/configurations-for-ml-pipelines.html",
       "/book-review/brave-new-world.html",
       "/gratitude/easter.html",
       "/tech/ibis-dataframes-for-python-vs-pandas.html",
@@ -840,7 +844,9 @@
     "items": [
       "/quotes/how-ebay-empowers-their-developers-with-ai.html",
       "/quotes/discounting-positives.html",
+      "/tech/why-you-should-log-with-aimstack.html",
       "/quotes/how-to-argue.html",
+      "/tech/configurations-for-ml-pipelines.html",
       "/book-review/brave-new-world.html",
       "/gratitude/easter.html",
       "/quotes/i-wont-get-it-right-but-i-will-get-right-getting-it-right.html",
@@ -1730,6 +1736,8 @@
   {
     "listing": "/index.html",
     "items": [
+      "/tech/why-you-should-log-with-aimstack.html",
+      "/tech/configurations-for-ml-pipelines.html",
       "/tech/ibis-dataframes-for-python-vs-pandas.html",
       "/tech/on-file-formats-parquet-vs-csv.html",
       "/tech/chronos-time-series-foundation-model-by-amazon.html",

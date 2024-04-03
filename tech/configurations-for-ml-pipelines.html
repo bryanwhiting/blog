@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Bryan Whiting - Lists of Things</title>
+<title>Bryan Whiting - Configurations for ML Pipelines</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -67,35 +65,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-361602039"></script>
 
 <script type="text/javascript">
@@ -107,21 +76,21 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="../css/styles.css">
 <link rel="stylesheet" href="css/poem.css">
-<meta property="og:title" content="Bryan Whiting - Lists of Things">
+<meta property="og:title" content="Bryan Whiting - Configurations for ML Pipelines">
 <meta property="og:description" content="">
+<meta property="og:image" content="https://www.bryanwhiting.com/img/screenshot-hydra-configs.jpeg">
 <meta property="og:site_name" content="Bryan Whiting">
-<meta name="twitter:title" content="Bryan Whiting - Lists of Things">
+<meta name="twitter:title" content="Bryan Whiting - Configurations for ML Pipelines">
 <meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://www.bryanwhiting.com/img/screenshot-hydra-configs.jpeg">
 <meta name="twitter:creator" content="@bryanwhiting">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
-<body class="nav-sidebar docked">
+<body class="nav-sidebar docked slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -130,7 +99,9 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./concepts.html">Other</a></li><li class="breadcrumb-item"><a href="./lists.html">Lists of Things</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      Bryan Whiting
+      </li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -140,15 +111,38 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
   </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./concepts.html">Other</a></li><li class="breadcrumb-item"><a href="./lists.html">Lists of Things</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Lists of Things</h1>
-                      </div>
+      <h1 class="title">Configurations for ML Pipelines</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">tech</div>
+                <div class="quarto-category">configuration</div>
+                <div class="quarto-category">software engineering</div>
+                <div class="quarto-category">ml pipeline</div>
+                <div class="quarto-category">ml-tools</div>
+              </div>
+                  </div>
   </div>
     
   <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Date</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">Tuesday April 2, 2024</p>
+      </div>
+    </div>
+          <div>
+      <div class="quarto-title-meta-heading">Topics</div>
+      <div class="quarto-title-meta-contents">
+                <div class="badge badge-small badge-grey quarto-category">tech</div>
+                <div class="badge badge-small badge-grey quarto-category">configuration</div>
+                <div class="badge badge-small badge-grey quarto-category">software engineering</div>
+                <div class="badge badge-small badge-grey quarto-category">ml pipeline</div>
+                <div class="badge badge-small badge-grey quarto-category">ml-tools</div>
+            </div>
+    </div>
       
   </div>  
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
@@ -156,7 +150,7 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Bryan Whiting</a> 
+      <a href="../">Bryan Whiting</a> 
         <div class="sidebar-tools-main tools-wide">
     <div class="dropdown">
       <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label=""><i class="bi bi-github"></i></a>
@@ -175,7 +169,7 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
     </div>
     <a href="https://www.linkedin.com/in/bryan-whiting/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
     <a href="https://twitter.com/bryanwhiting" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
-    <a href="./index.xml" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-rss"></i></a>
+    <a href="../index.xml" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-rss"></i></a>
 </div>
     </div>
       </div>
@@ -188,13 +182,13 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link">
+  <a href="../about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Blog</span></a>
   </div>
 </li>
@@ -209,37 +203,37 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./tech.html" class="sidebar-item-text sidebar-link">
+  <a href="../tech.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Tech, AI, and Data</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./posts.html" class="sidebar-item-text sidebar-link">
+  <a href="../posts.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Posts</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./books.html" class="sidebar-item-text sidebar-link">
+  <a href="../books.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Book Reviews</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./christianity.html" class="sidebar-item-text sidebar-link">
+  <a href="../christianity.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Christianity</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./gratitude.html" class="sidebar-item-text sidebar-link">
+  <a href="../gratitude.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Gratitude</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./creative.html" class="sidebar-item-text sidebar-link">
+  <a href="../creative.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Creative</span></a>
   </div>
 </li>
@@ -256,25 +250,25 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./concepts.html" class="sidebar-item-text sidebar-link">
+  <a href="../concepts.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Concepts</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./goals.html" class="sidebar-item-text sidebar-link">
+  <a href="../goals.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Goals</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./lists.html" class="sidebar-item-text sidebar-link active">
+  <a href="../lists.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Lists of Things</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./sitemap.html" class="sidebar-item-text sidebar-link">
+  <a href="../sitemap.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Sitemap (All Posts)</span></a>
   </div>
 </li>
@@ -282,238 +276,87 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
   </li>
     </ul>
     </div>
-    
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#config-methods-ive-used" id="toc-config-methods-ive-used" class="nav-link active" data-scroll-target="#config-methods-ive-used">Config Methods I’ve Used</a></li>
+  <li><a href="#hydra" id="toc-hydra" class="nav-link" data-scroll-target="#hydra">Hydra?</a></li>
+  <li><a href="#why-i-like-hydras-design" id="toc-why-i-like-hydras-design" class="nav-link" data-scroll-target="#why-i-like-hydras-design">Why I like Hydra’s design</a></li>
+  <li><a href="#my-ideal-world" id="toc-my-ideal-world" class="nav-link" data-scroll-target="#my-ideal-world">My Ideal World</a></li>
+  </ul>
+</nav>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
 
 
 
 
 
-<p>Ongoing bookmarks and lists of things I want to remember.</p>
+<p>Configuring an ML pipeline means you have 15 different things that could change at any time and you create a way to easily change those 15 things. Those 15 things could be file paths, data filtering steps, models you want to use, etc.</p>
+<p>Any researcher constantly asks themselves: but what if I switch X?</p>
+<p>And so the researcher starts to configure a pipeline.</p>
+<section id="config-methods-ive-used" class="level1">
+<h1>Config Methods I’ve Used</h1>
+<p>First time I built a config it was in VBA. I had a text file I loaded in that could be overwritten based on setting someone chose.</p>
+<p>Second time I config’d something was in Python. I used <code>ConfigParser</code> per my Manager David Mantilla’s suggestion. It was pretty good. But unwieldy. Don’t use fhis.</p>
+<p>Third thing I saw was using a Python constants.py file. Just import Python variables from another module. This is nice because you can import model objects or such. Dicts. Whatever. Seems great. But it’s Python code. Config files shouldn’t be code. They should be configs. Every great software follows this, like <code>k8s</code> helm charts or whatever. Google loves using <code>Protobufs</code>. Configs shouldn’t be code, because if they’re code they’re dangerous. You start doing crazy things with them.</p>
+<p>Fourth thing I did was to use YAML which is very clean. Lots of people like YAML. This gets unwieldy if you need 100 configs for different customers, for example. Can you imagine managing 100 yaml files? What if you need to update one param? Then you need to update 100 files. Rough.</p>
+<p>I also used Pydantic to read in the YAML file and validate types. Gotta validate types. What’s an int vs a string? Well, this mean that we needed to design the pipeline to rely on some <code>config</code> class. We had to pass this config object around everywhere. Not super idea but gets the job done.</p>
+<p>Fifth thing was to use one default YAML. This solved the issue of redundancy across all the 100 YAML files. (If you only have one model, you probably need only 1 YAML file so this may not be your problem.) But this still kinda stinks. It’s in a file.</p>
+<p>Sixth thing was some eng’s on my team saw a better way and build a CRUD database. This made it so we didn’t have to do a code change to update a config. That means that people outside the team could edit a config. Awesome. But we still have 100 web pages that could change. Kinda sux. And we still had a default setting - essential.</p>
+<p>Problem with 100 YAML or 100 web pages is that if you want to change things or run experiments, you need to literally clone the config file. Now you have 15 versions of the same config file with slight modifications and you can’t remember what’s going on. So you delete them all eventually and just pick one.</p>
+</section>
+<section id="hydra" class="level1 page-columns page-full">
+<h1>Hydra?</h1>
+<p>I’m writing this because I just learned about <code>hydra</code> . Remember: I use this site for note taking. Here’s what I just learned.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="../img/screenshot-hydra-configs.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Hydra!</figcaption>
+</figure>
+</div>
+<p><a href="https://hydra.cc/">Hydra | Hydra</a></p>
+<ul>
+<li>Hydra is Python open source maintained by Facebook</li>
+<li>If built to configure pipelines, in particular ML pipelines but could be used for anything.</li>
+<li>It uses <code>dataclasses</code> and <code>yaml</code> files, so I’m thinking I was smart for what I did with my fourth option.</li>
+<li>But it quickly allows you to override config files from the command line or from editing the yaml file directly.</li>
+</ul>
+<p>This demo is slick:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/tEsPyYnzt8s?si=2T58Ix4ZAo-N75y0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="why-i-like-hydras-design" class="level1">
+<h1>Why I like Hydra’s design</h1>
+<ul>
+<li>This seems really nice because it avoids the headache of changing code.</li>
+<li>Also, you can create a simple bash loop to execute 5 different experiments - while retaining only one config file</li>
+<li>Also, I used to think that having a system of record is pretty important: I need to save the configs that were used for this run. That tells me how the pipeline or experiment was configured. I still think that’s true: but I believe that should be done via logging instead of managing 15 config files.</li>
+<li>My new belief is that experiments should be ephemeral to keep the code clean. Have one prod <code>yaml</code> file and then everything else is ephemeral. Log everything: log the created yaml file with all defaults filled inso you can recreate it if necessary.</li>
+</ul>
+</section>
+<section id="my-ideal-world" class="level1">
+<h1>My Ideal World</h1>
+<p>Hydra doesn’t solve the “you shouldn’t have to do a git push to update prod”. If everything is a <code>yaml</code> file then to update prod you need to do a code change.</p>
+<p>Google doesn’t seem to mind using code changes because everything is a protobuff. Code changes are nice because they’re reviewed.</p>
+<p>But code changes are slow. And non-coders can do them.</p>
+<p>So I believe one prod config should live in a UI with a database backend. But then that should be serialized to <code>yaml</code> and loaded via something like hydra.</p>
+<p>I also believe experiments should be launched programmatically. Meaning I should be able to kick off 10 experiments training 10 models using a bash script. I can then log this experiment using <a href="../tech/why-you-should-log-with-aimstack.html">Why you should log with Aimstack</a> and I can log the full config there.</p>
+<p>Also, I’d throw <code>hydra</code> in with <code>metaflow</code> .</p>
+<p>How do you configure? # Appendix</p>
+<ul>
+<li><a href="https://medium.com/optuna/easy-hyperparameter-management-with-hydra-mlflow-and-optuna-783730700e7d">Easy Hyperparameter Management with Hydra, MLflow, and Optuna | by NT | Optuna | Medium</a></li>
+</ul>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="tech,futurism,ai" data-listing-date-sort="1702512000000" data-listing-file-modified-sort="1712122147012" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="260">
-<a href="./lists/ai.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/dalle-ai.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Cool AI Tweets
-</h5>
-<div class="card-text listing-description">
-<p>Running list of cool things I’ve seen.</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Thursday December 14, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="lists,ai" data-listing-date-sort="1708290117000" data-listing-file-modified-sort="1712122147012" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
-<a href="./lists/good-ai-news-aggregators.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Good AI News Aggregators
-</h5>
-<div class="card-text listing-description">
-<p>x</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Sunday February 18, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="tech,ai" data-listing-date-sort="1704750257000" data-listing-file-modified-sort="1712122147012" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
-<a href="./lists/legal-ai.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Legal AI
-</h5>
-<div class="card-text listing-description">
-Legal AI companies and solutions
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Monday January 8, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="lists" data-listing-date-sort="1704970185000" data-listing-file-modified-sort="1712122147012" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
-<a href="./lists/scripture-study-list.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-List of Study Topics
-</h5>
-<div class="card-text listing-description">
-Things I want to study
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Thursday January 11, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="lists" data-listing-date-sort="1704892926000" data-listing-file-modified-sort="1712122147012" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
-<a href="./lists/news.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Newsletters I follow
-</h5>
-<div class="card-text listing-description">
-xxx
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Wednesday January 10, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="posts,reading" data-listing-date-sort="1704782579000" data-listing-file-modified-sort="1712122147012" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="200">
-<a href="./lists/reading-ethos.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Reading Ethos
-</h5>
-<div class="card-text listing-description">
-How I approach reading.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Tuesday January 9, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-listing-date-sort="1448971200000" data-listing-file-modified-sort="1712122147012" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="571">
-<a href="./lists/reading-list.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Reading List
-</h5>
-<div class="card-text listing-description">
-Wish list of books
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Tuesday December 1, 2015
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-listing-date-sort="1704195759000" data-listing-file-modified-sort="1712122147012" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
-<a href="./lists/gratitude-backlog.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Things I’m grateful for
-</h5>
-<div class="card-text listing-description">
-Maybe I’ll write these in a post, maybe not.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Tuesday January 2, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="lists" data-listing-date-sort="1704240000000" data-listing-file-modified-sort="1712122147012" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="210">
-<a href="./lists/writing-ethos.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Writing Ethos
-</h5>
-<div class="card-text listing-description">
-Why and how I write
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Wednesday January 3, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div><p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p></main> <!-- /main -->
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -911,6 +754,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<script src="https://giscus.app/client.js" data-repo="bryanwhiting/blog" data-repo-id="R_kgDOHgq18w" data-category="General" data-category-id="DIC_kwDOHgq1884CTE-n" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -941,7 +788,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="./index.xml">
+    <a class="nav-link" href="../index.xml">
       <i class="bi bi-rss" role="img">
 </i> 
     </a>
@@ -954,5 +801,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

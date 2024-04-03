@@ -10,7 +10,133 @@
 <atom:link href="https://www.bryanwhiting.com/tech.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Sun, 31 Mar 2024 21:24:06 GMT</lastBuildDate>
+<lastBuildDate>Tue, 02 Apr 2024 22:15:37 GMT</lastBuildDate>
+<item>
+  <title>Why you should log with Aimstack</title>
+  <link>https://www.bryanwhiting.com/tech/why-you-should-log-with-aimstack.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I’ve long idolized <a href="https://aimstack.io/">Home | AimStack</a>. It’s a tool that allows you to track metrics and hyperparameters and a whole bunch of stuff. It lets you compare across experiments.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-aimstack.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Aim landing lage</figcaption>
+</figure>
+</div>
+<p>I first built my own version of this in <code>RShiny</code> back in 2017 so I could compare AUC across experiments.</p>
+<p>I was using <code>h2o.ai</code> at the time which had this great flow for monitoring an individual experiment but made it impossible to compare across experiments.</p>
+<p>Then my company Capital One built <code>rubicon</code>: <a href="https://github.com/capitalone/rubicon-ml">GitHub - capitalone/rubicon-ml: Capture all information throughout your model’s development in a reproducible way and tie results directly to the model code!</a>. This was cool and they open sourced it. It tracks parameters.</p>
+<p>But it pales in comparison to <code>aim</code>.</p>
+<p>Aim can do all these things:</p>
+<ul>
+<li>Track hyperparameters</li>
+<li>Track learning curves (like a metric over time such as when building DL models and you’re watching how the error decreases with each epoch)</li>
+<li>Track any <code>plotly</code> plot, which means you can put any EDA charts nicely organized in one place</li>
+<li>it captures all your <code>logging.info</code> calls so you don’t need to use a remote logging thing like <code>cloud watch</code> to monitor long runs</li>
+<li>It has its own loggers if you want to differentiate</li>
+<li>It lets you take notes on an experiment</li>
+<li>If lets you compare across experiments</li>
+<li>It lets you use locally or remotely as a remote API</li>
+<li>It tracks images, etc.</li>
+<li>it connects with ML packages like <code>xgbost</code> to auto log.</li>
+<li>It can even convert <code>MLFlow</code> data.</li>
+</ul>
+<p>It’s incredible. Use it. It’s free.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>logging</category>
+  <category>machine learning</category>
+  <category>data pipeline</category>
+  <category>ml pipeline</category>
+  <category>data science</category>
+  <category>monitoring</category>
+  <category>ml-tools</category>
+  <guid>https://www.bryanwhiting.com/tech/why-you-should-log-with-aimstack.html</guid>
+  <pubDate>Tue, 02 Apr 2024 22:15:37 GMT</pubDate>
+</item>
+<item>
+  <title>Configurations for ML Pipelines</title>
+  <link>https://www.bryanwhiting.com/tech/configurations-for-ml-pipelines.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Configuring an ML pipeline means you have 15 different things that could change at any time and you create a way to easily change those 15 things. Those 15 things could be file paths, data filtering steps, models you want to use, etc.</p>
+<p>Any researcher constantly asks themselves: but what if I switch X?</p>
+<p>And so the researcher starts to configure a pipeline.</p>
+<section id="config-methods-ive-used" class="level1">
+<h1>Config Methods I’ve Used</h1>
+<p>First time I built a config it was in VBA. I had a text file I loaded in that could be overwritten based on setting someone chose.</p>
+<p>Second time I config’d something was in Python. I used <code>ConfigParser</code> per my Manager David Mantilla’s suggestion. It was pretty good. But unwieldy. Don’t use fhis.</p>
+<p>Third thing I saw was using a Python constants.py file. Just import Python variables from another module. This is nice because you can import model objects or such. Dicts. Whatever. Seems great. But it’s Python code. Config files shouldn’t be code. They should be configs. Every great software follows this, like <code>k8s</code> helm charts or whatever. Google loves using <code>Protobufs</code>. Configs shouldn’t be code, because if they’re code they’re dangerous. You start doing crazy things with them.</p>
+<p>Fourth thing I did was to use YAML which is very clean. Lots of people like YAML. This gets unwieldy if you need 100 configs for different customers, for example. Can you imagine managing 100 yaml files? What if you need to update one param? Then you need to update 100 files. Rough.</p>
+<p>I also used Pydantic to read in the YAML file and validate types. Gotta validate types. What’s an int vs a string? Well, this mean that we needed to design the pipeline to rely on some <code>config</code> class. We had to pass this config object around everywhere. Not super idea but gets the job done.</p>
+<p>Fifth thing was to use one default YAML. This solved the issue of redundancy across all the 100 YAML files. (If you only have one model, you probably need only 1 YAML file so this may not be your problem.) But this still kinda stinks. It’s in a file.</p>
+<p>Sixth thing was some eng’s on my team saw a better way and build a CRUD database. This made it so we didn’t have to do a code change to update a config. That means that people outside the team could edit a config. Awesome. But we still have 100 web pages that could change. Kinda sux. And we still had a default setting - essential.</p>
+<p>Problem with 100 YAML or 100 web pages is that if you want to change things or run experiments, you need to literally clone the config file. Now you have 15 versions of the same config file with slight modifications and you can’t remember what’s going on. So you delete them all eventually and just pick one.</p>
+</section>
+<section id="hydra" class="level1 page-columns page-full">
+<h1>Hydra?</h1>
+<p>I’m writing this because I just learned about <code>hydra</code> . Remember: I use this site for note taking. Here’s what I just learned.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-hydra-configs.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Hydra!</figcaption>
+</figure>
+</div>
+<p><a href="https://hydra.cc/">Hydra | Hydra</a></p>
+<ul>
+<li>Hydra is Python open source maintained by Facebook</li>
+<li>If built to configure pipelines, in particular ML pipelines but could be used for anything.</li>
+<li>It uses <code>dataclasses</code> and <code>yaml</code> files, so I’m thinking I was smart for what I did with my fourth option.</li>
+<li>But it quickly allows you to override config files from the command line or from editing the yaml file directly.</li>
+</ul>
+<p>This demo is slick:</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/tEsPyYnzt8s?si=2T58Ix4ZAo-N75y0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="why-i-like-hydras-design" class="level1">
+<h1>Why I like Hydra’s design</h1>
+<ul>
+<li>This seems really nice because it avoids the headache of changing code.</li>
+<li>Also, you can create a simple bash loop to execute 5 different experiments - while retaining only one config file</li>
+<li>Also, I used to think that having a system of record is pretty important: I need to save the configs that were used for this run. That tells me how the pipeline or experiment was configured. I still think that’s true: but I believe that should be done via logging instead of managing 15 config files.</li>
+<li>My new belief is that experiments should be ephemeral to keep the code clean. Have one prod <code>yaml</code> file and then everything else is ephemeral. Log everything: log the created yaml file with all defaults filled inso you can recreate it if necessary.</li>
+</ul>
+</section>
+<section id="my-ideal-world" class="level1">
+<h1>My Ideal World</h1>
+<p>Hydra doesn’t solve the “you shouldn’t have to do a git push to update prod”. If everything is a <code>yaml</code> file then to update prod you need to do a code change.</p>
+<p>Google doesn’t seem to mind using code changes because everything is a protobuff. Code changes are nice because they’re reviewed.</p>
+<p>But code changes are slow. And non-coders can do them.</p>
+<p>So I believe one prod config should live in a UI with a database backend. But then that should be serialized to <code>yaml</code> and loaded via something like hydra.</p>
+<p>I also believe experiments should be launched programmatically. Meaning I should be able to kick off 10 experiments training 10 models using a bash script. I can then log this experiment using <a href="../tech/why-you-should-log-with-aimstack.html">Why you should log with Aimstack</a> and I can log the full config there.</p>
+<p>Also, I’d throw <code>hydra</code> in with <code>metaflow</code> .</p>
+<p>How do you configure? # Appendix</p>
+<ul>
+<li><a href="https://medium.com/optuna/easy-hyperparameter-management-with-hydra-mlflow-and-optuna-783730700e7d">Easy Hyperparameter Management with Hydra, MLflow, and Optuna | by NT | Optuna | Medium</a></li>
+</ul>
+
+
+</section>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>configuration</category>
+  <category>software engineering</category>
+  <category>ml pipeline</category>
+  <category>ml-tools</category>
+  <guid>https://www.bryanwhiting.com/tech/configurations-for-ml-pipelines.html</guid>
+  <pubDate>Tue, 02 Apr 2024 21:50:43 GMT</pubDate>
+</item>
 <item>
   <title>Ibis DataFrames for Python, why I hate Pandas, and what I miss about dplyr</title>
   <link>https://www.bryanwhiting.com/tech/ibis-dataframes-for-python-vs-pandas.html</link>
@@ -33,7 +159,7 @@
 <p><code>Polars</code> makes this much cleaner with the with_columns operator, for example, which is also very similar to <code>PySpark</code>. But <code>polars</code> is Rust backend, not Java. Game, Set, Match <code>polars</code>.</p>
 <p>I’m not the only one who loves <code>dplyr</code> . There have been several Python attempts to build <code>dplyr</code> in the Python ecosystem. There were great packages like <a href="https://github.com/coursera/pandas-ply">GitHub - coursera/pandas-ply: functional data manipulation for pandas</a> (9 years since last commit), and <a href="https://github.com/dodger487/dplython">GitHub - dodger487/dplython: dplyr for python</a>, not updated in 7 years. Then there’s the <code>dfply</code> <a href="https://github.com/kieferk/dfply">package</a> that hasn’t been maintained in 5 years (see <a href="https://towardsdatascience.com/dplyr-style-data-manipulation-with-pipes-in-python-380dcb137000">tutorial</a>).</p>
 <p>The <code>siuba</code> package is the latest Python <code>dplyr</code> incantation that is actively maintained: <a href="https://github.com/machow/siuba">GitHub - machow/siuba: Python library for using dplyr like syntax with pandas and SQL</a> and can also execute against a SQL backend, but it can’t execute a polars backend. # Ibis to solve my problems?</p>
-<p>I just came across <code>ibis</code> however, and it seems really promising. Turns out it was <a href="https://ibis-project.org/concepts/who">created</a> in 2015 by Wes McKinney to solve the <a href="https://wesmckinney.com/blog/apache-arrow-pandas-internals/">“10 Things I Hate About pandas”</a>.</p>
+<p>I just came across <code>ibis</code> however, and it seems really promising. Turns out it was <a href="https://ibis-project.org/concepts/who">created</a> in 2015 by Wes McKinney, who created the pandas pyarrow backend to solve the <a href="https://wesmckinney.com/blog/apache-arrow-pandas-internals/">“10 Things I Hate About pandas”</a>. More on the</p>
 <ul>
 <li><a href="https://ibis-project.org/">Ibis</a></li>
 <li><a href="https://ibis-project.org/tutorials/getting_started">Ibis – getting_started</a></li>
@@ -730,108 +856,6 @@ If you think OpenAI Sora is a creative toy like DALLE, … think again. Sora is 
   <category>tool comparison</category>
   <guid>https://www.bryanwhiting.com/tech/observable-framework-vs-quarto.html</guid>
   <pubDate>Thu, 15 Feb 2024 13:39:24 GMT</pubDate>
-</item>
-<item>
-  <title>Package Installer: “uv”</title>
-  <link>https://www.bryanwhiting.com/tech/package-installer-uv-vs-poetry.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p><a href="https://astral.sh/blog/uv">uv: Python packaging in Rust</a></p>
-<ul>
-<li>replaces <code>pip</code></li>
-<li>Does what <code>poetry</code> does</li>
-</ul>
-<p>Sad that Python developers think Python can’t even maintain itself…it has to be written in Rust.</p>
-<blockquote class="twitter-tweet blockquote">
-<p lang="en" dir="ltr">
-Announcing uv: an extremely fast Python package installer and resolver, written in Rust.<br><br>uv is designed as a drop-in alternative to pip, pip-tools, and virtualenv.<br><br>With a warm cache, uv installs are near-instant. Here, it's &gt; 75x faster than pip and pip-tools. <a href="https://t.co/wrvaudUn6i">pic.twitter.com/wrvaudUn6i</a>
-</p>
-— Charlie Marsh (<span class="citation" data-cites="charliermarsh">@charliermarsh</span>) <a href="https://twitter.com/charliermarsh/status/1758216803275149389?ref_src=twsrc%5Etfw">February 15, 2024</a>
-</blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/screenshot-astral-uv.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">UV</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>tech</category>
-  <category>python</category>
-  <category>software engineering</category>
-  <category>dev ops</category>
-  <category>dev tools</category>
-  <guid>https://www.bryanwhiting.com/tech/package-installer-uv-vs-poetry.html</guid>
-  <pubDate>Thu, 15 Feb 2024 13:22:18 GMT</pubDate>
-</item>
-<item>
-  <title>Gemini in the iOS Google app, TikTok advancements, and ChatGPT memory</title>
-  <link>https://www.bryanwhiting.com/news/2024-02-14-news-notes.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>The crazy thing about AI is that it’s moving so faat it’s not longer “that’d be cool in 5 years if it did X”. Instead it’s “TikTok is doing X, Google’s doing Y, researchers just did Z, OpenAI just did A-K…Apples still sleeping which means it’s gonna do J-Z”.</p>
-<section id="ai-will-turn-pictures-into-movies" class="level1">
-<h1>AI will turn pictures into movies:</h1>
-<blockquote class="twitter-tweet blockquote">
-<p lang="en" dir="ltr">
-TikTok presents Boximator!<br><br>This method can generate rich and controllable motions for image-to-video generations by drawing box constraints and motion paths onto an image and combining it with a prompt:<br><br>"A girl in red is covering her face with a skull."<br><br>10 crazy examples: <a href="https://t.co/Jy3op9BEdB">pic.twitter.com/Jy3op9BEdB</a>
-</p>
-— Dreaming Tulpa 🥓👑 (<span class="citation" data-cites="dreamingtulpa">@dreamingtulpa</span>) <a href="https://twitter.com/dreamingtulpa/status/1756965825657925967?ref_src=twsrc%5Etfw">February 12, 2024</a>
-</blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</section>
-<section id="chatgpt-retains-memory" class="level1">
-<h1>ChatGPT retains memory</h1>
-<p><a href="https://www.wired.com/story/chatgpt-memory-openai/">OpenAI Gives ChatGPT a Memory | WIRED</a></p>
-<ul>
-<li>Will this create echo chambers?</li>
-<li>Character.ai is doing this. Helpful for building personal assistants.</li>
-</ul>
-</section>
-<section id="gemini-on-mobile" class="level1 page-columns page-full">
-<h1>Gemini on Mobile</h1>
-<p>This doesn’t work:</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/screenshot-gemini-cant-make-photos.jpeg" class="img-fluid figure-img"></p>
-<figcaption class="margin-caption">Come on</figcaption>
-</figure>
-</div>
-<p>But at the top there’s a Gemini button:</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/screenshot-gemini-access.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Gemini in the Google iOS app</figcaption>
-</figure>
-</div>
-<p>And here it’s working!</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/screenshot-gemini-makes-photos.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Gemini makes photos</figcaption>
-</figure>
-</div>
-<p>Use <a href="../tech/create-ai-images-with-googles-gemini-model.html">Create AI images with Google’s Gemini model</a> instead.</p>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>news</category>
-  <category>ai</category>
-  <guid>https://www.bryanwhiting.com/news/2024-02-14-news-notes.html</guid>
-  <pubDate>Wed, 14 Feb 2024 11:08:43 GMT</pubDate>
 </item>
 </channel>
 </rss>
