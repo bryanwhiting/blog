@@ -10,7 +10,140 @@
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Tue, 02 Apr 2024 22:15:37 GMT</lastBuildDate>
+<lastBuildDate>Thu, 04 Apr 2024 21:06:11 GMT</lastBuildDate>
+<item>
+  <title>LLMs need to call Functions</title>
+  <link>https://www.bryanwhiting.com/news/llms-need-to-call-functions.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><a href="https://www.linkedin.com/posts/andrewyng_microsoft-absorbs-inflection-nvidias-new-activity-7181717345814421504-E1hR?utm_source=share&amp;utm_medium=member_ios">Andrew Ng on LinkedIn: Microsoft Absorbs Inflection, Nvidia’s New GPUs, Managing AI Bio Risk, and… | 38 comments</a></p>
+<ul>
+<li>LLms guess what functions to call, such as running a calculation in Python or a function to do a web search.</li>
+<li>Efficient Tool Use with Chain-of-Abstraction Reasoning, Gao et al.&nbsp;(2024)</li>
+</ul>
+<p><a href="https://www.deeplearning.ai/the-batch/issue-243/">Microsoft Absorbs Inflection, Nvidia’s New GPUs, Managing AI Bio Risk, and more</a></p>
+<p><a href="https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/?utm_campaign=The%20Batch&amp;utm_source=hs_email&amp;utm_medium=email">Four AI Agent Strategies That Improve GPT-4 and GPT-3.5 Performance</a></p>
+<ul>
+<li>AI agenic workflows can help AI achieve 95% code quality vs zero shot.</li>
+</ul>
+<p><a href="https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-2-reflection/?ref=dl-staging-website.ghost.io">Agentic Design Patterns Part 2: Reflection</a></p>
+<ul>
+<li>Here’s code intended for task X: [previously generated code] Check the code carefully for correctness, style, and efficiency, and give constructive criticism for how to improve it.</li>
+<li>Next, we can prompt the LLM with context including (i) the previously generated code and the constructive feedback and (ii) ask it to use the feedback to rewrite the code</li>
+</ul>
+<p><a href="https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-3-tool-use/?ref=dl-staging-website.ghost.io">Agentic Design Patterns Part 3: Tool Use</a></p>
+<p><a href="https://mad.firstmarkcap.com/">FirstMark | 2024 MAD (ML/AI/Data) Landscape</a> - there are too many tools for any one person or organization to know what to do with. It’s a full time job just to understand what’s out there.</p>
+<p>https://www.linkedin.com/posts/luke-b_data-nerds-what-technology-should-you-learn-activity-7181698703722729472-N03S?utm_source=share&amp;utm_medium=member_ios</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-mad-first-mark-cap.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Data landscape</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>news</category>
+  <category>ai</category>
+  <category>ai tools</category>
+  <guid>https://www.bryanwhiting.com/news/llms-need-to-call-functions.html</guid>
+  <pubDate>Thu, 04 Apr 2024 21:06:11 GMT</pubDate>
+</item>
+<item>
+  <title>I’m Grateful for Wet Suits</title>
+  <link>https://www.bryanwhiting.com/gratitude/wet-suit.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I’ve been going to the beach for four years and have never gotten deep into the water. It’s frigid. I’ll skimboard along the surface or the little crash but never felt a need to go into the water. Besides, it’s freezing.</p>
+<p>That’s not to say I wouldn’t want to if it’s warm - I love to body surf and boogie.</p>
+<p>Recently I went back to the beach but with a wet suit in hand. Suddenly everything was better. The <a href="../gratitude/skimboarding.html">Skimboarding</a> was better because I wasn’t afraid of falling and getting a rash, or I wasn’t afraid of being cold. I could take the waves head on. And then I just went right out into the water and had the best boogie of my life on a solid wave.</p>
+<p>It was incredible. I mourned that I’ve wasted 4 years.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/dalle-wet-suit.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Get out there!</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>gratitude</category>
+  <category>nature</category>
+  <guid>https://www.bryanwhiting.com/gratitude/wet-suit.html</guid>
+  <pubDate>Wed, 03 Apr 2024 23:26:42 GMT</pubDate>
+</item>
+<item>
+  <title>Jacob 2 - Give Freely</title>
+  <link>https://www.bryanwhiting.com/christianity/Jacob-2-give-freely.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="scriptures" class="level1">
+<h1>Scriptures</h1>
+<blockquote class="blockquote">
+<p>Think of your brethren like unto yourselves, and be familiar with all and free with your substance, that they may be rich like unto you. <a href="../scriptures/jacob-2.17">Jacob 2.17</a></p>
+</blockquote>
+</section>
+<section id="meaning" class="level1">
+<h1>Meaning</h1>
+<p>Reading <a href="../book-review/building-a-story-brand.html">Building a Story Brand</a>, I was impressed by the author’s philosophy on giving away things. His time. Resources. Knowledge. He challenged the notion that in business you should charge for everything. Instead he sought to give away as much as he could. His business has grown pretty well.</p>
+<p>There’s also the principle of reciprocity, well studied in <a href="../book-review/influence-the-psychology-of-persuasion.html">Influence The Psychology of Persuasion</a>. When we give, people feel a social debt and want to repay it even more than what was given.</p>
+<p>Both of these things are taught by the Savior’s desire for us to give freely, “It is more blessed to give than to receive.” (<a href="../scriptures/acts-20.35">Acts 20.35</a>)</p>
+<p>Consider the design: instill in people a desire to repay debts. When one person gives, other people give more back. Then the first person wants to give because a surplus was given to them. And then and then and then. More giving.</p>
+<p>I reviewed this in <a href="../gratitude/marriage.html">I’m Grateful for Marriage</a>, the parable of the no-elbow people. Better to give.</p>
+
+
+</section>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>christianity</category>
+  <category>charity</category>
+  <guid>https://www.bryanwhiting.com/christianity/Jacob-2-give-freely.html</guid>
+  <pubDate>Wed, 03 Apr 2024 23:18:20 GMT</pubDate>
+</item>
+<item>
+  <title>How to Sign in with iCloud Calendar on Outlook for iOS</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/how-to-sign-in-with-icloud-calendar-on-outlook-for-ios.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>How do I add an iCloud account to iOS Outlook without it being a public calendar?</p>
+<p>It was easy to add any gmail accounts but I didn’t know how to add my iCloud calendar to iOS Outlook. Part of the issue is my iCloud account is actually my gmail email address so I can’t sign in with this or it’ll load my gmail calendar.</p>
+<p>Solution:</p>
+<ul>
+<li>go to iOS settings &gt; iCloud &gt; get your <code>@icloud.com</code> name. If you use your gmail account for iCloud there’s still this <code>@icloud</code> account.</li>
+<li>Attempt to log into iOS Outlook calendar. Apple will then make you create an app-specific password for iOS Outlook</li>
+<li>Use this password.</li>
+</ul>
+<p>Done. Pain solved.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>tutorial</category>
+  <category>tips and tricks</category>
+  <category>to my future self</category>
+  <guid>https://www.bryanwhiting.com/posts/how-to-sign-in-with-icloud-calendar-on-outlook-for-ios.html</guid>
+  <pubDate>Wed, 03 Apr 2024 20:54:28 GMT</pubDate>
+</item>
 <item>
   <title>Why you should log with Aimstack</title>
   <link>https://www.bryanwhiting.com/tech/why-you-should-log-with-aimstack.html</link>
@@ -791,112 +924,6 @@ print(df)</code></pre>
   <category>christianity</category>
   <guid>https://www.bryanwhiting.com/christianity/2-nephi-31-.html</guid>
   <pubDate>Sat, 23 Mar 2024 23:48:19 GMT</pubDate>
-</item>
-<item>
-  <title>I’m Grateful for Better Health</title>
-  <link>https://www.bryanwhiting.com/gratitude/better-health.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Having the flu stinks. I realized quickly this week how a life revolves around health. My ability to do my job, to be there for my family, and even enjoy sitting on the couch is all impacted by what’s going on inside my body.</p>
-<p>The interesting thing is: when I’m sick, I only want to get better and I realize what’s most important. But as I get better, my mind focuses in equal proportion on the normal preoccupations of life and I perhaps focus less on the things I had just realized were most important.</p>
-<p>I’m grateful for good health.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>gratitude</category>
-  <guid>https://www.bryanwhiting.com/gratitude/better-health.html</guid>
-  <pubDate>Sat, 23 Mar 2024 23:01:33 GMT</pubDate>
-</item>
-<item>
-  <title>Elon Musk</title>
-  <dc:creator>Walter Isaacson</dc:creator>
-  <link>https://www.bryanwhiting.com/book-review/elon-musk.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Crazy upbringing.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/book-elon-musk.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Elon Musk</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book-review</category>
-  <guid>https://www.bryanwhiting.com/book-review/elon-musk.html</guid>
-  <pubDate>Fri, 22 Mar 2024 20:53:36 GMT</pubDate>
-</item>
-<item>
-  <title>The Count of Monte Cristo</title>
-  <dc:creator>Alexandre Dumas</dc:creator>
-  <link>https://www.bryanwhiting.com/book-review/the-count-of-monte-cristo.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/book-count-of-monte-cristo.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Count of Monte Cristo</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book-review</category>
-  <category>fiction</category>
-  <guid>https://www.bryanwhiting.com/book-review/the-count-of-monte-cristo.html</guid>
-  <pubDate>Fri, 22 Mar 2024 20:49:18 GMT</pubDate>
-</item>
-<item>
-  <title>Of Mice and Men</title>
-  <dc:creator>John Steinbeck</dc:creator>
-  <link>https://www.bryanwhiting.com/book-review/of-mice-and-men.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>2024-03-23</p>
-<ul>
-<li>George shoots him like candy wish he would have. Lennie had grown too dangerous. Someone else would end up killing him. So he felt he had to do that.</li>
-<li>Lennie in his happy place.</li>
-</ul>
-<p>2024-03-22</p>
-<p>Lenny Small → - kicked in the head by a horse? Lie. - Cousin? Lie. George Milton</p>
-<p>Curly. Old man’s the boss. Glove on the left hand.</p>
-<p>Curley’s wife.</p>
-<p>Swamper. Gossiper.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/book-of-mice-and-men.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Of mice and men</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book-review</category>
-  <category>fiction</category>
-  <category>classics</category>
-  <guid>https://www.bryanwhiting.com/book-review/of-mice-and-men.html</guid>
-  <pubDate>Fri, 22 Mar 2024 20:38:20 GMT</pubDate>
 </item>
 </channel>
 </rss>

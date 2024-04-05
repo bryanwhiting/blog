@@ -10,7 +10,50 @@
 <atom:link href="https://www.bryanwhiting.com/tech.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Tue, 02 Apr 2024 22:15:37 GMT</lastBuildDate>
+<lastBuildDate>Thu, 04 Apr 2024 21:06:11 GMT</lastBuildDate>
+<item>
+  <title>LLMs need to call Functions</title>
+  <link>https://www.bryanwhiting.com/news/llms-need-to-call-functions.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><a href="https://www.linkedin.com/posts/andrewyng_microsoft-absorbs-inflection-nvidias-new-activity-7181717345814421504-E1hR?utm_source=share&amp;utm_medium=member_ios">Andrew Ng on LinkedIn: Microsoft Absorbs Inflection, Nvidia’s New GPUs, Managing AI Bio Risk, and… | 38 comments</a></p>
+<ul>
+<li>LLms guess what functions to call, such as running a calculation in Python or a function to do a web search.</li>
+<li>Efficient Tool Use with Chain-of-Abstraction Reasoning, Gao et al.&nbsp;(2024)</li>
+</ul>
+<p><a href="https://www.deeplearning.ai/the-batch/issue-243/">Microsoft Absorbs Inflection, Nvidia’s New GPUs, Managing AI Bio Risk, and more</a></p>
+<p><a href="https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/?utm_campaign=The%20Batch&amp;utm_source=hs_email&amp;utm_medium=email">Four AI Agent Strategies That Improve GPT-4 and GPT-3.5 Performance</a></p>
+<ul>
+<li>AI agenic workflows can help AI achieve 95% code quality vs zero shot.</li>
+</ul>
+<p><a href="https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-2-reflection/?ref=dl-staging-website.ghost.io">Agentic Design Patterns Part 2: Reflection</a></p>
+<ul>
+<li>Here’s code intended for task X: [previously generated code] Check the code carefully for correctness, style, and efficiency, and give constructive criticism for how to improve it.</li>
+<li>Next, we can prompt the LLM with context including (i) the previously generated code and the constructive feedback and (ii) ask it to use the feedback to rewrite the code</li>
+</ul>
+<p><a href="https://www.deeplearning.ai/the-batch/agentic-design-patterns-part-3-tool-use/?ref=dl-staging-website.ghost.io">Agentic Design Patterns Part 3: Tool Use</a></p>
+<p><a href="https://mad.firstmarkcap.com/">FirstMark | 2024 MAD (ML/AI/Data) Landscape</a> - there are too many tools for any one person or organization to know what to do with. It’s a full time job just to understand what’s out there.</p>
+<p>https://www.linkedin.com/posts/luke-b_data-nerds-what-technology-should-you-learn-activity-7181698703722729472-N03S?utm_source=share&amp;utm_medium=member_ios</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-mad-first-mark-cap.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Data landscape</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>news</category>
+  <category>ai</category>
+  <category>ai tools</category>
+  <guid>https://www.bryanwhiting.com/news/llms-need-to-call-functions.html</guid>
+  <pubDate>Thu, 04 Apr 2024 21:06:11 GMT</pubDate>
+</item>
 <item>
   <title>Why you should log with Aimstack</title>
   <link>https://www.bryanwhiting.com/tech/why-you-should-log-with-aimstack.html</link>
@@ -804,58 +847,6 @@ If you think OpenAI Sora is a creative toy like DALLE, … think again. Sora is 
   <category>ai tools</category>
   <guid>https://www.bryanwhiting.com/tech/spellbook-ai-reviews-redlining.html</guid>
   <pubDate>Fri, 16 Feb 2024 11:51:02 GMT</pubDate>
-</item>
-<item>
-  <title>Observable Framework 1.0 vs Quarto</title>
-  <link>https://www.bryanwhiting.com/tech/observable-framework-vs-quarto.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p><a href="https://observablehq.com/framework/">Observable Framework</a> seems like a nice competitor to Quarto. It seems like it has far fewer features, but some other more specialized features.</p>
-<p>Things they can both do:</p>
-<ul>
-<li>use markdown to build websites and apps</li>
-<li>Use Observable for plots and reactivity</li>
-<li>Load data from any format, using any language</li>
-</ul>
-<p>Things Quarto excels at:</p>
-<ul>
-<li>more full featured - can be a blog, a site, etc.</li>
-<li>can execute raw R or Python code.</li>
-</ul>
-<p>Things Observable seems better at (based on glancing the docs only):</p>
-<ul>
-<li>More beautiful</li>
-<li>More powerful reactivity</li>
-</ul>
-<p>Seems like observable is good for people who prefer JavaScript for plotting.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/screenshot-observable-quote.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Landing</figcaption>
-</figure>
-</div>
-<p>[Getting started | Observable Framework](https://observablehq.com/framework/getting-started</p>
-<p>Loading data using Python (though there are default CSV and Apache parquet/arrow loaders too)</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/screenshot-observable-data-loader.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Python</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>tech</category>
-  <category>observable</category>
-  <category>quarto</category>
-  <category>tool comparison</category>
-  <guid>https://www.bryanwhiting.com/tech/observable-framework-vs-quarto.html</guid>
-  <pubDate>Thu, 15 Feb 2024 13:39:24 GMT</pubDate>
 </item>
 </channel>
 </rss>

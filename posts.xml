@@ -10,7 +10,37 @@
 <atom:link href="https://www.bryanwhiting.com/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Sat, 09 Mar 2024 21:36:34 GMT</lastBuildDate>
+<lastBuildDate>Wed, 03 Apr 2024 20:54:28 GMT</lastBuildDate>
+<item>
+  <title>How to Sign in with iCloud Calendar on Outlook for iOS</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/how-to-sign-in-with-icloud-calendar-on-outlook-for-ios.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>How do I add an iCloud account to iOS Outlook without it being a public calendar?</p>
+<p>It was easy to add any gmail accounts but I didn’t know how to add my iCloud calendar to iOS Outlook. Part of the issue is my iCloud account is actually my gmail email address so I can’t sign in with this or it’ll load my gmail calendar.</p>
+<p>Solution:</p>
+<ul>
+<li>go to iOS settings &gt; iCloud &gt; get your <code>@icloud.com</code> name. If you use your gmail account for iCloud there’s still this <code>@icloud</code> account.</li>
+<li>Attempt to log into iOS Outlook calendar. Apple will then make you create an app-specific password for iOS Outlook</li>
+<li>Use this password.</li>
+</ul>
+<p>Done. Pain solved.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <category>tutorial</category>
+  <category>tips and tricks</category>
+  <category>to my future self</category>
+  <guid>https://www.bryanwhiting.com/posts/how-to-sign-in-with-icloud-calendar-on-outlook-for-ios.html</guid>
+  <pubDate>Wed, 03 Apr 2024 20:54:28 GMT</pubDate>
+</item>
 <item>
   <title>Book Summaries</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -972,38 +1002,6 @@ with zipfile.ZipFile(zip_file_path, "w") as zipf:
   <category>coding</category>
   <guid>https://www.bryanwhiting.com/posts/cool-quarto-site.html</guid>
   <pubDate>Wed, 10 Jan 2024 14:44:29 GMT</pubDate>
-</item>
-<item>
-  <title>The six hour sandwich</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/the-six-hour-sandwich.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>“Avocado and turkey over ciabatta, it’s a delicious way to start your day and fills you up for about six hours.”</p>
-<p>That last part - six hours…I had never heard such a sales pitch from a deli person in my life.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-avocado-sandwich.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Six hour sandwich</figcaption>
-</figure>
-</div>
-<p>But it’s the perfect sales pitch. Because I care how full I’m going to get off a $13.00 breakfast sandwich. But he just amortized the cost for me - implicitly stating it’s only $2.16/hr for 6 hours.</p>
-<p>Would I pay $2 to not be hungry for an hour? I’m not sure what other snack (maybe a .60c banana) can fill me up for an hour.</p>
-<p>Genius.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>posts</category>
-  <category>sales</category>
-  <category>life musings</category>
-  <category>people I meet</category>
-  <guid>https://www.bryanwhiting.com/posts/the-six-hour-sandwich.html</guid>
-  <pubDate>Wed, 10 Jan 2024 08:29:20 GMT</pubDate>
 </item>
 </channel>
 </rss>
