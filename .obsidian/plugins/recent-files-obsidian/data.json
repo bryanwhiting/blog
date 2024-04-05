@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "newsletters",
+      "path": "lists/newsletters.md"
+    },
+    {
+      "basename": "llms-need-to-call-functions",
+      "path": "news/llms-need-to-call-functions.md"
+    },
+    {
+      "basename": "wet-suit",
+      "path": "gratitude/wet-suit.md"
+    },
+    {
+      "basename": "Jacob-2-give-freely",
+      "path": "christianity/Jacob-2-give-freely.md"
+    },
+    {
+      "basename": "marriage",
+      "path": "gratitude/marriage.md"
+    },
+    {
+      "basename": "how-to-sign-in-with-icloud-calendar-on-outlook-for-ios",
+      "path": "posts/how-to-sign-in-with-icloud-calendar-on-outlook-for-ios.md"
+    },
+    {
       "basename": "configurations-for-ml-pipelines",
       "path": "tech/configurations-for-ml-pipelines.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "the-feeling-of-skimboarding",
       "path": "gratitude/the-feeling-of-skimboarding.md"
-    },
-    {
-      "basename": "jim-fan-on-apples-mm1-multimodal-llm-paper",
-      "path": "quotes/jim-fan-on-apples-mm1-multimodal-llm-paper.md"
-    },
-    {
-      "basename": "the-success-of-a-friend",
-      "path": "gratitude/the-success-of-a-friend.md"
-    },
-    {
-      "basename": "new-post",
-      "path": "_templates/new-post.md"
-    },
-    {
-      "basename": "the-organized-mind",
-      "path": "book-review/the-organized-mind.md"
-    },
-    {
-      "basename": "2-nephi-27-the-purpose-of-the-book-of-mormon",
-      "path": "christianity/2-nephi-27-the-purpose-of-the-book-of-mormon.md"
-    },
-    {
-      "basename": "freedom-of-religion",
-      "path": "gratitude/freedom-of-religion.md"
     }
   ],
   "omittedPaths": [],

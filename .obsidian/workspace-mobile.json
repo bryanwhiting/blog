@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/configurations-for-ml-pipelines.md",
+                "file": "lists/newsletters.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "",
+            "query": "Elbows",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": true,
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 4
+    "currentTab": 1
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "tech/configurations-for-ml-pipelines.md",
+            "file": "lists/newsletters.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "tech/configurations-for-ml-pipelines.md"
+            "file": "lists/newsletters.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "tech/configurations-for-ml-pipelines.md",
+            "file": "lists/newsletters.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,17 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "news/llms-need-to-call-functions.md",
+    "img/screenshot-mad-first-mark-cap.jpeg",
+    "gratitude/wet-suit.md",
+    "img/dalle-wet-suit.jpeg",
+    "christianity/Jacob-2-give-freely.md",
+    "gratitude/marriage.md",
+    "scriptures/acts-20.35.md",
+    "posts/how-to-sign-in-with-icloud-calendar-on-outlook-for-ios.md",
+    "tech/configurations-for-ml-pipelines.md",
     "img/screenshot-hydra-configs.jpeg",
     "tech/why-you-should-log-with-aimstack.md",
-    "tech/configurations-for-ml-pipelines.md",
     "img/screenshot-aimstack.jpeg",
     "tech/ibis-dataframes-for-python-vs-pandas.md",
     "book-review/brave-new-world.md",
@@ -166,17 +174,8 @@
     "christianity/easter-seek-miracles.md",
     "scriptures/russell-m-nelson-the-power-of-spiritual-momentum.md",
     "gratitude/fairy-houses.md",
-    "book-review/forecasting-principles-and-practice.md",
     "img/photo-fairy-house.jpeg",
     "img/screenshot-seasonal-year-metric.jpeg",
-    "book-review/the-worry-cure.md",
-    "tech/package-installer-uv-vs-poetry.md",
-    "tech/on-file-formats-parquet-vs-csv.md",
-    "tech/chronos-time-series-foundation-model-by-amazon.md",
-    "img/screenshot-chronos-time-series.jpeg",
-    "tech/timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting.md",
-    "img/book-elon-musk.jpeg",
-    "img/book-count-of-monte-cristo.jpeg",
     "quotes",
     "code/2024-02-02-libby.py",
     "code",
