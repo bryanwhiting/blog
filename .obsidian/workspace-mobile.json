@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/mentors.md",
+                "file": "christianity/jacob-1-viewing-christ.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 4
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "gratitude/mentors.md",
+            "file": "christianity/jacob-1-viewing-christ.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "gratitude/mentors.md"
+            "file": "christianity/jacob-1-viewing-christ.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "gratitude/mentors.md",
+            "file": "christianity/jacob-1-viewing-christ.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,10 +141,13 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "news/llms-need-to-call-functions.md",
+    "christianity/jacob-1-viewing-christ.md",
+    "scriptures/jacob-1.8.md",
     "book-review/brave-new-world.md",
     "gratitude/mentors.md",
+    "img/dalle-new-england-woods.jpeg",
     "lists/newsletters.md",
-    "news/llms-need-to-call-functions.md",
     "img/screenshot-mad-first-mark-cap.jpeg",
     "gratitude/wet-suit.md",
     "img/dalle-wet-suit.jpeg",
@@ -173,10 +176,7 @@
     "book-review/heal-your-nervous-system.md",
     "gratitude/bodyfulness.md",
     "img/dalle-meditating-bodyfulness.jpeg",
-    "christianity/easter-seek-miracles.md",
-    "scriptures/russell-m-nelson-the-power-of-spiritual-momentum.md",
     "img/photo-fairy-house.jpeg",
-    "img/screenshot-seasonal-year-metric.jpeg",
     "quotes",
     "code/2024-02-02-libby.py",
     "code",

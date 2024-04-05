@@ -34,3 +34,7 @@ draft: false
 https://www.linkedin.com/posts/luke-b_data-nerds-what-technology-should-you-learn-activity-7181698703722729472-N03S?utm_source=share&utm_medium=member_ios 
 
 ![Data landscape](../img/screenshot-mad-first-mark-cap.jpeg){.preview-image}
+
+[Gecko: Versatile Text Embeddings Distilled from Large Language Models - Google DeepMind](https://deepmind.google/research/publications/85521/)
+
+- gecko is a text embedding model that can do more with 256 tokens than most can with 700+

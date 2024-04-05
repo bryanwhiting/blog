@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "mentors",
-      "path": "gratitude/mentors.md"
+      "basename": "jacob-1-viewing-christ",
+      "path": "christianity/jacob-1-viewing-christ.md"
+    },
+    {
+      "basename": "llms-need-to-call-functions",
+      "path": "news/llms-need-to-call-functions.md"
     },
     {
       "basename": "brave-new-world",
       "path": "book-review/brave-new-world.md"
     },
     {
-      "basename": "newsletters",
-      "path": "lists/newsletters.md"
+      "basename": "mentors",
+      "path": "gratitude/mentors.md"
     },
     {
-      "basename": "llms-need-to-call-functions",
-      "path": "news/llms-need-to-call-functions.md"
+      "basename": "newsletters",
+      "path": "lists/newsletters.md"
     },
     {
       "basename": "wet-suit",
@@ -195,10 +199,6 @@
     {
       "basename": "prayer-of-perspective",
       "path": "creative/prayer-of-perspective.md"
-    },
-    {
-      "basename": "2024-03-16",
-      "path": "goals/2024-03-16.md"
     }
   ],
   "omittedPaths": [],
