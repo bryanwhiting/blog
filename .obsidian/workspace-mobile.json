@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lists/newsletters.md",
+                "file": "gratitude/mentors.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "lists/newsletters.md",
+            "file": "gratitude/mentors.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "lists/newsletters.md"
+            "file": "gratitude/mentors.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "lists/newsletters.md",
+            "file": "gratitude/mentors.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,6 +141,9 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "book-review/brave-new-world.md",
+    "gratitude/mentors.md",
+    "lists/newsletters.md",
     "news/llms-need-to-call-functions.md",
     "img/screenshot-mad-first-mark-cap.jpeg",
     "gratitude/wet-suit.md",
@@ -154,7 +157,6 @@
     "tech/why-you-should-log-with-aimstack.md",
     "img/screenshot-aimstack.jpeg",
     "tech/ibis-dataframes-for-python-vs-pandas.md",
-    "book-review/brave-new-world.md",
     "book-review/adult-children-of-emotional-immature-parents.md",
     "gratitude/easter.md",
     "book-review/easter.md",
@@ -173,7 +175,6 @@
     "img/dalle-meditating-bodyfulness.jpeg",
     "christianity/easter-seek-miracles.md",
     "scriptures/russell-m-nelson-the-power-of-spiritual-momentum.md",
-    "gratitude/fairy-houses.md",
     "img/photo-fairy-house.jpeg",
     "img/screenshot-seasonal-year-metric.jpeg",
     "quotes",

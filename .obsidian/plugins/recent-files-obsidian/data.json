@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "mentors",
+      "path": "gratitude/mentors.md"
+    },
+    {
+      "basename": "brave-new-world",
+      "path": "book-review/brave-new-world.md"
+    },
+    {
       "basename": "newsletters",
       "path": "lists/newsletters.md"
     },
@@ -35,10 +43,6 @@
     {
       "basename": "ibis-dataframes-for-python-vs-pandas",
       "path": "tech/ibis-dataframes-for-python-vs-pandas.md"
-    },
-    {
-      "basename": "brave-new-world",
-      "path": "book-review/brave-new-world.md"
     },
     {
       "basename": "adult-children-of-emotional-immature-parents",
@@ -195,10 +199,6 @@
     {
       "basename": "2024-03-16",
       "path": "goals/2024-03-16.md"
-    },
-    {
-      "basename": "the-feeling-of-skimboarding",
-      "path": "gratitude/the-feeling-of-skimboarding.md"
     }
   ],
   "omittedPaths": [],
