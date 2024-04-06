@@ -10,7 +10,68 @@
 <atom:link href="https://www.bryanwhiting.com/tech.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Thu, 04 Apr 2024 21:06:11 GMT</lastBuildDate>
+<lastBuildDate>Fri, 05 Apr 2024 21:57:30 GMT</lastBuildDate>
+<item>
+  <title>Microsoft Copilot notes</title>
+  <link>https://www.bryanwhiting.com/tech/microsoft-copilot-notes.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Three copilots:</p>
+<ul>
+<li>copilot.Microsoft.com</li>
+</ul>
+<p><a href="https://youtu.be/3Nb0FEe3kKw?si=Q8A2T101zA9pxx1B">YouTube MS ignite</a></p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/3Nb0FEe3kKw?si=Q8A2T101zA9pxx1B" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<ul>
+<li>uses RAG on the Microsoft graph</li>
+<li>Copilot can make a PowerPoint from a Doc</li>
+<li>TeamsKit</li>
+<li>plugins and graph connectors. Maybe plugin is right? Maybe graph connector is right.</li>
+<li>Not very useful PowerPoints unless tied to data</li>
+<li>LLMs are only as accurate as the data.</li>
+</ul>
+<p><a href="https://youtu.be/7JRaFAYSOgI?si=9NrnsVCO0rGrlAHh">YouTube create awesome documents</a></p>
+<ul>
+<li>Edit and revise</li>
+</ul>
+<p><a href="https://youtu.be/_nf56aMPdZE?si=Z6UR5qKPOvKb4y4d">YouTube | Excel tutorial</a></p>
+<ul>
+<li>20-30 second</li>
+</ul>
+<p><a href="https://youtu.be/AhywEEHg6Es?si=PDLQGwIJgaBxivbz">YouTube | MS Cop featurs</a></p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-write-speech-from-doc.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Write speech</figcaption>
+</figure>
+</div>
+<p><a href="https://youtu.be/oYijejDXLZQ?si=J-08luV6mNJPEgIU">YouTube | Microsoft Loop is cool</a></p>
+<ul>
+<li>loop is cool. Makes collaborating across applications on a single thing easy.</li>
+</ul>
+<p><a href="https://youtu.be/Xv_TmtRLHJY?si=H1N_UkWSli2xLJsG">YouTube | Global Enterprise</a></p>
+<ul>
+<li>you can have it “sound like me” in outlook</li>
+<li>41:35 copilot studio</li>
+<li>Can use open AIs GPTs</li>
+</ul>
+<p>Things to explore:</p>
+<ul>
+<li>TeamsKit</li>
+<li>Azure OpenAI</li>
+</ul>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <guid>https://www.bryanwhiting.com/tech/microsoft-copilot-notes.html</guid>
+  <pubDate>Fri, 05 Apr 2024 21:57:30 GMT</pubDate>
+</item>
 <item>
   <title>LLMs need to call Functions</title>
   <link>https://www.bryanwhiting.com/news/llms-need-to-call-functions.html</link>
@@ -814,43 +875,6 @@ If you think OpenAI Sora is a creative toy like DALLE, … think again. Sora is 
   <category>ai</category>
   <guid>https://www.bryanwhiting.com/tech/unreal-ai-sora.html</guid>
   <pubDate>Fri, 16 Feb 2024 17:32:54 GMT</pubDate>
-</item>
-<item>
-  <title>Spellbook AI Reviews</title>
-  <link>https://www.bryanwhiting.com/tech/spellbook-ai-reviews-redlining.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>The AI world heats up with another legal tech offering.</p>
-<p><a href="https://www.spellbook.legal/gpt-4-for-lawyers">GPT-4 for Lawyers is now available | Spellbook</a></p>
-<ul>
-<li>Works in word</li>
-<li>Suggests edits (redlines) automatically to achieve your goals</li>
-</ul>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/screenshot-spellbook-landing.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Spellbook</figcaption>
-</figure>
-</div>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/screenshot-spellbook-example.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Auto-review</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>tech</category>
-  <category>legal-ai</category>
-  <category>ai tools</category>
-  <guid>https://www.bryanwhiting.com/tech/spellbook-ai-reviews-redlining.html</guid>
-  <pubDate>Fri, 16 Feb 2024 11:51:02 GMT</pubDate>
 </item>
 </channel>
 </rss>

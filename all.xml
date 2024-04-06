@@ -10,7 +10,92 @@
 <atom:link href="https://www.bryanwhiting.com/all.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Fri, 05 Apr 2024 00:15:22 GMT</lastBuildDate>
+<lastBuildDate>Fri, 05 Apr 2024 21:57:30 GMT</lastBuildDate>
+<item>
+  <title>Microsoft Copilot notes</title>
+  <link>https://www.bryanwhiting.com/tech/microsoft-copilot-notes.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Three copilots:</p>
+<ul>
+<li>copilot.Microsoft.com</li>
+</ul>
+<p><a href="https://youtu.be/3Nb0FEe3kKw?si=Q8A2T101zA9pxx1B">YouTube MS ignite</a></p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/3Nb0FEe3kKw?si=Q8A2T101zA9pxx1B" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<ul>
+<li>uses RAG on the Microsoft graph</li>
+<li>Copilot can make a PowerPoint from a Doc</li>
+<li>TeamsKit</li>
+<li>plugins and graph connectors. Maybe plugin is right? Maybe graph connector is right.</li>
+<li>Not very useful PowerPoints unless tied to data</li>
+<li>LLMs are only as accurate as the data.</li>
+</ul>
+<p><a href="https://youtu.be/7JRaFAYSOgI?si=9NrnsVCO0rGrlAHh">YouTube create awesome documents</a></p>
+<ul>
+<li>Edit and revise</li>
+</ul>
+<p><a href="https://youtu.be/_nf56aMPdZE?si=Z6UR5qKPOvKb4y4d">YouTube | Excel tutorial</a></p>
+<ul>
+<li>20-30 second</li>
+</ul>
+<p><a href="https://youtu.be/AhywEEHg6Es?si=PDLQGwIJgaBxivbz">YouTube | MS Cop featurs</a></p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-write-speech-from-doc.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Write speech</figcaption>
+</figure>
+</div>
+<p><a href="https://youtu.be/oYijejDXLZQ?si=J-08luV6mNJPEgIU">YouTube | Microsoft Loop is cool</a></p>
+<ul>
+<li>loop is cool. Makes collaborating across applications on a single thing easy.</li>
+</ul>
+<p><a href="https://youtu.be/Xv_TmtRLHJY?si=H1N_UkWSli2xLJsG">YouTube | Global Enterprise</a></p>
+<ul>
+<li>you can have it “sound like me” in outlook</li>
+<li>41:35 copilot studio</li>
+<li>Can use open AIs GPTs</li>
+</ul>
+<p>Things to explore:</p>
+<ul>
+<li>TeamsKit</li>
+<li>Azure OpenAI</li>
+</ul>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <guid>https://www.bryanwhiting.com/tech/microsoft-copilot-notes.html</guid>
+  <pubDate>Fri, 05 Apr 2024 21:57:30 GMT</pubDate>
+</item>
+<item>
+  <title>A Gentleman in Moscow</title>
+  <dc:creator>Amor Towles</dc:creator>
+  <link>https://www.bryanwhiting.com/book-review/a-gentleman-in-moscow.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/book-a-gentleman-in-moscow.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Gentleman in Moscow</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book-review</category>
+  <guid>https://www.bryanwhiting.com/book-review/a-gentleman-in-moscow.html</guid>
+  <pubDate>Fri, 05 Apr 2024 20:19:37 GMT</pubDate>
+</item>
 <item>
   <title>Jacob 1 - Viewing Christ</title>
   <link>https://www.bryanwhiting.com/christianity/jacob-1-viewing-christ.html</link>
@@ -871,58 +956,6 @@ print(df)</code></pre>
   <category>data engineering</category>
   <guid>https://www.bryanwhiting.com/tech/on-file-formats-parquet-vs-csv.html</guid>
   <pubDate>Tue, 26 Mar 2024 22:39:56 GMT</pubDate>
-</item>
-<item>
-  <title>Chronos: Time Series Foundation Model by Amazon</title>
-  <link>https://www.bryanwhiting.com/tech/chronos-time-series-foundation-model-by-amazon.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p><a href="../tech/timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting.html">TimeGPT and Lag-Llama: Two foundation models for time series forecasting</a> are two predecessor models.</p>
-<p>Amazon just came out with Chronos.</p>
-<p>Discussion here:</p>
-<p><a href="https://www.linkedin.com/posts/pascalbiese_chronos-learning-the-language-of-time-series-ugcPost-7176540406761820160-mTvQ?utm_source=share&amp;utm_medium=member_ios">Pascal Biese on LinkedIn: Chronos: Learning the Language of Time Series | 87 comments</a></p>
-<p><img src="https://www.bryanwhiting.com/img/screenshot-chronos-time-series.jpeg" class="preview-image img-fluid"></p>
-<p>Puff Piece: <a href="https://www.amazon.science/blog/adapting-language-model-architectures-for-time-series-forecasting">Chronos: Adapting language model architectures for time series forecasting - Amazon Science</a></p>
-<p>GitHub: <a href="https://github.com/amazon-science/chronos-forecasting/">GitHub - amazon-science/chronos-forecasting: Chronos: Pretrained (Language) Models for Probabilistic Time Series Forecasting</a></p>
-<p>Paper: <a href="https://arxiv.org/abs/2403.07815v1">[2403.07815v1] Chronos: Learning the Language of Time Series</a></p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>tech</category>
-  <category>foundation models</category>
-  <category>time series</category>
-  <category>ml-tools</category>
-  <category>data science</category>
-  <category>machine learning</category>
-  <guid>https://www.bryanwhiting.com/tech/chronos-time-series-foundation-model-by-amazon.html</guid>
-  <pubDate>Tue, 26 Mar 2024 15:53:23 GMT</pubDate>
-</item>
-<item>
-  <title>I’m Grateful for Ever Shifting Tides</title>
-  <link>https://www.bryanwhiting.com/gratitude/ever-shifting-tides.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>The tech industry is pretty crazy. I was just watching some keynote talks from Nvidia and if they actually land half of the stuff they’re talking about, they’re going to just plow the world in a new direction.</p>
-<p>I watch it and probably feel both awe and fear. What will the future look like? And will I do anything that cool? I kind of look at my little bag of talents and wonder how I fit into this big world.</p>
-<p>But I do. I do fit in. I’m a part of that tide of shifting technology, of pushing the boundaries forward. I’m grateful for a job in tech. It isn’t easy. But it’s rewarding. It’s changing people’s lives.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>gratitude</category>
-  <category>tech</category>
-  <category>big tech</category>
-  <guid>https://www.bryanwhiting.com/gratitude/ever-shifting-tides.html</guid>
-  <pubDate>Mon, 25 Mar 2024 21:00:48 GMT</pubDate>
 </item>
 </channel>
 </rss>
