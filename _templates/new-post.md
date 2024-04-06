@@ -34,7 +34,10 @@ let fileNameSlug = title
 if (folder === 'goals') {  
 	slug = tp.date.now() + "-goals";
 } else {
-    slug = await tp.system.prompt("Slug/Filename:", fileNameSlug)
+    // ask the user if they agree with the slug
+    // slug = await tp.system.prompt("Slug/Filename:", fileNameSlug)
+    // skip asking
+    slug = fileNameSlug
 }
 }
 
