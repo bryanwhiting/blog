@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/a-gentleman-in-moscow.md",
+                "file": "tech/microsoft-copilot-notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "book-review/a-gentleman-in-moscow.md",
+            "file": "tech/microsoft-copilot-notes.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "book-review/a-gentleman-in-moscow.md"
+            "file": "tech/microsoft-copilot-notes.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "book-review/a-gentleman-in-moscow.md",
+            "file": "tech/microsoft-copilot-notes.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,10 +141,11 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "gratitude/customer-service-agents.md",
+    "book-review/a-gentleman-in-moscow.md",
     "tech/microsoft-copilot-notes.md",
     "img/screenshot-write-speech-from-doc.jpeg",
     "tech/timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting.md",
-    "book-review/a-gentleman-in-moscow.md",
     "_templates/new-post.md",
     "christianity/jacob-1-viewing-christ.md",
     "news/llms-need-to-call-functions.md",

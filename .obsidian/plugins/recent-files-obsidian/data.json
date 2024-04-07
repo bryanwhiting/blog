@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "a-gentleman-in-moscow",
-      "path": "book-review/a-gentleman-in-moscow.md"
-    },
-    {
       "basename": "microsoft-copilot-notes",
       "path": "tech/microsoft-copilot-notes.md"
+    },
+    {
+      "basename": "customer-service-agents",
+      "path": "gratitude/customer-service-agents.md"
+    },
+    {
+      "basename": "a-gentleman-in-moscow",
+      "path": "book-review/a-gentleman-in-moscow.md"
     },
     {
       "basename": "timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting",
@@ -195,10 +199,6 @@
     {
       "basename": "is-it-the-holy-ghost-or-is-it-just-my-own-thought",
       "path": "christianity/is-it-the-holy-ghost-or-is-it-just-my-own-thought.md"
-    },
-    {
-      "basename": "infinite-suffering-of-everyone",
-      "path": "sacrament-symbols/infinite-suffering-of-everyone.md"
     }
   ],
   "omittedPaths": [],

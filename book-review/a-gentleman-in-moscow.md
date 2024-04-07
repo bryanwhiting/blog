@@ -14,4 +14,10 @@ pct-complete:
 ---
 
 
+2024-04-06
+
+- cool setup. Guy stuck in
+- Gentlemen use a desk 
+- We put attachment into things. But at the end they're just things. 
+
 ![Gentleman in Moscow ](../img/book-a-gentleman-in-moscow.jpeg){.preview-image}

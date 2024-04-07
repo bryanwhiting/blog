@@ -45,6 +45,16 @@ Three copilots:
 - Can use open AIs GPTs 
 
 
+# Azure open ai
+
+[YouTube](https://youtu.be/obfs_LEzPHo?si=AorIJwEutzw3UVIR)
+
+{{< video https://youtu.be/obfs_LEzPHo?si=AorIJwEutzw3UVIR >}} 
+
+- BRK206 Vector search and state of the art retrieval for generative ai apps 
+- BRK205 multimodal
+
+
 Things to explore:
 
 - TeamsKit
