@@ -10,7 +10,27 @@
 <atom:link href="https://www.bryanwhiting.com/all.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Fri, 05 Apr 2024 21:57:30 GMT</lastBuildDate>
+<lastBuildDate>Sat, 06 Apr 2024 00:13:14 GMT</lastBuildDate>
+<item>
+  <title>I’m Grateful for Customer Service Agents</title>
+  <link>https://www.bryanwhiting.com/gratitude/customer-service-agents.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Today I reached out to a customer support agent.</p>
+<p>It took 90 minutes before the chat finally connected me to them. But they responded! And I think they solved my problem. TBD.</p>
+<p>But it was great being able to reach out to someone I don’t even know who just answered my question!</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>gratitude</category>
+  <guid>https://www.bryanwhiting.com/gratitude/customer-service-agents.html</guid>
+  <pubDate>Sat, 06 Apr 2024 00:13:14 GMT</pubDate>
+</item>
 <item>
   <title>Microsoft Copilot notes</title>
   <link>https://www.bryanwhiting.com/tech/microsoft-copilot-notes.html</link>
@@ -59,6 +79,14 @@
 <li>41:35 copilot studio</li>
 <li>Can use open AIs GPTs</li>
 </ul>
+<section id="azure-open-ai" class="level1">
+<h1>Azure open ai</h1>
+<p><a href="https://youtu.be/obfs_LEzPHo?si=AorIJwEutzw3UVIR">YouTube</a></p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/obfs_LEzPHo?si=AorIJwEutzw3UVIR" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<ul>
+<li>BRK206 Vector search and state of the art retrieval for generative ai apps</li>
+<li>BRK205 multimodal</li>
+</ul>
 <p>Things to explore:</p>
 <ul>
 <li>TeamsKit</li>
@@ -66,6 +94,7 @@
 </ul>
 
 
+</section>
 
 <p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
   <category>tech</category>
@@ -82,6 +111,12 @@
 
 
 
+<p>2024-04-06</p>
+<ul>
+<li>cool setup. Guy stuck in</li>
+<li>Gentlemen use a desk</li>
+<li>We put attachment into things. But at the end they’re just things.</li>
+</ul>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="https://www.bryanwhiting.com/img/book-a-gentleman-in-moscow.jpeg" class="preview-image img-fluid figure-img"></p>
@@ -930,32 +965,6 @@ print(df)</code></pre>
   <category>book-review</category>
   <guid>https://www.bryanwhiting.com/book-review/heal-your-nervous-system.html</guid>
   <pubDate>Wed, 27 Mar 2024 20:32:54 GMT</pubDate>
-</item>
-<item>
-  <title>On file formats: parquet vs csv</title>
-  <link>https://www.bryanwhiting.com/tech/on-file-formats-parquet-vs-csv.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Came across this article today: <a href="https://kaveland.no/friends-dont-let-friends-export-to-csv.html?utm_source=tldrnewsletter">Robin’s blog – Friends don’t let friends export to CSV</a></p>
-<p>This has largely been my experience too: go with the file format that’s fast reading in and out.</p>
-<p>It’s rare a data scientist with open a file on their computer rather than just <code>pd.read_*()</code> it in.</p>
-<p>In my last job, we were using <code>jsonl</code> files for no other reason than it how one person liked to use command line tools to analyze it.</p>
-<p>But if you’re using command line tools to inspect a data file, and not just a Python repl, you’ve already gone down the wrong direction IMO. But what if you’re on a remote server and don’t have pandas installed? Yea, that’s not something you should plan for. At that point, just scp the file to a place you can read it.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>tech</category>
-  <category>reactions</category>
-  <category>news</category>
-  <category>data science</category>
-  <category>data engineering</category>
-  <guid>https://www.bryanwhiting.com/tech/on-file-formats-parquet-vs-csv.html</guid>
-  <pubDate>Tue, 26 Mar 2024 22:39:56 GMT</pubDate>
 </item>
 </channel>
 </rss>
