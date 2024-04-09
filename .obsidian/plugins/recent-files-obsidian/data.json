@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "the-coming-wave",
+      "path": "book-review/the-coming-wave.md"
+    },
+    {
+      "basename": "warm-naps-on-the-couch",
+      "path": "gratitude/warm-naps-on-the-couch.md"
+    },
+    {
       "basename": "microsoft-copilot-notes",
       "path": "tech/microsoft-copilot-notes.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "2024-03-18-news-notes",
       "path": "news/2024-03-18-news-notes.md"
-    },
-    {
-      "basename": "2-nephi-26-30-apostasy",
-      "path": "christianity/2-nephi-26-30-apostasy.md"
-    },
-    {
-      "basename": "is-it-the-holy-ghost-or-is-it-just-my-own-thought",
-      "path": "christianity/is-it-the-holy-ghost-or-is-it-just-my-own-thought.md"
     }
   ],
   "omittedPaths": [],

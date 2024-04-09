@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/microsoft-copilot-notes.md",
+                "file": "book-review/the-coming-wave.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "tech/microsoft-copilot-notes.md",
+            "file": "book-review/the-coming-wave.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "tech/microsoft-copilot-notes.md"
+            "file": "book-review/the-coming-wave.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "tech/microsoft-copilot-notes.md",
+            "file": "book-review/the-coming-wave.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,12 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "gratitude/warm-naps-on-the-couch.md",
+    "book-review/the-coming-wave.md",
+    "img/dalle-warm-naps.jpeg",
+    "tech/microsoft-copilot-notes.md",
     "gratitude/customer-service-agents.md",
     "book-review/a-gentleman-in-moscow.md",
-    "tech/microsoft-copilot-notes.md",
     "img/screenshot-write-speech-from-doc.jpeg",
     "tech/timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting.md",
     "_templates/new-post.md",
@@ -173,10 +176,7 @@
     "img/screenshot-ibis-data.jpeg",
     "book-review/saints-book-1-the-standard-of-truth-1815-1846.md",
     "sacrament-symbols/wearing-a-tie-reminds-me-of-the-noose-around-his-neck.md",
-    "scriptures/the-purifying-power-of-gethsemane.md",
-    "sacrament-symbols/the-messages-remind-me-of-his-message-after-his-resurrection.md",
     "img/photo-nearby-green-hills.jpeg",
-    "img/dalle-meditating-bodyfulness.jpeg",
     "quotes",
     "code/2024-02-02-libby.py",
     "code",
