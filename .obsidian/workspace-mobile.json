@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/the-coming-wave.md",
+                "file": "tech/configurations-for-ml-pipelines.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +44,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Elbows",
+            "query": "tag:#libby",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": true,
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 4
+    "currentTab": 1
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "book-review/the-coming-wave.md",
+            "file": "tech/configurations-for-ml-pipelines.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "book-review/the-coming-wave.md"
+            "file": "tech/configurations-for-ml-pipelines.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "book-review/the-coming-wave.md",
+            "file": "tech/configurations-for-ml-pipelines.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,8 +141,16 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "gratitude/warm-naps-on-the-couch.md",
+    "posts/whats-your-decision-framework.md",
+    "gratitude/the-peak-of-a-hike.md",
+    "goals/2024-04-10.md",
+    "img/photo-mountain-from-top-of-peak.jpeg",
+    "lists/reading-list.md",
+    "book-review/thinking-fast-and-slow.md",
+    "quotes/body-language-in-public-speaking.md",
     "book-review/the-coming-wave.md",
+    "goals/2024-04-09.md",
+    "gratitude/warm-naps-on-the-couch.md",
     "img/dalle-warm-naps.jpeg",
     "tech/microsoft-copilot-notes.md",
     "gratitude/customer-service-agents.md",
@@ -166,17 +174,9 @@
     "posts/how-to-sign-in-with-icloud-calendar-on-outlook-for-ios.md",
     "tech/configurations-for-ml-pipelines.md",
     "img/screenshot-hydra-configs.jpeg",
-    "tech/why-you-should-log-with-aimstack.md",
     "img/screenshot-aimstack.jpeg",
-    "tech/ibis-dataframes-for-python-vs-pandas.md",
-    "book-review/adult-children-of-emotional-immature-parents.md",
-    "gratitude/easter.md",
-    "book-review/easter.md",
     "img/dalle-he-is-risen.jpeg",
     "img/screenshot-ibis-data.jpeg",
-    "book-review/saints-book-1-the-standard-of-truth-1815-1846.md",
-    "sacrament-symbols/wearing-a-tie-reminds-me-of-the-noose-around-his-neck.md",
-    "img/photo-nearby-green-hills.jpeg",
     "quotes",
     "code/2024-02-02-libby.py",
     "code",

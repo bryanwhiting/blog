@@ -20,19 +20,21 @@ And so the researcher starts to configure a pipeline.
 
 First time I built a config it was in VBA. I had a text file I loaded in that could be overwritten based on setting someone chose.
 
-Second time I config'd something was in Python. I used `ConfigParser` per my Manager David Mantilla's suggestion. It was pretty good. But unwieldy. Don't use fhis. 
+Second time I config'd something was in Python. I used `ConfigParser` per my Manager David Mantilla's suggestion. It was pretty good for 2017. But unwieldy. Don't use this. It had cool string substitutions but there are better tools now. 
 
 Third thing I saw was using a Python constants.py file. Just import Python variables from another module. This is nice because you can import model objects or such. Dicts. Whatever. Seems great. But it's Python code. Config files shouldn't be code. They should be configs. Every great software follows this, like `k8s` helm charts or whatever. Google loves using `Protobufs`. Configs shouldn't be code, because if they're code they're dangerous. You start doing crazy things with them. 
 
-Fourth thing I did was to use YAML which is very clean. Lots of people like YAML. This gets unwieldy if you need 100 configs for different customers, for example. Can you imagine managing 100 yaml files? What if you need to update one param? Then you need to update 100 files. Rough. 
+Fourth thing I did was to use YAML which is very clean. Lots of people like YAML. This gets unwieldy if you need 100 configs for different customers, for example. Can you imagine managing 100 yaml files? What if you need to update one param? Then you need to update 100 files. Rough. So then you start setting "default" blocks and settings. 
 
 I also used Pydantic to read in the YAML file and validate types. Gotta validate types. What's an int vs a string? Well, this mean that we needed to design the pipeline to rely on some `config` class. We had to pass this config object around everywhere. Not super idea but gets the job done. 
 
 Fifth thing was to use one default YAML. This solved the issue of redundancy across all the 100 YAML files. (If you only have one model, you probably need only 1 YAML file so this may not be your problem.) But this still kinda stinks. It's in a file. 
 
-Sixth thing was some eng's on my team saw a better way and build a CRUD database. This made it so we didn't have to do a code change to update a config. That means that people outside the team could edit a config. Awesome. But we still have 100 web pages that could change. Kinda sux. And we still had a default setting - essential. 
+Sixth thing was some eng's on my team saw a better way and build a CRUD database. This made it so we didn't have to do a code change to update a config. That means that people outside the team could edit a config. Awesome. But we still have 100 web pages that could change. Kinda sux. And we still had a default setting - essential. Benefits of a crud are migrations. You can get rid of one option across 100 configs more easily. 
 
 Problem with 100 YAML or 100 web pages is that if you want to change things or run experiments, you need to literally clone the config file. Now you have 15 versions of the same config file with slight modifications and you can't remember what's going on. So you delete them all eventually and just pick one. 
+
+Seventh thing: shove everything into environment variables. Create a `.env` file and load with `dotenv() `  but that gets messy because env files don't support data type validation. Validation is essential, lest you try to encode a Boolean in your env file only to realize environment variables only support strings and then you have a "False" rendering as true in your "if os.get(MY_BOOL)" call just because it exists as a valid string. Blech... 🤮 
 
 # Hydra?
 

@@ -1,8 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "configurations-for-ml-pipelines",
+      "path": "tech/configurations-for-ml-pipelines.md"
+    },
+    {
+      "basename": "whats-your-decision-framework",
+      "path": "posts/whats-your-decision-framework.md"
+    },
+    {
+      "basename": "the-peak-of-a-hike",
+      "path": "gratitude/the-peak-of-a-hike.md"
+    },
+    {
+      "basename": "2024-04-10",
+      "path": "goals/2024-04-10.md"
+    },
+    {
+      "basename": "reading-list",
+      "path": "lists/reading-list.md"
+    },
+    {
+      "basename": "thinking-fast-and-slow",
+      "path": "book-review/thinking-fast-and-slow.md"
+    },
+    {
+      "basename": "body-language-in-public-speaking",
+      "path": "quotes/body-language-in-public-speaking.md"
+    },
+    {
       "basename": "the-coming-wave",
       "path": "book-review/the-coming-wave.md"
+    },
+    {
+      "basename": "2024-04-09",
+      "path": "goals/2024-04-09.md"
     },
     {
       "basename": "warm-naps-on-the-couch",
@@ -63,10 +95,6 @@
     {
       "basename": "how-to-sign-in-with-icloud-calendar-on-outlook-for-ios",
       "path": "posts/how-to-sign-in-with-icloud-calendar-on-outlook-for-ios.md"
-    },
-    {
-      "basename": "configurations-for-ml-pipelines",
-      "path": "tech/configurations-for-ml-pipelines.md"
     },
     {
       "basename": "why-you-should-log-with-aimstack",
@@ -149,10 +177,6 @@
       "path": "gratitude/ever-shifting-tides.md"
     },
     {
-      "basename": "reading-list",
-      "path": "lists/reading-list.md"
-    },
-    {
       "basename": "2-nephi-31-",
       "path": "christianity/2-nephi-31-.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "elon-musk",
       "path": "book-review/elon-musk.md"
-    },
-    {
-      "basename": "the-count-of-monte-cristo",
-      "path": "book-review/the-count-of-monte-cristo.md"
-    },
-    {
-      "basename": "the-prophet",
-      "path": "book-review/the-prophet.md"
-    },
-    {
-      "basename": "cs-lewis",
-      "path": "gratitude/cs-lewis.md"
-    },
-    {
-      "basename": "2-nephi-31-plain",
-      "path": "2-nephi-31-plain.md"
-    },
-    {
-      "basename": "mere-christianity",
-      "path": "book-review/mere-christianity.md"
-    },
-    {
-      "basename": "2024-03-18-news-notes",
-      "path": "news/2024-03-18-news-notes.md"
     }
   ],
   "omittedPaths": [],

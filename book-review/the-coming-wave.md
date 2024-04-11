@@ -13,4 +13,10 @@ date-finished: 2024-04-08 14:31:57
 pct-complete:
 ---
 
+2024-04-09
+
+- anyone with access to a DNA lab can destroy the world. 
+- Alexnet by Hinton 
+
+
 ![The Coming Wave](../img/book-the-coming-wave.jpeg){.preview-image}
