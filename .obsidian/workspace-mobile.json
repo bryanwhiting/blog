@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/thinking-fast-and-slow.md",
+                "file": "gratitude/my-work-team.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "book-review/thinking-fast-and-slow.md",
+            "file": "gratitude/my-work-team.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "book-review/thinking-fast-and-slow.md"
+            "file": "gratitude/my-work-team.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "book-review/thinking-fast-and-slow.md",
+            "file": "gratitude/my-work-team.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,15 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "goals/2024-04-11.md",
+    "gratitude/my-work-team.md",
+    "book-review/steve-jobs-biography.md",
+    "posts/my-tombstone.md",
+    "book-review/steve-jobs.md",
+    "book-review/thinking-fast-and-slow.md",
+    "img/dalle-seaotter-beach-data-science.jpeg",
     "PDFs/Daniel-Kahneman-Thinking-Fast-and-Slow-.pdf",
     "img/screenshot-thinking-fast-and-slow-system-1.jpeg",
-    "book-review/thinking-fast-and-slow.md",
     "PDFs",
     "posts/my-advice-for-new-career-people.md",
     "img/dalle-exchange-of-goods.jpeg",
@@ -169,15 +175,10 @@
     "news/llms-need-to-call-functions.md",
     "scriptures/jacob-1.8.md",
     "book-review/brave-new-world.md",
-    "gratitude/mentors.md",
     "img/dalle-new-england-woods.jpeg",
-    "lists/newsletters.md",
     "img/screenshot-mad-first-mark-cap.jpeg",
-    "gratitude/wet-suit.md",
     "img/dalle-wet-suit.jpeg",
-    "christianity/Jacob-2-give-freely.md",
     "img/screenshot-hydra-configs.jpeg",
-    "img/screenshot-aimstack.jpeg",
     "quotes",
     "code/2024-02-02-libby.py",
     "code",

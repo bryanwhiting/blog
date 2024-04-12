@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "my-work-team",
+      "path": "gratitude/my-work-team.md"
+    },
+    {
+      "basename": "2024-04-11",
+      "path": "goals/2024-04-11.md"
+    },
+    {
+      "basename": "my-tombstone",
+      "path": "posts/my-tombstone.md"
+    },
+    {
+      "basename": "steve-jobs",
+      "path": "book-review/steve-jobs.md"
+    },
+    {
       "basename": "thinking-fast-and-slow",
       "path": "book-review/thinking-fast-and-slow.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "chronos-time-series-foundation-model-by-amazon",
       "path": "tech/chronos-time-series-foundation-model-by-amazon.md"
-    },
-    {
-      "basename": "ever-shifting-tides",
-      "path": "gratitude/ever-shifting-tides.md"
-    },
-    {
-      "basename": "2-nephi-31-",
-      "path": "christianity/2-nephi-31-.md"
-    },
-    {
-      "basename": "relationships-are-about-knowing-when-to-make-the-big-things-little-and-the-little-things-big",
-      "path": "quotes/relationships-are-about-knowing-when-to-make-the-big-things-little-and-the-little-things-big.md"
-    },
-    {
-      "basename": "better-health",
-      "path": "gratitude/better-health.md"
     }
   ],
   "omittedPaths": [],
