@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/configurations-for-ml-pipelines.md",
+                "file": "posts/my-advice-for-new-career-people.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "tech/configurations-for-ml-pipelines.md",
+            "file": "posts/my-advice-for-new-career-people.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "tech/configurations-for-ml-pipelines.md"
+            "file": "posts/my-advice-for-new-career-people.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "tech/configurations-for-ml-pipelines.md",
+            "file": "posts/my-advice-for-new-career-people.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,12 +141,16 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-exchange-of-goods.jpeg",
+    "posts/2022-11-18-writing-a-tech-resume/index.md",
+    "posts/my-advice-for-new-career-people.md",
+    "book-review/thinking-fast-and-slow.md",
+    "tech/configurations-for-ml-pipelines.md",
     "posts/whats-your-decision-framework.md",
     "gratitude/the-peak-of-a-hike.md",
     "goals/2024-04-10.md",
     "img/photo-mountain-from-top-of-peak.jpeg",
     "lists/reading-list.md",
-    "book-review/thinking-fast-and-slow.md",
     "quotes/body-language-in-public-speaking.md",
     "book-review/the-coming-wave.md",
     "goals/2024-04-09.md",
@@ -169,10 +173,6 @@
     "gratitude/wet-suit.md",
     "img/dalle-wet-suit.jpeg",
     "christianity/Jacob-2-give-freely.md",
-    "gratitude/marriage.md",
-    "scriptures/acts-20.35.md",
-    "posts/how-to-sign-in-with-icloud-calendar-on-outlook-for-ios.md",
-    "tech/configurations-for-ml-pipelines.md",
     "img/screenshot-hydra-configs.jpeg",
     "img/screenshot-aimstack.jpeg",
     "img/dalle-he-is-risen.jpeg",

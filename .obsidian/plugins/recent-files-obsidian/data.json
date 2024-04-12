@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "my-advice-for-new-career-people",
+      "path": "posts/my-advice-for-new-career-people.md"
+    },
+    {
+      "basename": "index",
+      "path": "posts/2022-11-18-writing-a-tech-resume/index.md"
+    },
+    {
+      "basename": "thinking-fast-and-slow",
+      "path": "book-review/thinking-fast-and-slow.md"
+    },
+    {
       "basename": "configurations-for-ml-pipelines",
       "path": "tech/configurations-for-ml-pipelines.md"
     },
@@ -19,10 +31,6 @@
     {
       "basename": "reading-list",
       "path": "lists/reading-list.md"
-    },
-    {
-      "basename": "thinking-fast-and-slow",
-      "path": "book-review/thinking-fast-and-slow.md"
     },
     {
       "basename": "body-language-in-public-speaking",
@@ -191,14 +199,6 @@
     {
       "basename": "of-mice-and-men",
       "path": "book-review/of-mice-and-men.md"
-    },
-    {
-      "basename": "how-to-decide-simple-tools-for-making-better-choices",
-      "path": "book-review/how-to-decide-simple-tools-for-making-better-choices.md"
-    },
-    {
-      "basename": "elon-musk",
-      "path": "book-review/elon-musk.md"
     }
   ],
   "omittedPaths": [],

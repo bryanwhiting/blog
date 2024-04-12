@@ -14,6 +14,16 @@ date-finished: 2024-04-08
 pct-complete: 0
 ---
 
+2024-04-11
+
+- positive emotions create cognitive ease, letting down the system 2 thinking. Happiness and creativity are linked. 
+- Have your guard up if you're too much system 2. Try to get into the right system for the task. 
+- Coherence: because there's a big event, it must have consequences. Because of consequences, there must be a causal effect. 
+	- Saddam Housein captured. Stocks fall. Papers declare the link. 
+- Priming. 
+- Normality: what's normal? Things we see often. Even if they're rare. 
+
+
 2024-04-10
 
 - ego depletion. Cognitive tasks deain. 
