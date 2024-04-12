@@ -14,13 +14,16 @@ I've worked for five companies in 9 years. The keys for me for job and life sati
 - Is there incentive alignment between what I offer and what the company needs?
 
 This blog post will attempt to describe my thoughts on what makes for a fulfilling career. It's a hard question. Maybe something in here is valuable as you search for your "ideal" career. 
+
 # Likely useless career advice
+
 
 > ....I've been writing this for two hours and I'm not sure any of it makes sense. Skip to the "books to read" section if you get lost. At this point I'm too lazy to edit any of the below but don't want to delete it. Sunk costs baby...
 
 Some say a job should help you 1) earn or 2) learn and if neither then leave. But that framework doesn't work because you can learn anything anywhere. If you're not learning things you enjoy learning about, that's moot. 
 
 Also, knowledge is accretive. As I look back on jobs I didn't love, I still learned things. I wasn't a fan of the type of consulting I was doing 10 years ago, but I've now started a consulting firm and having had that experience is helpful. So it's all kind of gray. I didn't like pulling weeds as a kid but I'm now pulling weeds as a homeowner so yea, I'm glad I know how to do that. 
+
 
 # what is life anyway?
 
@@ -31,7 +34,10 @@ The reality is that "all or nothing thinking" is more of a cognitive bias, per [
 Can you land your dream job? Or is it a myth? 30-40% of first time marriages end in divorce. And not all of the remaining 70-60% are blissfully happy either. But many of those 70% ARE blissfully happy. Or they will be. Or they were and they will be again maybe or something...
 
 Marriage and work are similar: they're a type of relationship. 
+
+
 # Professional and Life happiness
+
 
 Happiness to me comes in two forms: doing the best I can with the circumstances I have (the cards I've been dealt) and choosing environments that are healthy (the game that gives me the cards). 
 
@@ -41,7 +47,9 @@ Point is: it takes a long while to find what environments you thrive in. Any com
 
 So if you don't know what you're interested in, you must explore. You try. 
 
+
 # Experiment Your Way to a Happy Career
+
 
 You can "try" by doing it yourself. Do you want to be a teacher? Go try to volunteer teaching. Do you want to be a coder? Spend 20 hours trying to build an app. Do you want to be a doctor? Volunteer with doctors. 
 
@@ -54,7 +62,9 @@ So you can lower the risk of not liking a job by trying to do it without actuall
 
 You can get a pretty good sense by doing little projects similar to what the real work is going to be. Don't be dictated because you don't yet have the role. 
 
+
 # Don't Not Try Something Because of a Dumb Reason
+
 
 And that's kind of the great myth: the myth of titles and credentials. That you need to be experienced at something to be able to do that thing. 
 
@@ -65,7 +75,9 @@ I once spent a single week shadowing dentists in an open room in Honduras. I was
 90% of most people jobs could be taught via apprenticeship, like the good old days. Today's world of credentials makes people think they're incapable of doing a pretty simple task: putting a drill into someone's tooth. But before you invest 8 years of your life in dental school, why not go be a dental hygienist for 1 year? Instead of doing a coding bootcamp, why not just code in your basement for a month after hours? This is the way to find what you like. 
 
 Whether you enjoy doing that thing that created value for people can only be discovered by doing it. 
+
 # People Hire you Because you offer a service or value. Period.
+
 
 Your real job is to create value for people. It's not a title. It's not a credential. It's not mandated or necessary in society. And if you were born 100 years before today or 100 years after the job may not exist. So think about opportunities in this way. 
 
@@ -82,6 +94,7 @@ But maybe I feel like I can get some avocados for my apricots. So can I find an 
 Getting a job is more of a negotiation than anything. And everything in work is a negotiation. Read [Never Split the Difference](../book-review/never-split-the-difference.md) and that becomes quite apparent. It's nothing fancy. It's not a title. It's not a degree. It's just doing little activities. 
 
 And after you've 1000 similar activities you're soon labeled a data scientist or a farmer. And if you circled the right boxes on an exam and got a piece of paper you're now a doctor/dentist. But the paper or the title don't make you good at that thing. My point: create value, not titles. 
+
 
 # In Sum
 
