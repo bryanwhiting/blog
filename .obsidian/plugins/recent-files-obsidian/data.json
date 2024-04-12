@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "thinking-fast-and-slow",
+      "path": "book-review/thinking-fast-and-slow.md"
+    },
+    {
+      "basename": "Daniel-Kahneman-Thinking-Fast-and-Slow-",
+      "path": "PDFs/Daniel-Kahneman-Thinking-Fast-and-Slow-.pdf"
+    },
+    {
       "basename": "my-advice-for-new-career-people",
       "path": "posts/my-advice-for-new-career-people.md"
     },
     {
       "basename": "index",
       "path": "posts/2022-11-18-writing-a-tech-resume/index.md"
-    },
-    {
-      "basename": "thinking-fast-and-slow",
-      "path": "book-review/thinking-fast-and-slow.md"
     },
     {
       "basename": "configurations-for-ml-pipelines",
@@ -195,10 +199,6 @@
     {
       "basename": "better-health",
       "path": "gratitude/better-health.md"
-    },
-    {
-      "basename": "of-mice-and-men",
-      "path": "book-review/of-mice-and-men.md"
     }
   ],
   "omittedPaths": [],

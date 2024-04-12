@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/my-advice-for-new-career-people.md",
+                "file": "book-review/thinking-fast-and-slow.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 4
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/my-advice-for-new-career-people.md",
+            "file": "book-review/thinking-fast-and-slow.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/my-advice-for-new-career-people.md"
+            "file": "book-review/thinking-fast-and-slow.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/my-advice-for-new-career-people.md",
+            "file": "book-review/thinking-fast-and-slow.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,10 +141,13 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "PDFs/Daniel-Kahneman-Thinking-Fast-and-Slow-.pdf",
+    "img/screenshot-thinking-fast-and-slow-system-1.jpeg",
+    "book-review/thinking-fast-and-slow.md",
+    "PDFs",
+    "posts/my-advice-for-new-career-people.md",
     "img/dalle-exchange-of-goods.jpeg",
     "posts/2022-11-18-writing-a-tech-resume/index.md",
-    "posts/my-advice-for-new-career-people.md",
-    "book-review/thinking-fast-and-slow.md",
     "tech/configurations-for-ml-pipelines.md",
     "posts/whats-your-decision-framework.md",
     "gratitude/the-peak-of-a-hike.md",
@@ -175,8 +178,6 @@
     "christianity/Jacob-2-give-freely.md",
     "img/screenshot-hydra-configs.jpeg",
     "img/screenshot-aimstack.jpeg",
-    "img/dalle-he-is-risen.jpeg",
-    "img/screenshot-ibis-data.jpeg",
     "quotes",
     "code/2024-02-02-libby.py",
     "code",
@@ -184,8 +185,6 @@
     "docs/gratitude/imagination.html",
     "docs/gratitude/chirping-birds.html",
     "docs/christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.html",
-    "docs/scriptures/3-nephi-18.22.html",
-    "docs/scriptures/luke-7.39.html",
-    "docs/scriptures/2-nephi-2.7.html"
+    "docs/scriptures/3-nephi-18.22.html"
   ]
 }

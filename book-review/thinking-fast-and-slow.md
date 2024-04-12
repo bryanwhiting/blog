@@ -13,6 +13,8 @@ date-start: 2024-04-09
 date-finished: 2024-04-08
 pct-complete: 0
 ---
+[Book PDF](http://dspace.vnbrims.org:13000/jspui/bitstream/123456789/2224/1/Daniel-Kahneman-Thinking-Fast-and-Slow-.pdf)
+
 
 2024-04-11
 
@@ -23,6 +25,7 @@ pct-complete: 0
 - Priming. 
 - Normality: what's normal? Things we see often. Even if they're rare. 
 
+![System 1](../img/screenshot-thinking-fast-and-slow-system-1.jpeg){.preview-image}
 
 2024-04-10
 
