@@ -10,7 +10,42 @@
 <atom:link href="https://www.bryanwhiting.com/gratitude.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Thu, 11 Apr 2024 23:03:55 GMT</lastBuildDate>
+<lastBuildDate>Fri, 12 Apr 2024 23:59:00 GMT</lastBuildDate>
+<item>
+  <title>I’m Grateful for In Awe of AI</title>
+  <link>https://www.bryanwhiting.com/gratitude/in-awe-of-ai.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Today I’m grateful to be in awe of AI.</p>
+<p>I went to makersuite.google.com and fed Gemini 1.5 a 115 page pdf investor report and it retuned a summary with core elements with page references.</p>
+<blockquote class="twitter-tweet blockquote">
+<p lang="en" dir="ltr">
+✨ Today, we're making Gemini 1.5 Pro available via the Gemini API in a public preview, along with native audio (speech) understanding. And we're also addressing many developer asks.<a href="https://twitter.com/hashtag/BuildWithGemini?src=hash&amp;ref_src=twsrc%5Etfw">#BuildWithGemini</a> → <a href="https://t.co/l3OHZAElwX">https://t.co/l3OHZAElwX</a> <br><br>See what's being launched 🧵⬇️ <a href="https://t.co/MMvF8KvITL">pic.twitter.com/MMvF8KvITL</a>
+</p>
+— Google for Developers (<span class="citation" data-cites="googledevs">@googledevs</span>) <a href="https://twitter.com/googledevs/status/1777732045319573812?ref_src=twsrc%5Etfw">April 9, 2024</a>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>It’s pretty incredible. I’m just in awe and slightly terrified but incredibly excited nonetheless to see what AI can do. <a href="../book-review/the-coming-wave.html">The Coming Wave</a> is worth the read. And a systemic shift in how everyone does work is coming, per <a href="../book-review/power-and-prediction.html">Power and Prediction</a>.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-google-ai-studio.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Get ready</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>gratitude</category>
+  <category>ai</category>
+  <category>ai tools</category>
+  <guid>https://www.bryanwhiting.com/gratitude/in-awe-of-ai.html</guid>
+  <pubDate>Fri, 12 Apr 2024 23:59:00 GMT</pubDate>
+</item>
 <item>
   <title>I’m Grateful for My work team</title>
   <link>https://www.bryanwhiting.com/gratitude/my-work-team.html</link>
@@ -482,26 +517,6 @@
   <category>gratitude</category>
   <guid>https://www.bryanwhiting.com/gratitude/sun-on-turf.html</guid>
   <pubDate>Fri, 08 Mar 2024 23:46:34 GMT</pubDate>
-</item>
-<item>
-  <title>I’m Grateful for New Job</title>
-  <link>https://www.bryanwhiting.com/gratitude/new-job.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Today I began a new job. It’s a new opportunity to get to know people, to build relationships, and to learn. It’s a chance to change, adapt, and develop.</p>
-<p>Each company is its own little world, proving that there’s no one right way to build a business. There are millions of ways.</p>
-<p>That’s cool.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>gratitude</category>
-  <guid>https://www.bryanwhiting.com/gratitude/new-job.html</guid>
-  <pubDate>Mon, 04 Mar 2024 23:25:43 GMT</pubDate>
 </item>
 </channel>
 </rss>

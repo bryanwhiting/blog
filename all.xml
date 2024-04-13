@@ -10,7 +10,100 @@
 <atom:link href="https://www.bryanwhiting.com/all.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Thu, 11 Apr 2024 23:03:55 GMT</lastBuildDate>
+<lastBuildDate>Fri, 12 Apr 2024 23:59:00 GMT</lastBuildDate>
+<item>
+  <title>I’m Grateful for In Awe of AI</title>
+  <link>https://www.bryanwhiting.com/gratitude/in-awe-of-ai.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Today I’m grateful to be in awe of AI.</p>
+<p>I went to makersuite.google.com and fed Gemini 1.5 a 115 page pdf investor report and it retuned a summary with core elements with page references.</p>
+<blockquote class="twitter-tweet blockquote">
+<p lang="en" dir="ltr">
+✨ Today, we're making Gemini 1.5 Pro available via the Gemini API in a public preview, along with native audio (speech) understanding. And we're also addressing many developer asks.<a href="https://twitter.com/hashtag/BuildWithGemini?src=hash&amp;ref_src=twsrc%5Etfw">#BuildWithGemini</a> → <a href="https://t.co/l3OHZAElwX">https://t.co/l3OHZAElwX</a> <br><br>See what's being launched 🧵⬇️ <a href="https://t.co/MMvF8KvITL">pic.twitter.com/MMvF8KvITL</a>
+</p>
+— Google for Developers (<span class="citation" data-cites="googledevs">@googledevs</span>) <a href="https://twitter.com/googledevs/status/1777732045319573812?ref_src=twsrc%5Etfw">April 9, 2024</a>
+</blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<p>It’s pretty incredible. I’m just in awe and slightly terrified but incredibly excited nonetheless to see what AI can do. <a href="../book-review/the-coming-wave.html">The Coming Wave</a> is worth the read. And a systemic shift in how everyone does work is coming, per <a href="../book-review/power-and-prediction.html">Power and Prediction</a>.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/screenshot-google-ai-studio.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Get ready</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>gratitude</category>
+  <category>ai</category>
+  <category>ai tools</category>
+  <guid>https://www.bryanwhiting.com/gratitude/in-awe-of-ai.html</guid>
+  <pubDate>Fri, 12 Apr 2024 23:59:00 GMT</pubDate>
+</item>
+<item>
+  <title>Power and Prediction</title>
+  <dc:creator>Joshua Gans, Jay Agrawal, Avi Goldfarb</dc:creator>
+  <link>https://www.bryanwhiting.com/book-review/power-and-prediction.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>2024-04-12</p>
+<ul>
+<li>the between time. Lightbulb took 20 years before 50% of houses had it.
+<ul>
+<li>ChatGPT</li>
+</ul></li>
+<li>Point solutions
+<ul>
+<li>lower cost of power. No change to factory system</li>
+<li>Can improve a single procedure without changing the system which embeds it.</li>
+</ul></li>
+<li>Application
+<ul>
+<li>Individual electric drives on each machine. Swappable. If one stops it doesn’t stop the others. Modularity the factory but still keep it the same layout.</li>
+<li>Can enable a single thing to do more things.</li>
+<li>Enables a new procedure without changing the system in which it’s embedded.</li>
+</ul></li>
+<li>System solutions → change how the system is designed → steam vs electricity. Exploit by decoupling power source from factory element. → layout the machine how it’s supposed to and get the power to where it is.
+<ul>
+<li>Enables new procedures or changes existing procedures by changing dependent procedures.</li>
+</ul></li>
+</ul>
+<p>Ai point solution: - improves a single decision without affecting other decisions AI Application solution - Enables new decision or changes how a decision is made without affecting other solutions AI system solution - Improves or enables new decisions only if changes to how decisions are made is implemented</p>
+<p>Chapter 3</p>
+<ul>
+<li>prediction: concert information you have to information you need</li>
+<li>Ripe for adoption (business and customers are already familiar with risky decisions.) system shift: needs to change how people do things to be more efficient.</li>
+<li>Randomized</li>
+</ul>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/book-power-and-prediction.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Power and Prediction</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book-review</category>
+  <category>tech</category>
+  <category>ai</category>
+  <category>economics</category>
+  <category>machine learning</category>
+  <category>data science</category>
+  <guid>https://www.bryanwhiting.com/book-review/power-and-prediction.html</guid>
+  <pubDate>Fri, 12 Apr 2024 21:40:40 GMT</pubDate>
+</item>
 <item>
   <title>I’m Grateful for My work team</title>
   <link>https://www.bryanwhiting.com/gratitude/my-work-team.html</link>
@@ -952,60 +1045,6 @@ print(df)</code></pre>
   <category>analytics</category>
   <guid>https://www.bryanwhiting.com/tech/ibis-dataframes-for-python-vs-pandas.html</guid>
   <pubDate>Sun, 31 Mar 2024 21:24:06 GMT</pubDate>
-</item>
-<item>
-  <title>Easter, the most important holiday</title>
-  <link>https://www.bryanwhiting.com/christianity/easter-the-most-important-holiday.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Today is #Easter, the most important holiday of the year for Christians, and perhaps the most radical and profound holiday for the world. It shows the most #inclusive</p>
-<p>On this day, nearly 2,000 years ago, it is believed that Jesus Christ, considered the Son of God, resurrected from the tomb. He was the first to rise from the dead, and then gave power to others to resurrect.</p>
-<p>Consider the hope this offers. Death is only momentary. Everlasting life awaits for us all.</p>
-<p>Here’s what Jesus did that was incredibly kind, selfless and #inclusive:</p>
-<ul>
-<li>He first appeared to Mary, a woman. He frequently “broke the rules” by spending time with those society marginalized, and forgiving the sins of people worthy of death.</li>
-<li>He told his followers to share His gospel with the world. It was no longer restricted to just the Israelites (of which Jews are one of twelve houses)</li>
-<li>He shared the gospel with the dead, who live as spirits on the other side. He freed the captive spirits.</li>
-</ul>
-<p>#DEI #Diversity</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>christianity</category>
-  <guid>https://www.bryanwhiting.com/christianity/easter-the-most-important-holiday.html</guid>
-  <pubDate>Sun, 31 Mar 2024 07:44:12 GMT</pubDate>
-</item>
-<item>
-  <title>I’m Grateful for Green Oasis</title>
-  <link>https://www.bryanwhiting.com/gratitude/green-oasis.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/photo-nearby-green-hills.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">The beauty just minutes away</figcaption>
-</figure>
-</div>
-<p>It’s hard to fathom how pretty these hills are. I see them every morning as I drive from my house. I see them in the distance. But their full beauty isn’t appreciated until my feet climb.</p>
-<p>There’s something about being in the valley that causes me to think I know what’s up there. I’ve also been up there many times.</p>
-<p>But the reality is it’s just its own thing. I gotta go see it to believe it. And it’s really worth believing.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>gratitude</category>
-  <category>nature</category>
-  <guid>https://www.bryanwhiting.com/gratitude/green-oasis.html</guid>
-  <pubDate>Sat, 30 Mar 2024 22:34:42 GMT</pubDate>
 </item>
 </channel>
 </rss>

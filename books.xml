@@ -10,7 +10,65 @@
 <atom:link href="https://www.bryanwhiting.com/books.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.515</generator>
-<lastBuildDate>Mon, 08 Apr 2024 14:31:57 GMT</lastBuildDate>
+<lastBuildDate>Fri, 12 Apr 2024 21:40:40 GMT</lastBuildDate>
+<item>
+  <title>Power and Prediction</title>
+  <dc:creator>Joshua Gans, Jay Agrawal, Avi Goldfarb</dc:creator>
+  <link>https://www.bryanwhiting.com/book-review/power-and-prediction.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>2024-04-12</p>
+<ul>
+<li>the between time. Lightbulb took 20 years before 50% of houses had it.
+<ul>
+<li>ChatGPT</li>
+</ul></li>
+<li>Point solutions
+<ul>
+<li>lower cost of power. No change to factory system</li>
+<li>Can improve a single procedure without changing the system which embeds it.</li>
+</ul></li>
+<li>Application
+<ul>
+<li>Individual electric drives on each machine. Swappable. If one stops it doesn’t stop the others. Modularity the factory but still keep it the same layout.</li>
+<li>Can enable a single thing to do more things.</li>
+<li>Enables a new procedure without changing the system in which it’s embedded.</li>
+</ul></li>
+<li>System solutions → change how the system is designed → steam vs electricity. Exploit by decoupling power source from factory element. → layout the machine how it’s supposed to and get the power to where it is.
+<ul>
+<li>Enables new procedures or changes existing procedures by changing dependent procedures.</li>
+</ul></li>
+</ul>
+<p>Ai point solution: - improves a single decision without affecting other decisions AI Application solution - Enables new decision or changes how a decision is made without affecting other solutions AI system solution - Improves or enables new decisions only if changes to how decisions are made is implemented</p>
+<p>Chapter 3</p>
+<ul>
+<li>prediction: concert information you have to information you need</li>
+<li>Ripe for adoption (business and customers are already familiar with risky decisions.) system shift: needs to change how people do things to be more efficient.</li>
+<li>Randomized</li>
+</ul>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/book-power-and-prediction.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">Power and Prediction</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book-review</category>
+  <category>tech</category>
+  <category>ai</category>
+  <category>economics</category>
+  <category>machine learning</category>
+  <category>data science</category>
+  <guid>https://www.bryanwhiting.com/book-review/power-and-prediction.html</guid>
+  <pubDate>Fri, 12 Apr 2024 21:40:40 GMT</pubDate>
+</item>
 <item>
   <title>The Coming Wave</title>
   <dc:creator>x </dc:creator>
@@ -939,24 +997,6 @@
   <category>world war 2</category>
   <guid>https://www.bryanwhiting.com/book-review/beyond-band-of-brothers.html</guid>
   <pubDate>Thu, 22 Feb 2024 19:38:45 GMT</pubDate>
-</item>
-<item>
-  <title>Daring Greatly</title>
-  <dc:creator>Brené Brown</dc:creator>
-  <link>https://www.bryanwhiting.com/book-review/daring-greatly.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book-review</category>
-  <guid>https://www.bryanwhiting.com/book-review/daring-greatly.html</guid>
-  <pubDate>Mon, 19 Feb 2024 21:57:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
