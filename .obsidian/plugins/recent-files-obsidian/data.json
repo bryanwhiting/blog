@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "in-awe-of-ai",
+      "path": "gratitude/in-awe-of-ai.md"
+    },
+    {
+      "basename": "reading-list",
+      "path": "lists/reading-list.md"
+    },
+    {
+      "basename": "power-and-prediction",
+      "path": "book-review/power-and-prediction.md"
+    },
+    {
       "basename": "my-advice-for-new-career-people",
       "path": "posts/my-advice-for-new-career-people.md"
     },
@@ -47,10 +59,6 @@
     {
       "basename": "2024-04-10",
       "path": "goals/2024-04-10.md"
-    },
-    {
-      "basename": "reading-list",
-      "path": "lists/reading-list.md"
     },
     {
       "basename": "body-language-in-public-speaking",
@@ -191,14 +199,6 @@
     {
       "basename": "package-installer-uv-vs-poetry",
       "path": "tech/package-installer-uv-vs-poetry.md"
-    },
-    {
-      "basename": "on-file-formats-parquet-vs-csv",
-      "path": "tech/on-file-formats-parquet-vs-csv.md"
-    },
-    {
-      "basename": "chronos-time-series-foundation-model-by-amazon",
-      "path": "tech/chronos-time-series-foundation-model-by-amazon.md"
     }
   ],
   "omittedPaths": [],

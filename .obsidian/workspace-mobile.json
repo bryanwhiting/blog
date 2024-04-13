@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/my-advice-for-new-career-people.md",
+                "file": "gratitude/in-awe-of-ai.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/my-advice-for-new-career-people.md",
+            "file": "gratitude/in-awe-of-ai.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/my-advice-for-new-career-people.md"
+            "file": "gratitude/in-awe-of-ai.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/my-advice-for-new-career-people.md",
+            "file": "gratitude/in-awe-of-ai.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,6 +141,10 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "lists/reading-list.md",
+    "gratitude/in-awe-of-ai.md",
+    "book-review/power-and-prediction.md",
+    "posts/my-advice-for-new-career-people.md",
     "gratitude/my-work-team.md",
     "goals/2024-04-11.md",
     "book-review/steve-jobs-biography.md",
@@ -151,7 +155,6 @@
     "PDFs/Daniel-Kahneman-Thinking-Fast-and-Slow-.pdf",
     "img/screenshot-thinking-fast-and-slow-system-1.jpeg",
     "PDFs",
-    "posts/my-advice-for-new-career-people.md",
     "img/dalle-exchange-of-goods.jpeg",
     "posts/2022-11-18-writing-a-tech-resume/index.md",
     "tech/configurations-for-ml-pipelines.md",
@@ -159,7 +162,6 @@
     "gratitude/the-peak-of-a-hike.md",
     "goals/2024-04-10.md",
     "img/photo-mountain-from-top-of-peak.jpeg",
-    "lists/reading-list.md",
     "quotes/body-language-in-public-speaking.md",
     "book-review/the-coming-wave.md",
     "goals/2024-04-09.md",
@@ -173,8 +175,6 @@
     "_templates/new-post.md",
     "christianity/jacob-1-viewing-christ.md",
     "news/llms-need-to-call-functions.md",
-    "scriptures/jacob-1.8.md",
-    "book-review/brave-new-world.md",
     "img/dalle-new-england-woods.jpeg",
     "img/screenshot-mad-first-mark-cap.jpeg",
     "img/dalle-wet-suit.jpeg",
