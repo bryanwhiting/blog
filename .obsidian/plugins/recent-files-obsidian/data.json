@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "ai",
+      "path": "lists/ai.md"
+    },
+    {
       "basename": "in-awe-of-ai",
       "path": "gratitude/in-awe-of-ai.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "the-worry-cure",
       "path": "book-review/the-worry-cure.md"
-    },
-    {
-      "basename": "package-installer-uv-vs-poetry",
-      "path": "tech/package-installer-uv-vs-poetry.md"
     }
   ],
   "omittedPaths": [],

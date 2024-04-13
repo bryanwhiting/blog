@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gratitude/in-awe-of-ai.md",
+                "file": "lists/ai.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "gratitude/in-awe-of-ai.md",
+            "file": "lists/ai.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "gratitude/in-awe-of-ai.md"
+            "file": "lists/ai.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "gratitude/in-awe-of-ai.md",
+            "file": "lists/ai.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,9 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "gratitude/in-awe-of-ai.md",
     "img/screenshot-google-ai-studio.jpeg",
     "lists/reading-list.md",
-    "gratitude/in-awe-of-ai.md",
     "book-review/power-and-prediction.md",
     "posts/my-advice-for-new-career-people.md",
     "gratitude/my-work-team.md",
@@ -178,7 +178,6 @@
     "img/dalle-new-england-woods.jpeg",
     "img/screenshot-mad-first-mark-cap.jpeg",
     "img/dalle-wet-suit.jpeg",
-    "img/screenshot-hydra-configs.jpeg",
     "quotes",
     "code/2024-02-02-libby.py",
     "code",
