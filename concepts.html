@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.515">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -62,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -110,6 +111,33 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="css/styles.css">
 <link rel="stylesheet" href="css/poem.css">
 <link rel="alternate" type="application/rss+xml" title="Bryan Whiting" href="concepts.xml" data-external="1"><meta property="og:title" content="Bryan Whiting - Concepts">
@@ -124,7 +152,7 @@ gtag('config', 'G-361602039', { 'anonymize_ip': true});
 <body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -338,7 +366,7 @@ Author
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="concepts" data-listing-date-sort="1709498329000" data-listing-file-modified-sort="1713068413047" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9" data-listing-title-sort="confirmation bias" data-listing-filename-sort="confirmation-bias.md">
+<tr data-index="0" data-categories="concepts" data-listing-date-sort="1709498329000" data-listing-file-modified-sort="1713111912062" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="9" data-listing-title-sort="confirmation bias" data-listing-filename-sort="confirmation-bias.md">
 <td>
 <span class="listing-date">Sunday March 3, 2024</span>
 </td>
@@ -349,7 +377,7 @@ Author
 <span class="listing-author">&nbsp;</span>
 </td>
 </tr>
-<tr data-index="1" data-categories="concepts" data-listing-date-sort="1707952703000" data-listing-file-modified-sort="1713068413047" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="truths lost in the Bible" data-listing-filename-sort="truths-lost-in-the-bible.md">
+<tr data-index="1" data-categories="concepts" data-listing-date-sort="1707952703000" data-listing-file-modified-sort="1713111912062" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-title-sort="truths lost in the Bible" data-listing-filename-sort="truths-lost-in-the-bible.md">
 <td>
 <span class="listing-date">Wednesday February 14, 2024</span>
 </td>
@@ -360,7 +388,7 @@ Author
 <span class="listing-author">&nbsp;</span>
 </td>
 </tr>
-<tr data-index="2" data-listing-date-sort="1707163654000" data-listing-file-modified-sort="1713068413047" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7" data-listing-title-sort="Honduras" data-listing-filename-sort="Honduras.md">
+<tr data-index="2" data-listing-date-sort="1707163654000" data-listing-file-modified-sort="1713111912062" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7" data-listing-title-sort="Honduras" data-listing-filename-sort="Honduras.md">
 <td>
 <span class="listing-date">Monday February 5, 2024</span>
 </td>
@@ -371,7 +399,7 @@ Author
 <span class="listing-author">&nbsp;</span>
 </td>
 </tr>
-<tr data-index="3" data-categories="concepts" data-listing-date-sort="1706964570000" data-listing-file-modified-sort="1713068413047" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6" data-listing-title-sort="Frank Herbert" data-listing-filename-sort="frank-herbert.md">
+<tr data-index="3" data-categories="concepts" data-listing-date-sort="1706964570000" data-listing-file-modified-sort="1713111912062" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6" data-listing-title-sort="Frank Herbert" data-listing-filename-sort="frank-herbert.md">
 <td>
 <span class="listing-date">Saturday February 3, 2024</span>
 </td>
@@ -382,7 +410,7 @@ Author
 <span class="listing-author">&nbsp;</span>
 </td>
 </tr>
-<tr data-index="4" data-categories="concepts,christianity" data-listing-date-sort="1705845413000" data-listing-file-modified-sort="1713068413047" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6" data-listing-title-sort="Sacramental Covenant" data-listing-filename-sort="sacrament-covenant.md">
+<tr data-index="4" data-categories="concepts,christianity" data-listing-date-sort="1705845413000" data-listing-file-modified-sort="1713111912062" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6" data-listing-title-sort="Sacramental Covenant" data-listing-filename-sort="sacrament-covenant.md">
 <td>
 <span class="listing-date">Sunday January 21, 2024</span>
 </td>
@@ -393,7 +421,7 @@ Author
 <span class="listing-author">&nbsp;</span>
 </td>
 </tr>
-<tr data-index="5" data-categories="concepts" data-listing-date-sort="1705271156000" data-listing-file-modified-sort="1713068413047" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2" data-listing-title-sort="President Russel M. Nelson" data-listing-filename-sort="president-russel-m-nelson.md">
+<tr data-index="5" data-categories="concepts" data-listing-date-sort="1705271156000" data-listing-file-modified-sort="1713111912062" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2" data-listing-title-sort="President Russel M. Nelson" data-listing-filename-sort="president-russel-m-nelson.md">
 <td>
 <span class="listing-date">Sunday January 14, 2024</span>
 </td>
@@ -404,7 +432,7 @@ Author
 <span class="listing-author">&nbsp;</span>
 </td>
 </tr>
-<tr data-index="6" data-categories="concepts" data-listing-date-sort="1704969431000" data-listing-file-modified-sort="1713068413047" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="78" data-listing-title-sort="Christian" data-listing-filename-sort="christian.md">
+<tr data-index="6" data-categories="concepts" data-listing-date-sort="1704969431000" data-listing-file-modified-sort="1713111912062" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="78" data-listing-title-sort="Christian" data-listing-filename-sort="christian.md">
 <td>
 <span class="listing-date">Thursday January 11, 2024</span>
 </td>
@@ -415,7 +443,7 @@ Author
 <span class="listing-author">&nbsp;</span>
 </td>
 </tr>
-<tr data-index="7" data-categories="concepts" data-listing-date-sort="1704877641000" data-listing-file-modified-sort="1713068413047" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17" data-listing-title-sort="Gratus sum, ergo habeo" data-listing-filename-sort="gratus-sum-ergo-habeo.md">
+<tr data-index="7" data-categories="concepts" data-listing-date-sort="1704877641000" data-listing-file-modified-sort="1713111912062" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17" data-listing-title-sort="Gratus sum, ergo habeo" data-listing-filename-sort="gratus-sum-ergo-habeo.md">
 <td>
 <span class="listing-date">Wednesday January 10, 2024</span>
 </td>
@@ -426,7 +454,7 @@ Author
 <span class="listing-author">&nbsp;</span>
 </td>
 </tr>
-<tr data-index="8" data-categories="concepts" data-listing-date-sort="1704877042000" data-listing-file-modified-sort="1713068413047" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15" data-listing-title-sort="The Book of Mormon: Another Testament of Jesus Christ" data-listing-filename-sort="the-book-of-mormon-another-testament-of-jesus-christ.md">
+<tr data-index="8" data-categories="concepts" data-listing-date-sort="1704877042000" data-listing-file-modified-sort="1713111912062" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15" data-listing-title-sort="The Book of Mormon: Another Testament of Jesus Christ" data-listing-filename-sort="the-book-of-mormon-another-testament-of-jesus-christ.md">
 <td>
 <span class="listing-date">Wednesday January 10, 2024</span>
 </td>
@@ -437,7 +465,7 @@ Author
 <span class="listing-author">&nbsp;</span>
 </td>
 </tr>
-<tr data-index="9" data-categories="concepts" data-listing-date-sort="1704876895000" data-listing-file-modified-sort="1713068413047" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="89" data-listing-title-sort="The Church of Jesus Christ of Latter-day Saints" data-listing-filename-sort="the-church-of-jesus-christ-of-latter-day-saints.md">
+<tr data-index="9" data-categories="concepts" data-listing-date-sort="1704876895000" data-listing-file-modified-sort="1713111912062" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="89" data-listing-title-sort="The Church of Jesus Christ of Latter-day Saints" data-listing-filename-sort="the-church-of-jesus-christ-of-latter-day-saints.md">
 <td>
 <span class="listing-date">Wednesday January 10, 2024</span>
 </td>
@@ -448,7 +476,7 @@ Author
 <span class="listing-author">&nbsp;</span>
 </td>
 </tr>
-<tr data-index="10" data-categories="posts" data-listing-date-sort="1704876864000" data-listing-file-modified-sort="1713068413047" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="60" data-listing-title-sort="my mission" data-listing-filename-sort="my-mission.md">
+<tr data-index="10" data-categories="posts" data-listing-date-sort="1704876864000" data-listing-file-modified-sort="1713111912062" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="60" data-listing-title-sort="my mission" data-listing-filename-sort="my-mission.md">
 <td>
 <span class="listing-date">Wednesday January 10, 2024</span>
 </td>
@@ -459,7 +487,7 @@ Author
 <span class="listing-author">&nbsp;</span>
 </td>
 </tr>
-<tr data-index="11" data-categories="christianity,concept" data-listing-date-sort="1704639779000" data-listing-file-modified-sort="1713068413047" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Hand of God" data-listing-filename-sort="hand-of-god.md">
+<tr data-index="11" data-categories="christianity,concept" data-listing-date-sort="1704639779000" data-listing-file-modified-sort="1713111912062" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Hand of God" data-listing-filename-sort="hand-of-god.md">
 <td>
 <span class="listing-date">Sunday January 7, 2024</span>
 </td>
@@ -555,6 +583,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/www\.bryanwhiting\.com");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -589,7 +635,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
@@ -604,27 +654,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
@@ -639,10 +668,14 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             break;
           }
         }
-        typesetMath(container);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
         return container.innerHTML
       } else {
-        typesetMath(note);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -651,8 +684,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      typesetMath(note);
-      return note.innerHTML;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {

@@ -10,7 +10,7 @@ let folder = await tp.system.suggester(folders, folders);
 // Get current date  
 let date = tp.date.now("YYYY-MM-DD HH:mm:ss");
 let ymd = tp.date.now();
-const yday = moment().add(-1, 'days')
+const yday = moment().add(-1, 'days').format("YYYY-MM-DD")
 
 // Ask for a title  
 let slug
