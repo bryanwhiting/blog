@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-04-13T23:03:09-07:00-5",
+      "path": "logs/2024-04-13T23:03:09-07:00-5.md"
+    },
+    {
+      "basename": "personal-constitution",
+      "path": "posts/personal-constitution.md"
+    },
+    {
       "basename": "manage-the-mental-game",
       "path": "quotes/manage-the-mental-game.md"
+    },
+    {
+      "basename": "the-sec-filings",
+      "path": "gratitude/the-sec-filings.md"
     },
     {
       "basename": "power-and-prediction",
@@ -187,18 +199,6 @@
     {
       "basename": "heal-your-nervous-system",
       "path": "book-review/heal-your-nervous-system.md"
-    },
-    {
-      "basename": "bodyfulness",
-      "path": "gratitude/bodyfulness.md"
-    },
-    {
-      "basename": "easter-seek-miracles",
-      "path": "christianity/easter-seek-miracles.md"
-    },
-    {
-      "basename": "fairy-houses",
-      "path": "gratitude/fairy-houses.md"
     }
   ],
   "omittedPaths": [],

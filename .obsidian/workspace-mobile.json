@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quotes/manage-the-mental-game.md",
+                "file": "logs/2024-04-13T23:03:09-07:00-5.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 4
+    "currentTab": 0
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "quotes/manage-the-mental-game.md",
+            "file": "logs/2024-04-13T23:03:09-07:00-5.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "quotes/manage-the-mental-game.md"
+            "file": "logs/2024-04-13T23:03:09-07:00-5.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "quotes/manage-the-mental-game.md",
+            "file": "logs/2024-04-13T23:03:09-07:00-5.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,8 +141,23 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "book-review/power-and-prediction.md",
+    "posts/personal-constitution.md",
+    "logs/2024-04-13T23:03:09-07:00-5.md",
+    "logs/2024-04-13T23:02:40-07:00-5.csv",
     "quotes/manage-the-mental-game.md",
+    "gratitude/the-sec-filings.md",
+    "_freeze/site_libs/reactwidget-1.0.0/react-tools.js.map",
+    "_freeze/site_libs/reactwidget-1.0.0/react-tools.js",
+    "_freeze/site_libs/reactwidget-1.0.0",
+    "_freeze/site_libs/react-18.2.0/react.min.js",
+    "_freeze/site_libs/react-18.2.0/AUTHORS",
+    "_freeze/site_libs/react-18.2.0/LICENSE.txt",
+    "_freeze/site_libs/react-18.2.0/react-dom.min.js",
+    "_freeze/site_libs/react-18.2.0",
+    "_freeze/site_libs/htmltools-fill-0.5.8.1/fill.css",
+    "book-review/the-right-it.md",
+    "book-review/trustworthy-online-controlled-experiments-a-practical-guide-to-ab-testing.md",
+    "book-review/power-and-prediction.md",
     "goals/2024-04-13.md",
     "lists/ai.md",
     "gratitude/in-awe-of-ai.md",
@@ -156,9 +171,7 @@
     "book-review/steve-jobs.md",
     "book-review/thinking-fast-and-slow.md",
     "img/dalle-seaotter-beach-data-science.jpeg",
-    "PDFs/Daniel-Kahneman-Thinking-Fast-and-Slow-.pdf",
     "img/screenshot-thinking-fast-and-slow-system-1.jpeg",
-    "PDFs",
     "img/dalle-exchange-of-goods.jpeg",
     "posts/2022-11-18-writing-a-tech-resume/index.md",
     "tech/configurations-for-ml-pipelines.md",
@@ -169,23 +182,10 @@
     "quotes/body-language-in-public-speaking.md",
     "book-review/the-coming-wave.md",
     "goals/2024-04-09.md",
-    "gratitude/warm-naps-on-the-couch.md",
     "img/dalle-warm-naps.jpeg",
-    "tech/microsoft-copilot-notes.md",
-    "gratitude/customer-service-agents.md",
-    "book-review/a-gentleman-in-moscow.md",
     "img/screenshot-write-speech-from-doc.jpeg",
-    "tech/timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting.md",
     "img/dalle-new-england-woods.jpeg",
     "img/screenshot-mad-first-mark-cap.jpeg",
-    "img/dalle-wet-suit.jpeg",
-    "quotes",
-    "code/2024-02-02-libby.py",
-    "code",
-    "innovate",
-    "docs/gratitude/imagination.html",
-    "docs/gratitude/chirping-birds.html",
-    "docs/christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.html",
-    "docs/scriptures/3-nephi-18.22.html"
+    "img/dalle-wet-suit.jpeg"
   ]
 }
