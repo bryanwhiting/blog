@@ -9,7 +9,7 @@ categories:
   - politics
   - education
 draft: false
-author: Greg Lukianoff
+author: Jonathan Haidt, Greg Lukianoff, et al.
 book-year: 2029
 book-time: 10
 date-start: 2024-01-23 20:40:45
