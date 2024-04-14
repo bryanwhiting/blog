@@ -6,6 +6,7 @@ library(tidyr)
 library(gt)
 library(lubridate)
 library(stringr)
+library(reactable)
 
 ################################################################
 # Datasets
@@ -111,7 +112,7 @@ df_raw <- df_raw %>%
     # parse just the date from datetime/date formats
     date = as.Date(lubridate::parse_date_time(date, orders = c("ymd", "ymd HMS", "ymd HM", "ymdHMS", "ymdHM"))),
     # create some flags
-    post_cfm_study = stringr::str_detect(categories, 'come follow me'),
+    post_cfm_study = stringr::str_detect(categories, 'come follow me|christianity'),
     post_gratitude = folder == 'gratitude',
     pelo = ifelse(`pelo-time` > 0, 1, 0),
     cardio = ifelse(
@@ -123,7 +124,12 @@ df_raw <- df_raw %>%
         , 1, 0),
     strength = ifelse(!is.na(exercises) >= 1, 1, 0)
   ) %>%
-  filter(title != "test")
+  filter(title != "test") %>%
+  mutate(notes = paste0(
+    ifelse(is.na(description), '', description), 
+    ifelse(is.na(`workout-notes`), '', `workout-notes`), 
+    ifelse(is.na(`workout-vibe`), '', `workout-vibe`)
+  ))
 
 
 ################################################################
@@ -190,14 +196,27 @@ df_daily_goals_only_recent <- df_daily_goals_only %>%
 # Peloton records
 df_pelo_records <- df_raw %>% 
   filter(pelo == 1) %>%
-  filter(date >= Sys.Date() - 60) %>%
+  # filter(date >= Sys.Date() - 180) %>%
   group_by(`pelo-time`) %>%
   filter(`pelo-kj` == max(`pelo-kj`)) %>%
-  select(`pelo-time`, `pelo-kj`, `pelo-avg`, date, `workout-notes`) %>%
+  select(`pelo-time`, `pelo-kj`, `pelo-avg`, date) %>%
   ungroup() %>%
   mutate(`90%` = paste0("", .9 * `pelo-kj`, "KJ\n(", .9 * `pelo-avg`, "avg)")) %>%
   mutate(`80%` = paste0("", .8 * `pelo-kj`, "KJ (", .8 * `pelo-avg`, "avg)")) %>%
   mutate(`70%` = paste0("", .7 * `pelo-kj`, "KJ (", .7 * `pelo-avg`, "avg)"))
+
+df_all_pelo_rides <- df_raw %>%
+  filter(pelo == 1) %>%
+  mutate(days_ago = Sys.Date() - date) %>%
+  arrange(desc(date)) %>%
+  select(
+    Date=date, 
+    `Days Ago` = days_ago, 
+    Duration = `pelo-time`, 
+    KJ = `pelo-kj`, 
+    `Avg Watts` = `pelo-avg`, 
+    Notes = notes
+  )
 
 
 
@@ -293,7 +312,10 @@ tab_pelo_records <- df_pelo_records %>%
     `pelo-time` = "Time",
     `pelo-kj` = "KJ",
     `pelo-avg` = "Avg W",
-    `workout-notes` = "Notes",
+    # `workout-notes` = "Notes",
     `date` = "Day"
   ) %>%
   tab_header(title = "Bike Records")
+
+#' All Peloton Rides
+reactable_all_pelo_rides = reactable(df_all_pelo_rides, filterable=T)

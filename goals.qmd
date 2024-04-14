@@ -115,6 +115,14 @@ tab_l15_daily_habits
 
 *settings - G3, 29:3, i:0*
 
+Key metrics since `r df_all_pelo_rides$Date %>% min()`:
+
+- Total Rides: `r df_all_pelo_rides$Duration %>% length()` 
+- Total Time: `r df_all_pelo_rides$Duration %>% sum()` minutes
+- Total Output: `r df_all_pelo_rides$KJ %>% sum()`KJ 
+
+Peloton Records with percent-of-max calculations to pace myself for next ride.
+
 ```{r}
 #| label: fig-peloton
 #| fig-cap: Peloton Records
@@ -122,6 +130,13 @@ tab_l15_daily_habits
 tab_pelo_records
 ```
 
+All rides
+
+```{r}
+#| label: fig-peloton-all
+#| fig-cap: All Peloton Rides
+reactable_all_pelo_rides
+```
 :::
 
 ***
