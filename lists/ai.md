@@ -14,6 +14,10 @@ draft: false
 :::
 
 
+2024-04-13
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">New <a href="https://twitter.com/Google?ref_src=twsrc%5Etfw">@Google</a> developer launch today:<br><br>- Gemini 1.5 Pro is now available in 180+ countries via the Gemini API in public preview<br>- Supports audio (speech) understanding capability, and a new File API to make it easy to handle files<br>- New embedding model!<a href="https://t.co/wJk1e1BG1E">https://t.co/wJk1e1BG1E</a></p>&mdash; Logan Kilpatrick (@OfficialLoganK) <a href="https://twitter.com/OfficialLoganK/status/1777733743303696554?ref_src=twsrc%5Etfw">April 9, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 2024-02-10
 
 Legal tech:

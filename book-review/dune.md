@@ -23,6 +23,17 @@ Thought provoking. Concepts of politics, religion, science, and diplomacy. War, 
 
 :::
 
+Movie reactions to a friend:
+
+> the ending of the bad guys is anti-climactic, but I read the books and it's pretty similar.  Rabban doesn't really even die. Feyd Rautha dies how he does in the book. The death of the Baron is far more interesting in the book, which I won't spoil but it's a whole subplot they couldn't fit in
+
+> The symbolism is more that they all scoffed and scorned a 15 year old boy as not being worth anything. The theme of the baron being over confident that there aren't fremen, that by leaving Paul in the desert he'd die with his mom, etc. they all felt untouchable. Then they all die unceremoniously and their power is just stripped away in a moment. Symbolic of Paul's rise as a messiah and how these big leaders have very little keeping them from being humanized and debased. 
+
+> Frank Herbert's theme when he speaks about the book is that "beware of leaders. Don't trust any of them. Don't worship them - they're just humans". And I think the unceremonious death kind of enshrines that. The baron who was rising over the Duke, dies face down in the dirt. Feyd Rautha who killed an Atreides in the coliseum dies in front of none of his people, etc. 
+
+> It's anti climactic but I think it speaks a lot to the theme of how majesty is kind of a thin veil. 
+
+
 
 ![Dune](../img/book-dune.jpeg){.preview-image}
 

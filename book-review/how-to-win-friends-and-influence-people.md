@@ -13,7 +13,7 @@ author: Dale Carnegie
 book-year: 1936
 book-time: 7.25
 date-start: 2024-01-20 13:29:46
-date-finished: 2030-01-01
+date-finished: 2030-02-06
 pct-complete:
 ---
 

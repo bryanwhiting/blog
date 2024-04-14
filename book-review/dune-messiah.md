@@ -11,6 +11,9 @@ pct-complete:
 date-finished: 2024-01-16
 book-time: 8.9
 ---
+
+
+
 Vibe:
 
 - coool ending. The blind guy sees out of his kids eyes. 

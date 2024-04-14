@@ -20,7 +20,7 @@ Seem like a good tombstone?
 
 Why do we measure our lives by something nobody cares about? Consider Steve Jobs, Isaac Newton, or whomever you idolize. What are they known for? Only a few things. 
 
-I read [Steve Jobs (Biography)](../book-review/steve-jobs-biography.md) a while back. And I also read [Leonardo da Vinci](../book-review/leonardo-da-vinci.md). First was 25 hours, second was 17 hours. And guess what - that's less than two days combined. Two "impressive" lives summed up in a few days. 
+I read [Steve Jobs](../book-review/steve-jobs.md) a while back. And I also read [Leonardo da Vinci](../book-review/leonardo-da-vinci.md). First was 25 hours, second was 17 hours. And guess what - that's less than two days combined. Two "impressive" lives summed up in a few days. 
 
 My grandma's obituary was brief. Yet her life was filled with millions of unwritten sentences - many written on my life. The in between moments. The laying around moments. The relationship moments. (Maybe it's called a relation-"ship" because it sails the waters of life continuously, despite the infrequent dock postings.)
 

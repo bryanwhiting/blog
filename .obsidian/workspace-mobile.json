@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/spellbook-ai-reviews-redlining.md",
+                "file": "quotes/manage-the-mental-game.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -44,7 +44,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Spell",
+            "query": "tag:#libby",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": true,
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 4
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "tech/spellbook-ai-reviews-redlining.md",
+            "file": "quotes/manage-the-mental-game.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "tech/spellbook-ai-reviews-redlining.md"
+            "file": "quotes/manage-the-mental-game.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "tech/spellbook-ai-reviews-redlining.md",
+            "file": "quotes/manage-the-mental-game.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,50 +141,51 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "tech/5-questions-you-should-ask-before-adopting-ai.md",
-    "img/dalle-ai-apple-picker.jpeg",
-    "tech/unreal-ai-sora.md",
-    "tech/three-ai-failures-needing-guardrails.md",
-    "book-review/overcoming-the-five-dysfunctions-of-a-team.md",
-    "christianity/2-nephi-6-wait-on-the-lord.md",
-    "scriptures/2-nephi-6.7.md",
-    "scriptures/2-nephi-6.17.md",
-    "gratitude/green-hills.md",
-    "goals/2024-02-19.md",
-    "img/photo-cow-pond.jpeg",
-    "_templates/new-post.md",
-    "_templates/day.md",
-    "book-review/building-a-story-brand.md",
-    "book-review/daring-greatly.md",
-    "book-review/dare-to-lead.md",
-    "img/dalle-making-a-shield.jpeg",
-    "img/book-5-dysfunctions.jpeg",
-    "christianity/2-nephi-5-sometimes-theres-war.md",
-    "2-nephi-5-emergency-preparedness.md",
-    "img/dalle-making-a-sword.jpeg",
-    "goals/2024-02-14.md",
-    "scriptures/2-nephi-5.34.md",
-    "goals/2024-02-15.md",
-    "goals/2024-02-16.md",
-    "goals/2024-02-17.md",
-    "goals/2024-02-18.md",
-    "gratitude/the-coach.md",
-    "img/dalle-life-coach.jpeg",
+    "book-review/power-and-prediction.md",
+    "quotes/manage-the-mental-game.md",
+    "goals/2024-04-13.md",
     "lists/ai.md",
-    "lists/good-ai-news-aggregators.md",
-    "img/dalle-guardrails-on-ai.jpeg",
-    "img/dalle-costco-brownies.jpeg",
-    "img/book-building-a-story-brand.jpeg",
-    "img/dalle-heaven-and-hell.jpeg",
+    "gratitude/in-awe-of-ai.md",
+    "img/screenshot-google-ai-studio.jpeg",
+    "lists/reading-list.md",
+    "posts/my-advice-for-new-career-people.md",
+    "gratitude/my-work-team.md",
+    "goals/2024-04-11.md",
+    "book-review/steve-jobs-biography.md",
+    "posts/my-tombstone.md",
+    "book-review/steve-jobs.md",
+    "book-review/thinking-fast-and-slow.md",
+    "img/dalle-seaotter-beach-data-science.jpeg",
+    "PDFs/Daniel-Kahneman-Thinking-Fast-and-Slow-.pdf",
+    "img/screenshot-thinking-fast-and-slow-system-1.jpeg",
+    "PDFs",
+    "img/dalle-exchange-of-goods.jpeg",
+    "posts/2022-11-18-writing-a-tech-resume/index.md",
+    "tech/configurations-for-ml-pipelines.md",
+    "posts/whats-your-decision-framework.md",
+    "gratitude/the-peak-of-a-hike.md",
+    "goals/2024-04-10.md",
+    "img/photo-mountain-from-top-of-peak.jpeg",
+    "quotes/body-language-in-public-speaking.md",
+    "book-review/the-coming-wave.md",
+    "goals/2024-04-09.md",
+    "gratitude/warm-naps-on-the-couch.md",
+    "img/dalle-warm-naps.jpeg",
+    "tech/microsoft-copilot-notes.md",
+    "gratitude/customer-service-agents.md",
+    "book-review/a-gentleman-in-moscow.md",
+    "img/screenshot-write-speech-from-doc.jpeg",
+    "tech/timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting.md",
+    "img/dalle-new-england-woods.jpeg",
+    "img/screenshot-mad-first-mark-cap.jpeg",
+    "img/dalle-wet-suit.jpeg",
+    "quotes",
     "code/2024-02-02-libby.py",
     "code",
     "innovate",
     "docs/gratitude/imagination.html",
     "docs/gratitude/chirping-birds.html",
     "docs/christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.html",
-    "docs/scriptures/3-nephi-18.22.html",
-    "docs/scriptures/luke-7.39.html",
-    "docs/scriptures/2-nephi-2.7.html",
-    "docs/scriptures/mark-15.46.html"
+    "docs/scriptures/3-nephi-18.22.html"
   ]
 }

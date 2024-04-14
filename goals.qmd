@@ -112,6 +112,9 @@ tab_l15_daily_habits
 ```
 
 ##### Records
+
+*settings - G3, 29:3, i:0*
+
 ```{r}
 #| label: fig-peloton
 #| fig-cap: Peloton Records

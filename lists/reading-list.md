@@ -6,6 +6,41 @@ updated: 2024-01-04T10:16:37
 categories: 
 draft: false
 ---
+# April
+
+- [ ] Neuromancer
+- [ ] Thinking fast and slow
+- [ ] The coming wave
+
+## March 2024
+
+- [x] [The Great Gatsby](../book-review/the-great-gatsby.md) 
+- [x] Six types (6hr)
+- [x] Band of brothers (Spotify) [Band of Brothers](../book-review/band-of-brothers.md)
+- [x] Beyond band of Brothers. [Beyond Band of Brothers: The War Memoirs of Major Dick Winters](../book-review/beyond-band-of-brothers.md)
+- [ ] It doesn't have to be crazy at work (Spotify)
+- [x] Mere Christianity
+- [ ] Neuromancer
+- [ ] Musk
+- [x] Brave new World
+
+## February 2024
+
+- [x] [The Oxford Inklings: Lewis, Tolkien and Their Circle](../book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md)
+- Coddling
+- influence 
+- [x] [How to Win Friends and Influence People](../book-review/how-to-win-friends-and-influence-people.md) 
+- [x] [How to Decide: Simple Tools for Making Better Choices](../book-review/how-to-decide-simple-tools-for-making-better-choices.md)
+- [x] [The Wager](../book-review/the-wager.md)
+- [x] [The Old Man and the Sea](../book-review/the-old-man-and-the-sea.md)
+- [x] [Building a Story Brand](../book-review/building-a-story-brand.md)
+- [x] [The Sun Also Rises](../book-review/the-sun-also-rises.md)
+- [x] [Overcoming the Five Dysfunctions of a Team](../book-review/overcoming-the-five-dysfunctions-of-a-team.md)
+
+
+***
+# Backlog
+
 ### Business books/Self Help
 
 - [x] How to win friends and influence people #spotify #libby  
@@ -15,11 +50,13 @@ draft: false
 - [ ] Wealth of Nations #youtube https://www.youtube.com/watch?v=PH4B-SGf6-A #librivox #audible-credit 36hrs
 - [ ] Competing Against Luck #spotify #audible-credit 7.25hr. $13
 - [ ] Antifragile
+- [ ] Thinking in Bets, Annie Duke (coddling) #libby 7hr
+- [ ] Thinking fast and Slow 
 
 ### Fiction
 
-- [ ] The Great Gatsby #libby 
-- [ ] brave new world #libby
+- [x] The Great Gatsby #libby 
+- [x] #libby [Brave New World](../book-review/brave-new-world.md)
 - [ ] Count of Monte Cristo #libby
 - [ ] Neuromancer #libby 
 - [ ] Animal farm #libby 
@@ -27,10 +64,12 @@ draft: false
 - [ ] To Kill a Mockingbird #libby 
 - [ ] Foundation #libby 
 - [x] Wool #libby 
-- [ ] The Sun Also Rises #spotify-included 7hr
+- [x] The Sun Also Rises #spotify-included 7hr
 - [ ] A farewell to arms #spotify-included  8h
 - [x] The old man and the Sea #libby 
-- [ ] Of Mice and Men #libby 
+- [x] Of Mice and Men #libby 
+- [ ] Kite Runner 
+- [ ] [A Gentleman in Moscow](../book-review/a-gentleman-in-moscow.md)
 
 To finish
 
@@ -47,38 +86,46 @@ To finish
 - [ ] the boys in the boat #libby 
 - [ ] Against the Gods
 - [ ] The Bomber Mafia
-- [ ] Band of Brothers (February rec)
+- [x] Band of Brothers (February rec)
 - [ ] The lessons of history (February Rec)
+- [ ] Valley of Genius: The Uncensored History of Silicon Valey
 
 ### Religion and Philosophy
 - [ ] Paradise Lost and Paradise Regained #libby 
-- [ ] Mere Christianity #libby 
+- [x] Mere Christianity #libby 
 - [ ] The Place of the Lion #audible-credit #spotify 7.5
 - [x] The quest for Cosmic Justice - Sowll #audible-free [The Quest for Cosmic Justice](../book-review/the-quest-for-cosmic-justice.md)
+- [ ] On Liberty, John Stuart Mills #spotify-included #libby (coddling)
+- [ ] Feeling Good #spotify-included 13.5
 
 
-***
-# February 2024
 
-- Oxford inklinfs
-- Coddling
-- influence 
-- How to win friends
-- The Wager
-- Old man and the sea
-- Storybrand
+Tech and Profesh development 
+
+- Accelerate: the science of lean software and devops. #audible-credit 
+- Superforecasting #audible-credit 
 
 
-***
-# Backlog
+Random
 
+- General patten 
+- Angels book (historical fiction)
+- Liftoff: SpaceX #libby 
+- American Prometheus: Oppenheimer #libby 
+
+
+
+
+
+- [x] the worry cure: 3.5hrs #spotify-included 
+- Freeing your Child from Anxiety: 8hrs #spotify-included
 - [x] [killers-of-the-flower-moonyfg if](book-review/killers-of-the-flower-moonyfg%20if.md)
 - [x] [how-to-decide-simple-tools-for-making-better-choices](book-review/how-to-decide-simple-tools-for-making-better-choices.md)
 - [ ] Dale Carnegie Lincoln the Unknown #audible-credit 9.5hr
 
 Libby:
 
-- [x] [Dune](dune.md)
+- [x] [Dune](../book-review/dune.md)
 
 - [ ] The Quest for ...
 
