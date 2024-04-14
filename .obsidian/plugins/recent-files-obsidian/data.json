@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "true-source-data",
+      "path": "quotes/true-source-data.md"
+    },
+    {
       "basename": "2024-04-13T23:03:09-07:00-5",
       "path": "logs/2024-04-13T23:03:09-07:00-5.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2024-03-30",
       "path": "goals/2024-03-30.md"
-    },
-    {
-      "basename": "heal-your-nervous-system",
-      "path": "book-review/heal-your-nervous-system.md"
     }
   ],
   "omittedPaths": [],

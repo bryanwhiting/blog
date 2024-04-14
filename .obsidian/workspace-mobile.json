@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "logs/2024-04-13T23:03:09-07:00-5.md",
+                "file": "quotes/true-source-data.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "logs/2024-04-13T23:03:09-07:00-5.md",
+            "file": "quotes/true-source-data.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "logs/2024-04-13T23:03:09-07:00-5.md"
+            "file": "quotes/true-source-data.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "logs/2024-04-13T23:03:09-07:00-5.md",
+            "file": "quotes/true-source-data.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,8 +141,10 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "posts/personal-constitution.md",
+    "img/photo-go-to-the-source.jpeg",
     "logs/2024-04-13T23:03:09-07:00-5.md",
+    "quotes/true-source-data.md",
+    "posts/personal-constitution.md",
     "logs/2024-04-13T23:02:40-07:00-5.csv",
     "quotes/manage-the-mental-game.md",
     "gratitude/the-sec-filings.md",
@@ -180,8 +182,6 @@
     "goals/2024-04-10.md",
     "img/photo-mountain-from-top-of-peak.jpeg",
     "quotes/body-language-in-public-speaking.md",
-    "book-review/the-coming-wave.md",
-    "goals/2024-04-09.md",
     "img/dalle-warm-naps.jpeg",
     "img/screenshot-write-speech-from-doc.jpeg",
     "img/dalle-new-england-woods.jpeg",
