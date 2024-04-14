@@ -18,6 +18,26 @@ date-finished: 2024-04-12 21:40:40
 pct-complete:
 ---
 
+
+2024-04-13
+
+- power is scarcity. AI power?
+- Those with power prevent system changes. But those who adopt systemic shifts will disrupt those who are stuck in the old ways. 
+- systemic shifts. Companies need to rethink their businesses around AI. What can change? What's too prohibitive to change? How do regulations change?
+
+
+2024-04-13
+
+- airports: a decision. Security. Risk ca reward. 
+	- Highest security is manually reviewing all things. 
+	- Allow the machine to review things with some probability of missing a knife. 
+	- Let everyone in. 
+	- Cost: how much time people spend. 
+	- Costs: a plane crashing into another building. 
+- Rules vs decisions. 
+	- Rules are pre-determined or general decisions instead of making them personalized and relevant in the moment. 
+
+
 2024-04-12
 
 - the between time. Lightbulb took 20 years before 50% of houses had it. 

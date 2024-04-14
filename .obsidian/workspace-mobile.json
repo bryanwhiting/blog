@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lists/ai.md",
+                "file": "quotes/manage-the-mental-game.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "lists/ai.md",
+            "file": "quotes/manage-the-mental-game.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "lists/ai.md"
+            "file": "quotes/manage-the-mental-game.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "lists/ai.md",
+            "file": "quotes/manage-the-mental-game.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,10 +141,13 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "book-review/power-and-prediction.md",
+    "quotes/manage-the-mental-game.md",
+    "goals/2024-04-13.md",
+    "lists/ai.md",
     "gratitude/in-awe-of-ai.md",
     "img/screenshot-google-ai-studio.jpeg",
     "lists/reading-list.md",
-    "book-review/power-and-prediction.md",
     "posts/my-advice-for-new-career-people.md",
     "gratitude/my-work-team.md",
     "goals/2024-04-11.md",
@@ -173,8 +176,6 @@
     "book-review/a-gentleman-in-moscow.md",
     "img/screenshot-write-speech-from-doc.jpeg",
     "tech/timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting.md",
-    "_templates/new-post.md",
-    "christianity/jacob-1-viewing-christ.md",
     "img/dalle-new-england-woods.jpeg",
     "img/screenshot-mad-first-mark-cap.jpeg",
     "img/dalle-wet-suit.jpeg",
