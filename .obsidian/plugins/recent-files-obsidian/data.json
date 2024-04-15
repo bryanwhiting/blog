@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "memorial-service",
+      "path": "sacrament-symbols/memorial-service.md"
+    },
+    {
+      "basename": "i-dont-deserve-this-seat",
+      "path": "sacrament-symbols/i-dont-deserve-this-seat.md"
+    },
+    {
+      "basename": "index",
+      "path": "posts/2022-11-18-writing-a-tech-resume/index.md"
+    },
+    {
+      "basename": "my-advice-for-new-career-people",
+      "path": "posts/my-advice-for-new-career-people.md"
+    },
+    {
+      "basename": "everybody-gets-so-much-information-all-day-long-that-they-lose-their-common-sense",
+      "path": "quotes/everybody-gets-so-much-information-all-day-long-that-they-lose-their-common-sense.md"
+    },
+    {
       "basename": "true-source-data",
       "path": "quotes/true-source-data.md"
     },
@@ -41,10 +61,6 @@
       "path": "lists/reading-list.md"
     },
     {
-      "basename": "my-advice-for-new-career-people",
-      "path": "posts/my-advice-for-new-career-people.md"
-    },
-    {
       "basename": "my-work-team",
       "path": "gratitude/my-work-team.md"
     },
@@ -67,10 +83,6 @@
     {
       "basename": "Daniel-Kahneman-Thinking-Fast-and-Slow-",
       "path": "PDFs/Daniel-Kahneman-Thinking-Fast-and-Slow-.pdf"
-    },
-    {
-      "basename": "index",
-      "path": "posts/2022-11-18-writing-a-tech-resume/index.md"
     },
     {
       "basename": "configurations-for-ml-pipelines",
@@ -187,18 +199,6 @@
     {
       "basename": "the-messages-remind-me-of-his-message-after-his-resurrection",
       "path": "sacrament-symbols/the-messages-remind-me-of-his-message-after-his-resurrection.md"
-    },
-    {
-      "basename": "easter-the-most-important-holiday",
-      "path": "christianity/easter-the-most-important-holiday.md"
-    },
-    {
-      "basename": "green-oasis",
-      "path": "gratitude/green-oasis.md"
-    },
-    {
-      "basename": "2024-03-30",
-      "path": "goals/2024-03-30.md"
     }
   ],
   "omittedPaths": [],

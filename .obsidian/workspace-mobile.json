@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "quotes/true-source-data.md",
+                "file": "sacrament-symbols/memorial-service.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "quotes/true-source-data.md",
+            "file": "sacrament-symbols/memorial-service.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "quotes/true-source-data.md"
+            "file": "sacrament-symbols/memorial-service.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "quotes/true-source-data.md",
+            "file": "sacrament-symbols/memorial-service.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,9 +141,20 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "img/dalle-bought-with-a-price.jpeg",
+    "scriptures/doctrine-and-covenants-45.3-5.md",
+    "scriptures/doctrine-and-covenants-29.5.md",
+    "scriptures/1-corinthians-6.20.md",
+    "sacrament-symbols/i-dont-deserve-this-seat.md",
+    "img/dalle-paradise.jpeg",
+    "scriptures/ephesians-2.8-9.md",
+    "posts/2022-11-18-writing-a-tech-resume/index.md",
+    "posts/my-advice-for-new-career-people.md",
+    "quotes/everybody-gets-so-much-information-all-day-long-that-they-lose-their-common-sense.md",
+    "sacrament-symbols/memorial-service.md",
+    "quotes/true-source-data.md",
     "img/photo-go-to-the-source.jpeg",
     "logs/2024-04-13T23:03:09-07:00-5.md",
-    "quotes/true-source-data.md",
     "posts/personal-constitution.md",
     "logs/2024-04-13T23:02:40-07:00-5.csv",
     "quotes/manage-the-mental-game.md",
@@ -165,27 +176,16 @@
     "gratitude/in-awe-of-ai.md",
     "img/screenshot-google-ai-studio.jpeg",
     "lists/reading-list.md",
-    "posts/my-advice-for-new-career-people.md",
     "gratitude/my-work-team.md",
     "goals/2024-04-11.md",
     "book-review/steve-jobs-biography.md",
     "posts/my-tombstone.md",
-    "book-review/steve-jobs.md",
-    "book-review/thinking-fast-and-slow.md",
     "img/dalle-seaotter-beach-data-science.jpeg",
     "img/screenshot-thinking-fast-and-slow-system-1.jpeg",
     "img/dalle-exchange-of-goods.jpeg",
-    "posts/2022-11-18-writing-a-tech-resume/index.md",
-    "tech/configurations-for-ml-pipelines.md",
-    "posts/whats-your-decision-framework.md",
-    "gratitude/the-peak-of-a-hike.md",
-    "goals/2024-04-10.md",
     "img/photo-mountain-from-top-of-peak.jpeg",
-    "quotes/body-language-in-public-speaking.md",
     "img/dalle-warm-naps.jpeg",
     "img/screenshot-write-speech-from-doc.jpeg",
-    "img/dalle-new-england-woods.jpeg",
-    "img/screenshot-mad-first-mark-cap.jpeg",
-    "img/dalle-wet-suit.jpeg"
+    "img/dalle-new-england-woods.jpeg"
   ]
 }

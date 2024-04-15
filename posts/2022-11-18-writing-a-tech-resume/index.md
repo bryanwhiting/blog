@@ -7,6 +7,14 @@ categories: [communication ]
 freeze: true
 draft: false
 ---
+2024-04-14 update: this tweet is essential reading:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I applied to 100 jobs using a resume with the name, &quot;Kismma D. Nhuhts&quot; and I got 29 interviews. <br><br>This is what I&#39;ve learned about resumes: <a href="https://t.co/MWuacsClFP">pic.twitter.com/MWuacsClFP</a></p>&mdash; Jerry Lee (@JerryJHLee) <a href="https://twitter.com/JerryJHLee/status/1778484920593055763?ref_src=twsrc%5Etfw">April 11, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+***
+
+
 
 ![](photo.jpeg) 
 
@@ -45,4 +53,3 @@ I designed and wrote my resume the way I did by following the guidance of these 
 # How can I Help?
 
 I hope this helps! Send me a message at bryanwhitingcoaching@gmail.com if I can help review a resume or give more tips. 
-

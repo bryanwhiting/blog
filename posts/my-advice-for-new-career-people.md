@@ -7,7 +7,7 @@ categories:
   - career advice
 draft: false
 ---
-I've worked for five companies in 9 years. The keys for me for job and life satisfaction are now pretty basic:
+The keys for me for job satisfaction are now pretty basic:
 
 - Is my manager supportive and someone I like spending time with?
 - Is the work continuously interesting? Will I develop skills that are likely to bring interesting opportunities in the future?
@@ -17,13 +17,11 @@ This blog post will attempt to describe my thoughts on what makes for a fulfilli
 
 # Likely useless career advice
 
+Now for a stream of consciousness about corporate employment...
 
-> ....I've been writing this for two hours and I'm not sure any of it makes sense. Skip to the "books to read" section if you get lost. At this point I'm too lazy to edit any of the below but don't want to delete it. Sunk costs baby...
+Some say a job should help you 1) earn or 2) learn and if neither then leave. But that framework doesn't really work because you can learn anything anywhere.
 
-Some say a job should help you 1) earn or 2) learn and if neither then leave. But that framework doesn't work because you can learn anything anywhere. If you're not learning things you enjoy learning about, that's moot. 
-
-Also, knowledge is accretive. As I look back on jobs I didn't love, I still learned things. I wasn't a fan of the type of consulting I was doing 10 years ago, but I've now started a consulting firm and having had that experience is helpful. So it's all kind of gray. I didn't like pulling weeds as a kid but I'm now pulling weeds as a homeowner so yea, I'm glad I know how to do that. 
-
+Knowledge is accretive. As I look back on jobs I didn't love, I still learned things. I wasn't a fan of the type of consulting I was doing 10 years ago, but I've now started a consulting firm and having had that experience is helpful. So it's all kind of gray. I didn't like pulling weeds as a kid but I'm now pulling weeds as a homeowner so yea, I'm glad I know how to do that. 
 
 # what is life anyway?
 
@@ -31,15 +29,20 @@ Per [Guide to Decision Making](../book-review/guide-to-decision-making.md), "res
 
 The reality is that "all or nothing thinking" is more of a cognitive bias, per [The Coddling of the American Mind](../book-review/the-coddling-of-the-american-mind.md) and [The Worry Cure](../book-review/the-worry-cure.md). And so, you're going to learn things as long as you're remotely interested in learning things. Whether they satisfy your [Working Genius](../book-review/the-6-types-of-working-genius.md) is  another matter. 
 
+# I want my "dream" job though
+
 Can you land your dream job? Or is it a myth? 30-40% of first time marriages end in divorce. And not all of the remaining 70-60% are blissfully happy either. But many of those 70% ARE blissfully happy. Or they will be. Or they were and they will be again maybe or something...
 
 Marriage and work are similar: they're a type of relationship. 
 
+Happiness in a relationship takes both people being committed to the happiness of the other. One sided relationships eventually crumble. But if both people remain committed to the other's happiness, and other certain caveats..., the marriage will prove valuable to both for their whole lives. 
 
 # Professional and Life happiness
 
 
 Happiness to me comes in two forms: doing the best I can with the circumstances I have (the cards I've been dealt) and choosing environments that are healthy (the game that gives me the cards). 
+
+It's about 1) what you're doing and 2) the environment and context you're doing it in. 
 
 This is life. Some games are fun to me. Others less fun by definition. But any game may be better than no game. Unless the game involves a high risk of me breaking my spine. Nuance. 
 
@@ -48,35 +51,57 @@ Point is: it takes a long while to find what environments you thrive in. Any com
 So if you don't know what you're interested in, you must explore. You try. 
 
 
+# Finding the best environment 
+
+First on the environment. 
+
+Jane Austen is better at this than me. Take all those sisters in Pride and Prejudice who have varying views on love and stability. Some sisters believe in true love. Others think it's a myth and instead choose financial stability. Of course true love wins in the end. 
+
+I suppose work is very similar: you're going to get out of it what you believe is possible. After all: you work with and for people. 
+
+It will take time and risks to figure out what environments you thrive in, kind of like dating. The interview is part of the process. Bring in a company is another part. Talking to friends in other companies is a third part. Thinking grass is greener is a fourth part, and so forth. That's life. 
+
+*Your needs* also change in your career. As you change, your preferences change. It's up to you to learn how to match your preferences with your environments, and how to accommodate your preferences within your environments. 
+
+If you don't like your roommate, you can leave early or wait till your contract expires or etc etc. or you can try to work it out and get to know your roommate. All are options. Which you choose is up to you. In the end, a good environment takes two. But it also takes one to instigate change for the better for both. Reciprocity. 
+
+
 # Experiment Your Way to a Happy Career
 
+Then there's the *thing you're doing.* 
 
-You can "try" by doing it yourself. Do you want to be a teacher? Go try to volunteer teaching. Do you want to be a coder? Spend 20 hours trying to build an app. Do you want to be a doctor? Volunteer with doctors. 
+You can "try" anything by doing it yourself. Do you want to be a teacher? Go try to volunteer teaching. Do you want to be a coder? Spend 20 hours trying to build an app. Do you want to be a doctor? Volunteer with doctors. 
+
+Four ways of learning what you like emerge. The quality of the information is ordered top to bottom while the amount of time it takes to get that information is bottom to top:
 
 - Reading about an industry or job is kind of helpful. 
 - Talking to people in the field is more helpful. 
-- Engaging with people is the  better  form. 
-- But actually doing the work is the only way to know. 
+- Following and shadowing those people is even more useful. 
+- But actually doing the work is the only way to really know. 
 
-So you can lower the risk of not liking a job by trying to do it without actually having to get the job. 
 
-You can get a pretty good sense by doing little projects similar to what the real work is going to be. Don't be dictated because you don't yet have the role. 
+You can read about 50 jobs to see what piques your interest and help you learn what's out there. Next, you can increase the chance of pursuing a job you like by trying to do it without actually having to get the job. 
+
+You can get a pretty good sense by doing little projects similar to what the real work is going to be. 
 
 
 # Don't Not Try Something Because of a Dumb Reason
 
+A lot of people think they shouldn't do something because they're not good enough. Even professionals. (Tiger Woods just had his worst round of his life, but I'm guessing he's still better than you.)
 
-And that's kind of the great myth: the myth of titles and credentials. That you need to be experienced at something to be able to do that thing. 
+Or they think they shouldn't try something because they're not yet credentialed. "Don't try this at home kids". It's what we're taught. 
+
+And that's kind of the great myth: the myth of titles and credentials. That you need to be experienced at something to be able to do that thing. But that's a lie. Instead, you should only pursue the credential if it offers you something you can't otherwise get (due to red tape). And until you get the credential, you're just spending a few hours every day learning stuff and maybe passing an exam at the end. So if you ignore the exam, what's stopping you from just picking up the activities today you may find rewarding?
 
 I once spent a single week shadowing dentists in an open room in Honduras. I was a Spanish translator for these American dentists that came through. I felt pretty confident by the end that I could probably do one of the fillings just because it really wasn't that complicated. And the dentists told me so. Once you look at 100 cavities in a mouth it's not hard to spot them. This was the easiest way to de-myth this job: watching and observing. 
 
 > It was actually really boring. Once you've seen 100 cavities you've seen them all I think. Glad I figured that out quickly! But I know there's someone out there that disagrees with me and I'm glad they'll be drilling my teeth and not me. 
 
-90% of most people jobs could be taught via apprenticeship, like the good old days. Today's world of credentials makes people think they're incapable of doing a pretty simple task: putting a drill into someone's tooth. But before you invest 8 years of your life in dental school, why not go be a dental hygienist for 1 year? Instead of doing a coding bootcamp, why not just code in your basement for a month after hours? This is the way to find what you like. 
+90% of most people's jobs could be taught via apprenticeship, like the good old days. Today's world of credentials makes people think they're incapable of doing a pretty simple task: putting a tool into someone's tooth. But before you invest 8 years of your life in dental school, why not go be a dental hygienist for 1 year? Instead of doing a coding bootcamp, why not just code in your basement for a month after hours? This is the way to find what you like. 
 
 Whether you enjoy doing that thing that created value for people can only be discovered by doing it. 
 
-# People Hire you Because you offer a service or value. Period.
+# People Hire you Because you offer a Service or Value. Period.
 
 
 Your real job is to create value for people. It's not a title. It's not a credential. It's not mandated or necessary in society. And if you were born 100 years before today or 100 years after the job may not exist. So think about opportunities in this way. 
@@ -91,20 +116,22 @@ But maybe I feel like I can get some avocados for my apricots. So can I find an 
 
 ![Work is just an exchange of goods](../img/dalle-exchange-of-goods.jpeg){.preview-image}
 
-Getting a job is more of a negotiation than anything. And everything in work is a negotiation. Read [Never Split the Difference](../book-review/never-split-the-difference.md) and that becomes quite apparent. It's nothing fancy. It's not a title. It's not a degree. It's just doing little activities. 
+Getting a job is more of a negotiation than anything. And everything in work is a negotiation. Read [Never Split the Difference](../book-review/never-split-the-difference.md) and that becomes quite apparent. Work is nothing fancy. It's not a title. It's not a degree. It's just doing little activities. 
 
 And after you've 1000 similar activities you're soon labeled a data scientist or a farmer. And if you circled the right boxes on an exam and got a piece of paper you're now a doctor/dentist. But the paper or the title don't make you good at that thing. My point: create value, not titles. 
 
 
 # In Sum
 
-So yes. I've gone on a rant here. But hey this is my blog. I'm trying to talk about the deeper issues at how to choose a profession or a company within that profession. I'm trying to break away from the titles and credentials that blind our thinking away from the more important questions of "what activities bring me joy" and "how will I know if?" And "will someone pay me for doing this activity?" And "how do I find an environment of people that will enable me to do valuable activities and make it a pleasant place to work?" (PS, don't work for [Elon Musk](../book-review/elon-musk.md)...unless you enjoy is working style.)
+So yes. I've gone on a rant here. But hey this is my blog. I'm trying to talk about the deeper issues at how to choose a profession or a company within that profession. I'm trying to break away from the titles and credentials that blind our thinking away from the more important questions of "what activities bring me joy" and "how will I know it?" And "will someone pay me for doing this activity?" And "how do I find an environment of people that will enable me to do valuable activities and make it a pleasant place to work?" (PS, some say to not work for [Elon Musk](../book-review/elon-musk.md)...unless you enjoy his working style.)
 
 Long story short: make sure the company hiring you actually needs your skills to run their business. Strive to find better opportunities by putting yourself out there and trying new things. And find people you like working with. All the rest is just a bonus. 
 
 The most dangerous thing is to get all those good things on your first job because then you try to self actualize per Maslov's hierarchy of needs. "Don't it always seem to go  That you don't know what you got 'til it's gone?" ([Lyrics](https://www.google.com/search?q=big+yellow+taxi+lyrics&ie=UTF-8&oe=UTF-8&hl=en-ca&client=safari&si=AKbGX_rdaVK-rhf5KHnOAD2drrRmADv7R3TkES869sRtvhJtAOFIxRuJ9oGiG6TvSdbxEwjlbUdo-jivJcsfmZzA84yEzB3d-vLGFPTy5juD3yV4riCQxI1XJ6ZQGPnEjGqh-qYE7AaZxecxMD6ZV9wfd6ykO8ZaKA%3D%3D&ictx=1&ved=2ahUKEwi176q45LuFAxVsKkQIHdMLBT4QjukCegQIIxAE)) So if you get a "bad" job just know it's part of the process and one day 10 years from now you'll probably be grateful you had that job anyway. 
 
 If I didn't actually answer your questions that's because some questions are a perennial debate. Some popular people hate the idea of work-life balance, some embrace it. Go figure. And keep searching to find someone who sees work and career the same way you do, because there are millions of jobs in the work. Hundreds of millions. 
+
+
 # Books to read
 
 It helps to get perspective when choosing where you want to work. 
