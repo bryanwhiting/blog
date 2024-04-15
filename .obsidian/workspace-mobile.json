@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sacrament-symbols/memorial-service.md",
+                "file": "logs/2024-04-14T18:41:11-07:00-4.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "sacrament-symbols/memorial-service.md",
+            "file": "logs/2024-04-14T18:41:11-07:00-4.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "sacrament-symbols/memorial-service.md"
+            "file": "logs/2024-04-14T18:41:11-07:00-4.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "sacrament-symbols/memorial-service.md",
+            "file": "logs/2024-04-14T18:41:11-07:00-4.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,6 +141,7 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "sacrament-symbols/memorial-service.md",
     "img/dalle-bought-with-a-price.jpeg",
     "scriptures/doctrine-and-covenants-45.3-5.md",
     "scriptures/doctrine-and-covenants-29.5.md",
@@ -151,7 +152,6 @@
     "posts/2022-11-18-writing-a-tech-resume/index.md",
     "posts/my-advice-for-new-career-people.md",
     "quotes/everybody-gets-so-much-information-all-day-long-that-they-lose-their-common-sense.md",
-    "sacrament-symbols/memorial-service.md",
     "quotes/true-source-data.md",
     "img/photo-go-to-the-source.jpeg",
     "logs/2024-04-13T23:03:09-07:00-5.md",
@@ -185,7 +185,6 @@
     "img/dalle-exchange-of-goods.jpeg",
     "img/photo-mountain-from-top-of-peak.jpeg",
     "img/dalle-warm-naps.jpeg",
-    "img/screenshot-write-speech-from-doc.jpeg",
-    "img/dalle-new-england-woods.jpeg"
+    "img/screenshot-write-speech-from-doc.jpeg"
   ]
 }
