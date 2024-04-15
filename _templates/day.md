@@ -39,6 +39,8 @@ pelo-warmup: 0
 pelo-time: 0
 pelo-kj: 0
 pelo-avg: 0
+pelo-res: 0
+pelo-rpm: 0
 run-dist: 0
 run-time: 0
 hike-dist: 0

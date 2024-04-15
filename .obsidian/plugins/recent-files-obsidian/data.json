@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-04-15",
+      "path": "goals/2024-04-15.md"
+    },
+    {
+      "basename": "day",
+      "path": "_templates/day.md"
+    },
+    {
       "basename": "2024-04-14T18:41:11-07:00-4",
       "path": "logs/2024-04-14T18:41:11-07:00-4.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "easter",
       "path": "gratitude/easter.md"
-    },
-    {
-      "basename": "saints-book-1-the-standard-of-truth-1815-1846",
-      "path": "book-review/saints-book-1-the-standard-of-truth-1815-1846.md"
-    },
-    {
-      "basename": "wearing-a-tie-reminds-me-of-the-noose-around-his-neck",
-      "path": "sacrament-symbols/wearing-a-tie-reminds-me-of-the-noose-around-his-neck.md"
     }
   ],
   "omittedPaths": [],

@@ -39,6 +39,7 @@
     "FHE": "checkbox",
     "date-night": "checkbox",
     "categories": "multitext",
-    "beach": "checkbox"
+    "beach": "checkbox",
+    "pelo-res": "number"
   }
 }
