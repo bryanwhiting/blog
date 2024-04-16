@@ -17,7 +17,28 @@ date-start: 2024-04-12 21:40:40
 date-finished: 2024-04-12 21:40:40
 pct-complete:
 ---
+2024-04-15
 
+- prediction va judgment. 
+- Flywheel of AI. Feedback data is the most important. 
+- Thinking in bets. →. Luck vs bad decision
+
+- Personalize weather forecasts. Get up earlier 
+- Flint lead pipes. Political judgment stalled work
+- Prediction vs judgment systems. Need to create a new system to handle probabilities. 
+- AI windfall - one sure gets more efficient and causes issues upstream
+
+Who should decide?
+- Information
+- skills
+- Incentives
+- Coordination 
+
+Redesign the company from an AI systemic view:
+- judgment and decisions. 
+
+- Who sees what vs who decides what. 
+- Rules vs decisions. 
 
 2024-04-13
 

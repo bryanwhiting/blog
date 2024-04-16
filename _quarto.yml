@@ -8,10 +8,6 @@ project:
 website:
   title: "Bryan Whiting"
   site-url: https://www.bryanwhiting.com
-  cookie-consent:
-    type: express
-    style: headline
-    palette: dark
   google-analytics:
     tracking-id: "G-SY4JFPWZ2N"
     anonymize-ip: true

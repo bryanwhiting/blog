@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "power-and-prediction",
+      "path": "book-review/power-and-prediction.md"
+    },
+    {
+      "basename": "book-power-and-prediction",
+      "path": "img/book-power-and-prediction.jpeg"
+    },
+    {
       "basename": "2024-04-15",
       "path": "goals/2024-04-15.md"
     },
@@ -51,10 +59,6 @@
     {
       "basename": "the-sec-filings",
       "path": "gratitude/the-sec-filings.md"
-    },
-    {
-      "basename": "power-and-prediction",
-      "path": "book-review/power-and-prediction.md"
     },
     {
       "basename": "2024-04-13",
@@ -195,10 +199,6 @@
     {
       "basename": "adult-children-of-emotional-immature-parents",
       "path": "book-review/adult-children-of-emotional-immature-parents.md"
-    },
-    {
-      "basename": "easter",
-      "path": "gratitude/easter.md"
     }
   ],
   "omittedPaths": [],
