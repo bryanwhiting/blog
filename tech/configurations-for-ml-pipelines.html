@@ -300,15 +300,15 @@ gtag('config', 'G-SY4JFPWZ2N', { 'anonymize_ip': true});
 
 
 <p>Configuring an ML pipeline means you have 15 different things that could change at any time and you create a way to easily change those 15 things. Those 15 things could be file paths, data filtering steps, models you want to use, etc.</p>
-<p>Any researcher constantly asks themselves: but what if I switch X?</p>
+<p>Any researcher constantly asks themselves: but what if I switch X parameter? What would happen?</p>
 <p>And so the researcher starts to configure a pipeline.</p>
 <section id="config-methods-ive-used" class="level1">
 <h1>Config Methods I’ve Used</h1>
-<p>First time I built a config it was in VBA. I had a text file I loaded in that could be overwritten based on setting someone chose.</p>
-<p>Second time I config’d something was in Python. I used <code>ConfigParser</code> per my Manager David Mantilla’s suggestion. It was pretty good for 2017. But unwieldy. Don’t use this. It had cool string substitutions but there are better tools now.</p>
-<p>Third thing I saw was using a Python constants.py file. Just import Python variables from another module. This is nice because you can import model objects or such. Dicts. Whatever. Seems great. But it’s Python code. Config files shouldn’t be code. They should be configs. Every great software follows this, like <code>k8s</code> helm charts or whatever. Google loves using <code>Protobufs</code>. Configs shouldn’t be code, because if they’re code they’re dangerous. You start doing crazy things with them.</p>
+<p>First time I built a config it was in VBA. I had a text file I loaded in that could be overwritten based on a setting someone chose.</p>
+<p>Second time I config’d something was in Python. I used ConfigParser, a Python standard library class. It was pretty good for 2017. But unwieldy. Don’t use this. It had cool string substitutions but there are better tools now.</p>
+<p>Third thing I saw was using a Python constants.py file. Just import Python variables from another module. This is nice because you can import model objects or such. Dicts. Whatever. Seems great. But it’s Python code. Config files probably shouldn’t be code. They should be configs. Configs are easy to read for non-tech folks. They have no dependencies. They’re just plain text files. Every great software follows this, like <code>k8s</code> helm charts or whatever. Google loves using <code>Protobufs</code>. Configs shouldn’t be code, because if they’re code they’re dangerous. You start doing crazy things with them.</p>
 <p>Fourth thing I did was to use YAML which is very clean. Lots of people like YAML. This gets unwieldy if you need 100 configs for different customers, for example. Can you imagine managing 100 yaml files? What if you need to update one param? Then you need to update 100 files. Rough. So then you start setting “default” blocks and settings.</p>
-<p>I also used Pydantic to read in the YAML file and validate types. Gotta validate types. What’s an int vs a string? Well, this mean that we needed to design the pipeline to rely on some <code>config</code> class. We had to pass this config object around everywhere. Not super idea but gets the job done.</p>
+<p>A nice pairing was to use Pydantic to read in the YAML file and validate types. You’ve got to validate types. What’s an int vs a string? Using <code>pydantic</code> means that we needed to design the pipeline to rely on some <code>config</code> class on the top level. My suggestion would be to design functions to take in arguments that are satisfied by the config, and don’t pass the config object itself into the function. The former keeps your code cleaner and more testable. The latter sends you down a chaotic slippery slope.</p>
 <p>Fifth thing was to use one default YAML. This solved the issue of redundancy across all the 100 YAML files. (If you only have one model, you probably need only 1 YAML file so this may not be your problem.) But this still kinda stinks. It’s in a file.</p>
 <p>Sixth thing was some eng’s on my team saw a better way and build a CRUD database. This made it so we didn’t have to do a code change to update a config. That means that people outside the team could edit a config. Awesome. But we still have 100 web pages that could change. Kinda sux. And we still had a default setting - essential. Benefits of a crud are migrations. You can get rid of one option across 100 configs more easily.</p>
 <p>Problem with 100 YAML or 100 web pages is that if you want to change things or run experiments, you need to literally clone the config file. Now you have 15 versions of the same config file with slight modifications and you can’t remember what’s going on. So you delete them all eventually and just pick one.</p>
@@ -316,7 +316,7 @@ gtag('config', 'G-SY4JFPWZ2N', { 'anonymize_ip': true});
 </section>
 <section id="hydra" class="level1 page-columns page-full">
 <h1>Hydra?</h1>
-<p>I’m writing this because I just learned about <code>hydra</code> . Remember: I use this site for note taking. Here’s what I just learned.</p>
+<p>I’ve been using Hydra lately and I see a lot of benefits in that it solves a lot of the things I’ve tried and seen solved above.</p>
 <div class="quarto-figure quarto-figure-center page-columns page-full">
 <figure class="figure page-columns page-full">
 <p><img src="../img/screenshot-hydra-configs.jpeg" class="preview-image img-fluid figure-img"></p>
@@ -326,9 +326,15 @@ gtag('config', 'G-SY4JFPWZ2N', { 'anonymize_ip': true});
 <p><a href="https://hydra.cc/">Hydra | Hydra</a></p>
 <ul>
 <li>Hydra is Python open source maintained by Facebook</li>
-<li>If built to configure pipelines, in particular ML pipelines but could be used for anything.</li>
-<li>It uses <code>dataclasses</code> and <code>yaml</code> files, so I’m thinking I was smart for what I did with my fourth option.</li>
-<li>But it quickly allows you to override config files from the command line or from editing the yaml file directly.</li>
+<li>If built to configure pipelines, in particular ML pipelines but could be used for anything that needs config files.</li>
+<li>It uses <code>dataclasses</code>, which ensures the typing of your files</li>
+<li>It uses <code>yaml</code> files as the config sources</li>
+<li>You can specify default config values</li>
+<li>It quickly allows you to override config files from the command line or from editing the yaml file directly.</li>
+<li>It’s possible to run from the command line a single config with several different values using the <code>multirun</code> flag.</li>
+<li>It gives a nice way to organize your output folder and automatically exports the fully qualified config there.</li>
+<li>It will capture your logs into your output directory.</li>
+<li>You can version your configs very easily.</li>
 </ul>
 <p>This demo is slick:</p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/tEsPyYnzt8s?si=2T58Ix4ZAo-N75y0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
@@ -337,22 +343,21 @@ gtag('config', 'G-SY4JFPWZ2N', { 'anonymize_ip': true});
 <h1>Why I like Hydra’s design</h1>
 <ul>
 <li>This seems really nice because it avoids the headache of changing code.</li>
-<li>Also, you can create a simple bash loop to execute 5 different experiments - while retaining only one config file</li>
-<li>Also, I used to think that having a system of record is pretty important: I need to save the configs that were used for this run. That tells me how the pipeline or experiment was configured. I still think that’s true: but I believe that should be done via logging instead of managing 15 config files.</li>
-<li>My new belief is that experiments should be ephemeral to keep the code clean. Have one prod <code>yaml</code> file and then everything else is ephemeral. Log everything: log the created yaml file with all defaults filled inso you can recreate it if necessary.</li>
+<li>Also, you can create a simple bash loop to execute 5 different experiments - while retaining only one config file. Or you can just use the <code>multirun</code> flag to cross a few arguments easily. It’ll create separate output folders for each run.</li>
+<li>Hydra maintains a system of record for every run. You know exactly how that run was generated given the parameters fed into it.</li>
 </ul>
 </section>
 <section id="my-ideal-world" class="level1">
 <h1>My Ideal World</h1>
-<p>Hydra doesn’t solve the “you shouldn’t have to do a git push to update prod”. If everything is a <code>yaml</code> file then to update prod you need to do a code change.</p>
-<p>Google doesn’t seem to mind using code changes because everything is a protobuff. Code changes are nice because they’re reviewed.</p>
-<p>But code changes are slow. And non-coders can do them.</p>
-<p>So I believe one prod config should live in a UI with a database backend. But then that should be serialized to <code>yaml</code> and loaded via something like hydra.</p>
-<p>I also believe experiments should be launched programmatically. Meaning I should be able to kick off 10 experiments training 10 models using a bash script. I can then log this experiment using <a href="../tech/why-you-should-log-with-aimstack.html">Why you should log with Aimstack</a> and I can log the full config there.</p>
-<p>Also, I’d throw <code>hydra</code> in with <code>metaflow</code> .</p>
+<p>Hydra makes it incredibly easy to kick off a bunch of runs without managing multiple configurations or hard-coding constants into a Python file.</p>
+<p>It enables you to have parameters outside of your code. This makes experimentation very easy.</p>
+<p>It does not make it easy for non-developers to edit the config - so you’d still want a GUI to enable that that translates into yaml files. This isn’</p>
+<p>It’s lightweight - all it does is create a <code>config</code> class that you then pass into your pipeline to control the pipeline. That pipeline could be airflow or whatever.</p>
+<p>It may be nice to pair <code>hydra</code> with <code>metaflow</code> or <code>flyte</code>.</p>
 <p>How do you configure? # Appendix</p>
 <ul>
 <li><a href="https://medium.com/optuna/easy-hyperparameter-management-with-hydra-mlflow-and-optuna-783730700e7d">Easy Hyperparameter Management with Hydra, MLflow, and Optuna | by NT | Optuna | Medium</a></li>
+<li><a href="../tech/why-you-should-log-with-aimstack.html">Why you should log with Aimstack</a></li>
 </ul>
 
 
