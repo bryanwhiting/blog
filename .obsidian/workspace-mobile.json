@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/power-and-prediction.md",
+                "file": "tech/configurations-for-ml-pipelines.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "book-review/power-and-prediction.md",
+            "file": "tech/configurations-for-ml-pipelines.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "book-review/power-and-prediction.md"
+            "file": "tech/configurations-for-ml-pipelines.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "book-review/power-and-prediction.md",
+            "file": "tech/configurations-for-ml-pipelines.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,6 +141,7 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
+    "book-review/power-and-prediction.md",
     "img/book-power-and-prediction.jpeg",
     "goals/2024-04-15.md",
     "_templates/day.md",
@@ -173,7 +174,6 @@
     "_freeze/site_libs/htmltools-fill-0.5.8.1/fill.css",
     "book-review/the-right-it.md",
     "book-review/trustworthy-online-controlled-experiments-a-practical-guide-to-ab-testing.md",
-    "book-review/power-and-prediction.md",
     "goals/2024-04-13.md",
     "lists/ai.md",
     "gratitude/in-awe-of-ai.md",
@@ -185,7 +185,6 @@
     "img/screenshot-thinking-fast-and-slow-system-1.jpeg",
     "img/dalle-exchange-of-goods.jpeg",
     "img/photo-mountain-from-top-of-peak.jpeg",
-    "img/dalle-warm-naps.jpeg",
-    "img/screenshot-write-speech-from-doc.jpeg"
+    "img/dalle-warm-naps.jpeg"
   ]
 }

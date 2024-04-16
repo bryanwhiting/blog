@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "configurations-for-ml-pipelines",
+      "path": "tech/configurations-for-ml-pipelines.md"
+    },
+    {
       "basename": "power-and-prediction",
       "path": "book-review/power-and-prediction.md"
     },
@@ -99,10 +103,6 @@
     {
       "basename": "Daniel-Kahneman-Thinking-Fast-and-Slow-",
       "path": "PDFs/Daniel-Kahneman-Thinking-Fast-and-Slow-.pdf"
-    },
-    {
-      "basename": "configurations-for-ml-pipelines",
-      "path": "tech/configurations-for-ml-pipelines.md"
     },
     {
       "basename": "whats-your-decision-framework",
