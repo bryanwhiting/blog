@@ -14,9 +14,18 @@ author: Joshua Gans, Jay Agrawal, Avi Goldfarb
 book-year: 2022
 book-time: 10.5
 date-start: 2024-04-12 21:40:40
-date-finished: 2024-04-12 21:40:40
+date-finished: 2024-04-15
 pct-complete:
 ---
+
+Takeaways:
+
+- point vs systemic shift. The book largely focuses on how AI will be used for systemic shifts. Those who embrace it, like those who embraced electricity over steam power, will have to reinvent their businesses from the ground up. They should do so by thinking about The core principles of their business and what's a judgment and what's a decision. They can become far more efficient by abandoning rules and procedures and instead focus on decisions. They can automate certain decisions using data. 
+- Those who go to market to collect data first have a huge advantage. It's the reason Google has outperformed Bing for a decade - it gets better data and feedback and uses that to make the product more efficient. Data collection is essential to a great data product - not only the data you begin the project with, but the data that brings it to life. 
+- What will I do differently? I'll try to think more systemically about how organizations I work in are operated by human judgment that can be automated. The book provides a framework for approaching such systemic shifts. 
+- I'm also interested to see what they'd write about today's day and age, as this was published right as ChatGPT came out and is now changing a lot. That being said, I think the main principle of decomposing the business into its central parts still stands as the thesis of the book. There's also a big difference between Generative AI and predictive AI (machine learning). Gen AI is now going to unlock a whole lot of applications, but the principles still remain the same. 
+
+
 2024-04-15
 
 - prediction va judgment. 
@@ -27,6 +36,7 @@ pct-complete:
 - Flint lead pipes. Political judgment stalled work
 - Prediction vs judgment systems. Need to create a new system to handle probabilities. 
 - AI windfall - one sure gets more efficient and causes issues upstream
+- Algorithmic bias can be solved because it can be examined. 
 
 Who should decide?
 - Information
