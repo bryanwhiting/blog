@@ -10,7 +10,88 @@
 <atom:link href="https://www.bryanwhiting.com/tech.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.553</generator>
-<lastBuildDate>Fri, 05 Apr 2024 21:57:30 GMT</lastBuildDate>
+<lastBuildDate>Fri, 19 Apr 2024 21:02:05 GMT</lastBuildDate>
+<item>
+  <title>News Notes for 2024-04-19</title>
+  <link>https://www.bryanwhiting.com/news/2024-04-19-news-notes.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><a href="https://lightning.ai/lightning-ai/studios/rag-using-llama-3-by-meta-ai">RAG using Llama 3 by Meta AI - a Lightning Studio by akshay</a></p>
+<ul>
+<li>build your own rag</li>
+<li>Serve in custom cloud infrastructure</li>
+</ul>
+<p><a href="https://groq.com/">GroqChat</a></p>
+<ul>
+<li>groq does up to 800 t/s</li>
+</ul>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>news</category>
+  <guid>https://www.bryanwhiting.com/news/2024-04-19-news-notes.html</guid>
+  <pubDate>Fri, 19 Apr 2024 21:02:05 GMT</pubDate>
+</item>
+<item>
+  <title>Quivr App, Reader API, Zed</title>
+  <link>https://www.bryanwhiting.com/news/quivr-app-reader-api-zed.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Every day I learn something new about the AI space. Today it’s quivr and reader and zed.</p>
+<section id="quivr" class="level1">
+<h1>Quivr</h1>
+<ul>
+<li>Built on langchain</li>
+<li>Upload any data</li>
+<li>Chat with it locally</li>
+</ul>
+<p>https://www.quivr.app/</p>
+<p><a href="https://www.quivr.app/">Quivr - Open source chat-powered second brains</a></p>
+<ul>
+<li><a href="https://github.com/QuivrHQ/quivr">GitHub - QuivrHQ/quivr: Your GenAI Second Brain 🧠 A personal productivity assistant (RAG) ⚡️🤖 Chat with your docs (PDF, CSV, …) &amp; apps using Langchain, GPT 3.5 / 4 turbo, Private, Anthropic, VertexAI, Ollama, LLMs, Groq that you can share with users ! Local &amp; Private alternative to OpenAI GPTs &amp; ChatGPT powered by retrieval-augmented generation.</a></li>
+</ul>
+<p>Demo video:</p>
+<p><a href="https://github-production-user-asset-6210df.s3.amazonaws.com/19614572/239713902-a6463b73-76c7-4bc0-978d-70562dca71f5.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240418%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240418T033014Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=459d14a6f72dee009b2afe5d8c81ed68c18284b3c4f90a303605bf6e2b495bea&amp;X-Amz-SignedHeaders=host&amp;actor_id=0&amp;key_id=0&amp;repo_id=640079149">https://github-production-user-asset-6210df.s3.amazonaws.com/19614572/239713902-a6463b73-76c7-4bc0-978d-70562dca71f5.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240418%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20240418T033014Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=459d14a6f72dee009b2afe5d8c81ed68c18284b3c4f90a303605bf6e2b495bea&amp;X-Amz-SignedHeaders=host&amp;actor_id=0&amp;key_id=0&amp;repo_id=640079149</a></p>
+</section>
+<section id="reader-api" class="level1">
+<h1>Reader API</h1>
+<p><a href="https://jina.ai/reader/">Reader API</a></p>
+<ul>
+<li>converts any web page into a markdown-friendly format from HTML, allowing you to use much cleaner data in you LLM</li>
+<li>How is it free?</li>
+</ul>
+<p>Here’s my Silvermine AI website</p>
+<p><a href="https://r.jina.ai/https://www.silvermineai.com">www.silvermineai.com</a></p>
+</section>
+<section id="zed-code-esitor" class="level1">
+<h1>Zed Code esitor</h1>
+<p><a href="https://github.com/zed-industries/zed">GitHub - zed-industries/zed: Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.</a></p>
+<p><a href="https://zed.dev/">Zed - Code at the speed of thought</a></p>
+<ul>
+<li>atom developers created a more powerful, AI-infused (GitHub copilot), with collaboration at its core.</li>
+<li>Faster bc built in rust?</li>
+</ul>
+<p>Review</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/zHRcz5G04fk?si=na5aj_IWDpZNZMGt" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+
+
+</section>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>news</category>
+  <category>ai tools</category>
+  <guid>https://www.bryanwhiting.com/news/quivr-app-reader-api-zed.html</guid>
+  <pubDate>Wed, 17 Apr 2024 20:28:32 GMT</pubDate>
+</item>
 <item>
   <title>Microsoft Copilot notes</title>
   <link>https://www.bryanwhiting.com/tech/microsoft-copilot-notes.html</link>
@@ -833,63 +914,6 @@ print(df)</code></pre>
   <category>ai guardrails</category>
   <guid>https://www.bryanwhiting.com/tech/three-ai-failures-needing-guardrails.html</guid>
   <pubDate>Sun, 18 Feb 2024 09:21:10 GMT</pubDate>
-</item>
-<item>
-  <title>News Notes for 2024-02-17</title>
-  <link>https://www.bryanwhiting.com/news/2024-02-17-news-notes.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p><a href="https://aisecret.us/p/sora-became-instantly-famous-soon-will-agi-arrive-sectors-will-collapse">Sora “nuked” the human world overnight!</a></p>
-<ul>
-<li>AI will empower the few creatives to not need underlings. Same in legal - no need for temps or paralegals. Tech can replace them, empowering the truly competent to get more done faster. This will eliminate jobs near the bottom, not near the top (the ones in control to begin with)</li>
-</ul>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>news</category>
-  <guid>https://www.bryanwhiting.com/news/2024-02-17-news-notes.html</guid>
-  <pubDate>Sat, 17 Feb 2024 10:19:55 GMT</pubDate>
-</item>
-<item>
-  <title>Unreal AI: Meet Sora</title>
-  <link>https://www.bryanwhiting.com/tech/unreal-ai-sora.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Years ago Deepmind proved they can solve StarCraft: <a href="https://www.youtube.com/live/cUTMhmVh1qs?si=BXO9WJ-2WV1jgf0f">YouTube</a></p>
-<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="https://www.youtube.com/live/cUTMhmVh1qs?si=BXO9WJ-2WV1jgf0f"></video></div>
-Now OpenAI is probably using reinforcement learning using physics engines. Meet Sora: <a href="https://openai.com/sora">Sora</a>.
-<blockquote class="twitter-tweet blockquote">
-<p lang="en" dir="ltr">
-If you think OpenAI Sora is a creative toy like DALLE, … think again. Sora is a data-driven physics engine. It is a simulation of many worlds, real or fantastical. The simulator learns intricate rendering, "intuitive" physics, long-horizon reasoning, and semantic grounding, all… <a href="https://t.co/pRuiXhUqYR">pic.twitter.com/pRuiXhUqYR</a>
-</p>
-— Jim Fan (<span class="citation" data-cites="DrJimFan">@DrJimFan</span>) <a href="https://twitter.com/DrJimFan/status/1758210245799920123?ref_src=twsrc%5Etfw">February 15, 2024</a>
-</blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<p>Think that robots won’t be 100% smarter than us being able to do anything we can think of?</p>
-<p>The video games, movies, simulators, etc of next year are gonna be lit.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/screenshot-unreal-sora.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Unreal sora</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>tech</category>
-  <category>ai</category>
-  <guid>https://www.bryanwhiting.com/tech/unreal-ai-sora.html</guid>
-  <pubDate>Fri, 16 Feb 2024 17:32:54 GMT</pubDate>
 </item>
 </channel>
 </rss>

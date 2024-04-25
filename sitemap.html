@@ -78,10 +78,10 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-description','listing-date','listing-updated','listing-categories','listing-draft','listing-date-start','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-created','listing-book-year','listing-book-time','listing-date-finished','listing-pct-complete','listing-image','listing-subtitle','listing-pushups','listing-sit-ups','listing-body squats','listing-squat jumps','listing-difficulty','listing-workout-notes','listing-workout-vibe','listing-meditate','listing-pray','listing-music','listing-exercises','listing-muscle-groups','listing-pelo-kj','listing-pelo-time','listing-pelo-avg','listing-cardio-type','listing-strength','listing-cardio','listing-pelo-warmup','listing-body-zones','listing-run-dist','listing-run-time','listing-hike-dist','listing-hike-elev','listing-hike-time','listing-jumprope-time','listing-jumprope-cnt','listing-sss','listing-workout-time','listing-basketball-time','listing-sun','listing-water24oz','listing-tags','listing-FHE','listing-date-night','listing-pelo-pr-attempt','listing-asleepby1030','listing-beach','listing-pelo-rpm','listing-pelo-res','listing-freeze','listing-title-block-banner','listing-license','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-citation',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-description','listing-date','listing-updated','listing-categories','listing-draft','listing-date-start','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-created','listing-book-year','listing-book-time','listing-date-finished','listing-pct-complete','listing-image','listing-subtitle','listing-pushups','listing-sit-ups','listing-body squats','listing-squat jumps','listing-difficulty','listing-workout-notes','listing-workout-vibe','listing-meditate','listing-pray','listing-music','listing-exercises','listing-muscle-groups','listing-pelo-kj','listing-pelo-time','listing-pelo-avg','listing-cardio-type','listing-strength','listing-cardio','listing-pelo-warmup','listing-body-zones','listing-run-dist','listing-run-time','listing-hike-dist','listing-hike-elev','listing-hike-time','listing-jumprope-time','listing-jumprope-cnt','listing-sss','listing-workout-time','listing-basketball-time','listing-sun','listing-water24oz','listing-tags','listing-FHE','listing-date-night','listing-pelo-pr-attempt','listing-asleepby1030','listing-beach','listing-pelo-rpm','listing-pelo-res','listing-bike-dist','listing-bike-elev','listing-bike-time','listing-freeze','listing-title-block-banner','listing-license','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-citation',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       page: 25,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-description","listing-date","listing-updated","listing-categories","listing-draft","listing-date-start","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-created","listing-book-year","listing-book-time","listing-date-finished","listing-pct-complete","listing-image","listing-subtitle","listing-pushups","listing-sit-ups","listing-body squats","listing-squat jumps","listing-difficulty","listing-workout-notes","listing-workout-vibe","listing-meditate","listing-pray","listing-music","listing-exercises","listing-muscle-groups","listing-pelo-kj","listing-pelo-time","listing-pelo-avg","listing-cardio-type","listing-strength","listing-cardio","listing-pelo-warmup","listing-body-zones","listing-run-dist","listing-run-time","listing-hike-dist","listing-hike-elev","listing-hike-time","listing-jumprope-time","listing-jumprope-cnt","listing-sss","listing-workout-time","listing-basketball-time","listing-sun","listing-water24oz","listing-tags","listing-FHE","listing-date-night","listing-pelo-pr-attempt","listing-asleepby1030","listing-beach","listing-pelo-rpm","listing-pelo-res","listing-freeze","listing-title-block-banner","listing-license","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-citation"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-description","listing-date","listing-updated","listing-categories","listing-draft","listing-date-start","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-created","listing-book-year","listing-book-time","listing-date-finished","listing-pct-complete","listing-image","listing-subtitle","listing-pushups","listing-sit-ups","listing-body squats","listing-squat jumps","listing-difficulty","listing-workout-notes","listing-workout-vibe","listing-meditate","listing-pray","listing-music","listing-exercises","listing-muscle-groups","listing-pelo-kj","listing-pelo-time","listing-pelo-avg","listing-cardio-type","listing-strength","listing-cardio","listing-pelo-warmup","listing-body-zones","listing-run-dist","listing-run-time","listing-hike-dist","listing-hike-elev","listing-hike-time","listing-jumprope-time","listing-jumprope-cnt","listing-sss","listing-workout-time","listing-basketball-time","listing-sun","listing-water24oz","listing-tags","listing-FHE","listing-date-night","listing-pelo-pr-attempt","listing-asleepby1030","listing-beach","listing-pelo-rpm","listing-pelo-res","listing-bike-dist","listing-bike-elev","listing-bike-time","listing-freeze","listing-title-block-banner","listing-license","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-citation"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -330,7 +330,63 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
 <ul>
-<pre><code>    &lt;li&gt;2024-04-15 &lt;a href="/goals/2024-04-15.md"&gt;2024-04-15&lt;/a&gt; [goals]&lt;/li&gt;
+<pre><code>    &lt;li&gt;2024-04-24 &lt;a href="/goals/2024-04-24.md"&gt;2024-04-24&lt;/a&gt; [goals]&lt;/li&gt;
+    
+
+    
+        &lt;li&gt;2024-04-23 &lt;a href="/gratitude/baseball-season.md"&gt;I'm Grateful for Baseball Season&lt;/a&gt; [gratitude]&lt;/li&gt;
+    
+
+    
+        &lt;li&gt;2024-04-21 &lt;a href="/gratitude/a-small-insignificant-corner-of-the-internet.md"&gt;I'm Grateful for A small, insignificant corner of the internet&lt;/a&gt; [gratitude]&lt;/li&gt;
+    
+
+    
+        &lt;li&gt;2024-04-21 &lt;a href="/book-review/saints-volume-2-no-unhallowed-hand.md"&gt;Saints Volume 2: No Unhallowed Hand&lt;/a&gt; [book-review]&lt;/li&gt;
+    
+
+    
+        &lt;li&gt;2024-04-20 &lt;a href="/book-review/black-hearts.md"&gt;Black Hearts&lt;/a&gt; [book-review]&lt;/li&gt;
+    
+
+    
+        &lt;li&gt;2024-04-20 &lt;a href="/book-review/the-energy-bus.md"&gt;The Energy Bus&lt;/a&gt; [book-review]&lt;/li&gt;
+    
+
+    
+        &lt;li&gt;2024-04-20 &lt;a href="/goals/2024-04-20.md"&gt;2024-04-20&lt;/a&gt; [goals]&lt;/li&gt;
+    
+
+    
+        &lt;li&gt;2024-04-19 &lt;a href="/news/2024-04-19-news-notes.md"&gt;News Notes for 2024-04-19&lt;/a&gt; [news]&lt;/li&gt;
+    
+
+    
+        &lt;li&gt;2024-04-17 &lt;a href="/gratitude/tee-ball.md"&gt;I'm Grateful for Tee Ball&lt;/a&gt; [gratitude,family]&lt;/li&gt;
+    
+
+    
+        &lt;li&gt;2024-04-17 &lt;a href="/news/quivr-app-reader-api-zed.md"&gt;Quivr App, Reader API, Zed&lt;/a&gt; [news,ai tools]&lt;/li&gt;
+    
+
+    
+        &lt;li&gt;2024-04-17 &lt;a href="/goals/2024-04-17.md"&gt;2024-04-17&lt;/a&gt; [goals]&lt;/li&gt;
+    
+
+    
+        &lt;li&gt;2024-04-16 &lt;a href="/book-review/machine-learning-q-and-ai.md"&gt;Machine Learning Q and AI&lt;/a&gt; [book-review]&lt;/li&gt;
+    
+
+    
+        &lt;li&gt;2024-04-16 &lt;a href="/quotes/the-linda-problem.md"&gt;The Linda Problem&lt;/a&gt; [quotes]&lt;/li&gt;
+    
+
+    
+        &lt;li&gt;2024-04-16 &lt;a href="/silvermineai/congfigurations.md"&gt;Congfigurations&lt;/a&gt; [silvermineai]&lt;/li&gt;
+    
+
+    
+        &lt;li&gt;2024-04-15 &lt;a href="/goals/2024-04-15.md"&gt;2024-04-15&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
