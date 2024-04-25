@@ -40,6 +40,9 @@
     "date-night": "checkbox",
     "categories": "multitext",
     "beach": "checkbox",
-    "pelo-res": "number"
+    "pelo-res": "number",
+    "bike-dist": "number",
+    "bike-elev": "number",
+    "bike-time": "number"
   }
 }

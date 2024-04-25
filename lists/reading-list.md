@@ -104,6 +104,9 @@ Tech and Profesh development
 
 - Accelerate: the science of lean software and devops. #audible-credit 
 - Superforecasting #audible-credit 
+- [Stanford LLM course on YouTube](https://m.youtube.com/playlist?list=PLoROMvodv4rMFqRtEuo6SGjY4XbRIVRd4)
+- Fast.ai
+- Andrew Ng course
 
 
 Random

@@ -15,26 +15,15 @@ let right = `[${tom.format(ddmd)} ⏩](${folder}/${tom.format(ymd)})`;
 
 let header =  `${left} | Let God Prevail | ${right}`;
 
+
 -%>---
 date: <% tday.format(ymd) %>
 title: <% tday.format(ymd) %>
 description: x
-categories:
-  - goals
-sun: false
-water24oz: false
-pray: false
-meditate: false
-sss: false
-asleepby1030: false
+categories: goals
 workout-time: 0
-muscle-groups:
-  - x
 exercises:
   - x
-difficulty: 0
-workout-notes: x
-workout-vibe: x
 pelo-warmup: 0
 pelo-time: 0
 pelo-kj: 0
@@ -47,6 +36,9 @@ hike-dist: 0
 hike-elev: 0
 hike-time: 0
 basketball-time: 0
+bike-dist: 0
+bike-time: 0
+bike-elev: 0
 draft: false
 ---
 **<% middle %>**

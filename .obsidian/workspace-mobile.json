@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/power-and-prediction.md",
+                "file": "book-review/the-energy-bus.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 4
+    "currentTab": 0
   },
   "right": {
     "id": "19fd6f5bf2dff652",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "book-review/power-and-prediction.md",
+            "file": "book-review/the-energy-bus.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "book-review/power-and-prediction.md"
+            "file": "book-review/the-energy-bus.md"
           }
         }
       },
@@ -120,7 +120,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "book-review/power-and-prediction.md",
+            "file": "book-review/the-energy-bus.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -141,29 +141,40 @@
   },
   "active": "be767112276aa446",
   "lastOpenFiles": [
-    "tech/configurations-for-ml-pipelines.md",
+    "book-review/thinking-fast-and-slow.md",
     "book-review/power-and-prediction.md",
+    "_templates/day.md",
+    "goals/2024-04-24.md",
+    "gratitude/baseball-season.md",
+    "quotes/a-man-cooks-an-egg.md",
+    "gratitude/a-small-insignificant-corner-of-the-internet.md",
+    "book-review/saints-volume-2-no-unhallowed-hand.md",
+    "book-review/saints-book-1-the-standard-of-truth-1815-1846.md",
+    "img/book-saints-volume-2-no-unhallowed-hand.jpeg",
+    "book-review/the-energy-bus.md",
+    "book-review/black-hearts.md",
+    "goals/2024-04-20.md",
+    "news/2024-04-19-news-notes.md",
+    "book-review/machine-learning-q-and-ai.md",
+    "gratitude/tee-ball.md",
+    "news/quivr-app-reader-api-zed.md",
+    "lists/reading-list.md",
+    "goals/2024-04-17.md",
+    "quotes/the-linda-problem.md",
+    "silvermineai/congfigurations.md",
+    "_templates/new-post.md",
+    "silvermineai",
+    "Untitled",
+    "tech/configurations-for-ml-pipelines.md",
     "img/book-power-and-prediction.jpeg",
     "goals/2024-04-15.md",
-    "_templates/day.md",
     "sacrament-symbols/memorial-service.md",
     "img/dalle-bought-with-a-price.jpeg",
     "scriptures/doctrine-and-covenants-45.3-5.md",
     "scriptures/doctrine-and-covenants-29.5.md",
-    "scriptures/1-corinthians-6.20.md",
-    "sacrament-symbols/i-dont-deserve-this-seat.md",
     "img/dalle-paradise.jpeg",
-    "scriptures/ephesians-2.8-9.md",
-    "posts/2022-11-18-writing-a-tech-resume/index.md",
-    "posts/my-advice-for-new-career-people.md",
-    "quotes/everybody-gets-so-much-information-all-day-long-that-they-lose-their-common-sense.md",
-    "quotes/true-source-data.md",
     "img/photo-go-to-the-source.jpeg",
-    "logs/2024-04-13T23:03:09-07:00-5.md",
-    "posts/personal-constitution.md",
     "logs/2024-04-13T23:02:40-07:00-5.csv",
-    "quotes/manage-the-mental-game.md",
-    "gratitude/the-sec-filings.md",
     "_freeze/site_libs/reactwidget-1.0.0/react-tools.js.map",
     "_freeze/site_libs/reactwidget-1.0.0/react-tools.js",
     "_freeze/site_libs/reactwidget-1.0.0",
@@ -171,21 +182,10 @@
     "_freeze/site_libs/react-18.2.0/AUTHORS",
     "_freeze/site_libs/react-18.2.0/LICENSE.txt",
     "_freeze/site_libs/react-18.2.0/react-dom.min.js",
-    "_freeze/site_libs/react-18.2.0",
-    "_freeze/site_libs/htmltools-fill-0.5.8.1/fill.css",
-    "book-review/the-right-it.md",
-    "book-review/trustworthy-online-controlled-experiments-a-practical-guide-to-ab-testing.md",
-    "goals/2024-04-13.md",
-    "lists/ai.md",
-    "gratitude/in-awe-of-ai.md",
     "img/screenshot-google-ai-studio.jpeg",
-    "lists/reading-list.md",
-    "gratitude/my-work-team.md",
-    "goals/2024-04-11.md",
     "img/dalle-seaotter-beach-data-science.jpeg",
     "img/screenshot-thinking-fast-and-slow-system-1.jpeg",
     "img/dalle-exchange-of-goods.jpeg",
-    "img/photo-mountain-from-top-of-peak.jpeg",
-    "img/dalle-warm-naps.jpeg"
+    "img/photo-mountain-from-top-of-peak.jpeg"
   ]
 }

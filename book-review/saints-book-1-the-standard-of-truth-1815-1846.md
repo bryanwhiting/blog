@@ -11,8 +11,8 @@ author: The Church of Jesus Christ of Latter-Day Saints
 book-year: 2018
 book-time: 14
 date-start: 2024-01-21 20:19:11
-date-finished: 2030-01-01
-pct-complete:
+date-finished: 2024-04-21
+pct-complete: 100
 ---
 ![Saints Book 1](../img/book-saints-volume-1-the-standard-of-truth-18151846.jpeg){.preview-image}
 

@@ -1,8 +1,84 @@
 {
   "recentFiles": [
     {
+      "basename": "the-energy-bus",
+      "path": "book-review/the-energy-bus.md"
+    },
+    {
+      "basename": "thinking-fast-and-slow",
+      "path": "book-review/thinking-fast-and-slow.md"
+    },
+    {
       "basename": "power-and-prediction",
       "path": "book-review/power-and-prediction.md"
+    },
+    {
+      "basename": "day",
+      "path": "_templates/day.md"
+    },
+    {
+      "basename": "2024-04-24",
+      "path": "goals/2024-04-24.md"
+    },
+    {
+      "basename": "baseball-season",
+      "path": "gratitude/baseball-season.md"
+    },
+    {
+      "basename": "a-small-insignificant-corner-of-the-internet",
+      "path": "gratitude/a-small-insignificant-corner-of-the-internet.md"
+    },
+    {
+      "basename": "saints-volume-2-no-unhallowed-hand",
+      "path": "book-review/saints-volume-2-no-unhallowed-hand.md"
+    },
+    {
+      "basename": "saints-book-1-the-standard-of-truth-1815-1846",
+      "path": "book-review/saints-book-1-the-standard-of-truth-1815-1846.md"
+    },
+    {
+      "basename": "black-hearts",
+      "path": "book-review/black-hearts.md"
+    },
+    {
+      "basename": "2024-04-20",
+      "path": "goals/2024-04-20.md"
+    },
+    {
+      "basename": "2024-04-19-news-notes",
+      "path": "news/2024-04-19-news-notes.md"
+    },
+    {
+      "basename": "machine-learning-q-and-ai",
+      "path": "book-review/machine-learning-q-and-ai.md"
+    },
+    {
+      "basename": "tee-ball",
+      "path": "gratitude/tee-ball.md"
+    },
+    {
+      "basename": "quivr-app-reader-api-zed",
+      "path": "news/quivr-app-reader-api-zed.md"
+    },
+    {
+      "basename": "reading-list",
+      "path": "lists/reading-list.md"
+    },
+    {
+      "basename": "2024-04-17",
+      "path": "goals/2024-04-17.md"
+    },
+    {
+      "basename": "the-linda-problem",
+      "path": "quotes/the-linda-problem.md"
+    },
+    {
+      "basename": "congfigurations",
+      "path": "silvermineai/congfigurations.md"
+    },
+    {
+      "basename": "new-post",
+      "path": "_templates/new-post.md"
     },
     {
       "basename": "configurations-for-ml-pipelines",
@@ -15,10 +91,6 @@
     {
       "basename": "2024-04-15",
       "path": "goals/2024-04-15.md"
-    },
-    {
-      "basename": "day",
-      "path": "_templates/day.md"
     },
     {
       "basename": "2024-04-14T18:41:11-07:00-4",
@@ -77,10 +149,6 @@
       "path": "gratitude/in-awe-of-ai.md"
     },
     {
-      "basename": "reading-list",
-      "path": "lists/reading-list.md"
-    },
-    {
       "basename": "my-work-team",
       "path": "gratitude/my-work-team.md"
     },
@@ -95,10 +163,6 @@
     {
       "basename": "steve-jobs",
       "path": "book-review/steve-jobs.md"
-    },
-    {
-      "basename": "thinking-fast-and-slow",
-      "path": "book-review/thinking-fast-and-slow.md"
     },
     {
       "basename": "Daniel-Kahneman-Thinking-Fast-and-Slow-",
@@ -135,70 +199,6 @@
     {
       "basename": "microsoft-copilot-notes",
       "path": "tech/microsoft-copilot-notes.md"
-    },
-    {
-      "basename": "customer-service-agents",
-      "path": "gratitude/customer-service-agents.md"
-    },
-    {
-      "basename": "a-gentleman-in-moscow",
-      "path": "book-review/a-gentleman-in-moscow.md"
-    },
-    {
-      "basename": "timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting",
-      "path": "tech/timegpt-and-lag-llama-two-foundation-models-for-time-series-forecasting.md"
-    },
-    {
-      "basename": "new-post",
-      "path": "_templates/new-post.md"
-    },
-    {
-      "basename": "jacob-1-viewing-christ",
-      "path": "christianity/jacob-1-viewing-christ.md"
-    },
-    {
-      "basename": "llms-need-to-call-functions",
-      "path": "news/llms-need-to-call-functions.md"
-    },
-    {
-      "basename": "brave-new-world",
-      "path": "book-review/brave-new-world.md"
-    },
-    {
-      "basename": "mentors",
-      "path": "gratitude/mentors.md"
-    },
-    {
-      "basename": "newsletters",
-      "path": "lists/newsletters.md"
-    },
-    {
-      "basename": "wet-suit",
-      "path": "gratitude/wet-suit.md"
-    },
-    {
-      "basename": "Jacob-2-give-freely",
-      "path": "christianity/Jacob-2-give-freely.md"
-    },
-    {
-      "basename": "marriage",
-      "path": "gratitude/marriage.md"
-    },
-    {
-      "basename": "how-to-sign-in-with-icloud-calendar-on-outlook-for-ios",
-      "path": "posts/how-to-sign-in-with-icloud-calendar-on-outlook-for-ios.md"
-    },
-    {
-      "basename": "why-you-should-log-with-aimstack",
-      "path": "tech/why-you-should-log-with-aimstack.md"
-    },
-    {
-      "basename": "ibis-dataframes-for-python-vs-pandas",
-      "path": "tech/ibis-dataframes-for-python-vs-pandas.md"
-    },
-    {
-      "basename": "adult-children-of-emotional-immature-parents",
-      "path": "book-review/adult-children-of-emotional-immature-parents.md"
     }
   ],
   "omittedPaths": [],
