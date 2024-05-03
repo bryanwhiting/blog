@@ -1,204 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "the-energy-bus",
-      "path": "book-review/the-energy-bus.md"
+      "basename": "failure-and-countermeasures-robert-rogers",
+      "path": "posts/failure-and-countermeasures-robert-rogers.md"
     },
     {
-      "basename": "thinking-fast-and-slow",
-      "path": "book-review/thinking-fast-and-slow.md"
+      "basename": "the-road",
+      "path": "book-review/the-road.md"
     },
     {
-      "basename": "power-and-prediction",
-      "path": "book-review/power-and-prediction.md"
+      "basename": "emotional-intelligence-for-sales-success",
+      "path": "book-review/emotional-intelligence-for-sales-success.md"
     },
     {
-      "basename": "day",
-      "path": "_templates/day.md"
+      "basename": "the-undoing-project",
+      "path": "book-review/the-undoing-project.md"
     },
     {
-      "basename": "2024-04-24",
-      "path": "goals/2024-04-24.md"
+      "basename": "tools-of-titans",
+      "path": "book-review/tools-of-titans.md"
     },
     {
-      "basename": "baseball-season",
-      "path": "gratitude/baseball-season.md"
-    },
-    {
-      "basename": "a-small-insignificant-corner-of-the-internet",
-      "path": "gratitude/a-small-insignificant-corner-of-the-internet.md"
-    },
-    {
-      "basename": "saints-volume-2-no-unhallowed-hand",
-      "path": "book-review/saints-volume-2-no-unhallowed-hand.md"
-    },
-    {
-      "basename": "saints-book-1-the-standard-of-truth-1815-1846",
-      "path": "book-review/saints-book-1-the-standard-of-truth-1815-1846.md"
-    },
-    {
-      "basename": "black-hearts",
-      "path": "book-review/black-hearts.md"
-    },
-    {
-      "basename": "2024-04-20",
-      "path": "goals/2024-04-20.md"
-    },
-    {
-      "basename": "2024-04-19-news-notes",
-      "path": "news/2024-04-19-news-notes.md"
-    },
-    {
-      "basename": "machine-learning-q-and-ai",
-      "path": "book-review/machine-learning-q-and-ai.md"
-    },
-    {
-      "basename": "tee-ball",
-      "path": "gratitude/tee-ball.md"
-    },
-    {
-      "basename": "quivr-app-reader-api-zed",
-      "path": "news/quivr-app-reader-api-zed.md"
-    },
-    {
-      "basename": "reading-list",
-      "path": "lists/reading-list.md"
-    },
-    {
-      "basename": "2024-04-17",
-      "path": "goals/2024-04-17.md"
-    },
-    {
-      "basename": "the-linda-problem",
-      "path": "quotes/the-linda-problem.md"
-    },
-    {
-      "basename": "congfigurations",
-      "path": "silvermineai/congfigurations.md"
+      "basename": "pinball-loss",
+      "path": "tech/pinball-loss.md"
     },
     {
       "basename": "new-post",
       "path": "_templates/new-post.md"
-    },
-    {
-      "basename": "configurations-for-ml-pipelines",
-      "path": "tech/configurations-for-ml-pipelines.md"
-    },
-    {
-      "basename": "book-power-and-prediction",
-      "path": "img/book-power-and-prediction.jpeg"
-    },
-    {
-      "basename": "2024-04-15",
-      "path": "goals/2024-04-15.md"
-    },
-    {
-      "basename": "2024-04-14T18:41:11-07:00-4",
-      "path": "logs/2024-04-14T18:41:11-07:00-4.md"
-    },
-    {
-      "basename": "memorial-service",
-      "path": "sacrament-symbols/memorial-service.md"
-    },
-    {
-      "basename": "i-dont-deserve-this-seat",
-      "path": "sacrament-symbols/i-dont-deserve-this-seat.md"
-    },
-    {
-      "basename": "index",
-      "path": "posts/2022-11-18-writing-a-tech-resume/index.md"
-    },
-    {
-      "basename": "my-advice-for-new-career-people",
-      "path": "posts/my-advice-for-new-career-people.md"
-    },
-    {
-      "basename": "everybody-gets-so-much-information-all-day-long-that-they-lose-their-common-sense",
-      "path": "quotes/everybody-gets-so-much-information-all-day-long-that-they-lose-their-common-sense.md"
-    },
-    {
-      "basename": "true-source-data",
-      "path": "quotes/true-source-data.md"
-    },
-    {
-      "basename": "2024-04-13T23:03:09-07:00-5",
-      "path": "logs/2024-04-13T23:03:09-07:00-5.md"
-    },
-    {
-      "basename": "personal-constitution",
-      "path": "posts/personal-constitution.md"
-    },
-    {
-      "basename": "manage-the-mental-game",
-      "path": "quotes/manage-the-mental-game.md"
-    },
-    {
-      "basename": "the-sec-filings",
-      "path": "gratitude/the-sec-filings.md"
-    },
-    {
-      "basename": "2024-04-13",
-      "path": "goals/2024-04-13.md"
-    },
-    {
-      "basename": "ai",
-      "path": "lists/ai.md"
-    },
-    {
-      "basename": "in-awe-of-ai",
-      "path": "gratitude/in-awe-of-ai.md"
-    },
-    {
-      "basename": "my-work-team",
-      "path": "gratitude/my-work-team.md"
-    },
-    {
-      "basename": "2024-04-11",
-      "path": "goals/2024-04-11.md"
-    },
-    {
-      "basename": "my-tombstone",
-      "path": "posts/my-tombstone.md"
-    },
-    {
-      "basename": "steve-jobs",
-      "path": "book-review/steve-jobs.md"
-    },
-    {
-      "basename": "Daniel-Kahneman-Thinking-Fast-and-Slow-",
-      "path": "PDFs/Daniel-Kahneman-Thinking-Fast-and-Slow-.pdf"
-    },
-    {
-      "basename": "whats-your-decision-framework",
-      "path": "posts/whats-your-decision-framework.md"
-    },
-    {
-      "basename": "the-peak-of-a-hike",
-      "path": "gratitude/the-peak-of-a-hike.md"
-    },
-    {
-      "basename": "2024-04-10",
-      "path": "goals/2024-04-10.md"
-    },
-    {
-      "basename": "body-language-in-public-speaking",
-      "path": "quotes/body-language-in-public-speaking.md"
-    },
-    {
-      "basename": "the-coming-wave",
-      "path": "book-review/the-coming-wave.md"
-    },
-    {
-      "basename": "2024-04-09",
-      "path": "goals/2024-04-09.md"
-    },
-    {
-      "basename": "warm-naps-on-the-couch",
-      "path": "gratitude/warm-naps-on-the-couch.md"
-    },
-    {
-      "basename": "microsoft-copilot-notes",
-      "path": "tech/microsoft-copilot-notes.md"
     }
   ],
   "omittedPaths": [],

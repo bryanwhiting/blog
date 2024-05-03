@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "20dced0d5023a0d4",
+    "id": "cd15705a980edc08",
     "type": "split",
     "children": [
       {
-        "id": "8badb52e2721377b",
+        "id": "71e1bb0c33f6a05d",
         "type": "tabs",
         "children": [
           {
-            "id": "be767112276aa446",
+            "id": "b55872dd4edb37f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/the-energy-bus.md",
+                "file": "posts/failure-and-countermeasures-robert-rogers.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,36 +25,44 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "d34faa36ccca26f6",
+    "id": "046facb6fe11c247",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "78912cccc2282195",
+        "id": "c705cac031f6fc38",
+        "type": "leaf",
+        "state": {
+          "type": "recent-files",
+          "state": {}
+        }
+      },
+      {
+        "id": "e207f64562af4f96",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
           "state": {
-            "sortOrder": "byCreatedTimeReverse"
+            "sortOrder": "alphabetical"
           }
         }
       },
       {
-        "id": "8cc9e0772b97f8cc",
+        "id": "fe7c69c5c0a522a1",
         "type": "leaf",
         "state": {
           "type": "search",
           "state": {
-            "query": "tag:#libby",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
-            "collapseAll": true,
+            "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical"
           }
         }
       },
       {
-        "id": "d05895df9667cd3d",
+        "id": "1fc324ef73a61101",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -65,18 +73,10 @@
         }
       },
       {
-        "id": "bfecc862b50abf81",
+        "id": "841398d506212e91",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
-          "state": {}
-        }
-      },
-      {
-        "id": "eaac7e078c7a8b68",
-        "type": "leaf",
-        "state": {
-          "type": "recent-files",
           "state": {}
         }
       }
@@ -84,16 +84,16 @@
     "currentTab": 0
   },
   "right": {
-    "id": "19fd6f5bf2dff652",
+    "id": "559ab374ba828b40",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "f8220e66268cf8bb",
+        "id": "4b703c7c85a56def",
         "type": "leaf",
         "state": {
           "type": "backlink",
           "state": {
-            "file": "book-review/the-energy-bus.md",
+            "file": "posts/failure-and-countermeasures-robert-rogers.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -105,24 +105,24 @@
         }
       },
       {
-        "id": "1a42507809c91484",
-        "type": "leaf",
-        "state": {
-          "type": "outline",
-          "state": {
-            "file": "book-review/the-energy-bus.md"
-          }
-        }
-      },
-      {
-        "id": "6faf53c7ef446290",
+        "id": "f5ff9f8cd04318e3",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "book-review/the-energy-bus.md",
+            "file": "posts/failure-and-countermeasures-robert-rogers.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "1b0ffea81d4ddef2",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "posts/failure-and-countermeasures-robert-rogers.md"
           }
         }
       }
@@ -131,61 +131,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "command-palette:Open command palette": false,
       "custom-sort:Toggle custom sorting": false,
       "templater-obsidian:Templater": false,
       "omnisearch:Omnisearch": false,
+      "switcher:Open quick switcher": false,
+      "command-palette:Open command palette": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "be767112276aa446",
+  "active": "b55872dd4edb37f4",
   "lastOpenFiles": [
-    "book-review/thinking-fast-and-slow.md",
-    "book-review/power-and-prediction.md",
-    "_templates/day.md",
-    "goals/2024-04-24.md",
-    "gratitude/baseball-season.md",
-    "quotes/a-man-cooks-an-egg.md",
-    "gratitude/a-small-insignificant-corner-of-the-internet.md",
-    "book-review/saints-volume-2-no-unhallowed-hand.md",
-    "book-review/saints-book-1-the-standard-of-truth-1815-1846.md",
-    "img/book-saints-volume-2-no-unhallowed-hand.jpeg",
-    "book-review/the-energy-bus.md",
-    "book-review/black-hearts.md",
-    "goals/2024-04-20.md",
-    "news/2024-04-19-news-notes.md",
-    "book-review/machine-learning-q-and-ai.md",
-    "gratitude/tee-ball.md",
-    "news/quivr-app-reader-api-zed.md",
-    "lists/reading-list.md",
-    "goals/2024-04-17.md",
-    "quotes/the-linda-problem.md",
-    "silvermineai/congfigurations.md",
+    "book-review/the-road.md",
+    "posts/failure-and-countermeasures-robert-rogers.md",
+    "book-review/emotional-intelligence-for-sales-success.md",
+    "book-review/the-undoing-project.md",
+    "book-review/tools-of-titans.md",
+    "tech/pinball-loss.md",
+    "img/screenshot-pinball-loss-molnar.jpeg",
     "_templates/new-post.md",
-    "silvermineai",
-    "Untitled",
-    "tech/configurations-for-ml-pipelines.md",
-    "img/book-power-and-prediction.jpeg",
-    "goals/2024-04-15.md",
-    "sacrament-symbols/memorial-service.md",
-    "img/dalle-bought-with-a-price.jpeg",
-    "scriptures/doctrine-and-covenants-45.3-5.md",
-    "scriptures/doctrine-and-covenants-29.5.md",
-    "img/dalle-paradise.jpeg",
-    "img/photo-go-to-the-source.jpeg",
-    "logs/2024-04-13T23:02:40-07:00-5.csv",
-    "_freeze/site_libs/reactwidget-1.0.0/react-tools.js.map",
-    "_freeze/site_libs/reactwidget-1.0.0/react-tools.js",
-    "_freeze/site_libs/reactwidget-1.0.0",
-    "_freeze/site_libs/react-18.2.0/react.min.js",
-    "_freeze/site_libs/react-18.2.0/AUTHORS",
-    "_freeze/site_libs/react-18.2.0/LICENSE.txt",
-    "_freeze/site_libs/react-18.2.0/react-dom.min.js",
-    "img/screenshot-google-ai-studio.jpeg",
-    "img/dalle-seaotter-beach-data-science.jpeg",
-    "img/screenshot-thinking-fast-and-slow-system-1.jpeg",
-    "img/dalle-exchange-of-goods.jpeg",
-    "img/photo-mountain-from-top-of-peak.jpeg"
+    "img/book-the-road.jpeg"
   ]
 }

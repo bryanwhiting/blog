@@ -6,11 +6,21 @@ updated: 2024-01-04T10:16:37
 categories: 
 draft: false
 ---
+
+# May
+- [ ] Sapiens
+- [ ] poor Charlie's Almanack
+- [ ] Siddhartha (Herman Hesse)
+
 # April
 
 - [ ] Neuromancer
-- [ ] Thinking fast and slow
+- [x] Thinking fast and slow ✅ 2024-04-29
 - [ ] The coming wave
+- [ ] Thinking in Bets
+- [ ] Nudge: The Final edition 
+- [ ] The Road #audible-free 
+- [ ] The energy bus
 
 ## March 2024
 
@@ -50,6 +60,7 @@ draft: false
 - [ ] Wealth of Nations #youtube https://www.youtube.com/watch?v=PH4B-SGf6-A #librivox #audible-credit 36hrs
 - [ ] Competing Against Luck #spotify #audible-credit 7.25hr. $13
 - [ ] Antifragile
+- [ ] The black swan 
 - [ ] Thinking in Bets, Annie Duke (coddling) #libby 7hr
 - [ ] Thinking fast and Slow 
 
@@ -79,6 +90,7 @@ To finish
 
 - [ ] Sapiens #libby
 - [ ] Guns germs and steel #libby 
+- [ ] Man's search for meaning 
 - [ ] Elon Musk #libby 
 - [x] The Oxford Inklings #spotify [The Oxford Inklings: Lewis, Tolkien and Their Circle](../book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md)
 - [x] The coddling of the American Mind #libby 
@@ -99,6 +111,9 @@ To finish
 - [ ] Feeling Good #spotify-included 13.5
 
 
+Economics 
+- [ ] Predictably Irrational #libby 
+- [ ] the Paradox of choice 
 
 Tech and Profesh development 
 
@@ -107,6 +122,13 @@ Tech and Profesh development
 - [Stanford LLM course on YouTube](https://m.youtube.com/playlist?list=PLoROMvodv4rMFqRtEuo6SGjY4XbRIVRd4)
 - Fast.ai
 - Andrew Ng course
+- [https://martin.zinkevich.org/rules\_of\_ml/rules\_of\_ml.pdf](https://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
+- [Machine learning systems design](https://huyenchip.com/machine-learning-systems-design/research-vs-production.html#performance-requirements-5DWpHYz)
+- Designing ML Systems → Chip Huyen
+
+Papers
+
+- [\[1811.12808\] Model Evaluation, Model Selection, and Algorithm Selection in Machine Learning](https://arxiv.org/abs/1811.12808)
 
 
 Random

@@ -35,7 +35,7 @@
     "basketball-time": "number",
     "book-year": "number",
     "pelo-pr-attempt": "checkbox",
-    "pct-complete": "number",
+    "pct-complete": "checkbox",
     "FHE": "checkbox",
     "date-night": "checkbox",
     "categories": "multitext",
@@ -43,6 +43,8 @@
     "pelo-res": "number",
     "bike-dist": "number",
     "bike-elev": "number",
-    "bike-time": "number"
+    "bike-time": "number",
+    "temple": "date",
+    "finished": "checkbox"
   }
 }

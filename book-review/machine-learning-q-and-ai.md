@@ -14,6 +14,14 @@ pct-complete:
 ---
 
 
+2024-04-30
+
+- Lottery ticket hypothesis: take a full model and prune it down to get the same performance. Reweight. Rebalance. Simplify. Iterate. The multiple things. 
+
+2024-04-29
+
+- when doing image classification you 1) label the data and 2) create batches of support sets and query sets, 3) training episodes where you update and reweight the embedding a best classify the query set classes. 
+
 2024-04-18
 
 Chapter 2
