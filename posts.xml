@@ -9,8 +9,31 @@
 <link>https://www.bryanwhiting.com/posts.html</link>
 <atom:link href="https://www.bryanwhiting.com/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.553</generator>
-<lastBuildDate>Thu, 11 Apr 2024 20:19:05 GMT</lastBuildDate>
+<generator>quarto-1.4.554</generator>
+<lastBuildDate>Thu, 02 May 2024 13:46:31 GMT</lastBuildDate>
+<item>
+  <title>Failure and Countermeasures - Robert Rogers</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/failure-and-countermeasures-robert-rogers.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Robert rogers.</p>
+<p>What leads to death? And what are preparatory countermeasures?</p>
+<section id="defining-death-for-me" class="level2">
+<h2 class="anchored" data-anchor-id="defining-death-for-me">Defining death for me:</h2>
+
+
+</section>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <guid>https://www.bryanwhiting.com/posts/failure-and-countermeasures-robert-rogers.html</guid>
+  <pubDate>Thu, 02 May 2024 13:46:31 GMT</pubDate>
+</item>
 <item>
   <title>My Advice for New Career People</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -1105,38 +1128,6 @@ with zipfile.ZipFile(zip_file_path, "w") as zipf:
   <category>purpose of life</category>
   <guid>https://www.bryanwhiting.com/posts/you-can-plan-your-life-in-5-minutes.html</guid>
   <pubDate>Fri, 12 Jan 2024 22:44:00 GMT</pubDate>
-</item>
-<item>
-  <title>Junk attracts Junk</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/junk-attracts-junk.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Ever throw the shoes <em>by</em> the shoe rack? Or leave <em>one</em> dish in the sink? You know what happens: an avalanche.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-one-bowl.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">All it takes is one bowl</figcaption>
-</figure>
-</div>
-<p>Badly formatted code attracts more badly formatted code.</p>
-<p>But the same is for good: a clean floor makes you want to keep it clean.</p>
-<p>So what explains the fulcrum - where is the balance between accepting dire straights vs pushing for perfection? We oscillate between these worlds as our attention wanders.</p>
-<p>I’m guessing the fulcrum is based on incentives. Guests coming over? Clean up the house. Boss reviewing? Clean the code.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>posts</category>
-  <category>laws of human nature</category>
-  <category>observations</category>
-  <category>philosophy</category>
-  <guid>https://www.bryanwhiting.com/posts/junk-attracts-junk.html</guid>
-  <pubDate>Fri, 12 Jan 2024 00:07:09 GMT</pubDate>
 </item>
 </channel>
 </rss>

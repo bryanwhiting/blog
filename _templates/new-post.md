@@ -63,7 +63,7 @@ book-year: 2029
 book-time: 0
 date-start: "${date}"
 date-finished: "${date}"
-pct-complete:`;
+finished:`;
 } 
 
 if (folder === 'goals') {  
