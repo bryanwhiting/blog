@@ -10,7 +10,41 @@
 <atom:link href="https://www.bryanwhiting.com/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.554</generator>
-<lastBuildDate>Thu, 02 May 2024 13:46:31 GMT</lastBuildDate>
+<lastBuildDate>Wed, 08 May 2024 21:36:55 GMT</lastBuildDate>
+<item>
+  <title>New business Checklist</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/new-business-checklist.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Getting paid is easy. Getting paid the right way is harder.</p>
+<p>You don’t need to have an LLC.</p>
+<ol type="1">
+<li>Get an address. You can use your own, but safer to pay $10/mo for a postal box. I use Ipostal.com</li>
+<li>File an LLC. Use Incfile. Get it done right if you’re doing this business with a partner.</li>
+<li>Using the EIN, go register a small business bank account. I chose Chase only because they do</li>
+<li>Create a website.</li>
+<li>Accounting software (Freshbooks)</li>
+<li>On Freshbooks you can connect to strip. You need a website first.</li>
+<li>Get an email provider. (Outlook or Google) You don’t need a website to do email, but you do need a domain. You can have anyone host your website, anyone register your name, and anyone do your email. But the company that registers your url will be the place where you manage your DNS records to set up your email.</li>
+<li>Track your expenses separately. They’re all a tax write off.
+<ol type="1">
+<li>Get a separate credit card, perhaps a small business credit card, for just this purpose.</li>
+</ol></li>
+<li></li>
+</ol>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <guid>https://www.bryanwhiting.com/posts/new-business-checklist.html</guid>
+  <pubDate>Wed, 08 May 2024 21:36:55 GMT</pubDate>
+</item>
 <item>
   <title>Failure and Countermeasures - Robert Rogers</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -1095,39 +1129,6 @@ with zipfile.ZipFile(zip_file_path, "w") as zipf:
   <category>social media</category>
   <guid>https://www.bryanwhiting.com/posts/the-problem-with-public-opinions.html</guid>
   <pubDate>Tue, 16 Jan 2024 22:19:58 GMT</pubDate>
-</item>
-<item>
-  <title>You can plan your life in 5 minutes</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/you-can-plan-your-life-in-5-minutes.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>It doesn’t take 30 years to plan a good life. It’s actually quite simple and if you sit down for 5 minutes you can figure out the following:</p>
-<ul>
-<li>do you like where you’re at? Heading? No? Where do you want to go? Why? What do you need to change to get there?</li>
-</ul>
-<p>That’s it.</p>
-<p>No fancy grand vision. No elaborate planning. Just maybe 15 minutes to plan ahead.</p>
-<p>The speed of planning is 0.01% of the effort required to execute. “We’re going to the moon by the end of the decade”. Plan. Done. Execution is hard.</p>
-<p>Ideas are fleeting. Plans are changeable. Plans and ideas aren’t the IP of your company. It’s the people and the execution. Thats the hard part.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/photo-sunrise-on-hike.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">We’ve been to the moon. Now let’s go to the sun.</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>posts</category>
-  <category>purpose of life</category>
-  <guid>https://www.bryanwhiting.com/posts/you-can-plan-your-life-in-5-minutes.html</guid>
-  <pubDate>Fri, 12 Jan 2024 22:44:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
