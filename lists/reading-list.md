@@ -6,22 +6,41 @@ updated: 2024-01-04T10:16:37
 categories: 
 draft: false
 ---
+# Month
+Libby 
 
-# May
+Audible-free
+
+Spotify-included
+
+Audible-Buy
+
+
+
+## May
 - [ ] Sapiens
+-
+
 - [ ] poor Charlie's Almanack
 - [ ] Siddhartha (Herman Hesse)
 
-# April
+Spotify:
+- [ ] $100M offers
+- [ ] $100M leads
+
+## April
 
 - [ ] Neuromancer
 - [x] Thinking fast and slow ✅ 2024-04-29
 - [ ] The coming wave
-- [ ] Thinking in Bets
-- [ ] Nudge: The Final edition 
-- [ ] The Road #audible-free 
-- [ ] The energy bus
+- [ ] [Thinking in Bets](../book-review/thinking-in-bets.md) #libby 
+- [ ] Nudge: The Final edition #spotify-included 
+- [x] The Road #audible-free ✅ 2024-05-08
+- [ ] The energy bus #spotify-included 
+- [ ] [The Undoing Project](../book-review/the-undoing-project.md) 
 
+
+# Past Months
 ## March 2024
 
 - [x] [The Great Gatsby](../book-review/the-great-gatsby.md) 
@@ -51,7 +70,7 @@ draft: false
 ***
 # Backlog
 
-### Business books/Self Help
+## Business books/Self Help
 
 - [x] How to win friends and influence people #spotify #libby  
 - [ ] This is Marketing #audible-credit 
@@ -61,10 +80,11 @@ draft: false
 - [ ] Competing Against Luck #spotify #audible-credit 7.25hr. $13
 - [ ] Antifragile
 - [ ] The black swan 
-- [ ] Thinking in Bets, Annie Duke (coddling) #libby 7hr
-- [ ] Thinking fast and Slow 
+- [ ] Thinking in Bets, Annie Duke  #libby 7hr
+- [x] Thinking fast and Slow ✅ 2024-05-08
+- [ ]  The Vagus Nerve Reset #audible-credit 
 
-### Fiction
+## Fiction
 
 - [x] The Great Gatsby #libby 
 - [x] #libby [Brave New World](../book-review/brave-new-world.md)
@@ -82,11 +102,11 @@ draft: false
 - [ ] Kite Runner 
 - [ ] [A Gentleman in Moscow](../book-review/a-gentleman-in-moscow.md)
 
-To finish
+## To finish
 
 - [ ] 1984 #youtube
 
-### Biography/History/Anthropology
+## Biography/History/Anthropology
 
 - [ ] Sapiens #libby
 - [ ] Guns germs and steel #libby 
@@ -101,8 +121,9 @@ To finish
 - [x] Band of Brothers (February rec)
 - [ ] The lessons of history (February Rec)
 - [ ] Valley of Genius: The Uncensored History of Silicon Valey
+- [ ]  Dale Carnegie Lincoln the Unknown #audible-credit 9.5hr
 
-### Religion and Philosophy
+## Religion and Philosophy
 - [ ] Paradise Lost and Paradise Regained #libby 
 - [x] Mere Christianity #libby 
 - [ ] The Place of the Lion #audible-credit #spotify 7.5
@@ -111,11 +132,11 @@ To finish
 - [ ] Feeling Good #spotify-included 13.5
 
 
-Economics 
+## Economics 
 - [ ] Predictably Irrational #libby 
 - [ ] the Paradox of choice 
 
-Tech and Profesh development 
+## Tech and Profesh development 
 
 - Accelerate: the science of lean software and devops. #audible-credit 
 - Superforecasting #audible-credit 
@@ -126,12 +147,16 @@ Tech and Profesh development
 - [Machine learning systems design](https://huyenchip.com/machine-learning-systems-design/research-vs-production.html#performance-requirements-5DWpHYz)
 - Designing ML Systems → Chip Huyen
 
-Papers
+## Papers
 
-- [\[1811.12808\] Model Evaluation, Model Selection, and Algorithm Selection in Machine Learning](https://arxiv.org/abs/1811.12808)
+- [ ] [\[1811.12808\] Model Evaluation, Model Selection, and Algorithm Selection in Machine Learning](https://arxiv.org/abs/1811.12808) 
+- [ ] [Hierarchical Forecasting at Scale](https://arxiv.org/html/2310.12809v2)
+- [ ] [Rob J Hyndman – Forecasting with temporal hierarchies](https://robjhyndman.com/publications/temporal-hierarchies/)
 
 
-Random
+
+
+## Random
 
 - General patten 
 - Angels book (historical fiction)
@@ -140,19 +165,14 @@ Random
 
 
 
-
-
 - [x] the worry cure: 3.5hrs #spotify-included 
 - Freeing your Child from Anxiety: 8hrs #spotify-included
 - [x] [killers-of-the-flower-moonyfg if](book-review/killers-of-the-flower-moonyfg%20if.md)
 - [x] [how-to-decide-simple-tools-for-making-better-choices](book-review/how-to-decide-simple-tools-for-making-better-choices.md)
-- [ ] Dale Carnegie Lincoln the Unknown #audible-credit 9.5hr
 
 Libby:
 
 - [x] [Dune](../book-review/dune.md)
-
-- [ ] The Quest for ...
 
 Literature
 
@@ -163,9 +183,8 @@ Literature
 - [ ] In Search of lost time
 - [ ] Beloved - Toni Morrison
 - [ ] Catcher in the Rye
-- [ ] Of mice and men
+- [x] Of mice and men ✅ 2024-05-08
 - [ ] Grapes of Wrath
 
 Psychology 
-- [ ] Heal your Nervous System #libby 
-- [ ] The Vagus Nerve Reset #audible-credit 
+- [x] Heal your Nervous System #libby ✅ 2024-05-08

@@ -13,6 +13,15 @@ date-finished: 2024-04-21 15:30:33
 pct-complete:
 ---
 
+2024-05-12
+
+Chapter 15. 
+- Martin and Willie handcart maps: https://www.churchofjesuschrist.org/bc/content/shared/content/images/gospel-library/manual/10590/map-willie-martin-handcart_1179884.pdf
+
+
+
+
+
 ![Saints Volume 2: No Unhallowed Hand](../img/book-saints-volume-2-no-unhallowed-hand.jpeg){.preview-image}
 
 
