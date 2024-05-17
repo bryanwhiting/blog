@@ -476,6 +476,12 @@
 
 
 
+<p>2024-05-16</p>
+<p>Chapter 5</p>
+<ul>
+<li>Reduce overfitting by getting more quality data</li>
+<li>Augment your data (Mixups) to prevent overfitting.</li>
+</ul>
 <p>2024-04-30</p>
 <ul>
 <li>Lottery ticket hypothesis: take a full model and prune it down to get the same performance. Reweight. Rebalance. Simplify. Iterate. The multiple things.</li>

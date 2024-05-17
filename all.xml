@@ -10,7 +10,78 @@
 <atom:link href="https://www.bryanwhiting.com/all.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.554</generator>
-<lastBuildDate>Thu, 09 May 2024 11:38:08 GMT</lastBuildDate>
+<lastBuildDate>Wed, 15 May 2024 20:03:50 GMT</lastBuildDate>
+<item>
+  <title>A Treatise on Agency and Goals</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/a-treatise-on-agency-and-goals.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I may have ADHD to some degree, I’m not sure. These thoughts came to me today when considering my side business.</p>
+<hr>
+<section id="a-treatise-on-desire-uncertainty-commitment-and-execution-toward-a-goal." class="level2">
+<h2 class="anchored" data-anchor-id="a-treatise-on-desire-uncertainty-commitment-and-execution-toward-a-goal.">A treatise on desire, uncertainty, commitment, and execution toward a goal.</h2>
+<p>Descartes proposed that if you pick a direction and walk in a straight line you’ll eventually leave the forest. This assumes you want to leave the forest.</p>
+<p>A desire is a persistent yearning. Desires take root and, when nurtured, become reality.</p>
+<p>An achieved desire is a blend of hope, faith, and charity. A hope (goal) is the edge of the forest. Walking is faith (belief + action). Charity is long suffering and persistence - the ability to maintain hope and faith.</p>
+<p>A hope is envisioned or observed. If observed, there is believed certainty in achievement, with uncertainty in the path. An envisioned hope has uncertainty in both the path and the outcome. You might die trying. Envisioned hopes are impossible only when the path is not made clear. Thought makes the path clear.</p>
+<p>A clear path is a plan. A plan is a sequence of informed choices and actions leading towards a goal, a consequence. A causal effect. Reconnaissance is the finite time and energy spent collecting information. Reason invites spending time and energy proportional to the cost or impact of the plan and goal. Judgment determines which choices and actions are taken.</p>
+<p>Commitment is recognizing many roads lead to Rome, and only one of them can be walked to actually get there.</p>
+<p>Luck is unknown things. Some things could have been known with more reconnaissance. Other things could never have been known or anticipated. Luck either enables or disables the path. Luck happens post plan, post deliberation. It’s the unknown distance between you and the forest’s edge. Hindsight bias is the present mind’s ability to mistakenly believe uncertainty was always certain. “I should have known” is an oxymoron.</p>
+<p>Enabling luck makes possible the goal. Disabling luck makes difficult the goal, perhaps impossible. Impossible is usually a state of mind or the laws of physics, but usually never both.</p>
+<p>Tilt is the mist of blindness caused by the presence of luck. Tilt distracts from information and commitment, a bias caused by observed outcomes that were previously uncertain.</p>
+<p>Commitment is time and energy. Time is measured by rotations of the earth or attempts made. Energy is measured by willingness to roll the dice again.</p>
+<p>Commitment is also reconnaissance. More actions, more information. Ignorance is choosing not to see the information. Stubbornness is seeing it, and maintaining the status quo for thrill of ego. Humility is hunger for more information.</p>
+<p>Uncertainty invites fear and worry. Perceived time spent amplifies fear and worry. Uncertainty in the path. Uncertainty in the destination, etc.</p>
+<p>A plan is the process of committing to something knowing that hindsight bias creeps in with each step. The plan mitigates the drag of hindsight bias.</p>
+<p>Fear and anxiety are compounded when accomplishment doesn’t happen within perceived time. Human nature is to lose all track of time when in a task, so time should be planned for. Time to evaluate the plan and assess new information should also be decided in the plan.</p>
+<p>Commitment to the plan is a recognition of the infallibility of human emotion. Judgment is evaluating if the plan could be improved, and the plan includes time/effort-base checkpoints for evaluation. Commitment is the recognition that, while the direction you’re heading may not be the right one, (shortest path between you and the edge of the forest which you can’t know at onset), walkikg straight is better than circling from changing direction multiple times. Straight lines are incapable of not exiting. Circles may exit but are capable of not exiting.</p>
+<p>If new information overrides understood information at the time of the plan, and changes the decision that would have been made given the circumstances at the time of the plan, then wisdom and humility is the ability to change direction despite how many miles walked (sunk cost).</p>
+<p>Walking in a straight line in business is “walking in accordance to the plan”. The time spent deliberating the plan should be proportional to the costs and benefits of the action, which requires judgment. Inspiration is praying that God will guide you and enable your plan.</p>
+<p>Arrogance is believing you have infinite energy and time. Optimism is appreciating that any mile walked strengthens your legs, that the direction you chose may not match the imagined ideal. Self awareness is appreciating that the human mind is capable of any imagination, and few imaginations consider accurately all costs or benefits of reality. Imaginations are powerful, but can cause circling, and are most powerful during the plan. After the plan, use imagination to accomplish it. Before the plan, use imagination to design it. But don’t use imagination during the plan to redesign it, I.e, avoid circling.</p>
+<p>Action gets stuff done.</p>
+
+
+</section>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <guid>https://www.bryanwhiting.com/posts/a-treatise-on-agency-and-goals.html</guid>
+  <pubDate>Wed, 15 May 2024 20:03:50 GMT</pubDate>
+</item>
+<item>
+  <title>Machine Learninf Resources</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/machine-learning-resources.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>ML</p>
+<ul>
+<li><a href="https://github.com/tensorchord/Awesome-LLMOps">GitHub - tensorchord/Awesome-LLMOps: An awesome &amp; curated list of best LLMOps tools for developers</a>
+<ul>
+<li>Has a lot of autoML tools</li>
+</ul></li>
+<li></li>
+</ul>
+<p>ML experiment tracking - <a href="https://github.com/awesome-mlops/awesome-ml-experiment-management">GitHub - awesome-mlops/awesome-ml-experiment-management: A curated list of awesome open source tools and commercial products for ML Experiment Tracking and Management 🚀</a></p>
+<p>ML Books: - <a href="https://github.com/josephmisiti/awesome-machine-learning/blob/master/books.md">awesome-machine-learning/books.md at master · josephmisiti/awesome-machine-learning · GitHub</a> - https://quarto.org/docs/gallery/#books</p>
+<p>Awesome LLM - https://github.com/Hannibal046/Awesome-LLM</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <guid>https://www.bryanwhiting.com/posts/machine-learning-resources.html</guid>
+  <pubDate>Wed, 15 May 2024 11:14:04 GMT</pubDate>
+</item>
 <item>
   <title>$100M Offers</title>
   <dc:creator>Alex Hormozi</dc:creator>
@@ -695,66 +766,6 @@
   <category>book-review</category>
   <guid>https://www.bryanwhiting.com/book-review/the-energy-bus.html</guid>
   <pubDate>Sat, 20 Apr 2024 19:55:09 GMT</pubDate>
-</item>
-<item>
-  <title>I’m Grateful for Tee Ball</title>
-  <link>https://www.bryanwhiting.com/gratitude/tee-ball.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>The first thing I saw was 10 kids piling onto a loose ball. It was exactly the chaos I’d hope for.</p>
-<p>I look around. I see beautiful green hills. I see parents cheering on their kids. I see kids having fun.</p>
-<p>I’m not really sure other things could make me happier than being in a beautiful place with the people I love.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>gratitude</category>
-  <category>family</category>
-  <guid>https://www.bryanwhiting.com/gratitude/tee-ball.html</guid>
-  <pubDate>Wed, 17 Apr 2024 23:47:41 GMT</pubDate>
-</item>
-<item>
-  <title>Machine Learning Q and AI</title>
-  <dc:creator>Sebastian Raschka</dc:creator>
-  <link>https://www.bryanwhiting.com/book-review/machine-learning-q-and-ai.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>2024-04-30</p>
-<ul>
-<li>Lottery ticket hypothesis: take a full model and prune it down to get the same performance. Reweight. Rebalance. Simplify. Iterate. The multiple things.</li>
-</ul>
-<p>2024-04-29</p>
-<ul>
-<li>when doing image classification you 1) label the data and 2) create batches of support sets and query sets, 3) training episodes where you update and reweight the embedding a best classify the query set classes.</li>
-</ul>
-<p>2024-04-18</p>
-<p>Chapter 2</p>
-<ul>
-<li>you can unsupervise learn something by adding noise to the truth and minimizing the distance in the embeddings between truth and noisy truth and maximize distance from something else.</li>
-<li>Transfer learning: one general model, then update the target variable and dataset for a smaller model.</li>
-</ul>
-<p>2024-04-17</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/book-machine-learning-q-and-ai.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Machine Learning Q and AI</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book-review</category>
-  <guid>https://www.bryanwhiting.com/book-review/machine-learning-q-and-ai.html</guid>
-  <pubDate>Tue, 16 Apr 2024 20:26:32 GMT</pubDate>
 </item>
 </channel>
 </rss>
