@@ -213,4 +213,3 @@ I've loved the advice I found written up here: [Writing a Tech Resume](2022-11-1
 Once you have a good resume, find real people to give it to. Dont apply blindly online. Talk to everyone you know. Find people on LinkedIn and message them directly with a personal message. Use one of your blog posts in your message to tell them why you're a good fit for their role. Perhaps even write a blog post specific to data from their company!
 
 Good luck!
-

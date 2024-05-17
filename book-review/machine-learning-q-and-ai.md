@@ -13,6 +13,12 @@ date-finished: 2024-04-16 20:26:32
 pct-complete:
 ---
 
+2024-05-16
+
+Chapter 5
+
+- Reduce overfitting by getting more quality data 
+- Augment your data (Mixups) to prevent overfitting. 
 
 2024-04-30
 

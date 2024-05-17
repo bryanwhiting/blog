@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/100m-offers.md",
+                "file": "book-review/machine-learning-q-and-ai.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "book-review/100m-offers.md",
+            "file": "book-review/machine-learning-q-and-ai.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "book-review/100m-offers.md",
+            "file": "book-review/machine-learning-q-and-ai.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -122,7 +122,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "book-review/100m-offers.md"
+            "file": "book-review/machine-learning-q-and-ai.md"
           }
         }
       }
@@ -141,9 +141,18 @@
   },
   "active": "b55872dd4edb37f4",
   "lastOpenFiles": [
+    "goals/2024-05-11.md",
+    "goals/2024-05-12.md",
+    "goals/2024-05-13.md",
+    "goals/2024-05-14.md",
+    "goals/2024-05-15.md",
+    "goals/2024-05-16.md",
+    "posts/a-treatise-on-agency-and-goals.md",
+    "posts/machine-learning-resources.md",
+    "posts/a-10-week-self-guided-data-science-intro-course.md",
+    "book-review/100m-offers.md",
     "book-review/saints-volume-2-no-unhallowed-hand.md",
     "sacrament-symbols/motherhood.md",
-    "book-review/100m-offers.md",
     "book-review/thinking-in-bets.md",
     "lists/reading-list.md",
     "img/book-100m-offers.jpeg",

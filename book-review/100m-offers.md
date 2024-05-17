@@ -7,11 +7,11 @@ categories:
   - sales
 draft: false
 author: Alex Hormozi
-book-year: 2029
-book-time: 0
+book-year: 2021
+book-time: 5
 date-start: 2024-05-09 11:38:08
-date-finished: 2024-05-09 11:38:08
-finished:
+date-finished: 2024-05-15
+finished: true
 ---
 
 
