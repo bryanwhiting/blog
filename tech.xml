@@ -10,7 +10,27 @@
 <atom:link href="https://www.bryanwhiting.com/tech.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.554</generator>
-<lastBuildDate>Wed, 01 May 2024 21:07:02 GMT</lastBuildDate>
+<lastBuildDate>Fri, 17 May 2024 21:53:38 GMT</lastBuildDate>
+<item>
+  <title>Mojo programming language</title>
+  <link>https://www.bryanwhiting.com/tech/mojo-programming-language.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Someone decided to create Python syntax but with type checking built in.</p>
+<p><a href="https://docs.modular.com/mojo/manual/basics">Introduction to Mojo | Modular Docs</a></p>
+<p>Python look and feel, but much faster.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <guid>https://www.bryanwhiting.com/tech/mojo-programming-language.html</guid>
+  <pubDate>Fri, 17 May 2024 21:53:38 GMT</pubDate>
+</item>
 <item>
   <title>Pinball Loss</title>
   <link>https://www.bryanwhiting.com/tech/pinball-loss.html</link>
@@ -883,31 +903,6 @@ print(df)</code></pre>
   <category>tech</category>
   <guid>https://www.bryanwhiting.com/tech/5-questions-you-should-ask-before-adopting-ai.html</guid>
   <pubDate>Tue, 20 Feb 2024 09:07:57 GMT</pubDate>
-</item>
-<item>
-  <title>News Notes for 2024-02-18</title>
-  <link>https://www.bryanwhiting.com/news/2024-02-18-news-notes.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p><a href="https://open.substack.com/pub/whytryai/p/10x-ai-39-open-ai-sora-google-gemini-1-5?r=2ri91a&amp;utm_medium=ios&amp;utm_campaign=post">10X AI (Issue #39): Open AI’s Sora, Google’s Gemini 1.5, Stable Cascade, and a “Hand Ox?”</a></p>
-<ul>
-<li>NVIDIA lets you chat with your docs privately using llama</li>
-<li>Sora is far better than other video platforms</li>
-<li>Google Gemini 1.5 can find content deep within a video pretty incredibly</li>
-<li>Stable cascade lets you do text to video</li>
-</ul>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>news</category>
-  <category>ai tools</category>
-  <guid>https://www.bryanwhiting.com/news/2024-02-18-news-notes.html</guid>
-  <pubDate>Sun, 18 Feb 2024 21:10:52 GMT</pubDate>
 </item>
 </channel>
 </rss>
