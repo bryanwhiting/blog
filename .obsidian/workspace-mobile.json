@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/machine-learning-q-and-ai.md",
+                "file": "tech/mojo-programming-language.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 1
   },
   "right": {
     "id": "559ab374ba828b40",
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "book-review/machine-learning-q-and-ai.md",
+            "file": "tech/mojo-programming-language.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "book-review/machine-learning-q-and-ai.md",
+            "file": "tech/mojo-programming-language.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -122,7 +122,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "book-review/machine-learning-q-and-ai.md"
+            "file": "tech/mojo-programming-language.md"
           }
         }
       }
@@ -141,6 +141,11 @@
   },
   "active": "b55872dd4edb37f4",
   "lastOpenFiles": [
+    "book-review/100m-leads.md",
+    "tech/mojo-programming-language.md",
+    "book-review/get-anyone-to-do-anything.md",
+    "img/book-$100m-leads.jpeg",
+    "book-review/machine-learning-q-and-ai.md",
     "goals/2024-05-11.md",
     "goals/2024-05-12.md",
     "goals/2024-05-13.md",
@@ -164,9 +169,7 @@
     "book-review/emotional-intelligence-for-sales-success.md",
     "book-review/the-undoing-project.md",
     "book-review/tools-of-titans.md",
-    "tech/pinball-loss.md",
     "img/screenshot-pinball-loss-molnar.jpeg",
-    "_templates/new-post.md",
     "img/book-the-road.jpeg"
   ]
 }
