@@ -10,7 +10,37 @@
 <atom:link href="https://www.bryanwhiting.com/all.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.4.554</generator>
-<lastBuildDate>Fri, 17 May 2024 21:53:38 GMT</lastBuildDate>
+<lastBuildDate>Mon, 20 May 2024 13:27:32 GMT</lastBuildDate>
+<item>
+  <title>The Lord of the Rings - The Fellowship of the Ring</title>
+  <dc:creator>J.R.R Tolkein</dc:creator>
+  <link>https://www.bryanwhiting.com/book-review/the-lord-of-the-rings-the-fellowship-of-the-ring.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>2024-05-20</p>
+<ul>
+<li>he typed it by hand</li>
+<li>Goal to write a long story</li>
+</ul>
+<p>Chapter 2 - it fell upon me but I did not know it then - Frodo goes on a journey nobody from his land will know what he did for the world. → like the Savior. - Do not kill him with your judgment. He may serve a purpose yet.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/book-the-lord-of-the-rings-the-fellowship-of-the-ring.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">The Lord of the Rings The Fellowship of the Ring</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book-review</category>
+  <guid>https://www.bryanwhiting.com/book-review/the-lord-of-the-rings-the-fellowship-of-the-ring.html</guid>
+  <pubDate>Mon, 20 May 2024 13:27:32 GMT</pubDate>
+</item>
 <item>
   <title>Mojo programming language</title>
   <link>https://www.bryanwhiting.com/tech/mojo-programming-language.html</link>
@@ -718,29 +748,6 @@
   <category>gratitude</category>
   <guid>https://www.bryanwhiting.com/gratitude/baseball-season.html</guid>
   <pubDate>Tue, 23 Apr 2024 23:04:44 GMT</pubDate>
-</item>
-<item>
-  <title>I’m Grateful for A small, insignificant corner of the internet</title>
-  <link>https://www.bryanwhiting.com/gratitude/a-small-insignificant-corner-of-the-internet.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>As I’m perusing LinkedIn today, I see comments from past colleagues. It’s quite incredible to be able to connect in this way.</p>
-<p>But also incredibly unnatural, from the long-standing view of humanity.</p>
-<p>Humanity has always been about connecting people. Writing letters. Going on walks. Standing in the town square to share your message.</p>
-<p>The internet is now the town square. And humans are manipulating the robots that command our attention. All social media sites optimize for time spent on their platform. More eyeballs.</p>
-<p>That’s why it’s exhausting and addictive to continue to scroll.</p>
-<p>Today, I’m grateful I don’t have to keep scrolling. I have a life to live.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>gratitude</category>
-  <guid>https://www.bryanwhiting.com/gratitude/a-small-insignificant-corner-of-the-internet.html</guid>
-  <pubDate>Sun, 21 Apr 2024 20:18:48 GMT</pubDate>
 </item>
 </channel>
 </rss>
