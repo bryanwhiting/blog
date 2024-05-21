@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/mojo-programming-language.md",
+                "file": "book-review/the-lord-of-the-rings-the-fellowship-of-the-ring.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "tech/mojo-programming-language.md",
+            "file": "book-review/the-lord-of-the-rings-the-fellowship-of-the-ring.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "tech/mojo-programming-language.md",
+            "file": "book-review/the-lord-of-the-rings-the-fellowship-of-the-ring.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -122,7 +122,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "tech/mojo-programming-language.md"
+            "file": "book-review/the-lord-of-the-rings-the-fellowship-of-the-ring.md"
           }
         }
       }
@@ -141,8 +141,12 @@
   },
   "active": "b55872dd4edb37f4",
   "lastOpenFiles": [
-    "book-review/100m-leads.md",
+    "book-review/power-and-prediction.md",
+    "book-review/the-lord-of-the-rings-the-fellowship-of-the-ring.md",
+    "goals/2024-05-18.md",
+    "goals/2024-05-19.md",
     "tech/mojo-programming-language.md",
+    "book-review/100m-leads.md",
     "book-review/get-anyone-to-do-anything.md",
     "img/book-$100m-leads.jpeg",
     "book-review/machine-learning-q-and-ai.md",
@@ -165,10 +169,6 @@
     "goals/2024-05-08.md",
     "book-review/the-road.md",
     "logs/2024-05-04T14:53:14-07:00-water-16.md",
-    "posts/failure-and-countermeasures-robert-rogers.md",
-    "book-review/emotional-intelligence-for-sales-success.md",
-    "book-review/the-undoing-project.md",
-    "book-review/tools-of-titans.md",
     "img/screenshot-pinball-loss-molnar.jpeg",
     "img/book-the-road.jpeg"
   ]

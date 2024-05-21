@@ -15,7 +15,7 @@ book-year: 2022
 book-time: 10.5
 date-start: 2024-04-12 21:40:40
 date-finished: 2024-04-15
-pct-complete: 100
+pct-complete: true
 ---
 
 Takeaways:
