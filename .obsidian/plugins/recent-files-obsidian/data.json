@@ -1,8 +1,76 @@
 {
   "recentFiles": [
     {
+      "basename": "this-is-marketing",
+      "path": "book-review/this-is-marketing.md"
+    },
+    {
+      "basename": "building-a-story-brand",
+      "path": "book-review/building-a-story-brand.md"
+    },
+    {
+      "basename": "almost-at-first-1k",
+      "path": "silvermineai/almost-at-first-1k.md"
+    },
+    {
+      "basename": "100m-leads",
+      "path": "book-review/100m-leads.md"
+    },
+    {
+      "basename": "17-appointments-what",
+      "path": "silvermineai/17-appointments-what.md"
+    },
+    {
+      "basename": "3-signed-customers-and-perhaps-1-2-more-coming-this-week",
+      "path": "silvermineai/3-signed-customers-and-perhaps-1-2-more-coming-this-week.md"
+    },
+    {
+      "basename": "day-two-of-calls",
+      "path": "silvermineai/day-two-of-calls.md"
+    },
+    {
+      "basename": "the-lord-of-the-rings-the-return-of-the-king",
+      "path": "book-review/the-lord-of-the-rings-the-return-of-the-king.md"
+    },
+    {
+      "basename": "the-lord-of-the-rings-the-two-towers",
+      "path": "book-review/the-lord-of-the-rings-the-two-towers.md"
+    },
+    {
+      "basename": "designing-machine-learning-systems",
+      "path": "book-review/designing-machine-learning-systems.md"
+    },
+    {
+      "basename": "reading-list",
+      "path": "lists/reading-list.md"
+    },
+    {
+      "basename": "machine-learning-resources",
+      "path": "posts/machine-learning-resources.md"
+    },
+    {
+      "basename": "saints-volume-2-no-unhallowed-hand",
+      "path": "book-review/saints-volume-2-no-unhallowed-hand.md"
+    },
+    {
+      "basename": "a-10-week-self-guided-data-science-intro-course",
+      "path": "posts/a-10-week-self-guided-data-science-intro-course.md"
+    },
+    {
+      "basename": "ab-testing-resources",
+      "path": "tech/ab-testing-resources.md"
+    },
+    {
+      "basename": "get-anyone-to-do-anything",
+      "path": "book-review/get-anyone-to-do-anything.md"
+    },
+    {
       "basename": "the-lord-of-the-rings-the-fellowship-of-the-ring",
       "path": "book-review/the-lord-of-the-rings-the-fellowship-of-the-ring.md"
+    },
+    {
+      "basename": "our-eyes-track-red",
+      "path": "christianity/our-eyes-track-red.md"
     },
     {
       "basename": "power-and-prediction",
@@ -19,14 +87,6 @@
     {
       "basename": "mojo-programming-language",
       "path": "tech/mojo-programming-language.md"
-    },
-    {
-      "basename": "100m-leads",
-      "path": "book-review/100m-leads.md"
-    },
-    {
-      "basename": "get-anyone-to-do-anything",
-      "path": "book-review/get-anyone-to-do-anything.md"
     },
     {
       "basename": "machine-learning-q-and-ai",
@@ -61,20 +121,8 @@
       "path": "posts/a-treatise-on-agency-and-goals.md"
     },
     {
-      "basename": "machine-learning-resources",
-      "path": "posts/machine-learning-resources.md"
-    },
-    {
-      "basename": "a-10-week-self-guided-data-science-intro-course",
-      "path": "posts/a-10-week-self-guided-data-science-intro-course.md"
-    },
-    {
       "basename": "100m-offers",
       "path": "book-review/100m-offers.md"
-    },
-    {
-      "basename": "saints-volume-2-no-unhallowed-hand",
-      "path": "book-review/saints-volume-2-no-unhallowed-hand.md"
     },
     {
       "basename": "motherhood",
@@ -83,10 +131,6 @@
     {
       "basename": "thinking-in-bets",
       "path": "book-review/thinking-in-bets.md"
-    },
-    {
-      "basename": "reading-list",
-      "path": "lists/reading-list.md"
     },
     {
       "basename": "new-business-checklist",

@@ -21,3 +21,5 @@ ML Books:
 Awesome LLM
 - https://github.com/Hannibal046/Awesome-LLM
 
+Free Statistics books:
+- [Causal Inference in R](https://www.r-causal.org/)

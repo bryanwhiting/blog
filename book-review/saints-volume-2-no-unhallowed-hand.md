@@ -13,6 +13,20 @@ date-finished: 2024-04-21 15:30:33
 pct-complete:
 ---
 
+
+2024-05-26
+
+- amazing how much they went through even after moving to Utah. 
+- People claiming they were leaders. 
+	- William Gibson. 
+- Indignation meeting
+- Martin Harris' visit
+- 
+
+> We have got the gospel,” he said, “but if we expect to receive the benefits of it, we have got to live according to its precepts.”
+
+- salt lake tribune used to be Mormon tribune. Founded by those who have seances. 
+
 2024-05-12
 
 Chapter 15. 

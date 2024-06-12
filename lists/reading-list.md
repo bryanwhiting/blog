@@ -146,6 +146,7 @@ Spotify:
 - [https://martin.zinkevich.org/rules\_of\_ml/rules\_of\_ml.pdf](https://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
 - [Machine learning systems design](https://huyenchip.com/machine-learning-systems-design/research-vs-production.html#performance-requirements-5DWpHYz)
 - Designing ML Systems → Chip Huyen
+- [Causal Inference in R](https://www.r-causal.org/)
 
 ## Papers
 

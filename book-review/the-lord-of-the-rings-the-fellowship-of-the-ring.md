@@ -13,6 +13,11 @@ date-finished: 2024-05-20 13:27:32
 finished:
 ---
 
+
+2024-05-22
+
+- how would life be if you were Tom and knew all incantations and had all power, but let the world be?
+
 2024-05-20
 
 - he typed it by hand
