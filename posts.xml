@@ -9,7 +9,7 @@
 <link>https://www.bryanwhiting.com/posts.html</link>
 <atom:link href="https://www.bryanwhiting.com/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.554</generator>
+<generator>quarto-1.4.555</generator>
 <lastBuildDate>Wed, 15 May 2024 20:03:50 GMT</lastBuildDate>
 <item>
   <title>A Treatise on Agency and Goals</title>
@@ -74,6 +74,7 @@
 <p>ML experiment tracking - <a href="https://github.com/awesome-mlops/awesome-ml-experiment-management">GitHub - awesome-mlops/awesome-ml-experiment-management: A curated list of awesome open source tools and commercial products for ML Experiment Tracking and Management 🚀</a></p>
 <p>ML Books: - <a href="https://github.com/josephmisiti/awesome-machine-learning/blob/master/books.md">awesome-machine-learning/books.md at master · josephmisiti/awesome-machine-learning · GitHub</a> - https://quarto.org/docs/gallery/#books</p>
 <p>Awesome LLM - https://github.com/Hannibal046/Awesome-LLM</p>
+<p>Free Statistics books: - <a href="https://www.r-causal.org/">Causal Inference in R</a></p>
 
 
 
