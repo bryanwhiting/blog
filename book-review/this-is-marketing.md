@@ -11,15 +11,27 @@ author: Seth Godin
 book-year: 2018
 book-time: 7
 date-start: 2024-06-10 22:37:59
-date-finished: 2024-06-10 22:37:59
-finished:
+date-finished: 2024-06-19
+finished: true
 ---
+
+2024-06-13
+
+- be clear about who it's for and who it's not 
+
+Simple marketing promise 
+
+1. My product is for people who believe ...
+2. I will focus on people who want ...
+3. I promise that by engaging with what I make you will get...
+
+C
 
 
 2024-06-11
 
 - psychographics. Not demographics. What stories people tell themselves. 
-- 1 Inc drill bit. → hole → shelf → status of having done it → appreciation 
+- 1 Inc drill bit. → shole → shelf → status of having done it → appreciation 
 - Being specific is brave. Solving for anyone is easy. Solving for one is brave. Because either you do or you don't. 
 
 

@@ -42,7 +42,7 @@
         "state": {
           "type": "file-explorer",
           "state": {
-            "sortOrder": "alphabetical"
+            "sortOrder": "alphabeticalReverse"
           }
         }
       },
@@ -79,9 +79,17 @@
           "type": "bookmarks",
           "state": {}
         }
+      },
+      {
+        "id": "4d787912f324a723",
+        "type": "leaf",
+        "state": {
+          "type": "file-tree-view",
+          "state": {}
+        }
       }
     ],
-    "currentTab": 2
+    "currentTab": 5
   },
   "right": {
     "id": "559ab374ba828b40",
@@ -136,16 +144,25 @@
       "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "command-palette:Open command palette": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
       "periodic-notes:Open today": false
     }
   },
   "active": "b55872dd4edb37f4",
   "lastOpenFiles": [
+    "silvermineai/since-june-7th.md",
+    "silvermineai/zoning-out.md",
+    "logs/2024-06-14T18:11:30-07:00-pushups-21.md",
+    "img/2024-06-16-1406-mark-uses-40-dollars",
+    "silvermineai/paying-people.md",
+    "Pasted image 20240616142008.png",
+    "Pasted image 20240616141503.png",
+    "book-review/this-is-marketing.md",
+    "silvermineai/i-cant-believe-this-is-happening.md",
     "book-review/building-a-story-brand.md",
     "silvermineai/almost-at-first-1k.md",
     "book-review/100m-leads.md",
     "silvermineai/17-appointments-what.md",
-    "book-review/this-is-marketing.md",
     "silvermineai/3-signed-customers-and-perhaps-1-2-more-coming-this-week.md",
     "silvermineai/day-two-of-calls.md",
     "book-review/the-lord-of-the-rings-the-return-of-the-king.md",
@@ -162,12 +179,7 @@
     "book-review/power-and-prediction.md",
     "goals/2024-05-18.md",
     "goals/2024-05-19.md",
-    "tech/mojo-programming-language.md",
     "img/book-$100m-leads.jpeg",
-    "book-review/machine-learning-q-and-ai.md",
-    "goals/2024-05-11.md",
-    "goals/2024-05-12.md",
-    "goals/2024-05-13.md",
     "img/book-100m-offers.jpeg",
     "img/screenshot-pinball-loss-molnar.jpeg",
     "img/book-the-road.jpeg"
