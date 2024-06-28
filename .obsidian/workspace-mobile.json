@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/this-is-marketing.md",
+                "file": "silvermineai/a-tale-of-two-price-mentalities.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "book-review/this-is-marketing.md",
+            "file": "silvermineai/a-tale-of-two-price-mentalities.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "book-review/this-is-marketing.md",
+            "file": "silvermineai/a-tale-of-two-price-mentalities.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -130,7 +130,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "book-review/this-is-marketing.md"
+            "file": "silvermineai/a-tale-of-two-price-mentalities.md"
           }
         }
       }
@@ -148,8 +148,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b55872dd4edb37f4",
+  "active": "4d787912f324a723",
   "lastOpenFiles": [
+    "img/2024-06-27-1106-what-do-you-have-to-lose",
+    "silvermineai/three-cold-calls.md",
+    "silvermineai/a-tale-of-two-price-mentalities.md",
+    "posts/productivity.md",
+    "book-review/how-to-get-to-the-top-of-google.md",
+    "silvermineai/leaky-bucket.md",
+    "book-review/the-lord-of-the-rings-the-return-of-the-king.md",
+    "book-review/this-is-marketing.md",
     "silvermineai/since-june-7th.md",
     "silvermineai/zoning-out.md",
     "logs/2024-06-14T18:11:30-07:00-pushups-21.md",
@@ -157,7 +165,6 @@
     "silvermineai/paying-people.md",
     "Pasted image 20240616142008.png",
     "Pasted image 20240616141503.png",
-    "book-review/this-is-marketing.md",
     "silvermineai/i-cant-believe-this-is-happening.md",
     "book-review/building-a-story-brand.md",
     "silvermineai/almost-at-first-1k.md",
@@ -165,7 +172,6 @@
     "silvermineai/17-appointments-what.md",
     "silvermineai/3-signed-customers-and-perhaps-1-2-more-coming-this-week.md",
     "silvermineai/day-two-of-calls.md",
-    "book-review/the-lord-of-the-rings-the-return-of-the-king.md",
     "book-review/the-lord-of-the-rings-the-two-towers.md",
     "book-review/designing-machine-learning-systems.md",
     "lists/reading-list.md",
@@ -173,12 +179,6 @@
     "book-review/saints-volume-2-no-unhallowed-hand.md",
     "posts/a-10-week-self-guided-data-science-intro-course.md",
     "tech/ab-testing-resources.md",
-    "book-review/get-anyone-to-do-anything.md",
-    "book-review/the-lord-of-the-rings-the-fellowship-of-the-ring.md",
-    "christianity/our-eyes-track-red.md",
-    "book-review/power-and-prediction.md",
-    "goals/2024-05-18.md",
-    "goals/2024-05-19.md",
     "img/book-$100m-leads.jpeg",
     "img/book-100m-offers.jpeg",
     "img/screenshot-pinball-loss-molnar.jpeg",

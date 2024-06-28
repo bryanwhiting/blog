@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "a-tale-of-two-price-mentalities",
+      "path": "silvermineai/a-tale-of-two-price-mentalities.md"
+    },
+    {
+      "basename": "three-cold-calls",
+      "path": "silvermineai/three-cold-calls.md"
+    },
+    {
+      "basename": "productivity",
+      "path": "posts/productivity.md"
+    },
+    {
+      "basename": "how-to-get-to-the-top-of-google",
+      "path": "book-review/how-to-get-to-the-top-of-google.md"
+    },
+    {
+      "basename": "leaky-bucket",
+      "path": "silvermineai/leaky-bucket.md"
+    },
+    {
+      "basename": "the-lord-of-the-rings-the-return-of-the-king",
+      "path": "book-review/the-lord-of-the-rings-the-return-of-the-king.md"
+    },
+    {
       "basename": "this-is-marketing",
       "path": "book-review/this-is-marketing.md"
     },
@@ -51,10 +75,6 @@
     {
       "basename": "day-two-of-calls",
       "path": "silvermineai/day-two-of-calls.md"
-    },
-    {
-      "basename": "the-lord-of-the-rings-the-return-of-the-king",
-      "path": "book-review/the-lord-of-the-rings-the-return-of-the-king.md"
     },
     {
       "basename": "the-lord-of-the-rings-the-two-towers",
@@ -179,18 +199,6 @@
     {
       "basename": "the-undoing-project",
       "path": "book-review/the-undoing-project.md"
-    },
-    {
-      "basename": "tools-of-titans",
-      "path": "book-review/tools-of-titans.md"
-    },
-    {
-      "basename": "pinball-loss",
-      "path": "tech/pinball-loss.md"
-    },
-    {
-      "basename": "new-post",
-      "path": "_templates/new-post.md"
     }
   ],
   "omittedPaths": [],
