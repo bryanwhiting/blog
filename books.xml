@@ -9,8 +9,180 @@
 <link>https://www.bryanwhiting.com/books.html</link>
 <atom:link href="https://www.bryanwhiting.com/books.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.555</generator>
-<lastBuildDate>Mon, 10 Jun 2024 22:37:59 GMT</lastBuildDate>
+<generator>quarto-1.4.557</generator>
+<lastBuildDate>Mon, 24 Jun 2024 14:08:45 GMT</lastBuildDate>
+<item>
+  <title>How to Get to the Top of Google</title>
+  <dc:creator>Tim Cameron-Kitchen</dc:creator>
+  <link>https://www.bryanwhiting.com/book-review/how-to-get-to-the-top-of-google.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="how-to-get-to-the-top-of-google-book-review" class="level1 page-columns page-full">
+<h1>How to Get to the Top of Google Book Review</h1>
+<p>Thankyouninjas.com</p>
+<p>Tools - https://hemingwayapp.com/ - https://www.copyscape.com/ - Linkexplorer.com - schema.org - validator.schema.org - pagespeed.web.dev - tools.pingdom.com</p>
+<p>Articles - <a href="https://www.wordstream.com/blog/ws/2021/09/15/what-is-schema-markup">What is Schema Markup &amp; 6 Easy Types for Small Business</a> - Add to home, contact, and about page. - Local business schema.</p>
+<p>Audit - temrs - similar Terms - Competitors who rank for that more than others. - Uniqueness of content - Site maps and headers - Mobile friendly - Core web vitals - pagespeed.web.dev - &lt; 1s load time - Is site map submitted to Google Search Console?</p>
+<p>Tips:</p>
+<ul>
+<li>only one H1</li>
+<li>Meta description 150 characters</li>
+<li>Title tags</li>
+<li>Descriptions</li>
+<li>Create a knowledge base</li>
+<li>Multiple pages per each FAQ</li>
+<li>Google search console. Analyze
+<ul>
+<li>Knowledge base.</li>
+<li>Keyword research</li>
+</ul></li>
+<li>Location-specific pages</li>
+<li>Blog content → specific. Helpful. Interesting. Not a news feed.
+<ul>
+<li>Search volumes. Semrush.</li>
+<li>headings are clarifying questions</li>
+<li>Target keywords are in title</li>
+<li>300-1000 words.</li>
+<li>Optimize
+<ul>
+<li>Does this blog use one h1?</li>
+<li>Are posts assign</li>
+<li>Is there a CTA at end of the post?</li>
+<li>Does blog link out to other websites as necessary. Open in a new tab to not lose traffic.</li>
+<li>Check mistakes with grammarly</li>
+<li>xheck All anchor tags</li>
+<li>Hemingway readibility</li>
+</ul></li>
+</ul></li>
+<li>Page titles are most important thing. Include keywords.
+<ul>
+<li>page title &lt; 55 chars</li>
+<li>meta description. Not super important. Enticing.
+<ul>
+<li>Main USP (free 24 delivery)</li>
+<li>Include target keywords</li>
+<li>155 characters.</li>
+<li>Tell them “free cancellation”.</li>
+</ul></li>
+<li>Avoid keyword stuffing. Simple and direct.</li>
+</ul></li>
+<li>Meta keywords
+<ul>
+<li>Easy to manipulate and</li>
+<li>Research what keywords your competitors</li>
+<li>Image alt text. Name the image itself descriptively</li>
+</ul></li>
+<li>Schema markup
+<ul>
+<li>1/3 sites use it.</li>
+</ul></li>
+<li>Speed
+<ul>
+<li>Time between caches. W3totalcache</li>
+<li>compress images. Ewwwimageoptikizer</li>
+<li>Prioritize visible content → content that appears above the fold.</li>
+<li>Server location</li>
+<li>Cloudflare → stores caches of data as</li>
+</ul></li>
+<li>Google search console
+<ul>
+<li>Add website.</li>
+<li>Add property to verify ownership.</li>
+<li>Submit sitemap.</li>
+</ul></li>
+<li>Websites doing only AI content get banned</li>
+<li>SGE → AI overviews
+<ul>
+<li>Get straight to the point at the top of the page. Answer to a single question at top of a paragraph. → take influence from the AI overview. → ranked quickly.</li>
+<li>What queries bring up AI overview?</li>
+<li>Submit article to search console</li>
+</ul></li>
+<li>Procedure:
+<ul>
+<li>Focus on highest priority first.</li>
+</ul></li>
+<li>Ignore people who weren’t going to click anyway. Find the minimum viable population. <a href="../book-review/this-is-marketing.html">This is Marketing</a></li>
+<li>Getting backlinks
+<ul>
+<li>Things that matter
+<ul>
+<li>Content</li>
+<li>Links</li>
+<li>Rankbrain (AI)</li>
+</ul></li>
+<li>Real backlinks matter more.</li>
+</ul></li>
+<li>Link acquisition basics.
+<ul>
+<li>Domain authority: moz
+<ul>
+<li>1-100</li>
+</ul></li>
+<li>link profile</li>
+<li>Page authority. PA.</li>
+<li>Trust flow: majestic.com
+<ul>
+<li>score based on quality.</li>
+</ul></li>
+<li>CF: citation flow
+<ul>
+<li>Link power.</li>
+</ul></li>
+</ul></li>
+<li>Get seen on directories</li>
+<li>PR: the customer is the editor. How does your blog post meet their needs?
+<ul>
+<li>Editors need to provide their audience with content.</li>
+<li>Include an image. Original. Geotagged.<br>
+</li>
+</ul></li>
+<li>Link acquisition strategy
+<ul>
+<li>You gov survey.</li>
+<li>Infographics. Send to press.</li>
+<li>blog must be Worth talking about.</li>
+</ul></li>
+<li>Journalist inquiry service
+<ul>
+<li>#journalistrequest on Twitter</li>
+</ul></li>
+</ul>
+<p>Google.com/business - get social profiles optimized. - Get lots of revjews - most don’t care. - Automate review collection process. - Follow up email sequence. - Don’t buy. - Fake reviews from fake profiles. - Automate collection. - “Please leave us a message on Google!”</p>
+<section id="design-and-implement-strategy-section-4" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="design-and-implement-strategy-section-4">Design and implement strategy: section 4</h2>
+<ul>
+<li>get website</li>
+<li>Then links and promotion.</li>
+<li><a href="https://exposureninja.com/90mmm-content/">90 Minute Marketing Masterplan | Exposure Ninja</a></li>
+</ul>
+<p>Checklist - Is site mobile friendly? - Pages for every product/servuce? - Pages for every location? - 300 words in each page - Blog? - does it say What the business does on every page?</p>
+<p>Step 2 keyword targeting - your aite - their site - Commercial intent (ads?)</p>
+<p>Step 3 competitors - Links. Authority of those links</p>
+<p>Step 5 basic links - citations - Social media</p>
+<p>Step 6 - content marketing. - Content calendar. Plans week to reach out to. Article ideas. - Quality of blog</p>
+<p>Step 7 - review</p>
+<p>Call to action is a form of anchoring and priming. <a href="../book-review/this-is-marketing.html">This is Marketing</a> <a href="../book-review/thinking-fast-and-slow.html">Thinking, Fast and Slow</a></p>
+<p>I need an email campaign.</p>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/book-how-to-get-to-the-top-of-google.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">How to Get to the Top of Google</figcaption>
+</figure>
+</div>
+
+
+</section>
+</section>
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book-review</category>
+  <guid>https://www.bryanwhiting.com/book-review/how-to-get-to-the-top-of-google.html</guid>
+  <pubDate>Mon, 24 Jun 2024 14:08:45 GMT</pubDate>
+</item>
 <item>
   <title>This is Marketing</title>
   <dc:creator>Seth Godin</dc:creator>
@@ -950,36 +1122,6 @@
   <category>book-review</category>
   <guid>https://www.bryanwhiting.com/book-review/the-coming-wave.html</guid>
   <pubDate>Mon, 08 Apr 2024 14:31:57 GMT</pubDate>
-</item>
-<item>
-  <title>A Gentleman in Moscow</title>
-  <dc:creator>Amor Towles</dc:creator>
-  <link>https://www.bryanwhiting.com/book-review/a-gentleman-in-moscow.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>2024-04-06</p>
-<ul>
-<li>cool setup. Guy stuck in</li>
-<li>Gentlemen use a desk</li>
-<li>We put attachment into things. But at the end they’re just things.</li>
-</ul>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/book-a-gentleman-in-moscow.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Gentleman in Moscow</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book-review</category>
-  <guid>https://www.bryanwhiting.com/book-review/a-gentleman-in-moscow.html</guid>
-  <pubDate>Fri, 05 Apr 2024 20:19:37 GMT</pubDate>
 </item>
 </channel>
 </rss>
