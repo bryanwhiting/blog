@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "silvermineai/a-tale-of-two-price-mentalities.md",
+                "file": "goals/2024-06-26.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "silvermineai/a-tale-of-two-price-mentalities.md",
+            "file": "goals/2024-06-26.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "silvermineai/a-tale-of-two-price-mentalities.md",
+            "file": "goals/2024-06-26.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -130,7 +130,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "silvermineai/a-tale-of-two-price-mentalities.md"
+            "file": "goals/2024-06-26.md"
           }
         }
       }
@@ -144,15 +144,23 @@
       "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "command-palette:Open command palette": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
-      "periodic-notes:Open today": false
+      "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "4d787912f324a723",
+  "active": "b55872dd4edb37f4",
   "lastOpenFiles": [
+    "goals/2024-06-27.md",
+    "goals/2024-06-26.md",
+    "goals/2024-06-28.md",
+    "goals/2024-06-29.md",
+    "goals/2024-06-30.md",
+    "tech/galileo-ai-ui-generator.md",
+    "book-review/seo-work-book.md",
+    "silvermineai/the-overwhelming-chaos.md",
+    "img/book-seo-work-book.jpeg",
+    "silvermineai/a-tale-of-two-price-mentalities.md",
     "img/2024-06-27-1106-what-do-you-have-to-lose",
     "silvermineai/three-cold-calls.md",
-    "silvermineai/a-tale-of-two-price-mentalities.md",
     "posts/productivity.md",
     "book-review/how-to-get-to-the-top-of-google.md",
     "silvermineai/leaky-bucket.md",
@@ -172,13 +180,6 @@
     "silvermineai/17-appointments-what.md",
     "silvermineai/3-signed-customers-and-perhaps-1-2-more-coming-this-week.md",
     "silvermineai/day-two-of-calls.md",
-    "book-review/the-lord-of-the-rings-the-two-towers.md",
-    "book-review/designing-machine-learning-systems.md",
-    "lists/reading-list.md",
-    "posts/machine-learning-resources.md",
-    "book-review/saints-volume-2-no-unhallowed-hand.md",
-    "posts/a-10-week-self-guided-data-science-intro-course.md",
-    "tech/ab-testing-resources.md",
     "img/book-$100m-leads.jpeg",
     "img/book-100m-offers.jpeg",
     "img/screenshot-pinball-loss-molnar.jpeg",
