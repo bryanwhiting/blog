@@ -9,8 +9,51 @@
 <link>https://www.bryanwhiting.com/all.html</link>
 <atom:link href="https://www.bryanwhiting.com/all.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.557</generator>
-<lastBuildDate>Tue, 25 Jun 2024 22:09:17 GMT</lastBuildDate>
+<generator>quarto-1.5.53</generator>
+<lastBuildDate>Sat, 29 Jun 2024 21:42:25 GMT</lastBuildDate>
+<item>
+  <title>SEO Work Book</title>
+  <dc:creator>Jason McDonald</dc:creator>
+  <link>https://www.bryanwhiting.com/book-review/seo-work-book.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>2024-06-29</p>
+<ul>
+<li>goal</li>
+<li>what job does your website want to be hired for (job search)</li>
+<li>what words would someone search to find that (keywords)</li>
+<li>Optimize your page to be seen (resume)</li>
+<li>landing page (interview)</li>
+</ul>
+<p>Keyword research. - what’s everything someone might search.</p>
+<p>https://www.woorank.com/en/extension - searches meta name and description. Title.</p>
+<p>Sign up for Google ads to get keyword planner and synonyms</p>
+<ul>
+<li>Bing keywords webmaster</li>
+<li><a href="https://www.jm-seo.org/dashboard/seo/">SEO Dashboard by Jason McDonald - JM Internet</a></li>
+<li><a href="https://www.google.com/webmasters/markup-helper/u/0/?hl=en">Google Structured Data Markup Helper</a></li>
+</ul>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/book-seo-work-book.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">SEO Work Book</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book-review</category>
+  <category>seo</category>
+  <category>marketing</category>
+  <category>digital marketing</category>
+  <guid>https://www.bryanwhiting.com/book-review/seo-work-book.html</guid>
+  <pubDate>Sat, 29 Jun 2024 21:42:25 GMT</pubDate>
+</item>
 <item>
   <title>Productivity</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -897,42 +940,6 @@
   <category>book-review</category>
   <guid>https://www.bryanwhiting.com/book-review/the-road.html</guid>
   <pubDate>Wed, 01 May 2024 18:18:42 GMT</pubDate>
-</item>
-<item>
-  <title>Tools of Titans</title>
-  <dc:creator>Timothy Ferriss</dc:creator>
-  <link>https://www.bryanwhiting.com/book-review/tools-of-titans.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>2024-05-01</p>
-<ul>
-<li>Amelia boon</li>
-<li>experiment → expert. Try. Experience. You become an expert by trying a lot of things.</li>
-<li>Bad conditions, but good for you → the best thing I could ask for. That’s where champions are born. (Bath night)</li>
-</ul>
-<p>2024-04-30</p>
-<p>Intro:</p>
-<ul>
-<li>forget your weaknesses. Pray for help on those. For the rest of the time, go all in on your strengths.</li>
-<li>My strengths are: 1) organization, 2) planning, 3) creative thinking, 4) debugging, 5) persistence, 6) learning.</li>
-</ul>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/book-tools-of-titans.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Tools of Titans</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book-review</category>
-  <guid>https://www.bryanwhiting.com/book-review/tools-of-titans.html</guid>
-  <pubDate>Tue, 30 Apr 2024 15:33:07 GMT</pubDate>
 </item>
 </channel>
 </rss>
