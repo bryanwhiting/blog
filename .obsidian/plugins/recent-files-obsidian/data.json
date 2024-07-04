@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "schema-markup-video",
+      "path": "tech/schema-markup-video.md"
+    },
+    {
+      "basename": "seo-work-book",
+      "path": "book-review/seo-work-book.md"
+    },
+    {
+      "basename": "cold-calling-a-cold-caller",
+      "path": "silvermineai/cold-calling-a-cold-caller.md"
+    },
+    {
+      "basename": "book-seo-work-book",
+      "path": "img/book-seo-work-book.jpeg"
+    },
+    {
       "basename": "2024-06-26",
       "path": "goals/2024-06-26.md"
     },
@@ -23,10 +39,6 @@
     {
       "basename": "galileo-ai-ui-generator",
       "path": "tech/galileo-ai-ui-generator.md"
-    },
-    {
-      "basename": "seo-work-book",
-      "path": "book-review/seo-work-book.md"
     },
     {
       "basename": "the-overwhelming-chaos",
@@ -187,18 +199,6 @@
     {
       "basename": "2024-05-15",
       "path": "goals/2024-05-15.md"
-    },
-    {
-      "basename": "2024-05-16",
-      "path": "goals/2024-05-16.md"
-    },
-    {
-      "basename": "a-treatise-on-agency-and-goals",
-      "path": "posts/a-treatise-on-agency-and-goals.md"
-    },
-    {
-      "basename": "100m-offers",
-      "path": "book-review/100m-offers.md"
     }
   ],
   "omittedPaths": [],

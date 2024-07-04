@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "goals/2024-06-26.md",
+                "file": "tech/schema-markup-video.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "goals/2024-06-26.md",
+            "file": "tech/schema-markup-video.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "goals/2024-06-26.md",
+            "file": "tech/schema-markup-video.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -130,7 +130,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "goals/2024-06-26.md"
+            "file": "tech/schema-markup-video.md"
           }
         }
       }
@@ -144,20 +144,23 @@
       "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "command-palette:Open command palette": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "b55872dd4edb37f4",
   "lastOpenFiles": [
-    "goals/2024-06-27.md",
+    "book-review/seo-work-book.md",
+    "tech/schema-markup-video.md",
+    "silvermineai/cold-calling-a-cold-caller.md",
+    "img/book-seo-work-book.jpeg",
     "goals/2024-06-26.md",
+    "goals/2024-06-27.md",
     "goals/2024-06-28.md",
     "goals/2024-06-29.md",
     "goals/2024-06-30.md",
     "tech/galileo-ai-ui-generator.md",
-    "book-review/seo-work-book.md",
     "silvermineai/the-overwhelming-chaos.md",
-    "img/book-seo-work-book.jpeg",
     "silvermineai/a-tale-of-two-price-mentalities.md",
     "img/2024-06-27-1106-what-do-you-have-to-lose",
     "silvermineai/three-cold-calls.md",
@@ -178,8 +181,6 @@
     "silvermineai/almost-at-first-1k.md",
     "book-review/100m-leads.md",
     "silvermineai/17-appointments-what.md",
-    "silvermineai/3-signed-customers-and-perhaps-1-2-more-coming-this-week.md",
-    "silvermineai/day-two-of-calls.md",
     "img/book-$100m-leads.jpeg",
     "img/book-100m-offers.jpeg",
     "img/screenshot-pinball-loss-molnar.jpeg",

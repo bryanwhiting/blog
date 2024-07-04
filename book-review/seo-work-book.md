@@ -16,6 +16,12 @@ date-finished: 2024-06-29 21:42:25
 finished:
 ---
 
+2024-07-03
+
+- what is a breadcrumb trail? Home > Electronics > Mobile Phones > Smartphones > iPhone 14 → breadcrumb trail can reduce bounce rates. 
+	- https://support.duda.co/hc/en-us/articles/8817295915287-Breadcrumbs-Widget
+- Keywords should be hierarchical and should reflect the hierarchy of the website. 
+
 2024-06-29
 
 - goal
