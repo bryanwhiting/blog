@@ -10,7 +10,33 @@
 <atom:link href="https://www.bryanwhiting.com/all.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.53</generator>
-<lastBuildDate>Sat, 29 Jun 2024 21:42:25 GMT</lastBuildDate>
+<lastBuildDate>Wed, 03 Jul 2024 23:02:06 GMT</lastBuildDate>
+<item>
+  <title>Schema Markup video</title>
+  <link>https://www.bryanwhiting.com/tech/schema-markup-video.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>https://youtu.be/8z_KQv2vBpM?si=vjVztfIe5RCx3M-c</p>
+<ul>
+<li><p>Duda has a plugin to do this</p></li>
+<li><p>Every blog post has article schema</p></li>
+<li><p>Merkle website: technicalSeo.com</p></li>
+<li><p>Rich text results to test the schema markup</p></li>
+<li><p>Create breadcrumbs for your site. A nice hierarchy is more scrapabke.</p></li>
+<li><p><a href="https://developer.duda.co/docs/local-business-schema">Duda Local Business Schema</a></p></li>
+</ul>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <guid>https://www.bryanwhiting.com/tech/schema-markup-video.html</guid>
+  <pubDate>Wed, 03 Jul 2024 23:02:06 GMT</pubDate>
+</item>
 <item>
   <title>SEO Work Book</title>
   <dc:creator>Jason McDonald</dc:creator>
@@ -21,6 +47,14 @@
 
 
 
+<p>2024-07-03</p>
+<ul>
+<li>what is a breadcrumb trail? Home &gt; Electronics &gt; Mobile Phones &gt; Smartphones &gt; iPhone 14 → breadcrumb trail can reduce bounce rates.
+<ul>
+<li>https://support.duda.co/hc/en-us/articles/8817295915287-Breadcrumbs-Widget</li>
+</ul></li>
+<li>Keywords should be hierarchical and should reflect the hierarchy of the website.</li>
+</ul>
 <p>2024-06-29</p>
 <ul>
 <li>goal</li>
@@ -857,89 +891,6 @@
   <category>tech</category>
   <guid>https://www.bryanwhiting.com/tech/pinball-loss.html</guid>
   <pubDate>Wed, 01 May 2024 21:07:02 GMT</pubDate>
-</item>
-<item>
-  <title>The Road</title>
-  <dc:creator>Cormac McCarthy</dc:creator>
-  <link>https://www.bryanwhiting.com/book-review/the-road.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Thoughts:</p>
-<ul>
-<li>I felt like most of the book was hard to follow. All the flowery detail had themes in it I wanted to take something from but decided it wasn’t worth rewinding for. So I stuck high level to the dialogue.</li>
-<li>The most powerful moment was the father saying “you’re not the one who has to worry about everything” and the boy replies, “yes I am”. He’s the one that has to worry because he’s going to survive while his dad dies.</li>
-<li>His dad said he’d join his son in death, but didn’t tell his son to join him.</li>
-<li>The father was a good scavenger, but there was a group following them the whole time and he never noticed.</li>
-<li>survival is about movement. I think in many ways we’re all choosing to move somewhere. Gotta keep moving, or else you die. Even in a world filled with death, movement is life.</li>
-<li></li>
-</ul>
-<p>2024-05-07</p>
-<ul>
-<li>you’re not the one who has to worry about everything. → yes, I am. I am the one. → they hold the fire.</li>
-<li>Theme: the conscience of a child. He saved his dad from becoming like the rest: savages.
-<ul>
-<li>A scared child offers to help.</li>
-<li>A scared adult fights to survive.</li>
-</ul></li>
-<li>Child avoids going places that makes him scared.</li>
-</ul>
-<p>2024-05-06</p>
-<ul>
-<li>there’s no certainty about anything expect death: “there’s no fathers and no book. They’re all dead” yet he doesn’t</li>
-<li>Death is the only thing down the road for anybody</li>
-<li>We carry the light.</li>
-<li></li>
-</ul>
-<p>2024-05-05</p>
-<ul>
-<li>as I reflect on the halfway point: there’s probably more about this book than initially seems.</li>
-<li>The world he walks in is devoid of any law. Just tribes and loners walking the planes. That’s perhaps how people would operate if there’s no society.</li>
-<li>Interestingly, human nature is such that it seeks tribes within societies. Teams to root for. Alliances at work. Political factions. In essence, we’re the same scavengers but dressed up somewhat because of these laws. But within the laws, we still do those base human things.</li>
-</ul>
-<p>2024-05-04</p>
-<ul>
-<li>theme: kid saying let’s go vs dad saying let’s go.</li>
-<li>#Theme: is killing yourself or a loved one better than suffering the horrors of being alive? <a href="../book-review/of-mice-and-men.html">Of Mice and Men</a> and Lenny’s fate.
-<ul>
-<li>Dad debating if he can kill his son</li>
-</ul></li>
-<li>Can’t help people you want to help if you don’t have the resources.</li>
-</ul>
-<p>Questions: - Where are they going? Why south? - Who are the factions? How do they know the factions?</p>
-<p>2024-05-03</p>
-<ul>
-<li>what’s the difference between what never was and what never will be?</li>
-</ul>
-<p>2024-05-02</p>
-<ul>
-<li>you forget what you want to remember and remember what you want to forget</li>
-<li>Dreams of men in peril should be of peril, otherwise they’re just mirages.
-<ul>
-<li>→ dream in reality.</li>
-<li>Impossible to wake from the day dream.</li>
-</ul></li>
-</ul>
-<p>2024-05-01</p>
-<ul>
-<li></li>
-</ul>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/book-the-road.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">The Road</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book-review</category>
-  <guid>https://www.bryanwhiting.com/book-review/the-road.html</guid>
-  <pubDate>Wed, 01 May 2024 18:18:42 GMT</pubDate>
 </item>
 </channel>
 </rss>

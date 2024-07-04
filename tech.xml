@@ -10,7 +10,33 @@
 <atom:link href="https://www.bryanwhiting.com/tech.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.53</generator>
-<lastBuildDate>Fri, 17 May 2024 21:53:38 GMT</lastBuildDate>
+<lastBuildDate>Wed, 03 Jul 2024 23:02:06 GMT</lastBuildDate>
+<item>
+  <title>Schema Markup video</title>
+  <link>https://www.bryanwhiting.com/tech/schema-markup-video.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>https://youtu.be/8z_KQv2vBpM?si=vjVztfIe5RCx3M-c</p>
+<ul>
+<li><p>Duda has a plugin to do this</p></li>
+<li><p>Every blog post has article schema</p></li>
+<li><p>Merkle website: technicalSeo.com</p></li>
+<li><p>Rich text results to test the schema markup</p></li>
+<li><p>Create breadcrumbs for your site. A nice hierarchy is more scrapabke.</p></li>
+<li><p><a href="https://developer.duda.co/docs/local-business-schema">Duda Local Business Schema</a></p></li>
+</ul>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <guid>https://www.bryanwhiting.com/tech/schema-markup-video.html</guid>
+  <pubDate>Wed, 03 Jul 2024 23:02:06 GMT</pubDate>
+</item>
 <item>
   <title>Mojo programming language</title>
   <link>https://www.bryanwhiting.com/tech/mojo-programming-language.html</link>
@@ -856,53 +882,6 @@ print(df)</code></pre>
   <category>startups</category>
   <guid>https://www.bryanwhiting.com/tech/the-baby.html</guid>
   <pubDate>Sun, 03 Mar 2024 21:24:29 GMT</pubDate>
-</item>
-<item>
-  <title>5 Questions You Should Ask Before Adopting AI</title>
-  <link>https://www.bryanwhiting.com/tech/5-questions-you-should-ask-before-adopting-ai.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>I see a lot of executives dive into AI with a fury of excitement - the possibilities are endless. As it results, chatbots offering used cars for $1, refund policies you don’t want to stand behind and having the system generate fake legal briefs (<a href="../tech/three-ai-failures-needing-guardrails.html">Air Canada’s failed AI-generated Refund Policy and other AI mishaps: When you need guardrails on your AI</a>).</p>
-<p>I see this with experienced executives saying “I want to just infuse my product with AI.” For example, “I’ve got 100 PDFs and a wealth of knowledge that I want to integrate into my app”.</p>
-<p>Imagine you’re an unknown artist. What’s more likely for success: pain something you want, or paint something by commission?</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-ai-apple-picker.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">How much time will it take to build an AI apple picker vs just hiring someone?</figcaption>
-</figure>
-</div>
-<p>Software fails when software developers build something because it sounds like a good idea. Essentially, they build a solution looking for a problem. Or they believe “if I build this my customers will love it.”</p>
-<p>The same goes for AI. We’re at a new wave where anything is possible. Perhaps you’re so entrenched in a problem you intuitively know the solution, build something, and your customers (or coworkers) love what you’ve made.</p>
-<p>Far more likely is you end up believing AI isn’t working.</p>
-<p>Here are the five questions you should ask before adopting AI:</p>
-<ol type="1">
-<li>Whats the job my customer will hire my AI to do? (<a href="https://hbr.org/2016/09/know-your-customers-jobs-to-be-done">Know Your Customers’ “Jobs to Be Done”</a>)</li>
-<li>Why will they hire my AI?</li>
-<li>How much is not having my AI costing them?</li>
-<li>If my AI didn’t exists, whats the stupidest way my customers could get an 80% solution?</li>
-<li>If my AI does exist in all its glory, why will it fail miserably to do the job its hired to do?</li>
-</ol>
-<p>Too many dive straight to a solution.</p>
-<p>Yes, AI is and will revolutionize jobs. The first ones it’ll revolutionize are the obvious ones: the boring or time intensive tasks that you’re already doing. For Hollywood, AI will replace the laborious task of generating storyboards and such (<a href="../tech/unreal-ai-sora.html">Unreal AI: Meet Sora</a>). They’re not trying to solve world hunger (first) at open AI. They’re trying to replace jons that are already being hired for. They want to replace truck drivers with AI drivers, warriors with AI drones, and creatives (artistic, musical, and software) with AI. They invented a whole new way of doing…the thing that needed to be done anyway.</p>
-<p>Don’t solve a problem that nobody cares about. Because at this point in the economy your customer already has Google, competitors they can go to, and half baked solutions they can already muster on their own. What they need from you is a solution to their biggest problem, now.</p>
-<p>Maybe AI will solve that. Maybe some basic software will instead. Ask yourself these three questions:</p>
-<ol type="1">
-<li>Will this save time?</li>
-<li>Save energy?</li>
-<li>Save money?</li>
-</ol>
-<p>If not, it’s not worth your time, energy, or money to develop.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>tech</category>
-  <guid>https://www.bryanwhiting.com/tech/5-questions-you-should-ask-before-adopting-ai.html</guid>
-  <pubDate>Tue, 20 Feb 2024 09:07:57 GMT</pubDate>
 </item>
 </channel>
 </rss>
