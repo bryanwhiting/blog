@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "two-worlds",
+      "path": "silvermineai/two-worlds.md"
+    },
+    {
+      "basename": "saturday",
+      "path": "silvermineai/saturday.md"
+    },
+    {
       "basename": "schema-markup-video",
       "path": "tech/schema-markup-video.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "2024-05-13",
       "path": "goals/2024-05-13.md"
-    },
-    {
-      "basename": "2024-05-14",
-      "path": "goals/2024-05-14.md"
-    },
-    {
-      "basename": "2024-05-15",
-      "path": "goals/2024-05-15.md"
     }
   ],
   "omittedPaths": [],

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tech/schema-markup-video.md",
+                "file": "silvermineai/two-worlds.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "tech/schema-markup-video.md",
+            "file": "silvermineai/two-worlds.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "tech/schema-markup-video.md",
+            "file": "silvermineai/two-worlds.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -130,7 +130,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "tech/schema-markup-video.md"
+            "file": "silvermineai/two-worlds.md"
           }
         }
       }
@@ -150,8 +150,10 @@
   },
   "active": "b55872dd4edb37f4",
   "lastOpenFiles": [
-    "book-review/seo-work-book.md",
+    "silvermineai/saturday.md",
+    "silvermineai/two-worlds.md",
     "tech/schema-markup-video.md",
+    "book-review/seo-work-book.md",
     "silvermineai/cold-calling-a-cold-caller.md",
     "img/book-seo-work-book.jpeg",
     "goals/2024-06-26.md",
@@ -179,8 +181,6 @@
     "silvermineai/i-cant-believe-this-is-happening.md",
     "book-review/building-a-story-brand.md",
     "silvermineai/almost-at-first-1k.md",
-    "book-review/100m-leads.md",
-    "silvermineai/17-appointments-what.md",
     "img/book-$100m-leads.jpeg",
     "img/book-100m-offers.jpeg",
     "img/screenshot-pinball-loss-molnar.jpeg",
