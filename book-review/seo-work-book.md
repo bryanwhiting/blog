@@ -16,6 +16,21 @@ date-finished: 2024-06-29 21:42:25
 finished:
 ---
 
+* keyword is a landing page
+* Google analytics
+* Google tag manager 
+
+
+
+2024-07-09
+jmlinks.com/seo2024abc passcode is the same slash seo2024abc
+- core key words
+	- Micro key words
+		- Long tail key words
+
+[Doorway pages: An SEO deep dive](https://searchengineland.com/doorway-pages-seo-deep-dive-389786)
+
+
 2024-07-03
 
 - what is a breadcrumb trail? Home > Electronics > Mobile Phones > Smartphones > iPhone 14 → breadcrumb trail can reduce bounce rates. 

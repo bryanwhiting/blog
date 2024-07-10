@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "the-emotional-burdens",
+      "path": "silvermineai/the-emotional-burdens.md"
+    },
+    {
+      "basename": "dotcom-secrets",
+      "path": "book-review/dotcom-secrets.md"
+    },
+    {
+      "basename": "2023-local-search-ranking-factors",
+      "path": "silvermineai/2023-local-search-ranking-factors.md"
+    },
+    {
+      "basename": "seo-work-book",
+      "path": "book-review/seo-work-book.md"
+    },
+    {
       "basename": "two-worlds",
       "path": "silvermineai/two-worlds.md"
     },
@@ -11,10 +27,6 @@
     {
       "basename": "schema-markup-video",
       "path": "tech/schema-markup-video.md"
-    },
-    {
-      "basename": "seo-work-book",
-      "path": "book-review/seo-work-book.md"
     },
     {
       "basename": "cold-calling-a-cold-caller",
@@ -187,18 +199,6 @@
     {
       "basename": "machine-learning-q-and-ai",
       "path": "book-review/machine-learning-q-and-ai.md"
-    },
-    {
-      "basename": "2024-05-11",
-      "path": "goals/2024-05-11.md"
-    },
-    {
-      "basename": "2024-05-12",
-      "path": "goals/2024-05-12.md"
-    },
-    {
-      "basename": "2024-05-13",
-      "path": "goals/2024-05-13.md"
     }
   ],
   "omittedPaths": [],

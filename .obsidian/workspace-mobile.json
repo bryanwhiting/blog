@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "silvermineai/two-worlds.md",
+                "file": "silvermineai/the-emotional-burdens.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "silvermineai/two-worlds.md",
+            "file": "silvermineai/the-emotional-burdens.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "silvermineai/two-worlds.md",
+            "file": "silvermineai/the-emotional-burdens.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -130,7 +130,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "silvermineai/two-worlds.md"
+            "file": "silvermineai/the-emotional-burdens.md"
           }
         }
       }
@@ -150,10 +150,13 @@
   },
   "active": "b55872dd4edb37f4",
   "lastOpenFiles": [
-    "silvermineai/saturday.md",
-    "silvermineai/two-worlds.md",
-    "tech/schema-markup-video.md",
+    "book-review/dotcom-secrets.md",
+    "silvermineai/the-emotional-burdens.md",
+    "silvermineai/2023-local-search-ranking-factors.md",
     "book-review/seo-work-book.md",
+    "silvermineai/two-worlds.md",
+    "silvermineai/saturday.md",
+    "tech/schema-markup-video.md",
     "silvermineai/cold-calling-a-cold-caller.md",
     "img/book-seo-work-book.jpeg",
     "goals/2024-06-26.md",
@@ -178,9 +181,6 @@
     "silvermineai/paying-people.md",
     "Pasted image 20240616142008.png",
     "Pasted image 20240616141503.png",
-    "silvermineai/i-cant-believe-this-is-happening.md",
-    "book-review/building-a-story-brand.md",
-    "silvermineai/almost-at-first-1k.md",
     "img/book-$100m-leads.jpeg",
     "img/book-100m-offers.jpeg",
     "img/screenshot-pinball-loss-molnar.jpeg",
