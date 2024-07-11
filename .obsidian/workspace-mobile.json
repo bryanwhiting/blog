@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "silvermineai/the-emotional-burdens.md",
+                "file": "book-review/dotcom-secrets.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "silvermineai/the-emotional-burdens.md",
+            "file": "book-review/dotcom-secrets.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "silvermineai/the-emotional-burdens.md",
+            "file": "book-review/dotcom-secrets.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -130,7 +130,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "silvermineai/the-emotional-burdens.md"
+            "file": "book-review/dotcom-secrets.md"
           }
         }
       }
@@ -150,9 +150,9 @@
   },
   "active": "b55872dd4edb37f4",
   "lastOpenFiles": [
-    "book-review/dotcom-secrets.md",
-    "silvermineai/the-emotional-burdens.md",
     "silvermineai/2023-local-search-ranking-factors.md",
+    "silvermineai/the-emotional-burdens.md",
+    "book-review/dotcom-secrets.md",
     "book-review/seo-work-book.md",
     "silvermineai/two-worlds.md",
     "silvermineai/saturday.md",

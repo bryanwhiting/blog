@@ -14,6 +14,18 @@ finished:
 ---
 
 
+2024-07-10
+
+- sales funnel. 
+	- hook. 
+	- Story. 
+	- One call to action. 
+- Funnel:
+	- Email. Free. 
+		- $5 for 200-point checklist of how to optimize your business with links to all the resources. 
+			- $20 for all that info in a spreadsheet. 
+				- $500 for us to do this for you this month. 
+
 
 
 ![Dotcom Secrets](../img/book-dotcom-secrets.jpeg){.preview-image}
