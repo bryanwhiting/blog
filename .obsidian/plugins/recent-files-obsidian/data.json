@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "ai",
+      "path": "lists/ai.md"
+    },
+    {
       "basename": "dotcom-secrets",
       "path": "book-review/dotcom-secrets.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "mojo-programming-language",
       "path": "tech/mojo-programming-language.md"
-    },
-    {
-      "basename": "machine-learning-q-and-ai",
-      "path": "book-review/machine-learning-q-and-ai.md"
     }
   ],
   "omittedPaths": [],

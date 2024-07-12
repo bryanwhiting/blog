@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "book-review/dotcom-secrets.md",
+                "file": "lists/ai.md",
                 "mode": "source",
                 "source": false
               }
@@ -52,7 +52,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Designing",
+            "query": "Bayes",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -89,7 +89,7 @@
         }
       }
     ],
-    "currentTab": 5
+    "currentTab": 2
   },
   "right": {
     "id": "559ab374ba828b40",
@@ -101,7 +101,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "book-review/dotcom-secrets.md",
+            "file": "lists/ai.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "book-review/dotcom-secrets.md",
+            "file": "lists/ai.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -130,7 +130,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "book-review/dotcom-secrets.md"
+            "file": "lists/ai.md"
           }
         }
       }
@@ -150,9 +150,9 @@
   },
   "active": "b55872dd4edb37f4",
   "lastOpenFiles": [
+    "book-review/dotcom-secrets.md",
     "silvermineai/2023-local-search-ranking-factors.md",
     "silvermineai/the-emotional-burdens.md",
-    "book-review/dotcom-secrets.md",
     "book-review/seo-work-book.md",
     "silvermineai/two-worlds.md",
     "silvermineai/saturday.md",

@@ -12,7 +12,9 @@ date-start: 2024-07-09 20:46:56
 date-finished: 2024-07-09 20:46:56
 finished:
 ---
-
+Activities
+- Write out your ideal customer. Their dreams. Aspirations. Characteristics. Get an image of them. Put them on your wall. 
+- 
 
 2024-07-10
 
