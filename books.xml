@@ -9,8 +9,44 @@
 <link>https://www.bryanwhiting.com/books.html</link>
 <atom:link href="https://www.bryanwhiting.com/books.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.5.54</generator>
-<lastBuildDate>Tue, 09 Jul 2024 20:46:56 GMT</lastBuildDate>
+<generator>quarto-1.5.55</generator>
+<lastBuildDate>Tue, 16 Jul 2024 21:21:29 GMT</lastBuildDate>
+<item>
+  <title>The One Thing</title>
+  <dc:creator>Gary Keller</dc:creator>
+  <link>https://www.bryanwhiting.com/book-review/the-one-thing.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>2024-07-22 - counterbalanxinf. Go to the extremes to get things roughly in shape. → I feel like this is what I’ve been doing.</p>
+<p>2024-07-19</p>
+<ul>
+<li>dopamine when switching tasks</li>
+</ul>
+<p>2024-07-16</p>
+<ul>
+<li>if you could do one thing that makes obsolete all the others, what is it?</li>
+<li>Write down 100 todos. Then say never or not now to 99 of them.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p><img src="https://www.bryanwhiting.com/img/book-the-one-thing.jpeg" class="preview-image img-fluid figure-img"></p>
+<figcaption class="margin-caption">The One Thing</figcaption>
+</figure>
+</div>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>book-review</category>
+  <category>productivity</category>
+  <category>self-help</category>
+  <guid>https://www.bryanwhiting.com/book-review/the-one-thing.html</guid>
+  <pubDate>Tue, 16 Jul 2024 21:21:29 GMT</pubDate>
+</item>
 <item>
   <title>Dotcom Secrets</title>
   <dc:creator>Russell Brunson</dc:creator>
@@ -1050,51 +1086,6 @@
   <category>book-review</category>
   <guid>https://www.bryanwhiting.com/book-review/the-energy-bus.html</guid>
   <pubDate>Sat, 20 Apr 2024 19:55:09 GMT</pubDate>
-</item>
-<item>
-  <title>Machine Learning Q and AI</title>
-  <dc:creator>Sebastian Raschka</dc:creator>
-  <link>https://www.bryanwhiting.com/book-review/machine-learning-q-and-ai.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>2024-05-16</p>
-<p>Chapter 5</p>
-<ul>
-<li>Reduce overfitting by getting more quality data</li>
-<li>Augment your data (Mixups) to prevent overfitting.</li>
-</ul>
-<p>2024-04-30</p>
-<ul>
-<li>Lottery ticket hypothesis: take a full model and prune it down to get the same performance. Reweight. Rebalance. Simplify. Iterate. The multiple things.</li>
-</ul>
-<p>2024-04-29</p>
-<ul>
-<li>when doing image classification you 1) label the data and 2) create batches of support sets and query sets, 3) training episodes where you update and reweight the embedding a best classify the query set classes.</li>
-</ul>
-<p>2024-04-18</p>
-<p>Chapter 2</p>
-<ul>
-<li>you can unsupervise learn something by adding noise to the truth and minimizing the distance in the embeddings between truth and noisy truth and maximize distance from something else.</li>
-<li>Transfer learning: one general model, then update the target variable and dataset for a smaller model.</li>
-</ul>
-<p>2024-04-17</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/book-machine-learning-q-and-ai.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Machine Learning Q and AI</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book-review</category>
-  <guid>https://www.bryanwhiting.com/book-review/machine-learning-q-and-ai.html</guid>
-  <pubDate>Tue, 16 Apr 2024 20:26:32 GMT</pubDate>
 </item>
 </channel>
 </rss>
