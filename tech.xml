@@ -9,8 +9,36 @@
 <link>https://www.bryanwhiting.com/tech.html</link>
 <atom:link href="https://www.bryanwhiting.com/tech.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.5.55</generator>
-<lastBuildDate>Wed, 03 Jul 2024 23:02:06 GMT</lastBuildDate>
+<generator>quarto-1.5.56</generator>
+<lastBuildDate>Thu, 01 Aug 2024 16:21:00 GMT</lastBuildDate>
+<item>
+  <title>Forget Pythonic. Write code that works</title>
+  <link>https://www.bryanwhiting.com/tech/forget-pythonic-write-code-that-works.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>For the Python nerds: I’ve seen data scientists bashing notebooks for years. I was one of them.</p>
+<p>Then I learned yesterday about nbdev and how Jeremy Howard and folks at Nixtla are building production grade software using…notebooks.</p>
+<p>I was taken aback by Jeremy’s YouTube “I don’t write code like most Python programmers, but I have a reason for how I write it”.</p>
+<p>I was also shocked how easy it was to read Nixtla’s documentation and source code. Shouldn’t that be the goal??</p>
+<p>Unit tests at the bottom of the Python files where the functions are defined. Wait…that makes a ton of sense.</p>
+<p>Wirh nbdev there’s no major emphasis on pep8. No black formatting. No like wrap at 80 characters.</p>
+<p>And I realized: we put so much emphasis on convention and doing what others are doing.</p>
+<p>I’m not saying pep8 or black are wrong. I like them. But Python is just a language. Don’t get sucked into “being pythonic”. If the code works, and it creates value, it serves its purpose.</p>
+<p>I come from R where there are so many “dialects”. Compare base R vs the tidyverse. Worlds apart in how they build and test their code.</p>
+<p>So…make your own dialect. Just don’t waste time trying to keep up with all the formatters and linters out there. Because who cares? It’s your code.</p>
+<p>It’s okay to have you or your team have your own style.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <guid>https://www.bryanwhiting.com/tech/forget-pythonic-write-code-that-works.html</guid>
+  <pubDate>Thu, 01 Aug 2024 16:21:00 GMT</pubDate>
+</item>
 <item>
   <title>Schema Markup video</title>
   <link>https://www.bryanwhiting.com/tech/schema-markup-video.html</link>
@@ -858,30 +886,6 @@ print(df)</code></pre>
   <category>reactions</category>
   <guid>https://www.bryanwhiting.com/tech/interviewing-as-an-ml-engineer.html</guid>
   <pubDate>Fri, 08 Mar 2024 07:30:13 GMT</pubDate>
-</item>
-<item>
-  <title>The Baby</title>
-  <link>https://www.bryanwhiting.com/tech/the-baby.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Working for a startup is like being a nanny. You can love it all you want, but it’s not yours.</p>
-<p>In the words of Michael Jackson:</p>
-<blockquote class="blockquote">
-<p>Billie Jean is not my lover She’s just a girl who claims that I am the one But the kid is not my son She says I am the one, but the kid is not my son</p>
-</blockquote>
-<p>Always remember: unless you own it, the kid is not your son.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>tech</category>
-  <category>startups</category>
-  <guid>https://www.bryanwhiting.com/tech/the-baby.html</guid>
-  <pubDate>Sun, 03 Mar 2024 21:24:29 GMT</pubDate>
 </item>
 </channel>
 </rss>

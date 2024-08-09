@@ -9,8 +9,125 @@
 <link>https://www.bryanwhiting.com/</link>
 <atom:link href="https://www.bryanwhiting.com/index.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.5.55</generator>
-<lastBuildDate>Sun, 28 Jul 2024 23:24:06 GMT</lastBuildDate>
+<generator>quarto-1.5.56</generator>
+<lastBuildDate>Tue, 06 Aug 2024 14:11:23 GMT</lastBuildDate>
+<item>
+  <title>Scientific method</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/scientific-method.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I use these seven steps to the scientific method every single day:</p>
+<ol type="1">
+<li>What’s the problem?</li>
+<li>Hypothesis: What’s the believed answer?</li>
+<li>Metrics: how do I measure with data?</li>
+<li>Methods: how do I test the belief?</li>
+<li>Findings: what are the unemotional facts?</li>
+<li>Discussion: what are my opinions about the findings? (These are usually more hypotheses.)</li>
+<li>Next steps: self explanatory 🤣</li>
+</ol>
+<p>It helps me think more clearly when diving into data! Hope it helps.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <guid>https://www.bryanwhiting.com/posts/scientific-method.html</guid>
+  <pubDate>Tue, 06 Aug 2024 14:11:23 GMT</pubDate>
+</item>
+<item>
+  <title>This is an A/B test</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/this-is-an-ab-test.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Dude. You’re being experimented on. Aren’t you a little bit curious how it works?</p>
+<p>Bruh, they’re experimenting on you. Yes you. Now. Here’s how it works.</p>
+<p>Im A/B testing out some clickbait, let’s see if it works 👇👇</p>
+<p>This post is not AI generated. I wrote it. But I’m testing an idea: what if I write and publish two posts at the exact same time but with different clickbait hooks? Same content (what I’m writing here.)</p>
+<p>Hypothesis: I’m guessing LinkedIn will naturally favor one post over the other. Hard to know which.</p>
+<p>A/B testing is all about this every day. Newspapers play with their bylines. Search engines play with their titles. Ad copy is all one massive experiment to see what clicks the most.</p>
+<p>So drop a like if you like A/B tests. And keep an eye out for my other identical post, launched at 10am on Tuesday PST. Let’s see which gets the more impressions on LinkedIn!</p>
+<p>Here are the two intros:</p>
+<p>Dude. You’re being experimented on. Aren’t you a little bit curious how it works?</p>
+<p>Bruh, they’re experimenting on you. Yes you. Now. Here’s how it works.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <guid>https://www.bryanwhiting.com/posts/this-is-an-ab-test.html</guid>
+  <pubDate>Mon, 05 Aug 2024 20:38:38 GMT</pubDate>
+</item>
+<item>
+  <title>Data science structure</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/data-science-structure.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Over my career I’ve thought a lot about “where should a data scientist sit in an org?” 👇 5 lessons from what I’ve learned after working in 6 very different companies.</p>
+<ol type="1">
+<li>DS under an MBA: maybe okay, probably bound for failure.</li>
+<li>DS under the PM: def bound for failure.</li>
+<li>DS under the DS: good for the junior in the short term.</li>
+<li>DS under Eng: good.</li>
+<li>DS under a people manager, but works closely integrated team with a DS-experiences tech lead: best.</li>
+</ol>
+<p>Interdisciplinary teams do the best work. It maximizes labor efficiency to have engineers, PMs, and DS’s working on the same problem but doing different things.</p>
+<p>When you federate DS, they don’t care as much about what they’re working on. The incentives are off.</p>
+<p>When a DS works for a PM the PM will make wild assumptions about what they should do. PMs oversimplify problems and DS find that unsatisfying.</p>
+<p>DS reporting to DS means you throw stuff over the fence and the Eng do the real work. And the Eng don’t capture all the nuance the DS would like to implement.</p>
+<p>DS reporting to business types is unfulfilling because DS love technical stuff.</p>
+<p>best scenario? Have a DS work in a pod with experienced tech leads. DS reports (HR purposes) to someone outside of the team who can give them guidance but is incapable of micromanaging them.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <guid>https://www.bryanwhiting.com/posts/data-science-structure.html</guid>
+  <pubDate>Sun, 04 Aug 2024 13:00:01 GMT</pubDate>
+</item>
+<item>
+  <title>Forget Pythonic. Write code that works</title>
+  <link>https://www.bryanwhiting.com/tech/forget-pythonic-write-code-that-works.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>For the Python nerds: I’ve seen data scientists bashing notebooks for years. I was one of them.</p>
+<p>Then I learned yesterday about nbdev and how Jeremy Howard and folks at Nixtla are building production grade software using…notebooks.</p>
+<p>I was taken aback by Jeremy’s YouTube “I don’t write code like most Python programmers, but I have a reason for how I write it”.</p>
+<p>I was also shocked how easy it was to read Nixtla’s documentation and source code. Shouldn’t that be the goal??</p>
+<p>Unit tests at the bottom of the Python files where the functions are defined. Wait…that makes a ton of sense.</p>
+<p>Wirh nbdev there’s no major emphasis on pep8. No black formatting. No like wrap at 80 characters.</p>
+<p>And I realized: we put so much emphasis on convention and doing what others are doing.</p>
+<p>I’m not saying pep8 or black are wrong. I like them. But Python is just a language. Don’t get sucked into “being pythonic”. If the code works, and it creates value, it serves its purpose.</p>
+<p>I come from R where there are so many “dialects”. Compare base R vs the tidyverse. Worlds apart in how they build and test their code.</p>
+<p>So…make your own dialect. Just don’t waste time trying to keep up with all the formatters and linters out there. Because who cares? It’s your code.</p>
+<p>It’s okay to have you or your team have your own style.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <guid>https://www.bryanwhiting.com/tech/forget-pythonic-write-code-that-works.html</guid>
+  <pubDate>Thu, 01 Aug 2024 16:21:00 GMT</pubDate>
+</item>
 <item>
   <title>10 steps to optimize anything</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -731,178 +848,6 @@
   <category>tech</category>
   <guid>https://www.bryanwhiting.com/tech/mojo-programming-language.html</guid>
   <pubDate>Fri, 17 May 2024 21:53:38 GMT</pubDate>
-</item>
-<item>
-  <title>$100M Leads</title>
-  <dc:creator>Alex Hormozi</dc:creator>
-  <link>https://www.bryanwhiting.com/book-review/100m-leads.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>2024-06-08</p>
-<ul>
-<li>repel those who don’t want your ad</li>
-<li>Callout: cocktail effect
-<ul>
-<li>Local</li>
-<li>Specific</li>
-<li>irving small business owners</li>
-<li>Looking to get more leads?</li>
-</ul></li>
-<li>Ad:
-<ul>
-<li>Hey trimmers! No not you (pair of pants), nor you (beard), yea, you (guy cutting off his arm). Yea! You! (Me in a tree).</li>
-<li>looking to grow? (Plant), no, like money - grow money (dollars on trees)</li>
-<li>Give me a call. I’ll get you more customers. I’m a marketing genius.</li>
-</ul></li>
-</ul>
-<p>2024-06-03</p>
-<ul>
-<li>scrape the website for something interesting to talk about. 1-3 interesting tidbits.</li>
-<li>People want to work with people they like. Not people selling them services.</li>
-<li>Use AI to generate scripts.</li>
-<li>Send automated voice mails</li>
-</ul>
-<p>2024-05-21</p>
-<p>Test out your leads - test out headlines for everything.</p>
-<p>2024-05-17</p>
-<ul>
-<li>match their behaviors</li>
-<li>Don’t talk to people who are in an angry state - law of association.</li>
-<li>Shared attitudes → we appreciate them but we don’t like negative people.</li>
-<li>Look into the eyes.</li>
-<li>Law of association. You’re always being compared. You’re seen as one in the group.</li>
-</ul>
-<p>First impressions - smile or say you feel so embarrassed - Filtering from that moment forward - Associate positive feelings</p>
-<p>After - Become scarce - Relationship outside of the relationship. - People want what they can’t have.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/book-$100m-leads.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">$100M Leads</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book-review</category>
-  <guid>https://www.bryanwhiting.com/book-review/100m-leads.html</guid>
-  <pubDate>Fri, 17 May 2024 07:40:13 GMT</pubDate>
-</item>
-<item>
-  <title>Get Anyone to do Anything</title>
-  <dc:creator>David J. Lieberman</dc:creator>
-  <link>https://www.bryanwhiting.com/book-review/get-anyone-to-do-anything.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>My takeaways:</p>
-<ul>
-<li>every situation can have a strategy. As you think ahead, you can devise a way to achieve your goals.</li>
-<li>Life is a balance of what they want vs what you want. Who’s to say who’s right?</li>
-<li>The mental games we play are endless.</li>
-</ul>
-<p>2024-05-22</p>
-<ul>
-<li>internal consistency</li>
-<li>Scarcity</li>
-<li>Availability</li>
-<li>Consistency</li>
-</ul>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/book-get-anyone-to-do-anything.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Get anyone to do anything</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book-review</category>
-  <category>psychology</category>
-  <category>self-help</category>
-  <category>sales</category>
-  <guid>https://www.bryanwhiting.com/book-review/get-anyone-to-do-anything.html</guid>
-  <pubDate>Fri, 17 May 2024 07:36:32 GMT</pubDate>
-</item>
-<item>
-  <title>A Treatise on Agency and Goals</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/a-treatise-on-agency-and-goals.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>I may have ADHD to some degree, I’m not sure. These thoughts came to me today when considering my side business.</p>
-<hr>
-<section id="a-treatise-on-desire-uncertainty-commitment-and-execution-toward-a-goal." class="level2">
-<h2 class="anchored" data-anchor-id="a-treatise-on-desire-uncertainty-commitment-and-execution-toward-a-goal.">A treatise on desire, uncertainty, commitment, and execution toward a goal.</h2>
-<p>Descartes proposed that if you pick a direction and walk in a straight line you’ll eventually leave the forest. This assumes you want to leave the forest.</p>
-<p>A desire is a persistent yearning. Desires take root and, when nurtured, become reality.</p>
-<p>An achieved desire is a blend of hope, faith, and charity. A hope (goal) is the edge of the forest. Walking is faith (belief + action). Charity is long suffering and persistence - the ability to maintain hope and faith.</p>
-<p>A hope is envisioned or observed. If observed, there is believed certainty in achievement, with uncertainty in the path. An envisioned hope has uncertainty in both the path and the outcome. You might die trying. Envisioned hopes are impossible only when the path is not made clear. Thought makes the path clear.</p>
-<p>A clear path is a plan. A plan is a sequence of informed choices and actions leading towards a goal, a consequence. A causal effect. Reconnaissance is the finite time and energy spent collecting information. Reason invites spending time and energy proportional to the cost or impact of the plan and goal. Judgment determines which choices and actions are taken.</p>
-<p>Commitment is recognizing many roads lead to Rome, and only one of them can be walked to actually get there.</p>
-<p>Luck is unknown things. Some things could have been known with more reconnaissance. Other things could never have been known or anticipated. Luck either enables or disables the path. Luck happens post plan, post deliberation. It’s the unknown distance between you and the forest’s edge. Hindsight bias is the present mind’s ability to mistakenly believe uncertainty was always certain. “I should have known” is an oxymoron.</p>
-<p>Enabling luck makes possible the goal. Disabling luck makes difficult the goal, perhaps impossible. Impossible is usually a state of mind or the laws of physics, but usually never both.</p>
-<p>Tilt is the mist of blindness caused by the presence of luck. Tilt distracts from information and commitment, a bias caused by observed outcomes that were previously uncertain.</p>
-<p>Commitment is time and energy. Time is measured by rotations of the earth or attempts made. Energy is measured by willingness to roll the dice again.</p>
-<p>Commitment is also reconnaissance. More actions, more information. Ignorance is choosing not to see the information. Stubbornness is seeing it, and maintaining the status quo for thrill of ego. Humility is hunger for more information.</p>
-<p>Uncertainty invites fear and worry. Perceived time spent amplifies fear and worry. Uncertainty in the path. Uncertainty in the destination, etc.</p>
-<p>A plan is the process of committing to something knowing that hindsight bias creeps in with each step. The plan mitigates the drag of hindsight bias.</p>
-<p>Fear and anxiety are compounded when accomplishment doesn’t happen within perceived time. Human nature is to lose all track of time when in a task, so time should be planned for. Time to evaluate the plan and assess new information should also be decided in the plan.</p>
-<p>Commitment to the plan is a recognition of the infallibility of human emotion. Judgment is evaluating if the plan could be improved, and the plan includes time/effort-base checkpoints for evaluation. Commitment is the recognition that, while the direction you’re heading may not be the right one, (shortest path between you and the edge of the forest which you can’t know at onset), walkikg straight is better than circling from changing direction multiple times. Straight lines are incapable of not exiting. Circles may exit but are capable of not exiting.</p>
-<p>If new information overrides understood information at the time of the plan, and changes the decision that would have been made given the circumstances at the time of the plan, then wisdom and humility is the ability to change direction despite how many miles walked (sunk cost).</p>
-<p>Walking in a straight line in business is “walking in accordance to the plan”. The time spent deliberating the plan should be proportional to the costs and benefits of the action, which requires judgment. Inspiration is praying that God will guide you and enable your plan.</p>
-<p>Arrogance is believing you have infinite energy and time. Optimism is appreciating that any mile walked strengthens your legs, that the direction you chose may not match the imagined ideal. Self awareness is appreciating that the human mind is capable of any imagination, and few imaginations consider accurately all costs or benefits of reality. Imaginations are powerful, but can cause circling, and are most powerful during the plan. After the plan, use imagination to accomplish it. Before the plan, use imagination to design it. But don’t use imagination during the plan to redesign it, I.e, avoid circling.</p>
-<p>Action gets stuff done.</p>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>posts</category>
-  <guid>https://www.bryanwhiting.com/posts/a-treatise-on-agency-and-goals.html</guid>
-  <pubDate>Wed, 15 May 2024 20:03:50 GMT</pubDate>
-</item>
-<item>
-  <title>Machine Learninf Resources</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/machine-learning-resources.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>ML</p>
-<ul>
-<li><a href="https://github.com/tensorchord/Awesome-LLMOps">GitHub - tensorchord/Awesome-LLMOps: An awesome &amp; curated list of best LLMOps tools for developers</a>
-<ul>
-<li>Has a lot of autoML tools</li>
-</ul></li>
-<li></li>
-</ul>
-<p>ML experiment tracking - <a href="https://github.com/awesome-mlops/awesome-ml-experiment-management">GitHub - awesome-mlops/awesome-ml-experiment-management: A curated list of awesome open source tools and commercial products for ML Experiment Tracking and Management 🚀</a></p>
-<p>ML Books: - <a href="https://github.com/josephmisiti/awesome-machine-learning/blob/master/books.md">awesome-machine-learning/books.md at master · josephmisiti/awesome-machine-learning · GitHub</a> - https://quarto.org/docs/gallery/#books</p>
-<p>Awesome LLM - https://github.com/Hannibal046/Awesome-LLM</p>
-<p>Free Statistics books: - <a href="https://www.r-causal.org/">Causal Inference in R</a></p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>posts</category>
-  <guid>https://www.bryanwhiting.com/posts/machine-learning-resources.html</guid>
-  <pubDate>Wed, 15 May 2024 11:14:04 GMT</pubDate>
 </item>
 </channel>
 </rss>

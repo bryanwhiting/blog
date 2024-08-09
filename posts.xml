@@ -9,8 +9,97 @@
 <link>https://www.bryanwhiting.com/posts.html</link>
 <atom:link href="https://www.bryanwhiting.com/posts.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.5.55</generator>
-<lastBuildDate>Sun, 28 Jul 2024 23:24:06 GMT</lastBuildDate>
+<generator>quarto-1.5.56</generator>
+<lastBuildDate>Tue, 06 Aug 2024 14:11:23 GMT</lastBuildDate>
+<item>
+  <title>Scientific method</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/scientific-method.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I use these seven steps to the scientific method every single day:</p>
+<ol type="1">
+<li>What’s the problem?</li>
+<li>Hypothesis: What’s the believed answer?</li>
+<li>Metrics: how do I measure with data?</li>
+<li>Methods: how do I test the belief?</li>
+<li>Findings: what are the unemotional facts?</li>
+<li>Discussion: what are my opinions about the findings? (These are usually more hypotheses.)</li>
+<li>Next steps: self explanatory 🤣</li>
+</ol>
+<p>It helps me think more clearly when diving into data! Hope it helps.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <guid>https://www.bryanwhiting.com/posts/scientific-method.html</guid>
+  <pubDate>Tue, 06 Aug 2024 14:11:23 GMT</pubDate>
+</item>
+<item>
+  <title>This is an A/B test</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/this-is-an-ab-test.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Dude. You’re being experimented on. Aren’t you a little bit curious how it works?</p>
+<p>Bruh, they’re experimenting on you. Yes you. Now. Here’s how it works.</p>
+<p>Im A/B testing out some clickbait, let’s see if it works 👇👇</p>
+<p>This post is not AI generated. I wrote it. But I’m testing an idea: what if I write and publish two posts at the exact same time but with different clickbait hooks? Same content (what I’m writing here.)</p>
+<p>Hypothesis: I’m guessing LinkedIn will naturally favor one post over the other. Hard to know which.</p>
+<p>A/B testing is all about this every day. Newspapers play with their bylines. Search engines play with their titles. Ad copy is all one massive experiment to see what clicks the most.</p>
+<p>So drop a like if you like A/B tests. And keep an eye out for my other identical post, launched at 10am on Tuesday PST. Let’s see which gets the more impressions on LinkedIn!</p>
+<p>Here are the two intros:</p>
+<p>Dude. You’re being experimented on. Aren’t you a little bit curious how it works?</p>
+<p>Bruh, they’re experimenting on you. Yes you. Now. Here’s how it works.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <guid>https://www.bryanwhiting.com/posts/this-is-an-ab-test.html</guid>
+  <pubDate>Mon, 05 Aug 2024 20:38:38 GMT</pubDate>
+</item>
+<item>
+  <title>Data science structure</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/data-science-structure.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Over my career I’ve thought a lot about “where should a data scientist sit in an org?” 👇 5 lessons from what I’ve learned after working in 6 very different companies.</p>
+<ol type="1">
+<li>DS under an MBA: maybe okay, probably bound for failure.</li>
+<li>DS under the PM: def bound for failure.</li>
+<li>DS under the DS: good for the junior in the short term.</li>
+<li>DS under Eng: good.</li>
+<li>DS under a people manager, but works closely integrated team with a DS-experiences tech lead: best.</li>
+</ol>
+<p>Interdisciplinary teams do the best work. It maximizes labor efficiency to have engineers, PMs, and DS’s working on the same problem but doing different things.</p>
+<p>When you federate DS, they don’t care as much about what they’re working on. The incentives are off.</p>
+<p>When a DS works for a PM the PM will make wild assumptions about what they should do. PMs oversimplify problems and DS find that unsatisfying.</p>
+<p>DS reporting to DS means you throw stuff over the fence and the Eng do the real work. And the Eng don’t capture all the nuance the DS would like to implement.</p>
+<p>DS reporting to business types is unfulfilling because DS love technical stuff.</p>
+<p>best scenario? Have a DS work in a pod with experienced tech leads. DS reports (HR purposes) to someone outside of the team who can give them guidance but is incapable of micromanaging them.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <guid>https://www.bryanwhiting.com/posts/data-science-structure.html</guid>
+  <pubDate>Sun, 04 Aug 2024 13:00:01 GMT</pubDate>
+</item>
 <item>
   <title>10 steps to optimize anything</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -744,106 +833,6 @@
   <category>leadership</category>
   <guid>https://www.bryanwhiting.com/posts/team-misfits.html</guid>
   <pubDate>Tue, 13 Feb 2024 10:06:35 GMT</pubDate>
-</item>
-<item>
-  <title>World’s Longest Drive</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/worlds-longest-drive.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>There’s a fun $75,000 purse for the winner of the World’s Longest Drive.</p>
-<p>These guys are averaging 400y in contest, which is an attempt to drive straight. This guy wins (ofc) but his first round is the best. 432.</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/Gv3YACYV648?si=jXXsfxfHxpmcpHFZ" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<p>Apparently the record is 515 set in 1974 by Mike Austin, a 64 year old.</p>
-<ol type="1">
-<li>It’s kind of crazy that since 1974 the record for longest drive hasn’t been broken.</li>
-<li>Tech helps, but old school can sometimes be the way. Form over gear all day.</li>
-</ol>
-<p>But Berkshire broke that record per his Instagram account. Here’s the full scoop:</p>
-<p><a href="https://golf.com/news/kyle-berkshire-worlds-longest-drive/">Inside Kyle Berkshire’s quest to hit the longest drive of all time</a></p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/screenshot-world-longest-drive.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">579 yards</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>posts</category>
-  <category>sports</category>
-  <category>golf</category>
-  <guid>https://www.bryanwhiting.com/posts/worlds-longest-drive.html</guid>
-  <pubDate>Mon, 05 Feb 2024 20:40:56 GMT</pubDate>
-</item>
-<item>
-  <title>The Iceberg Theory - Theory of Omission</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/the-iceberg-theory-theory-of-omission.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Hemingway introduced through his writing style the <a href="https://www.ijfmr.com/papers/2023/1/1646.pdf">Iceberg Theory</a>. It was something I noticed while reading <a href="../book-review/the-old-man-and-the-sea.html">The Old Man and the Sea</a>. You feel the depth of emotion from the “actions and dialogue”, rather than explicit descriptions.</p>
-<p>It’s fun to contrast that with <a href="../concepts/frank-herbert.html">Frank Herbert</a>’s style which is “lay out the environment, have dialogue, then draw conclusions in the mind”.</p>
-<p>Both styles speak to the thought that the writing is more interesting the less you write about. They call this “negative space” in drawing. A sketch is interesting when the mind can fill in the gaps. As an artist, you just want to make enough dots that they can connect them themselves. This connecting process is the freedom and interest the mind craves. It doesn’t want to be coddled (<a href="../book-review/the-coddling-of-the-american-mind.html">The Coddling of the American Mind</a>).</p>
-<p>Back to the book. The Old Man and the Sea can be summarized in one sentence: a tired, old, and recently-unlucky man catches the biggest of his life and it gets eaten before he makes it home.</p>
-<p>That’s the surface story, and it’s rather boring when thought of that way. But you just <em>feel</em> so much while reading it. You feel for the old man through the young boy. You feel for him as he teeters between passing out and existing. You remember the breaking points in your own life and want the man desperately to succeed. Luck, however, was not on his side.</p>
-<p>“Talk less. Smile more.” - Hamilton</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-old-man-and-marlin.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Let their mind wander</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>posts</category>
-  <category>storytelling</category>
-  <category>writing</category>
-  <category>creativity</category>
-  <guid>https://www.bryanwhiting.com/posts/the-iceberg-theory-theory-of-omission.html</guid>
-  <pubDate>Sat, 03 Feb 2024 12:44:41 GMT</pubDate>
-</item>
-<item>
-  <title>The Compounding Interest of Reading</title>
-  <dc:creator>Bryan Whiting</dc:creator>
-  <link>https://www.bryanwhiting.com/posts/the-compounding-interest-of-reading.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>I’m on my way to get 52 books read this year. I think I can do it.</p>
-<p>But it’s not to finish 52 books. It’s to read two hours of fifty two books. Why?</p>
-<p>Because of compounding interest. One book doesn’t level you up. But multiple books over time will affect you for a long while to come.</p>
-<p>If you improve just 1% each day for 365 days, and that improvement compounds, then you’ll have improved 37x over a year. (invest $100 and gain 1% each day and reinvest that money is $137 by the end of the year).</p>
-<p>So don’t worry what any one book gives you. Just keep investing. A few will pay off big, and the many “wasted” will have little downside.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/dalle-image-compound-interest-and-reading-a-book.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">Image: compound interest and reading a book</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>posts</category>
-  <category>reading</category>
-  <category>investing</category>
-  <guid>https://www.bryanwhiting.com/posts/the-compounding-interest-of-reading.html</guid>
-  <pubDate>Fri, 02 Feb 2024 12:17:17 GMT</pubDate>
 </item>
 </channel>
 </rss>
