@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/10-steps-to-optimize-anything.md",
+                "file": "posts/scientific-method.md",
                 "mode": "source",
                 "source": false
               }
@@ -52,12 +52,12 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "Bayes",
+            "query": "tag:#ex/Lats/Pulldowns",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
             "extraContext": false,
-            "sortOrder": "alphabetical"
+            "sortOrder": "alphabeticalReverse"
           }
         }
       },
@@ -101,7 +101,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/10-steps-to-optimize-anything.md",
+            "file": "posts/scientific-method.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/10-steps-to-optimize-anything.md",
+            "file": "posts/scientific-method.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -130,7 +130,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/10-steps-to-optimize-anything.md"
+            "file": "posts/scientific-method.md"
           }
         }
       }
@@ -150,8 +150,15 @@
   },
   "active": "b55872dd4edb37f4",
   "lastOpenFiles": [
-    "posts/hungry-judge.md",
+    "goals/2024-08-06.md",
+    "posts/scientific-method.md",
+    "posts/this-is-an-ab-test.md",
+    "posts/data-science-structure.md",
+    "silvermineai/give-it-time-and-retry.md",
+    "tech/forget-pythonic-write-code-that-works.md",
+    "goals/2024-08-01.md",
     "posts/10-steps-to-optimize-anything.md",
+    "posts/hungry-judge.md",
     "goals/2024-07-27.md",
     "book-review/the-one-thing.md",
     "goals/2024-07-15.md",
@@ -171,14 +178,7 @@
     "goals/2024-06-26.md",
     "goals/2024-06-27.md",
     "goals/2024-06-28.md",
-    "goals/2024-06-29.md",
-    "goals/2024-06-30.md",
-    "tech/galileo-ai-ui-generator.md",
-    "silvermineai/the-overwhelming-chaos.md",
-    "silvermineai/a-tale-of-two-price-mentalities.md",
     "img/2024-06-27-1106-what-do-you-have-to-lose",
-    "silvermineai/three-cold-calls.md",
-    "posts/productivity.md",
     "img/2024-06-16-1406-mark-uses-40-dollars",
     "Pasted image 20240616142008.png",
     "Pasted image 20240616141503.png",

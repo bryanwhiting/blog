@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "scientific-method",
+      "path": "posts/scientific-method.md"
+    },
+    {
+      "basename": "2024-08-06",
+      "path": "goals/2024-08-06.md"
+    },
+    {
+      "basename": "this-is-an-ab-test",
+      "path": "posts/this-is-an-ab-test.md"
+    },
+    {
+      "basename": "data-science-structure",
+      "path": "posts/data-science-structure.md"
+    },
+    {
+      "basename": "give-it-time-and-retry",
+      "path": "silvermineai/give-it-time-and-retry.md"
+    },
+    {
+      "basename": "forget-pythonic-write-code-that-works",
+      "path": "tech/forget-pythonic-write-code-that-works.md"
+    },
+    {
+      "basename": "2024-08-01",
+      "path": "goals/2024-08-01.md"
+    },
+    {
       "basename": "10-steps-to-optimize-anything",
       "path": "posts/10-steps-to-optimize-anything.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "day-two-of-calls",
       "path": "silvermineai/day-two-of-calls.md"
-    },
-    {
-      "basename": "the-lord-of-the-rings-the-two-towers",
-      "path": "book-review/the-lord-of-the-rings-the-two-towers.md"
-    },
-    {
-      "basename": "designing-machine-learning-systems",
-      "path": "book-review/designing-machine-learning-systems.md"
-    },
-    {
-      "basename": "reading-list",
-      "path": "lists/reading-list.md"
-    },
-    {
-      "basename": "machine-learning-resources",
-      "path": "posts/machine-learning-resources.md"
-    },
-    {
-      "basename": "saints-volume-2-no-unhallowed-hand",
-      "path": "book-review/saints-volume-2-no-unhallowed-hand.md"
-    },
-    {
-      "basename": "a-10-week-self-guided-data-science-intro-course",
-      "path": "posts/a-10-week-self-guided-data-science-intro-course.md"
-    },
-    {
-      "basename": "ab-testing-resources",
-      "path": "tech/ab-testing-resources.md"
     }
   ],
   "omittedPaths": [],
