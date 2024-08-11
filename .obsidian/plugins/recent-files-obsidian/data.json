@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-08-09",
+      "path": "goals/2024-08-09.md"
+    },
+    {
       "basename": "scientific-method",
       "path": "posts/scientific-method.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "3-signed-customers-and-perhaps-1-2-more-coming-this-week",
       "path": "silvermineai/3-signed-customers-and-perhaps-1-2-more-coming-this-week.md"
-    },
-    {
-      "basename": "day-two-of-calls",
-      "path": "silvermineai/day-two-of-calls.md"
     }
   ],
   "omittedPaths": [],
