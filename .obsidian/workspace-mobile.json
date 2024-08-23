@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "goals/2024-08-09.md",
+                "file": "silvermineai/first-cold-customer.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "goals/2024-08-09.md",
+            "file": "silvermineai/first-cold-customer.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "goals/2024-08-09.md",
+            "file": "silvermineai/first-cold-customer.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -130,7 +130,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "goals/2024-08-09.md"
+            "file": "silvermineai/first-cold-customer.md"
           }
         }
       }
@@ -150,8 +150,14 @@
   },
   "active": "b55872dd4edb37f4",
   "lastOpenFiles": [
-    "posts/scientific-method.md",
+    "goals/2024-08-21.md",
+    "silvermineai/first-cold-customer.md",
+    "tech/dont-trust-a-cloud-provider.md",
+    "posts/us-political-system.md",
+    "tech/chicken-nugget-a-b-testing.md",
+    "goals/2024-08-13.md",
     "goals/2024-08-09.md",
+    "posts/scientific-method.md",
     "goals/2024-08-06.md",
     "posts/this-is-an-ab-test.md",
     "posts/data-science-structure.md",
@@ -171,13 +177,7 @@
     "silvermineai/2023-local-search-ranking-factors.md",
     "silvermineai/the-emotional-burdens.md",
     "book-review/seo-work-book.md",
-    "silvermineai/two-worlds.md",
-    "silvermineai/saturday.md",
-    "tech/schema-markup-video.md",
-    "silvermineai/cold-calling-a-cold-caller.md",
     "img/book-seo-work-book.jpeg",
-    "goals/2024-06-26.md",
-    "goals/2024-06-27.md",
     "img/2024-06-27-1106-what-do-you-have-to-lose",
     "img/2024-06-16-1406-mark-uses-40-dollars",
     "Pasted image 20240616142008.png",

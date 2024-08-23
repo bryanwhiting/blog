@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "first-cold-customer",
+      "path": "silvermineai/first-cold-customer.md"
+    },
+    {
+      "basename": "2024-08-21",
+      "path": "goals/2024-08-21.md"
+    },
+    {
+      "basename": "dont-trust-a-cloud-provider",
+      "path": "tech/dont-trust-a-cloud-provider.md"
+    },
+    {
+      "basename": "us-political-system",
+      "path": "posts/us-political-system.md"
+    },
+    {
+      "basename": "chicken-nugget-a-b-testing",
+      "path": "tech/chicken-nugget-a-b-testing.md"
+    },
+    {
+      "basename": "2024-08-13",
+      "path": "goals/2024-08-13.md"
+    },
+    {
       "basename": "2024-08-09",
       "path": "goals/2024-08-09.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "paying-people",
       "path": "silvermineai/paying-people.md"
-    },
-    {
-      "basename": "i-cant-believe-this-is-happening",
-      "path": "silvermineai/i-cant-believe-this-is-happening.md"
-    },
-    {
-      "basename": "building-a-story-brand",
-      "path": "book-review/building-a-story-brand.md"
-    },
-    {
-      "basename": "almost-at-first-1k",
-      "path": "silvermineai/almost-at-first-1k.md"
-    },
-    {
-      "basename": "100m-leads",
-      "path": "book-review/100m-leads.md"
-    },
-    {
-      "basename": "17-appointments-what",
-      "path": "silvermineai/17-appointments-what.md"
-    },
-    {
-      "basename": "3-signed-customers-and-perhaps-1-2-more-coming-this-week",
-      "path": "silvermineai/3-signed-customers-and-perhaps-1-2-more-coming-this-week.md"
     }
   ],
   "omittedPaths": [],
