@@ -10,7 +10,78 @@
 <atom:link href="https://www.bryanwhiting.com/all.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.56</generator>
-<lastBuildDate>Tue, 06 Aug 2024 14:11:23 GMT</lastBuildDate>
+<lastBuildDate>Mon, 19 Aug 2024 11:16:03 GMT</lastBuildDate>
+<item>
+  <title>Don’t trust a cloud provider</title>
+  <link>https://www.bryanwhiting.com/tech/dont-trust-a-cloud-provider.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Never trust a cloud provider to do compute for you, like AmazonForecast. (Or LLM tuning?)</p>
+<p>Amazon will charge $1440, take 4.1 hours, and have an accuracy 3x worse than using an open source Nixtla, which cost $1.20, took 15 minutes and had an accuracy metric 1/3 the Amazon service offered (lower accuracy is good in this case.)</p>
+<p>Where else are cloud providers ripping you off?</p>
+<p>https://nixtlaverse.nixtla.io/statsforecast/docs/experiments/amazonstatsforecast.html</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <guid>https://www.bryanwhiting.com/tech/dont-trust-a-cloud-provider.html</guid>
+  <pubDate>Mon, 19 Aug 2024 11:16:03 GMT</pubDate>
+</item>
+<item>
+  <title>U.S. Political System</title>
+  <dc:creator>Bryan Whiting</dc:creator>
+  <link>https://www.bryanwhiting.com/posts/us-political-system.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p><a href="https://www.pbs.org/newshour/politics/winning-the-presidential-nomination-is-all-about-delegates-but-how-does-the-process-work">Winning the presidential nomination is all about delegates. But how does the process work? | PBS News</a></p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>posts</category>
+  <guid>https://www.bryanwhiting.com/posts/us-political-system.html</guid>
+  <pubDate>Sun, 18 Aug 2024 13:32:03 GMT</pubDate>
+</item>
+<item>
+  <title>Chicken Nugget A B testing</title>
+  <link>https://www.bryanwhiting.com/tech/chicken-nugget-a-b-testing.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Why cutting chicken nuggets for my 2y old is an optimization problem, and how social media companies use these principles:</p>
+<p>Objective: maximize my 2 year olds caloric intake</p>
+<ul>
+<li><p>Inputs: chicken nugget size.</p></li>
+<li><p>Cut two nuggets four ways: 8 pieces.</p></li>
+<li><p>Cut two nuggets two ways: 4 pieces.</p></li>
+</ul>
+<p>Will the kid eat 5 small pieces or 3 big ones?</p>
+<p>On one hand, he eats 62.5% of nuggets. On the other, 75%. But maybe he only eats two halves - that drops him to 50% consumption.</p>
+<hr>
+<p>What gets you watching one more YouTube, one more Spotify song, one more TikTok? One more LinkedIn post?</p>
+<p>Do people sign off after 5 posts? One post? If we slide a video into the fifth spot after the first four posts, do they engage? If they engage with the video do they come back tomorrow or in a week?</p>
+<p>Everything’s an optimization. Even cutting nuggets. Your mind just does this subconsciously.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <category>A/B testing</category>
+  <guid>https://www.bryanwhiting.com/tech/chicken-nugget-a-b-testing.html</guid>
+  <pubDate>Sat, 17 Aug 2024 12:40:20 GMT</pubDate>
+</item>
 <item>
   <title>Scientific method</title>
   <dc:creator>Bryan Whiting</dc:creator>
@@ -769,85 +840,6 @@
   <category>fiction</category>
   <guid>https://www.bryanwhiting.com/book-review/the-lord-of-the-rings-the-two-towers.html</guid>
   <pubDate>Wed, 29 May 2024 15:47:16 GMT</pubDate>
-</item>
-<item>
-  <title>Our Eyes track Red</title>
-  <link>https://www.bryanwhiting.com/christianity/our-eyes-track-red.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="scriptures" class="level1">
-<h1>Scriptures</h1>
-<p>Our eyes focus more on red wavelengths than any other color. It’s easier to spot.</p>
-</section>
-<section id="meaning" class="level1">
-<h1>Meaning</h1>
-<p>This reminds me</p>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>christianity</category>
-  <guid>https://www.bryanwhiting.com/christianity/our-eyes-track-red.html</guid>
-  <pubDate>Tue, 21 May 2024 07:25:03 GMT</pubDate>
-</item>
-<item>
-  <title>The Lord of the Rings - The Fellowship of the Ring</title>
-  <dc:creator>J.R.R Tolkein</dc:creator>
-  <link>https://www.bryanwhiting.com/book-review/the-lord-of-the-rings-the-fellowship-of-the-ring.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>2024-05-22</p>
-<ul>
-<li>how would life be if you were Tom and knew all incantations and had all power, but let the world be?</li>
-</ul>
-<p>2024-05-20</p>
-<ul>
-<li>he typed it by hand</li>
-<li>Goal to write a long story</li>
-</ul>
-<p>Chapter 2 - it fell upon me but I did not know it then - Frodo goes on a journey nobody from his land will know what he did for the world. → like the Savior. - Do not kill him with your judgment. He may serve a purpose yet.</p>
-<div class="quarto-figure quarto-figure-center page-columns page-full">
-<figure class="figure page-columns page-full">
-<p><img src="https://www.bryanwhiting.com/img/book-the-lord-of-the-rings-the-fellowship-of-the-ring.jpeg" class="preview-image img-fluid figure-img"></p>
-<figcaption class="margin-caption">The Lord of the Rings The Fellowship of the Ring</figcaption>
-</figure>
-</div>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>book-review</category>
-  <guid>https://www.bryanwhiting.com/book-review/the-lord-of-the-rings-the-fellowship-of-the-ring.html</guid>
-  <pubDate>Mon, 20 May 2024 13:27:32 GMT</pubDate>
-</item>
-<item>
-  <title>Mojo programming language</title>
-  <link>https://www.bryanwhiting.com/tech/mojo-programming-language.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Someone decided to create Python syntax but with type checking built in.</p>
-<p><a href="https://docs.modular.com/mojo/manual/basics">Introduction to Mojo | Modular Docs</a></p>
-<p>Python look and feel, but much faster.</p>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>tech</category>
-  <guid>https://www.bryanwhiting.com/tech/mojo-programming-language.html</guid>
-  <pubDate>Fri, 17 May 2024 21:53:38 GMT</pubDate>
 </item>
 </channel>
 </rss>
