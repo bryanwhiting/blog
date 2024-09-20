@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "silvermineai/first-cold-customer.md",
+                "file": "posts/easiest-ways-to-learn-something.md",
                 "mode": "source",
                 "source": false
               }
@@ -52,7 +52,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "tag:#ex/Lats/Pulldowns",
+            "query": "",
             "matchingCase": false,
             "explainSearch": false,
             "collapseAll": false,
@@ -89,7 +89,7 @@
         }
       }
     ],
-    "currentTab": 2
+    "currentTab": 5
   },
   "right": {
     "id": "559ab374ba828b40",
@@ -101,7 +101,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "silvermineai/first-cold-customer.md",
+            "file": "posts/easiest-ways-to-learn-something.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "silvermineai/first-cold-customer.md",
+            "file": "posts/easiest-ways-to-learn-something.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -130,7 +130,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "silvermineai/first-cold-customer.md"
+            "file": "posts/easiest-ways-to-learn-something.md"
           }
         }
       }
@@ -150,8 +150,24 @@
   },
   "active": "b55872dd4edb37f4",
   "lastOpenFiles": [
-    "goals/2024-08-21.md",
+    "book-review/young-forever.md",
+    "posts/easiest-ways-to-learn-something.md",
+    "_templates/link-to-file.md",
+    "posts/reading-charts-every-week.md",
+    "goals/2024-09-14.md",
+    "book-review/seo-simplified.md",
+    "book-review/project-hail-mary.md",
+    "Untitled 3.md",
+    "tech/tracing.md",
+    "img2024-09-07-1409-drawing-of-wife.png",
+    "posts/expertise-is-knowing-what-to-do-when-things-go-wrong.md",
+    "tech/just-a-few-lines-of-code.md",
+    "posts/how-i-will-vote.md",
+    "img2024-09-01-2109-republican-b.png",
+    "book-review/neuromancer.md",
+    "img/book-neuromancer.jpeg",
     "silvermineai/first-cold-customer.md",
+    "goals/2024-08-21.md",
     "tech/dont-trust-a-cloud-provider.md",
     "posts/us-political-system.md",
     "tech/chicken-nugget-a-b-testing.md",
@@ -163,20 +179,7 @@
     "posts/data-science-structure.md",
     "silvermineai/give-it-time-and-retry.md",
     "tech/forget-pythonic-write-code-that-works.md",
-    "goals/2024-08-01.md",
-    "posts/10-steps-to-optimize-anything.md",
-    "posts/hungry-judge.md",
-    "goals/2024-07-27.md",
-    "book-review/the-one-thing.md",
-    "goals/2024-07-15.md",
-    "posts/reading-this-daily.md",
     "img2024-07-14-0807-Book of Mormon.png",
-    "goals/2024-07-13.md",
-    "lists/ai.md",
-    "book-review/dotcom-secrets.md",
-    "silvermineai/2023-local-search-ranking-factors.md",
-    "silvermineai/the-emotional-burdens.md",
-    "book-review/seo-work-book.md",
     "img/book-seo-work-book.jpeg",
     "img/2024-06-27-1106-what-do-you-have-to-lose",
     "img/2024-06-16-1406-mark-uses-40-dollars",
@@ -184,7 +187,6 @@
     "Pasted image 20240616141503.png",
     "img/book-$100m-leads.jpeg",
     "img/book-100m-offers.jpeg",
-    "img/screenshot-pinball-loss-molnar.jpeg",
-    "img/book-the-road.jpeg"
+    "img/screenshot-pinball-loss-molnar.jpeg"
   ]
 }

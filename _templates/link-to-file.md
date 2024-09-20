@@ -39,8 +39,8 @@ if (selectedFile) {
 
     // Determine if the file is an image and insert appropriate markdown
     if (['jpg', 'png', 'jpeg'].includes(selectedFile.extension)) {
-        let caption = await tp.system.prompt("Enter caption for the image:");
-        tp.file.cursor_append(`![${caption}](${relPath}){.preview-image}`);
+        // let caption = await tp.system.prompt("Enter caption for the image:");
+        tp.file.cursor_append(`![${tp.file.title.replace("-", " ") + " book review"}](${relPath}){.preview-image}`);
     } else {
     tp.file.cursor_append(`[${fileTitle}](${relPath})`);
     }
