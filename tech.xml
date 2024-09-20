@@ -9,8 +9,54 @@
 <link>https://www.bryanwhiting.com/tech.html</link>
 <atom:link href="https://www.bryanwhiting.com/tech.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.5.56</generator>
-<lastBuildDate>Mon, 19 Aug 2024 11:16:03 GMT</lastBuildDate>
+<generator>quarto-1.5.57</generator>
+<lastBuildDate>Sat, 07 Sep 2024 14:04:18 GMT</lastBuildDate>
+<item>
+  <title>Tracing</title>
+  <link>https://www.bryanwhiting.com/tech/tracing.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>“Tell her you traced that”</p>
+<p>my daughter had just asked me if I drew this. I said yes. But I omitted some details.</p>
+<p>What does it matter I traced it? I wanted a picture that didn’t look like two potatos.</p>
+<p>Nowadays, the question of: “did you draw that” and “did you actually write that” will perhaps become more relevant.</p>
+<p>I’ve never coded without using Google. Now I don’t code without AI. Is that cheating? Am I tracing??</p>
+<p>Ultimately, nobody cares how it was made. Just that it was made to spec.</p>
+<p>Similarly, a relative likes to bow hunt. Why? It’s more fun than a rifle. More of a challenge.</p>
+<p>I didn’t want a challenge. I wanted a better drawing. So I traced.</p>
+<p>In the future, we’ll still write “by hand”. But not to create a great product. But because it’s meaningful to experience as a human.</p>
+<p><img src="https://www.bryanwhiting.com/img2024-09-07-1409-drawing-of-wife.png" class="img-fluid"></p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <guid>https://www.bryanwhiting.com/tech/tracing.html</guid>
+  <pubDate>Sat, 07 Sep 2024 14:04:18 GMT</pubDate>
+</item>
+<item>
+  <title>Just a few lines of code</title>
+  <link>https://www.bryanwhiting.com/tech/just-a-few-lines-of-code.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Anytime anyone tells you “it’s been simplified to a few lines of code”, that always means it’s several thousand lines of code hidden in the closet. You inherit both when using the solution with just a few lines of code.</p>
+<p>Some things can’t easily be abstracted.</p>
+
+
+
+<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
+  <category>tech</category>
+  <guid>https://www.bryanwhiting.com/tech/just-a-few-lines-of-code.html</guid>
+  <pubDate>Wed, 04 Sep 2024 14:05:46 GMT</pubDate>
+</item>
 <item>
   <title>Don’t trust a cloud provider</title>
   <link>https://www.bryanwhiting.com/tech/dont-trust-a-cloud-provider.html</link>
@@ -845,52 +891,6 @@ print(df)</code></pre>
   <category>ai tools</category>
   <guid>https://www.bryanwhiting.com/tech/devin-the-ai-coder.html</guid>
   <pubDate>Wed, 13 Mar 2024 21:15:17 GMT</pubDate>
-</item>
-<item>
-  <title>News Notes for 2024-03-11</title>
-  <link>https://www.bryanwhiting.com/news/2024-03-11-news-notes.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p><a href="https://simonwillison.net/2024/Mar/8/gpt-4-barrier/">The GPT-4 barrier has finally been broken</a></p>
-<ul>
-<li>this doesn’t even mention Llama or apple’s Ferret <a href="https://github.com/apple/ml-ferret">ferret</a></li>
-<li><a href="https://generativeai.pub/hushed-arrival-of-apples-open-source-multimodal-llm-called-ferret-a-commitment-to-open-and-239a0285a866">Hushed Arrival of Apple’s Open Source Multimodal LLM called Ferret: A Commitment to Open and Responsible AI or Strategic Power Play? | by Miz Causevic | Generative AI</a></li>
-</ul>
-
-
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>news</category>
-  <category>ai</category>
-  <guid>https://www.bryanwhiting.com/news/2024-03-11-news-notes.html</guid>
-  <pubDate>Mon, 11 Mar 2024 19:30:57 GMT</pubDate>
-</item>
-<item>
-  <title>Setting up a New Mac</title>
-  <link>https://www.bryanwhiting.com/tech/setting-up-a-new-mac.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p>Things I like to do:</p>
-<p>Terminal: - Home brew - Zsh - Power level 10k - gh cli - Lazygit cli</p>
-<p>Mac Applications I download: - alfred: - rectangle: <code>brew install rectangle</code>. Screen location manager - Flycut: <code>brew install flycut</code>. Clipboard manager</p>
-<section id="zsh-aliases" class="level2">
-<h2 class="anchored" data-anchor-id="zsh-aliases">Zsh aliases:</h2>
-
-
-</section>
-
-<p>_________________________ <br> <br> <i><a href="https://www.bryanwhiting.com/about">Bryan</a> lives somewhere at the intersection of faith, fatherhood, and futurism and writes about <a href="https://www.bryanwhiting.com/tech">tech</a>, <a href="https://www.bryanwhiting.com/books">books</a>, <a href="https://www.bryanwhiting.com/christianity">Christianity</a>, <a href="https://www.bryanwhiting.com/gratitude">gratitude</a>, and <a href="https://www.bryanwhiting.com/">whatever’s on his mind</a>. If you liked reading, perhaps you’ll also like subscribing: <br><br> </i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe></p> ]]></description>
-  <category>tech</category>
-  <guid>https://www.bryanwhiting.com/tech/setting-up-a-new-mac.html</guid>
-  <pubDate>Fri, 08 Mar 2024 12:36:15 GMT</pubDate>
 </item>
 </channel>
 </rss>
