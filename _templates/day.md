@@ -30,6 +30,8 @@ pelo-kj: 0
 pelo-avg: 0
 pelo-res: 0
 pelo-rpm: 0
+pelo-dist: 0
+avg-w: 0
 run-dist: 0
 run-time: 0
 hike-dist: 0
@@ -39,6 +41,9 @@ basketball-time: 0
 bike-dist: 0
 bike-time: 0
 bike-elev: 0
+hr-avg: 0
+hr-range: ""
+mile-run: ""
 draft: false
 ---
 **<% middle %>**

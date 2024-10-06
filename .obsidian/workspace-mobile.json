@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/easiest-ways-to-learn-something.md",
+                "file": "goals/2024-10-05.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,7 +101,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/easiest-ways-to-learn-something.md",
+            "file": "goals/2024-10-05.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/easiest-ways-to-learn-something.md",
+            "file": "goals/2024-10-05.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -130,7 +130,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/easiest-ways-to-learn-something.md"
+            "file": "goals/2024-10-05.md"
           }
         }
       }
@@ -150,35 +150,35 @@
   },
   "active": "b55872dd4edb37f4",
   "lastOpenFiles": [
-    "book-review/young-forever.md",
-    "posts/easiest-ways-to-learn-something.md",
+    "goals/2024-10-03.md",
+    "goals/2024-10-05.md",
+    "book-review/the-small-and-the-mighty.md",
     "_templates/link-to-file.md",
+    "goals/2024-09-30.md",
+    "goals/2024-10-01.md",
+    "goals/2024-09-28.md",
+    "_templates/day.md",
+    "goals/2024-09-27.md",
+    "goals/2024-09-25.md",
+    "goals/2024-09-26.md",
+    "book-review/young-forever.md",
+    "goals/2024-09-24.md",
+    "christianity/the-onion-patch.md",
+    "goals/2024-09-22.md",
+    "goals/2024-09-16.md",
+    "goals/2024-09-17.md",
+    "goals/2024-09-18.md",
+    "goals/2024-09-19.md",
+    "goals/2024-09-20.md",
+    "goals/2024-09-21.md",
+    "posts/better-sweater.md",
+    "posts/new-socks.md",
+    "posts/easiest-ways-to-learn-something.md",
     "posts/reading-charts-every-week.md",
     "goals/2024-09-14.md",
-    "book-review/seo-simplified.md",
-    "book-review/project-hail-mary.md",
-    "Untitled 3.md",
-    "tech/tracing.md",
     "img2024-09-07-1409-drawing-of-wife.png",
-    "posts/expertise-is-knowing-what-to-do-when-things-go-wrong.md",
-    "tech/just-a-few-lines-of-code.md",
-    "posts/how-i-will-vote.md",
     "img2024-09-01-2109-republican-b.png",
-    "book-review/neuromancer.md",
     "img/book-neuromancer.jpeg",
-    "silvermineai/first-cold-customer.md",
-    "goals/2024-08-21.md",
-    "tech/dont-trust-a-cloud-provider.md",
-    "posts/us-political-system.md",
-    "tech/chicken-nugget-a-b-testing.md",
-    "goals/2024-08-13.md",
-    "goals/2024-08-09.md",
-    "posts/scientific-method.md",
-    "goals/2024-08-06.md",
-    "posts/this-is-an-ab-test.md",
-    "posts/data-science-structure.md",
-    "silvermineai/give-it-time-and-retry.md",
-    "tech/forget-pythonic-write-code-that-works.md",
     "img2024-07-14-0807-Book of Mormon.png",
     "img/book-seo-work-book.jpeg",
     "img/2024-06-27-1106-what-do-you-have-to-lose",

@@ -45,6 +45,11 @@
     "bike-elev": "number",
     "bike-time": "number",
     "temple": "date",
-    "finished": "checkbox"
+    "finished": "checkbox",
+    "run-avgw": "number",
+    "avg-hr": "number",
+    "hr-avg": "number",
+    "hr-range": "text",
+    "mile-run": "text"
   }
 }
