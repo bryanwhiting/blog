@@ -78,10 +78,10 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-date','listing-created','listing-categories','listing-draft','listing-author','listing-book-year','listing-book-time','listing-date-start','listing-date-finished','listing-finished','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-updated','listing-pct-complete','listing-image','listing-subtitle','listing-pushups','listing-sit-ups','listing-body squats','listing-squat jumps','listing-difficulty','listing-workout-notes','listing-workout-vibe','listing-meditate','listing-pray','listing-music','listing-exercises','listing-muscle-groups','listing-pelo-kj','listing-pelo-time','listing-pelo-avg','listing-cardio-type','listing-strength','listing-cardio','listing-pelo-warmup','listing-body-zones','listing-run-dist','listing-run-time','listing-hike-dist','listing-hike-elev','listing-hike-time','listing-jumprope-time','listing-jumprope-cnt','listing-sss','listing-workout-time','listing-basketball-time','listing-sun','listing-water24oz','listing-tags','listing-FHE','listing-date-night','listing-pelo-pr-attempt','listing-asleepby1030','listing-beach','listing-pelo-rpm','listing-pelo-res','listing-bike-dist','listing-bike-elev','listing-bike-time','listing-temple','listing-freeze','listing-title-block-banner','listing-license','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-citation',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-date','listing-created','listing-categories','listing-draft','listing-author','listing-book-year','listing-book-time','listing-date-start','listing-date-finished','listing-finished','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-updated','listing-tags','listing-freeze','listing-title-block-banner','listing-license','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-citation','listing-image','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       page: 25,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-date","listing-created","listing-categories","listing-draft","listing-author","listing-book-year","listing-book-time","listing-date-start","listing-date-finished","listing-finished","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-updated","listing-pct-complete","listing-image","listing-subtitle","listing-pushups","listing-sit-ups","listing-body squats","listing-squat jumps","listing-difficulty","listing-workout-notes","listing-workout-vibe","listing-meditate","listing-pray","listing-music","listing-exercises","listing-muscle-groups","listing-pelo-kj","listing-pelo-time","listing-pelo-avg","listing-cardio-type","listing-strength","listing-cardio","listing-pelo-warmup","listing-body-zones","listing-run-dist","listing-run-time","listing-hike-dist","listing-hike-elev","listing-hike-time","listing-jumprope-time","listing-jumprope-cnt","listing-sss","listing-workout-time","listing-basketball-time","listing-sun","listing-water24oz","listing-tags","listing-FHE","listing-date-night","listing-pelo-pr-attempt","listing-asleepby1030","listing-beach","listing-pelo-rpm","listing-pelo-res","listing-bike-dist","listing-bike-elev","listing-bike-time","listing-temple","listing-freeze","listing-title-block-banner","listing-license","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-citation"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-date","listing-created","listing-categories","listing-draft","listing-author","listing-book-year","listing-book-time","listing-date-start","listing-date-finished","listing-finished","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-updated","listing-tags","listing-freeze","listing-title-block-banner","listing-license","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-citation","listing-image","listing-subtitle"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -159,7 +159,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./concepts.html">Other</a></li><li class="breadcrumb-item"><a href="./sitemap.html">Sitemap (All Posts)</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Other</li><li class="breadcrumb-item"><a href="./sitemap.html">Sitemap (All Posts)</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -171,7 +171,7 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default toc-left page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./concepts.html">Other</a></li><li class="breadcrumb-item"><a href="./sitemap.html">Sitemap (All Posts)</a></li></ol></nav>
+    <div class="quarto-title column-body"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Other</li><li class="breadcrumb-item"><a href="./sitemap.html">Sitemap (All Posts)</a></li></ol></nav>
       <h1 class="title">Sitemap (All Posts)</h1>
                       </div>
   </div>
@@ -216,11 +216,8 @@ window.Quarto = {
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
+ <span class="menu-text">about.qmd</span>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
@@ -249,29 +246,17 @@ window.Quarto = {
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./books.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Book Reviews</span></a>
-  </div>
-</li>
+ <span class="menu-text">books.qmd</span>
+  </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./christianity.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Christianity</span></a>
-  </div>
-</li>
+ <span class="menu-text">christianity.qmd</span>
+  </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./gratitude.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Gratitude</span></a>
-  </div>
-</li>
+ <span class="menu-text">gratitude.qmd</span>
+  </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./creative.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Creative</span></a>
-  </div>
-</li>
+ <span class="menu-text">creative.qmd</span>
+  </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -284,17 +269,11 @@ window.Quarto = {
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./concepts.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Concepts</span></a>
-  </div>
-</li>
+ <span class="menu-text">concepts.qmd</span>
+  </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./goals.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Goals</span></a>
-  </div>
-</li>
+ <span class="menu-text">goals.qmd</span>
+  </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lists.html" class="sidebar-item-text sidebar-link">
@@ -330,23 +309,23 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
 <ul>
-<pre><code>    &lt;li&gt;2024-09-18 &lt;a href="/posts/easiest-ways-to-learn-something.md"&gt;Easiest ways to learn something&lt;/a&gt; [posts]&lt;/li&gt;
+<pre><code>    &lt;li&gt;2024-10-01 &lt;a href="/book-review/the-small-and-the-mighty.md"&gt;The Small and the Mighty&lt;/a&gt; [book-review]&lt;/li&gt;
     
 
     
-        &lt;li&gt;2024-09-17 &lt;a href="/book-review/young-forever.md"&gt;Young Forever&lt;/a&gt; [book-review,health,longevity]&lt;/li&gt;
+        &lt;li&gt;2024-09-20 &lt;a href="/posts/better-sweater.md"&gt;Better sweater&lt;/a&gt; [posts]&lt;/li&gt;
+    
+
+    
+        &lt;li&gt;2024-09-20 &lt;a href="/posts/new-socks.md"&gt;New socks&lt;/a&gt; [posts]&lt;/li&gt;
+    
+
+    
+        &lt;li&gt;2024-09-18 &lt;a href="/posts/easiest-ways-to-learn-something.md"&gt;Easiest ways to learn something&lt;/a&gt; [posts]&lt;/li&gt;
     
 
     
         &lt;li&gt;2024-09-16 &lt;a href="/posts/reading-charts-every-week.md"&gt;Reading Charts Every Week&lt;/a&gt; [posts,plots,dataviz,data visualization,monitoring]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-09-14 &lt;a href="/book-review/seo-simplified.md"&gt;SEO Simplified&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-09-14 &lt;a href="/goals/2024-09-14.md"&gt;2024-09-14&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -362,23 +341,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-09-03 &lt;a href="/book-review/project-hail-mary.md"&gt;Project Hail Mary&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-09-01 &lt;a href="/posts/how-i-will-vote.md"&gt;How I will vote&lt;/a&gt; [posts]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-08-27 &lt;a href="/book-review/neuromancer.md"&gt;Neuromancer&lt;/a&gt; [book-review]&lt;/li&gt;
+        &lt;li&gt;2024-09-01 &lt;a href="/posts/how-i-will-vote-2024.md"&gt;How I will vote&lt;/a&gt; [posts]&lt;/li&gt;
     
 
     
         &lt;li&gt;2024-08-21 &lt;a href="/silvermineai/first-cold-customer.md"&gt;First cold customer&lt;/a&gt; [silvermineai]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-08-21 &lt;a href="/goals/2024-08-21.md"&gt;2024-08-21&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -394,19 +361,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-08-13 &lt;a href="/goals/2024-08-13.md"&gt;2024-08-13&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-08-09 &lt;a href="/goals/2024-08-09.md"&gt;2024-08-09&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-08-06 &lt;a href="/posts/scientific-method.md"&gt;Scientific method&lt;/a&gt; [posts]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-08-06 &lt;a href="/goals/2024-08-06.md"&gt;2024-08-06&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -426,10 +381,6 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-08-01 &lt;a href="/goals/2024-08-01.md"&gt;2024-08-01&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-07-28 &lt;a href="/posts/10-steps-to-optimize-anything.md"&gt;10 steps to optimize anything&lt;/a&gt; [posts]&lt;/li&gt;
     
 
@@ -438,31 +389,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-07-27 &lt;a href="/goals/2024-07-27.md"&gt;2024-07-27&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-07-16 &lt;a href="/book-review/the-one-thing.md"&gt;The One Thing&lt;/a&gt; [book-review,productivity,self-help]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-07-15 &lt;a href="/goals/2024-07-15.md"&gt;2024-07-15&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-07-14 &lt;a href="/posts/reading-this-daily.md"&gt;Reading this Daily&lt;/a&gt; [posts]&lt;/li&gt;
     
 
     
-        &lt;li&gt;2024-07-13 &lt;a href="/goals/2024-07-13.md"&gt;2024-07-13&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-07-09 &lt;a href="/silvermineai/the-emotional-burdens.md"&gt;The emotional burdens&lt;/a&gt; [silvermineai]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-07-09 &lt;a href="/book-review/dotcom-secrets.md"&gt;Dotcom Secrets&lt;/a&gt; [book-review]&lt;/li&gt;
     
 
     
@@ -486,23 +417,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-06-30 &lt;a href="/goals/2024-06-30.md"&gt;2024-06-30&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-06-29 &lt;a href="/book-review/seo-work-book.md"&gt;SEO Work Book&lt;/a&gt; [book-review,seo,marketing,digital marketing]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-06-29 &lt;a href="/silvermineai/the-overwhelming-chaos.md"&gt;The Overwhelming Chaos&lt;/a&gt; [silvermineai]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-06-29 &lt;a href="/goals/2024-06-29.md"&gt;2024-06-29&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-06-28 &lt;a href="/goals/2024-06-28.md"&gt;2024-06-28&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -514,19 +429,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-06-27 &lt;a href="/goals/2024-06-27.md"&gt;2024-06-27&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-06-26 &lt;a href="/goals/2024-06-26.md"&gt;2024-06-26&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-06-25 &lt;a href="/posts/productivity.md"&gt;Productivity&lt;/a&gt; [posts,productivity]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-06-24 &lt;a href="/book-review/how-to-get-to-the-top-of-google.md"&gt;How to Get to the Top of Google&lt;/a&gt; [book-review]&lt;/li&gt;
     
 
     
@@ -558,10 +461,6 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-06-10 &lt;a href="/book-review/this-is-marketing.md"&gt;This is Marketing&lt;/a&gt; [book-review,marketing,sales]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-06-08 &lt;a href="/silvermineai/3-signed-customers-and-perhaps-1-2-more-coming-this-week.md"&gt;3 signed customers and perhaps 1-2 more coming this week&lt;/a&gt; [silvermineai]&lt;/li&gt;
     
 
@@ -570,47 +469,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-05-31 &lt;a href="/book-review/the-lord-of-the-rings-the-return-of-the-king.md"&gt;The Lord of the Rings the Return of the King&lt;/a&gt; [book-review,fantasy,fiction]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-05-30 &lt;a href="/book-review/designing-machine-learning-systems.md"&gt;Designing Machine Learning Systems&lt;/a&gt; [book-review,machine learning,non-fiction,academic]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-05-29 &lt;a href="/book-review/the-lord-of-the-rings-the-two-towers.md"&gt;The Lord of the Rings - The Two Towers&lt;/a&gt; [book-review,fantasy,fiction]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-05-21 &lt;a href="/christianity/our-eyes-track-red.md"&gt;Our Eyes track Red&lt;/a&gt; [christianity]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-05-20 &lt;a href="/book-review/the-lord-of-the-rings-the-fellowship-of-the-ring.md"&gt;The Lord of the Rings - The Fellowship of the Ring&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-05-19 &lt;a href="/goals/2024-05-19.md"&gt;2024-05-19&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-05-18 &lt;a href="/goals/2024-05-18.md"&gt;2024-05-18&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-05-17 &lt;a href="/tech/mojo-programming-language.md"&gt;Mojo programming language&lt;/a&gt; [tech]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-05-17 &lt;a href="/book-review/100m-leads.md"&gt;$100M Leads&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-05-17 &lt;a href="/book-review/get-anyone-to-do-anything.md"&gt;Get Anyone to do Anything&lt;/a&gt; [book-review,psychology,self-help,sales]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-05-16 &lt;a href="/goals/2024-05-16.md"&gt;2024-05-16&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -622,31 +481,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-05-15 &lt;a href="/goals/2024-05-15.md"&gt;2024-05-15&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-05-14 &lt;a href="/goals/2024-05-14.md"&gt;2024-05-14&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-05-13 &lt;a href="/goals/2024-05-13.md"&gt;2024-05-13&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-05-12 &lt;a href="/sacrament-symbols/motherhood.md"&gt;Motherhood&lt;/a&gt; [sacrament-symbols]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-05-12 &lt;a href="/goals/2024-05-12.md"&gt;2024-05-12&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-05-11 &lt;a href="/goals/2024-05-11.md"&gt;2024-05-11&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-05-09 &lt;a href="/book-review/100m-offers.md"&gt;$100M Offers&lt;/a&gt; [book-review,sales]&lt;/li&gt;
     
 
     
@@ -654,47 +489,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-05-08 &lt;a href="/goals/2024-05-08.md"&gt;2024-05-08&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-05-02 &lt;a href="/posts/failure-and-countermeasures-robert-rogers.md"&gt;Failure and Countermeasures - Robert Rogers&lt;/a&gt; [posts]&lt;/li&gt;
     
 
     
-        &lt;li&gt;2024-05-01 &lt;a href="/book-review/the-undoing-project.md"&gt;The Undoing Project&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-05-01 &lt;a href="/tech/pinball-loss.md"&gt;Pinball Loss&lt;/a&gt; [tech]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-05-01 &lt;a href="/book-review/the-road.md"&gt;The Road&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-04-30 &lt;a href="/book-review/tools-of-titans.md"&gt;Tools of Titans&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-04-30 &lt;a href="/book-review/emotional-intelligence-for-sales-success.md"&gt;Emotional Intelligence for Sales Success&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-04-29 &lt;a href="/book-review/thinking-in-bets.md"&gt;Thinking in Bets&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-04-28 &lt;a href="/gratitude/a-change-in-perspective.md"&gt;I'm Grateful for A change in perspective&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-04-28 &lt;a href="/christianity/whats-my-foundation-model.md"&gt;What's my Foundation Model?&lt;/a&gt; [christianity]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-04-28 &lt;a href="/christianity/a-foundation-on-christ.md"&gt;A foundation on Christ&lt;/a&gt; [christianity,trials,foundation]&lt;/li&gt;
     
 
     
@@ -718,39 +517,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-04-26 &lt;a href="/goals/2024-04-26.md"&gt;2024-04-26&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-04-25 &lt;a href="/quotes/who-am-i-fine-tuning-myself-to-be-like.md"&gt;Who am I fine tuning myself to be like?&lt;/a&gt; [quotes]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-04-24 &lt;a href="/goals/2024-04-24.md"&gt;2024-04-24&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-04-23 &lt;a href="/gratitude/baseball-season.md"&gt;I'm Grateful for Baseball Season&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-04-21 &lt;a href="/gratitude/a-small-insignificant-corner-of-the-internet.md"&gt;I'm Grateful for A small, insignificant corner of the internet&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-04-21 &lt;a href="/book-review/saints-volume-2-no-unhallowed-hand.md"&gt;Saints Volume 2: No Unhallowed Hand&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-04-20 &lt;a href="/book-review/black-hearts.md"&gt;Black Hearts&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-04-20 &lt;a href="/book-review/the-energy-bus.md"&gt;The Energy Bus&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-04-20 &lt;a href="/goals/2024-04-20.md"&gt;2024-04-20&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -766,23 +533,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-04-17 &lt;a href="/goals/2024-04-17.md"&gt;2024-04-17&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-04-16 &lt;a href="/book-review/machine-learning-q-and-ai.md"&gt;Machine Learning Q and AI&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-04-16 &lt;a href="/quotes/the-linda-problem.md"&gt;The Linda Problem&lt;/a&gt; [quotes]&lt;/li&gt;
     
 
     
         &lt;li&gt;2024-04-16 &lt;a href="/silvermineai/congfigurations.md"&gt;Congfigurations&lt;/a&gt; [silvermineai]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-04-15 &lt;a href="/goals/2024-04-15.md"&gt;2024-04-15&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -826,15 +581,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-04-13 &lt;a href="/goals/2024-04-13.md"&gt;2024-04-13&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-04-12 &lt;a href="/gratitude/in-awe-of-ai.md"&gt;I'm Grateful for In Awe of AI&lt;/a&gt; [gratitude,ai,ai tools]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-04-12 &lt;a href="/book-review/power-and-prediction.md"&gt;Power and Prediction&lt;/a&gt; [book-review,tech,ai,economics,machine learning,data science]&lt;/li&gt;
     
 
     
@@ -846,15 +593,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-04-11 &lt;a href="/goals/2024-04-11.md"&gt;2024-04-11&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-04-10 &lt;a href="/gratitude/the-peak-of-a-hike.md"&gt;I'm Grateful for The Peak of a Hike&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-04-10 &lt;a href="/goals/2024-04-10.md"&gt;2024-04-10&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -862,31 +601,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-04-09 &lt;a href="/goals/2024-04-09.md"&gt;2024-04-09&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-04-08 &lt;a href="/book-review/the-coming-wave.md"&gt;The Coming Wave&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-04-06 &lt;a href="/gratitude/warm-naps-on-the-couch.md"&gt;I'm Grateful for Warm naps on the couch&lt;/a&gt; [gratitude]&lt;/li&gt;
     
 
     
-        &lt;li&gt;2024-04-06 &lt;a href="/gratitude/customer-service-agents.md"&gt;I'm Grateful for Customer Service Agents&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-04-05 &lt;a href="/tech/microsoft-copilot-notes.md"&gt;Microsoft Copilot notes&lt;/a&gt; [tech]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-04-05 &lt;a href="/book-review/a-gentleman-in-moscow.md"&gt;A Gentleman in Moscow&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-04-05 &lt;a href="/christianity/jacob-1-viewing-christ.md"&gt;Jacob 1 - Viewing Christ&lt;/a&gt; [christianity]&lt;/li&gt;
     
 
     
@@ -907,10 +626,6 @@ window.Quarto = {
 
     
         &lt;li&gt;2024-04-03 &lt;a href="/gratitude/wet-suit.md"&gt;I'm Grateful for Wet Suits&lt;/a&gt; [gratitude,nature]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-04-03 &lt;a href="/christianity/Jacob-2-give-freely.md"&gt;Jacob 2 - Give Freely&lt;/a&gt; [christianity,charity]&lt;/li&gt;
     
 
     
@@ -942,14 +657,6 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-04-01 &lt;a href="/book-review/brave-new-world.md"&gt;Brave New World&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-31 &lt;a href="/gratitude/easter.md"&gt;I'm Grateful for Easter&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-03-31 &lt;a href="/quotes/i-wont-get-it-right-but-i-will-get-right-getting-it-right.md"&gt;I won't get it right. But I will get right getting it right.&lt;/a&gt; [quotes,affirmations,my principles,decisions]&lt;/li&gt;
     
 
@@ -962,15 +669,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-03-31 &lt;a href="/christianity/easter-the-most-important-holiday.md"&gt;Easter, the most important holiday&lt;/a&gt; [christianity]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-03-31 &lt;a href="/scriptures/the-purifying-power-of-gethsemane.md"&gt;The Purifying Power of Gethsemane&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-30 &lt;a href="/gratitude/green-oasis.md"&gt;I'm Grateful for Green Oasis&lt;/a&gt; [gratitude,nature]&lt;/li&gt;
     
 
     
@@ -978,35 +677,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-03-30 &lt;a href="/book-review/adult-children-of-emotional-immature-parents.md"&gt;Adult Children of Emotional Immature Parents&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-30 &lt;a href="/goals/2024-03-30.md"&gt;2024-03-30&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-03-29 &lt;a href="/quotes/i-walked-into-my-fathers-office-for-the-first-time.md"&gt;I walked into my father's office for the first time&lt;/a&gt; [quotes]&lt;/li&gt;
     
 
     
-        &lt;li&gt;2024-03-28 &lt;a href="/gratitude/bodyfulness.md"&gt;I'm Grateful for Bodyfulness&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-03-28 &lt;a href="/quotes/i-wasnt-much-of-a-founder-until-i-found-her.md"&gt;I wasn't much of a founder until I found her.&lt;/a&gt; [quotes]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-27 &lt;a href="/christianity/easter-seek-miracles.md"&gt;Easter Study: Seek Miracles&lt;/a&gt; [christianity]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-27 &lt;a href="/gratitude/fairy-houses.md"&gt;I'm Grateful for Fairy Houses&lt;/a&gt; [gratitude,parenting,family bonding]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-27 &lt;a href="/book-review/heal-your-nervous-system.md"&gt;Heal Your Nervous System&lt;/a&gt; [book-review]&lt;/li&gt;
     
 
     
@@ -1026,19 +701,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-03-25 &lt;a href="/gratitude/ever-shifting-tides.md"&gt;I'm Grateful for Ever Shifting Tides&lt;/a&gt; [gratitude,tech,big tech]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-23 &lt;a href="/christianity/2-nephi-31-.md"&gt;2 Nephi 31 -&lt;/a&gt; [christianity]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-03-23 &lt;a href="/quotes/relationships-are-about-knowing-when-to-make-the-big-things-little-and-the-little-things-big.md"&gt;Relationships are about knowing when to make the big things little, and the little things big.&lt;/a&gt; [quotes]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-23 &lt;a href="/gratitude/better-health.md"&gt;I'm Grateful for Better Health&lt;/a&gt; [gratitude]&lt;/li&gt;
     
 
     
@@ -1046,39 +709,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-03-22 &lt;a href="/book-review/elon-musk.md"&gt;Elon Musk&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-22 &lt;a href="/book-review/the-count-of-monte-cristo.md"&gt;The Count of Monte Cristo&lt;/a&gt; [book-review,fiction]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-22 &lt;a href="/book-review/of-mice-and-men.md"&gt;Of Mice and Men&lt;/a&gt; [book-review,fiction,classics]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-03-21 &lt;a href="/quotes/bad-teams-bad-leaders.md"&gt;Bad teams bad leaders&lt;/a&gt; [quotes]&lt;/li&gt;
     
 
     
-        &lt;li&gt;2024-03-18 &lt;a href="/gratitude/cs-lewis.md"&gt;I'm Grateful for CS Lewis&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-18 &lt;a href="/book-review/the-worry-cure.md"&gt;The Worry Cure&lt;/a&gt; [book-review,therapy,psychology,mindfulness,self-help]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-03-18 &lt;a href="/news/2024-03-18-news-notes.md"&gt;News Notes for 2024-03-18&lt;/a&gt; [news]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-18 &lt;a href="/christianity/2-nephi-31-plain.md"&gt;2 Nephi 31.3&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-17 &lt;a href="/creative/prayer-of-perspective.md"&gt;Prayer of Perspective&lt;/a&gt; [creative,mindfulness,christianity,perspective]&lt;/li&gt;
     
 
     
@@ -1094,39 +729,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-03-16 &lt;a href="/christianity/2-nephi-26-30-apostasy.md"&gt;2024-03-17 Come Follow Me CTR 7 - 2 Nephi 26-30 - Apostasy&lt;/a&gt; [christianity,come follow me lesson plan]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-16 &lt;a href="/book-review/the-prophet.md"&gt;The Prophet&lt;/a&gt; [book-review,poetry,philosophy]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-16 &lt;a href="/goals/2024-03-16.md"&gt;2024-03-16&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-03-16 &lt;a href="/scriptures/2-nephi-27.23.md"&gt;2 Nephi 27.23&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
     
 
     
-        &lt;li&gt;2024-03-15 &lt;a href="/goals/2024-03-15.md"&gt;2024-03-15&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-14 &lt;a href="/christianity/2-nephi-27-the-purpose-of-the-book-of-mormon.md"&gt;2 Nephi 27 The Purpose of the Book of Mormon&lt;/a&gt; [christianity,come follow me]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-14 &lt;a href="/gratitude/freedom-of-religion.md"&gt;I'm Grateful for Freedom of Religion&lt;/a&gt; [gratitude,family history,pioneers]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-03-14 &lt;a href="/tech/how-i-learn.md"&gt;How I Learn and How to Hack the Audio Book and Speed Reading Game&lt;/a&gt; [tech,life hacks]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-14 &lt;a href="/book-review/the-happiest-man-on-earth.md"&gt;The Happiest Man on Earth&lt;/a&gt; [book-review,ww2,philosophy,biography]&lt;/li&gt;
     
 
     
@@ -1158,10 +765,6 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-03-13 &lt;a href="/christianity/2-nephi-26-pride.md"&gt;2 Nephi 26 - pride&lt;/a&gt; [christianity,come follow me]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-03-13 &lt;a href="/quotes/theres-something-really-boring-about-data-science.md"&gt;There's something really boring about data science&lt;/a&gt; [quotes,data science]&lt;/li&gt;
     
 
@@ -1174,27 +777,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-03-11 &lt;a href="/christianity/2-nephi-26.md"&gt;2 Nephi 26&lt;/a&gt; [christianity]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-11 &lt;a href="/gratitude/a-sleeping-baby.md"&gt;I'm Grateful for A sleeping baby&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-11 &lt;a href="/book-review/the-6-types-of-working-genius.md"&gt;The 6 Types of Working Genius&lt;/a&gt; [book-review,productivity,personality,culture,team building,teamwork]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-03-11 &lt;a href="/news/2024-03-11-news-notes.md"&gt;News Notes for 2024-03-11&lt;/a&gt; [news,ai]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-11 &lt;a href="/book-review/light-gbm-documentation.md"&gt;Light GBM Documentation&lt;/a&gt; [book-review,upskilling,tech,data science]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-11 &lt;a href="/book-review/forecasting-principles-and-practice.md"&gt;Forecasting: Principles and Practice&lt;/a&gt; [book-review,data science,tech,upskilling,time series,A/B testing,machine learning]&lt;/li&gt;
     
 
     
@@ -1202,15 +785,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-03-10 &lt;a href="/gratitude/im-grateful-for-logicians.md"&gt;I'm Grateful for I'm grateful for logicians&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-03-10 &lt;a href="/sacrament-symbols/walking-into-the-church-reminds-me-of-disciples-running-to-the-tomb.md"&gt;Walking into the church Reminds me of Disciples Running to the Tomb&lt;/a&gt; [sacrament-symbols]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-10 &lt;a href="/christianity/2-nephi-21-the-wolf-and-the-lamb.md"&gt;2 Nephi 21.6&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
     
 
     
@@ -1219,10 +794,6 @@ window.Quarto = {
 
     
         &lt;li&gt;2024-03-10 &lt;a href="/scriptures/alma-62.41.md"&gt;Alma 62.41&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-09 &lt;a href="/christianity/2-nephi-20-25-lesson-plan.md"&gt;2 Nephi 20-25 Lesson Plan&lt;/a&gt; [christianity,come follow me,come follow me lesson plan]&lt;/li&gt;
     
 
     
@@ -1258,14 +829,6 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-03-09 &lt;a href="/goals/2024-03-09.md"&gt;2024-03-09&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-08 &lt;a href="/christianity/2-nephi-25-talk-of-christ.md"&gt;2 Nephi 25 - We Talk of Christ&lt;/a&gt; [christianity,come follow me,commandments]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-03-08 &lt;a href="/gratitude/sun-on-turf.md"&gt;I'm Grateful for Sun on turf&lt;/a&gt; [gratitude]&lt;/li&gt;
     
 
@@ -1287,10 +850,6 @@ window.Quarto = {
 
     
         &lt;li&gt;2024-03-08 &lt;a href="/scriptures/2-nephi-25.25-26.md"&gt;2 Nephi 25.25–26&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-07 &lt;a href="/christianity/2-nephi-22.md"&gt;2 Nephi 22.2&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
     
 
     
@@ -1342,15 +901,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-03-04 &lt;a href="/christianity/2-nephi-20-true-mercy.md"&gt;2 Nephi 20.3–4&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-03-03 &lt;a href="/gratitude/long-naps.md"&gt;I'm Grateful for Long Naps&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-03 &lt;a href="/book-review/mere-christianity.md"&gt;Mere Christianity&lt;/a&gt; [book-review]&lt;/li&gt;
     
 
     
@@ -1358,31 +909,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-03-03 &lt;a href="/concepts/confirmation-bias.md"&gt;confirmation bias&lt;/a&gt; [concepts]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-03 &lt;a href="/christianity/2024-03-03-my-testimony.md"&gt;My Testimony 2023-03-03&lt;/a&gt; [christianity,my testimony,epistemology]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-03-03 &lt;a href="/sacrament-symbols/chewing-the-bread-reminds-me-that-he-gave-everything.md"&gt;Chewing the Bread Reminds me that He Gave Everything&lt;/a&gt; [sacrament-symbols,atonement,symbol-bread]&lt;/li&gt;
     
 
     
-        &lt;li&gt;2024-03-03 &lt;a href="/christianity/2-nephi-18.md"&gt;2 Nephi 18.19&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-03-02 &lt;a href="/posts/implementing-culture.md"&gt;Implementing Culture&lt;/a&gt; [posts,interviewing,culture,business]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-02 &lt;a href="/book-review/band-of-brothers.md"&gt;Band of Brothers&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-02 &lt;a href="/goals/2024-03-02.md"&gt;2024-03-02&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -1394,14 +925,6 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-03-01 &lt;a href="/christianity/2-nephi-14-personalized-guidance.md"&gt;2 Nephi 14 - Personalized Guidance&lt;/a&gt; [christianity,come follow me]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-03-01 &lt;a href="/goals/2024-03-01.md"&gt;2024-03-01&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-03-01 &lt;a href="/scriptures/2-nephi-13.18-25.md"&gt;2 Nephi 13.18–25&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
     
 
@@ -1410,35 +933,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-02-29 &lt;a href="/christianity/2-nephi-13-enduring-beauty.md"&gt;2 Nephi 13 - Enduring Beauty&lt;/a&gt; [christianity,come follow me]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-29 &lt;a href="/gratitude/dune.md"&gt;I'm Grateful for Dune&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-29 &lt;a href="/book-review/the-great-gatsby.md"&gt;The Great Gatsby&lt;/a&gt; [book-review,fiction]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-28 &lt;a href="/gratitude/charlie-the-barber.md"&gt;I'm Grateful for the Barber&lt;/a&gt; [gratitude,people I meet]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-28 &lt;a href="/goals/2024-02-28.md"&gt;2024-02-28&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-27 &lt;a href="/christianity/2-nephi-11-seeing-my-redeemer.md"&gt;2 Nephi 11 - Seeing My Redeemer&lt;/a&gt; [christianity,come follow me,revelation]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-02-27 &lt;a href="/gratitude/laundry-machine.md"&gt;I'm Grateful for my Laundry Machine&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-27 &lt;a href="/goals/2024-02-27.md"&gt;2024-02-27&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -1454,27 +949,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-02-26 &lt;a href="/gratitude/choice.md"&gt;I'm Grateful for Choice&lt;/a&gt; [gratitude,philosophy]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-26 &lt;a href="/book-review/the-sun-also-rises.md"&gt;The Sun Also Rises&lt;/a&gt; [book-review,fiction]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-26 &lt;a href="/creative/prose-nuzzle.md"&gt;Nuzzle&lt;/a&gt; [creative,prose,parenting]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-25 &lt;a href="/christianity/2-nephi-9-familial-covenants.md"&gt;2 Nephi 9 - Familial Covenants&lt;/a&gt; [christianity,come follow me,covenant]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-02-25 &lt;a href="/gratitude/waterfalls.md"&gt;I'm Grateful for Waterfalls&lt;/a&gt; [gratitude,nature]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-25 &lt;a href="/goals/2024-02-25.md"&gt;2024-02-25&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -1486,51 +961,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-02-24 &lt;a href="/gratitude/basketball-games.md"&gt;I'm Grateful for Basketball Games&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-24 &lt;a href="/christianity/2-nephi-10.md"&gt;2 Nephi 10&lt;/a&gt; [christianity]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-24 &lt;a href="/goals/2024-02-24.md"&gt;2024-02-24&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-23 &lt;a href="/christianity/2-nephi-9-infinite-atonement.md"&gt;2 Nephi 9 - Infinite Atonement&lt;/a&gt; [christianity,come follow me,atonement]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-23 &lt;a href="/gratitude/guitars.md"&gt;I'm Grateful for Guitars&lt;/a&gt; [gratitude,music]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-23 &lt;a href="/goals/2024-02-23.md"&gt;2024-02-23&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-02-23 &lt;a href="/scriptures/2-nephi-9.7.md"&gt;2 Nephi 9.7&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-22 &lt;a href="/gratitude/fog.md"&gt;I'm Grateful for Fog&lt;/a&gt; [gratitude,nature]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-22 &lt;a href="/christianity/2-nephi-8-perspective.md"&gt;2 Nephi 8 - Perspective&lt;/a&gt; [christianity,come follow me,perspective]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-22 &lt;a href="/book-review/beyond-band-of-brothers.md"&gt;Beyond Band of Brothers: The War Memoirs of Major Dick Winters&lt;/a&gt; [book-review,historical,biography,world war 2]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-22 &lt;a href="/book-review/trustworthy-online-controlled-experiments-a-practical-guide-to-ab-testing.md"&gt;Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing&lt;/a&gt; [book-review,business,A/B testing,data science]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-22 &lt;a href="/book-review/the-right-it.md"&gt;The Right It: Why So Many Ideas Fail and How to Make Sure Yours Succeeds&lt;/a&gt; [book-review]&lt;/li&gt;
     
 
     
@@ -1538,23 +969,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-02-22 &lt;a href="/goals/2024-02-22.md"&gt;2024-02-22&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-02-22 &lt;a href="/scriptures/2-nephi-8.12.md"&gt;2 Nephi 8.12&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-21 &lt;a href="/gratitude/copilot-money.md"&gt;I'm Grateful for Copilot Money&lt;/a&gt; [gratitude,tech]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-21 &lt;a href="/christianity/2-nephi-7-jesus-is-with-us.md"&gt;2 Nephi 7 - He is Near&lt;/a&gt; [christianity,come follow me]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-21 &lt;a href="/goals/2024-02-21.md"&gt;2024-02-21&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -1570,39 +985,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-02-20 &lt;a href="/goals/2024-02-20.md"&gt;2024-02-20&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-19 &lt;a href="/christianity/2-nephi-6-wait-on-the-lord.md"&gt;2 Nephi 6 - Waiting on the Lord&lt;/a&gt; [christianity,faith,come follow me]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-19 &lt;a href="/gratitude/green-hills.md"&gt;I'm Grateful for Green Hills&lt;/a&gt; [gratitude,nature,sports,hiking]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-19 &lt;a href="/book-review/daring-greatly.md"&gt;Daring Greatly&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-19 &lt;a href="/book-review/overcoming-the-five-dysfunctions-of-a-team.md"&gt;Overcoming the Five Dysfunctions of a Team&lt;/a&gt; [book-review,business,leadership,team building,emotional intelligence]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-19 &lt;a href="/goals/2024-02-19.md"&gt;2024-02-19&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-02-19 &lt;a href="/scriptures/2-nephi-6.17.md"&gt;2 Nephi 6.17&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
     
 
     
         &lt;li&gt;2024-02-19 &lt;a href="/scriptures/2-nephi-6.7.md"&gt;2 Nephi 6.7&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-18 &lt;a href="/christianity/2-nephi-5-sometimes-theres-war.md"&gt;2 Nephi 5 - Sometimes there's war&lt;/a&gt; [christianity,come follow me]&lt;/li&gt;
     
 
     
@@ -1627,10 +1014,6 @@ window.Quarto = {
 
     
         &lt;li&gt;2024-02-18 &lt;a href="/tech/three-ai-failures-needing-guardrails.md"&gt;Air Canada's failed AI-generated Refund Policy and other AI mishaps: When you need guardrails on your AI&lt;/a&gt; [tech,ai mishaps,ai,ai guardrails]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-18 &lt;a href="/goals/2024-02-18.md"&gt;2024-02-18&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -1670,35 +1053,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-02-17 &lt;a href="/gratitude/brownies.md"&gt;I'm Grateful for brownies&lt;/a&gt; [gratitude,food]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-17 &lt;a href="/book-review/building-a-story-brand.md"&gt;Building a Story Brand&lt;/a&gt; [book-review,business,marketing,sales,storytelling]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-02-17 &lt;a href="/news/2024-02-17-news-notes.md"&gt;News Notes for 2024-02-17&lt;/a&gt; [news]&lt;/li&gt;
     
 
     
-        &lt;li&gt;2024-02-17 &lt;a href="/christianity/2-nephi-5-emergency-preparedness.md"&gt;2 Nephi 5.14&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-17 &lt;a href="/goals/2024-02-17.md"&gt;2024-02-17&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-02-17 &lt;a href="/scriptures/2-nephi-4.26-27.md"&gt;2 Nephi 4.26–27&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-16 &lt;a href="/christianity/2-nephi-4-heaven-and-hell.md"&gt;2 Nephi 4 - Heaven and Hell in One&lt;/a&gt; [christianity,come follow me]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-16 &lt;a href="/gratitude/board-games.md"&gt;I'm Grateful for Board Games&lt;/a&gt; [gratitude]&lt;/li&gt;
     
 
     
@@ -1710,43 +1069,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-02-16 &lt;a href="/goals/2024-02-16.md"&gt;2024-02-16&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-15 &lt;a href="/christianity/2-nephi-4-love-and-despair.md"&gt;2 Nephi 4 - Love and Despair&lt;/a&gt; [christianity,come follow me]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-15 &lt;a href="/gratitude/book-club.md"&gt;I'm Grateful for Book Club&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-02-15 &lt;a href="/tech/observable-framework-vs-quarto.md"&gt;Observable Framework 1.0 vs Quarto&lt;/a&gt; [tech,observable,quarto,tool comparison]&lt;/li&gt;
     
 
     
         &lt;li&gt;2024-02-15 &lt;a href="/tech/package-installer-uv-vs-poetry.md"&gt;Package Installer: "uv"&lt;/a&gt; [tech,python,software engineering,dev ops,dev tools]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-15 &lt;a href="/goals/2024-02-15.md"&gt;2024-02-15&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-14 &lt;a href="/concepts/truths-lost-in-the-bible.md"&gt;truths lost in the Bible&lt;/a&gt; [concepts]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-14 &lt;a href="/christianity/2-nephi-4-prophecy-of-another-branch.md"&gt;2 Nephi 4 - A Prophecy of Another Branch&lt;/a&gt; [christianity,come follow me]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-14 &lt;a href="/gratitude/explorers.md"&gt;I'm Grateful for Explorers&lt;/a&gt; [gratitude,gratitude-ThingsIHaveAtAnothersSacrifice]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-14 &lt;a href="/book-review/the-wager.md"&gt;The Wager&lt;/a&gt; [book-review,historical,non-fiction,survival]&lt;/li&gt;
     
 
     
@@ -1758,23 +1085,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-02-14 &lt;a href="/goals/2024-02-14.md"&gt;2024-02-14&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-02-14 &lt;a href="/scriptures/2-nephi-4.2.md"&gt;2 Nephi 4.2&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
     
 
     
         &lt;li&gt;2024-02-14 &lt;a href="/scriptures/jst,-genesis-50.24.md"&gt;JST, Genesis 50.24&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-13 &lt;a href="/christianity/2-nephi-3-two-scriptures.md"&gt;2 Nephi 3 - Two Scriptures&lt;/a&gt; [christianity,come follow me]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-13 &lt;a href="/gratitude/foam-mattresses.md"&gt;I'm Grateful for Foam Mattresses&lt;/a&gt; [gratitude,home]&lt;/li&gt;
     
 
     
@@ -1790,35 +1105,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-02-13 &lt;a href="/christianity/coalesce-revelation-first-then-agency.md"&gt;Coalesce - Revelation first, then Agency&lt;/a&gt; [christianity,decisions,revelation]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-13 &lt;a href="/goals/2024-02-13.md"&gt;2024-02-13&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-02-13 &lt;a href="/scriptures/2-nephi-3.12.md"&gt;2 Nephi 3.12&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
     
 
     
-        &lt;li&gt;2024-02-12 &lt;a href="/creative/poem-breath-of-life.md"&gt;Breathe on (Breath of Life)&lt;/a&gt; [creative,poem]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-12 &lt;a href="/christianity/2-nephi-4-ask.md"&gt;2 Nephi 4 Ask&lt;/a&gt; [christianity,come follow me]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-12 &lt;a href="/gratitude/chicken-sliders.md"&gt;I'm Grateful for Chicken Sliders&lt;/a&gt; [gratitude,food]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-02-12 &lt;a href="/tech/war-tech.md"&gt;War Tech&lt;/a&gt; [tech,ai]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-12 &lt;a href="/goals/2024-02-12.md"&gt;2024-02-12&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -1835,14 +1126,6 @@ window.Quarto = {
 
     
         &lt;li&gt;2024-02-12 &lt;a href="/scriptures/malachi-3.10.md"&gt;Malachi 3.10&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-11 &lt;a href="/christianity/2-nephi-2-enticing-decisions.md"&gt;2 Nephi 2 - Enticement is Agency&lt;/a&gt; [christianity,decisions,mental health,come follow me]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-11 &lt;a href="/gratitude/gatherings-for-the-super-bowl.md"&gt;I'm Grateful for Gatherings for the Super Bowl&lt;/a&gt; [gratitude,sports]&lt;/li&gt;
     
 
     
@@ -1866,10 +1149,6 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-02-10 &lt;a href="/christianity/2-nephi-2-he-carries-our-burdens.md"&gt;2 Nephi 2 - His Capacity to Carry Our Burdens&lt;/a&gt; [come follow me,adversity,atonement,christianity,prayer]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-02-10 &lt;a href="/news/2024-02-10-news-notes.md"&gt;News Notes for 2024-02-10&lt;/a&gt; [news,data science]&lt;/li&gt;
     
 
@@ -1882,19 +1161,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-02-10 &lt;a href="/christianity/isaiah-53.4.md"&gt;Isaiah 53.4&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-10 &lt;a href="/goals/2024-02-10.md"&gt;2024-02-10&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-02-10 &lt;a href="/scriptures/matthew-11.29.md"&gt;Matthew 11.29&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-09 &lt;a href="/christianity/2-nephi-2-redemption.md"&gt;2 Nephi 2 - Redemption&lt;/a&gt; [christianity,redemption,atonement,come follow me]&lt;/li&gt;
     
 
     
@@ -1902,15 +1169,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-02-09 &lt;a href="/goals/2024-02-09.md"&gt;2024-02-09&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-02-09 &lt;a href="/scriptures/2-nephi-2.6.md"&gt;2 Nephi 2.6&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-08 &lt;a href="/christianity/2-nephi-2-consecration.md"&gt;2 Nephi 2 - Consecration&lt;/a&gt; [christianity,come follow me,consecration,adversity]&lt;/li&gt;
     
 
     
@@ -1926,23 +1185,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-02-08 &lt;a href="/goals/2024-02-08.md"&gt;2024-02-08&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-02-08 &lt;a href="/scriptures/2-nephi-2.2.md"&gt;2 Nephi 2.2&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
     
 
     
-        &lt;li&gt;2024-02-07 &lt;a href="/christianity/2-nephi-1-shake-off-the-chains.md"&gt;2 Nephi 1 - Shake off the Chains&lt;/a&gt; [christianity,come follow me]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-02-07 &lt;a href="/gratitude/new-york.md"&gt;I'm Grateful for New York&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-07 &lt;a href="/goals/2024-02-07.md"&gt;2024-02-07&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -1958,10 +1205,6 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-02-06 &lt;a href="/christianity/2-nephi-1-land-of-promise.md"&gt;2 Nephi 1 - Obtaining a Promised Land&lt;/a&gt; [christianity,individual covenant,covenant,land of promise,come follow me]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-02-06 &lt;a href="/gratitude/kindness.md"&gt;I'm Grateful for Kindness&lt;/a&gt; [gratitude,parenting,charity,christianity]&lt;/li&gt;
     
 
@@ -1970,15 +1213,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-02-06 &lt;a href="/goals/2024-02-06.md"&gt;2024-02-06&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-02-06 &lt;a href="/scriptures/2-nephi-1.5.md"&gt;2 Nephi 1.5&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-05 &lt;a href="/christianity/2-nephi-1-alternative-endings.md"&gt;2 Nephi 1 - Alternative Endings&lt;/a&gt; [christianity,decisions,come follow me,hindsight]&lt;/li&gt;
     
 
     
@@ -1986,31 +1221,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-02-05 &lt;a href="/concepts/Honduras.md"&gt;Honduras&lt;/a&gt; []&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-05 &lt;a href="/gratitude/avocados.md"&gt;I'm Grateful for Avocados&lt;/a&gt; [gratitude,food]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-02-05 &lt;a href="/tech/embedding-audio-in-quarto.md"&gt;Embedding audio in Quarto&lt;/a&gt; [tech,quarto,blogging,tutorial,obsidian]&lt;/li&gt;
     
 
     
-        &lt;li&gt;2024-02-05 &lt;a href="/creative/guitar-clouds.md"&gt;Guitar: Clouds&lt;/a&gt; [creative,song,guitar,parenting]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-05 &lt;a href="/goals/2024-02-05.md"&gt;2024-02-05&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-02-05 &lt;a href="/scriptures/2-nephi-1.4.md"&gt;2 Nephi 1.4&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-04 &lt;a href="/christianity/1-nephi-22-gathered-by-his-covenants.md"&gt;1 Nephi 22 - His Covenants will be the key of the Gathering of Israel&lt;/a&gt; [christianity,come follow me,gathering of israel,Abrahamic Covenant]&lt;/li&gt;
     
 
     
@@ -2019,14 +1234,6 @@ window.Quarto = {
 
     
         &lt;li&gt;2024-02-04 &lt;a href="/tech/llm-chatbot-arena-leaderboard.md"&gt;LLM Chatbot Arena Leaderboard&lt;/a&gt; [tech,llm benchmarks,ai,ai tools,ai benchmarks]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-04 &lt;a href="/gratitude/bowling.md"&gt;I'm Grateful for bowling&lt;/a&gt; [gratitude,sports]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-04 &lt;a href="/goals/2024-02-04.md"&gt;2024-02-04&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -2042,23 +1249,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-02-03 &lt;a href="/gratitude/home-depot-saturday-morning-crafts.md"&gt;I'm Grateful for Home Depot Saturday Morning Crafts&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-03 &lt;a href="/concepts/frank-herbert.md"&gt;Frank Herbert&lt;/a&gt; [concepts]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-02-03 &lt;a href="/posts/the-iceberg-theory-theory-of-omission.md"&gt;The Iceberg Theory - Theory of Omission&lt;/a&gt; [posts,storytelling,writing,creativity]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-03 &lt;a href="/christianity/1-nephi-21-he-has-not-forgotten-you.md"&gt;1 Nephi 21 - I Have Graven Thee&lt;/a&gt; [christianity,come follow me]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-03 &lt;a href="/goals/2024-02-03.md"&gt;2024-02-03&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -2086,15 +1277,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-02-02 &lt;a href="/christianity/1-nephi-20-baptism-in-the-old-testament.md"&gt;1 Nephi 20 - Baptism in the Old Testament&lt;/a&gt; [christianity,come follow me,book of mormon,old testament,Abrahamic Covenant,baptism]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-02-02 &lt;a href="/gratitude/peloton.md"&gt;I'm Grateful for Peloton&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-02 &lt;a href="/book-review/shift.md"&gt;Shift&lt;/a&gt; [book-review]&lt;/li&gt;
     
 
     
@@ -2130,51 +1313,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-02-02 &lt;a href="/goals/2024-02-02.md"&gt;2024-02-02&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-01 &lt;a href="/gratitude/compliments.md"&gt;I'm Grateful for Compliments&lt;/a&gt; [gratitude,leadership,charity]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-01 &lt;a href="/christianity/1-nephi-19-yieldeth-himself.md"&gt;1 Nephi 19 - Yieldeth Himself&lt;/a&gt; [christianity,come follow me]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-02-01 &lt;a href="/book-review/the-old-man-and-the-sea.md"&gt;The Old Man and the Sea&lt;/a&gt; [book-review,fiction,classics]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-02-01 &lt;a href="/posts/export-your-libby-timeline-to-obsidian.md"&gt;Export your Libby Timeline to Obsidian&lt;/a&gt; [posts,tutorial,python,libby,quarto,blogging]&lt;/li&gt;
     
 
     
-        &lt;li&gt;2024-02-01 &lt;a href="/goals/2024-02-01.md"&gt;2024-02-01&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-02-01 &lt;a href="/scriptures/1-nephi-19.10.md"&gt;1 Nephi 19.10&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-31 &lt;a href="/gratitude/basketball.md"&gt;I'm Grateful for Basketball&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-31 &lt;a href="/christianity/1-nephi-18-prayer.md"&gt;1 Nephi 18 - The Power of Prayer&lt;/a&gt; [christianity,come follow me,prayer,adversity]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-31 &lt;a href="/book-review/the-loop.md"&gt;The Loop&lt;/a&gt; [book-review,tech]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-31 &lt;a href="/book-review/influence-the-psychology-of-persuasion.md"&gt;Influence The Psychology of Persuasion&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-31 &lt;a href="/goals/2024-01-31.md"&gt;2024-01-31&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -2190,19 +1333,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-30 &lt;a href="/christianity/1-nephi-17-strength.md"&gt;1 Nephi 17 - He will strengthen us&lt;/a&gt; [christianity,come follow me,strength,trust in the Lord]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-30 &lt;a href="/gratitude/youtube.md"&gt;I'm Grateful for YouTube&lt;/a&gt; [gratitude,tech]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-30 &lt;a href="/goals/2024-01-30.md"&gt;2024-01-30&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-29 &lt;a href="/christianity/1-nephi-16-christ-guides-us.md"&gt;1 Nephi 16 - Christ Guides us in Unique Ways&lt;/a&gt; [christianity,prayer,revelation,hand of the Lord,come follow me,gratitude]&lt;/li&gt;
     
 
     
@@ -2210,15 +1341,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-29 &lt;a href="/book-review/the-tyranny-of-experts.md"&gt;The Tyranny of Experts&lt;/a&gt; [book-review,economics]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-29 &lt;a href="/sacrament-symbols/bread-in-the-oven.md"&gt;Bread in the Oven&lt;/a&gt; [sacrament-symbols,symbol-bread]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-29 &lt;a href="/goals/2024-01-29.md"&gt;2024-01-29&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -2278,15 +1401,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-28 &lt;a href="/christianity/come-follow-me-2024-01-28-jan-28-1-nephi-11-15.md"&gt;2024-01-28 Come Follow Me CTR 7 Jan 22-28 1 Nephi 11-15&lt;/a&gt; [christianity,come follow me,come follow me lesson plan]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-28 &lt;a href="/sacrament-symbols/bread-given-freely-like-his-life.md"&gt;Bread given freely, like His life&lt;/a&gt; [sacrament-symbols,symbol-bread]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-28 &lt;a href="/gratitude/imagination.md"&gt;I'm Grateful for Imagination&lt;/a&gt; [gratitude,creativity]&lt;/li&gt;
     
 
     
@@ -2299,10 +1414,6 @@ window.Quarto = {
 
     
         &lt;li&gt;2024-01-28 &lt;a href="/sacrament-symbols/porous-bread.md"&gt;Porous Bread&lt;/a&gt; [sacrament-symbols,prayer,symbol-bread]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-28 &lt;a href="/goals/2024-01-28.md"&gt;2024-01-28&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -2358,19 +1469,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-27 &lt;a href="/gratitude/chirping-birds.md"&gt;I'm Grateful for Chirping Birds&lt;/a&gt; [gratitude,nature]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-27 &lt;a href="/goals/2024-01-27.md"&gt;2024-01-27&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-27 &lt;a href="/scriptures/1-nephi-15.24.md"&gt;1 Nephi 15.24&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-26 &lt;a href="/christianity/1-nephi-15-hearken-and-hold-fast.md"&gt;1 Nephi 15 - Hearken and Hold Fast&lt;/a&gt; [christianity,come follow me,obedience]&lt;/li&gt;
     
 
     
@@ -2382,15 +1481,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-26 &lt;a href="/goals/2024-01-26.md"&gt;2024-01-26&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-26 &lt;a href="/scriptures/1-nephi-14.7.md"&gt;1 Nephi 14.7&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-25 &lt;a href="/christianity/1-nephi-14-convincing-unto-peace.md"&gt;1 Nephi 14 - Convincing unto Peace&lt;/a&gt; [christianity,peace,come follow me]&lt;/li&gt;
     
 
     
@@ -2402,35 +1493,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-25 &lt;a href="/goals/2024-01-25.md"&gt;2024-01-25&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-25 &lt;a href="/scriptures/1-nephi-13.37.md"&gt;1 Nephi 13.37&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-24 &lt;a href="/christianity/1-nephi-13-publish-peace.md"&gt;1 Nephi 13 - Publish Peace&lt;/a&gt; [christianity,peace,come follow me]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-24 &lt;a href="/gratitude/challenges.md"&gt;I'm Grateful for Challenges&lt;/a&gt; [gratitude,challenges]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-24 &lt;a href="/book-review/wool.md"&gt;Wool&lt;/a&gt; [book-review,apocalyptic,fiction,dystopian,sci-fi]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-24 &lt;a href="/goals/2024-01-24.md"&gt;2024-01-24&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-23 &lt;a href="/christianity/1-nephi-12-broad-roads.md"&gt;1 Nephi 12 - Broad Roads&lt;/a&gt; [christianity,come follow me]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-23 &lt;a href="/book-review/the-coddling-of-the-american-mind.md"&gt;The Coddling of the American Mind&lt;/a&gt; [book-review,psychology,politics,education]&lt;/li&gt;
     
 
     
@@ -2446,27 +1509,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-23 &lt;a href="/goals/2024-01-23.md"&gt;2024-01-23&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-23 &lt;a href="/scriptures/1-nephi-12.17.md"&gt;1 Nephi 12.17&lt;/a&gt; [favorite scriptures]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-22 &lt;a href="/christianity/turn-to-god-not-your-idols.md"&gt;Turn to God in All Things, and Not Your Idols&lt;/a&gt; [christianity,scripture of the day,prayer,faith,consecration]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-22 &lt;a href="/christianity/1-nephi-11-seeing-signs-of-christ.md"&gt;1 Nephi 11 - Angel shows signs to Nephi&lt;/a&gt; [christianity,come follow me,faith]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-22 &lt;a href="/gratitude/early-morning-workouts.md"&gt;I'm Grateful for Early Morning Workouts&lt;/a&gt; [gratitude,personal stories]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-22 &lt;a href="/goals/2024-01-22.md"&gt;2024-01-22&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -2502,27 +1545,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-21 &lt;a href="/christianity/come-follow-me-2024-01-21-jan-21.md"&gt;2024-01-21 Come Follow Me CTR 7 Jan 15-21 1 Nephi 6-10&lt;/a&gt; [christianity,come follow me lesson plan,come follow me]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-21 &lt;a href="/gratitude/similarities.md"&gt;I'm Grateful for Similarities&lt;/a&gt; [gratitude,memories,personal stories]&lt;/li&gt;
     
 
     
-        &lt;li&gt;2024-01-21 &lt;a href="/book-review/saints-book-1-the-standard-of-truth-1815-1846.md"&gt;Saints Book 1 The Standard of Truth 1815-1846&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-21 &lt;a href="/concepts/sacrament-covenant.md"&gt;Sacramental Covenant&lt;/a&gt; [concepts,christianity]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-21 &lt;a href="/sacrament-symbols/receive-the-holy-ghost.md"&gt;Receive the Holy Ghost&lt;/a&gt; [sacrament-symbols,christianity,symbol-receive]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-21 &lt;a href="/goals/2024-01-21.md"&gt;2024-01-21&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -2594,19 +1621,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-20 &lt;a href="/christianity/1-nephi-8-choosing-to-press-forward.md"&gt;1 Nephi 8 - Press Forward Continually&lt;/a&gt; [christianity,come follow me,love,love of God,agency]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-20 &lt;a href="/gratitude/social-gatherings.md"&gt;I'm Grateful for Social Gatherings&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-20 &lt;a href="/book-review/how-to-win-friends-and-influence-people.md"&gt;How to Win Friends and Influence People&lt;/a&gt; [book-review,influence,leadership,parenting]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-20 &lt;a href="/goals/2024-01-20.md"&gt;2024-01-20&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -2622,27 +1637,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-19 &lt;a href="/gratitude/baby-formula.md"&gt;I'm Grateful for Baby Formula&lt;/a&gt; [gratitude,parenting]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-19 &lt;a href="/book-review/the-wealth-of-nations.md"&gt;The Wealth of Nations&lt;/a&gt; [book-review,economics]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-19 &lt;a href="/book-review/the-inklings.md"&gt;The Inklings&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-19 &lt;a href="/news/2024-01-19-news-notes.md"&gt;News Notes for 2024-01-19&lt;/a&gt; [news,futurism]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-19 &lt;a href="/christianity/1-nephi-10-rely-on-the-redeemer.md"&gt;1 Nephi 10 - Rely on the Redeemer&lt;/a&gt; [christianity,come follow me,book of mormon]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-19 &lt;a href="/goals/2024-01-19.md"&gt;2024-01-19&lt;/a&gt; [goals,tabata]&lt;/li&gt;
     
 
     
@@ -2650,15 +1645,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-18 &lt;a href="/christianity/1-nephi-9-write-with-a-purpose.md"&gt;1 Nephi 9 - Write with a Purpose&lt;/a&gt; [christianity,come follow me]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-18 &lt;a href="/gratitude/things-i-dont-understand.md"&gt;I'm Grateful for Things I Don't Understand&lt;/a&gt; [gratitude,epistemology]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-18 &lt;a href="/goals/2024-01-18.md"&gt;2024-01-18&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -2675,18 +1662,6 @@ window.Quarto = {
 
     
         &lt;li&gt;2024-01-17 &lt;a href="/gratitude/music.md"&gt;I'm Grateful for Music&lt;/a&gt; [gratitude,music]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-17 &lt;a href="/christianity/the-power-of-habitual-prayer.md"&gt;The Power of Habitual Prayer&lt;/a&gt; [christianity,my testimony,personal stories,prayer,scripture of the day,book of mormon,featured]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-17 &lt;a href="/christianity/1-nephi-8-what-others-think.md"&gt;1 Nephi 8 - Think for yourself&lt;/a&gt; [christianity,come follow me]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-17 &lt;a href="/goals/2024-01-17.md"&gt;2024-01-17&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -2718,23 +1693,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-16 &lt;a href="/christianity/1-nephi-7-commitment.md"&gt;1 Nephi 7 - Make a Choice, Don't go Halvsies&lt;/a&gt; [christianity,commitment,learning,epistemology,come follow me]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-16 &lt;a href="/posts/the-problem-with-public-opinions.md"&gt;The Problem with Public Opinions&lt;/a&gt; [posts,philosophy,social media]&lt;/li&gt;
     
 
     
-        &lt;li&gt;2024-01-16 &lt;a href="/book-review/paradise-lost-and-paradise-regained.md"&gt;Paradise Lost and Paradise Regained&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-16 &lt;a href="/gratitude/open-source.md"&gt;I'm Grateful for Open Source&lt;/a&gt; [gratitude,tech,ai]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-16 &lt;a href="/goals/2024-01-16.md"&gt;2024-01-16&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -2758,43 +1721,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-15 &lt;a href="/christianity/1-nephi-6-god-of-the-covenant.md"&gt;1 Nephi 6 - God of the Covenant&lt;/a&gt; [christianity,come follow me,book of mormon,scripture of the day]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-15 &lt;a href="/gratitude/ice-skating.md"&gt;I'm Grateful for Ice Skating&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-15 &lt;a href="/goals/2024-01-15.md"&gt;2024-01-15&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-14 &lt;a href="/christianity/1-nephi-5-trusting-a-promise.md"&gt;1 Nephi 5 - Will a promise be delivered?&lt;/a&gt; [christianity,faith,covenant,individual covenant,promised blessings,come follow me,book of mormon]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-14 &lt;a href="/gratitude/heaven.md"&gt;I'm Grateful for Heaven&lt;/a&gt; [gratitude,christianity]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-14 &lt;a href="/concepts/president-russel-m-nelson.md"&gt;President Russel M. Nelson&lt;/a&gt; [concepts]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-14 &lt;a href="/christianity/sacrament-talk-on-missionary-work.md"&gt;A Church Culture of Missionary work&lt;/a&gt; [christianity,opinion,lds culture]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-14 &lt;a href="/sacrament-symbols/support-beams-represent-the-cross.md"&gt;Architecture Reminds Me of His Cross&lt;/a&gt; [sacrament symbol,christianity,scripture of the day,symbol-cross]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-14 &lt;a href="/creative/poem-cuddles.md"&gt;Cuddles&lt;/a&gt; [creative,poem,parenting]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-14 &lt;a href="/goals/2024-01-14.md"&gt;2024-01-14&lt;/a&gt; []&lt;/li&gt;
     
 
     
@@ -2838,30 +1765,6 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-13 &lt;a href="/gratitude/healing.md"&gt;I'm Grateful for Healing&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-13 &lt;a href="/christianity/1-nephi-4-why-not.md"&gt;1 Nephi 4 - Why not?&lt;/a&gt; [christianity,come follow me,book of mormon]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-13 &lt;a href="/creative/poem-slow-blink.md"&gt;Slow Blink&lt;/a&gt; [creative,poem,babies,parenting]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-13 &lt;a href="/creative/poem-stairwell-scoop.md"&gt;Stairwell scoop&lt;/a&gt; [creative,poem]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-13 &lt;a href="/goals/2024-01-13.md"&gt;2024-01-13&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-12 &lt;a href="/christianity/1-nephi-3-dreamed-a-dream.md"&gt;1 Nephi 3 - Dreamed a Dream&lt;/a&gt; [christianity,come follow me]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-12 &lt;a href="/posts/you-can-plan-your-life-in-5-minutes.md"&gt;You can plan your life in 5 minutes&lt;/a&gt; [posts,purpose of life]&lt;/li&gt;
     
 
@@ -2870,15 +1773,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-12 &lt;a href="/creative/poem-bound.md"&gt;Bound&lt;/a&gt; [creative,poem,parenting,fatherhood]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-12 &lt;a href="/posts/junk-attracts-junk.md"&gt;Junk attracts Junk&lt;/a&gt; [posts,laws of human nature,observations,philosophy]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-12 &lt;a href="/goals/2024-01-12.md"&gt;2024-01-12&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -2898,15 +1793,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-11 &lt;a href="/creative/poem-lint.md"&gt;Lint&lt;/a&gt; [babies,parenting,poem,creative]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-11 &lt;a href="/posts/bidens-debt-relief-wont-relieve-what-he-thinks-it-will.md"&gt;Biden's debt relief won't relieve what he thinks it will&lt;/a&gt; [posts,politics,economics]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-11 &lt;a href="/goals/2024-01-11.md"&gt;goals&lt;/a&gt; [goals]&lt;/li&gt;
     
 
     
@@ -2914,19 +1801,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-11 &lt;a href="/christianity/1-nephi-2-receiving-a-promised-land.md"&gt;1 Nephi 2 - Receiving a promised land&lt;/a&gt; [christianity,covenant,individual covenant,come follow me,book of mormon]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-11 &lt;a href="/lists/scripture-study-list.md"&gt;List of Study Topics&lt;/a&gt; [lists]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-11 &lt;a href="/concepts/christian.md"&gt;Christian&lt;/a&gt; [concepts]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-11 &lt;a href="/christianity/find-the-fun.md"&gt;Find the Fun&lt;/a&gt; [christianity,parenting,mental health,mindfulness,philosophy,tech,A/B testing,mindset]&lt;/li&gt;
     
 
     
@@ -2942,10 +1817,6 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-10 &lt;a href="/book-review/the-quest-for-cosmic-justice.md"&gt;The Quest for Cosmic Justice&lt;/a&gt; [book-review,economics,social justice,politics]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-10 &lt;a href="/posts/cool-quarto-site.md"&gt;Cool Quarto Site&lt;/a&gt; [posts,quarto,tech,coding]&lt;/li&gt;
     
 
@@ -2954,39 +1825,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-10 &lt;a href="/christianity/stop-trying-to-change-people.md"&gt;Stop trying to change people. Stop it.&lt;/a&gt; [christianity,prayer,agency,mindfulness,perspective]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-10 &lt;a href="/goals/2024-01-10.md"&gt;Goals&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-10 &lt;a href="/christianity/1-Nephi-1-he-prepares-us-to-teach-us.md"&gt;1 Nephi 1 - He prepares us to teach us&lt;/a&gt; [christianity,come follow me,scripture of the day,book of mormon,revelation,prophets,epistemology]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-10 &lt;a href="/gratitude/listening-to-this-is-the-christ-right-now-grateful-for-good-music.md"&gt;Listening to 'This is the Christ' right now, grateful for good music&lt;/a&gt; [gratitude,music]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-10 &lt;a href="/christianity/come-follow-me-2024-01-14-jan-14.md"&gt;2024-01-14 Come Follow Me CTR 7 Jan 7-14&lt;/a&gt; [christianity,come follow me lesson plan]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-10 &lt;a href="/concepts/gratus-sum-ergo-habeo.md"&gt;Gratus sum, ergo habeo&lt;/a&gt; [concepts]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-10 &lt;a href="/concepts/the-book-of-mormon-another-testament-of-jesus-christ.md"&gt;The Book of Mormon: Another Testament of Jesus Christ&lt;/a&gt; [concepts]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-10 &lt;a href="/concepts/the-church-of-jesus-christ-of-latter-day-saints.md"&gt;The Church of Jesus Christ of Latter-day Saints&lt;/a&gt; [concepts]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-10 &lt;a href="/concepts/my-mission.md"&gt;my mission&lt;/a&gt; [posts]&lt;/li&gt;
     
 
     
@@ -2999,10 +1838,6 @@ window.Quarto = {
 
     
         &lt;li&gt;2024-01-10 &lt;a href="/posts/the-six-hour-sandwich.md"&gt;The six hour sandwich&lt;/a&gt; [posts,sales,life musings,people I meet]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-10 &lt;a href="/book-review/guide-to-decision-making.md"&gt;Guide to Decision Making&lt;/a&gt; [book-review]&lt;/li&gt;
     
 
     
@@ -3030,19 +1865,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-09 &lt;a href="/christianity/1-nephi-1-praying-for-other-people.md"&gt;1 Nephi 1 - Praying for Other People&lt;/a&gt; [christianity,come follow me,book of mormon]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-09 &lt;a href="/tech/this-drug-is-habit-forming.md"&gt;This drug is habit forming&lt;/a&gt; [tech,social media]&lt;/li&gt;
     
 
     
         &lt;li&gt;2024-01-09 &lt;a href="/tech/the-matrix.md"&gt;The Matrix: Social Media's Influence on Human Interaction&lt;/a&gt; [social media,digital minimalism,tech,modern living]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-09 &lt;a href="/book-review/the-oxford-inklings-lewis-tolkien-and-their-circle.md"&gt;The Oxford Inklings: Lewis, Tolkien and Their Circle&lt;/a&gt; [book-review,history,philosophy]&lt;/li&gt;
     
 
     
@@ -3054,23 +1881,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-09 &lt;a href="/goals/2024-01-09.md"&gt;Workout&lt;/a&gt; [goals]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-09 &lt;a href="/lists/reading-ethos.md"&gt;Reading Ethos&lt;/a&gt; [posts,reading]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-09 &lt;a href="/gratitude/audiobooks.md"&gt;Audiobooks&lt;/a&gt; [gratitude,reading]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-08 &lt;a href="/christianity/scriptures-within-scriptures.md"&gt;Scriptures within Scriptures&lt;/a&gt; [christianity,come follow me,book of mormon,scripture of the day,scriptures]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-08 &lt;a href="/book-review/dune-messiah.md"&gt;Dune: Messiah&lt;/a&gt; [book-review]&lt;/li&gt;
     
 
     
@@ -3083,10 +1894,6 @@ window.Quarto = {
 
     
         &lt;li&gt;2024-01-08 &lt;a href="/tech/a-knife-to-a-gun-fight.md"&gt;A Knife to a Gun Fight: Why I'm off Social Media&lt;/a&gt; [tech,personal experiments,A/B testing,social media,big tech,incentives,decisions,relationships,ai,emotional intelligence,purpose of life,digital minimalism]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-08 &lt;a href="/goals/2024-01-08.md"&gt;Body: Sit-up, pushup, squat tabata&lt;/a&gt; [workout]&lt;/li&gt;
     
 
     
@@ -3110,39 +1917,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-07 &lt;a href="/creative/prose-the-thief-of-time.md"&gt;The Thief of Time&lt;/a&gt; [creative,time,parenting,perspective,deep thought,prose]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-07 &lt;a href="/posts/becoming-an-expert.md"&gt;Becoming an expert is kind of a fallacy&lt;/a&gt; [posts,personal development,growth,grit,life lessons,data science]&lt;/li&gt;
     
 
     
-        &lt;li&gt;2024-01-07 &lt;a href="/concepts/hand-of-god.md"&gt;Hand of God&lt;/a&gt; [christianity,concept]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-07 &lt;a href="/christianity/my-testimony-2024-01-07.md"&gt;My testimony: Moving across the Country&lt;/a&gt; [christianity,fast sunday,my testimony,memories,let god prevail]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-07 &lt;a href="/christianity/what-does-it-mean-to-preside.md"&gt;What does it mean to preside?&lt;/a&gt; [christianity,book of mormon,doctrine and covenants,priesthood,leadership,the family a proclamation to the world,parenting]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-07 &lt;a href="/sacrament-symbols/vaulted-ceiling.md"&gt;Vaulted Ceilings&lt;/a&gt; [christianity,sacrament symbol,symbol-architecture]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-07 &lt;a href="/christianity/come-follow-me-2024-01-07-jan-7.md"&gt;2024-01-07 Come Follow Me CTR 7 Jan 1-7&lt;/a&gt; [christianity,come follow me,come follow me lesson plan,book of mormon]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-07 &lt;a href="/gratitude/cars.md"&gt;Cars&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-07 &lt;a href="/creative/prose-red-eyed.md"&gt;Red eyed&lt;/a&gt; [creative,deep thought,funny,perspective,hypothetical,angle of vision,prose]&lt;/li&gt;
     
 
     
@@ -3190,19 +1969,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-06 &lt;a href="/gratitude/haircuts.md"&gt;I'm Grateful for Haircuts&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-05 &lt;a href="/tech/ai-will-not-replace-human-creativity.md"&gt;AI won't replace us. We'll always create.&lt;/a&gt; [tech,ai,futurism,humanity,creativity]&lt;/li&gt;
     
 
     
         &lt;li&gt;2024-01-05 &lt;a href="/posts/mark-cuban-mogul-support.md"&gt;Mark Cuban Mogul Support&lt;/a&gt; [posts,entrepreneurship,YouTube clip]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-05 &lt;a href="/creative/poem-cabinet-handle.md"&gt;Cabinet Handle&lt;/a&gt; [creative,poem,babies]&lt;/li&gt;
     
 
     
@@ -3218,19 +1989,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-05 &lt;a href="/christianity/how-to-use-the-book-of-mormon.md"&gt;How I use the Book of Mormon&lt;/a&gt; [christianity,book of mormon,testimony,come follow me]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-05 &lt;a href="/scriptures/2-nephi-32.9.md"&gt;2 Nephi 32.9&lt;/a&gt; [favorite scripture]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-05 &lt;a href="/creative/poem-the-dove-forevermore.md"&gt;The Dove (Forevermore)&lt;/a&gt; [creative,poem,poetry,parenting,featured]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-04 &lt;a href="/gratitude/hard-work.md"&gt;Hard Work and its Reward&lt;/a&gt; [gratitude,perspective,effort,life lessons,memories]&lt;/li&gt;
     
 
     
@@ -3270,10 +2029,6 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-04 &lt;a href="/christianity/a-change-in-witness.md"&gt;When a Person Changes their Perspective on Christ&lt;/a&gt; [christianity,come follow me,book of mormon,epistemology,theology]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-04 &lt;a href="/posts/30-seconds-for-payment.md"&gt;30 Seconds is All You Get&lt;/a&gt; [music,economics,incentives,posts]&lt;/li&gt;
     
 
@@ -3287,14 +2042,6 @@ window.Quarto = {
 
     
         &lt;li&gt;2024-01-03 &lt;a href="/scriptures/leviticus-19.18.md"&gt;leviticus-19.18&lt;/a&gt; [favorite scripture]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-03 &lt;a href="/christianity/love-thy-neighbor-but-have-friends.md"&gt;Love Thy Neighbor, But Have Friends&lt;/a&gt; [christianity,love,family,friendship]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-03 &lt;a href="/christianity/share-your-testimony.md"&gt;Share your testimony&lt;/a&gt; [christianity,testimony]&lt;/li&gt;
     
 
     
@@ -3338,26 +2085,6 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2024-01-02 &lt;a href="/book-review/innovators-dilemma.md"&gt;Innovator's Dilemma&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-02 &lt;a href="/book-review/socrates-a-life-worth-living.md"&gt;"Socrates A Life Worth Living" by Devra Lehman&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-02 &lt;a href="/christianity/the-church-of-jesus-christ-of-latter-day-saints.md"&gt;The Church of Jesus Christ of Latter-day Saints&lt;/a&gt; [christianity]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-02 &lt;a href="/christianity/the-miracles-of-christ.md"&gt;The Miracles of Christ&lt;/a&gt; [christianity,come follow me,scripture of the day,miracles,faith,signs]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2024-01-02 &lt;a href="/gratitude/good-books.md"&gt;Good Books&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2024-01-02 &lt;a href="/tech/why-we-want-new-software.md"&gt;The Psychology of New Software Releases and its Parallels with Fashion&lt;/a&gt; [business strategy,saas,sales,tech]&lt;/li&gt;
     
 
@@ -3366,19 +2093,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2023-12-31 &lt;a href="/christianity/cfm-2023-12-31-rev-15-21.md"&gt;Come follow me, December 25-31, Revelations 15-21&lt;/a&gt; [christianity,come follow me,raw notes]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2023-12-31 &lt;a href="/gratitude/eyes.md"&gt;Eyes&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2023-12-31 &lt;a href="/tech/swapping-out-human-labor-for-ai.md"&gt;Replacing human work with AI&lt;/a&gt; [tech,ai,automation,decisions,leadership]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2023-12-30 &lt;a href="/gratitude/beaches.md"&gt;Beaches&lt;/a&gt; [gratitude,water,beach,sunset]&lt;/li&gt;
     
 
     
@@ -3390,19 +2105,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2023-12-29 &lt;a href="/creative/poem-timeless.md"&gt;Timeless&lt;/a&gt; [poem,poetry,parenting,creative]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2023-12-29 &lt;a href="/posts/how-to-blog-with-obsidian-and-quarto.md"&gt;Blogging with Obsidian and Quarto&lt;/a&gt; [obsidian,quarto,tutorial]&lt;/li&gt;
     
 
     
         &lt;li&gt;2023-12-29 &lt;a href="/posts/quarto-vs-quartz-for-obsidian.md"&gt;Quarto vs. quartz for Obsidian blog&lt;/a&gt; [quarto,obsidian,pkm,build in public,tool,tool comparison]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2023-12-28 &lt;a href="/book-review/how-to-decide-simple-tools-for-making-better-choices.md"&gt;How to Decide: Simple Tools for Making Better Choices&lt;/a&gt; [decisions,philosophy,book-review,business]&lt;/li&gt;
     
 
     
@@ -3422,22 +2129,6 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2023-12-27 &lt;a href="/christianity/christmas-empty-tomb.md"&gt;Post Christmas blues? Remember the empty tombs&lt;/a&gt; [christianity,christmas]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2023-12-27 &lt;a href="/christianity/unknown-god.md"&gt;An Unknown God&lt;/a&gt; [christianity,theology,faith,doubts]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2023-12-27 &lt;a href="/gratitude/grateful-for-artists.md"&gt;I'm grateful for artists&lt;/a&gt; [gratitude,christianity]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2023-12-26 &lt;a href="/gratitude/2023-12-26-i&amp;#39;m-grateful-for-blankets/index.md"&gt;I'm grateful for blankets&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2023-12-26 &lt;a href="/posts/quarto-feature-requests/index.md"&gt;Things I'd like in a blog&lt;/a&gt; [productivity,quarto]&lt;/li&gt;
     
 
@@ -3454,39 +2145,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2023-12-25 &lt;a href="/gratitude/2023-12-25-grateful-for-doctors/index.md"&gt;I'm grateful for doctors&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2023-12-25 &lt;a href="/posts/2023-12-25-ai-robots-are-mastering-tasks-faster-than-humans-/index.md"&gt;AI Robots are mastering tasks faster than humans&lt;/a&gt; [ai,tech,futurism]&lt;/li&gt;
     
 
     
-        &lt;li&gt;2023-12-24 &lt;a href="/christianity/let-your-light-so-shine.md"&gt;His is the light that we should share&lt;/a&gt; [christianity]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2023-12-24 &lt;a href="/christianity/the-christ-child.md"&gt;The Christ Child&lt;/a&gt; [christianity]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2023-12-24 &lt;a href="/gratitude/2023-12-24-light/index.md"&gt;Light&lt;/a&gt; [gratitude]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2023-12-24 &lt;a href="/posts/2023-12-24-twas-the-night-before-christmas/index.md"&gt;Twas the Night before Christmas&lt;/a&gt; [christmas,ask gpt]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2023-12-23 &lt;a href="/book-review/dune.md"&gt;Dune&lt;/a&gt; [book-review,sci-fi]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2023-12-23 &lt;a href="/book-review/the-best-of-edgar-allen-poe.md"&gt;The Best of Edgar Allen Poe&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2023-12-22 &lt;a href="/book-review/killers-of-the-flower-moon.md"&gt;Killers of the Flower Moon: the Osage Murders and the Birth of the FBI&lt;/a&gt; [storytelling,murder mystery,book-review]&lt;/li&gt;
     
 
     
@@ -3498,27 +2161,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2023-12-20 &lt;a href="/book-review/unbelievable.md"&gt;Unbelievable&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2023-12-20 &lt;a href="/posts/the-little-red-hen.md"&gt;The Little Red Hen&lt;/a&gt; [book review,startups]&lt;/li&gt;
     
 
     
-        &lt;li&gt;2023-12-19 &lt;a href="/book-review/101-essays-to-make-you-think.md"&gt;101 Essays that will Change the Way You Think, by Brianna Wiest&lt;/a&gt; [philosophy,mindfulness,book-review]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2023-12-19 &lt;a href="/posts/2023-12-19-how-to-encourage-your-kids-/index.md"&gt;How to encourage your kids&lt;/a&gt; [parenting]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2023-12-18 &lt;a href="/book-review/hitchhikers-guide-to-the-galaxy.md"&gt;Hitchhiker's Guide to the Galaxy&lt;/a&gt; [storytelling,book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2023-12-17 &lt;a href="/christianity/christmas-celebrates-a-living-christ.md"&gt;Christmas celebrates a Living Christ&lt;/a&gt; [christianity,ai,christmas]&lt;/li&gt;
     
 
     
@@ -3538,39 +2185,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2023-12-13 &lt;a href="/christianity/three-little-pigs-christ.md"&gt;Three Little Pigs&lt;/a&gt; [book review,christianity]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2023-12-13 &lt;a href="/posts/2023-12-13-learn-by-doing/index.md"&gt;Learn by doing&lt;/a&gt; [data science,tech]&lt;/li&gt;
     
 
     
-        &lt;li&gt;2023-12-12 &lt;a href="/book-review/scientific-freedom.md"&gt;Scientific Freedom&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2023-12-12 &lt;a href="/posts/2023-12-12-future-of-coding/index.md"&gt;Future of Coding&lt;/a&gt; [data science]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2023-08-17 &lt;a href="/book-review/four-thousand-weeks.md"&gt;Four Thousand Weeks&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2023-07-22 &lt;a href="/book-review/every-city-is-every-other-city.md"&gt;Every City Is Every Other City&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2023-06-15 &lt;a href="/book-review/sapiens.md"&gt;Sapiens&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2023-05-08 &lt;a href="/book-review/1984.md"&gt;1984&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2023-04-25 &lt;a href="/book-review/when-breath-becomes-air.md"&gt;When Breath Becomes Air&lt;/a&gt; [book-review]&lt;/li&gt;
     
 
     
@@ -3598,55 +2217,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2022-09-11 &lt;a href="/book-review/the-80-20-principle-and-92-other-powerful-laws-nature.md"&gt;The 80/20 Principle and 92 Other Powerful Laws Nature&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-09-07 &lt;a href="/book-review/think-again.md"&gt;Think Again&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-08-22 &lt;a href="/book-review/human-compatible.md"&gt;Human Compatible&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-08-17 &lt;a href="/book-review/antifragile.md"&gt;Antifragile&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-08-15 &lt;a href="/book-review/never-split-the-difference.md"&gt;Never Split the Difference&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-08-06 &lt;a href="/book-review/willpower.md"&gt;Willpower&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-08-04 &lt;a href="/book-review/thinking-fast-and-slow.md"&gt;Thinking, Fast and Slow&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-08-01 &lt;a href="/book-review/digital-minimalism.md"&gt;Digital Minimalism&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-08-01 &lt;a href="/book-review/the-power-of-regret.md"&gt;The Power of Regret&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2022-07-20 &lt;a href="/posts/2022-07-20-de-sciencing-data-science-and-talking-like-a-normal-person/index.md"&gt;De-sciencing Data Science and Talking Like a Normal Person&lt;/a&gt; [data science,communication,principles]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-07-15 &lt;a href="/book-review/the-willpower-instinct.md"&gt;The Willpower Instinct&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-07-08 &lt;a href="/book-review/effortless.md"&gt;Effortless&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-07-04 &lt;a href="/book-review/why-we-sleep.md"&gt;Why We Sleep&lt;/a&gt; [book-review]&lt;/li&gt;
     
 
     
@@ -3666,27 +2237,11 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2022-06-24 &lt;a href="/book-review/getting-things-done.md"&gt;Getting Things Done&lt;/a&gt; [productivity,book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-06-24 &lt;a href="/book-review/give-and-take.md"&gt;Give and Take&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-06-24 &lt;a href="/book-review/the-organized-mind.md"&gt;The Organized Mind&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2022-06-23 &lt;a href="/posts/2022-06-23-new-ideas-are-distractingly-exciting/index.md"&gt;New ideas are distractingly exciting&lt;/a&gt; [productivity,priorities,ideation]&lt;/li&gt;
     
 
     
         &lt;li&gt;2022-06-23 &lt;a href="/posts/2022-06-23-the-best-todolist-manager/index.md"&gt;What is the best todo list manager?&lt;/a&gt; [productivity,app review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-06-22 &lt;a href="/book-review/radical-candor.md"&gt;Radical Candor&lt;/a&gt; [book-review]&lt;/li&gt;
     
 
     
@@ -3706,203 +2261,7 @@ window.Quarto = {
     
 
     
-        &lt;li&gt;2022-06-17 &lt;a href="/book-review/courage-is-calling.md"&gt;Courage Is Calling&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-06-17 &lt;a href="/book-review/the-obstacle-is-the-way.md"&gt;The Obstacle Is the Way&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-06-09 &lt;a href="/book-review/rich-dad-poor-dad.md"&gt;Rich Dad Poor Dad&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-06-09 &lt;a href="/book-review/zero-to-one.md"&gt;Zero to One&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-06-08 &lt;a href="/book-review/world-travel.md"&gt;World Travel&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-06-05 &lt;a href="/book-review/principles.md"&gt;Principles&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-06-04 &lt;a href="/book-review/good-to-great.md"&gt;Good to Great&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-06-03 &lt;a href="/book-review/no-rules-rules.md"&gt;No Rules Rules&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-05-14 &lt;a href="/book-review/life-of-pi.md"&gt;Life of Pi&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-04-12 &lt;a href="/book-review/steve-jobs.md"&gt;Steve Jobs&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-03-31 &lt;a href="/book-review/deep-work.md"&gt;Deep Work&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-03-30 &lt;a href="/book-review/midnight-in-chernobyl.md"&gt;Midnight in Chernobyl&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-03-20 &lt;a href="/book-review/one-second-after.md"&gt;One Second After&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-03-16 &lt;a href="/book-review/getting-to-yes.md"&gt;Getting to Yes&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-03-15 &lt;a href="/book-review/the-hard-thing-about-hard-things.md"&gt;The Hard Thing About Hard Things&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-03-12 &lt;a href="/book-review/the-first-90-days.md"&gt;The First 90 Days&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-03-10 &lt;a href="/book-review/guns-germs-and-steel.md"&gt;Guns, Germs, and Steel&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-03-06 &lt;a href="/book-review/tribe-of-mentors.md"&gt;Tribe of Mentors&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-03-01 &lt;a href="/book-review/the-storytelling-animal.md"&gt;The Storytelling Animal&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-02-22 &lt;a href="/book-review/mindset.md"&gt;Mindset&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-02-21 &lt;a href="/book-review/atomic-habits.md"&gt;Atomic Habits&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-02-10 &lt;a href="/book-review/einstein.md"&gt;Einstein&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-01-21 &lt;a href="/book-review/leonardo-da-vinci.md"&gt;Leonardo da Vinci&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-01-15 &lt;a href="/book-review/hidden-figures.md"&gt;Hidden Figures&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-01-10 &lt;a href="/book-review/the-alchemist.md"&gt;The Alchemist&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2022-01-05 &lt;a href="/book-review/dare-to-lead.md"&gt;Dare to Lead&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2021-12-29 &lt;a href="/book-review/talking-to-strangers.md"&gt;Talking to Strangers&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2021-12-28 &lt;a href="/book-review/greenlights.md"&gt;Greenlights&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2021-12-07 &lt;a href="/book-review/the-body.md"&gt;The Body&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2021-12-03 &lt;a href="/book-review/grit.md"&gt;Grit&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2021-05-03 &lt;a href="/book-review/the-power-of-habit.md"&gt;The Power of Habit&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2021-03-20 &lt;a href="/book-review/the-richest-man-in-babylon.md"&gt;The Richest Man in Babylon&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2021-03-12 &lt;a href="/book-review/fearless.md"&gt;Fearless: The Undaunted Courage and Ultimate Sacrifice of Navy Team Six Seal Operator Adam Brown&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2021-02-17 &lt;a href="/book-review/joseph-smith.md"&gt;Joseph Smith&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2020-03-21 &lt;a href="/book-review/start-with-why.md"&gt;Start with Why&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2019-12-31 &lt;a href="/book-review/the-anatomy-of-peace.md"&gt;The Anatomy of Peace&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2019-12-25 &lt;a href="/book-review/the-power-of-a-positive-no.md"&gt;The Power of a Positive No&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2019-12-16 &lt;a href="/book-review/leadership-and-self-deception.md"&gt;Leadership and Self-Deception&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2019-09-14 &lt;a href="/book-review/feeling-good-together.md"&gt;Feeling Good Together&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2019-09-10 &lt;a href="/book-review/rising-strong.md"&gt;Rising Strong&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2019-08-25 &lt;a href="/book-review/the-giver.md"&gt;The Giver&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2019-07-23 &lt;a href="/book-review/the-innovators-dilemma.md"&gt;The Innovator's Dilemma&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2019-06-26 &lt;a href="/book-review/astrophysics-for-people-in-a-hurry.md"&gt;Astrophysics for People in a Hurry&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2019-01-04 &lt;a href="/book-review/alexander-hamilton.md"&gt;Alexander Hamilton&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2018-12-30 &lt;a href="/book-review/between-the-world-and-me.md"&gt;Between the World and Me&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2018-06-27 &lt;a href="/book-review/the-war.md"&gt;The War&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2018-05-01 &lt;a href="/book-review/the-4-hour-workweek.md"&gt;The 4-Hour Workweek&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2018-03-16 &lt;a href="/book-review/the-lean-startup.md"&gt;The Lean Startup&lt;/a&gt; [book-review]&lt;/li&gt;
-    
-
-    
         &lt;li&gt;2015-12-01 &lt;a href="/lists/reading-list.md"&gt;Reading List&lt;/a&gt; []&lt;/li&gt;
-    
-
-    
-        &lt;li&gt;2000-01-13 &lt;a href="/goals/test.md"&gt;test&lt;/a&gt; [goals]&lt;/li&gt;
     </code></pre>
 </ul>
 <div class="listing-no-matching d-none">

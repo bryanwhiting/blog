@@ -136,10 +136,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 6,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: [],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -166,8 +165,7 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      page: 6,
-    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
@@ -292,11 +290,8 @@ window.Quarto = {
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
+ <span class="menu-text">about.qmd</span>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link active">
@@ -325,29 +320,17 @@ window.Quarto = {
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./books.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Book Reviews</span></a>
-  </div>
-</li>
+ <span class="menu-text">books.qmd</span>
+  </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./christianity.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Christianity</span></a>
-  </div>
-</li>
+ <span class="menu-text">christianity.qmd</span>
+  </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./gratitude.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Gratitude</span></a>
-  </div>
-</li>
+ <span class="menu-text">gratitude.qmd</span>
+  </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./creative.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Creative</span></a>
-  </div>
-</li>
+ <span class="menu-text">creative.qmd</span>
+  </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -360,17 +343,11 @@ window.Quarto = {
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./concepts.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Concepts</span></a>
-  </div>
-</li>
+ <span class="menu-text">concepts.qmd</span>
+  </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./goals.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Goals</span></a>
-  </div>
-</li>
+ <span class="menu-text">goals.qmd</span>
+  </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./lists.html" class="sidebar-item-text sidebar-link">
@@ -410,13 +387,53 @@ window.Quarto = {
 <blockquote class="blockquote">
 <p>“All <a href="https://en.wikipedia.org/wiki/All_models_are_wrong">blogs</a> are wrong, but some are useful.”</p>
 </blockquote>
-<p>Musings on <a href="./tech.html">tech</a>, <a href="./christianity.html">faith</a>, <a href="./gratitude.html">gratitude</a>, <a href="./books.html">books I’m reading</a> and <a href="./posts.html">anything else</a>.</p>
+<p>Musings on <a href="./tech.html">tech</a>, <a href="christianity.qmd">faith</a>, <a href="gratitude.qmd">gratitude</a>, <a href="books.qmd">books I’m reading</a> and <a href="./posts.html">anything else</a>.</p>
 <section id="recent-thoughts" class="level2">
 <h2 class="anchored" data-anchor-id="recent-thoughts">Recent Thoughts</h2>
 <p>Posts on <a href="./tech.html">tech</a> and spurious <a href="./posts.html">thoughts</a>.</p>
 <div id="listing-landing-posts" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="posts" data-listing-date-sort="1726663427000" data-listing-file-modified-sort="1726815691458" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="125">
+<div class="g-col-1" data-index="0" data-categories="posts" data-listing-date-sort="1726814897000" data-listing-file-modified-sort="1729959481204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
+<a href="./posts/better-sweater.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Better sweater
+</h5>
+<div class="card-text listing-description">
+I have this fleecy sweater jacket that is warm and cozy - until a 2 mph gust of wind hits it. Then all bets are off.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Fri Sep 20, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="posts" data-listing-date-sort="1726813362000" data-listing-file-modified-sort="1729959481204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="86">
+<a href="./posts/new-socks.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+New socks
+</h5>
+<div class="card-text listing-description">
+I once bought a pair of socks offering a lifetime warranty: if they ever rip or get a hole I can get a replacement!
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Fri Sep 20, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="posts" data-listing-date-sort="1726663427000" data-listing-file-modified-sort="1729959481204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="125">
 <a href="./posts/easiest-ways-to-learn-something.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -436,7 +453,7 @@ Wed Sep 18, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="posts,plots,dataviz,data visualization,monitoring" data-listing-date-sort="1726479892000" data-listing-file-modified-sort="1726815691464" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="82">
+<div class="g-col-1" data-index="3" data-categories="posts,plots,dataviz,data visualization,monitoring" data-listing-date-sort="1726479892000" data-listing-file-modified-sort="1729959481212" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="82">
 <a href="./posts/reading-charts-every-week.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -456,10 +473,10 @@ Mon Sep 16, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="tech" data-listing-date-sort="1725717858000" data-listing-file-modified-sort="1726815691479" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="145">
+<div class="g-col-1" data-index="4" data-categories="tech" data-listing-date-sort="1725717858000" data-listing-file-modified-sort="1729959481228" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="145">
 <a href="./tech/tracing.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img2024-09-07-1409-drawing-of-wife.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img data-src="img2024-09-07-1409-drawing-of-wife.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Tracing
@@ -476,7 +493,7 @@ Sat Sep 7, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="posts" data-listing-date-sort="1725619868000" data-listing-file-modified-sort="1726815691458" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
+<div class="g-col-1" data-index="5" data-categories="posts" data-listing-date-sort="1725619868000" data-listing-file-modified-sort="1729959481204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
 <a href="./posts/expertise-is-knowing-what-to-do-when-things-go-wrong.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -496,7 +513,7 @@ Fri Sep 6, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="tech" data-listing-date-sort="1725458746000" data-listing-file-modified-sort="1726815691479" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="47">
+<div class="g-col-1" data-index="6" data-categories="tech" data-listing-date-sort="1725458746000" data-listing-file-modified-sort="1729959481228" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="47">
 <a href="./tech/just-a-few-lines-of-code.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -516,16 +533,16 @@ Wed Sep 4, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="posts" data-listing-date-sort="1725225047000" data-listing-file-modified-sort="1726815691458" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="95">
-<a href="./posts/how-i-will-vote.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="7" data-categories="posts" data-listing-date-sort="1725225047000" data-listing-file-modified-sort="1729959481204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="21">
+<a href="./posts/how-i-will-vote-2024.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img2024-09-01-2109-republican-b.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 How I will vote
 </h5>
 <div class="card-text listing-description">
-In 2016 I voted independent with the hope that I could have neither Trump nor Hilary. I lived in Virginia, a somewhat swing state, and had a chance of creating an electoral…
+This post is impossible to write. a vote is a complicated thing. There is so much stigma in a vote.
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
@@ -536,7 +553,7 @@ Sun Sep 1, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="tech" data-listing-date-sort="1724066163000" data-listing-file-modified-sort="1726815691478" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
+<div class="g-col-1" data-index="8" data-categories="tech" data-listing-date-sort="1724066163000" data-listing-file-modified-sort="1729959481228" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
 <a href="./tech/dont-trust-a-cloud-provider.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -556,7 +573,7 @@ Mon Aug 19, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="posts" data-listing-date-sort="1723987923000" data-listing-file-modified-sort="1726815691464" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
+<div class="g-col-1" data-index="9" data-categories="posts" data-listing-date-sort="1723987923000" data-listing-file-modified-sort="1729959481212" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="17">
 <a href="./posts/us-political-system.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -576,7 +593,7 @@ Sun Aug 18, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="tech,A/B testing" data-listing-date-sort="1723898420000" data-listing-file-modified-sort="1726815691478" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="153">
+<div class="g-col-1" data-index="10" data-categories="tech,A/B testing" data-listing-date-sort="1723898420000" data-listing-file-modified-sort="1729959481228" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="153">
 <a href="./tech/chicken-nugget-a-b-testing.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -596,7 +613,7 @@ Sat Aug 17, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="posts" data-listing-date-sort="1722953483000" data-listing-file-modified-sort="1726815691464" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
+<div class="g-col-1" data-index="11" data-categories="posts" data-listing-date-sort="1722953483000" data-listing-file-modified-sort="1729959481212" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
 <a href="./posts/scientific-method.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -616,7 +633,7 @@ Tue Aug 6, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="posts" data-listing-date-sort="1722890318000" data-listing-file-modified-sort="1726815691464" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="183">
+<div class="g-col-1" data-index="12" data-categories="posts" data-listing-date-sort="1722890318000" data-listing-file-modified-sort="1729959481212" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="183">
 <a href="./posts/this-is-an-ab-test.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -636,7 +653,7 @@ Mon Aug 5, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="11" data-categories="posts" data-listing-date-sort="1722776401000" data-listing-file-modified-sort="1726815691458" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="232">
+<div class="g-col-1" data-index="13" data-categories="posts" data-listing-date-sort="1722776401000" data-listing-file-modified-sort="1729959481204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="232">
 <a href="./posts/data-science-structure.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -656,7 +673,7 @@ Sun Aug 4, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="12" data-categories="tech" data-listing-date-sort="1722529260000" data-listing-file-modified-sort="1726815691478" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="234">
+<div class="g-col-1" data-index="14" data-categories="tech" data-listing-date-sort="1722529260000" data-listing-file-modified-sort="1729959481228" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="234">
 <a href="./tech/forget-pythonic-write-code-that-works.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -676,7 +693,7 @@ Thu Aug 1, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="13" data-categories="posts" data-listing-date-sort="1722209046000" data-listing-file-modified-sort="1726815691335" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="616">
+<div class="g-col-1" data-index="15" data-categories="posts" data-listing-date-sort="1722209046000" data-listing-file-modified-sort="1729959481072" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="616">
 <a href="./posts/10-steps-to-optimize-anything.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -696,7 +713,7 @@ Sun Jul 28, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="14" data-categories="posts" data-listing-date-sort="1722198802000" data-listing-file-modified-sort="1726815691458" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
+<div class="g-col-1" data-index="16" data-categories="posts" data-listing-date-sort="1722198802000" data-listing-file-modified-sort="1729959481204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
 <a href="./posts/hungry-judge.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -716,7 +733,7 @@ Sun Jul 28, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="15" data-categories="posts" data-listing-date-sort="1720944637000" data-listing-file-modified-sort="1726815691464" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="151">
+<div class="g-col-1" data-index="17" data-categories="posts" data-listing-date-sort="1720944637000" data-listing-file-modified-sort="1729959481212" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="151">
 <a href="./posts/reading-this-daily.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img data-src="img2024-07-14-0807-Book of Mormon.png" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -736,7 +753,7 @@ Sun Jul 14, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="16" data-categories="tech" data-listing-date-sort="1720047726000" data-listing-file-modified-sort="1726815691479" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="43">
+<div class="g-col-1" data-index="18" data-categories="tech" data-listing-date-sort="1720047726000" data-listing-file-modified-sort="1729959481228" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="43">
 <a href="./tech/schema-markup-video.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -756,7 +773,7 @@ Wed Jul 3, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="17" data-categories="posts,productivity" data-listing-date-sort="1719353357000" data-listing-file-modified-sort="1726815691459" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="561">
+<div class="g-col-1" data-index="19" data-categories="posts,productivity" data-listing-date-sort="1719353357000" data-listing-file-modified-sort="1729959481204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="561">
 <a href="./posts/productivity.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -776,7 +793,7 @@ Tue Jun 25, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="18" data-categories="tech" data-listing-date-sort="1715982818000" data-listing-file-modified-sort="1726815691479" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<div class="g-col-1" data-index="20" data-categories="tech" data-listing-date-sort="1715982818000" data-listing-file-modified-sort="1729959481228" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
 <a href="./tech/mojo-programming-language.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -796,7 +813,7 @@ Fri May 17, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="19" data-categories="posts" data-listing-date-sort="1715803430000" data-listing-file-modified-sort="1726815691458" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="800">
+<div class="g-col-1" data-index="21" data-categories="posts" data-listing-date-sort="1715803430000" data-listing-file-modified-sort="1729959481204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="800">
 <a href="./posts/a-treatise-on-agency-and-goals.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -816,7 +833,7 @@ Wed May 15, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="20" data-categories="posts" data-listing-date-sort="1715771644000" data-listing-file-modified-sort="1726815691459" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="55">
+<div class="g-col-1" data-index="22" data-categories="posts" data-listing-date-sort="1715771644000" data-listing-file-modified-sort="1729959481204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="55">
 <a href="./posts/machine-learning-resources.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -836,7 +853,7 @@ Wed May 15, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="21" data-categories="posts" data-listing-date-sort="1715204215000" data-listing-file-modified-sort="1726815691459" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="183">
+<div class="g-col-1" data-index="23" data-categories="posts" data-listing-date-sort="1715204215000" data-listing-file-modified-sort="1729959481204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="183">
 <a href="./posts/new-business-checklist.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -850,46 +867,6 @@ Getting paid is easy. Getting paid the right way is harder.
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
 Wed May 8, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="22" data-categories="posts" data-listing-date-sort="1714657591000" data-listing-file-modified-sort="1726815691458" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
-<a href="./posts/failure-and-countermeasures-robert-rogers.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Failure and Countermeasures - Robert Rogers
-</h5>
-<div class="card-text listing-description">
-Robert rogers.
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Thu May 2, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="23" data-categories="tech" data-listing-date-sort="1714597622000" data-listing-file-modified-sort="1726815691479" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="47">
-<a href="./tech/pinball-loss.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/screenshot-pinball-loss-molnar.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Pinball Loss
-</h5>
-<div class="card-text listing-description">
-I just learned about Pinball Loss: How I made peace with quantile regression
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Wed May 1, 2024
 </div>
 </div>
 </div>
@@ -910,555 +887,26 @@ No matching items
 <!-- col 1 -->
 <section id="reading" class="level2 g-col-12 g-col-md-4 animate__animated animate__fadeIn animate__faster animate__delay-1s">
 <h2 class="anchored" data-anchor-id="reading">Reading</h2>
-<p>See more <a href="./books.html">books</a> and my <a href="./lists/reading-list.html">reading list</a>.</p>
+<p>See more <a href="books.qmd">books</a> and my <a href="./lists/reading-list.html">reading list</a>.</p>
 <div id="listing-landing-books" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="book-review,health,longevity" data-listing-date-sort="1726607267000" data-listing-file-modified-sort="1726815691050" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
-<a href="./book-review/young-forever.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="book-review" data-listing-date-sort="1727817389000" data-listing-file-modified-sort="1729959480768" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
+<a href="./book-review/the-small-and-the-mighty.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/book-young-forever/Image.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="img/book-the-small-and-the-mighty.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Young Forever
+The Small and the Mighty
 </h5>
 <div class="card-text listing-description">
 _________________________ <br> <br> <i>Bryan lives somewhere at the intersection of faith, fatherhood, and futurism and writes about tech, books, Christianity, gratitude, and whatever’s…<br><br></i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
-Mark Hyman
+Sharon McMahon
 </div>
 <div class="listing-date">
-Tue Sep 17, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="book-review" data-listing-date-sort="1726300717000" data-listing-file-modified-sort="1726815691047" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="2">
-<a href="./book-review/seo-simplified.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/book-seo-simplified.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-SEO Simplified
-</h5>
-<div class="card-text listing-description">
-_________________________ <br> <br> <i>Bryan lives somewhere at the intersection of faith, fatherhood, and futurism and writes about tech, books, Christianity, gratitude, and whatever’s…<br><br></i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-x
-</div>
-<div class="listing-date">
-Sat Sep 14, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="book-review" data-listing-date-sort="1725400157000" data-listing-file-modified-sort="1726815691047" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="52">
-<a href="./book-review/project-hail-mary.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Project Hail Mary
-</h5>
-<div class="card-text listing-description">
-Things I like:
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Andy Weir
-</div>
-<div class="listing-date">
-Tue Sep 3, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="book-review" data-listing-date-sort="1724798077000" data-listing-file-modified-sort="1726815691047" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="7">
-<a href="./book-review/neuromancer.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/book-neuromancer.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Neuromancer
-</h5>
-<div class="card-text listing-description">
-Things I liked: - the world building
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-x
-</div>
-<div class="listing-date">
-Tue Aug 27, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="book-review,productivity,self-help" data-listing-date-sort="1721164889000" data-listing-file-modified-sort="1726815691049" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
-<a href="./book-review/the-one-thing.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/book-the-one-thing.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The One Thing
-</h5>
-<div class="card-text listing-description">
-2024-07-22 - counterbalanxinf. Go to the extremes to get things roughly in shape. → I feel like this is what I’ve been doing.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Gary Keller
-</div>
-<div class="listing-date">
-Tue Jul 16, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="book-review" data-listing-date-sort="1720558016000" data-listing-file-modified-sort="1726815691045" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="55">
-<a href="./book-review/dotcom-secrets.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img src="img/book-dotcom-secrets.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Dotcom Secrets
-</h5>
-<div class="card-text listing-description">
-Activities - Write out your ideal customer. Their dreams. Aspirations. Characteristics. Get an image of them. Put them on your wall. -
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Russell Brunson
-</div>
-<div class="listing-date">
-Tue Jul 9, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="book-review,seo,marketing,digital marketing" data-listing-date-sort="1719697345000" data-listing-file-modified-sort="1726815691048" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="148">
-<a href="./book-review/seo-work-book.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/book-seo-work-book.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-SEO Work Book
-</h5>
-<div class="card-text listing-description">
-2024-07-09 jmlinks.com/seo2024abc passcode is the same slash seo2024abc - core key words - Micro key words - Long tail key words
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Jason McDonald
-</div>
-<div class="listing-date">
-Sat Jun 29, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="book-review" data-listing-date-sort="1719238125000" data-listing-file-modified-sort="1726815691046" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="655">
-<a href="./book-review/how-to-get-to-the-top-of-google.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/book-how-to-get-to-the-top-of-google.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-How to Get to the Top of Google
-</h5>
-<div class="card-text listing-description">
-Thankyouninjas.com
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Tim Cameron-Kitchen
-</div>
-<div class="listing-date">
-Mon Jun 24, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="book-review,marketing,sales" data-listing-date-sort="1718059079000" data-listing-file-modified-sort="1726815691050" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="216">
-<a href="./book-review/this-is-marketing.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/book-this-is-marketing.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-This is Marketing
-</h5>
-<div class="card-text listing-description">
-2024-06-13
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Seth Godin
-</div>
-<div class="listing-date">
-Mon Jun 10, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="9" data-categories="book-review,fantasy,fiction" data-listing-date-sort="1717148874000" data-listing-file-modified-sort="1726815691049" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
-<a href="./book-review/the-lord-of-the-rings-the-return-of-the-king.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/book-the-lord-of-the-rings-the-return-of-the-king.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The Lord of the Rings the Return of the King
-</h5>
-<div class="card-text listing-description">
-_________________________ <br> <br> <i>Bryan lives somewhere at the intersection of faith, fatherhood, and futurism and writes about tech, books, Christianity, gratitude, and whatever’s…<br><br></i><iframe src="https://embeds.beehiiv.com/106e21ff-1989-43d2-9bd7-d4a4c4404ab6?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-J.R.R Tolkein
-</div>
-<div class="listing-date">
-Fri May 31, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="10" data-categories="book-review,machine learning,non-fiction,academic" data-listing-date-sort="1717064828000" data-listing-file-modified-sort="1726815691045" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
-<a href="./book-review/designing-machine-learning-systems.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/book-designing-machine-learning-systems.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Designing Machine Learning Systems
-</h5>
-<div class="card-text listing-description">
-2024-05-30
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Chip Huyen
-</div>
-<div class="listing-date">
-Thu May 30, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="11" data-categories="book-review,fantasy,fiction" data-listing-date-sort="1716997636000" data-listing-file-modified-sort="1726815691049" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="174">
-<a href="./book-review/the-lord-of-the-rings-the-two-towers.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/book-the-lord-of-the-rings-the-two-towers.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The Lord of the Rings - The Two Towers
-</h5>
-<div class="card-text listing-description">
-See also The Lord of the Rings the Return of the King
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-J.R.R Tolkein
-</div>
-<div class="listing-date">
-Wed May 29, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="12" data-categories="book-review" data-listing-date-sort="1716211652000" data-listing-file-modified-sort="1726815691048" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="91">
-<a href="./book-review/the-lord-of-the-rings-the-fellowship-of-the-ring.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/book-the-lord-of-the-rings-the-fellowship-of-the-ring.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The Lord of the Rings - The Fellowship of the Ring
-</h5>
-<div class="card-text listing-description">
-2024-05-22
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-J.R.R Tolkein
-</div>
-<div class="listing-date">
-Mon May 20, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="13" data-categories="book-review" data-listing-date-sort="1715931613000" data-listing-file-modified-sort="1726815691045" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="213">
-<a href="./book-review/100m-leads.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/book-$100m-leads.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-$100M Leads
-</h5>
-<div class="card-text listing-description">
-2024-06-08
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Alex Hormozi
-</div>
-<div class="listing-date">
-Fri May 17, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="14" data-categories="book-review,psychology,self-help,sales" data-listing-date-sort="1715931392000" data-listing-file-modified-sort="1726815691046" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
-<a href="./book-review/get-anyone-to-do-anything.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/book-get-anyone-to-do-anything.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Get Anyone to do Anything
-</h5>
-<div class="card-text listing-description">
-My takeaways:
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-David J. Lieberman
-</div>
-<div class="listing-date">
-Fri May 17, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="15" data-categories="book-review,sales" data-listing-date-sort="1715254688000" data-listing-file-modified-sort="1726815691045" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="235">
-<a href="./book-review/100m-offers.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/book-100m-offers.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-$100M Offers
-</h5>
-<div class="card-text listing-description">
-2024-05-14
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Alex Hormozi
-</div>
-<div class="listing-date">
-Thu May 9, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="16" data-categories="book-review" data-listing-date-sort="1714599274000" data-listing-file-modified-sort="1726815691049" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="138">
-<a href="./book-review/the-undoing-project.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/book-the-undoing-project.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The Undoing Project
-</h5>
-<div class="card-text listing-description">
-2024-05-01
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Michael Lewis
-</div>
-<div class="listing-date">
-Wed May 1, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="17" data-categories="book-review" data-listing-date-sort="1714587522000" data-listing-file-modified-sort="1726815691049" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="445">
-<a href="./book-review/the-road.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/book-the-road.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The Road
-</h5>
-<div class="card-text listing-description">
-Thoughts:
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Cormac McCarthy
-</div>
-<div class="listing-date">
-Wed May 1, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="18" data-categories="book-review" data-listing-date-sort="1714491187000" data-listing-file-modified-sort="1726815691050" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="80">
-<a href="./book-review/tools-of-titans.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/book-tools-of-titans.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Tools of Titans
-</h5>
-<div class="card-text listing-description">
-2024-05-01
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Timothy Ferriss
-</div>
-<div class="listing-date">
-Tue Apr 30, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="19" data-categories="book-review" data-listing-date-sort="1714471254000" data-listing-file-modified-sort="1726815691046" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="418">
-<a href="./book-review/emotional-intelligence-for-sales-success.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/book-emotional-intelligence-for-sales-success.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Emotional Intelligence for Sales Success
-</h5>
-<div class="card-text listing-description">
-Connections - rewire your brain
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Colleen Stanley
-</div>
-<div class="listing-date">
-Tue Apr 30, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="20" data-categories="book-review" data-listing-date-sort="1714400789000" data-listing-file-modified-sort="1726815691050" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="250">
-<a href="./book-review/thinking-in-bets.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/book-thinking-in-bets.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Thinking in Bets
-</h5>
-<div class="card-text listing-description">
-Follow-ups - Kluge by Gary marcus - stumbling upon happiness -
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Annie Duke
-</div>
-<div class="listing-date">
-Mon Apr 29, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="21" data-categories="book-review" data-listing-date-sort="1713713433000" data-listing-file-modified-sort="1726815691047" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="79">
-<a href="./book-review/saints-volume-2-no-unhallowed-hand.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/book-saints-volume-2-no-unhallowed-hand.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Saints Volume 2: No Unhallowed Hand
-</h5>
-<div class="card-text listing-description">
-2024-05-26
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-The Church of Jesus Christ of Latter-Day Saints
-</div>
-<div class="listing-date">
-Sun Apr 21, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="22" data-categories="book-review" data-listing-date-sort="1713643547000" data-listing-file-modified-sort="1726815691045" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="14">
-<a href="./book-review/black-hearts.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/book-black-hearts.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Black Hearts
-</h5>
-<div class="card-text listing-description">
-2024-04-19
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Jim Frederick
-</div>
-<div class="listing-date">
-Sat Apr 20, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="23" data-categories="book-review" data-listing-date-sort="1713642909000" data-listing-file-modified-sort="1726815691048" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
-<a href="./book-review/the-energy-bus.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/book-the-energy-bus.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The Energy Bus
-</h5>
-<div class="card-text listing-description">
-2024-04-20
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Jim Gordon
-</div>
-<div class="listing-date">
-Sat Apr 20, 2024
+Tue Oct 1, 2024
 </div>
 </div>
 </div>
@@ -1469,41 +917,15 @@ Sat Apr 20, 2024
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-<nav id="landing-books-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
-</nav>
 </div>
 </section>
 <!-- col 2 -->
 <section id="gratitude" class="level2 g-col-12 g-col-md-4 animate__animated animate__fadeIn animate__faster animate__delay-1s">
 <h2 class="anchored" data-anchor-id="gratitude">Gratitude</h2>
-<p>See more <a href="./gratitude.html">gratitude</a>.</p>
+<p>See more <a href="gratitude.qmd">gratitude</a>.</p>
 <div id="listing-landing-gratitude" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="gratitude" data-listing-date-sort="1714345888000" data-listing-file-modified-sort="1726815691060" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
-<a href="./gratitude/a-change-in-perspective.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-I’m Grateful for A change in perspective
-</h5>
-<div class="card-text listing-description">
-Tonight there was a moment in my day where I wanted to change my perspective. For me, prayer is a helpful tool in changing my perspective. I believe God helps those who seek…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Sun Apr 28, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="gratitude" data-listing-date-sort="1714172440000" data-listing-file-modified-sort="1726815691077" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="62">
+<div class="g-col-1" data-index="0" data-categories="gratitude" data-listing-date-sort="1714172440000" data-listing-file-modified-sort="1729959480784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="62">
 <a href="./gratitude/the-temple.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -1526,53 +948,7 @@ Fri Apr 26, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="gratitude" data-listing-date-sort="1713913484000" data-listing-file-modified-sort="1726815691060" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="44">
-<a href="./gratitude/baseball-season.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-I’m Grateful for Baseball Season
-</h5>
-<div class="card-text listing-description">
-Kids out in the field playing. Half of them picking their nose. Half the parents too. The grass is green. The hills are somehow greener. The sun peeking through the clouds.…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Tue Apr 23, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="gratitude" data-listing-date-sort="1713730728000" data-listing-file-modified-sort="1726815691060" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="109">
-<a href="./gratitude/a-small-insignificant-corner-of-the-internet.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-I’m Grateful for A small, insignificant corner of the internet
-</h5>
-<div class="card-text listing-description">
-As I’m perusing LinkedIn today, I see comments from past colleagues. It’s quite incredible to be able to connect in this way.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Sun Apr 21, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="gratitude,family" data-listing-date-sort="1713397661000" data-listing-file-modified-sort="1726815691077" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="63">
+<div class="g-col-1" data-index="1" data-categories="gratitude,family" data-listing-date-sort="1713397661000" data-listing-file-modified-sort="1729959480784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="63">
 <a href="./gratitude/tee-ball.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -1595,7 +971,7 @@ Wed Apr 17, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="gratitude" data-listing-date-sort="1713048702000" data-listing-file-modified-sort="1726815691077" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="94">
+<div class="g-col-1" data-index="2" data-categories="gratitude" data-listing-date-sort="1713048702000" data-listing-file-modified-sort="1729959480784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="94">
 <a href="./gratitude/the-sec-filings.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -1618,10 +994,10 @@ Sat Apr 13, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="gratitude,ai,ai tools" data-listing-date-sort="1712966340000" data-listing-file-modified-sort="1726815691076" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="131">
+<div class="g-col-1" data-index="3" data-categories="gratitude,ai,ai tools" data-listing-date-sort="1712966340000" data-listing-file-modified-sort="1729959480784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="131">
 <a href="./gratitude/in-awe-of-ai.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/screenshot-google-ai-studio.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="img/screenshot-google-ai-studio.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 I’m Grateful for In Awe of AI
@@ -1641,10 +1017,10 @@ Fri Apr 12, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="gratitude,work" data-listing-date-sort="1712876635000" data-listing-file-modified-sort="1726815691076" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="157">
+<div class="g-col-1" data-index="4" data-categories="gratitude,work" data-listing-date-sort="1712876635000" data-listing-file-modified-sort="1729959480784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="157">
 <a href="./gratitude/my-work-team.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/dalle-seaotter-beach-data-science.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="img/dalle-seaotter-beach-data-science.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 I’m Grateful for My work team
@@ -1664,10 +1040,10 @@ Thu Apr 11, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="8" data-categories="gratitude" data-listing-date-sort="1712793403000" data-listing-file-modified-sort="1726815691077" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
+<div class="g-col-1" data-index="5" data-categories="gratitude" data-listing-date-sort="1712793403000" data-listing-file-modified-sort="1729959480784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
 <a href="./gratitude/the-peak-of-a-hike.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/photo-mountain-from-top-of-peak.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="img/photo-mountain-from-top-of-peak.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 I’m Grateful for The Peak of a Hike
@@ -1687,7 +1063,7 @@ Wed Apr 10, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="gratitude" data-listing-date-sort="1712445000000" data-listing-file-modified-sort="1726815691077" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="47">
+<div class="g-col-1" data-index="6" data-categories="gratitude" data-listing-date-sort="1712445000000" data-listing-file-modified-sort="1729959480784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="47">
 <a href="./gratitude/warm-naps-on-the-couch.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img data-src="img/dalle-warm-naps.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -1710,30 +1086,7 @@ Sat Apr 6, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="10" data-categories="gratitude" data-listing-date-sort="1712362394000" data-listing-file-modified-sort="1726815691060" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="52">
-<a href="./gratitude/customer-service-agents.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-I’m Grateful for Customer Service Agents
-</h5>
-<div class="card-text listing-description">
-Today I reached out to a customer support agent.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Sat Apr 6, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="11" data-categories="gratitude,relationships" data-listing-date-sort="1712274985000" data-listing-file-modified-sort="1726815691076" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="123">
+<div class="g-col-1" data-index="7" data-categories="gratitude,relationships" data-listing-date-sort="1712274985000" data-listing-file-modified-sort="1729959480784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="123">
 <a href="./gratitude/mentors.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img data-src="img/dalle-new-england-woods.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -1756,7 +1109,7 @@ Thu Apr 4, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="12" data-categories="gratitude,nature" data-listing-date-sort="1712186802000" data-listing-file-modified-sort="1726815691077" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="141">
+<div class="g-col-1" data-index="8" data-categories="gratitude,nature" data-listing-date-sort="1712186802000" data-listing-file-modified-sort="1729959480784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="141">
 <a href="./gratitude/wet-suit.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img data-src="img/dalle-wet-suit.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -1779,168 +1132,7 @@ Wed Apr 3, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="13" data-categories="gratitude" data-listing-date-sort="1711927253000" data-listing-file-modified-sort="1726815691061" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="193">
-<a href="./gratitude/easter.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/dalle-he-is-risen.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-I’m Grateful for Easter
-</h5>
-<div class="card-text listing-description">
-I’m grateful for Easter. I’m grateful for the knowledge of a Savior. That He died, and rose from the dead. That He lives.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Sun Mar 31, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="14" data-categories="gratitude,nature" data-listing-date-sort="1711838082000" data-listing-file-modified-sort="1726815691061" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
-<a href="./gratitude/green-oasis.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/photo-nearby-green-hills.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-I’m Grateful for Green Oasis
-</h5>
-<div class="card-text listing-description">
-It’s hard to fathom how pretty these hills are. I see them every morning as I drive from my house. I see them in the distance. But their full beauty isn’t appreciated until…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Sat Mar 30, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="15" data-categories="gratitude" data-listing-date-sort="1711670075000" data-listing-file-modified-sort="1726815691060" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="63">
-<a href="./gratitude/bodyfulness.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/dalle-meditating-bodyfulness.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-I’m Grateful for Bodyfulness
-</h5>
-<div class="card-text listing-description">
-Mindfulness is a state of mind. But being present with one’s body is another matter.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Thu Mar 28, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="16" data-categories="gratitude,parenting,family bonding" data-listing-date-sort="1711581752000" data-listing-file-modified-sort="1726815691061" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
-<a href="./gratitude/fairy-houses.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/photo-fairy-house.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-I’m Grateful for Fairy Houses
-</h5>
-<div class="card-text listing-description">
-This is a fairy house:
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Wed Mar 27, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="17" data-categories="gratitude,tech,big tech" data-listing-date-sort="1711400448000" data-listing-file-modified-sort="1726815691061" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="119">
-<a href="./gratitude/ever-shifting-tides.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-I’m Grateful for Ever Shifting Tides
-</h5>
-<div class="card-text listing-description">
-The tech industry is pretty crazy. I was just watching some keynote talks from Nvidia and if they actually land half of the stuff they’re talking about, they’re going to…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Mon Mar 25, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="18" data-categories="gratitude" data-listing-date-sort="1711234893000" data-listing-file-modified-sort="1726815691060" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="101">
-<a href="./gratitude/better-health.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-I’m Grateful for Better Health
-</h5>
-<div class="card-text listing-description">
-Having the flu stinks. I realized quickly this week how a life revolves around health. My ability to do my job, to be there for my family, and even enjoy sitting on the…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Sat Mar 23, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="19" data-categories="gratitude" data-listing-date-sort="1710804929000" data-listing-file-modified-sort="1726815691060" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="86">
-<a href="./gratitude/cs-lewis.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-I’m Grateful for CS Lewis
-</h5>
-<div class="card-text listing-description">
-Probably and odd thing to be thankful for, but I’m grateful for this guy’s legacy. Having read The Inklings and The Oxford Inklings: Lewis, Tolkien and Their Circle I…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Mon Mar 18, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="20" data-categories="gratitude,sports" data-listing-date-sort="1710631458000" data-listing-file-modified-sort="1726815691077" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="104">
+<div class="g-col-1" data-index="9" data-categories="gratitude,sports" data-listing-date-sort="1710631458000" data-listing-file-modified-sort="1729959480784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="104">
 <a href="./gratitude/the-feeling-of-skimboarding.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top"><img data-src="img/screenshot-skimboarding.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
@@ -1963,30 +1155,7 @@ Sat Mar 16, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="21" data-categories="gratitude,family history,pioneers" data-listing-date-sort="1710451998000" data-listing-file-modified-sort="1726815691061" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="189">
-<a href="./gratitude/freedom-of-religion.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-I’m Grateful for Freedom of Religion
-</h5>
-<div class="card-text listing-description">
-<p>_</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Thu Mar 14, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="22" data-categories="gratitude" data-listing-date-sort="1710371953000" data-listing-file-modified-sort="1726815691076" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="43">
+<div class="g-col-1" data-index="10" data-categories="gratitude" data-listing-date-sort="1710371953000" data-listing-file-modified-sort="1729959480784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="43">
 <a href="./gratitude/kids-jumping-on-me.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -2009,23 +1178,299 @@ Wed Mar 13, 2024
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="23" data-categories="gratitude" data-listing-date-sort="1710200616000" data-listing-file-modified-sort="1726815691060" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="47">
-<a href="./gratitude/a-sleeping-baby.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="11" data-categories="gratitude" data-listing-date-sort="1709941594000" data-listing-file-modified-sort="1729959480784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="83">
+<a href="./gratitude/sun-on-turf.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-I’m Grateful for A sleeping baby
+I’m Grateful for Sun on turf
 </h5>
 <div class="card-text listing-description">
-That I can
+<p>x</p>
 </div>
 <div class="card-attribution card-text-small justify">
 <div class="listing-author">
 
 </div>
 <div class="listing-date">
-Mon Mar 11, 2024
+Fri Mar 8, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="12" data-categories="gratitude" data-listing-date-sort="1709594743000" data-listing-file-modified-sort="1729959480784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="55">
+<a href="./gratitude/new-job.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+I’m Grateful for New Job
+</h5>
+<div class="card-text listing-description">
+It’s a new way to see things
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Mon Mar 4, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="13" data-categories="gratitude" data-listing-date-sort="1709505350000" data-listing-file-modified-sort="1729959480784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="58">
+<a href="./gratitude/long-naps.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img data-src="img/dalle-nap-on-a-sectional.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+I’m Grateful for Long Naps
+</h5>
+<div class="card-text listing-description">
+<p>The best part is the part you never remember.</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Sun Mar 3, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="14" data-categories="gratitude" data-listing-date-sort="1709063115000" data-listing-file-modified-sort="1729959480784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="73">
+<a href="./gratitude/laundry-machine.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img data-src="img/dalle-laundry-machine.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+I’m Grateful for my Laundry Machine
+</h5>
+<div class="card-text listing-description">
+<p>x</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Tue Feb 27, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="15" data-categories="gratitude,nature" data-listing-date-sort="1708902855000" data-listing-file-modified-sort="1729959480784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="56">
+<a href="./gratitude/waterfalls.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img data-src="img/photo-rocks-and-water.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+I’m Grateful for Waterfalls
+</h5>
+<div class="card-text listing-description">
+How it looks, and how it feels to dip your toes in
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Sun Feb 25, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="16" data-categories="gratitude" data-listing-date-sort="1708471806000" data-listing-file-modified-sort="1729959480784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="172">
+<a href="./gratitude/marriage.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img data-src="img/dalle-marriage-on-the-beach.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+I’m Grateful for Marriage
+</h5>
+<div class="card-text listing-description">
+<p>x</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Tue Feb 20, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="17" data-categories="gratitude" data-listing-date-sort="1708293650000" data-listing-file-modified-sort="1729959480784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="88">
+<a href="./gratitude/the-coach.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img data-src="img/dalle-life-coach.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+I’m Grateful for The Coach
+</h5>
+<div class="card-text listing-description">
+<p>x</p>
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Sun Feb 18, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="18" data-categories="gratitude,movies" data-listing-date-sort="1707597571000" data-listing-file-modified-sort="1729959480784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="93">
+<a href="./gratitude/old-movies.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img data-src="img/dalle-heres-looking-at-you-kid.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+I’m Grateful for Old Movies
+</h5>
+<div class="card-text listing-description">
+And how they’re still so relatable and human
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Sat Feb 10, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="19" data-categories="gratitude,sports" data-listing-date-sort="1707479000000" data-listing-file-modified-sort="1729959480784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
+<a href="./gratitude/skimboarding.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img data-src="img/dalle-snowboarding-at-dusk.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+I’m Grateful for Skimboarding
+</h5>
+<div class="card-text listing-description">
+It’s that buttery feeling
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Fri Feb 9, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="20" data-categories="gratitude" data-listing-date-sort="1707435915000" data-listing-file-modified-sort="1729959480784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="230">
+<a href="./gratitude/long-runs.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img data-src="img/dalle-long-runs-wilderness.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+I’m Grateful for Long Runs
+</h5>
+<div class="card-text listing-description">
+Oh the places you’ll go.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Thu Feb 8, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="21" data-categories="gratitude" data-listing-date-sort="1707349138000" data-listing-file-modified-sort="1729959480784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="165">
+<a href="./gratitude/new-york.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img data-src="img/dalle-new-york-skyline.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+I’m Grateful for New York
+</h5>
+<div class="card-text listing-description">
+And it’s way of life
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Wed Feb 7, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="22" data-categories="gratitude,parenting,charity,christianity" data-listing-date-sort="1707213927000" data-listing-file-modified-sort="1729959480784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="172">
+<a href="./gratitude/kindness.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img data-src="img/dalle-image-kindness-watercolors-expressionist.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+I’m Grateful for Kindness
+</h5>
+<div class="card-text listing-description">
+The kindness I’ve been shown every day of my life.
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Tue Feb 6, 2024
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="23" data-categories="gratitude" data-listing-date-sort="1706914583000" data-listing-file-modified-sort="1729959480784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="101">
+<a href="./gratitude/peloton.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top"><img data-src="img/dalle-stationary-bike.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+I’m Grateful for Peloton
+</h5>
+<div class="card-text listing-description">
+And the many great workouts it’s given me
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
+<div class="listing-date">
+Fri Feb 2, 2024
 </div>
 </div>
 </div>
@@ -2044,568 +1489,14 @@ No matching items
 <!-- col 3 -->
 <section id="christianity" class="level2 g-col-12 g-col-md-4 animate__animated animate__fadeIn animate__faster animate__delay-1s">
 <h2 class="anchored" data-anchor-id="christianity">Christianity</h2>
-<p>A Life worth following. Read <a href="./christianity.html">more</a>.</p>
+<p>A Life worth following. Read <a href="christianity.qmd">more</a>.</p>
 <div id="listing-landing-christianity" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-1">
-<div class="g-col-1" data-index="0" data-categories="christianity" data-listing-date-sort="1716276303000" data-listing-file-modified-sort="1726815691053" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
-<a href="./christianity/our-eyes-track-red.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Our Eyes track Red
-</h5>
-<div class="card-text listing-description">
-Our eyes focus more on red wavelengths than any other color. It’s easier to spot.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
 
-</div>
-<div class="listing-date">
-Tue May 21, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="christianity" data-listing-date-sort="1714305488000" data-listing-file-modified-sort="1726815691054" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="79">
-<a href="./christianity/whats-my-foundation-model.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-What’s my Foundation Model?
-</h5>
-<div class="card-text listing-description">
-Thinking on A foundation on Christ, I wondered: what is my “foundation model?”
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Sun Apr 28, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="christianity,trials,foundation" data-listing-date-sort="1714304887000" data-listing-file-modified-sort="1726815691052" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="349">
-<a href="./christianity/a-foundation-on-christ.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-A foundation on Christ
-</h5>
-<div class="card-text listing-description">
-Today in Sunday school we studied Helaman 5:12:
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Sun Apr 28, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="christianity" data-listing-date-sort="1712276122000" data-listing-file-modified-sort="1726815691053" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="203">
-<a href="./christianity/jacob-1-viewing-christ.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Jacob 1 - Viewing Christ
-</h5>
-<div class="card-text listing-description">
-Wherefore, we would to God that we could persuade all men not to rebel against God, to <strong>provoke him</strong> to anger, but that all men would believe in Christ, and <strong>view his death,</strong> and…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Fri Apr 5, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="christianity,charity" data-listing-date-sort="1712186300000" data-listing-file-modified-sort="1726815691052" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
-<a href="./christianity/Jacob-2-give-freely.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Jacob 2 - Give Freely
-</h5>
-<div class="card-text listing-description">
-Think of your brethren like unto yourselves, and be familiar with all and free with your substance, that they may be rich like unto you. Jacob 2.17
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Wed Apr 3, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="christianity" data-listing-date-sort="1711871052000" data-listing-file-modified-sort="1726815691053" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="173">
-<a href="./christianity/easter-the-most-important-holiday.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Easter, the most important holiday
-</h5>
-<div class="card-text listing-description">
-Today is #Easter, the most important holiday of the year for Christians, and perhaps the most radical and profound holiday for the world. It shows the most #inclusive
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Sun Mar 31, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="christianity" data-listing-date-sort="1711581966000" data-listing-file-modified-sort="1726815691053" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="159">
-<a href="./christianity/easter-seek-miracles.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Easter Study: Seek Miracles
-</h5>
-<div class="card-text listing-description">
-In the same way, the Lord will bless you with miracles if you believe in Him, “doubting nothing.” Do the spiritual work to seek miracles. Prayerfully ask God to help you…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Wed Mar 27, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="christianity" data-listing-date-sort="1711237699000" data-listing-file-modified-sort="1726815691052" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="57">
-<a href="./christianity/2-nephi-31-.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2 Nephi 31 -
-</h5>
-<div class="card-text listing-description">
-Wherefore, ye must press forward with a steadfastness in Christ, having a perfect brightness of hope, and a love of God and of all men. Wherefore, if ye shall press forward…
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Sat Mar 23, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="favorite scriptures" data-listing-date-sort="1710720000000" data-listing-file-modified-sort="1726815691052" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="45">
-<a href="./christianity/2-nephi-31-plain.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2 Nephi 31.3
-</h5>
-<div class="card-text listing-description">
-Selected quotes.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Mon Mar 18, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="9" data-categories="christianity,come follow me lesson plan" data-listing-date-sort="1710624532000" data-listing-file-modified-sort="1726815691052" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="300">
-<a href="./christianity/2-nephi-26-30-apostasy.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2024-03-17 Come Follow Me CTR 7 - 2 Nephi 26-30 - Apostasy
-</h5>
-<div class="card-text listing-description">
-I want these young men to come away with an appreciation for the restoration of the gospel and how the Book of Mormon plays a role in their lives.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Sat Mar 16, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="10" data-categories="christianity,come follow me" data-listing-date-sort="1710452327000" data-listing-file-modified-sort="1726815691052" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="459">
-<a href="./christianity/2-nephi-27-the-purpose-of-the-book-of-mormon.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2 Nephi 27 The Purpose of the Book of Mormon
-</h5>
-<div class="card-text listing-description">
-_
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Thu Mar 14, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="11" data-categories="christianity,come follow me" data-listing-date-sort="1710371777000" data-listing-file-modified-sort="1726815691052" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="150">
-<a href="./christianity/2-nephi-26-pride.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2 Nephi 26 - pride
-</h5>
-<div class="card-text listing-description">
-Those with pride in their hearts seek power over others
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Wed Mar 13, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="12" data-categories="christianity" data-listing-date-sort="1710201075000" data-listing-file-modified-sort="1726815691052" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="98">
-<a href="./christianity/2-nephi-26.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2 Nephi 26
-</h5>
-<div class="card-text listing-description">
-<p>_</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Mon Mar 11, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="13" data-categories="favorite scriptures" data-listing-date-sort="1710028800000" data-listing-file-modified-sort="1726815691052" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="38">
-<a href="./christianity/2-nephi-21-the-wolf-and-the-lamb.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2 Nephi 21.6
-</h5>
-<div class="card-text listing-description">
-Selected quotes.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Sun Mar 10, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="14" data-categories="christianity,come follow me,come follow me lesson plan" data-listing-date-sort="1710028683000" data-listing-file-modified-sort="1726815691051" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="194">
-<a href="./christianity/2-nephi-20-25-lesson-plan.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2 Nephi 20-25 Lesson Plan
-</h5>
-<div class="card-text listing-description">
-<p>x</p>
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Sat Mar 9, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="15" data-categories="christianity,come follow me,commandments" data-listing-date-sort="1709941727000" data-listing-file-modified-sort="1726815691052" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="226">
-<a href="./christianity/2-nephi-25-talk-of-christ.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2 Nephi 25 - We Talk of Christ
-</h5>
-<div class="card-text listing-description">
-The law is dead. The focus is on Chrisf
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Fri Mar 8, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="16" data-categories="favorite scriptures" data-listing-date-sort="1709769600000" data-listing-file-modified-sort="1726815691052" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
-<a href="./christianity/2-nephi-22.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2 Nephi 22.2
-</h5>
-<div class="card-text listing-description">
-Selected quotes.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Thu Mar 7, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="17" data-categories="favorite scriptures" data-listing-date-sort="1709510400000" data-listing-file-modified-sort="1726815691051" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
-<a href="./christianity/2-nephi-20-true-mercy.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2 Nephi 20.3–4
-</h5>
-<div class="card-text listing-description">
-Selected quotes.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Mon Mar 4, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="18" data-categories="christianity,my testimony,epistemology" data-listing-date-sort="1709471934000" data-listing-file-modified-sort="1726815691052" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1750">
-<a href="./christianity/2024-03-03-my-testimony.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/dalle-the-myth-of-christ.jpeg" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-My Testimony 2023-03-03
-</h5>
-<div class="card-text listing-description">
-I’m grateful for the story and reality of Christ
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Sun Mar 3, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="19" data-categories="favorite scriptures" data-listing-date-sort="1709424000000" data-listing-file-modified-sort="1726815691051" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="40">
-<a href="./christianity/2-nephi-18.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2 Nephi 18.19
-</h5>
-<div class="card-text listing-description">
-Selected quotes.
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Sun Mar 3, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="20" data-categories="christianity,come follow me" data-listing-date-sort="1709252160000" data-listing-file-modified-sort="1726815691051" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
-<a href="./christianity/2-nephi-14-personalized-guidance.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2 Nephi 14 - Personalized Guidance
-</h5>
-<div class="card-text listing-description">
-Personalized guidanve
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Fri Mar 1, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="21" data-categories="christianity,come follow me" data-listing-date-sort="1709168220000" data-listing-file-modified-sort="1726815691051" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="310">
-<a href="./christianity/2-nephi-13-enduring-beauty.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2 Nephi 13 - Enduring Beauty
-</h5>
-<div class="card-text listing-description">
-True beauty
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Thu Feb 29, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="22" data-categories="christianity,come follow me,revelation" data-listing-date-sort="1709070698000" data-listing-file-modified-sort="1726815691051" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="416">
-<a href="./christianity/2-nephi-11-seeing-my-redeemer.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img data-src="img/dalle-jesus-at-the-temple-newborn.jpeg" alt="Seeing the Savior" style="height: 150px;"  class="thumbnail-image card-img"/></p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2 Nephi 11 - Seeing My Redeemer
-</h5>
-<div class="card-text listing-description">
-Seeing the Savior isn’t as mysterious as it sounds. Many who seek Him can experience this blessing
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Tue Feb 27, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="23" data-categories="christianity,come follow me,covenant" data-listing-date-sort="1708903002000" data-listing-file-modified-sort="1726815691052" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="108">
-<a href="./christianity/2-nephi-9-familial-covenants.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2 Nephi 9 - Familial Covenants
-</h5>
-<div class="card-text listing-description">
-He’s a God of personal promises
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-
-</div>
-<div class="listing-date">
-Sun Feb 25, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-<nav id="landing-christianity-pagination" class="listing-pagination" aria-label="Page Navigation">
-  <ul class="pagination"></ul>
-</nav>
 </div>
 </section>
 </div>
