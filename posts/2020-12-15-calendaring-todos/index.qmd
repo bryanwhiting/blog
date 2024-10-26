@@ -1,0 +1,18 @@
+---
+title: Get rid of the todo list. Calendar everything.
+description: |
+  If you're not willing to block time for it, does it
+  event matter?
+date: 2020-12-15
+categories: [productivity]
+image: image.png
+---
+
+![](image.png)
+
+I’ve had less meetings and more unstructured time during WFH. It can be isolating, which can slow down productivity.
+
+[Here’s a tip I read](https://link.medium.com/6xW8fKHSfcb) today on how to be productive with unstructured time: put your to-do list directly into a calendar.
+
+That way, you’ll always have time for the important things. Remove the things that take up your time and aren’t as important. I like it.
+

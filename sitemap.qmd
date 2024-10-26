@@ -1,0 +1,11 @@
+---
+title: "Sitemap (All Posts)"
+listing:
+  contents: 
+    - "*/*.md"
+    # - "*/*.qmd" # this breaks it
+  template: quarto_templates/gallery.ejs
+  sort:
+    - "date desc"
+  date-format: "YYYY-MM-DD"
+---
