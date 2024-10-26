@@ -1,9 +1,0 @@
----
-title: "Lists of Things"
-comments: false
-listing:
-  contents: lists
-  type: grid
----
-
-Ongoing bookmarks and lists of things I want to remember.
